@@ -1,6 +1,7 @@
 ---
 permalink: /sigslt/
 title: "SIGSLT"
+classes: wide
 ---
 
 ## ACL-ISCA Special Interest Group on Spoken Language Translation

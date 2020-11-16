@@ -1,10 +1,10 @@
 main:
   - title: "Conference"
-    url: /conference/
+    url: /2021/
   - title: "Shared Tasks"
-    url: /shared-tasks/
+    url: /2021/#shared-tasks
   - title: "Important Dates"
-    url: /dates/
+    url: /2021/#important-dates
   - title: "Past Editions"
     url: /past-editions/
   - title: "SIGSLT"
