@@ -1,0 +1,28 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// ----------------
+// customizations
+// ---------------
+
+// horizontal spacing
+@media (min-width: 80em) { .masthead__inner-wrap {max-width: 1370px;} }
+@media (min-width: 80em) { #main { max-width: 1380px; } }
+@media (min-width: 64em) { .page {float: right;width: calc(100% - 220px);padding-right: 220px;} }
+@media (min-width: 80em) { .page {width: calc(100% - 320px);padding-right: 320px;} }
+
+@media (min-width: 64em) { .wide .page { padding-right: 100px; } }
+@media (min-width: 80em) { .wide .page { padding-right: 100px; } }
+@media (min-width: 64em) { .wide .page__related { padding-right: 100px; } }
+@media (min-width: 80em) { .wide .page__related { padding-right: 100px; } }
+
+@media (min-width: 64em) { .wide .archive { padding-right: 100px; } }
+@media (min-width: 80em) { .wide .archive { padding-right: 100px; } }
+
+.sidebar { clear: both; padding-right: 0px; }
