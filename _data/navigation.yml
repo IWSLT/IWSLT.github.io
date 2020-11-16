@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Conference"
+    url: /conference/
+  - title: "Shared Tasks"
+    url: /shared-tasks/
+  - title: "Important Dates"
+    url: /dates/
+  - title: "Past Editions"
+    url: /past-editions/
+  - title: "SIGSLT"
+    url: /sigslt/
