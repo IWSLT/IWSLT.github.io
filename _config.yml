@@ -71,24 +71,28 @@ footer:
 
 
 defaults:
-  # _posts
+# _posts
   - scope:
       path: ""
       type: posts
     values:
+      sidebar:
+        nav: "twitter"
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
-  # _pages
+# _pages
   - scope:
       path: "_pages"
       type: pages
     values:
+      sidebar:
+        nav: "twitter"
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
