@@ -20,5 +20,5 @@ classes: wide
   * [IWSLT 2008](http://www2.nict.go.jp/astrec-att/workshop/IWSLT2008){:target="_blank"}, 20-21 Oct. 2008 - Honolulu, USA
   * [IWSLT 2007](http://iwslt07.fbk.eu){:target="_blank"}, 15-16 Oct. 2007 - Trento, Italy
   * [IWSLT 2006](http://www2.nict.go.jp/astrec-att/workshop/IWSLT2006){:target="_blank"}, 27-28 Nov. 2006 - Kyoto, Japan
-  * IWSLT 2005, 24-25 Oct. 2005 - Pittsburgh, USA
-  * [IWSLT 2004](http://www2.nict.go.jp/astrec-att/workshop/IWSLT2004){:target="_blank"}, 30 Sep. - 1 Oct. 2004 - Kyoto, Japan
+  * [IWSLT 2005](https://www.isca-speech.org/archive/iwslt_05){:target="_blank"}, 24-25 Oct. 2005 - Pittsburgh, USA
+  * [IWSLT 2004](http://www2.nict.go.jp/astrec-att/workshop/IWSLT2004){:target="_blank"}, 30 Sep.-01 Oct. 2004 - Kyoto, Japan
