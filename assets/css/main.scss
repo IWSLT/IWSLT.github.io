@@ -4,14 +4,25 @@
 
 @charset "utf-8";
 
+/* variables definitions go above import statements, css etc goes below */
+
+$background-color: #fff !default;
+$link-color: #2f7d95 !default;
+$text-color: #3d4144 !default;
+
+$masthead-link-color: #517A88 !default;
+$masthead-link-color-hover: $link-color !default;
+$navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// ----------------
-// customizations
-// ---------------
 
-// horizontal spacing
+// ------------------
+// css customizations
+// -----------------
+
+/* horizontal spacing */
 @media (min-width: 80em) { .masthead__inner-wrap {max-width: 1370px;} }
 @media (min-width: 80em) { #main { max-width: 1380px; } }
 @media (min-width: 64em) { .page {float: right;width: calc(100% - 220px);padding-right: 220px;} }
@@ -27,7 +38,7 @@
 
 .sidebar { clear: both; padding-right: 0px; }
 
-//vertical spacing
+/* vertical spacing */
 h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 0.5em; line-height: 1.2;font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;font-weight: bold;
 }
@@ -37,3 +48,31 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     line-height: 1;
 }
+
+/* colors, etc */
+a {
+    font-weight: bold;
+    color: $link-color;
+}
+
+.greedy-nav a.site-title {
+    font-weight: bold;
+    color: $text-color;
+}
+
+.greedy-nav a {
+    font-weight: normal;
+}
+
+.greedy-nav a:before {
+    background: $link-color !important;
+}
+
+.search__toggle {
+    color: $masthead-link-color;
+}
+
+.toc .nav__title {
+    background: $masthead-link-color;
+}
+
