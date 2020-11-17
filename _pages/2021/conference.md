@@ -36,9 +36,9 @@ Watch this space for more information on the conference program, shared tasks an
 ### Timeline (*subject to change*)
 * Feb  1, 2021, release of shared task training and dev data
 * Apr  5-16, 2021, evaluation period 
-* Apr 30, 2021, paper submission deadline
-* May 31, 2021, paper notification
-* Jun 11, 2021, camera ready deadline
+* May 6, 2021, paper submission deadline
+* June 7, 2021, paper notification
+* Jun 14, 2021, camera ready deadline
 * Aug 5-6, 2021, conference
 
 
