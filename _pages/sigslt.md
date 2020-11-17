@@ -4,7 +4,7 @@ title: "SIGSLT"
 classes: wide
 ---
 
-## ACL-ISCA Special Interest Group on Spoken Language Translation
+## ACL-ISCA-ELRA Special Interest Group on Spoken Language Translation
 
 ### Statement of Purpose
 
