@@ -45,7 +45,7 @@ $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 
 /* vertical spacing */
 h1, h2, h3, h4, h5, h6 {
-    margin: 1em 0 0.5em; line-height: 1.2;font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;font-weight: bold;
+    margin: 1.5em 0 0.5em; line-height: 1.2;font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;font-weight: bold;
 }
  
 .page__title {
@@ -53,6 +53,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     line-height: 1;
 }
+
+.notice--warning {
+    margin: 1em 0 !important;
+}
+
 
 /* colors, etc */
 a {
