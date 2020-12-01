@@ -57,10 +57,10 @@ plugins:
 
 # Analytics
 analytics:
-  provider               : "google-universal"
+  provider: "google-universal"
   google:
-    tracking_id          : "G-E2WF0KWKEH" 
-    anonymize_ip         : true
+    tracking_id: "UA-183098774-1"
+    anonymize_ip: true
 
 
 footer:

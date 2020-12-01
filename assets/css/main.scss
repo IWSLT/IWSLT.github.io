@@ -78,6 +78,10 @@ a {
     background: $link-color !important;
 }
 
+.greedy-nav a:hover {
+    text-shadow: 0.2px 0.2px;
+}
+
 .search__toggle {
     color: $masthead-link-color;
 }
