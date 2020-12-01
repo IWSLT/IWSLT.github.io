@@ -39,6 +39,8 @@ $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 @media (min-width: 64em) { .sidebar { width: calc(200px - 1em); } }
 @media (min-width: 80em) { .sidebar { width: calc(250px - 1em); } }
 
+@media (max-width: 64em) { .sidebar { display: none; } }
+
 .sidebar { clear: both; padding-right: 0px; }
 
 /* vertical spacing */
