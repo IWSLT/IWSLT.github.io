@@ -14,9 +14,9 @@ $masthead-link-color: #517A88 !default;
 $masthead-link-color-hover: $link-color !default;
 $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
 
 // ------------------
 // css customizations
@@ -26,7 +26,7 @@ $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 @media (min-width: 80em) { .masthead__inner-wrap {max-width: 1370px;} }
 @media (min-width: 80em) { #main { max-width: 1380px; } }
 @media (min-width: 64em) { .page {float: right;width: calc(100% - 220px);padding-right: 220px;} }
-@media (min-width: 80em) { .page {width: calc(100% - 320px);padding-right: 320px;} }
+@media (min-width: 80em) { .page {width: calc(100% - 275px);padding-right: 320px;} }
 
 @media (min-width: 64em) { .wide .page { padding-right: 100px; } }
 @media (min-width: 80em) { .wide .page { padding-right: 100px; } }
@@ -35,6 +35,9 @@ $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 
 @media (min-width: 64em) { .wide .archive { padding-right: 100px; } }
 @media (min-width: 80em) { .wide .archive { padding-right: 100px; } }
+
+@media (min-width: 64em) { .sidebar { width: calc(200px - 1em); } }
+@media (min-width: 80em) { .sidebar { width: calc(250px - 1em); } }
 
 .sidebar { clear: both; padding-right: 0px; }
 
@@ -76,3 +79,19 @@ a {
     background: $masthead-link-color;
 }
 
+/* font sizes */
+html {
+  font-size: 16px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 18px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 20px; // change to whatever
+  }
+}
