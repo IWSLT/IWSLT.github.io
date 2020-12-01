@@ -16,19 +16,33 @@ Watch this space for more information on the conference program, shared tasks an
 
 ## Program
 
+Information about keynote speakers and the conference program will be made available nearer to IWSLT 2021.
 
 
 ## Shared Tasks
 
-*The first call for participation will be released in early Dec. 2020.*
-
+The first call for participation will be released in early Dec. 2020. 
+{: .notice--warning}
 
 ### Registration
 
+The shared task registration form will be linked here after the first call for participation. 
+{: .notice--warning}
 
 
-## Submission
+## Paper Submission
 
+Submissions should be scientific papers or shared task system description papers. 
+All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL 2021 stylesheets](https://2021.aclweb.org/calls/papers/#paper-submission-and-templates){:target="_blank"} (*to come soon*). 
+Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
+All papers should be submitted via [softconf](){:target="_blank"} (*submission link to come soon*).
+Accepted papers will be published in the ACL 2021 proceedings and will be presented at the IWSLT conference either orally or as a poster.
+
+**Note:**
+- Scientific papers must be anonymized for submission, while system description papers do not need to be.
+- We accept submissions which have previously been made available as technical reports or preprints, e.g. on arXiv.
+- We will not accept scientific papers for publication that overlap significantly in content or results with papers published elsewhere.
+- Scientific papers which have been, or plan to be, submitted to other venues must be declared as such at the time of submission, and must be withdrawn from the other venues if accepted and published at IWSLT 2021.
 
 
 ## Important Dates
@@ -48,3 +62,4 @@ Watch this space for more information on the conference program, shared tasks an
 
 ## Organizers
 
+*Coming soon.*
