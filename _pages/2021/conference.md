@@ -6,9 +6,9 @@ toc_label: "2021 Important Links"
 toc_icon: "cog"
 ---
 
-## 5-6 Aug. 2021 – ACL 2021
+## 5-6 Aug. 2021 – ACL-IJCNLP 2021
 
-IWSLT 2021 will be collocated with [ACL 2021](https://2021.aclweb.org/){:target="_blank"} in Bangkok, Thailand
+IWSLT 2021 will be collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:target="_blank"} in Bangkok, Thailand
 
 The first call for papers will be released in early Dec. 2020.  
 Watch this space for more information on the conference program, shared tasks and important dates after that time!
@@ -33,10 +33,10 @@ The shared task registration form will be linked here after the first call for p
 ## Paper Submission
 
 Submissions should be scientific papers or shared task system description papers. 
-All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL 2021 stylesheets](https://2021.aclweb.org/calls/papers/#paper-submission-and-templates){:target="_blank"} (*to come soon*). 
+All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL-IJCNLP 2021 stylesheets](https://2021.aclweb.org/calls/papers/#paper-submission-and-templates){:target="_blank"} (*to come soon*). 
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 All papers should be submitted via [softconf](){:target="_blank"} (*submission link to come soon*).
-Accepted papers will be published in the ACL 2021 proceedings and will be presented at the IWSLT conference either orally or as a poster.
+Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be presented at the IWSLT conference either orally or as a poster.
 
 **Note:**
 - Scientific papers must be anonymized for submission, while system description papers do not need to be.
