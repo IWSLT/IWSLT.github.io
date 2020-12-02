@@ -65,9 +65,15 @@ analytics:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/iwslt"
+    - label: "ACL"
+      icon: "https://www.aclweb.org/portal/sites/default/themes/acl_common/images/logo.png"
+      url: "https://www.aclweb.org"
+    - label: "ISCA"
+      icon: "https://www.isca-speech.org/iscaweb/images/files/isca/ISCA_logo_diamond.gif"
+      url: "https://www.isca-speech.org"
+    - label: "ELRA"
+      icon: "https://www.clarin.eu/sites/default/files/ELRA-logo_0.png"
+      url: "http://www.elra.info/en/"
 
 
 defaults:
