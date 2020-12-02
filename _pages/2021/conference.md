@@ -24,6 +24,16 @@ Information about keynote speakers and the conference program will be made avail
 The first call for participation will be released in early Dec. 2020. 
 {: .notice--warning}
 
+The **IWSLT 2021 Evaluation Campaign** will host four challenge tasks featuring the following focus areas:
+
+- [Multilingual Speech Translation](/2021/multilingual) (Chair: Liz, ...)
+- [Offline Speech Translation](/2021/offline)  (Chair: Marco, ...)
+- [Simultaneous Speech Translation](/2021/simultaneous) (Chairs: Juan, Katsuhito, ...)
+- [Low-Resource Speech Translation](/2021/low-resource) (Chair: Antonis, ...)
+
+All tasks will follow the same [important dates](#important-dates). 
+
+
 ### Registration
 
 The shared task registration form will be linked here after the first call for participation. 
