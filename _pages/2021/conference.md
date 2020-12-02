@@ -29,6 +29,8 @@ The first call for participation will be released in early Dec. 2020.
 The shared task registration form will be linked here after the first call for participation. 
 {: .notice--warning}
 
+Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
+
 
 ## Paper Submission
 
