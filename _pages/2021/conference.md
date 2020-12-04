@@ -26,10 +26,10 @@ The first call for participation will be released in early Dec. 2020.
 
 The **IWSLT 2021 Evaluation Campaign** will host four challenge tasks featuring the following focus areas:
 
-- [Multilingual Speech Translation](/2021/multilingual) (Chair: Liz, ...)
-- [Offline Speech Translation](/2021/offline)  (Chair: Marco, ...)
-- [Simultaneous Speech Translation](/2021/simultaneous) (Chairs: Juan, Katsuhito, ...)
-- [Low-Resource Speech Translation](/2021/low-resource) (Chair: Antonis, ...)
+- [Multilingual Speech Translation](/2021/multilingual) (Chair: Elizabeth Salesky, JHU)
+- [Offline Speech Translation](/2021/offline)  (Chair: Marco Turchi, FBK)
+- [Simultaneous Speech Translation](/2021/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
+- [Low-Resource Speech Translation](/2021/low-resource) (Chair: Antonis Anastasopoulos, George Mason)
 
 All tasks will follow the same [important dates](#important-dates). 
 
