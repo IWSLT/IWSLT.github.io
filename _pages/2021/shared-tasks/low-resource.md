@@ -38,13 +38,13 @@ In addition, if the participants' systems also produce transcriptions for the so
 
 ## Organizers
 
-Antonios Anastasopoulos (George Mason University, USA)
-Grace Tang (Translators without Borders)
-Will Lewis (University of Washington, USA)
-Sylwia Tur (Appen, USA)
-Rosie Lazar (Appen, USA)
-Marcello Federico (Amazon, USA)
-Alex Waibel (CMU, USA)
+- Antonios Anastasopoulos (George Mason University, USA)
+- Grace Tang (Translators without Borders)
+- Will Lewis (University of Washington, USA)
+- Sylwia Tur (Appen, USA)
+- Rosie Lazar (Appen, USA)
+- Marcello Federico (Amazon, USA)
+- Alex Waibel (CMU, USA)
 
 <!-- list of names and affiliations -->
 
