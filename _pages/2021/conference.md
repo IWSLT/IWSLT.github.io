@@ -29,7 +29,7 @@ The **IWSLT 2021 Evaluation Campaign** will host four challenge tasks featuring 
 - [Multilingual Speech Translation](/2021/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Offline Speech Translation](/2021/offline)  (Chair: Marco Turchi, FBK)
 - [Simultaneous Speech Translation](/2021/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
-- [Low-Resource Speech Translation](/2021/low-resource) (Chair: Antonis Anastasopoulos, George Mason)
+- [Low-Resource Speech Translation](/2021/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
 
 All tasks will follow the same [important dates](#important-dates). 
 
