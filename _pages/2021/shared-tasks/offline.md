@@ -15,7 +15,7 @@ The goal of the **Offline Speech Translation Task** is to examine automatic meth
 
 In continuity with last year, the task addresses the translation of TED talks from English into German. **Two test sets will be released containing the same talks, respectively with and without audio segmentation.**
 
-The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [[https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz | mwerSegmenter]]. The detailed evaluation script can be found in the [[ https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh | SLT.KIT]]
+The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh).
 
 
 
