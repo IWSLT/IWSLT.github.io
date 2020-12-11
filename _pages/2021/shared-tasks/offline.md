@@ -115,17 +115,16 @@ The email should include the following information:
 
 
 ## Contacts 
+
 Chair: Marco Turchi (FBK, Italy)
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
 
 ## Organizers 
+
 Sebastian Stüker (KIT, Germany)
-
 Jan Niehues (Maastricht University, Netherland)
-
 Matteo Negri (FBK, Italy)
-
 Roldano Cattoni (FBK, Italy)
 
 
