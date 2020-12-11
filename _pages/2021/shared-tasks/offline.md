@@ -68,6 +68,7 @@ Development data:
 
 These datasets can be used to train your model:
   * [MuST-C corpus v1](https://ict.fbk.eu/must-c/)
+  * [CoVoSt](https://github.com/facebookresearch/covost)
   * [TED corpus](https://wit3.fbk.eu/mt.php?release=2017-01-trnted)
   * [Speech-Translation TED corpus](http://i13pc106.ira.uka.de/~mmueller/iwslt-corpus.zip) (for this corpus, we provided 40-dimension Filterbank features from the audio, extracted by XNMT)
   * [How2 Corpus](https://github.com/srvk/how2-dataset) (only English - Portuguese) 
