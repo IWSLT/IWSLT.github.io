@@ -67,9 +67,9 @@ Development data:
 ## Allowed Training Data
 
 These datasets can be used to train your model:
-  * [MuST-C corpus v1] (https://ict.fbk.eu/must-c/)
-  * [TED corpus] (https://wit3.fbk.eu/mt.php?release=2017-01-trnted)
-  * [Speech-Translation TED corpus] (http://i13pc106.ira.uka.de/~mmueller/iwslt-corpus.zip) (for this corpus, we provided 40-dimension Filterbank features from the audio, extracted by XNMT)
+  * [MuST-C corpus v1](https://ict.fbk.eu/must-c/)
+  * [TED corpus](https://wit3.fbk.eu/mt.php?release=2017-01-trnted)
+  * [Speech-Translation TED corpus](http://i13pc106.ira.uka.de/~mmueller/iwslt-corpus.zip) (for this corpus, we provided 40-dimension Filterbank features from the audio, extracted by XNMT)
   * [How2 Corpus](https://github.com/srvk/how2-dataset) (only English - Portuguese) 
   * [LibriVoxDeEn](https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/TMEDTX) (only German - English)
   * [Europarl-ST](https://www.mllp.upv.es/europarl-st/)
@@ -115,14 +115,17 @@ The email should include the following information:
 
 
 ## Contacts 
-Chair: Marco Turchi (FBK, Italy)\\
+Chair: Marco Turchi (FBK, Italy)
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
 
 ## Organizers 
-Sebastian Stüker (KIT, Germany)\\
-Jan Niehues (Maastricht University, Netherland) \\
-Matteo Negri (FBK, Italy)\\
+Sebastian Stüker (KIT, Germany)
+
+Jan Niehues (Maastricht University, Netherland)
+
+Matteo Negri (FBK, Italy)
+
 Roldano Cattoni (FBK, Italy)
 
 
