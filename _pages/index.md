@@ -4,7 +4,7 @@ title: "Welcome to IWSLT!"
 classes: wide
 ---
 
-The International Workshop on Spoken Language Translation (IWSLT) is an annual scientific conference, associated with an open evaluation campaign on spoken language translation, where both scientific papers and system descriptions are presented.
+The International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference, associated with an open evaluation campaign on spoken language translation, where both scientific papers and system descriptions are presented.
 
 IWSLT is the venue of [**SIGSLT**](/sigslt), the ACL-ISCA-ELRA *Special Interest Group on Spoken Language Translation.* 
 
