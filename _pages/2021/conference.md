@@ -12,7 +12,7 @@ Welcome to IWSLT!
 
 The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference, dedicated to all aspects related
 to spoken language translation.  For 18 years in the running, the conference publishes and organizes key evaluation campaigns in the field, including
-requisite data suites, benchmarks, metrics and key tasks that define progress in the field.  This year's challenges address simultaneous interpretation,
+requisite data suites, benchmarks, metrics and key tasks that define progress in the field.  This year's challenges address simultaneous translation,
 consecutive translation and subtitling tasks, for real-time, low latency as well off-line archival purposes and under low-resource, multilingual, and
 multimodal constraints.  Scientific papers and system descriptions documenting the state-of-the art achieved by participating teams and contributing
 key algorithmic advances are presented at the conference.
