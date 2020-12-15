@@ -32,7 +32,7 @@ Information about keynote speakers and the conference program will be made avail
 
 ## Shared Tasks
 
-The first call for participation will be released in early Dec. 2020. 
+The first call for participation will be released in mid Dec. 2020. 
 {: .notice--warning}
 
 The **IWSLT 2021 Evaluation Campaign** will host four shared tasks featuring the following focus areas:
