@@ -89,6 +89,11 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 
 - Marcello Federico, Amazon, USA (Chair)
 - Alex Waibel, CMU, USA (Chair)
-- ...
+- Satoshi Nakamura, NAIST, Japan
+- Hermann Ney, RWTH, Germany
+- Jan Niehues, Maastricht University, Netherlands
+- Elizabeth Salesky, JHU
+- Sebastian Stüker, KIT, Germany
+
 
 
