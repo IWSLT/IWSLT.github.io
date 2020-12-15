@@ -8,9 +8,19 @@ toc_icon: "cog"
 
 ## 5-6 Aug. 2021 – ACL-IJCNLP 2021
 
+Welcome to IWSLT!
+The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference, dedicated to all aspects related
+to spoken language translation.  For 18 years in the running, the conference publishes and organizes key evaluation campaigns in the field, including
+requisite data suites, benchmarks, metrics and key tasks that define progress in the field.  This year's challenges address simultaneous interpretation,
+consecutive translation and subtitling tasks, for real-time, low latency as well off-line archival purposes and under low-resource, multilingual, and
+multimodal constraints.  Scientific papers and system descriptions documenting the state-of-the art achieved by participating teams and contributing
+key algorithmic advances are presented at the conference.
+
+IWSLT is the annual meeting for the SIGSLT's (Special Interest Groups on Spoken Language Translation) of ACL, ISCA and ELRA.
+
 IWSLT 2021 will be collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:target="_blank"} in Bangkok, Thailand
 
-The first call for papers will be released in early Dec. 2020.  
+The first call for papers will be released in mid December 2020.  
 Watch this space for more information on the conference program, shared tasks and important dates after that time!
 
 
@@ -24,12 +34,14 @@ Information about keynote speakers and the conference program will be made avail
 The first call for participation will be released in early Dec. 2020. 
 {: .notice--warning}
 
-The **IWSLT 2021 Evaluation Campaign** will host four challenge tasks featuring the following focus areas:
+The **IWSLT 2021 Evaluation Campaign** will host four shared tasks featuring the following focus areas:
 
-- [Multilingual Speech Translation](/2021/multilingual) (Chair: Elizabeth Salesky, JHU)
-- [Offline Speech Translation](/2021/offline)  (Chair: Marco Turchi, FBK)
 - [Simultaneous Speech Translation](/2021/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
+- [Offline Speech Translation](/2021/offline)  (Chair: Marco Turchi, FBK)
+- [Multilingual Speech Translation](/2021/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Low-Resource Speech Translation](/2021/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
+
+Data, metrics, and evaluation will be provided by the conference organizers..
 
 All tasks will follow the same [important dates](#important-dates). 
 
