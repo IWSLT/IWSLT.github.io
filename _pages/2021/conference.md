@@ -88,7 +88,7 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 ## Organizers
 
 - Marcello Federico, Amazon, USA (Chair)
-- Alex Waibel Chair, CMU, USA (Chair)
+- Alex Waibel, CMU, USA (Chair)
 - ...
 
 
