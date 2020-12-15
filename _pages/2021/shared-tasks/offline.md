@@ -8,7 +8,7 @@ title: "Offline Speech Translation"
 
 <!-- the task, the languages, and the type of data -->
 
-Recent advances in deep learning are giving the possibility to address traditional NLP tasks in a new and completely different manner. One of these tasks is spoken language translation (SLT). For years, SLT has been addressed by cascading an automatic speech recognition (ASR) and a machine translation (MT) system. Recent trends rely on using a single neural network to directly translate the input audio signal in one language into a text in a different language without intermediate symbolic representations, e.g., transcriptions. \\
+Recent advances in deep learning are giving the possibility to address traditional NLP tasks in a new and completely different manner. One of these tasks is spoken language translation (SLT). For years, SLT has been addressed by cascading an automatic speech recognition (ASR) and a machine translation (MT) system. Recent trends rely on using a single neural network to directly translate the input audio signal in one language into a text in a different language without intermediate symbolic representations, e.g., transcriptions.  
 
 The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. Last year's results of IWSLT 2020 have shown that the performance of end-to-end models is approaching and even overtaking the results of cascade solutions. Hence, the question we want to answer this year is: **is the cascaded solution still the dominant technology in spoken language translation?**
 
@@ -28,7 +28,7 @@ In this task, we use the following definition of end-to-end model:
 
 ## Test Data
 
-This year one versions of the same TED talks is released. It contains the audio files and the information to convert them into sentence-like segmentation using automatic tools. Systems using the given or another segmentation will be evaluated in a single rankign without distinction between given or own segmentation.
+This year one versions of the same TED talks is released. It contains the audio files and the information to convert them into sentence-like segmentation using automatic tools. Systems using the given or another segmentation will be evaluated in a single ranking without distinction between given or own segmentation.
 
 To measure the progress in the ST field, each participant is required to translate also the 2019 test set that is still blind. Similar to this year test set, the 2020 test set will be made available with and without automatic segmentation.
 
@@ -68,13 +68,13 @@ Development data:
 
 These datasets can be used to train your model:
   * [MuST-C corpus v1](https://ict.fbk.eu/must-c/)
-  * [CoVoSt](https://github.com/facebookresearch/covost)
+  * [CoVoST](https://github.com/facebookresearch/covost)
   * [TED corpus](https://wit3.fbk.eu/mt.php?release=2017-01-trnted)
   * [Speech-Translation TED corpus](http://i13pc106.ira.uka.de/~mmueller/iwslt-corpus.zip) (for this corpus, we provided 40-dimension Filterbank features from the audio, extracted by XNMT)
   * [How2 Corpus](https://github.com/srvk/how2-dataset) (only English - Portuguese) 
   * [LibriVoxDeEn](https://heidata.uni-heidelberg.de/dataset.xhtml?persistentId=doi:10.11588/data/TMEDTX) (only German - English)
   * [Europarl-ST](https://www.mllp.upv.es/europarl-st/)
-  * TED LIUM corpus [v2](https://lium.univ-lemans.fr/en/ted-lium2/) [v3}(https://lium.univ-lemans.fr/en/ted-lium3/) 
+  * TED LIUM corpus [v2](https://lium.univ-lemans.fr/en/ted-lium2/), [v3](https://lium.univ-lemans.fr/en/ted-lium3/) 
       * The official test set is not part of this corpus, but if you want to use the development data you need to make sure that it is not part of the data
   * [Data provided by WMT 2020](http://www.statmt.org/wmt19/)
   * [OpenSubtitles2018](http://opus.nlpl.eu/OpenSubtitles2018.php)
@@ -91,21 +91,20 @@ These datasets can be used to train your model:
   * Each run has to be stored in a plain text file with one sentence per line
   * Scoring will be case-sensitive and including the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing etc are not considered during the evaluation.
 
-TAR archive file structure:
-< UserID >/< Set >.< Task >.< UserID >.primary.xml
-      /< Set >.< Task >.< UserID >.contrastive1.xml
-      /< Set >.< Task >.< UserID >.contrastive2.xml
-      /...
-where:
-< UserID > = user ID of participant used to download data files
-< Set > = IWSLT18.SLT.tst2018
-<Task> =  <fromLID>-<toLID>
-<fromLID>, <toLID> = Language identifiers (LIDs) as given by ISO 639-1 codes; see for example the WIT3 webpage 
+TAR archive file structure:  
+< UserID >/< Set >.< Task >.< UserID >.primary.xml  
+&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive1.xml  
+&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive2.xml  
+&emsp;&emsp;  /...  
+where:  
+< UserID > = user ID of participant used to download data files  
+< Set > = IWSLT18.SLT.tst2018  
+< Task > =  < fromLID >-< toLID >  
+< fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes; see for example the WIT3 webpage   
 
 All the submissions should be sent to this address: <iwslt_offline_task_submission@fbk.eu>
 
 The email should include the following information:
-
   * Institute:
   * Contact Person:
   * Email:
@@ -117,17 +116,17 @@ The email should include the following information:
 
 ## Contacts 
 
-Chair: Marco Turchi (FBK, Italy)
+Chair: Marco Turchi (FBK, Italy). 
 
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
 
 ## Organizers
- 
+
 Sebastian Stüker (KIT, Germany)  
 Jan Niehues (Maastricht University, Netherlands)  
 Matteo Negri (FBK, Italy)  
-Roldano Cattoni (FBK, Italy)
+Roldano Cattoni (FBK, Italy) 
 
 
 
