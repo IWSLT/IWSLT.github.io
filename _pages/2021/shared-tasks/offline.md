@@ -87,7 +87,7 @@ These datasets can be used to train your model:
 ## Submission Guidelines
 
   * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
-  * Submissions have to be submitted as a gzipped TAR archive (see format below) and sent as an email attachment to  jan.niehues@kit.edu and sebastian.stueker@kit.edu.
+  * Submissions have to be submitted as a gzipped TAR archive (see format below) and sent as an email attachment to  <iwslt_offline_task_submission@fbk.eu>.
   * The TAR archive should include in the file name the type of system (cascade/end-to-end) used to generate the submission
   * Each run has to be stored in a plain text file with one sentence per line
   * Scoring will be case-sensitive and including the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing etc are not considered during the evaluation.
