@@ -39,9 +39,8 @@ Raw speech with segments files as well as npz and h5 files with pre-extracted fe
 - [CoVoST](https://github.com/facebookresearch/covost)
 - [Europarl-ST](https://www.mllp.upv.es/europarl-st)
 - [MuST-C v1](https://ict.fbk.eu/must-c/)
-- [Fisher Spanish--English](https://joshua.incubator.apache.org/data/fisher-callhome-corpus)
 
-These are only suggestions; any additional data or pretrained models are permitted. 
+These are only suggestions; any publicly available additional data or pretrained models are permitted. 
 We remind participants that use of any of resources beyond the provided TEDx will make a submission **unconstrained.**
 
 
@@ -49,10 +48,16 @@ We remind participants that use of any of resources beyond the provided TEDx wil
 
 Submissions should be compressed in a single .tar.gz file and emailed [here](mailto:elizabeth.salesky+iwslt2021@gmail.com).  
 We would like to see outputs for all test sets. 
-If multiple outputs are submitted for one test set, one system must be explicitly marked as **primary.**
+If multiple outputs are submitted for one test set, one system must be explicitly marked as **primary**, or the submission with the latest timestamp will be treated as primary.
 
-Submissions should consist of plaintext files with one utterance per line, pre-formatted for scoring (detokenized). 
-Participants must specify if their submission is unconstrained (use additional data beyond what is provided) or constrained (use only the TEDx data provided); constrained and unconstrained systems will be scored separately. 
+File names should follow the following structure:  <br>
+```<participant>.<constrained/unconstrained>.<primary/contrastive>.<src>-<tgt>``` <br>
+e.g.,
+```jhu.constrained.primary.es-en.txt```
+
+Submissions should consist of plaintext files with one sentence per line, pre-formatted for scoring (detokenized). 
+Participants must specify if their submission is unconstrained (use additional data beyond what is provided) or constrained (use only the TEDx data provided); constrained and unconstrained systems will be scored separately.
+For unconstrained systems, additional data or pretrained models should be specified in the submission email. 
 
 
 ## Evaluation
