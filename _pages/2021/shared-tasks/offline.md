@@ -30,7 +30,7 @@ In this task, we use the following definition of end-to-end model:
 
 This year one versions of the same TED talks is released. It contains the audio files and the information to convert them into sentence-like segmentation using automatic tools. Systems using the given or another segmentation will be evaluated in a single ranking without distinction between given or own segmentation.
 
-To measure the progress in the ST field, each participant is required to translate also the 2019 test set that is still blind. Similar to this year test set, the 2020 test set will be made available with and without automatic segmentation.
+To measure the progress in the ST field, each participant is required to translate also the 2020 test set that is still blind. Similar to this year test set, the 2021 test set will be made available with and without automatic segmentation.
 
 ### Test sets:
 
@@ -92,9 +92,9 @@ These datasets can be used to train your model:
   * Scoring will be case-sensitive and including the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing etc are not considered during the evaluation.
 
 TAR archive file structure:  
-< UserID >/< Set >.< Task >.< UserID >.primary.xml  
-&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive1.xml  
-&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive2.xml  
+< UserID >/< Set >.< Task >.< UserID >.primary.txt  
+&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive1.txt
+&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive2.txt  
 &emsp;&emsp;  /...  
 where:  
 < UserID > = user ID of participant used to download data files  
