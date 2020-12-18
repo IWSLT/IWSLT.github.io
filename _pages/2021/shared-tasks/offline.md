@@ -79,7 +79,8 @@ These datasets can be used to train your model:
   * [Data provided by WMT 2020](http://www.statmt.org/wmt19/)
   * [OpenSubtitles2018](http://opus.nlpl.eu/OpenSubtitles2018.php)
   * [Augmented LibriSpeech](https://github.com/alicank/Translation-Augmented-LibriSpeech-Corpus) (only English - French)
-  * [Mozilla Common Voice](https://voice.mozilla.org/en/datasets) for English use version en_1488h_2019-12-10
+  * [Mozilla Common Voice](https://voice.mozilla.org/en/datasets) for English use version en_2179h_2020-12-11
+
   * [LibriSpeech ASR corpus](http://www.openslr.org/12/)
 
 
