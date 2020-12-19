@@ -27,6 +27,7 @@ The evaluation implementation will use [SimulEval](https://github.com/facebookre
 <!-- list of names and affiliations -->
 
 * Katsuhito Sudoh (NAIST)
+* Satoshi Nakamura (NAIST)
 * Juan Pino (Facebook)
 * Xutai Ma (Johns Hopkins University, Facebook)
 * Changhan Wang (Facebook)
