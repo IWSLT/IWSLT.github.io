@@ -90,8 +90,8 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 - Marcello Federico, Amazon, USA (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
 - Jan Niehues, Maastricht U., Netherlands (Evaluation Chair)
-- Elizabeth Salesky, JHU (Evaluation Chair)
-- Sebastian Stüker, KIT, Germany (Website Chair)
+- Elizabeth Salesky, JHU (Website Chair)
+- Sebastian Stüker, KIT, Germany (Evaluation Chair)
 
 ## Program Committee
 
