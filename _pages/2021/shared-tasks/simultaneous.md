@@ -28,8 +28,9 @@ The evaluation implementation will use [SimulEval](https://github.com/facebookre
 
 * Katsuhito Sudoh (NAIST)
 * Satoshi Nakamura (NAIST)
-* Juan Pino (Facebook)
 * Xutai Ma (Johns Hopkins University, Facebook)
+* Maha Elbayad (Facebook)
 * Changhan Wang (Facebook)
+* Juan Pino (Facebook)
 
 <!-- Markdown notes: comments can be formed as above; bulleted lines start with a - ; if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line -->
