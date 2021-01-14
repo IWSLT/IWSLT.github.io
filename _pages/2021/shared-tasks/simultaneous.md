@@ -11,7 +11,7 @@ This task focuses on the real time (also known as simultaneous or streaming) asp
 
 * Text-to-Text: translating ground-truth transcripts in real-time from English to German.
 * Speech-to-Text: directly translating speech into text in real-time from English to German.
-* [New] Text-to-Text Simultaneous Interpretation: translating ground-truth transcripts in real-time from English to Japanese. The reference will not be a human translation crafter offline but rather correspond to the transcript of a simultaneous interpretation.
+* [New] Text-to-Text Simultaneous Interpretation: translating ground-truth transcripts in real-time from English to Japanese. The reference will not be a human translation crafted offline but rather correspond to the transcript of a simultaneous interpretation.
 
 We encourage participants to enter all tracks when possible. We also encourage participants to contrast cascaded and end-to-end solutions for the Speech-to-Text track.
 
