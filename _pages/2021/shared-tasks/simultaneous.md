@@ -13,14 +13,44 @@ This task focuses on the real time (also known as simultaneous or streaming) asp
 * Speech-to-Text: directly translating speech into text in real-time from English to German.
 * [New] Text-to-Text Simultaneous Interpretation: translating ground-truth transcripts in real-time from English to Japanese. The reference will not be a human translation crafter offline but rather correspond to the transcript of a simultaneous interpretation.
 
-We encourage participants to enter all tracks when possible.
+We encourage participants to enter all tracks when possible. We also encourage participants to contrast cascaded and end-to-end solutions for the Speech-to-Text track.
+
+## Evaluation
+
+### Text-to-Text and Speech-to-Text Tracks
 
 We will use a very similar system as last year for evaluation. The system's performance will be evaluated in two ways:
 
 * Translation quality: we will use multiple standard metrics: BLEU, TER, and METEOR.
 * Translation latency: we will make use of the recently developed metrics for simultaneous machine translation including average proportion (AP), average lagging (AL) and differentiable average lagging (DAL).
 
-The evaluation implementation will use [SimulEval](https://github.com/facebookresearch/SimulEval).
+This year, the evaluation implementation will use [SimulEval](https://github.com/facebookresearch/SimulEval). For latency measurement, we will contrast computation aware and non computation aware latency metrics (see this [paper](https://arxiv.org/abs/2007.16193) for how those metrics are defined).
+
+### Text-to-Text Simultaneous Interpretation Track
+
+Coming soon.
+
+## Training and Development Data
+
+### Text-to-Text and Speech-to-Text Tracks
+
+You may use the same training and development data available for the [Offline Speech Translation task](https://iwslt.org/2021/offline). Specifically, please refer to the [Allowed Training Data](https://iwslt.org/2021/offline#allowed-training-data) and the [Past Editions Development Data](https://iwslt.org/2021/offline#past-editions-development-data) sections.
+
+### Text-to-Text Simultaneous Interpretation Track
+
+Coming soon.
+
+## Baseline Implementation and Example
+
+Coming soon.
+
+## System Submission
+
+Coming soon.
+
+## Contacts
+
+Discussion: iwslt-evaluation-campaign@googlegroups.com
 
 ## Organizers
 
