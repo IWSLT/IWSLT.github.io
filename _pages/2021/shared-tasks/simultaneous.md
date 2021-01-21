@@ -24,6 +24,26 @@ We will use a very similar system as last year for evaluation. The system's perf
 
 This year, the evaluation implementation will use the [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit. For latency measurement, we will contrast computation aware and non computation aware latency metrics. See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined. Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)).
 
+### Ranking
+
+Note: this section is under development and subject to changes.
+
+We will evaluate translation quality with detokenized BLEU and latency with AP, AL and DAL. The systems will be ranked by the translation quality with different latency regimes. Three regimes, low, medium and high, will be evaluated. Each regime is determined by a maximum latency threshold. The thresholds are determined by AL, which represents the delay to the perfect real time system (milliseconds for speech and number of words for text), but all three latency metrics, AL, DAL and AP will be reported. Based on analysis on the quality-latency tradeoffs for the baseline systems, the thresholds are set as follows:
+
+Speech Translation:
+
+* Low latency: AL < = 1000
+* Medium latency: AL < = 2000
+* High Latency: AL < = 4000
+
+Text Translation
+
+* Low latency: AL < = 3
+* Medium Latency: AL < = 6
+* High Latency: AL < = 15
+
+The submitted systems will be categorized into different regimes based on the AL calculated on the Must-C English-German test set (`tst-COMMON`), while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. Besides the three latency metrics, we will also calculate the total decoding time under the server-client evaluation scheme for each system.
+
 ## Training and Development Data
 
 ### Text-to-Text and Speech-to-Text Tracks
@@ -32,7 +52,8 @@ You may use the same training and development data available for the [Offline Sp
 
 ### Text-to-Text Simultaneous Interpretation Track
 
-Coming soon.
+For training, you may use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
+For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c). We will also provide an additional development set from our simultaneous interpretation corpus soon.
 
 ## Baseline Implementation and Example
 
