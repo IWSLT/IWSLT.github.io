@@ -9,9 +9,8 @@ title: "Simultaneous Speech Translation"
 
 This task focuses on the real time (also known as simultaneous or streaming) aspect of speech and machine translation as it enables interesting applications such as simultaneous interpretation or international conference live translations. Real-time systems are typically evaluated with respect to quality and latency. This year, we will have 3 tracks:
 
-* Text-to-Text: translating ground-truth transcripts in real-time from English to German.
+* Text-to-Text: translating ground-truth transcripts in real-time from English to German, English to Japanese.
 * Speech-to-Text: directly translating speech into text in real-time from English to German.
-* [New] Text-to-Text Simultaneous Interpretation: translating ground-truth transcripts in real-time from English to Japanese. The reference will not be a human translation crafted offline but rather correspond to the transcript of a simultaneous interpretation.
 
 We encourage participants to enter all tracks when possible. We also encourage participants to contrast cascaded and end-to-end solutions for the Speech-to-Text track.
 
@@ -46,14 +45,14 @@ The submitted systems will be categorized into different regimes based on the AL
 
 ## Training and Development Data
 
-### Text-to-Text and Speech-to-Text Tracks
+### Text-to-Text and Speech-to-Text Tracks (English to German)
 
 You may use the same training and development data available for the [Offline Speech Translation task](https://iwslt.org/2021/offline). Specifically, please refer to the [Allowed Training Data](https://iwslt.org/2021/offline#allowed-training-data) and the [Past Editions Development Data](https://iwslt.org/2021/offline#past-editions-development-data) sections.
 
-### Text-to-Text Simultaneous Interpretation Track
+### Text-to-Text Track (English to Japanese)
 
 For training, you may use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
-For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c). We will also provide an additional development set from our simultaneous interpretation corpus soon.
+For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c). We will also provide an additional development set for this year's task soon.
 
 ## Baseline Implementation and Example
 
