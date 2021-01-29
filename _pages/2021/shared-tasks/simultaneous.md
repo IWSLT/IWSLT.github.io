@@ -52,7 +52,7 @@ You may use the same training and development data available for the [Offline Sp
 ### Text-to-Text Track (English to Japanese)
 
 For training, you may use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
-For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c). We will also provide an additional development set for this year's task soon.
+For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c) and [IWSLT 2021 development set](https://drive.google.com/drive/folders/1uSkOT-XqbICMohnvfXdEFffKLdaQX0X7).
 
 ## Baseline Implementation and Example
 
