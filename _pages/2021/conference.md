@@ -4,25 +4,22 @@ title: "IWSLT 2021"
 toc: true
 toc_label: "2021 Important Links"
 toc_icon: "cog"
+toc_sticky: true
 ---
 
 ## 5-6 Aug. 2021 – ACL-IJCNLP 2021
 
 Welcome to IWSLT!
 
-The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference, dedicated to all aspects related
-to spoken language translation.  For 18 years in the running, the conference publishes and organizes key evaluation campaigns in the field, including
-requisite data suites, benchmarks, metrics and key tasks that define progress in the field.  This year's challenges address simultaneous translation,
-consecutive translation and subtitling tasks, for real-time, low latency as well off-line archival purposes and under low-resource, multilingual, and
-multimodal constraints.  Scientific papers and system descriptions documenting the state-of-the art achieved by participating teams and contributing
-key algorithmic advances are presented at the conference.
+The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference, dedicated to all aspects of spoken language translation.
+For 18 years running, the conference has published and organized key evaluation campaigns in the field, including the creation of requisite data suites, benchmarks, metrics and key tasks that define progress in the field. 
+This year's challenges address simultaneous translation, consecutive translation and subtitling tasks, for real-time, low latency as well offline archival purposes and under low-resource, multilingual, and multimodal constraints. 
+Scientific papers and system descriptions documenting the state-of-the art achieved by participating teams and contributing
+key algorithmic advances are presented at the conference. 
 
-IWSLT is the annual meeting for the SIGSLT's (Special Interest Groups on Spoken Language Translation) of ACL, ISCA and ELRA.
+IWSLT is the annual meeting for the SIGSLT's (Special Interest Group on Spoken Language Translation) of ACL, ISCA and ELRA.
 
 IWSLT 2021 will be collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:target="_blank"} in Bangkok, Thailand
-
-The first call for papers will be released in mid December 2020.  
-Watch this space for more information on the conference program, shared tasks and important dates after that time!
 
 
 ## Program
@@ -32,9 +29,6 @@ Information about keynote speakers and the conference program will be made avail
 
 ## Shared Tasks
 
-The first call for participation will be released in mid Dec. 2020. 
-{: .notice--warning}
-
 The **IWSLT 2021 Evaluation Campaign** will host four shared tasks featuring the following focus areas:
 
 - [Simultaneous Speech Translation](/2021/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
@@ -42,15 +36,12 @@ The **IWSLT 2021 Evaluation Campaign** will host four shared tasks featuring the
 - [Multilingual Speech Translation](/2021/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Low-Resource Speech Translation](/2021/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
 
-Data, metrics, and evaluation will be provided by the conference organizers..
+Data, metrics, and evaluation will be provided by the conference organizers.
 
 All tasks will follow the same [important dates](#important-dates). 
 
 
 ### Registration
-
-The shared task registration form will be linked here after the first call for participation. 
-{: .notice--warning}
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
 
@@ -58,7 +49,7 @@ Please join the [IWSLT Evaluation Campaign google group](https://groups.google.c
 ## Paper Submission
 
 Submissions should be scientific papers or shared task system description papers. 
-All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL-IJCNLP 2021 stylesheets](https://2021.aclweb.org/calls/papers/#paper-submission-and-templates){:target="_blank"} (*to come soon*). 
+All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL-IJCNLP 2021 stylesheets](https://2021.aclweb.org/calls/papers/#paper-submission-and-templates){:target="_blank"}. 
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 All papers should be submitted via [softconf](){:target="_blank"} (*submission link to come soon*).
 Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be presented at the IWSLT conference either orally or as a poster.
@@ -72,7 +63,7 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 
 ## Important Dates
 
-### Timeline (*subject to change*)
+### Timeline
 
 |----------------|----------------------------------------------|
 | Feb 1, 2021    | release of shared task training and dev data |
@@ -93,7 +84,5 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 - Elizabeth Salesky, JHU (Website Chair)
 - Sebastian Stüker, KIT, Germany (Evaluation Chair)
 
-## Program Committee
 
-TBA
 
