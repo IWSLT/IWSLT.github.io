@@ -66,6 +66,17 @@ Development data:
 
 ## Allowed Training Data
 
+<!-- "NEW" In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made avaialble in the next months. It includes training, dev, and test (Test Common). -->
+
+<!-- Differences with MuST-C v1:
+  * More talks that results in 20k more audio/text segments;
+  * Improved cleaning strategies able to better discard wrong triplets (audio, transcript, translation). In particular, when the text is not well-aligned with the audio and the audio is shorter than 50 millisecs;
+  * The TED audio files have been downloaded from a diffrent source. This means that the audio -->
+  
+<!-- The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2.  -->
+
+<!-- IMPORTANT NOTE: the 2021 test set will be processed using the same pipeline of the V2 MuST-C training data. For this reason, we raccomand the use of the new MuST-C training data. -->
+
 These datasets can be used to train your model:
   * [MuST-C corpus v1](https://ict.fbk.eu/must-c/)
   * [CoVoST](https://github.com/facebookresearch/covost)
