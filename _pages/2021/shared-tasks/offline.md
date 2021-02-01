@@ -68,6 +68,10 @@ Development data:
 
 IMPORTANT: new En-De training data will be made avaialble soon! Stay tuned!
 
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
+
 <!-- "NEW" In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made avaialble in the next months. It includes training, dev, and test (Test Common), in the same strucutre of MuST-C V1. -->
 
 <!-- Differences with MuST-C v1:
