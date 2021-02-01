@@ -66,12 +66,9 @@ Development data:
 
 ## Allowed Training Data
 
-IMPORTANT: new En-De training data will be made avaialble soon! Stay tuned!
+### IMPORTANT: new En-De training data will be made avaialble soon! Stay tuned!
 
-<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
-<div class="text-orange-light mb-2">
-  .text-orange-light on white
-</div>
+
 
 <!-- "NEW" In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made avaialble in the next months. It includes training, dev, and test (Test Common), in the same strucutre of MuST-C V1. -->
 
