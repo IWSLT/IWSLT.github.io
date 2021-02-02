@@ -47,7 +47,7 @@ We remind participants that use of any of resources beyond Multilingual TEDx wil
 
 ## Baselines
 
-We provide [fairseq baselines](https://github.com/esalesky/fairseq/blob/master/examples/speech_to_text/docs/tedx_example.md) for all tasks, and [kaldi baselines](https://github.com/m-wiesner/tedx){:target="_blank"} for ASR. 
+We provide [fairseq baselines](https://github.com/esalesky/fairseq/blob/master/examples/speech_to_text/docs/mtedx_example.md) for all tasks, and [kaldi baselines](https://github.com/m-wiesner/tedx){:target="_blank"} for ASR. 
 
 
 ## Submission
