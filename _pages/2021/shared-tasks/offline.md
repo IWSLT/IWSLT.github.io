@@ -70,7 +70,7 @@ Development data:
 
 
 
-<!-- "NEW" In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made avaialble in the next months. It includes training, dev, and test (Test Common), in the same strucutre of MuST-C V1. -->
+<!-- "NEW" In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made available in the next months. It includes training, dev, and test (Test Common), in the same structure of MuST-C V1. -->
 
 <!-- Differences with MuST-C v1:
   * More talks that result in 20k more audio/text segments;  
