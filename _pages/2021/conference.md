@@ -43,6 +43,8 @@ All tasks will follow the same [important dates](#important-dates).
 
 ### Registration
 
+Registration for 2021 Evaluation Campaign is now open: [Registration Form](https://forms.gle/PSCgFW27fZY2JLW2A){:target="_blank"}. 
+
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
 
 
