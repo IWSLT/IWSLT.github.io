@@ -70,13 +70,13 @@ Development data:
 
 
 
-#### "NEW" In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made available in the next months. It includes training, dev, and test (Test Common), in the same structure of MuST-C V1.
+**"NEW TRAINING DATA!!"** In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made available in the next months. It includes training, dev, and test (Test Common), in the same structure of MuST-C V1.
 
 Differences with MuST-C v1:
   * More talks that result in 20k more audio/text segments;  
   * Improved cleaning strategies able to better discard low-quality triplets (audio, transcript, translation), in particular, when the text is not well-aligned with the audio and the audio is shorter than 50 millisecs;  
   * TED talks of MuST-C v2 were downloaded from the [YouTube TED channel](https://www.youtube.com/c/TED/videos), where higher quality audio/videos are available with respect to the TED website used for the previous version of MuST-C. The downloading was performed by means of [youtube-dl](https://youtube-dl.org/), the well-known open-source download manager, specifying the "-f bestaudio option". The audios were finally converted from two (stereo) to one (mono) channel and downsampled from 48 to 16 kHz, using [FFmpeg](https://ffmpeg.org/). 
-By inspecting the spectrograms of the same talks in the two versions of MuST-C clearly emerges that the upper limit band in the audios used in MuST-C V1 is 5 kHz, while it is at 8 kHz in the latest version, coherently with the 16 kHz sample rate. #### This difference does not guarantee compatibility between V1 and V2 of MuST-C.  
+By inspecting the spectrograms of the same talks in the two versions of MuST-C clearly emerges that the upper limit band in the audios used in MuST-C V1 is 5 kHz, while it is at 8 kHz in the latest version, coherently with the 16 kHz sample rate. **This difference does not guarantee compatibility between V1 and V2 of MuST-C.**  
   
 The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. 
 
