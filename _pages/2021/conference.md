@@ -48,9 +48,10 @@ Registration for 2021 Evaluation Campaign is now open: [Registration Form](https
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
 
 ## Workshop Proposals
-Please submit proposals of workshops (max 2 hours) to iwslt-organizers@googlegroups.com. Proposals should indicate the topic of the workshop and its format. 
-Please do also provide information about the organizers and potential speakers. The workshop topics should be within the scope of the SIGSLT. We are open 
-to any format, e.g. panel discussions, talks, posters, etc. Publication of workshop papers in the IWSLT proceedings is subject to the regular IWSLT submission channel for scientific papers. 
+Please submit proposals of workshops to iwslt-organizers@googlegroups.com. Proposals should indicate the topic of the workshop and its format. 
+Each workshop will be run as distinct session of maximum 2 hours. Please do also provide information about the organizers and potential speakers. 
+The workshop topics should be within the scope of the SIGSLT. We are open to any format, e.g. panel, talks, posters, etc. Eventual publication of 
+workshop papers in the IWSLT proceedings will go through the regular submission channel for scientific papers (see next item). 
 
 ## Paper Submission
 
