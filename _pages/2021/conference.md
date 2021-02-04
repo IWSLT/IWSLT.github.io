@@ -47,8 +47,8 @@ Registration for 2021 Evaluation Campaign is now open: [Registration Form](https
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
 
-## Workshop Proposals
-Please submit workshop proposals to [IWSLT Organizers](mailto:iwslt-organizers@googlegroups.com?subject=[Workshop_Proposal]). Each proposal should indicate the topic of the workshop, its format and duration (max 2 hours). Please do also provide information about the organizers and potential speakers. 
+## Workshop Session Proposals
+Please submit workshop session proposals to [IWSLT Organizers](mailto:iwslt-organizers@googlegroups.com?subject=[Workshop_Proposal]). Each proposal should indicate the topic of the workshop, its format and duration (max 2 hours). Please do also provide information about the organizers and potential speakers. 
 The workshop topic should be within the scope of SIGSLT. We are open to any format, e.g. panel, talks, posters, etc. Publication of workshop papers (if any) in the IWSLT proceedings will go through the regular submission channel for scientific papers (see next item). 
 
 ## Paper Submission
@@ -73,8 +73,8 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 |----------------|----------------------------------------------|
 | Feb 1, 2021    | release of shared task training and dev data |
 | Apr 5-16, 2021 | evaluation period                            |
-| Apr 16, 2021   | workshop proposal deadline                   |
-| Apr 16, 2021   | workshop notification                        |
+| Apr 16, 2021   | workshop session proposal deadline           |
+| Apr 16, 2021   | workshop sessions notification               |
 | May 6, 2021    | paper submission deadline                    |
 | June 7, 2021   | paper notification                           |
 | Jun 14, 2021   | camera ready deadline                        |
