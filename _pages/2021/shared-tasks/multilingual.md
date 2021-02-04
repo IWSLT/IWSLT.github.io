@@ -27,7 +27,7 @@ We look forward to your creative submissions!
 
 ## Data
 
-The Multilingual TEDx data is hosted on [OpenSLR](http://openslr.org/100/){:target="_blank"}. 
+The [Multilingual TEDx](https://arxiv.org/abs/2102.01757){:target="_blank"} data is hosted on [OpenSLR](http://openslr.org/100/){:target="_blank"}. 
 The data is derived from TEDx talks and translations. 
 All provided data is segmented and aligned at the sentence-level. 
 The released data contains train, validation, and progress test sets.  
