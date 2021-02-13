@@ -74,6 +74,7 @@ Discussion: iwslt-evaluation-campaign@googlegroups.com
 
 * Katsuhito Sudoh (NAIST)
 * Satoshi Nakamura (NAIST)
+* Ondřej Bojar (Charles University)
 * Xutai Ma (Johns Hopkins University, Facebook)
 * Maha Elbayad (Facebook)
 * Changhan Wang (Facebook)
