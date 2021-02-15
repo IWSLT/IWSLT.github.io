@@ -33,7 +33,7 @@ You may use any of the resources listed below or any other resource you deem app
 
 ### Speech-Transcription-Translation data
 
-* We will be releasing small datasets (5k instances) for Swahili speech to English translation as well as Congolese Swahili to French. These will be available Feb. 20, 2021.
+* We are releasing small datasets (5k instances) for Swahili speech to English as well as Congolese Swahili to French. These are available for download through [this link](https://drive.google.com/file/d/1lhifoEY0Kzj6s11W_taKoVW_mAvzzZ04/view?usp=sharing). The .zip file also includes the validation data in both language pairs. The format of the files follows the format of the [multilingual task](/2021/multilingual).
 * You may also use any of the allowed data for the [Offline Translation task](/2021/offline) or the [Multilingual Translation task](/2021/multilingual), i.e. the [Multilingual TEDx](http://openslr.org/100/) [CoVost](https://github.com/facebookresearch/covost) dataset, [Europarl-ST](https://www.mllp.upv.es/europarl-st), [MuST-C](https://ict.fbk.eu/must-c/).
 
 ## ASR data
@@ -41,7 +41,7 @@ Any speech recognition data can be used. We point to some relevant resources:
 * [ALFFA dataset](http://193.48.145.249/fulltext/Gelas/Gelas_2012_SLTU.pdf), hosted in [OpenSLR](https://www.openslr.org/25/)
 * [Mozilla Common Voice](https://voice.mozilla.org/en/datasets)
 * [Gamayun Swahili speech samples](https://gamayun.translatorswb.org/data/) (requires registration but it is free)
-* IARPA Babel Swahili Language Pack, available through [LDC](https://catalog.ldc.upenn.edu/LDC2017S05) (comes with a feww of $25)
+* IARPA Babel Swahili Language Pack, available through [LDC](https://catalog.ldc.upenn.edu/LDC2017S05) (fee of $25)
 
 ## Translation data
 Any parallel data can be used, except for the TICO-19 dataset. We point to some relevant resources:
@@ -50,7 +50,7 @@ Any parallel data can be used, except for the TICO-19 dataset. We point to some 
 * [Gamayun kit](https://gamayun.translatorswb.org/data/) translated by the Translators without Botders (requires registration but is free).
 
 ### Pretrained Models
-The use of pre-trained models such as [wav2vec 2.0](https://arxiv.org/abs/2006.11477) or [mBART](https://arxiv.org/abs/2001.08210) and similar are also allowed.
+The use of pre-trained models such as [wav2vec 2.0](https://arxiv.org/abs/2006.11477), [mBART](https://arxiv.org/abs/2001.08210), or similar is also allowed.
 
 ## Evaluation
 
