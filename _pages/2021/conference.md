@@ -86,7 +86,7 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 ## Organizers
 - Marcello Federico, Amazon, USA (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
-- Maria R. Costa-jussà, UPC, Spain (Program Chair)
+- Marta R. Costa-jussà, UPC, Spain (Program Chair)
 - Jan Niehues, Maastricht U., Netherlands (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Evaluation Chair)
 - Elizabeth Salesky, JHU, USA (Website Chair)
