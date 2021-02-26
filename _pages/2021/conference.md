@@ -56,7 +56,7 @@ The workshop topic should be within the scope of SIGSLT. We are open to any form
 Submissions should be scientific papers or shared task system description papers. 
 All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL-IJCNLP 2021 stylesheets](https://2021.aclweb.org/calls/papers/#paper-submission-and-templates){:target="_blank"}. 
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
-All papers should be submitted via [softconf](){:target="_blank"} (*submission link to come soon*).
+All papers should be submitted via [softconf](https://www.softconf.com/acl2021/w17_iwslt21/){:target="_blank"}.
 Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be presented at the IWSLT conference either orally or as a poster.
 
 **Note:**
