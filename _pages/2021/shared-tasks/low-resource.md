@@ -54,11 +54,31 @@ The use of pre-trained models such as [wav2vec 2.0](https://arxiv.org/abs/2006.1
 
 ## Evaluation
 
-The primary task is translation, and hence the submissions will be evaluated using standard automatic translation metrics (e.g. BLEU, chrF++, BERTscore, YiSi, etc). 
+The primary task is translation, and hence the submissions will be evaluated using standard automatic translation metrics (e.g. BLEU and chrF++ as computed by [SacreBLEU](https://github.com/mjpost/sacrebleu)). 
 In addition, if the participants' systems also produce transcriptions for the source utterances (which would be the case for pipeline/cascade or multitask systems), we will invite their submission and also evaluate on ASR quality using standard ASR metrics (WER).
+
+## Submission
+
+Submissions should be compressed in a single .tar.gz file and emailed [here](mailto:anastasopoulos.ant@gmail.com), with "IWSLT 2021 Low-Resource Shared Task Submission" in the title.
+
+We would like to see outputs for both test sets. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
+
+File names for translation outputs should follow the following structure:  <br>
+```<participant>.st.<primary/contrastive>.<src>-<tgt>``` <br>
+e.g.,
+```gmu.st.primary.swa-eng.txt``` for translation outputs.
+
+File names for speech recognition outputs should follow the following structure:  <br>
+```<participant>.asr.<primary/contrastive>.<src>``` <br>
+e.g.,
+```gmu.asr.primary.swc.txt``` for ASR outputs.
+
+Submissions should consist of plaintext files with one sentence per line, following the order of the test set, pre-formatted for scoring (detokenized). We ask that the participants include a (very) short system desciption in the submission email.
+
 
 
 ## Organizers
+<!-- list of names and affiliations -->
 
 - Antonios Anastasopoulos (George Mason University, USA)
 - Grace Tang (Translators without Borders)
@@ -68,7 +88,10 @@ In addition, if the participants' systems also produce transcriptions for the so
 - Marcello Federico (Amazon, USA)
 - Alex Waibel (CMU, USA)
 
-<!-- list of names and affiliations -->
+## Contact
+
+Organizers: We can be reached by email through the IWSLT google group listed below
+Discussion: [IWSLT google group](https://groups.google.com/g/iwslt-evaluation-campaign)  
 
 
 <!-- Markdown notes: comments can be formed as above; bulleted lines start with a - ; if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line -->
