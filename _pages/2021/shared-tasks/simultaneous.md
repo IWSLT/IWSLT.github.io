@@ -54,6 +54,10 @@ You may use the same training and development data available for the [Offline Sp
 For training, you may use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
 For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c) and [IWSLT 2021 development set](https://drive.google.com/drive/folders/1uSkOT-XqbICMohnvfXdEFffKLdaQX0X7).
 
+#### English-to-Japanese simultaneous interpretation transcripts
+You may also use [simultaneous interpretation transcripts for the IWSLT 2021 development set](https://drive.google.com/drive/folders/1bB1s9PKNoRoDFfc567J5zDMcYj_lFFEB) for the comparison with human interpretation, under the terms of use written in *README_before_download_enjaDevSI.txt*.
+
+
 ## Baseline Implementation and Example
 
 Coming soon.
