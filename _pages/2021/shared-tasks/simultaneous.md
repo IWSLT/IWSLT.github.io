@@ -60,7 +60,7 @@ You may also use [simultaneous interpretation transcripts for the IWSLT 2021 dev
 
 ## Baseline Implementation and Example
 
-Coming soon.
+You can find a baseline and instructions on how to reproduce it [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_to_text/docs/simulst_mustc_example.md). We will provide 2 additional models soon.
 
 ## System Submission
 
