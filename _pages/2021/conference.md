@@ -124,7 +124,6 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
     -Mattia di Gangi, FBK/U. Trento, Italy
     -Nguyen Bach, Alibaba, USA
     -Preslav Nakov, QCRI, Qatar
-    -Roman Grundkiewicz, U. Edinburgh, UK
     -Yves Lepage, U. Waseda, Japan
     -Jiajun Zhang,Institute of Automation Chinese Academy of Sciences, China
     -Duygu Ataman, University of Zurich, Switzerland 
