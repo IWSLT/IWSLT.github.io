@@ -93,43 +93,39 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 
 ## Program Committee
 
-    -Hirofumi Inaguma, Kyoto University, Japan
-    -Surafel Melaku Lakew, Amazon AI, USA
-    -Carlos Escolano, Universitat Politècnica de Catalunya, Spain
-    -Jiatao Gu, Facebook AI Research, USA
-    -Changhan Wang, Facebook AI Research, USA
-    -Yun Tang, Facebook AI Research, USA
-    -Akiko Eriguchi, Microsoft, USA
-    -Xian Li, Facebook AI Research, USA
-    -Qianqian Dong, Chinese Academy of Sciences, China
-    -Yuchen Liu, Princeton, USA
-    -Matthias Sperber, Apple, USA
-    -Antonio Toral, U. Groningen, Netherlands
-    -Thanh-le Ha, Karslruhe Institute of Technology, Germany
-    -Krzystof Wolk, Polish‐Japanese Academy of Information Technology, Poland
-    -Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
-    -Julian Salazar, Amazon AWS AI, USA
-    -Chengyi Wang, Nankai University, China
-    -Christian Hardmeier, Uppsala U., Sweden
-    -David Vilar, Amazon, Germany
-    -Elizabeth Salesky, JHU, USA
-    -Evgeny Matusov, AppTek, Germany
-    -Juan Pino, Facebook, USA
-    -Katsuhito Sudoh, NAIST, Japan
-    -Laurent Besacier, IMAG, France
-    -Marco Turchi, FBK, Italy
-    -Markus Freitag, Google, USA
-    -Matteo Negri, FBK, Italy
-    -Matthias Huck, LMU, Germany
-    -Mattia di Gangi, FBK/U. Trento, Italy
-    -Nguyen Bach, Alibaba, USA
-    -Preslav Nakov, QCRI, Qatar
-    -Yves Lepage, U. Waseda, Japan
-    -Jiajun Zhang,Institute of Automation Chinese Academy of Sciences, China
-    -Duygu Ataman, University of Zurich, Switzerland 
-    -Xutai Ma, Johns Hopkins University, USA
-    -Melvin Johnson, Google, USA
-
-
-
-
+- Hirofumi Inaguma, Kyoto University, Japan
+- Surafel Melaku Lakew, Amazon AI, USA
+- Carlos Escolano, Universitat Politècnica de Catalunya, Spain
+- Jiatao Gu, Facebook AI Research, USA
+- Changhan Wang, Facebook AI Research, USA
+- Yun Tang, Facebook AI Research, USA
+- Akiko Eriguchi, Microsoft, USA
+- Xian Li, Facebook AI Research, USA
+- Qianqian Dong, Chinese Academy of Sciences, China
+- Yuchen Liu, Princeton, USA
+- Matthias Sperber, Apple, USA
+- Antonio Toral, U. Groningen, Netherlands
+- Thanh-le Ha, Karslruhe Institute of Technology, Germany
+- Krzystof Wolk, Polish‐Japanese Academy of Information Technology, Poland
+- Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
+- Julian Salazar, Amazon AWS AI, USA
+- Chengyi Wang, Nankai University, China
+- Christian Hardmeier, Uppsala U., Sweden
+- David Vilar, Amazon, Germany
+- Elizabeth Salesky, JHU, USA
+- Evgeny Matusov, AppTek, Germany
+- Juan Pino, Facebook, USA
+- Katsuhito Sudoh, NAIST, Japan
+- Laurent Besacier, IMAG, France
+- Marco Turchi, FBK, Italy
+- Markus Freitag, Google, USA
+- Matteo Negri, FBK, Italy
+- Matthias Huck, LMU, Germany
+- Mattia di Gangi, FBK/U. Trento, Italy
+- Nguyen Bach, Alibaba, USA
+- Preslav Nakov, QCRI, Qatar
+- Yves Lepage, U. Waseda, Japan
+- Jiajun Zhang,Institute of Automation Chinese Academy of Sciences, China
+- Duygu Ataman, University of Zurich, Switzerland 
+- Xutai Ma, Johns Hopkins University, USA
+- Melvin Johnson, Google, USA
