@@ -60,13 +60,57 @@ You may also use [simultaneous interpretation transcripts for the IWSLT 2021 dev
 
 ## Baseline Implementation and Example
 
-You can find a baseline and instructions on how to reproduce it [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_to_text/docs/simulst_mustc_example.md). We will provide 2 additional models soon.
+You can find a baseline and instructions on how to reproduce it [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_to_text/docs/simulst_mustc_example.md).
+Our final evaluation will be run inside Docker. To run an evaluation with Docker, first build a Docker image from the Dockerfile. Here is an example Dockerfile for the baseline:
+
+```
+FROM ubuntu:20.04
+
+MAINTAINER Juan Pino (juancarabina@fb.com)
+
+RUN apt-get update && apt-get install -y build-essential git python3 python3-pip libsndfile1
+RUN git clone https://github.com/pytorch/fairseq.git /fairseq
+RUN pip3 install torch torchaudio vizseq soundfile sentencepiece sacrebleu=="1.5.1"
+WORKDIR /fairseq
+RUN pip3 install -e .
+RUN git clone https://github.com/facebookresearch/SimulEval.git /SimulEval
+WORKDIR /SimulEval
+RUN pip3 install -e .
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+ENTRYPOINT simuleval \
+    --agent $AGENT \
+    --source $SRC_FILE \
+    --target $TGT_FILE \
+    --data-bin $DATA \
+    --config $CONFIG_YAML \
+    --model-path $MODEL \
+    --output $OUTPUT \
+    --scores
+```
+
+Assuming your current directory contains the Dockerfile above, you can run the following commands to run the baseline evaluation inside Docker:
+
+```
+FAIRSEQ=<PATH TO fairseq>
+AGENT=fairseq/examples/speech_to_text/simultaneous_translation/agents/fairseq_simul_st_agent.py
+WORKDIR=<WORKING DIRECTORY> # `input` contains source/target files and wav files, `models` contains databin and the checkpoint
+SRC_FILE=input/dev.wav_list
+TGT_FILE=input/dev.de
+DATA=models/databin
+CONFIG_YAML=config_st.yaml
+MODEL=models/convtransformer_wait5_pre7
+TGT_SPLITTER_PATH=models/databin/spm_unigram_10000.model
+
+docker build -t iwslt2021_simulst_baseline:latest .
+docker run -e AGENT="$AGENT" -e SRC_FILE="$SRC_FILE" -e TGT_FILE="$TGT_FILE" -e DATA="$DATA" -e MODEL="$MODEL" -e CONFIG_YAML="$CONFIG_YAML" -v $FAIRSEQ:/SimulEval/fairseq -v $WORKDIR:/SimulEval -it iwslt2021_simulst_baseline
+```
+
+When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
 
 ## System Submission
 
 Participants are required to run the evaluation on the English-German dev and tst-COMMON MuST-C sets and report the results as part of the submission. This is to make sure that the submitted systems work so that organizers can run them as well.
-
-More details coming soon.
 
 ## Contacts
 
