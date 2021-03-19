@@ -104,6 +104,8 @@ docker build -t iwslt2021_simulst_baseline:latest .
 docker run -e AGENT="$AGENT" -e SRC_FILE="$SRC_FILE" -e TGT_FILE="$TGT_FILE" -e EXTRA_AGENT_ARGS="$EXTRA_AGENT_ARGS" -e OUTPUT="$OUTPUT" -v $FAIRSEQ:/SimulEval/fairseq -v $WORKDIR/input:/SimulEval/input -v $WORKDIR/models:/SimulEval/models -it iwslt2021_simulst_baseline
 ```
 
+If you encounter a bus error similar to this [issue](https://github.com/pytorch/pytorch/issues/2244), you can try adding `--shm-size 8G` to the `docker run` command.
+
 When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
 
 ## System Submission
