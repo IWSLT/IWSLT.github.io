@@ -82,11 +82,8 @@ ENTRYPOINT simuleval \
     --agent $AGENT \
     --source $SRC_FILE \
     --target $TGT_FILE \
-    --data-bin $DATA \
-    --config $CONFIG_YAML \
-    --model-path $MODEL \
     --output $OUTPUT \
-    --scores
+    --scores $EXTRA_AGENT_ARGS
 ```
 
 Assuming your current directory contains the Dockerfile above, you can run the following commands to run the baseline evaluation inside Docker:
@@ -100,10 +97,11 @@ TGT_FILE=input/dev.de
 DATA=models/databin
 CONFIG_YAML=config_st.yaml
 MODEL=models/convtransformer_wait5_pre7
-TGT_SPLITTER_PATH=models/databin/spm_unigram_10000.model
+EXTRA_AGENT_ARGS="--data-bin $DATA --config $CONFIG_YAML --model-path $MODEL"
+OUTPUT=output
 
 docker build -t iwslt2021_simulst_baseline:latest .
-docker run -e AGENT="$AGENT" -e SRC_FILE="$SRC_FILE" -e TGT_FILE="$TGT_FILE" -e DATA="$DATA" -e MODEL="$MODEL" -e CONFIG_YAML="$CONFIG_YAML" -v $FAIRSEQ:/SimulEval/fairseq -v $WORKDIR:/SimulEval -it iwslt2021_simulst_baseline
+docker run -e AGENT="$AGENT" -e SRC_FILE="$SRC_FILE" -e TGT_FILE="$TGT_FILE" -e EXTRA_AGENT_ARGS="$EXTRA_AGENT_ARGS" -e OUTPUT="$OUTPUT" -v $FAIRSEQ:/SimulEval/fairseq -v $WORKDIR/input:/SimulEval/input -v $WORKDIR/models:/SimulEval/models -it iwslt2021_simulst_baseline
 ```
 
 When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
