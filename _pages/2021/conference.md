@@ -19,7 +19,7 @@ key algorithmic advances are presented at the conference.
 
 IWSLT is the annual meeting for the SIGSLT's (Special Interest Group on Spoken Language Translation) of ACL, ISCA and ELRA.
 
-IWSLT 2021 will be collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:target="_blank"} in Bangkok, Thailand
+IWSLT 2021 will be collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:target="_blank"} and will be run as a virtual conference.
 
 
 ## Program
