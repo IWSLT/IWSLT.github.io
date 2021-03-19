@@ -72,7 +72,7 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 
 |----------------|----------------------------------------------|
 | Feb 1, 2021    | release of shared task training and dev data |
-| Apr 5-16, 2021 | evaluation period                            |
+| Apr 5-23, 2021 | evaluation period                            |
 | Apr 16, 2021   | workshop session proposal deadline           |
 | Apr 16, 2021   | workshop sessions notification               |
 | May 6, 2021    | paper submission deadline                    |
