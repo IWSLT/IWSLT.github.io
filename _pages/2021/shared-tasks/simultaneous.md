@@ -23,9 +23,9 @@ We will use a very similar system as last year for evaluation. The system's perf
 
 This year, the evaluation implementation will use the [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit. For latency measurement, we will contrast computation aware and non computation aware latency metrics. See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined. Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)).
 
-### Ranking
+The participants will submit a Docker image (see below for an example) and the organizers will run the image in a controlled environment, specifically an **ap3.2xlarge AWS instance** (see details in https://aws.amazon.com/ec2/instance-types/p3/).
 
-Note: this section is under development and subject to changes.
+### Ranking
 
 We will evaluate translation quality with detokenized BLEU and latency with AP, AL and DAL. The systems will be ranked by the translation quality with different latency regimes. Three regimes, low, medium and high, will be evaluated. Each regime is determined by a maximum latency threshold. The thresholds are determined by AL, which represents the delay to the perfect real time system (milliseconds for speech and number of words for text), but all three latency metrics, AL, DAL and AP will be reported. Based on analysis on the quality-latency tradeoffs for the baseline systems, the thresholds are set as follows:
 
