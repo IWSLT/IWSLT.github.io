@@ -54,8 +54,15 @@ The use of pre-trained models such as [wav2vec 2.0](https://arxiv.org/abs/2006.1
 
 ## Evaluation
 
-The primary task is translation, and hence the submissions will be evaluated using standard automatic translation metrics (e.g. BLEU and chrF++ as computed by [SacreBLEU](https://github.com/mjpost/sacrebleu)). 
+The primary task is translation, and hence the submissions will be evaluated using standard automatic translation metrics (e.g. BLEU and chrF++ as computed by [SacreBLEU](https://github.com/mjpost/sacrebleu)). To ensure fair comparisons in the shared task's final rankings, though, we will distinguish systems using pre-trained models and those who do not.
+
 In addition, if the participants' systems also produce transcriptions for the source utterances (which would be the case for pipeline/cascade or multitask systems), we will invite their submission and also evaluate on ASR quality using standard ASR metrics (WER).
+
+
+### Evaluation Dates
+
+Note that the evaluation for the Low-Resource Shared Task will start a week after the the other shared tasks. We expect the test set to be released around April 12th, and we will notify the registered participants when the test sets become available.
+
 
 ## Submission
 
@@ -74,7 +81,6 @@ e.g.,
 ```gmu.asr.primary.swc.txt``` for ASR outputs.
 
 Submissions should consist of plaintext files with one sentence per line, following the order of the test set, pre-formatted for scoring (detokenized). We ask that the participants include a (very) short system desciption in the submission email.
-
 
 
 ## Organizers
