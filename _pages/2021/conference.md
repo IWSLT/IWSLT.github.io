@@ -121,7 +121,8 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 - Markus Freitag, Google, USA
 - Matteo Negri, FBK, Italy
 - Matthias Huck, LMU, Germany
-- Mattia di Gangi, FBK/U. Trento, Italy
+- Mattia di Gangi, AppTek, Germany
+- Cuong Hoang, Amazon AI, USA
 - Nguyen Bach, Alibaba, USA
 - Preslav Nakov, QCRI, Qatar
 - Yves Lepage, U. Waseda, Japan
