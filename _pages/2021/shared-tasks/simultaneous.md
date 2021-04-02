@@ -22,6 +22,7 @@ We will use a very similar system as last year for evaluation. The system's perf
 * Translation latency: we will make use of the recently developed metrics for simultaneous machine translation including average proportion (AP), average lagging (AL) and differentiable average lagging (DAL).
 
 This year, the evaluation implementation will use the [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit. For latency measurement, we will contrast computation aware and non computation aware latency metrics. See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined. Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)). Finally, we will run systems on the segmented **and** unsegmented blind test set. Note the latter setting requires participants to have segmentation logic in their systems.
+The latency is calculated on word level for En-De systems and character level for En-Ja systems.
 
 The participants will submit a Docker image (see below for an example) and the organizers will run the image in a controlled environment, specifically an **ap3.2xlarge AWS instance** (see details in https://aws.amazon.com/ec2/instance-types/p3/).
 
@@ -59,7 +60,7 @@ You may also use [simultaneous interpretation transcripts for the IWSLT 2021 dev
 
 
 ## Baseline Implementation and Example
-
+### English-to-German Speech-to-Text Translation
 You can find a baseline and instructions on how to reproduce it [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_to_text/docs/simulst_mustc_example.md).
 Our final evaluation will be run inside Docker. To run an evaluation with Docker, first build a Docker image from the Dockerfile. Here is an example Dockerfile for the baseline:
 
@@ -107,6 +108,9 @@ docker run -e AGENT="$AGENT" -e SRC_FILE="$SRC_FILE" -e TGT_FILE="$TGT_FILE" -e 
 If you encounter a bus error similar to this [issue](https://github.com/pytorch/pytorch/issues/2244), you can try adding `--shm-size 8G` to the `docker run` command.
 
 When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
+
+### English-to-Japanese Text-to-Text Translation
+You can find instructions to train and evaluate an English-to-Japanese baseline system [here](https://github.com/pytorch/fairseq/blob/master/examples/simultaneous_translation/docs/enja-waitk.md).
 
 ## System Submission
 
