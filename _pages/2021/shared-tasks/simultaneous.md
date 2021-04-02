@@ -110,7 +110,7 @@ If you encounter a bus error similar to this [issue](https://github.com/pytorch/
 When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
 
 ### English-to-Japanese Text-to-Text Translation
-You can find instructions to train and evaluate an English-to-Japanese baseline system [here](https://github.com/pytorch/fairseq/blob/master/examples/simultaneous).
+You can find instructions to train and evaluate an English-to-Japanese baseline system [here](https://github.com/pytorch/fairseq/blob/master/examples/simultaneous_translation/docs/enja-waitk.md).
 
 ## System Submission
 
