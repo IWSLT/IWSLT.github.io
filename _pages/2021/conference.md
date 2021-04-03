@@ -130,3 +130,4 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 - Duygu Ataman, University of Zurich, Switzerland 
 - Xutai Ma, Johns Hopkins University, USA
 - Melvin Johnson, Google, USA
+- Cuong Hoang, Amazon, USA 
