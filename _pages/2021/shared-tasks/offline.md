@@ -117,7 +117,7 @@ TAR archive file structure:
 where:  
 < UserID > = user ID of participant used to download data files (e.g. the name of your institution)
 < Set > = IWSLT21.SLT.tst2021  
-< Task > =  < fromLID >-< toLID > 
+< Task > =  < fromLID >-< toLID >
 < fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes (e.g. en-de or OfflineTask.en-de)
 
 All the submissions should be sent to this address: <iwslt_offline_task_submission@fbk.eu>
