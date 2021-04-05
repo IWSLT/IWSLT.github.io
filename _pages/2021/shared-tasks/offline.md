@@ -116,7 +116,9 @@ TAR archive file structure:
 &emsp;&emsp;  /...  
 where:  
 < UserID > = user ID of participant used to download data files (e.g. the name of your institution)
+
 < Set > = IWSLT21.SLT.tst2021  
+
 < Task > =  < fromLID >-< toLID >;
  where < fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes (e.g. en-de or OfflineTask.en-de)
 
