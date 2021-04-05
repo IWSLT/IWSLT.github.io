@@ -115,7 +115,7 @@ TAR archive file structure:
 &emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive2.txt  
 &emsp;&emsp;  /...  
 where:  
-< UserID > = user ID of participant used to download data files (e.g. the name of your institution)
+< UserID > = user ID of participant used the short name chosen in the registration form (e.g. the name of your institution)
 
 < Set > = IWSLT21.SLT.tst2021  
 
