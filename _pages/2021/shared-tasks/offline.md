@@ -115,10 +115,10 @@ TAR archive file structure:
 &emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive2.txt  
 &emsp;&emsp;  /...  
 where:  
-< UserID > = user ID of participant used to download data files  
-< Set > = IWSLT18.SLT.tst2018  
-< Task > =  < fromLID >-< toLID >  
-< fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes; see for example the WIT3 webpage   
+< UserID > = user ID of participant used to download data files (e.g. the name of your institution)
+< Set > = IWSLT21.SLT.tst2021  
+< Task > =  < fromLID >-< toLID > 
+< fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes (e.g. en-de or OfflineTask.en-de)
 
 All the submissions should be sent to this address: <iwslt_offline_task_submission@fbk.eu>
 
