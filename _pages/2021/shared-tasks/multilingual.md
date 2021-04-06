@@ -31,7 +31,9 @@ The [Multilingual TEDx](https://arxiv.org/abs/2102.01757){:target="_blank"} data
 The data is derived from TEDx talks and translations. 
 All provided data is segmented and aligned at the sentence-level. 
 The released data contains train, validation, and progress test sets.  
-Blind evaluation sets for IWSLT2021 will be released Apr 5.
+
+Blind evaluation sets for IWSLT2021 have been posted to [OpenSLR](http://openslr.org/100/){:target="_blank"}.
+{: .notice--info}
 ![[multilingual speech translation task data image]](https://iwslt.github.io/assets/images/mst2021-data.png)
 
 
@@ -54,6 +56,7 @@ We provide [fairseq baselines](https://github.com/esalesky/fairseq/blob/master/e
 
 Submissions should be compressed in a single .tar.gz file and emailed [here](mailto:elizabeth.salesky+iwslt2021@gmail.com).  
 We would like to see outputs for all test sets. 
+Multiple submissions are allowed! 
 If multiple outputs are submitted for one test set, one system must be explicitly marked as **primary**, or the submission with the latest timestamp will be treated as primary.
 
 File names should follow the following structure:  <br>
@@ -69,7 +72,8 @@ For unconstrained systems, additional data or pretrained models should be specif
 ## Evaluation
 
 We will evaluate translation output using BLEU as computed by [SacreBLEU](https://github.com/mjpost/sacrebleu) and WER for ASR output.
-Validation and progress test sets have been added to SacreBLEU. 
+Validation and progress test sets have been added to [SacreBLEU](https://github.com/mjpost/sacrebleu). 
+WER will be computed on lowercased text with punctuation removed. 
 
 
 ## Organizers
