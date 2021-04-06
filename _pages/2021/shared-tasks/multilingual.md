@@ -55,7 +55,7 @@ We provide [fairseq baselines](https://github.com/esalesky/fairseq/blob/master/e
 ## Submission
 
 Submissions should be compressed in a single .tar.gz file and emailed [here](mailto:elizabeth.salesky+iwslt2021@gmail.com).  
-We would like to see outputs for all test sets. 
+Only translation into en and es are required. We provide test sets for all pairs seen in training: we will gladly evaluate ASR and translation into the additional pairs for additional analysis if submitted.  
 Multiple submissions are allowed! 
 If multiple outputs are submitted for one test set, one system must be explicitly marked as **primary**, or the submission with the latest timestamp will be treated as primary.
 
@@ -64,9 +64,9 @@ File names should follow the following structure:  <br>
 e.g.,
 ```jhu.constrained.primary.es-en.txt```
 
-Submissions should consist of plaintext files with one sentence per line, pre-formatted for scoring (detokenized). 
-Participants must specify if their submission is unconstrained (use additional data beyond what is provided) or constrained (use only the TEDx data provided); constrained and unconstrained systems will be scored separately.
-For unconstrained systems, additional data or pretrained models should be specified in the submission email. 
+Submissions should consist of plaintext files with one sentence per line, pre-formatted for scoring (detokenized).  
+Participants must specify if their submission is unconstrained (use additional data beyond what is provided) or constrained (use only the TEDx data provided); constrained and unconstrained systems will be scored separately.  
+For unconstrained systems, additional data or pretrained models should be specified in the submission email.  
 
 
 ## Evaluation
