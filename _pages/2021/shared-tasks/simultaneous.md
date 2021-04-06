@@ -36,11 +36,17 @@ Speech Translation:
 * Medium latency: AL < = 2000
 * High Latency: AL < = 4000
 
-Text Translation
+Text Translation (English-German)
 
 * Low latency: AL < = 3
 * Medium Latency: AL < = 6
 * High Latency: AL < = 15
+
+Text Translation (English-Japanese)
+
+* Low latency: AL < = 8
+* Medium Latency: AL < = 12
+* High Latency: AL < = 16
 
 The submitted systems will be categorized into different regimes based on the AL calculated on the Must-C English-German test set (`tst-COMMON`) for English-German or on the IWSLT21 dev set for English-Japanese, while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. In addition, within each latency regime, we will also measure computation aware AL and rank systems accordingly. Finally, we will report latency-quality trade-off curves for non computation aware AL and for computation aware AL in the findings paper.
 
