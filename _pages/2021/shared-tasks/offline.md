@@ -35,10 +35,10 @@ To measure the progress in the ST field, each participant is required to transla
 ### Test sets:
 
 2020:
-  -   [Unsegmented](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/unsegmented/IWSLT-SLT.unsegmented.tst2020.en-de.tgz)
-  -   [Segmented](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/segmented/IWSLT-SLT.segmented.tst2020.en-de.tgz)
+  -   [Segmented/Unsegmented](https://surfdrive.surf.nl/files/index.php/s/KVYz2OgcVZJGPYK)
 
 2021:
+  -   [Segmented/Unsegmented](https://surfdrive.surf.nl/files/index.php/s/U3blQuKJ2M0L14K)
 
 
 ## Past Editions Development Data
