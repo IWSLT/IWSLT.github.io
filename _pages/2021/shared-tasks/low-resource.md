@@ -60,7 +60,6 @@ In addition, if the participants' systems also produce transcriptions for the so
 
 Blind evaluation sets are available [here](https://drive.google.com/file/d/1tZQWSZAZBxpPa6NYLUW4o72elWDmMZF0/view?usp=sharing){:target="_blank"}.
 {: .notice--info}
-![[low-resource speech translation task data image]](https://drive.google.com/file/d/1tZQWSZAZBxpPa6NYLUW4o72elWDmMZF0/view?usp=sharing)
 
 
 ### Evaluation Dates
