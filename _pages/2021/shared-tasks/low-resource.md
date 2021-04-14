@@ -58,7 +58,7 @@ The primary task is translation, and hence the submissions will be evaluated usi
 
 In addition, if the participants' systems also produce transcriptions for the source utterances (which would be the case for pipeline/cascade or multitask systems), we will invite their submission and also evaluate on ASR quality using standard ASR metrics (WER).
 
-Blind evaluation sets are available [here](){:target="_blank"}.
+Blind evaluation sets are available [here](https://drive.google.com/file/d/1tZQWSZAZBxpPa6NYLUW4o72elWDmMZF0/view?usp=sharing){:target="_blank"}.
 {: .notice--info}
 ![[low-resource speech translation task data image]](https://drive.google.com/file/d/1tZQWSZAZBxpPa6NYLUW4o72elWDmMZF0/view?usp=sharing)
 
