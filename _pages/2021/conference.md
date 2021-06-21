@@ -77,7 +77,7 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 | Apr 16, 2021   | workshop sessions notification               |
 | May 13, 2021    | paper submission deadline                    |
 | June 18, 2021   | paper notification                           |
-| Jun 24, 2021   | camera ready deadline                        |
+| Jun 29, 2021   | camera ready deadline                        |
 | Aug 5-6, 2021  | IWSLT conference                             |
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
