@@ -9,22 +9,45 @@ toc_sticky: true
 
 ## 5-6 Aug. 2021 – ACL-IJCNLP 2021
 
-Welcome to IWSLT!
+The International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference, associated with an open evaluation campaign on spoken language translation, where both scientific papers and system descriptions are presented.
 
-The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference, dedicated to all aspects of spoken language translation.
-For 18 years running, the conference has published and organized key evaluation campaigns in the field, including the creation of requisite data suites, benchmarks, metrics and key tasks that define progress in the field. 
-This year's challenges address simultaneous translation, consecutive translation and subtitling tasks, for real-time, low latency as well offline archival purposes and under low-resource, multilingual, and multimodal constraints. 
-Scientific papers and system descriptions documenting the state-of-the art achieved by participating teams and contributing
-key algorithmic advances are presented at the conference. 
-
-IWSLT is the annual meeting for the SIGSLT's (Special Interest Group on Spoken Language Translation) of ACL, ISCA and ELRA.
-
-IWSLT 2021 will be collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:target="_blank"} and will be run as a virtual conference.
+IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:target="_blank"} and will be run as a virtual conference on 5-6 August 2021.
 
 
-## Program
+## Program at a Glance
 
-Information about keynote speakers and the conference program will be made available nearer to IWSLT 2021.
+**IWSLT 2021** will occur on two days, 5-6 August.  
+**Day 1** will have a keynote, panels, and the findings of the 2021 evaluation campaign;
+**Day 2** will have Q&A sessions for presented papers. 
+
+**Keynote:**  
+TBA  
+
+**Panel discussions:**  
+*Offline ST Panel:*  
+Moderator: TBA  
+Participants: TBA  
+
+*Simultaneous ST Panel:*  
+Moderator: TBA  
+Participants: TBA  
+
+*Multilingual ST Panel:*  
+Moderator: TBA  
+Participants: TBA  
+
+*Findings of the 2021 Evaluation Campaign*  
+4 Tracks: Offline, Simultaneous, Multilingual, Low-Resource  
+
+**Technical presentations:**  
+21 System papers  
+11 Research papers  
+4 Findings papers  
+
+**See the [Program](/2021/program) for the detailed schedule and links to papers and sessions.**
+
+**Note:** Zoom session links, videos and Q&A time slots for presented papers will available after 1 August. 
+{: .notice--info}
 
 
 ## Shared Tasks
