@@ -17,7 +17,7 @@ Hence, if you are not able to connect with an author during one time slot, pleas
 ## Schedule
 <!-- time converter links on times, zoom links for sessions to come -->
 
-**Note:** Zoom links will be available after 1 August 2021.
+**Note:** Zoom links will be available through the ACL virtual site, linked here once available.
 {: .notice--info}
 
 Times are linked to a time converter site to view alternate time zones.  
@@ -28,6 +28,7 @@ Times are linked to a time converter site to view alternate time zones.
 | [5:00am-6:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T120000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Offline ST |
 | [6:00am-7:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T130000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Simultaneous ST |
 |  |  |
+| [7:30am-8:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Low-resource ST  |
 | [8:00am-9:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Multilingual ST  |
 | [9:00am-9:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T160000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Opening Remarks |
 | [9:15am-10:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Keynote: TBA |

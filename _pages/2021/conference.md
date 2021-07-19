@@ -32,6 +32,10 @@ Participants: TBA
 Moderator: TBA  
 Participants: TBA  
 
+*Low-resource ST Panel:*  
+Moderator: TBA  
+Participants: TBA  
+
 *Multilingual ST Panel:*  
 Moderator: TBA  
 Participants: TBA  
