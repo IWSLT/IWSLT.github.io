@@ -24,7 +24,7 @@ Times are linked to a time converter site to view alternate time zones.
 
 | Day1 | 5 Aug 2021 |
 | :-- | :---: |
-| **Time (PST)** | **Live Sessions**  |
+| **Time (PDT)** | **Live Sessions**  |
 | [5:00am-6:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T120000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Offline ST |
 | [6:00am-7:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T130000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Simultaneous ST |
 |  |  |
@@ -42,7 +42,7 @@ Times are linked to a time converter site to view alternate time zones.
 
 | Day2 | 6 Aug 2021 |
 |:---:|:---:|
-| **Time (PST)** | **Live Sessions**  |
+| **Time (PDT)** | **Live Sessions**  |
 | [5:00am-6:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T120000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Q&A sessions for authors |
 |  |  |
 | [8:00am-9:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Q&A sessions for authors |
