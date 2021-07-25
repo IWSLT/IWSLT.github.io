@@ -21,7 +21,8 @@ IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:targe
 **Day 2** will have Q&A sessions for presented papers. 
 
 **Keynote:**  
-TBA  
+[*Title TBA*](/2021/keynote)  
+Speaker: Velchamy Sankarlingam (Zoom)  
 
 **Panel discussions:**  
 *Offline ST Panel:*  
