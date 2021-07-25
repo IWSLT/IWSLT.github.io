@@ -22,7 +22,7 @@ IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:targe
 
 **Keynote:**  
 [*Title TBA*](/2021/keynote)  
-Speaker: Velchamy Sankarlingam (Zoom)  
+Speaker: [Velchamy Sankarlingam (Zoom)](/2021/keynote)  
 
 **Panel discussions:**  
 *Offline ST Panel:*  
