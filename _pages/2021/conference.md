@@ -20,26 +20,21 @@ IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:targe
 **Day 1** will have a keynote, panels, and the findings of the 2021 evaluation campaign;
 **Day 2** will have Q&A sessions for presented papers. 
 
-**Keynote:**  
-[*Title TBA*](/2021/keynote)  
+**Keynote:**   
 Speaker: [Velchamy Sankarlingam (Zoom)](/2021/keynote)  
 
-**Panel discussions:**  
+**Open discussions:**  
 *Offline ST Panel:*  
-Moderator: TBA  
-Participants: TBA  
+Moderators: Juan Pino (Facebook); Katsuhito Sudoh (NAIST)  
 
 *Simultaneous ST Panel:*  
-Moderator: TBA  
-Participants: TBA  
-
-*Low-resource ST Panel:*  
-Moderator: TBA  
-Participants: TBA  
+Moderator: Marco Turchi (FBK)  
 
 *Multilingual ST Panel:*  
-Moderator: TBA  
-Participants: TBA  
+Moderator: Elizabeth Salesky (JHU)  
+
+*Low-resource ST Panel:*  
+Moderator: Antonis Anastasopoulos (George Mason University)  
 
 *Findings of the 2021 Evaluation Campaign*  
 4 Tracks: Offline, Simultaneous, Multilingual, Low-Resource  
