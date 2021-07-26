@@ -18,8 +18,8 @@ IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:targe
 
 **IWSLT 2021** will occur on two days, 5-6 August.  
 **Day 1** will have a keynote, panels, and findings of the shared tasks  
-**Day 2** will have Q&A sessions for presented papers through videocalls with the authors    
-Events of Day 1 will be accessible through the official IWLST videoconf channel   
+**Day 2** will have Q&A sessions for presented papers    
+ 
 
 **Keynote:**   
 Speaker: [Velchamy Sankarlingam (Zoom)](/2021/keynote)  
