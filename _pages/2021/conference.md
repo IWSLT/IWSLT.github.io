@@ -17,9 +17,8 @@ IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:targe
 ## Program at a Glance
 
 **IWSLT 2021** will occur on two days, 5-6 August.  
-**Day 1** will have a keynote, panels, and findings of the shared tasks
-**Day 2** will have Q&A sessions for presented papers via video calls set up by the authors
-
+**Day 1** will have a keynote, panels, and findings of the shared tasks;
+**Day 2** will have Q&A sessions for presented papers via video calls set up by the authors;
 The events of Day 1 will only be accessible to registered participants through the official videoconference channel. 
 
 **Keynote:**   
