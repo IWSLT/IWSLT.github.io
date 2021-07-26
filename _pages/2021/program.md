@@ -25,11 +25,11 @@ Times are linked to a time converter site to view alternate time zones.
 | Day1 | 5 Aug 2021 |
 | :-- | :-- |
 | **Time (PDT)** | **Live Sessions**  |
-| [5:00am-6:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T120000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Offline ST |
-| [6:00am-7:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T130000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Simultaneous ST |
+| [5:00am-6:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T120000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Offline ST |
+| [6:00am-7:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T130000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Simultaneous ST |
 |  |  |
-| [7:30am-8:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Low-resource ST  |
-| [8:00am-9:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Panel: Multilingual ST  |
+| [7:30am-8:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Low-resource ST  |
+| [8:00am-9:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Multilingual ST  |
 | [9:00am-9:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T160000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Opening Remarks |
 | [9:15am-10:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Keynote: [Velchamy Sankarlingam (Zoom)](/2021/keynote) |
 | [10:15am-11:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T171500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Findings of the IWSLT 2021 Evaluation Campaign |
