@@ -47,7 +47,7 @@ Moderator: Antonis Anastasopoulos (George Mason University)
 
 **See the [Program](/2021/program) for the detailed schedule and links to papers and sessions.**
 
-**Note:** Link to events of Day 1 is available after registration. Videos and Q&A time slots and video call links for presented papers will available after 1 August. 
+**Note:** The zoom link to attend all the events of Day 1 is available after registration to ACL-IJCNLP 2021. Videos and Q&A time slots and video call links for presented papers will available after 1 August. 
 {: .notice--info}
 
 
