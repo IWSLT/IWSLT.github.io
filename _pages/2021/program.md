@@ -17,7 +17,7 @@ Hence, if you are not able to connect with an author during one time slot, pleas
 ## Schedule
 <!-- time converter links on times, zoom links for sessions to come -->
 
-**Note:** Zoom links will be available through the ACL virtual site, linked here once available.
+**Note:** Zoom link to Day 1 is available after registration to ACL-JCNLP 2021.
 {: .notice--info}
 
 Times are linked to a time converter site to view alternate time zones.  
@@ -34,11 +34,6 @@ Times are linked to a time converter site to view alternate time zones.
 | [9:15am-10:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Keynote: [Velchamy Sankarlingam (Zoom)](/2021/keynote) |
 | [10:15am-11:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T171500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Findings of the IWSLT 2021 Evaluation Campaign |
 |  |  | 
-| [11:30am-12:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T183000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion slot (TBD) |
-| [12:30pm-1:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T193000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion slot (TBD) |
-|  |  |
-| [5:30pm-6:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T173000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion slot (TBD) |
-| [6:30pm-7:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T183000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion slot (TBD) |
 
 | Day2 | 6 Aug 2021 |
 | :---: | :-- |
