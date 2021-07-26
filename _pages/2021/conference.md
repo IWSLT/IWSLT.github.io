@@ -47,7 +47,7 @@ Moderator: Antonis Anastasopoulos (George Mason University)
 
 **See the [Program](/2021/program) for the detailed schedule and links to papers and sessions.**
 
-**Note:** Zoom session links, videos and Q&A time slots for presented papers will available after 1 August. 
+**Note:** Link to events of Day 1 is available after registration. Videos and Q&A time slots and video call links for presented papers will available after 1 August. 
 {: .notice--info}
 
 
