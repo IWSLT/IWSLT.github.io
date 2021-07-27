@@ -4,7 +4,7 @@ title: "Program"
 classes: wide
 ---
 
-**Note:** Paper pdfs and their video presentations will be accessible here after 1 August 2021. 
+**Note:** Video presentations will be accessible here after 1 August 2021. 
 {: .notice--info}
 
 Q&A sessions with authors will be arranged as individual video sessions.
@@ -29,27 +29,27 @@ Times are linked to a time converter site to view alternate time zones.
 | [6:00am-7:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T130000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Simultaneous ST |
 |  |  |
 | [7:30am-8:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Low-resource ST  |
-| [8:00am-9:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Multilingual ST  |
+| [8:00am-8:45am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Multilingual ST  |
+|  |  |  
 | [9:00am-9:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T160000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Opening Remarks |
 | [9:15am-10:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Keynote: [Velchamy Sankarlingam (Zoom)](/2021/keynote) |
 | [10:15am-11:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T171500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Findings of the IWSLT 2021 Evaluation Campaign |
-|  |  | 
 
 | Day2 | 6 Aug 2021 |
 | :---: | :-- |
 | **Time (PDT)** | **Live Sessions**  |
-| [5:00am-6:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T120000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Q&A sessions for authors |
+| [5:00am-6:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T120000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Author Q&A Session 1 |
 |  |  |
-| [8:00am-9:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Q&A sessions for authors |
-| [9:00am-10:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T160000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Q&A sessions for authors |
+| [8:00am-9:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Author Q&A Session 2 |
+| [9:00am-10:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T160000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Author Q&A Session 3 |
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| [5:30pm-6:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T173000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Q&A sessions for authors |
-| [6:30pm-7:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T183000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Q&A sessions for authors |
+| [5:30pm-6:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T173000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Author Q&A Session 4 |
+| [6:30pm-7:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20210806T183000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Author Q&A Session 5 |
 
 
 ## Proceedings
 
-**Note:** Paper pdfs will be linked here after ingestion into the ACL Anthology.
+**Link:** [Paper pdfs, abstracts, and bibtex on the ACL Anthology](https://aclanthology.org/volumes/2021.iwslt-1/).
 {: .notice--info}
 
 ### System Papers
@@ -85,7 +85,7 @@ Chen Xu, Xiaoqian Liu, Xiaowen Liu, Tiger Wang, Canan Huang, Tong Xiao and Jingb
 Hirofumi Inaguma, Brian Yan, Siddharth Dalmia, Pengcheng Guo, Jiatong Shi, Kevin Duh and Shinji Watanabe
 
 *End-to-End Speech Translation with Pre-trained Models and Adapters: UPC at IWSLT 2021*  
-Gerard I. Gállego, Ioannis Tsiamas, Carlos Escolano, José A. R. Fonollosa and Marta R. Costa-juss
+Gerard I. Gállego, Ioannis Tsiamas, Carlos Escolano, José A. R. Fonollosa and Marta R. Costa-jussà
 
 *VUS at IWSLT 2021: A Finetuned Pipeline for Offline Speech Translation*  
 Yong Rae Jo, Youngki Moon, Minji Jung, Jungyoon Choi, Jihyung Moon and Won Ik Cho
