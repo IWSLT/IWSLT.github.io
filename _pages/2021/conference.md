@@ -25,16 +25,16 @@ IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:targe
 Speaker: [Velchamy Sankarlingam (Zoom)](/2021/keynote)  
 
 **Open discussions:**  
-*Offline ST Panel:*  
+*Offline Speech Translation:*  
 Moderators: Juan Pino (Facebook); Katsuhito Sudoh (NAIST)  
 
-*Simultaneous ST Panel:*  
+*Simultaneous Speech Translation:*  
 Moderator: Marco Turchi (FBK)  
 
-*Multilingual ST Panel:*  
+*Multilingual Speech Translation:*  
 Moderator: Elizabeth Salesky (JHU)  
 
-*Low-resource ST Panel:*  
+*Low-resource Speech Translation:*  
 Moderator: Antonis Anastasopoulos (George Mason University)  
 
 *Findings of the 2021 Evaluation Campaign*  
