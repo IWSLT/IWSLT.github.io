@@ -17,7 +17,7 @@ Hence, if you are not able to connect with an author during one time slot, pleas
 ## Schedule
 <!-- time converter links on times, zoom links for sessions to come -->
 
-**Note:** Zoom link to Day 1 is available after registration to ACL-JCNLP 2021.
+**Note:** Zoom link for Day 1 is available on the [ACL virtual site](https://underline.io/events/167/sessions?eventSessionId=6299) after registration to ACL-JCNLP 2021.
 {: .notice--info}
 
 Times are linked to a time converter site to view alternate time zones.  
@@ -33,8 +33,8 @@ Times are linked to a time converter site to view alternate time zones.
 |  |  |  
 | [9:00am-9:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T160000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Opening Remarks |
 | [9:15am-10:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Keynote: [Velchamy Sankarlingam (Zoom)](/2021/keynote) |
-| [10:15am-11:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T171500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Findings of the IWSLT 2021 Evaluation Campaign |
-
+| [10:15am-11:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T171500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Findings of the IWSLT 2021 Evaluation Campaign |  
+   
 | Day2 | 6 Aug 2021 |
 | :---: | :-- |
 | **Time (PDT)** | **Live Sessions**  |
