@@ -7,7 +7,7 @@ classes: wide
 <img src="/assets/images/Velchamy.jpg" alt="Speaker photo: Velchamy Sankarlingam" width="350" style="padding-top: 1em;"/>
 
 **Velchamy Sankarlingam**, President of Product and Engineering at Zoom  
-*Communicating without Boundaries*
+**Title:** Communicating without Boundaries*
 
 [Thursday 5 August @ 09:15 PDT / 12:15 EDT / 18:15 CEST / 21:45 IST / 00:15 CST/HKT / 01:15 JST](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248)
 
