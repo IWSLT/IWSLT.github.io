@@ -82,10 +82,11 @@ Parnia Bahar, Patrick Wilken, Mattia A. Di Gangi and Evgeny Matusov
 *The Volctrans Neural Speech Translation System for IWSLT 2021*  
 Chengqi Zhao, Zhicheng liu, Jian Tong, Tao Wang, Mingxuan Wang, Rong Ye, Qianqian Dong, Jun Cao and Lei Li  
 [pdf](https://aclanthology.org/2021.iwslt-1.6.pdf){: .btn .btn--primary .btn-sm} 
-[video](http://sf3-ttcdn-tos.pstatp.com/obj/nlp-opensource/neurst/iwslt21/iwslt2021_volctrans.mov){: .btn .btn--info .btn-sm}
+[video](https://drive.google.com/file/d/1t1tXxTKMhilvzzz_L5ETfYcakJ42kEs6/view?usp=sharing){: .btn .btn--info .btn-sm} 
+[alt video](http://sf3-ttcdn-tos.pstatp.com/obj/nlp-opensource/neurst/iwslt21/iwslt2021_volctrans.mov){: .btn .btn--info .btn-sm} 
 
 *THE IWSLT 2021 BUT SPEECH TRANSLATION SYSTEMS*  
-Harikrishna Vydana, Martin Karafiat, Lukas Burget and Jan Černocký  
+Hari Krishna Vydana, Martin Karafiat, Lukas Burget and Jan Černocký  
 [pdf](https://aclanthology.org/2021.iwslt-1.7.pdf){: .btn .btn--primary .btn-sm} 
 [video](https://drive.google.com/file/d/1DdHxwRJ4PMG26uNe8g6htQdTKZcO2yy-/view?usp=sharing){: .btn .btn--info .btn-sm}
 
