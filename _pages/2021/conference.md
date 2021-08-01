@@ -22,7 +22,8 @@ IWSLT 2021 is collocated with [ACL-IJCNLP 2021](https://2021.aclweb.org/){:targe
  
 
 **Keynote:**   
-Speaker: [Velchamy Sankarlingam (Zoom)](/2021/keynote)  
+Fireside chat with: [Velchamy Sankarlingam (Zoom)](/2021/keynote)    
+Moderator: Alex Waibel (CMU/Zoom)  
 
 **Open discussions:**  
 *Offline Speech Translation:*  
