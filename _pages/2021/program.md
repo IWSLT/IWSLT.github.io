@@ -103,7 +103,7 @@ Chen Xu, Xiaoqian Liu, Xiaowen Liu, Tiger Wang, Canan Huang, Tong Xiao and Jingb
 *ESPnet-ST IWSLT 2021 Offline Speech Translation System*  
 Hirofumi Inaguma, Brian Yan, Siddharth Dalmia, Pengcheng Guo, Jiatong Shi, Kevin Duh and Shinji Watanabe  
 [pdf](https://aclanthology.org/2021.iwslt-1.10.pdf){: .btn .btn--primary .btn-sm} 
-<!-- [video](){: .btn .btn--info .btn-sm} -->
+[video](https://drive.google.com/file/d/1DTN3GeaNgSmeSdfkblwjT0Qs6m5-BkLo/view?usp=sharing){: .btn .btn--info .btn-sm} 
 
 *End-to-End Speech Translation with Pre-trained Models and Adapters: UPC at IWSLT 2021*  
 Gerard I. Gállego, Ioannis Tsiamas, Carlos Escolano, José A. R. Fonollosa and Marta R. Costa-jussà  
@@ -163,7 +163,7 @@ Pavel Denisov, Manuel Mager and Ngoc Thang Vu
 *The USYD-JD’s Speech Translation System for IWSLT2021*  
 Liang Ding and Dacheng Tao  
 [pdf](https://aclanthology.org/2021.iwslt-1.22.pdf){: .btn .btn--primary .btn-sm} 
-<!-- [video](){: .btn .btn--info .btn-sm} -->
+[video](https://drive.google.com/file/d/1YO3_KWK_y-BJN9TaxIwrcIerPfX_PIWb/view?usp=drivesdk){: .btn .btn--info .btn-sm} 
 
 
 ### Research Papers
