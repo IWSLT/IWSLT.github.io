@@ -4,6 +4,11 @@ title: "Program"
 classes: wide
 ---
 
+<br/> 
+**IWSLT 2021** will occur on two days, 5-6 August.  
+**Day 1** will have a keynote, panels, and findings of the shared tasks  
+**Day 2** will have Q&A sessions for presented papers    
+
 **Note:** Q&A slots and links will be accessible here after 1 August 2021. 
 {: .notice--info}
 
