@@ -83,7 +83,7 @@ Parnia Bahar, Patrick Wilken, Mattia A. Di Gangi and Evgeny Matusov
 Chengqi Zhao, Zhicheng liu, Jian Tong, Tao Wang, Mingxuan Wang, Rong Ye, Qianqian Dong, Jun Cao and Lei Li  
 [pdf](https://aclanthology.org/2021.iwslt-1.6.pdf){: .btn .btn--primary .btn-sm} 
 [video](https://drive.google.com/file/d/1t1tXxTKMhilvzzz_L5ETfYcakJ42kEs6/view?usp=sharing){: .btn .btn--info .btn-sm} 
-[alt video](http://sf3-ttcdn-tos.pstatp.com/obj/nlp-opensource/neurst/iwslt21/iwslt2021_volctrans.mov){: .btn .btn--info .btn-sm} 
+[alt link](http://sf3-ttcdn-tos.pstatp.com/obj/nlp-opensource/neurst/iwslt21/iwslt2021_volctrans.mov){: .btn .btn--info .btn-sm} 
 
 *THE IWSLT 2021 BUT SPEECH TRANSLATION SYSTEMS*  
 Hari Krishna Vydana, Martin Karafiat, Lukas Burget and Jan Černocký  
@@ -201,7 +201,8 @@ Dirk Padfield and Colin Cherry
 *Towards the evaluation of automatic simultaneous speech translation from a communicative perspective*  
 Claudio Fantinuoli and Bianca Prandi  
 [pdf](https://aclanthology.org/2021.iwslt-1.29.pdf){: .btn .btn--primary .btn-sm} 
-[video](https://staff.uni-mainz.de/fantinuo/IWSLT.mov){: .btn .btn--info .btn-sm}
+[video](https://drive.google.com/file/d/1lzjgAarbTJRArewa6XzKYQ6PjvgB093x/view?usp=sharing){: .btn .btn--info .btn-sm} 
+[alt link](https://www.staff.uni-mainz.de/fantinuo/IWSLT.mov){: .btn .btn--info .btn-sm} 
 
 *Tag Assisted Neural Machine Translation of Film Subtitles*  
 Aren Siekmeier, WonKee Lee, Hongseok Kwon and Jong-Hyeok Lee  
