@@ -54,7 +54,8 @@ Times are linked to a time converter site to view alternate time zones.
 
 ## Proceedings
 
-**Link:** [Paper pdfs, abstracts, and bibtex on the ACL Anthology](https://aclanthology.org/volumes/2021.iwslt-1/).
+**Link:** [Paper pdfs, abstracts, and bibtex on the ACL Anthology](https://aclanthology.org/volumes/2021.iwslt-1/).  
+**Videos:** were tested to play on Chrome.
 {: .notice--info}
 
 ### System Papers
