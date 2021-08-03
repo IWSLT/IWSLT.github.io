@@ -23,13 +23,13 @@ SIGSLT will:
   * Laurent Besacier, Université J. Fourier, France 
   * Marcello Federico, Amazon, USA (*ACL SIGSLT, President*) 
   * Will Lewis, University of Washington, USA
-  * Joseph Mariani, CNRS-LIMSI, France 
+  * Joseph Mariani, CNRS-LISN, France 
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
   * Hermann Ney, RWTH, Germany
   * Mark Seligman, Spoken Translation Inc., USA
   * Katsuhito Sudoh, NAIST, Japan
   * Sebastian Stüker, KIT, Germany (*ELRA SIGSLT, President*)
-  * Marco Turchi, FBK, Italy (*ISCA SIGSLT, Secretary*)
+  * Marco Turchi, FBK, Italy 
   * Alex Waibel, CMU, USA (*Chair*)
   * Dekai Wu, HKUST Hong Kong, China
-  * Francois Yvon, LIMSI/CNRS, France 
+  * Francois Yvon, LIMSI-LISN, France 
