@@ -22,7 +22,7 @@ SIGSLT will:
 
   * Laurent Besacier, Université J. Fourier, France 
   * Marcello Federico, Amazon, USA (*ACL SIGSLT, President*) 
-  * Will Lewis, Microsoft, USA
+  * Will Lewis, University of Washington, USA
   * Joseph Mariani, CNRS-LIMSI, France 
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
   * Hermann Ney, RWTH, Germany
