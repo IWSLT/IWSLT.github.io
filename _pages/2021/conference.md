@@ -27,16 +27,16 @@ Moderator: Alex Waibel (CMU/Zoom)
 
 **Open discussions:**  
 *Offline Speech Translation:*  
-Moderators: Juan Pino (Facebook); Katsuhito Sudoh (NAIST)  
+Moderator: Jan Niehues (Maastricht)  
 
 *Simultaneous Speech Translation:*  
-Moderator: Marco Turchi (FBK)  
-
-*Multilingual Speech Translation:*  
-Moderator: Elizabeth Salesky (JHU)  
+Moderators: Juan Pino (Facebook)  
 
 *Low-resource Speech Translation:*  
 Moderator: Antonis Anastasopoulos (George Mason University)  
+
+*Multilingual Speech Translation:*  
+Moderator: Elizabeth Salesky (JHU)  
 
 *Findings of the 2021 Evaluation Campaign*  
 4 Tracks: Offline, Simultaneous, Multilingual, Low-Resource  
@@ -48,7 +48,7 @@ Moderator: Antonis Anastasopoulos (George Mason University)
 
 **See the [Program](/2021/program) for the detailed schedule and links to papers and sessions.**
 
-**Note:** The zoom link to attend all the events of Day 1 is available after registration to ACL-IJCNLP 2021. Videos, Q&A time slots, and video call links for presented papers will available after 1 August. 
+**Note:** The zoom link to attend all the events of Day 1 is available after registration to ACL-IJCNLP 2021. Videos, Q&A time slots, and video call links for presented papers are available on the [program page](/2021/program). 
 {: .notice--info}
 
 
