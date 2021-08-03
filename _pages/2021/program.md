@@ -9,20 +9,19 @@ classes: wide
 **Day 1** will have a keynote, panels, and findings of the shared tasks  
 **Day 2** will have Q&A sessions for presented papers    
 
-**Note:** Q&A slots and links will be accessible here after 1 August 2021. 
-{: .notice--info}
-
 Q&A sessions with authors will be arranged as individual video sessions.
 Each session is organized within 5 1-hour timeslots to maximize convenience from different time zones. 
 To allow authors to ask questions to other authors, we invite them to organize their time so to be available for Q&A during at least 50% of their 2 time slots.
 Hence, if you are not able to connect with an author during one time slot, please try with the next slot.
 
-<!-- link pdf version of excel schedule containing all paper links, video links, and zoom links here once finalized -->
+**Q&A sessions:** [Full list of papers with videos, Q&A session links and times.](/assets/pdfs/IWSLT21-Q&As.pdf) 
+{: .notice--info}
+
 
 ## Schedule
 <!-- time converter links on times, zoom links for sessions to come -->
 
-**Note:** Zoom link for Day 1 will be available on the [ACL virtual site](https://underline.io/events/167/sessions?eventSessionId=6299) after registration to ACL-JCNLP 2021.
+**Note:** Zoom link for Day 1 will be available on the [ACL virtual site](https://underline.io/events/167/sessions?eventSessionId=6299) after registration to ACL-JCNLP 2021. Day 2 links are listed [here](/assets/pdfs/IWSLT21-Q&As.pdf).
 {: .notice--info}
 
 Times are linked to a time converter site to view alternate time zones.  
