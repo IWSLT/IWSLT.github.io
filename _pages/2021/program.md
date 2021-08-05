@@ -36,7 +36,7 @@ Times are linked to a time converter site to view alternate time zones.
 | [8:00am-8:45am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T150000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Discussion: Multilingual and Low-Resource ST  |
 |  |  |  
 | [9:00am-9:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T160000&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Opening Remarks |
-| [9:15am-10:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Keynote: [Velchamy Sankarlingam (Zoom)](/2021/keynote) |
+| [9:15am-10:00am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T161500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Keynote: [Velchamy Sankarlingam (Zoom)](/2021/keynote) |
 | [10:15am-11:15am](https://www.timeanddate.com/worldclock/converter.html?iso=20210805T171500&p1=1440&p2=224&p3=179&p4=195&p5=176&p6=33&p7=248) | Findings of the IWSLT 2021 Evaluation Campaign |  
    
 | Day2 | 6 Aug 2021 |
