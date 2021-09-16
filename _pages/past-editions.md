@@ -5,6 +5,7 @@ classes: wide
 ---
 
 
+  * [IWSLT 2021](https://iwslt.org/2021/){:target="_blank"}, 05-06 Aug. 2021 - Virtual Event
   * [IWSLT 2020](http://iwslt2020.ira.uka.de){:target="_blank"}, 09-10 Jul. 2020 - Virtual Event
   * [IWSLT 2019](http://workshop2019.iwslt.org){:target="_blank"}, 02-03 Nov. 2019 - Hong Kong, China
   * [IWSLT 2018](http://workshop2018.iwslt.org){:target="_blank"}, 29-30 Oct. 2018 - Bruges, Belgium

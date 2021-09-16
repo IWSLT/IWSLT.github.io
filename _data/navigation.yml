@@ -1,12 +1,10 @@
 main:
-  - title: "2021"
-    url: /2021/
-  - title: "Program"
-    url: /2021/program
+  - title: "2022"
+    url: /2022/
   - title: "Shared Tasks"
-    url: /2021/#shared-tasks
+    url: /2022/#shared-tasks
   - title: "Important Dates"
-    url: /2021/#important-dates
+    url: /2022/#important-dates
   - title: "Past Editions"
     url: /past-editions/
   - title: "SIGSLT"
