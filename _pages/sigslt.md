@@ -31,5 +31,6 @@ SIGSLT will:
   * Sebastian Stüker, KIT, Germany (*ELRA SIGSLT, President*)
   * Marco Turchi, FBK, Italy 
   * Alex Waibel, CMU, USA (*Chair*)
+  * Shinji Watanabe, CMU, USA
   * Dekai Wu, HKUST Hong Kong, China
   * Francois Yvon, LIMSI-LISN, France 
