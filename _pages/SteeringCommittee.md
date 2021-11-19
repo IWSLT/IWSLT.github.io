@@ -1,4 +1,10 @@
-### Steering Committee and Officers
+---
+permalink: /sigslt/
+title: "SIGSLT"
+classes: wide
+---
+
+## Steering Committee and Officers
 
   * Laurent Besacier, Université J. Fourier, France 
   * Marcello Federico, Amazon, USA (*ACL SIGSLT, President*) 
