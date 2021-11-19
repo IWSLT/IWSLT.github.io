@@ -1,6 +1,6 @@
 ---
 permalink: /SteeringCommittee/
-title: "SIGSLT"
+title: "Steering Committee"
 classes: wide
 ---
 
