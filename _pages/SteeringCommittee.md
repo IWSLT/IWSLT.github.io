@@ -1,5 +1,5 @@
 ---
-permalink: /sigslt/
+permalink: /SteeringCommittee/
 title: "SIGSLT"
 classes: wide
 ---
