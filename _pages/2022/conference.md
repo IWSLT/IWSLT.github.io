@@ -22,6 +22,7 @@ The **IWSLT 2021 Evaluation Campaign** will host shared tasks featuring the foll
 - [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
 - [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
+- more to be confirmed soon
 <!-- [Speech-to-speech Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Facebook;) -->
 <!-- [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU) -->
 <!-- [Speech Translation with Politeness Control](/2022/politeness) (Chair: Maria Nadejede, AWS AI)-->
@@ -86,3 +87,15 @@ The submission procedure will be linked here later this fall.
 ## Program Committee
 
 TBA
+
+## Sponsorship Opportunities
+
+IWSLT welcomes sponsorships to support human evaluations and student grants. 
+Sponsorships in kind will be managed by the IWSLT Chairs in collaboration with the sponsor. 
+Donations in cash will be managed through the Association for Computational Linguistics. 
+- Best student paper award: $1,000 
+- Student travel grant: $500 each (up to 5) 
+- Human evaluation grants: $1000 each (up to 5)
+
+
+
