@@ -54,8 +54,8 @@ The submission procedure will be linked here later this fall.
 
 |----------------|----------------------------------------------|
 | Jan 15, 2022    | release of shared task training and dev data |
-| Mar 14-25, 2022 | evaluation period                            |
 | Mar 13, 2022   | technical paper submission deadline          |
+| Mar 14-25, 2022 | evaluation period                            |
 | Apr  1, 2022   | system paper submission deadline             |
 | Apr 22, 2022  | paper notification                           |
 | May 1, 2022   | camera ready deadline                         |
