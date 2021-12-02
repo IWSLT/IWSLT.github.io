@@ -1,3 +1,7 @@
+---
+permalink: /2022/sponsorships
+title: "Sponsorships"
+---
 
 IWSLT welcomes sponsorships to fund human evaluations, data collections and students. 
 Sponsorships in kind will be managed by the IWSLT Chairs in collaboration with the sponsor. 
