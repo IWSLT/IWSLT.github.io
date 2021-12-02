@@ -89,7 +89,7 @@ The submission procedure will be linked here later this fall.
 TBA
 
 ## Sponsorship Opportunities
-IWSLT welcomes [sponsorships](sponsors)
+IWSLT welcomes [sponsorships](2022/sponsors)
 
 
 
