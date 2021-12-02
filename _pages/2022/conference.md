@@ -16,7 +16,7 @@ IWSLT 2022 will be collocated with [ACL 2022](https://2022.aclweb.org/){:target=
 
 ## Shared Tasks
 
-The **IWSLT 2021 Evaluation Campaign** will host four shared tasks featuring the following focus areas:
+The **IWSLT 2021 Evaluation Campaign** will host shared tasks featuring the following focus areas:
 
 - [Simultaneous Speech Translation](/2022/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
 - [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
