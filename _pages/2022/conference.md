@@ -55,13 +55,11 @@ The submission procedure will be linked here later this fall.
 |----------------|----------------------------------------------|
 | Jan 15, 2022    | release of shared task training and dev data |
 | Mar 14-25, 2022 | evaluation period                            |
-| Mar 18, 2022   | workshop session proposal deadline            |
-| Apr  1, 2022   | workshop sessions notification                |
 | Mar 13, 2022   | technical paper submission deadline          |
 | Apr  1, 2022   | system paper submission deadline             |
-| June 18, 2022  | paper notification                           |
-| Jun 29, 2022   | camera ready deadline                         |
-| Aug 5-6, 2022  | IWSLT conference                              |
+| Apr 22, 2022  | paper notification                           |
+| May 1, 2022   | camera ready deadline                         |
+| May 26-27, 2022  | IWSLT conference                              |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
@@ -77,42 +75,4 @@ The submission procedure will be linked here later this fall.
 
 ## Program Committee
 
-- Hirofumi Inaguma, Kyoto University, Japan
-- Surafel Melaku Lakew, Amazon AI, USA
-- Carlos Escolano, Universitat Politècnica de Catalunya, Spain
-- Jiatao Gu, Facebook AI Research, USA
-- Changhan Wang, Facebook AI Research, USA
-- Yun Tang, Facebook AI Research, USA
-- Akiko Eriguchi, Microsoft, USA
-- Xian Li, Facebook AI Research, USA
-- Qianqian Dong, Chinese Academy of Sciences, China
-- Yuchen Liu, Princeton, USA
-- Matthias Sperber, Apple, USA
-- Antonio Toral, U. Groningen, Netherlands
-- Thanh-le Ha, Karslruhe Institute of Technology, Germany
-- Krzystof Wolk, Polish‐Japanese Academy of Information Technology, Poland
-- Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
-- Julian Salazar, Amazon AWS AI, USA
-- Chengyi Wang, Nankai University, China
-- Christian Hardmeier, Uppsala U., Sweden
-- David Vilar, Amazon, Germany
-- Elizabeth Salesky, JHU, USA
-- Evgeny Matusov, AppTek, Germany
-- Juan Pino, Facebook, USA
-- Katsuhito Sudoh, NAIST, Japan
-- Laurent Besacier, IMAG, France
-- Marco Turchi, FBK, Italy
-- Markus Freitag, Google, USA
-- Matteo Negri, FBK, Italy
-- Matthias Huck, LMU, Germany
-- Mattia di Gangi, AppTek, Germany
-- Cuong Hoang, Amazon AI, USA
-- Nguyen Bach, Alibaba, USA
-- Preslav Nakov, QCRI, Qatar
-- Yves Lepage, U. Waseda, Japan
-- Jiajun Zhang,Institute of Automation Chinese Academy of Sciences, China
-- Duygu Ataman, University of Zurich, Switzerland 
-- Xutai Ma, Johns Hopkins University, USA
-- Melvin Johnson, Google, USA
-- Cuong Hoang, Amazon, USA 
-- José Guilherme Camargo de Souza, University of Trento
+TBA
