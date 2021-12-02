@@ -52,8 +52,17 @@ The submission procedure will be linked here later this fall.
 
 ### Timeline
 
-To be announced.
-{: .notice--info}
+|----------------|----------------------------------------------|
+| Jan 15, 2022    | release of shared task training and dev data |
+| Mar 14-25, 2022 | evaluation period                            |
+| Mar 18, 2022   | workshop session proposal deadline            |
+| Apr  1, 2022   | workshop sessions notification                |
+| Mar 13, 2022   | technical paper submission deadline          |
+| Apr  1, 2022   | system paper submission deadline             |
+| June 18, 2022  | paper notification                           |
+| Jun 29, 2022   | camera ready deadline                         |
+| Aug 5-6, 2022  | IWSLT conference                              |
+
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
 {: .notice--warning}
