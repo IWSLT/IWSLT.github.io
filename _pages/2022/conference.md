@@ -90,12 +90,15 @@ TBA
 
 ## Sponsorship Opportunities
 
-IWSLT welcomes sponsorships to support human evaluations and student grants. 
+IWSLT welcomes sponsorships to fund human evaluations, data collections and students. 
 Sponsorships in kind will be managed by the IWSLT Chairs in collaboration with the sponsor. 
-Donations in cash will be managed through the Association for Computational Linguistics. 
-- Best student paper award: $1,000 
-- Student travel grant: $500 each (up to 5) 
-- Human evaluation grants: $1000 each (up to 5)
+Donations in cash will be collected through the Association for Computational Linguistics and 
+used to sponsor students and to fund human evaluations and data collections run by non-profit entities.  
+
+We offer three sponsorship levels: bronze ($500), silver ($1,000), gold ($2,000), platinum ($5,000)
+Sponsors will be recognized in the website, during the conference and in the conference proceedings.  
+
+
 
 
 
