@@ -1,5 +1,5 @@
 ---
-permalink: /2022/sponsorships
+permalink: /2022/sponsors
 title: "Sponsorships"
 ---
 
