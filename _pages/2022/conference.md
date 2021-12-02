@@ -7,7 +7,7 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-## Colocated with ACL 2022
+## 26-27 May 2022 - ACL 2022
 
 The International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference, associated with an open evaluation campaign on spoken language translation, where both scientific papers and system descriptions are presented.
 
@@ -16,8 +16,17 @@ IWSLT 2022 will be collocated with [ACL 2022](https://2022.aclweb.org/){:target=
 
 ## Shared Tasks
 
-Details of the **IWSLT 2022 Evaluation Campaign** will be announced later this fall.
-{: .notice--info}
+The **IWSLT 2021 Evaluation Campaign** will host four shared tasks featuring the following focus areas:
+
+- [Simultaneous Speech Translation](/2022/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
+- [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
+- [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
+- [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
+- Dialect Speech Translation (TBC)
+- Politness Speech Translation (TBC)
+- Isochrone Speech Translation (TBC) 
+
+Data, metrics, and evaluation will be provided by the conference organizers.
 
 All tasks will follow the same [important dates](#important-dates). 
 
