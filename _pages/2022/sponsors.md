@@ -16,7 +16,7 @@ IWSLT 2021 offers 4 tiers of sponsorships in cash:
 - Silver Sponsor:   $2,000 
 - Bronze Sponsor:   $1,000  
 
-and two tiers for sponsorship in kind (e.g. computing credits):
+and two tiers for sponsorships in kind (e.g. computing credits):
 
 - Platinum Sponsor: $10,000
 - Gold Sponsor:      $5,000  
