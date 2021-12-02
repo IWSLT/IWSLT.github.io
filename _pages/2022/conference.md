@@ -19,7 +19,7 @@ IWSLT 2022 will be collocated with [ACL 2022](https://2022.aclweb.org/){:target=
 The **IWSLT 2021 Evaluation Campaign** will host shared tasks featuring the following focus areas:
 
 - [Simultaneous Speech Translation](/2022/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
-- [Speech-to-speech Speech Translation] (/2022/speech-to-speech) (Chair: Juan Pino, Facebook;)
+- [Speech-to-speech Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Facebook;)
 - [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
 - [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
