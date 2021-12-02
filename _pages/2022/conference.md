@@ -24,8 +24,8 @@ The **IWSLT 2021 Evaluation Campaign** will host shared tasks featuring the foll
 - [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
 - [Dialect Speech Translation](/2022/dialect) (Chair: TBC, TBC)
-<! [Speech Translation with Politeness Control](/2022/politeness) (Chair: TBC, TBC)
-<! [Isometric Speech Translation](/2022/isometric) (Chair: TBC, TBC)
+<!---  [Speech Translation with Politeness Control](/2022/politeness) (Chair: TBC, TBC)
+<! --- [Isometric Speech Translation](/2022/isometric) (Chair: TBC, TBC)
 
 Data, metrics, and evaluation will be provided by the conference organizers.
 
