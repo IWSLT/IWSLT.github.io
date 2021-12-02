@@ -18,15 +18,15 @@ IWSLT 2022 will be collocated with [ACL 2022](https://2022.aclweb.org/){:target=
 
 The **IWSLT 2021 Evaluation Campaign** will host shared tasks featuring the following focus areas:
 
-- [Simultaneous Speech Translation](/2022/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
-- [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
-- [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
-- [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
+- [Simultaneous Speech Translation](/2022/shared-tasks/simultaneous) (Chairs: Juan Pino, Facebook; Katsuhito Sudoh, NAIST)
+- [Offline Speech Translation](/2022/shared-tasks/offline)  (Chair: Marco Turchi, FBK)
+- [Multilingual Speech Translation](/2022/shared-tasks/multilingual) (Chair: Elizabeth Salesky, JHU)
+- [Low-Resource Speech Translation](/2022/shared-tasks/low-resource) (Chair: Antonis Anastasopoulos, George Mason University)
 -  ... more to be confirmed soon
-<!-- [Speech-to-speech Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Facebook;) -->
-<!-- [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU) -->
-<!-- [Speech Translation with Politeness Control](/2022/politeness) (Chair: Maria Nadejede, AWS AI)-->
-<!-- [Isometric Speech Translation](/2022/isometric) (Chair: Surafel Melaku, AWS AI) -->
+<!-- [Speech-to-speech Speech Translation](/2022/shared-tasks/speech-to-speech) (Chair: Juan Pino, Facebook;) -->
+<!-- [Dialect Speech Translation](/2022/shared-tasks/dialect) (Chair: Kevin Duh, JHU) -->
+<!-- [Speech Translation with Politeness Control](/2022/shared-tasks/politeness) (Chair: Maria Nadejede, AWS AI)-->
+<!-- [Isometric Speech Translation](/2022/shared-tasks/isometric) (Chair: Surafel Melaku, AWS AI) -->
 
 Data, metrics, and evaluation will be provided by the conference organizers.
 
@@ -89,14 +89,8 @@ The submission procedure will be linked here later this fall.
 TBA
 
 ## Sponsorship Opportunities
+IWSLT welcomes [sponsorships](/2022/sponsors)
 
-IWSLT welcomes sponsorships to fund human evaluations, data collections and students. 
-Sponsorships in kind will be managed by the IWSLT Chairs in collaboration with the sponsor. 
-Donations in cash will be collected through the Association for Computational Linguistics and 
-used to sponsor students and to fund human evaluations and data collections run by non-profit entities.  
-
-We offer three sponsorship levels: bronze ($500), silver ($1,000), gold ($2,000), platinum ($5,000)
-Sponsors will be recognized in the website, during the conference and in the conference proceedings.  
 
 
 
