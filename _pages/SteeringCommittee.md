@@ -22,6 +22,6 @@ classes: wide
   * Alex Waibel, CMU, USA (*Chair*)
   * Shinji Watanabe, CMU, USA
   * Dekai Wu, HKUST Hong Kong, China
-  * Francois Yvon, CNRS, France
+  * François Yvon, CNRS, France
   * Chengqing Zong, NLPR CAS, China
 
