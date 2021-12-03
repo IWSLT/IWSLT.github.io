@@ -11,18 +11,34 @@ title: "Offline Speech to Speech Translation"
 
 This goal of this task is to foster the development of automatic methods to translate speech in a language to speech in a target language. In particular, we are interested in comparing the performance of cascade (ASR + MT + TTS or S2T + TTS) approaches with end-to-end approaches. For this first edition, we are restricting the scope of the task to offline systems and the English-German language direction. We may extend this task to include simultaneous systems and possibly other languages in subsequent editions.
 
-# Evaluation
+## Evaluation
 
-## Automatic metric
+**Automatic metric**
 
 The output will be automatically transcribed with an ASR system provided by the organizers, then we will compute BLEU and chrF between the automatic transcript and a textual human reference.
 
-## Human evaluation
+**Human evaluation**
 
-We will replace automatic components by humans: first the system output will be manually transcribed and the transcript will be compared to a textual human reference with direct assessment (1-5 scores).
+Bilingual annotators will give a semantic similarity score between 1 and 5 between the source audio and the target audio.
+The quality of the output speech will also be evaluated along three dimensions: naturalness, clarity of speech and sound quality. These axes are more fine-grained than the traditional MOS score.
 
-Alternative: we can run direct assessment on comparing the output audio vs the reference audio (we could also break down for accuracy vs how natural the voice sounds).
+TODO: share details on guidelines.
 
+## Ranking
+
+The systems will be ranked according to the human evaluation.
+
+## Training and Development Data
+
+The offline task training data is allowed.
+
+## Segmentation
+
+Segmented input will be provided.
+
+## Baseline Implementation and Example
+
+Provide baseline?
 
 ## System Submission
 
