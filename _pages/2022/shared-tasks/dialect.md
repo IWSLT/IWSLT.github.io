@@ -14,7 +14,7 @@ The goal of this shared task is to advance dialectal speech translation in diglo
 -  (c) 1200 hours of Modern Standard Arabic (MSA) broadcast news with transcripts for ASR, available from MGB-2
 -  (d) ~13,000k lines of bitext in MSA-English for MT, available from OPUS (Opensubtitles, Multi-UN, QED, TED, GlobalVoices, News-Commentary)
 
-Datasets (a) and (b) are new resources developed by the LDC, which will be released for free to the IWSLT participants. The development and test sets (~3 hours each) are also three-way parallel and have the same characteristics. Participants will build end-to-end or cascaded systems that take Tunisian speech as input and generate English text as final output. 
+Datasets (a) and (b) are new resources developed by the LDC, which will be released for free to the IWSLT participants. The development and test sets (~3 hours each) are also three-way parallel and have the same characteristics. These datasets have been manually segmented at the utterance level. Participants will build end-to-end or cascaded systems that take Tunisian speech as input and generate English text as final output. 
 
 Participants can build systems for evaluation in any of these conditions:
 - Basic condition: train on datasets (a) and (b) only. This uses only Tunisian-English resources; the smaller dataset and simpler setup makes this ideal for participants starting out in speech translation research. 
