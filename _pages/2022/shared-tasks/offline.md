@@ -10,11 +10,11 @@ title: "Offline Speech Translation"
 
 Recent advances in deep learning are giving the possibility to address traditional NLP tasks in a new and completely different manner. One of these tasks is spoken language translation (SLT). For years, SLT has been addressed by cascading an automatic speech recognition (ASR) and a machine translation (MT) system. Recent trends rely on using a single neural network to directly translate the input audio signal in one language into a text in a different language without intermediate symbolic representations, e.g., transcriptions.  
 
-The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. Last year's results of IWSLT 2020 have shown that the performance of end-to-end models is approaching and even overtaking the results of cascade solutions. Hence, the question we want to answer this year is: **is the cascaded solution still the dominant technology in spoken language translation?**
+The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. Last year's results of IWSLT 2021 have confirmed that the performance of end-to-end models is approaching the results of cascade solutions. Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?** **Are the results obtained on English-German valid for other language directions?**
 
-In continuity with last year, the task addresses the translation of TED talks from English into German. **One test set will be released containing the same talks, respectively with and without audio segmentation.**
+Differently from last year, the task addresses the translation of TED talks from English into German (similar to previosu editions) and from English to Chinese and English to Japanese. **One test set will be released for each language direction containing the same talks, respectively with and without audio segmentation.**
 
-The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh).
+The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best performing submission of each participant.
 
 
 ## Evaluation Conditions
@@ -30,16 +30,26 @@ In this task, we use the following definition of end-to-end model:
 
 This year one versions of the same TED talks is released. It contains the audio files and the information to convert them into sentence-like segmentation using automatic tools. Systems using the given or another segmentation will be evaluated in a single ranking without distinction between given or own segmentation.
 
-To measure the progress in the ST field, each participant is required to translate also the 2020 test set that is still blind. Similar to this year test set, the 2021 test set will be made available with and without automatic segmentation.
+### English - German Test sets:
 
-### Test sets:
-
-2020:
-  -   [Segmented/Unsegmented](https://surfdrive.surf.nl/files/index.php/s/KVYz2OgcVZJGPYK)
+To measure the progress in the ST field, each participant is required to translate also the 2021 test set that is still blind. Similar to this year test set, the 2022 test set will be made available with and without automatic segmentation.
 
 2021:
   -   [Segmented/Unsegmented](https://surfdrive.surf.nl/files/index.php/s/U3blQuKJ2M0L14K)
 
+2021:
+  -   To be released
+
+
+### English - Chinese Test sets:
+
+2021:
+  -   To be released
+
+### English - Japanese Test sets:
+
+2021:
+  -   To be released
 
 ## Past Editions Development Data
 
@@ -67,23 +77,17 @@ Development data:
 
 ## Allowed Training Data
 
-<!--### IMPORTANT: new En-De training data will be made avaialble soon! Stay tuned! -->
+### IMPORTANT: new English - Chinese/Japanese training data will be made avaialble soon! Stay tuned! 
 
 
 
-**"NEW TRAINING DATA!!"** 
+### English - German Training data
 
-In addition to the resources listed below, this year a new version of the En-De training data is released. It is part of the MuST-C V2 that will be made available in the next months. It includes training, dev, and test (Test Common), in the same structure of MuST-C V1.
-
-Differences with MuST-C v1:
-  * More talks that result in 20k more audio/text segments;  
-  * Improved cleaning strategies able to better discard low-quality triplets (audio, transcript, translation), in particular, when the text is not well-aligned with the audio and the audio is shorter than 50 millisecs;  
-  * TED talks of MuST-C v2 were downloaded from the [YouTube TED channel](https://www.youtube.com/c/TED/videos), where higher quality audio/videos are available with respect to the TED website used for the previous version of MuST-C. The downloading was performed by means of [youtube-dl](https://youtube-dl.org/), the well-known open-source download manager, specifying the "-f bestaudio option". The audios were finally converted from two (stereo) to one (mono) channel and downsampled from 48 to 16 kHz, using [FFmpeg](https://ffmpeg.org/). 
-By inspecting the spectrograms of the same talks in the two versions of MuST-C clearly emerges that the upper limit band in the audios used in MuST-C V1 is 5 kHz, while it is at 8 kHz in the latest version, coherently with the 16 kHz sample rate. **This difference does not guarantee the fully compatibility between V1 and V2 of MuST-C.**  
+The same training data of the last year's edition are allowed. 
   
-The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. 
+The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. Please read the note [here](https://iwslt.org/2021/offline#allowed-training-data) to better understand the differences between the MuST-C V1 and V2.
 
-IMPORTANT NOTE: the 2021 test set will be processed using the same pipeline of the MuST-C V2 training data. For this reason, we recommend the use of the new MuST-C training data. 
+
 
 These datasets can be used to train your model:
   * [MuST-C corpus v1](https://ict.fbk.eu/must-c/) The MuST-C V1 is still available to favor the reuse of past trained models.
