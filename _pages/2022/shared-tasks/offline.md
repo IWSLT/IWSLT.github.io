@@ -117,14 +117,16 @@ Moreover, the follow pre-trained language models are considered parts of the tra
   * Scoring will be case-sensitive and including the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing etc are not considered during the evaluation.
 
 TAR archive file structure:  
-< UserID >/< Set >.< Task >.< UserID >.primary.txt  
-&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive1.txt
-&emsp;&emsp;  /< Set >.< Task >.< UserID >.contrastive2.txt  
+< UserID >/< Set >.< LangDir >.< Task >.< UserID >.primary.txt  
+&emsp;&emsp;  /< Set >.< LangDir >.< Task >.< UserID >.contrastive1.txt
+&emsp;&emsp;  /< Set >.< LangDir >.< Task >.< UserID >.contrastive2.txt  
 &emsp;&emsp;  /...  
 where:  
 < UserID > = user ID of participant used the short name chosen in the registration form (e.g. the name of your institution)
 
-< Set > = IWSLT21.SLT.tst2021  
+< Set > = IWSLT21.SLT.tst2021
+
+< LangDir > = En-De/Zh/Jp
 
 < Task > =  < fromLID >-< toLID >;
  where < fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes (e.g. en-de or OfflineTask.en-de)
