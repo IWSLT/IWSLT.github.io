@@ -10,7 +10,7 @@ title: "Offline Speech Translation"
 
 Recent advances in deep learning are giving the possibility to address traditional NLP tasks in a new and completely different manner. One of these tasks is spoken language translation (SLT). For years, SLT has been addressed by cascading an automatic speech recognition (ASR) and a machine translation (MT) system. Recent trends rely on using a single neural network to directly translate the input audio signal in one language into a text in a different language without intermediate symbolic representations, e.g., transcriptions.  
 
-The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. Last year's results of IWSLT 2021 have confirmed that the performance of end-to-end models is approaching the results of cascade solutions. Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?** **Are the results obtained on English-German valid for other language directions?**
+The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. Last year's results of IWSLT 2021 have confirmed that the performance of end-to-end models is approaching the results of cascade solutions. Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?** **Are the results obtained using the English-German data also valid for other language directions?**
 
 Differently from last year, the task addresses the translation of TED talks from English into German (similar to previosu editions) and from English to Chinese and English to Japanese. **One test set will be released for each language direction containing the same talks, respectively with and without audio segmentation.**
 
@@ -32,7 +32,7 @@ This year one versions of the same TED talks is released. It contains the audio 
 
 ### English - German Test sets:
 
-To measure the progress in the ST field, each participant is required to translate also the 2021 test set that is still blind. Similar to this year test set, the 2022 test set will be made available with and without automatic segmentation.
+To measure the progress in the ST field, each participant is required to translate also the 2021 test set that is still blind. Similar to last year test set, the 2022 test set will be made available with and without automatic segmentation.
 
 2021:
   -   [Segmented/Unsegmented](https://surfdrive.surf.nl/files/index.php/s/U3blQuKJ2M0L14K)
@@ -85,7 +85,9 @@ Development data:
 
 The same training data of the last year's edition are allowed. 
   
-The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. Please read the note [here](https://iwslt.org/2021/offline#allowed-training-data) to better understand the differences between the MuST-C V1 and V2.
+The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. 
+
+Please read the note [here](https://iwslt.org/2021/offline#allowed-training-data) to better understand the differences between the MuST-C V1 and V2.
 
 
 
@@ -104,6 +106,7 @@ These datasets can be used to train your model:
   * [Augmented LibriSpeech](https://github.com/alicank/Translation-Augmented-LibriSpeech-Corpus) (only English - French)
   * [Mozilla Common Voice](https://voice.mozilla.org/en/datasets) for English use version en_2179h_2020-12-11
   * [LibriSpeech ASR corpus](http://www.openslr.org/12/)
+  * [VoxPopuli](https://github.com/facebookresearch/voxpopuli)
 
 Moreover, the follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
   * TBD
