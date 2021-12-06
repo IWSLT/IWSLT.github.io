@@ -37,18 +37,18 @@ To measure the progress in the ST field, each participant is required to transla
 2021:
   -   [Segmented/Unsegmented](https://surfdrive.surf.nl/files/index.php/s/U3blQuKJ2M0L14K)
 
-2021:
+2022:
   -   To be released
 
 
 ### English - Chinese Test sets:
 
-2021:
+2022:
   -   To be released
 
 ### English - Japanese Test sets:
 
-2021:
+2022:
   -   To be released
 
 ## Past Editions Development Data
@@ -105,6 +105,8 @@ These datasets can be used to train your model:
   * [Mozilla Common Voice](https://voice.mozilla.org/en/datasets) for English use version en_2179h_2020-12-11
   * [LibriSpeech ASR corpus](http://www.openslr.org/12/)
 
+Moreover, the follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
+  * TBD
 
 ## Submission Guidelines
 
