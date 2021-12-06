@@ -126,7 +126,7 @@ where:
 
 < Set > = IWSLT21.SLT.tst2021
 
-< LangDir > = En-De/Zh/Jp
+< LangDir > = En-De/Zh/Ja
 
 < Task > =  < fromLID >-< toLID >;
  where < fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes (e.g. en-de or OfflineTask.en-de)
