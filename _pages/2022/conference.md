@@ -25,8 +25,8 @@ The **IWSLT 2021 Evaluation Campaign** will host shared tasks featuring the foll
 -  ... more to be confirmed soon
 <!-- [Speech-to-speech Speech Translation](/2022/shared-tasks/speech-to-speech) (Chair: Juan Pino, Facebook;) -->
 <!-- [Dialect Speech Translation](/2022/shared-tasks/dialect) (Chair: Kevin Duh, JHU) -->
-<!-- [Speech Translation with Politeness Control](/2022/shared-tasks/politeness) (Chair: Maria Nadejede, AWS AI)-->
-<!-- [Isometric Speech Translation](/2022/shared-tasks/isometric) (Chair: Surafel Melaku, AWS AI) -->
+<!-- [Machine Translation with Politeness Control](/2022/shared-tasks/politeness) (Chair: Maria Nadejede, AWS AI)-->
+<!-- [Isometric Script Translation](/2022/shared-tasks/isometric) (Chair: Surafel Melaku, AWS AI) -->
 
 Data, metrics, and evaluation will be provided by the conference organizers.
 
