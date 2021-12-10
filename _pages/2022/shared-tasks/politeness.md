@@ -1,5 +1,5 @@
 ---
-permalink: /2022/politeness
+permalink: /2022/formality
 title: "Special Task on Formality Control for Spoken Language Translation"
 ---
 
