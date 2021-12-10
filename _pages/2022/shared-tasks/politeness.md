@@ -32,9 +32,9 @@ Controlling the politeness or formality level of a machine translation model has
 |	|Informal	|**[F]Könntest du[F]** bitte **[F]deinen[/F]** Vornamen angeben?	|
 |	|Formal	|**[F]Könnten Sie[/F]** bitte **[/F]Ihren[/F]** Vornamen angeben?	|
 |JA	|Source	|I'm very sorry to hear that. You may go back and see if the chef can try to make meal again.	|
-|	|Informal (*Kudaketa*)	|それを聞いて大変**[F]残念に思う[/F]**。**[/F]戻って[/F]**、シェフがもう一度食事を作り直せるかどうかを**[F]確認****して[/F]**。	|
-|	|Formal (*Teineigo*)	|それを聞いて大変**[F]残念に思います[/F]**。**[F]戻って[/F]**、シェフがもう一度食事を作り直せるかどうかを**[F]確認****してください[/F]**。	|
-|	|High-formal (S*onkeigo / K*enjōgo**)	|それを聞いて大変**[F]残念に思います[/F]**。**[F]お戻りになって[/F]**、シェフがもう一度食事を作り直せるかどうかを**[/F]確認****なさってください[/F]**。	|
+|	|Informal (_Kudaketa_)	|それを聞いて大変 **[F]残念に思う[/F]** 。 **[/F]戻って[/F]** 、シェフがもう一度食事を作り直せるかどうかを **[F]確認して[/F]** 。	|
+|	|Formal (_Teineigo_)	|それを聞いて大変 **[F]残念に思います[/F]** 。 **[F]戻って[/F]** 、シェフがもう一度食事を作り直せるかどうかを **[F]確認してください[/F]** 。	|
+|	|High-formal (_Sonkeigo / Kenjōgo_)	|それを聞いて大変 **[F]残念に思います[/F]** 。 **[F]お戻りになって[/F]** 、シェフがもう一度食事を作り直せるかどうかを **[F]確認なさってください[/F]** 。	|
 
 
 
@@ -42,7 +42,7 @@ Controlling the politeness or formality level of a machine translation model has
 
 Preliminary schedule based on the IWSLT dates.
 
-|-------------|----------------------------------------------|
+|Date | Stage | 
 |Jan 15, 2022	|release of formality-annotated training and dev data	|
 |Mar 14, 2022	|formality evaluation data released	|
 |Mar 24, 2022	|translation submission deadline	|
