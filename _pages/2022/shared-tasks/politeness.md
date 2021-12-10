@@ -82,14 +82,14 @@ As part of this special task, we will **release novel targeted train and test se
 
 |setting	|language pair	|train	|test	|test reference overlap (BLEU)	|
 |---	|---	|---	|---	|---	|
-|supervised	|EN-JA	|1000	|500	|74.3	|
-|supervised	|EN-DE	|1000	|500	|74.9	|
-|supervised	|EN-ES	|1000	|500	|78.7	|
-|supervised	|EN-HI	|1000	|500	|81.6	|
-|zero-shot	|EN-IT	|0	|500	|78.7	|
-|zero-shot	|EN-RU	|0	|500	|TBD	|
+|supervised	|EN-JA	|TBD	|TBD	|74.3	|
+|supervised	|EN-DE	|TBD	|TBD	|74.9	|
+|supervised	|EN-ES	|TBD	|TBD	|78.7	|
+|supervised	|EN-HI	|TBD	|TBD	|81.6	|
+|zero-shot	|EN-IT	|0	|TBD	|78.7	|
+|zero-shot	|EN-RU	|0	|TBD	|TBD	|
 
-This special task will offer two training scenarios: **supervised** and **zero-shot**. For the **supervised** training scenario, participants can use the 1000-sentence training set for training and development. For the **zero-shot** task, we will release only test data.
+This special task will offer two training scenarios: **supervised** and **zero-shot**. For the **supervised** training scenario, participants can use the labeled training set for training and development. For the **zero-shot** task, we will release only test data.
 
 We ask that all participants cite [citation instructions to follow]
 
