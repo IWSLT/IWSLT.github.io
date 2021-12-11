@@ -75,16 +75,15 @@ Participants may use text-to-text training data available in the MuST-C v2 offli
 In addition participants can use the latest parallel data for each of the language pairs from 
 [WMT](https://www.statmt.org/wmt21/) for their model training. 
 Submission information should state what type and amount of data are used for model training. 
-Given the amount of data and for a fair assessment, submission is divided into two training data regimes: 
+Depending on the used data, submissions are divided into two training data regimes: 
 
 
 **Constrained task**
-* Allowed to use only the textual MuST-C v2 data.
+* Use only the textual MuST-C v2 data.
 
 **Unconstrained task**
-* Allowed to use the textual MuST-C v2 data
-* Allowed to use WMT data 
-* Allowed to use pre-trained translation models
+* Might use the textual MuST-C v2 data
+* WMT data and pre-trained translation models
 
 
 #### Test Sets
