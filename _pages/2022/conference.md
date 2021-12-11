@@ -25,7 +25,7 @@ The **IWSLT 2022 Evaluation Campaign** will host shared tasks featuring the foll
 - [Speech-to-speech Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta)
 - [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU)
 - [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, Amazon)
-- [Isometric SLT](/2022/isometric) (Chair: TBD, Amazon)
+- [Isometric SLT](/2022/isometric) (Chair: Prashant Mathur, Amazon)
 <!-- this is a comment -->
 
 Data, metrics, and evaluation will be provided by the conference organizers.
