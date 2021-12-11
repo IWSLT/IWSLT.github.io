@@ -24,7 +24,7 @@ The **IWSLT 2022 Evaluation Campaign** will host shared tasks featuring the foll
 - [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason U.)
 - [Speech-to-speech Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta)
 - [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU)
-- [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejede, Amazon)
+- [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, Amazon)
 - [Isometric SLT](/2022/isometric) (Chair: TBD, Amazon)
 <!-- this is a comment -->
 
