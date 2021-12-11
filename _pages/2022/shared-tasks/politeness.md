@@ -40,10 +40,12 @@ Controlling the politeness or formality level of a machine translation model has
 
 ### Important dates
 
-Preliminary schedule based on the IWSLT dates.
+Tentative schedule based on the IWSLT dates.
 
-|Date | Stage | 
-|Jan 15, 2022	|release of formality-annotated training and dev data	|
+
+|Date |Stage |
+|---	|---	|
+|Jan, 15 2022	|release of formality-annotated training and dev data	|
 |Mar 14, 2022	|formality evaluation data released	|
 |Mar 24, 2022	|translation submission deadline	|
 |Mar 25, 2022	|formality reference translations released	|
