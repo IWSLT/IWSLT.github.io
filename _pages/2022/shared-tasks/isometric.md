@@ -79,10 +79,10 @@ Depending on the used data, submissions are divided into two training data regim
 
 
 **Constrained task**
-* Use only the textual MuST-C v2 data.
+* Can only use the textual MuST-C v2 data.
 
 **Unconstrained task**
-* Might use the textual MuST-C v2 data
+* Can use the textual MuST-C v2 data,
 * WMT data and pre-trained translation models
 
 
