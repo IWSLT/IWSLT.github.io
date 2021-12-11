@@ -14,7 +14,8 @@ classes: wide
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
   * Hermann Ney, RWTH, Germany
   * Jan Niehues, Mastricht U., Netherlands
-  * Juan Pino, Facebook, USA
+  * Juan Pino, Meta, USA
+  * Elizabeth Salesky, JHU, USA
   * Mark Seligman, Spoken Translation Inc., USA
   * Katsuhito Sudoh, NAIST, Japan
   * Sebastian Stüker, Zoom, Germany (*ELRA SIGSLT, President*)
