@@ -15,6 +15,7 @@ classes: wide
   * Hermann Ney, RWTH, Germany
   * Jan Niehues, Mastricht U., Netherlands
   * Juan Pino, Facebook, USA
+  * Elizabeth Salesky, JHU, USA
   * Mark Seligman, Spoken Translation Inc., USA
   * Katsuhito Sudoh, NAIST, Japan
   * Sebastian Stüker, Zoom, Germany (*ELRA SIGSLT, President*)
