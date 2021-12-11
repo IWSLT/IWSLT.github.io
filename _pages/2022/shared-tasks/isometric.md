@@ -11,11 +11,10 @@ Isometric translation task refers to generating translations similar in length t
 Despite the fast paced progress to improve quality, generating isometric translations is relatively a new problem in 
 machine translation (MT) research and application. 
 Isometric translation can be applied in a wide range of real world applications such as automatic dubbing 
-([to achieve synchrony between source and target language utterances](https://arxiv.org/abs/2001.06785)), 
+([to achieve synchrony between source and target language utterances](https://www.amazon.science/publications/from-speech-to-speech-translation-to-automatic-dubbing)), 
 sub-titling ([to properly fit translations of one or more language in a video frame](https://arxiv.org/abs/2006.01080)), 
 simultaneous translation (to translate in consideration of the listener’s cognitive effort ), and 
-template preserving translation (i.e. fit the translation in a fixed width block).  
-Hence, building MT models that can generate increasingly isometric translation while maintaining the 
+template preserving translation (i.e. fit the translation in a fixed width block). Hence, building MT models that can generate increasingly isometric translation while maintaining the 
 translation quality can have a far reaching impact in diverse MT use cases.
 
 
@@ -29,7 +28,7 @@ For this first isometric translation task, we consider a text-to-text translatio
 
 These language pairs exhibit different degrees of target to source length ratio in character count, 
 for instance target-source length ratio for the training data from 
-[MuST-C](https://iwslt.org/2021/offline#allowed-training-data) for En-Fr is 1.11, En-De is 1.12 and En-Es is 1.04. 
+[MuST-C](https://iwslt.org/2021/offline#allowed-training-data) for En-Fr is `1.11`, En-De is `1.12` and En-Es is `1.04`. 
 These ratios make it ideal to assess the generalization capability of proposed isometric MT approaches. 
 Participants are encouraged to evaluate their approaches using all language pairs.
 
@@ -59,13 +58,12 @@ it is easier to synchronize source and target speech for use cases like automati
 In this evaluation, LC is applied only for translations with length above 10 characters.
 
 
-#### System Rating
-We plot the systems on XY scatter plot with translation quality on Y axis and length compliance on X axis. 
-Systems are ranked based on BERTScore*LC. 
+#### System Ranking
+All submissions will be ranked based on a combination of BERTScore and Length Compliance.
 
-
-Systems submitted for the above language pairs, will be evaluated on MuST-C (tst-COMMON) and blind test sets 
-(see dataset section for more details). In addition to their primary system participants can and are encouraged to submit multiple system runs. 
+Systems submitted for the above language pairs, will be evaluated on MuST-C (`tst-COMMON`) and blind test sets 
+(see dataset section for more details). In addition to their primary system, participants are encouraged to submit 
+multiple contrastive runs.
 
 
 ### Datasets
@@ -93,9 +91,10 @@ Given the amount of data and for a fair assessment, submission is divided into t
 
 We will evaluate the submitted systems on a test set and a blind set:
 
-* MuST-C test set (tst-COMMON) which is a public dataset.
-* Blind set curated by the organizers for En → French, German, Spanish, which will be released after the task is over.
-
+* MuST-C test set (`tst-COMMON`) which is a public dataset.
+*  Blind set is another test set curated by the organizers for En → Fr, De, Es. 
+Participants will get access to the English source sentences when evaluation starts and references will be released 
+after the shared task is completed.
 
 ### System Submission
 
