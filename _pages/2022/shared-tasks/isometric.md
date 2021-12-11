@@ -91,7 +91,7 @@ Depending on the used data, submissions are divided into two training data regim
 We will evaluate the submitted systems on a test set and a blind set:
 
 * MuST-C test set (`tst-COMMON`) which is a public dataset.
-*  Blind set is another test set curated by the organizers for En → Fr, De, Es. 
+*  Blind set is curated by the organizers for En → Fr, De, Es. 
 Participants will get access to the English source sentences when evaluation starts and references will be released 
 after the shared task is completed.
 
