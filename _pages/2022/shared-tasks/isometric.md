@@ -11,10 +11,10 @@ Isometric translation task refers to generating translations similar in length t
 Despite the fast paced progress to improve quality, generating isometric translations is relatively a new problem in 
 machine translation (MT) research and application. 
 Isometric translation can be applied in a wide range of real world applications such as automatic dubbing 
-([to achieve synchrony between source and target language utterances](https://www.amazon.science/publications/from-speech-to-speech-translation-to-automatic-dubbing)), 
-sub-titling ([to properly fit translations of one or more language in a video frame](https://arxiv.org/abs/2006.01080)), 
-simultaneous translation (to translate in consideration of the listener’s cognitive effort ), and 
-template preserving translation (i.e. fit the translation in a fixed width block). Hence, building MT models that can generate increasingly isometric translation while maintaining the 
+([to achieve synchrony between source and target speech](https://www.amazon.science/publications/from-speech-to-speech-translation-to-automatic-dubbing)), 
+sub-titling ([to fit the video frame](https://arxiv.org/abs/2006.01080)), 
+simultaneous speech translation (to control the reading or listening effort), and 
+layout constrained translation (i.e. document table or database field). Hence, building MT models that can generate increasingly isometric translation while maintaining the 
 translation quality can have a far reaching impact in diverse MT use cases.
 
 
