@@ -10,12 +10,17 @@ title: "Offline Speech Translation"
 
 Recent advances in deep learning are giving the possibility to address traditional NLP tasks in a new and completely different manner. One of these tasks is spoken language translation (SLT). For years, SLT has been addressed by cascading an automatic speech recognition (ASR) and a machine translation (MT) system. Recent trends rely on using a single neural network to directly translate the input audio signal in one language into a text in a different language without intermediate symbolic representations, e.g., transcriptions.  
 
-The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. Last year's results of IWSLT 2021 have confirmed that the performance of end-to-end models is approaching the results of cascade solutions. Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?** **Are the results obtained using the English-German data also valid for other language directions?**
+The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. Last year's results of IWSLT 2021 have confirmed that the performance of end-to-end models is approaching the results of cascade solutions. Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?** 
 
-Differently from last year, the task addresses the translation of TED talks from English into German (similar to previosu editions) and from English to Chinese and English to Japanese. **One test set will be released for each language direction containing the same talks, respectively with and without audio segmentation.**
+In addition to this research question, this year will will address additional research question in the evaluation:
 
+  * **Are the results obtained using the English-German data also valid for other language directions?** Differently from last year, the task addresses the translation of TED talks from English into German (similar to previosu editions) and from English to Chinese and English to Japanese. **One test set will be released for each language direction containing the same talks, respectively with and without audio segmentation.**
+  * **Can we improve the translation quality by using pre-trained models?** In addition to the allowed list of training data for the constrained condition, we also provided a list of pre-trained models that participants are allowed to use in their system. We hope to answer the question how helpful these resources are to improve the performance of state-of-the-art speech translation systems.
+  
+  
+  
 The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best performing submission of each participant.
-
+The guidelines for generating the human translation for TED talks were modified recently, in order to produce shorter translations that better fit for subtitling. Since this task focuses on speech translation without additional constraints, we will produce an additional reference that is generated without additional constraints for the human translators as we did last year.
 
 ## Evaluation Conditions
 
@@ -109,7 +114,14 @@ These datasets can be used to train your model:
   * [VoxPopuli](https://github.com/facebookresearch/voxpopuli)
 
 Moreover, the follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
-  * TBD
+
+  * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
+  * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
+  * [Mbart](https://github.com/pytorch/fairseq/blob/main/examples/mbart/README.md)
+  * [M2M100](https://github.com/pytorch/fairseq/tree/main/examples/m2m_100)
+  * [Delta LM](https://github.com/microsoft/unilm/tree/master/deltalm)
+  * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
+
 
 ## Submission Guidelines
 
