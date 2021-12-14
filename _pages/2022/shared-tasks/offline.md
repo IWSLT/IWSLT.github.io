@@ -1,6 +1,8 @@
 ---
 permalink: /2022/offline
 title: "Offline Speech Translation"
+toc: true
+toc_sticky: true
 ---
 
 ## Description
@@ -35,7 +37,7 @@ In this task, we use the following definition of end-to-end model:
 
 This year one versions of the same TED talks is released. It contains the audio files and the information to convert them into sentence-like segmentation using automatic tools. Systems using the given or another segmentation will be evaluated in a single ranking without distinction between given or own segmentation.
 
-### English - German Test sets:
+### English - German Test sets
 
 To measure the progress in the ST field, each participant is required to translate also the 2021 test set that is still blind. Similar to last year test set, the 2022 test set will be made available with and without automatic segmentation.
 
@@ -46,12 +48,12 @@ To measure the progress in the ST field, each participant is required to transla
   -   To be released
 
 
-### English - Chinese Test sets:
+### English - Chinese Test sets
 
 2022:
   -   To be released
 
-### English - Japanese Test sets:
+### English - Japanese Test sets
 
 2022:
   -   To be released
@@ -68,7 +70,7 @@ The development data is not segmented using the reference transcript. The archiv
   * The last two files are created by the following command:
 python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramidal-preproc.yaml
 
-Development data:
+**Development data:**
 
 (Please note that system generated the provided ASR scripts use more training data than allowed for this year's evaluations)
   * [dev2010](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/preprocessed/IWSLT-SLT.dev2010.en-de.tgz)
@@ -82,8 +84,8 @@ Development data:
 
 ## Allowed Training Data
 
-### IMPORTANT: new English - Chinese/Japanese training data will be made avaialble soon! Stay tuned! 
-
+**IMPORTANT**: new English - Chinese/Japanese training data will be made available soon! Stay tuned!
+{: .notice--info}
 
 
 ### English - German Training data
@@ -113,14 +115,21 @@ These datasets can be used to train your model:
   * [LibriSpeech ASR corpus](http://www.openslr.org/12/)
   * [VoxPopuli](https://github.com/facebookresearch/voxpopuli)
 
+### Pretrained models
+
 Moreover, the follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
 
   * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
   * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
-  * [Mbart](https://github.com/pytorch/fairseq/blob/main/examples/mbart/README.md)
+  * [MBART](https://github.com/pytorch/fairseq/blob/main/examples/mbart/README.md)
   * [M2M100](https://github.com/pytorch/fairseq/tree/main/examples/m2m_100)
   * [Delta LM](https://github.com/microsoft/unilm/tree/master/deltalm)
   * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
+
+
+## Multilingual Models
+
+We are also interested in when and why multilingual models may be beneficial. With three target languages this year, multilingual models are allowed, but must be specified as such at submission time. Many of the above pretrained models are multilingual. We will note which submissions use multilingual models in the overview paper. 
 
 
 ## Submission Guidelines
@@ -131,20 +140,19 @@ Moreover, the follow pre-trained language models are considered parts of the tra
   * Each run has to be stored in a plain text file with one sentence per line
   * Scoring will be case-sensitive and including the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing etc are not considered during the evaluation.
 
-TAR archive file structure:  
+TAR archive file structure:
+```
 < UserID >/< Set >.< LangDir >.< Task >.< UserID >.primary.txt  
-&emsp;&emsp;  /< Set >.< LangDir >.< Task >.< UserID >.contrastive1.txt
-&emsp;&emsp;  /< Set >.< LangDir >.< Task >.< UserID >.contrastive2.txt  
-&emsp;&emsp;  /...  
+  /< Set >.< LangDir >.< Task >.< UserID >.contrastive1.txt  
+  /< Set >.< LangDir >.< Task >.< UserID >.contrastive2.txt  
+  /...  
+```
 where:  
-< UserID > = user ID of participant used the short name chosen in the registration form (e.g. the name of your institution)
-
-< Set > = IWSLT21.SLT.tst2021
-
-< LangDir > = En-De/Zh/Ja
-
-< Task > =  < fromLID >-< toLID >;
- where < fromLID >, < toLID > = Language identifiers (LIDs) as given by ISO 639-1 codes (e.g. en-de or OfflineTask.en-de)
+`< UserID >` = user ID of participant used the short name chosen in the registration form (e.g. the name of your institution)  
+`< Set >` = IWSLT21.SLT.tst2021  
+`< LangDir >` = En-De/Zh/Ja  
+`< Task >` =  `< fromLID >-< toLID >`;  
+and where `< fromLID >`, `< toLID >` = Language identifiers (LIDs) as given by ISO 639-1 codes (e.g. en-de or OfflineTask.en-de)  
 
 All the submissions should be sent to this address: <iwslt_offline_task_submission@fbk.eu>
 
@@ -152,9 +160,10 @@ The email should include the following information:
   * Institute:
   * Contact Person:
   * Email:
-  * Data condition: Constraint/Unconstraint 
+  * Data condition: Constrained/Unconstrained
   * Segmentation: Own/Given
   * Brief abstract about the system:
+  * Multilingual: Yes/No 
   * Do you want to make your submissions freely available for research purposes? (yes/no)
 
 

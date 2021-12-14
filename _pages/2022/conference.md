@@ -20,9 +20,8 @@ The **IWSLT 2022 Evaluation Campaign** will host shared tasks featuring the foll
 
 - [Simultaneous Speech Translation](/2022/simultaneous) (Chairs: Juan Pino, Meta; Katsuhito Sudoh, NAIST)
 - [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
-- [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason U.)
-- [Speech-to-speech Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta)
+- [Speech-to-Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta)
 - [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU)
 - [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, Amazon)
 - [Isometric SLT](/2022/isometric) (Chair: Prashant Mathur, Amazon)
@@ -35,7 +34,7 @@ All tasks will follow the same [important dates](#important-dates).
 
 ### Registration
 
-Registration for the 2022 Evaluation Campaign will open later this fall. 
+Registration for the 2022 Evaluation Campaign will open soon. 
 {: .notice--info}
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
@@ -48,7 +47,7 @@ All papers may consist of 4 to 8 pages of content with additional pages of refer
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 Accepted papers will be published in the ACL 2022 proceedings and will be presented at the IWSLT conference either orally or as a poster.
 
-The submission procedure will be linked here later this fall. 
+The submission procedure will be linked here once available. 
 {: .notice--info}
 
 
