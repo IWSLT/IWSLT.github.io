@@ -11,14 +11,15 @@ title: "Simultaneous Speech Translation"
 
 Simultaneous translation (also known as real-time or streaming translation) is the task of generating translations incrementally given partial input only.
 Simultaneous translation enables interesting applications such as automatic simultaneous interpretation or international conference translations.
-Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 3 tracks:
+Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 2 tracks and 3 language pairs:
 
 * Text-to-Text: translating the output of a streaming ASR system in real-time from English to German, English to Japanese and English to Mandarin Chinese.
-* Speech-to-Text: directly translating speech into text in real-time from English to German and English to Mandarin Chinese.
+* Speech-to-Text: translating speech into text in real-time from English to German, English to Japanese and English to Mandarin Chinese.
 
-We want to highlight the differences with respect to the first edition:
-* for the text-to-text track, we will use the output of a streaming ASR system as input instead of the gold transcript.
+We want to highlight the differences with respect to last edition:
+* for the text-to-text track, we will use the output of a streaming ASR system as input instead of the gold transcript. As a result, both text-to-text and speech-to-text systems will be ranked together for a given language pair.
 * we are adding Mandarin Chinese as a target language.
+* in order to reduce the number of tracks, we will only use segmented input.
 
 We encourage participants to enter all tracks when possible. We also encourage participants to contrast cascaded and end-to-end solutions for the Speech-to-Text track.
 
@@ -29,8 +30,7 @@ We will use a very similar system as last year for evaluation. The system's perf
 * Translation quality: we will use multiple standard metrics: BLEU, TER, and METEOR.
 * Translation latency: we will use standard metrics for simultaneous machine translation including average proportion (AP), average lagging (AL) and differentiable average lagging (DAL).
 
-Like last year, the evaluation implementation will use the [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit. For latency measurement, we will contrast computation aware and non computation aware latency metrics. See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined. Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)). Finally, we will run systems on the segmented **and** unsegmented blind test set. Note the latter setting requires participants to have segmentation logic in their systems.
-The latency is calculated on word level for En-De systems and character level for En-Ja systems.
+Like last year, the evaluation implementation will use the [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit. For latency measurement, we will contrast computation aware and non computation aware latency metrics. See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined. Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)). The latency is calculated on word level for En-De systems and character level for En-Ja systems and En-Zh systems.
 
 The participants will submit a Docker image (see below for an example) and the organizers will run the image in a controlled environment, specifically an **ap3.2xlarge AWS instance** (see details in https://aws.amazon.com/ec2/instance-types/p3/).
 
@@ -76,7 +76,7 @@ The submitted systems will be categorized into different regimes based on the AL
 
 ### Text-to-Text and Speech-to-Text Tracks (English to German)
 
-You may use the same training and development data available for the [Offline Speech Translation task](https://iwslt.org/2021/offline). Specifically, please refer to the [Allowed Training Data](https://iwslt.org/2022/offline#allowed-training-data) and the [Past Editions Development Data](https://iwslt.org/2021/offline#past-editions-development-data) sections.
+You may use the same training and development data available for the [Offline Speech Translation task](https://iwslt.org/2022/offline). Specifically, please refer to the [Allowed Training Data](https://iwslt.org/2022/offline#allowed-training-data) and the [Past Editions Development Data](https://iwslt.org/2022/offline#past-editions-development-data) sections.
 
 For English-Mandarin, data is TBD.
 
@@ -90,6 +90,7 @@ You may also use [simultaneous interpretation transcripts for the IWSLT 2021 dev
 
 
 ## Baseline Implementation and Example
+
 ### English-to-German Speech-to-Text Translation
 You can find a baseline and instructions on how to reproduce it [here](https://github.com/pytorch/fairseq/blob/master/examples/speech_to_text/docs/simulst_mustc_example.md).
 Our final evaluation will be run inside Docker. To run an evaluation with Docker, first build a Docker image from the Dockerfile. Here is an example Dockerfile for the baseline:
@@ -144,7 +145,7 @@ You can find instructions to train and evaluate an English-to-Japanese baseline 
 
 ## System Submission
 
-Participants are required to run the evaluation on the English-German dev and tst-COMMON MuST-C sets for the English-German track and on the IWSLT21 dev set for the English-Japanese track and report the results as part of the submission. This is to make sure that the submitted systems work so that organizers can run them as well. The submission files should be packed into a `zip` or `tar.gz` file and uploaded to Dropbox[dropbox] prior to the deadline (TBD anywhere on earth). The submission files should include instructions on how to run the system in a `README` or `README.md` file as well as all the necessary files (Docker image, checkpoints, vocabulary, etc.) for the organizers to be able to run the system.
+Participants are required to run the evaluation on the English-German dev and tst-COMMON MuST-C sets for the English-German and English-Chinese tracks and on the IWSLT21 dev set (TODO: missing speech) for the English-Japanese track and report the results as part of the submission. This is to make sure that the submitted systems work so that organizers can run them as well. The submission files should be packed into a `zip` or `tar.gz` file and uploaded to Dropbox[dropbox] prior to the deadline (TBD anywhere on earth). The submission files should include instructions on how to run the system in a `README` or `README.md` file as well as all the necessary files (Docker image, checkpoints, vocabulary, etc.) for the organizers to be able to run the system.
 
 ## Contacts
 
