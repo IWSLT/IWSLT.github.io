@@ -11,19 +11,23 @@ title: "Simultaneous Speech Translation"
 
 Simultaneous translation (also known as real-time or streaming translation) is the task of generating translations incrementally given partial input only.
 Simultaneous translation enables interesting applications such as automatic simultaneous interpretation or international conference translations.
-Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 2 tracks and 3 language pairs:
+Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 2 tracks and 4 language pairs:
 
-* Text-to-Text: translating the output of a streaming ASR system in real-time from English to German, English to Japanese and English to Mandarin Chinese.
-* Speech-to-Text: translating speech into text in real-time from English to German, English to Japanese and English to Mandarin Chinese.
+* Text-to-Text: translating the output of a streaming ASR system in real-time from English to German, English to Japanese, English to Mandarin Chinese and English to Czech.
+* Speech-to-Text: translating speech into text in real-time from English to German, English to Japanese, English to Mandarin Chinese and English to Czech.
 
 We want to highlight the differences with respect to last edition:
 * for the text-to-text track, we will use the output of a streaming ASR system as input instead of the gold transcript. As a result, both text-to-text and speech-to-text systems will be ranked together for a given language pair.
-* we are adding Mandarin Chinese as a target language.
-* in order to reduce the number of tracks, we will only use segmented input.
+* we are adding Mandarin Chinese and Czech as a target languages.
+* in order to reduce the number of conditions, English to Japanese and English to Chinese only use segmented input. English to German and English to Czech, on the other had, use only unsegmented input.
 
 We encourage participants to enter all tracks when possible. We also encourage participants to contrast cascaded and end-to-end solutions for the Speech-to-Text track.
 
 ## Evaluation
+
+This year, we will use automatic evaluation very similar to the last year and we will trial manual evaluation for English-to-Czech track.
+
+### Automatic Evalution
 
 We will use a very similar system as last year for evaluation. The system's performance will be evaluated in two ways:
 
@@ -34,7 +38,7 @@ Like last year, the evaluation implementation will use the [SimulEval](https://g
 
 The participants will submit a Docker image (see below for an example) and the organizers will run the image in a controlled environment, specifically an **ap3.2xlarge AWS instance** (see details in https://aws.amazon.com/ec2/instance-types/p3/).
 
-### Ranking
+#### Ranking for Automatic Evaluation
 
 We will evaluate translation quality with detokenized BLEU and latency with AP, AL and DAL. The systems will be ranked by the translation quality with different latency regimes. Three regimes, low, medium and high, will be evaluated. Each regime is determined by a maximum latency threshold. The thresholds are determined by AL, which represents the delay to the perfect real time system (milliseconds for speech and number of words for text), but all three latency metrics, AL, DAL and AP will be reported. Based on analysis on the quality-latency tradeoffs for the baseline systems, the thresholds are set as follows:
 
@@ -71,6 +75,14 @@ Text Translation (English-Mandarin):
 The submitted systems will be categorized into different regimes based on the AL calculated on the Must-C English-German and English-Mandarin test sets (`tst-COMMON`) for English-German and English-Mandarin or on the IWSLT21 dev set for English-Japanese, while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. In addition, within each latency regime, we will also measure computation aware AL and rank systems accordingly. Finally, we will report latency-quality trade-off curves for non computation aware AL and for computation aware AL in the findings paper.
 
 **Note that for English-German, we will use the release v2.0 of MuST-C and for English-Mandarin, we will use the release v1.2 of MuST-C**
+
+### Manual Evaluation
+
+English-to-Czech track will include manual evaluation of simultaneous speech translation for at least one variant of submitted system for each participating team (based on the selection by the team).
+
+The evaluation will consist in playing the source sound/video with live text captions to speakers fluent in the source English and native in the target Czech, and collecting "continuous ranking". This method is described in Section 3.1.1 (page 22) in the [master thesis by Dávid Javorský](https://dspace.cuni.cz/bitstream/handle/20.500.11956/147964/120397331.pdf?sequence=1&isAllowed=y).
+
+As a benchmark, human interpretations presented in the form of live text captions, will be scored in the same setting.
 
 ## Training and Development Data
 
