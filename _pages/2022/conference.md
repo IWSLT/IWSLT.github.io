@@ -22,7 +22,7 @@ The **IWSLT 2022 Evaluation Campaign** will host shared tasks featuring the foll
 - [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
 - [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason U.)
 - [Speech-to-Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta)
-- [Multilingual ST](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
+- [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU)
 - [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, Amazon)
 - [Isometric SLT](/2022/isometric) (Chair: Prashant Mathur, Amazon)
