@@ -15,7 +15,7 @@ This shared task invites participants to build the best speech transcription/tra
 - Tamasheq (taq) to French (fra)
 - Marathi (mar) to Hindi (hin)
 - Bhojpuri (bho) to Hindi (hin)
-- 
+- Tunisian Arabic (aeb) to English (eng)
 
 We will provide a list of available:
 - parallel translation text corpora
@@ -85,9 +85,12 @@ Submissions should consist of plaintext files with one sentence per line, follow
 - Marcely Zanon Boito (Avignon University, France)
 - Atul Kr. Ojha (National University of Ireland Galway, Ireland)
 - Antonios Anastasopoulos (George Mason University, USA)
+- Kevin Duh (Johns Hopkins University, USA)
 - Yannick Estève (Avignon University, France)
 - Marcello Federico (Amazon, USA)
 - Alex Waibel (CMU, USA)
+
+he Tamasheq-French task is organized by the ON-TRAC consortium made up of LIA (Avignon University), LIUM (Le Mans University), LIG (University Grenoble Alpes) and Airbus. ON-TRAC is a project co-financed by the French national research agency.
 
 ## Contact
 
