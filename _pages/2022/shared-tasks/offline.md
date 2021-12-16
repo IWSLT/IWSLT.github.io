@@ -32,6 +32,13 @@ In this task, we use the following definition of end-to-end model:
   * No intermediated discrete representations (source language like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
+### Multilingual Models
+
+We are also interested in when and how multilingual models may be beneficial.
+With three target languages this year, participants may choose to create one model to translate to all three targets.
+Many allowed [pretrained models](#pretrained-models) are also multilingual.
+We ask that anyone who uses one multilingual model to submit to the three target languages specify this at submission time; we will analyze submissions to see if there are any consistent differences between individual and multilingual models.
+
 
 ## Test Data
 
@@ -125,11 +132,6 @@ Moreover, the follow pre-trained language models are considered parts of the tra
   * [M2M100](https://github.com/pytorch/fairseq/tree/main/examples/m2m_100)
   * [Delta LM](https://github.com/microsoft/unilm/tree/master/deltalm)
   * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
-
-
-## Multilingual Models
-
-We are also interested in when and why multilingual models may be beneficial. With three target languages this year, multilingual models are allowed, but must be specified as such at submission time. Many of the above pretrained models are multilingual. We will note which submissions use multilingual models in the overview paper. 
 
 
 ## Submission Guidelines
