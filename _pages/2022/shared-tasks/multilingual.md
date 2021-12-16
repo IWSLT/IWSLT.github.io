@@ -18,3 +18,5 @@ Check out the [task page](https://iwslt.org/2022/low-resource) for more informat
 ***
 
 Please have a look at these tasks, and let us know on the [IWSLT google group](iwslt-evaluation-campaign@googlegroups.com) if you have any questions!
+
+**Contact:** [Elizabeth Salesky](mailto:elizabeth.salesky+iwslt2022@gmail.com)
