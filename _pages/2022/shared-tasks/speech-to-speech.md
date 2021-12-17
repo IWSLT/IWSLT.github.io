@@ -11,7 +11,7 @@ toc_sticky: true
 
 **Note: this is a draft and feedback on the task setup is welcome, either via [iwslt-evaluation-campaign@googlegroups.com](iwslt-evaluation-campaign@googlegroups.com) or Twitter ([@iwslt](https://twitter.com/iwslt))**
 
-This goal of this task is to foster the development of automatic methods to translate speech in one language to speech in another target language. In particular, we are interested in comparing the performance of cascade (ASR + MT + TTS or S2T + TTS) approaches with end-to-end (S2S) approaches. For this first edition, we are restricting the scope of the task to offline systems and the English-German language direction. We may extend this task to include simultaneous systems and possibly other languages in subsequent editions.
+This goal of this task is to foster the development of automatic methods to translate speech in one language to speech in another target language. In particular, we are interested in comparing the performance of cascade (ASR + MT + TTS or S2T + TTS) approaches with end-to-end/direct (S2ST) approaches. For this first edition, we are restricting the scope of the task to offline systems and the English-German language direction. We may extend this task to include simultaneous systems and possibly other languages in subsequent editions.
 
 ## Evaluation
 
@@ -21,10 +21,13 @@ To automatically evaluate quality, the speech output will be automatically trans
 
 **Human evaluation**
 
-In addition to **translation quality** (capturing meaning), the quality of the speech output will also be human-evaluated along three dimensions: **naturalness** (voice and pronunciation), **clarity of speech** (understandability), and **sound quality** (noise and other artifacts). These axes are more fine-grained than the traditional overall MOS score.  
-Bilingual annotators will be presented with the source audio and the target audio, and give scores between 1 and 5.
+- Translation quality: bilingual annotators will be presented with the source audio and the target audio, and give scores between 1 and 5.
+- Output speech quality: in addition to **translation quality** (capturing meaning), the quality of the speech output will also be human-evaluated along three dimensions: **naturalness** (voice and pronunciation), **clarity of speech** (understandability), and **sound quality** (noise and other artifacts). These axes are more fine-grained than the traditional overall MOS score.
 
-TODO: share details on guidelines.
+The detailed guidelines for speech quality are as follows:
+- Naturalness: recordings that sound human-like, with natural-sounding pauses, stress, and intonation, should be given a high score. Recordings that sound robotic, flat, or otherwise unnatural should be given a low score. 
+- Clarity of speech: recordings with clear speech and no mumbling and unclear phrases should be given a high score. Recordings with a large amount of mumbling and unclear phrases should be given a low score.
+- Sound quality: recordings with clean audio and no noise and static in the background should be given a high score. Recordings with a large amount of noise and static in the background should be given a low score.
 
 ## Ranking
 
@@ -33,8 +36,8 @@ While we will share both automatic and human evaluation scores, the systems will
 ## Training and Development Data
 
 This task allows the same training data as the [Offline task](https://iwslt.org/2022/offline).  
-Additional training data will be provided for German TTS and S2S models:
-- CSS10
+Additional training data will be provided for German TTS and S2ST models:
+- [CSS10](https://github.com/Kyubyong/css10)
 - Synthesized, aligned German target audio for English—German MuST-C
 - A pretrained German TTS model to facilitate cascaded models and dual submission with the Offline task
 
@@ -58,13 +61,13 @@ Discussion: [iwslt-evaluation-campaign@googlegroups.com](https://groups.google.c
 
 <!-- list of names and affiliations -->
 
-* Juan Pino (Meta)
+* Elizabeth Salesky (JHU)
 * Marco Turchi (FBK)
 * Jan Niehues (Maastricht)
-* Elizabeth Salesky (JHU)
 * Matteo Negri (FBK)
 * Sebastian Stueker (Zoom)
 * Marcello Federico (Amazon)
+* Juan Pino (Meta)
 
 <!-- Markdown notes: comments can be formed as above; bulleted lines start with a - ; if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line -->
 
