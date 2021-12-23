@@ -26,7 +26,7 @@ Note: (not all of the above will be available for all languages)
 
 We allow the use of any pre-trained machine translation, speech recognition, speech synthesis, or speech translation model. We will allow both constrained and unconstrained submissions (a constrained submission will be one using only the data we provide/list). The only data that will not be allowed will be the ones that will be part of the test set.
 
-We invite participants to explore all possible research directions: from pipeline approaches, to end-to-end models, offline or online methods, using other languages through cross-lingual transfer (checkout the [shared task on multilingual speech translation](/2022/multilingual), which provides several datasets), data augmentation, and anything else you come up with.
+We invite participants to explore all possible research directions: from pipeline approaches, to end-to-end models, offline or online methods, using other languages through cross-lingual transfer, which provides several datasets), data augmentation, and anything else you come up with.
 
 We look forward to your creative submissions!  
 
@@ -83,14 +83,14 @@ Submissions should consist of plaintext files with one sentence per line, follow
 <!-- list of names and affiliations -->
 - Sabrina Syeda Akter (George Mason University, USA)
 - Marcely Zanon Boito (Avignon University, France)
-- Atul Kr. Ojha (National University of Ireland Galway, Ireland)
+- Atul Kr. Ojha (National University of Ireland Galway, Ireland & Panlingua Language Processing LLP)
 - Antonios Anastasopoulos (George Mason University, USA)
 - Kevin Duh (Johns Hopkins University, USA)
 - Yannick Estève (Avignon University, France)
 - Marcello Federico (Amazon, USA)
 - Alex Waibel (CMU, USA)
 
-he Tamasheq-French task is organized by the ON-TRAC consortium made up of LIA (Avignon University), LIUM (Le Mans University), LIG (University Grenoble Alpes) and Airbus. ON-TRAC is a project co-financed by the French national research agency.
+The Tamasheq-French task is organized by the ON-TRAC consortium made up of LIA (Avignon University), LIUM (Le Mans University), LIG (University Grenoble Alpes) and Airbus. ON-TRAC is a project co-financed by the French national research agency.
 
 ## Contact
 
