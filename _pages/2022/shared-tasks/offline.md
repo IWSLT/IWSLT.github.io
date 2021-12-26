@@ -16,7 +16,7 @@ The goal of the **Offline Speech Translation Task** is to examine automatic meth
 
 In addition to this research question, this year will will address additional research question in the evaluation:
 
-  * **Are the results obtained using the English-German data also valid for other language directions?** Differently from last year, the task addresses the translation of TED talks from English into German (similar to previosu editions) and from English to Chinese and English to Japanese. **One test set will be released for each language direction containing the same talks, respectively with and without audio segmentation.**
+  * **Are the results obtained using the English-German data also valid for other language directions?** Differently from last year, the task addresses the translation of TED talks from English into German (similar to previosu editions) and from English to Chinese and English to Japanese. **One test set will be released for each language direction, respectively with and without audio segmentation.**
   * **Can we improve the translation quality by using pre-trained models?** In addition to the allowed list of training data for the constrained condition, we also provided a list of pre-trained models that participants are allowed to use in their system. We hope to answer the question how helpful these resources are to improve the performance of state-of-the-art speech translation systems.
   
   
