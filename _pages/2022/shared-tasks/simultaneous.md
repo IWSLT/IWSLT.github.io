@@ -11,7 +11,7 @@ title: "Simultaneous Speech Translation"
 
 Simultaneous translation (also known as real-time or streaming translation) is the task of generating translations incrementally given partial input only.
 Simultaneous translation enables interesting applications such as automatic simultaneous interpretation or international conference translations.
-Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 2 tracks and 4 language pairs:
+Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 2 tracks and 3 language pairs:
 
 * Text-to-Text: translating the output of a streaming ASR system in real-time from English to German, English to Japanese, and English to Mandarin Chinese.
 * Speech-to-Text: translating speech into text in real-time from English to German, English to Japanese, and English to Mandarin Chinese.
