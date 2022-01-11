@@ -13,19 +13,21 @@ Simultaneous translation (also known as real-time or streaming translation) is t
 Simultaneous translation enables interesting applications such as automatic simultaneous interpretation or international conference translations.
 Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 2 tracks and 4 language pairs:
 
-* Text-to-Text: translating the output of a streaming ASR system in real-time from English to German, English to Japanese, English to Mandarin Chinese and English to Czech.
-* Speech-to-Text: translating speech into text in real-time from English to German, English to Japanese, English to Mandarin Chinese and English to Czech.
+* Text-to-Text: translating the output of a streaming ASR system in real-time from English to German, English to Japanese, and English to Mandarin Chinese.
+* Speech-to-Text: translating speech into text in real-time from English to German, English to Japanese, and English to Mandarin Chinese.
 
 We want to highlight the differences with respect to last edition:
 * for the text-to-text track, we will use the output of a streaming ASR system as input instead of the gold transcript. As a result, both text-to-text and speech-to-text systems will be ranked together for a given language pair.
-* we are adding Mandarin Chinese and Czech as a target languages.
-* in order to reduce the number of conditions, English to Japanese and English to Chinese only use segmented input. English to German and English to Czech, on the other had, use only unsegmented input.
+* we are adding Mandarin Chinese as a target language.
+* we are adding an experimental **manual evaluation** for English-to-German real-time translation 
+* we are adding **human interpretation benchmark** for English-to-German speech translation
+* in order to reduce the number of conditions, we use only segmented input; the manual evaluation will run on reconstructed full documents
 
 We encourage participants to enter all tracks when possible. We also encourage participants to contrast cascaded and end-to-end solutions for the Speech-to-Text track.
 
 ## Evaluation
 
-This year, we will use automatic evaluation very similar to the last year and we will trial manual evaluation for English-to-Czech track.
+This year, we will use automatic evaluation very similar to the last year and we will trial manual evaluation for English-to-German track.
 
 ### Automatic Evalution
 
@@ -78,11 +80,11 @@ The submitted systems will be categorized into different regimes based on the AL
 
 ### Manual Evaluation
 
-English-to-Czech track will include manual evaluation of simultaneous speech translation for at least one variant of submitted system for each participating team (based on the selection by the team).
+English-to-German track will include manual evaluation of simultaneous speech translation for at least one variant of submitted system for each participating team (based on the selection by the team).
 
-The evaluation will consist in playing the source sound/video with live text captions to speakers fluent in the source English and native in the target Czech, and collecting "continuous ranking". This method is described in Section 3.1.1 (page 22) in the [master thesis by Dávid Javorský](https://dspace.cuni.cz/bitstream/handle/20.500.11956/147964/120397331.pdf?sequence=1&isAllowed=y).
+The evaluation will consist in playing the source sound/video with live text captions to speakers fluent in the source English and native in the target German, and collecting "continuous ranking". This method is described in Section 3.1.1 (page 22) in the [master thesis by Dávid Javorský](https://dspace.cuni.cz/bitstream/handle/20.500.11956/147964/120397331.pdf?sequence=1&isAllowed=y).
 
-As a benchmark, human interpretations presented in the form of live text captions, will be scored in the same setting.
+As a benchmark, human interpretations presented in the exact same form of live text captions, will be scored in the same setting.
 
 ## Training and Development Data
 
@@ -169,7 +171,8 @@ Discussion: iwslt-evaluation-campaign@googlegroups.com
 
 * Katsuhito Sudoh (NAIST)
 * Satoshi Nakamura (NAIST)
-* Ondřej Bojar (Charles University)
+* Ondřej Bojar, Věra Kloudová, Dávid Javorský (Charles University)
+* Barry Haddow (University of Edinburgh)
 * Jiatong Shi (CMU)
 * Shinji Watanabe (CMU)
 * Xutai Ma (Johns Hopkins University, Meta)
