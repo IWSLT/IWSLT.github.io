@@ -88,18 +88,14 @@ As a benchmark, human interpretations presented in the exact same form of live t
 
 ## Training and Development Data
 
-### Text-to-Text and Speech-to-Text Tracks (English to German)
+### English-German, English-Mandarin
 
 You may use the same training and development data available for the [Offline Speech Translation task](https://iwslt.org/2022/offline). Specifically, please refer to the [Allowed Training Data](https://iwslt.org/2022/offline#allowed-training-data) and the [Past Editions Development Data](https://iwslt.org/2022/offline#past-editions-development-data) sections.
 
-For English-Mandarin, data is TBD.
-
-### Text-to-Text Track (English to Japanese)
+### English-Japanese
 
 For training, you may use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
 For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c) and [IWSLT 2021 development set](https://drive.google.com/drive/folders/1uSkOT-XqbICMohnvfXdEFffKLdaQX0X7).
-
-#### English-to-Japanese simultaneous interpretation transcripts
 You may also use [simultaneous interpretation transcripts for the IWSLT 2021 development set](https://drive.google.com/drive/folders/1bB1s9PKNoRoDFfc567J5zDMcYj_lFFEB) for the comparison with human interpretation, under the terms of use written in *README_before_download_enjaDevSI.txt*.
 
 
