@@ -29,7 +29,7 @@ The ultimate goal of this shared task is to explore how transfer learning betwee
 
 IWSLT participants may obtain the Tunisian-English speech translation data for free from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt22/IWSLT_2022_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to datasets (a) and (b) mentioned in the above Description section, and includes 160 hours and 200k lines worth of aligned Audio, Tunisian transcripts, and English translations. 
 
-After you obtain the Tunisian-English speech translation data from LDC, please follow these [instructions](https://github.com/kevinduh/iwslt22-dialect) to generate data splits. For the <b>Basic condition</b>, please the the resulting <i>train</i> files for training, <i>dev</i> files for development, and <i>test1</i> files for internal unofficial evaluation. A new blind <i>test2</i> file will be released for official evaluation. 
+After you obtain the Tunisian-English speech translation data from LDC, please follow these [instructions](https://github.com/kevinduh/iwslt22-dialect) to generate data splits. For the <b>Basic condition</b>, please see the resulting <i>train</i> files for training, <i>dev</i> files for development, and <i>test1</i> files for internal unofficial evaluation. A new blind <i>test2</i> file will be released for official evaluation. 
 
 For the <b>Dialect adaptation condition</b>, please add any of the MGB-2 and OPUS bitext referenced above. For the <b>Unconstrained condition</b>, feel free to use any resource. 
 
