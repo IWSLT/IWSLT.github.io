@@ -103,16 +103,16 @@ To encourage participation from groups with limited computational resources and 
 Constrained task:
 
 * Allowed to use formality-labeled data provided by organizers
-* EN-DE, EN-ES, EN-IT, EN-RU: allowed to use the textual MuST-C v1.2 data
-* EN-HI, EN-JA: allowed to use data from WMT news translation tasks
+* EN-DE, EN-ES, EN-IT, EN-RU: allowed to use the textual [MuST-C v1.2](https://ict.fbk.eu/must-c/) data
+* EN-HI, EN-JA: allowed to use data from WMT news translation tasks ([WMT21](https://www.statmt.org/wmt21/translation-task.html#download) for EN-JA; [WMT14](https://www.statmt.org/wmt14/translation-task.html#download) for EN-HI)
 * Allowed to use multilingual data from the same dataset (e.g. using EN-FR data for training EN-ES models)
 
 Unconstrained task: Allowed to use all the data from the constrained task, plus
 
 * Allowed to use pre-trained models (e.g. mBERT, mBART)
 * Allowed to use additional annotations from morphological analysers
-* EN-DE, EN-ES, EN-IT, EN-RU: allowed to use data from WMT news translation tasks and Paracrawl v9
-* EN-HI, EN-JA: allowed to use any other textual datasets as long as they are publicly available, such as WikiMatrix
+* EN-DE, EN-ES, EN-IT, EN-RU: allowed to use data from WMT news translation tasks ([WMT21](https://www.statmt.org/wmt21/translation-task.html#download) for EN-DE, EN-RU; [WMT13](https://www.statmt.org/wmt13/translation-task.html#download) for EN-ES; [News Commentary v16](https://data.statmt.org/news-commentary/v16/)+[Europarl v7](https://www.statmt.org/europarl/) for EN-IT) and [ParaCrawl v9](https://paracrawl.eu/)
+* EN-HI, EN-JA: allowed to use any other textual datasets as long as they are publicly available, such as [WikiMatrix](https://opus.nlpl.eu/WikiMatrix.php) and [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/)
 
 Note: in all cases, **no additionally manually created formality-labeled data is allowed**. However, for the unconstrained setting, obtaining additional annotations automatically is allowed **as long as the code and data will be shared**.
 
