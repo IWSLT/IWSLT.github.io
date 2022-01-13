@@ -33,6 +33,23 @@ After you obtain the Tunisian-English speech translation data from LDC, please f
 
 For the <b>Dialect adaptation condition</b>, please add any of the MGB-2 and OPUS bitext referenced above. For the <b>Unconstrained condition</b>, feel free to use any resource. 
 
+
+## Submission
+
+Submissions should be compressed in a single .tar.gz file and emailed [here (TBA)](TBA), with "IWSLT 2022 Dialect Shared Task Submission" in the title. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
+
+File names for translation outputs should follow the following structure:  <br>
+```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<src>-<tgt>.txt``` <br>
+e.g.,
+```gmu.st.basic.primary.aeb-eng.txt``` for translation outputs.
+
+File names for speech recognition outputs should follow the following structure:  <br>
+```<participant>.asr.<condition>.<primary/contrastive1/contrastive2>.<src>.txt``` <br>
+e.g.,
+```gmu.asr.basic.primary.aeb.txt``` for ASR outputs.
+
+The ```<condition>``` tag should be one of the following: "basic" for <b>basic condition</b>, "adaptation" for <b>dialect adaptation condition</b>, and "unconstrained" for <b>unconstrained condition</b>. Submissions should consist of plaintext files with one sentence per line, following the order of the test set, pre-formatted for scoring (detokenized). We ask that the participants include a (very) short system desciption in the submission email.
+
 ## Organizers
 
 - Kevin Duh (Johns Hopkins University) 
