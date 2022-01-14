@@ -35,8 +35,10 @@ All tasks will follow the same [important dates](#important-dates).
 
 ### Registration
 
-Registration for the 2022 Evaluation Campaign will open soon. 
+<!--- Registration for the 2022 Evaluation Campaign will open soon. 
 {: .notice--info}
+-->
+Please register for the Evaluation Campaign via the [registration form](https://docs.google.com/forms/d/10Wc4a5BUj7I0kTWiBXbcbb34ZjgIIZLqpHewAxoMJhA/edit).
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates, community questions and opportunities to receive sponsored cloud computing credits.
 
