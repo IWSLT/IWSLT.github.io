@@ -7,7 +7,7 @@ title: "Special Task on Formality Control for Spoken Language Translation"
 
 Machine translation (MT) models typically return one single translation for each input segment. This means that when the input segment is ambiguous, the model must choose a translation from among various valid options, without regard to the intended use case or target audience. 
 
-Specific problems can arise for spoken language translation from English into languages that have multiple levels of formality expressed through honorifics or “[grammatical register](http://www.qt21.eu/mqm-definition/issues-list-2015-12-30.html#grammatical-register)”. For example, the sentence ‘*Are you sure?’* can have two possible correct translations in German: ‘Sind Sie sich sicher?’ for the formal register and ‘Bist du dir sicher?’ for the informal one. For applications of spoken language translation, leaving the model to choose between different valid translation options can lead to translations that are inconsistent or use an inappropriate formality level, which can be perceived as rude or jarring for speakers from certain cultures and for certain use cases (e.g. customer support chat). 
+Specific problems can arise for spoken language translation from English into languages that have multiple levels of formality expressed through honorifics or “[grammatical register](http://www.qt21.eu/mqm-definition/issues-list-2015-12-30.html#grammatical-register)”. For example, the sentence ‘*Are you tired?’* can have two possible correct translations in German: ‘Sind Sie muede?’ for the formal register and ‘Bist du muede?’ for the informal one. For applications of spoken language translation, leaving the model to choose between different valid translation options can lead to translations that are inconsistent or use an inappropriate formality level, which can be perceived as rude or jarring for speakers from certain cultures and for certain use cases (e.g. customer support chat). 
 
 How formality distinctions are expressed grammatically and lexically can vary widely by language. In many Indo-European languages (e.g., German, Hindi, Italian, Russian, and Spanish), the formal and informal registers are distinguished by the second person pronouns and/or verb agreement. In Japanese and other languages, distinctions that express polite, respectful, and humble speech can be more extensive: morphological markings on the main verb, as well as on some nouns and adjectives, specific lexical choices and longer sentences. We give examples of these phenomena in Table 1.
 
@@ -28,9 +28,9 @@ Controlling the politeness or formality level of a machine translation model has
 |HI	|Source	|Yeah but don't blame yourself if society has it set up that way.	|
 |	|Informal	|हाँ यदि समाज ने ही इस तरह स्थापित किया है तो खुद को दोष न **[F]दे[/F]**	|
 |	|Formal	|हाँ यदि समाज ने ही इस तरह स्थापित किया है तो खुद को दोष न **[F]दें[/F]**	|
-|DE	|Source	|Could you provide your first name please?	|
-|	|Informal	|**[F]Könntest du[F]** bitte **[F]deinen[/F]** Vornamen angeben?	|
-|	|Formal	|**[F]Könnten Sie[/F]** bitte **[/F]Ihren[/F]** Vornamen angeben?	|
+|DE	|Source	|Do you like Legos? did you ever play with them as a child or even later?|
+|	|Informal |**[F]Magst du[/F]** Legos? **[F]Hast du[/F]** jemals als Kind mit ihnen gespielt oder sogar später?  |
+|	|Formal	|**[F]Mögen Sie[/F]** Legos? **[F]Haben Sie[/F]** jemals als Kind mit ihnen gespielt oder sogar später? |
 |JA	|Source	|I'm very sorry to hear that. You may go back and see if the chef can try to make meal again.	|
 |	|Informal (_Kudaketa_)	|それを聞いて大変 **[F]残念に思う[/F]** 。 **[/F]戻って[/F]** 、シェフがもう一度食事を作り直せるかどうかを **[F]確認して[/F]** 。	|
 |	|Formal (_Teineigo_)	|それを聞いて大変 **[F]残念に思います[/F]** 。 **[F]戻って[/F]** 、シェフがもう一度食事を作り直せるかどうかを **[F]確認してください[/F]** 。	|
@@ -78,18 +78,18 @@ In addition, we will release test data **only** for the following language pairs
 
 ### Formality-annotated data
 
-As part of this special task, we will **release novel targeted train and test sets** comprising of source segments paired with two contrastive reference translations, one for each formality level (informal and formal). Formality distinctions are expressed by the use of grammatical register or honorific language. Table 2 reports the number of source segments used for training and evaluation and the overlap between the references (informal vs. formal) as measured by BLEU. The lowest overlap is for Japanese and the highest overlap is for Hindi, indicating that the task is more challenging for Japanese than for Hindi.
+As part of this special task, we will **release novel targeted train and test sets** comprising of source segments paired with two contrastive reference translations, one for each formality level (informal and formal). Formality distinctions are expressed by the use of grammatical register or honorific language. Table 2 reports the number of source segments used for training and evaluation and the overlap between the references (informal vs. formal) as measured by BLEU. 
 
-**Table 2**. Number of source segments in the released dataset and the overlap between the references (informal vs formal) as measured by BLEU on the test set.
+**Table 2**. Number of source segments in the released dataset.
 
-|setting	|language pair	|train	|test	|test reference overlap (BLEU)	|
+|setting	|language pair	|train	|test	|
 |---	|---	|---	|---	|---	|
-|supervised	|EN-JA	|TBD	|TBD	|74.3	|
-|supervised	|EN-DE	|TBD	|TBD	|74.9	|
-|supervised	|EN-ES	|TBD	|TBD	|78.7	|
-|supervised	|EN-HI	|TBD	|TBD	|81.6	|
-|zero-shot	|EN-IT	|0	|TBD	|78.7	|
-|zero-shot	|EN-RU	|0	|TBD	|TBD	|
+|supervised	|EN-JA	|1,000	|600		|
+|supervised	|EN-DE	|400	|600		|
+|supervised	|EN-ES	|400	|600	|
+|supervised	|EN-HI	|400	|600		|
+|zero-shot	|EN-IT	|0	|600		|
+|zero-shot	|EN-RU	|0	|600		|
 
 This special task will offer two training scenarios: **supervised** and **zero-shot**. For the **supervised** training scenario, participants can use the labeled training set for training and development. For the **zero-shot** task, we will release only test data.
 
