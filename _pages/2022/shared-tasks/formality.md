@@ -85,11 +85,11 @@ As part of this special task, we will **release novel targeted train and test se
 
 **Table 2**. Number of source segments in the released dataset.
 
-|setting	|language pair	|train	|test	|
-|---	|---	|---	|---	|---	|
+|setting	|language pair	|train	|test		|
+|---	|---	|---	|---		|
 |supervised	|EN-JA	|1,000	|600		|
 |supervised	|EN-DE	|400	|600		|
-|supervised	|EN-ES	|400	|600	|
+|supervised	|EN-ES	|400	|600		|
 |supervised	|EN-HI	|400	|600		|
 |zero-shot	|EN-IT	|0	|600		|
 |zero-shot	|EN-RU	|0	|600		|
