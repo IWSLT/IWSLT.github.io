@@ -43,20 +43,23 @@ Controlling the politeness or formality level of a machine translation model has
 Tentative schedule based on the IWSLT dates.
 
 
-|Date |Stage |
-|---	|---	|
-|Jan, 15 2022	|release of formality-annotated training and dev data	|
-|Mar 14, 2022	|formality evaluation data released	|
-|Mar 24, 2022	|translation submission deadline	|
-|Mar 25, 2022	|formality reference translations released	|
-|Apr 1, 2022	|system paper submission deadline	|
-|Apr 22, 2022	|paper notification	|
-|May 1, 2022	|camera ready deadline	|
-|May 26-27, 2022	|IWSLT conference	|
+|Date |Stage | Updates |
+|---	|---	|--- |
+|Jan, 15 2022	|release of formality-annotated training and dev data |	Link to data - [amazon-research/IWSLT2022]( https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022)|
+|Mar 14, 2022	|formality evaluation data released	| |
+|Mar 24, 2022	|translation submission deadline	| |
+|Mar 25, 2022	|formality reference translations released	| |
+|Apr 1, 2022	|system paper submission deadline	| |
+|Apr 22, 2022	|paper notification	| |
+|May 1, 2022	|camera ready deadline	| |
+|May 26-27, 2022	|IWSLT conference	| |
 
 
 
 ## Dataset
+
+### Accessing the data
+The annotatated train data is now available for download under the CDLA-Sharing-1.0 License at this location: [amazon-research/IWSLT2022]( https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022) . 
 
 ### Language pairs
 
@@ -168,6 +171,8 @@ Amazon AWS Translate:
 
 ## FAQ
 
+* Where can I download the annotated training data?
+    * The data is available under the CDLA-Sharing-1.0 License at this location: [amazon-research/IWSLT2022]( https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022) 
 * Will the organizers provide a mechanism for submitting the system outputs and maintain a leaderboard?
     * No. The organizers provide the dataset, train/test splits, and a script for the automatic evaluation metrics. The participants will report their results in a system description paper which will be then summarized in the findings paper. 
 * How many formality levels will be evaluated?
