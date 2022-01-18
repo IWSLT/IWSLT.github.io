@@ -5,8 +5,6 @@ title: "Low-Resource Speech Translation"
 
 ## Description
 
-Details coming soon!
-
 This shared task will focus on the problem of developing speech transcription and translation tools for under-resourced languages.
 For the vast majority of the world's languages there exist little speech-translation parallel data at the scale needed to train speech translation models. Instead, in a real-world situation we will have access to limited, disparate resources (e.g. word-level translations, speech recognition, small parallel text data, monolingual text, raw audio, etc).
 
@@ -34,17 +32,16 @@ We look forward to your creative submissions!
 
 You may use any of the resources listed below or any other resource you deem appropriate.
 
-### Speech-Transcription-Translation data
- * TBA
+### Tamasheq-French
+ * Speech-to-translation parallel data: [here](https://github.com/mzboito/IWSLT2022_Tamasheq_data)
+ * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
 
-## ASR data
-Any speech recognition data can be used. We point to some relevant resources:
- * TBA
+### Tunisian Arabic - English
+* You can use the same data used for the [dialect task](https://iwslt.org/2022/dialect) (unconstrained condition).
 
+### Marathi and Bhojpuri - Hindi
+* Coming January 23rd!
 
-## Translation data
-Any parallel data can be used. We point to some relevant resources:
- * TBA
 
 ### Pretrained Models
 The use of pre-trained models such as [wav2vec 2.0](https://arxiv.org/abs/2006.11477), [mBART](https://arxiv.org/abs/2001.08210), or similar is also allowed and is considered a constrained submission.
