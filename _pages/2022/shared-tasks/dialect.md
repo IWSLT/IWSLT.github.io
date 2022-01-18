@@ -10,11 +10,11 @@ In some communities, two dialects of the same language are used by speakers unde
 The goal of this shared task is to advance dialectal speech translation in diglossic communities. Specifically, we focus on Tunisian-to-English speech translation, with additional ASR and MT resources in Modern Standard Arabic. Participants will be provided with the following datasets: 
 
 -  (a) 160 hours of Tunisian conversational speech, with manual transcripts
--  (b) 200k lines of manual translations of the above Tunisian transcripts into English, making a three-way parallel data that supports end-to-end speech translation models
+-  (b) 200k lines of manual translations of the above Tunisian transcripts into English, making a three-way parallel data (i.e. aligned audio, transcript, translation) that supports end-to-end speech translation models
 -  (c) 1200 hours of Modern Standard Arabic (MSA) broadcast news with transcripts for ASR, available from [MGB-2](https://arabicspeech.org/mgb2/) (Specifically, MGB-2 contains an estimated 70% MSA, with the rest being a mix of Egyptian, Gulf, Levantine, and North African dialectal Arabic. All of the MGB-2 train data is allowed.)
 -  (d) ~42,000k lines of bitext in MSA-English for MT, available for download from [OPUS](https://opus.nlpl.eu) ([Opensubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php), [UN](https://conferences.unite.un.org/UNCorpus), [QED](https://opus.nlpl.eu/QED-v2.0a.php), [TED](https://opus.nlpl.eu/TED2020-v1.php), [GlobalVoices](https://opus.nlpl.eu/GlobalVoices-v2017q3.php), [News-Commentary](https://opus.nlpl.eu/News-Commentary-v16.php)). For convenience, these six corpora is packaged in a single 2GB tar file [here](https://www.cs.jhu.edu/~kevinduh/j/iwslt22/iwslt22-dialect-bitext.tgz). 
 
-Datasets (a) and (b) are new resources developed by the LDC, which will be released for free to the IWSLT participants. The development and test sets (~3 hours each) are also three-way parallel and have the same characteristics. These datasets have been manually segmented at the utterance level. Participants will build end-to-end or cascaded systems that take Tunisian speech as input and generate English text as final output. 
+Datasets (a) and (b) are new resources developed by the LDC, which will be provided to the IWSLT participants at no cost. The development and test sets (~3 hours each) are also three-way parallel and have the same characteristics. These datasets have been manually segmented at the utterance level. Participants will build end-to-end or cascaded systems that take Tunisian speech as input and generate English text as final output. 
 
 Participants can build systems for evaluation in any of these conditions:
 - <b>Basic condition</b>: train on datasets (a) and (b) only. This uses only Tunisian-English resources; the smaller dataset and simpler setup makes this ideal for participants starting out in speech translation research. 
@@ -27,7 +27,7 @@ The ultimate goal of this shared task is to explore how transfer learning betwee
 
 ## Obtaining Data
 
-IWSLT participants may obtain the Tunisian-English speech translation data for free from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt22/IWSLT_2022_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to datasets (a) and (b) mentioned in the above Description section, and includes 160 hours and 200k lines worth of aligned Audio, Tunisian transcripts, and English translations. 
+IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt22/IWSLT_2022_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to datasets (a) and (b) mentioned in the above Description section, and includes 160 hours and 200k lines worth of aligned Audio, Tunisian transcripts, and English translations. 
 
 After you obtain the Tunisian-English speech translation data from LDC, please follow these [instructions](https://github.com/kevinduh/iwslt22-dialect) to generate data splits. For the <b>Basic condition</b>, please see the resulting <i>train</i> files for training, <i>dev</i> files for development, and <i>test1</i> files for internal unofficial evaluation. A new blind <i>test2</i> file will be released for official evaluation. 
 
