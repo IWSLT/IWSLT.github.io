@@ -9,15 +9,17 @@ with the sponsor. Donations in cash will be collected through the Association fo
 and used to fund students grants and human evaluations and data collections run by non-profit 
 entities.
 
-IWSLT 2022 offers 4 tiers of sponsorships in cash: 
+IWSLT 2022 offers 5 tiers of sponsorships in cash: 
 
+- Diamond Sponsor: $10,000 
 - Platinum Sponsor: $5,000 
 - Gold Sponsor:     $3,000 
 - Silver Sponsor:   $2,000 
 - Bronze Sponsor:   $1,000  
 
-and two tiers for sponsorships in kind (e.g. computing credits):
+and 3 tiers for sponsorships in kind (e.g. computing credits):
 
+- Diamond Sponsor: $20,000
 - Platinum Sponsor: $10,000
 - Gold Sponsor:      $5,000  
 
