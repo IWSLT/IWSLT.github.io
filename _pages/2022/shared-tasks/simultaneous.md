@@ -94,7 +94,7 @@ You may use the same training and development data available for the [Offline Sp
 
 ### English-Japanese
 
-We provide a version of MuST-C prepared for this shared task [MuST-C v2.0 English-Japanese](https://dsc-nlp.naist.jp/data/MuST-C_EnJa_IWSLT2022/) for training and development.
+We provide a version of MuST-C prepared for this shared task [MuST-C v2.0](https://ict.fbk.eu/must-c/) for training and development.
 For training, you may also use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
 
 ## Baseline Implementation and Example
