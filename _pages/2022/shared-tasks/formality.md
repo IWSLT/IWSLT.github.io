@@ -109,6 +109,7 @@ Constrained task:
 * EN-DE, EN-ES, EN-IT, EN-RU: allowed to use the textual [MuST-C v1.2](https://ict.fbk.eu/must-c/) data
 * EN-HI, EN-JA: allowed to use data from WMT news translation tasks ([WMT21](https://www.statmt.org/wmt21/translation-task.html#download) for EN-JA; [WMT14](https://www.statmt.org/wmt14/translation-task.html#download) for EN-HI)
 * Allowed to use multilingual data from the same dataset (e.g. using EN-FR data for training EN-ES models)
+* Please only use the data provided with no external auxiliary tools (e.g., morphological analysers) or pre-trained models (e.g., BERT) so that improvements come from modeling (e.g., few-shot learning, self-training, masking, etc.)
 
 Unconstrained task: Allowed to use all the data from the constrained task, plus
 
@@ -181,6 +182,8 @@ Amazon AWS Translate:
     * Participants upload their system outputs to a dedicated public Github repository with a permissive license (MIT) which allows all participants to use and evaluate the outputs.
 * What training data are participants allowed to use?
     * We divide the task into **constrained** and **unconstrained** settings, with different allowed training data for each. See the "Additional training data" section for more information
+    * For the **constrained** setting, please only use the data provided with no external auxiliary tools (e.g., morphological analysers) or pre-trained models (e.g., BERT) so that improvements come from modeling (e.g., few-shot learning, self-training, masking, etc.)
+    * For the **unconstrained** setting, we allow pre-trained models for data augmentation, classification etc.
 * Are pre-trained models such as mBERT and mBART allowed?
     * Yes, the use of pre-trained models is allowed. 
 * Can papers be submitted to multiple venues?
