@@ -135,7 +135,7 @@ This special task is **self-service**. In order to have their system included in
 * report their results in a system description paper, which will then be collated in the findings paper
 
 
-Each system will be evaluated for formality control for the provided test set, as well as for overall translation quality on a generic test set. The organizers will provide a targeted automatic metric, leveraging phrase-level annotations in our dataset, for system-level evaluation of formality-controlled models. Overall translation quality will be measured with [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/) and [COMET v1.0.1](https://pypi.org/project/unbabel-comet/1.0.1/) automatic metrics.
+Each system will be evaluated for formality control for the provided test set, as well as for overall translation quality on a generic test set. The organizers will provide a [targeted automatic metric](https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022#evaluation), leveraging phrase-level annotations in our dataset, for system-level evaluation of formality-controlled models. Overall translation quality will be measured with [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/) and [COMET v1.0.1](https://pypi.org/project/unbabel-comet/1.0.1/) automatic metrics.
 
 
 ## Submissions
