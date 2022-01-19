@@ -94,10 +94,8 @@ You may use the same training and development data available for the [Offline Sp
 
 ### English-Japanese
 
-For training, you may use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
-For development, you may use the [IWSLT 2017 development sets](https://wit3.fbk.eu/2017-01-c) and [IWSLT 2021 development set](https://drive.google.com/drive/folders/1uSkOT-XqbICMohnvfXdEFffKLdaQX0X7).
-You may also use [simultaneous interpretation transcripts for the IWSLT 2021 development set](https://drive.google.com/drive/folders/1bB1s9PKNoRoDFfc567J5zDMcYj_lFFEB) for the comparison with human interpretation, under the terms of use written in *README_before_download_enjaDevSI.txt*.
-
+We provide a version of MuST-C prepared for this shared task [MuST-C v2.0](https://ict.fbk.eu/must-c/) for training and development.
+For training, you may also use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
 
 ## Baseline Implementation and Example
 
@@ -151,7 +149,7 @@ If you encounter a bus error similar to this [issue](https://github.com/pytorch/
 When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
 
 ### English-to-Japanese Text-to-Text Translation
-You can find instructions to train and evaluate an English-to-Japanese baseline system [here](https://github.com/pytorch/fairseq/blob/master/examples/simultaneous_translation/docs/enja-waitk.md).
+Baseline will be provided later in January 2022.
 
 ## System Submission
 
