@@ -91,7 +91,7 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
 
 ## Allowed Training Data
 
-**IMPORTANT**: new English - Chinese/Japanese training data will be made available soon! Stay tuned!
+**IMPORTANT**: English - Chinese/Japanese training data are now available soon! Enjoy the data!
 {: .notice--info}
 
 
@@ -104,6 +104,17 @@ The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom 
 Please read the note [here](https://iwslt.org/2021/offline#allowed-training-data) to better understand the differences between the MuST-C V1 and V2.
 
 
+### English - Chinese Training data 
+  
+The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. 
+
+
+### English - Japanese Training data 
+  
+The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. 
+
+
+#### Additional Training data 
 
 These datasets can be used to train your model:
   * [MuST-C corpus v1](https://ict.fbk.eu/must-c/) The MuST-C V1 is still available to favor the reuse of past trained models.
