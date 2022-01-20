@@ -114,7 +114,7 @@ The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom 
 The dataset is available [here](https://ict.fbk.eu/must-c/). Press the bottom "click here to download the corpus", and select version V2. 
 
 
-#### Additional Training data 
+### Additional Training data 
 
 These datasets can be used to train your model:
   * [MuST-C corpus v1](https://ict.fbk.eu/must-c/) The MuST-C V1 is still available to favor the reuse of past trained models.
