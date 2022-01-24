@@ -19,7 +19,7 @@ Datasets (a) and (b) are new resources developed by the LDC, which will be provi
 Participants can build systems for evaluation in any of these conditions:
 - <b>Basic condition</b>: train on datasets (a) and (b) only. This uses only Tunisian-English resources; the smaller dataset and simpler setup makes this ideal for participants starting out in speech translation research. 
 - <b>Dialect adaptation condition</b>: train on datasets (a), (b), (c), (d). The challenge is to exploit the large MSA datasets for transfer learning while accounting for lexical, morphological, and syntactic differences between dialects. This condition may be an interesting way to explore how multilingual models work in multi-dialectal conditions. 
-- <b>Unconstrained condition</b>: participants may use public or private resources for English and more Arabic dialects besides Tunisian (e.g., CommonVoice, TEDx, NIST OpenMT, MADAR). Multilingual models beyond Arabic and English are allowed. This condition is cross-listed with the [low-resource shared task](low-resource.md).
+- <b>Unconstrained condition</b>: participants may use public or private resources for English and more Arabic dialects besides Tunisian (e.g., CommonVoice, TEDx, NIST OpenMT, MADAR, GALE). Multilingual models beyond Arabic and English are allowed. This condition is cross-listed with the [low-resource shared task](low-resource.md).
 
 The main evaluation metric will be BLEU on the final English translation; we will also compute WER on Tunisian transcripts for participants who submit cascade systems. This new dataset from LDC is conversational in nature (similar in style to Spanish Fisher/CALLHOME), and should be interesting for both ASR and MT researchers.
 
