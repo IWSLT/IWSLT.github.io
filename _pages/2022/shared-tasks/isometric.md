@@ -17,6 +17,17 @@ simultaneous speech translation (to control the reading or listening effort), an
 layout constrained translation (i.e. document table or database field). Hence, building MT models that can generate increasingly isometric translation while maintaining the 
 translation quality can have a far reaching impact in diverse MT use cases.
 
+*Example translations from an English source to German using a Baseline and an Isometric MT models
+show how the latter can better fit the source length template, while preserving meaning.*
+
+|    Systems    |                                                                                                                                                                        |
+|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  __Source__   | It is actually the true integration of the man and the machine.                                                                                                        |
+|  Baseline MT  | Es ist tatsächlich die wahre Integration von Mensch und Maschine.                                                                                                      |
+| Isometric MT  | Es ist die wirkliche Integration von Mensch und Maschine.                                                                                                              |                                                                            |
+|  __Source__   | But still it was a real footrace against the other volunteers to get to the captain in charge to find out what our assignments would be.                               |
+|  Baseline MT  | Aber es war trotzdem ein echtes Rennen gegen die anderen Freiwilligen, um zum verantwortlichen Kapitän zu kommen, um herauszufinden, was unsere Aufgaben sein würden.  |
+| Isometric MT  | Aber es war ein Wettlauf gegen die anderen Freiwilligen, um zum verantwortlichen Kapitän zu kommen, um unsere Aufgaben herauszufinden.                                 |
 
 ## Language Pairs 
 
@@ -70,8 +81,9 @@ multiple contrastive runs.
 
 #### Training Sets
 
-Participants may use text-to-text training data available in the MuST-C v2 offline speech translation corpus 
-(please refer to the [offline speech translation task](https://iwslt.org/2021/offline#allowed-training-data)). 
+Participants may use text-to-text training data available in the MuST-C v1.2 offline speech translation corpus 
+(please refer to the [offline speech translation task](https://iwslt.org/2021/offline#allowed-training-data) for more detail), or 
+the dataset is available [here](https://ict.fbk.eu/must-c/). 
 In addition participants can use the latest parallel data for each of the language pairs from 
 [WMT](https://www.statmt.org/wmt21/) for their model training. 
 Submission information should state what type and amount of data are used for model training. 
@@ -79,10 +91,10 @@ Depending on the used data, submissions are divided into two training data regim
 
 
 **Constrained task**
-* Can only use the textual MuST-C v2 data.
+* Can only use the textual MuST-C v1.2 data.
 
 **Unconstrained task**
-* Can use the textual MuST-C v2 data,
+* Can use the textual MuST-C v1.2 data,
 * WMT data and pre-trained translation models
 
 
