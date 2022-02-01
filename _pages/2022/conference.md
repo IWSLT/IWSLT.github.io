@@ -7,7 +7,7 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-## 26-27 May 2022 - ACL 2022 - Dublin, Ireland
+## 26-27 May 2022, Dublin
 
 The 19th International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference, associated with an open evaluation campaign on spoken language translation, where both scientific papers and system descriptions are presented.
 
