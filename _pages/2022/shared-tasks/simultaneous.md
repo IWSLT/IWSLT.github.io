@@ -7,8 +7,6 @@ title: "Simultaneous Speech Translation"
 
 <!-- the task, the languages, and the type of data -->
 
-**Note: this is a draft and feedback on the task setup is welcome, either via iwslt-evaluation-campaign@googlegroups.com or Twitter (@iwslt)**
-
 Simultaneous translation (also known as real-time or streaming translation) is the task of generating translations incrementally given partial input only.
 Simultaneous translation enables interesting applications such as automatic simultaneous interpretation or international conference translations.
 Simultaneous systems are typically evaluated with respect to quality and latency. This year, we will have 2 tracks and 3 language pairs:
@@ -27,7 +25,7 @@ We encourage participants to enter all tracks when possible. We also encourage p
 
 ## Evaluation
 
-This year, we will use automatic evaluation very similar to the last year and we will trial manual evaluation for English-to-German track.
+This year, we will use automatic evaluation very similar to the last year and we will trial a manual evaluation for the English-to-German track.
 
 ### Automatic Evalution
 
@@ -38,7 +36,7 @@ We will use a very similar system as last year for evaluation. The system's perf
 
 Like last year, the evaluation implementation will use the [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit. For latency measurement, we will contrast computation aware and non computation aware latency metrics. See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined. Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)). The latency is calculated on word level for En-De systems and character level for En-Ja systems and En-Zh systems.
 
-The participants will submit a Docker image (see below for an example) and the organizers will run the image in a controlled environment, specifically an **ap3.2xlarge AWS instance** (see details in https://aws.amazon.com/ec2/instance-types/p3/).
+The participants will submit a Docker image (see below for an example) and the organizers will run the image in a controlled environment, specifically an **p3.2xlarge AWS instance** (see details in https://aws.amazon.com/ec2/instance-types/p3/).
 
 #### Ranking for Automatic Evaluation
 
@@ -49,6 +47,12 @@ Speech Translation (English-German):
 * Low Latency: AL < = 1000
 * Medium Latency: AL < = 2000
 * High Latency: AL < = 4000
+
+Speech Translation (English-Japanese):
+
+* Low Latency: AL < = TBD
+* Medium Latency: AL < = TBD
+* High Latency: AL < = TBD
 
 Speech Translation (English-Mandarin):
 
@@ -74,13 +78,13 @@ Text Translation (English-Mandarin):
 * Medium Latency: AL < = TBD
 * High Latency: AL < = TBD
 
-The submitted systems will be categorized into different regimes based on the AL calculated on the Must-C English-German and English-Mandarin test sets (`tst-COMMON`) for English-German and English-Mandarin or on the IWSLT21 dev set for English-Japanese, while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. In addition, within each latency regime, we will also measure computation aware AL and rank systems accordingly. Finally, we will report latency-quality trade-off curves for non computation aware AL and for computation aware AL in the findings paper.
+The submitted systems will be categorized into different regimes based on the AL calculated on the MuST-C English-German, English-Mandarin and English-Japanese test sets (`tst-COMMON`), while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. In addition, within each latency regime, we will also measure computation aware AL and rank systems accordingly. Finally, we will report latency-quality trade-off curves for non computation aware AL and for computation aware AL in the findings paper.
 
-**Note that for English-German, we will use the release v2.0 of MuST-C and for English-Mandarin, we will use the release v1.2 of MuST-C**
+**Note that we will use `tst-COMMON` from the v2.0 release of MuST-C in order to determine the latency regime.**
 
 ### Manual Evaluation
 
-English-to-German track will include manual evaluation of simultaneous speech translation for at least one variant of submitted system for each participating team (based on the selection by the team).
+The English-to-German track will include manual evaluation of simultaneous speech translation for at least one variant of submitted system for each participating team (based on the selection by the team).
 
 The evaluation will consist in playing the source sound/video with live text captions to speakers fluent in the source English and native in the target German, and collecting "continuous ranking". This method is described in Section 3.1.1 (page 22) in the [master thesis by Dávid Javorský](https://dspace.cuni.cz/bitstream/handle/20.500.11956/147964/120397331.pdf?sequence=1&isAllowed=y).
 
@@ -88,14 +92,7 @@ As a benchmark, human interpretations presented in the exact same form of live t
 
 ## Training and Development Data
 
-### English-German, English-Mandarin
-
 You may use the same training and development data available for the [Offline Speech Translation task](https://iwslt.org/2022/offline). Specifically, please refer to the [Allowed Training Data](https://iwslt.org/2022/offline#allowed-training-data) and the [Past Editions Development Data](https://iwslt.org/2022/offline#past-editions-development-data) sections.
-
-### English-Japanese
-
-We provide a version of MuST-C prepared for this shared task [MuST-C v2.0](https://ict.fbk.eu/must-c/) for training and development.
-For training, you may also use the parallel data and monolingual data available for the [English-Japanese WMT20 news task](http://statmt.org/wmt20/translation-task.html).
 
 ## Baseline Implementation and Example
 
@@ -149,7 +146,7 @@ If you encounter a bus error similar to this [issue](https://github.com/pytorch/
 When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
 
 ### English-to-Japanese Text-to-Text Translation
-Baseline will be provided later in January 2022.
+Baseline will be provided soon.
 
 ## System Submission
 
