@@ -38,7 +38,7 @@ This task allows all training data from the [Offline task](https://iwslt.org/202
 
 In addition, the following training data is allowed for the purpose of building German TTS and English-German speech-to-speech models:
 - [Synthesized MuST-C](https://dl.fbaipublicfiles.com/s2st/mustc_v2_en_de_tts.tgz): target speech for the German target text of MuST-C V2 which has been synthesized using a [VITS](https://github.com/jaywalnut310/vits) model trained on the German portion of CSS10.
-- A [pretrained German TTS model](https://dl.fbaipublicfiles.com/s2st/G_24000.pth) to facilitate cascaded models and dual submission with the Offline task. To use this model in inference, see this [example notebook](https://github.com/jmp84/vits/blob/main/inference_iwslt.ipynb).
+- A [pretrained German TTS model](https://dl.fbaipublicfiles.com/s2st/G_24000.pth) to facilitate cascaded models and dual submission with the Offline task. To use this model in inference, see this [example notebook](https://github.com/jmp84/vits/blob/main/inference_iwslt.ipynb) (you'll need to follow steps 0-2 and 4 in the README to set up the repository). 
 - [CSS10](https://github.com/Kyubyong/css10): single-speaker German TTS dataset
 
 Note that several datasets allowed for the Offline task (including Common Voice and LibriVoxDeEn) contain multi-speaker German speech and text data. 
