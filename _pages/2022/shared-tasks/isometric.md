@@ -17,17 +17,20 @@ simultaneous speech translation (to control the reading or listening effort), an
 layout constrained translation (i.e. document table or database field). Hence, building MT models that can generate increasingly isometric translation while maintaining the 
 translation quality can have a far reaching impact in diverse MT use cases.
 
-*Example translations from an English source to German using a Baseline and an Isometric MT models
-show how the latter can better fit the source length template, while preserving meaning.*
 
-|    Systems    |                                                                                                                                                                        |
-|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  __Source__   | It is actually the true integration of the man and the machine.                                                                                                        |
-|  Baseline MT  | Es ist tatsächlich die wahre Integration von Mensch und Maschine.                                                                                                      |
-| Isometric MT  | Es ist die wirkliche Integration von Mensch und Maschine.                                                                                                              |                                                                            |
-|  __Source__   | But still it was a real footrace against the other volunteers to get to the captain in charge to find out what our assignments would be.                               |
-|  Baseline MT  | Aber es war trotzdem ein echtes Rennen gegen die anderen Freiwilligen, um zum verantwortlichen Kapitän zu kommen, um herauszufinden, was unsere Aufgaben sein würden.  |
-| Isometric MT  | Aber es war ein Wettlauf gegen die anderen Freiwilligen, um zum verantwortlichen Kapitän zu kommen, um unsere Aufgaben herauszufinden.                                 |
+*Example translations from an English source to German using a Baseline and an Isometric MT model
+demonstrates how the latter can better fit the source length template, while preserving meaning.*
+
+
+|    Systems    |                                                                                                                                                                       |
+|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  __Source__   | *It is actually the true integration of the man and the machine.*                                                                                                     |
+|  Baseline MT  | Es ist tatsächlich die wahre Integration von Mensch und Maschine.                                                                                                     |
+| Isometric MT  | Es ist die wirkliche Integration von Mensch und Maschine.                                                                                                             |                                                                            |
+|  __Source__   | *But still it was a real footrace against the other volunteers to get to the captain in charge to find out what our assignments would be.*                            |
+|  Baseline MT  | Aber es war trotzdem ein echtes Rennen gegen die anderen Freiwilligen, um zum verantwortlichen Kapitän zu kommen, um herauszufinden, was unsere Aufgaben sein würden. |
+| Isometric MT  | Aber es war ein Wettlauf gegen die anderen Freiwilligen, um zum verantwortlichen Kapitän zu kommen, um unsere Aufgaben herauszufinden.                                |
+
 
 ## Language Pairs 
 
@@ -77,9 +80,9 @@ Systems submitted for the above language pairs, will be evaluated on MuST-C (`ts
 multiple contrastive runs.
 
 
-### Datasets
+## Datasets
 
-#### Training Sets
+### Training Sets
 
 Participants may use text-to-text training data available in the MuST-C v1.2 offline speech translation corpus 
 (please refer to the [offline speech translation task](https://iwslt.org/2021/offline#allowed-training-data) for more detail), or 
@@ -91,14 +94,14 @@ Depending on the used data, submissions are divided into two training data regim
 
 
 **Constrained task**
-* Can only use the textual MuST-C v1.2 data.
+* Can only use the textual MuST-C v1.2 language pair specific parallel data.
 
 **Unconstrained task**
-* Can use the textual MuST-C v1.2 data,
-* WMT data and pre-trained translation models
+* Can use the textual MuST-C v1.2 data.
+* WMT data, multilingual data from other pairs, and pre-trained translation models.
 
 
-#### Test Sets
+### Test Sets
 
 We will evaluate the submitted systems on a test set and a blind set:
 
@@ -107,7 +110,8 @@ We will evaluate the submitted systems on a test set and a blind set:
 Participants will get access to the English source sentences when evaluation starts and references will be released 
 after the shared task is completed.
 
-### System Submission
+
+## System Submission
 
 Participants are asked to submit the output of their system(s), for one or more of the evaluation language pairs. 
 In addition to the system outputs, participants are required to submit the performance of their system in terms of 
@@ -127,6 +131,15 @@ Package should be organized per source to target language pair (such as `En-Fr`)
     * Institution/contact person
 
 NB: both the source and the MT output should be submitted in a detokenized format.
+
+
+## FAQ
+
+- Is it allowed to use multilingual data in the constrained task?
+  - No, only language pair specific parallel data is allowed for the constrained task. For instance, for En-De, only 
+the En-De MuST-C parallel data should be used. If using multilingual data from other language pairs, please consider the
+unconstrained task.
+
 
 
 ## Organizers
