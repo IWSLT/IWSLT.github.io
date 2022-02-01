@@ -5,12 +5,10 @@ main:
     url: /2022/#shared-tasks
   - title: "Important Dates"
     url: /2022/#important-dates
-  - title: "Past Editions"
-    url: /past-editions/
-  - title: "SIGSLT"
-    url: /sigslt/
   - title: "Sponsors"
     url: /sponsors/
-  - title: "Steering Committee"
-    url: /SteeringCommittee/
+  - title: "SIGSLT"
+    url: /sigslt/
+  - title: "Past Editions"
+    url: /past-editions/
 twitter:
