@@ -2,7 +2,7 @@
 permalink: /2022/
 title: "IWSLT 2022"
 toc: true
-toc_label: "2022 Important Links"
+toc_label: "Important Links"
 toc_icon: "cog"
 toc_sticky: true
 ---
