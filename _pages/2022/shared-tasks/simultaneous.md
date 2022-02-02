@@ -145,8 +145,11 @@ If you encounter a bus error similar to this [issue](https://github.com/pytorch/
 
 When submitting your system, please make sure it works for the MuST-C dev and test sets. During the official evaluation, we will run the submitted system with the blind set.
 
-### English-to-Japanese Text-to-Text Translation
+### English-to-Japanese Speech-to-Text Translation
 Baseline will be provided soon.
+
+### English-to-Japanese Text-to-Text Translation
+You can find a baseline and instructions on how to reproduce it [here](https://github.com/ksudoh/IWSLT2022_simul_t2t_baseline_enja).
 
 ## System Submission
 
