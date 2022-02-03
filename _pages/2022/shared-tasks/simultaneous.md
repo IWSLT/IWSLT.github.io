@@ -42,37 +42,19 @@ The participants will submit a Docker image (see below for an example) and the o
 
 We will evaluate translation quality with detokenized BLEU and latency with AP, AL and DAL. The systems will be ranked by the translation quality with different latency regimes. Three regimes, low, medium and high, will be evaluated. Each regime is determined by a maximum latency threshold. The thresholds are determined by AL, which represents the delay to the perfect real time system (milliseconds for speech and number of words for text), but all three latency metrics, AL, DAL and AP will be reported. Based on analysis on the quality-latency tradeoffs for the baseline systems, the thresholds are set as follows:
 
-Speech Translation (English-German):
+English-German (both speech-to-text and text-to-text):
 
 * Low Latency: AL < = 1000
 * Medium Latency: AL < = 2000
 * High Latency: AL < = 4000
 
-Speech Translation (English-Japanese):
+English-Japanese:
 
 * Low Latency: AL < = TBD
 * Medium Latency: AL < = TBD
 * High Latency: AL < = TBD
 
-Speech Translation (English-Mandarin):
-
-* Low Latency: AL < = TBD
-* Medium Latency: AL < = TBD
-* High Latency: AL < = TBD
-
-Text Translation (English-German):
-
-* Low Latency: AL < = 3
-* Medium Latency: AL < = 6
-* High Latency: AL < = 15
-
-Text Translation (English-Japanese):
-
-* Low Latency: AL < = 8
-* Medium Latency: AL < = 12
-* High Latency: AL < = 16
-
-Text Translation (English-Mandarin):
+English-Mandarin:
 
 * Low Latency: AL < = TBD
 * Medium Latency: AL < = TBD
