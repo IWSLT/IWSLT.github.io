@@ -23,6 +23,12 @@ We want to highlight the differences with respect to last edition:
 
 We encourage participants to enter all tracks when possible. We also encourage participants to contrast cascaded and end-to-end solutions for the Speech-to-Text track.
 
+## Streaming ASR System
+
+We will use an Emformer model implemented in torchaudio.
+The model is trained on TED-LIUM 3 (see [training recipe](https://github.com/pytorch/audio/tree/main/examples/asr/tedlium3_emformer_rnnt)).
+Example usage is available as an [ASR demo script](https://github.com/pytorch/audio/blob/main/examples/asr/librispeech_emformer_rnnt/pipeline_demo.py) (see also [video](https://user-images.githubusercontent.com/8345689/152093668-11fb775a-bf7b-4b1d-9516-9f8d5a9b6683.mov)).
+
 ## Evaluation
 
 This year, we will use automatic evaluation very similar to the last year and we will trial a manual evaluation for the English-to-German track.
