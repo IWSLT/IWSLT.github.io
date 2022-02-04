@@ -26,8 +26,9 @@ We encourage participants to enter all tracks when possible. We also encourage p
 ## Streaming ASR System
 
 We will use an Emformer model implemented in torchaudio.
-The model is trained on TED-LIUM 3 (see [training recipe](https://github.com/pytorch/audio/tree/main/examples/asr/tedlium3_emformer_rnnt)).
+The model is trained on English-German MuST-C v2 (see [training recipe](https://github.com/pytorch/audio/tree/main/examples/asr/tedlium3_emformer_rnnt for a similar recipe on TED-LIUM 3)).
 Example usage for the corresponding Librispeech trained model is available as an [ASR demo script](https://github.com/pytorch/audio/blob/main/examples/asr/librispeech_emformer_rnnt/pipeline_demo.py).
+This means that the input to the text-to-text track will be cased and punctuated.
 
 ## Evaluation
 
