@@ -11,6 +11,10 @@ toc_sticky: true
 
 This goal of this task is to foster the development of automatic methods to translate speech in one language to speech in another target language. In particular, we are interested in comparing the performance of cascade (ASR + MT + TTS or S2T + TTS) approaches with end-to-end/direct (S2S) approaches. For this first edition, we are restricting the scope of the task to offline systems and the English-German language direction. We may extend this task to include simultaneous systems and other languages in subsequent editions.
 
+## Constrained Track
+
+In order to simplify the task and to be able to compare more systems together, **we will only allow one constrained track** (see training data allowed below).
+
 ## Ranking
 
 While we will share both automatic and human evaluation scores, the systems will be ranked according to the human evaluation.
