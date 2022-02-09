@@ -59,7 +59,6 @@ The ```<condition>``` tag should be one of the following: "basic" for <b>basic c
 ## Organizers
 
 - Kevin Duh (Johns Hopkins University) 
-- Matthew Wiesner (Johns Hopkins University) 
 - Paul McNamee (Johns Hopkins University) 
 - Kenton Murray (Johns Hopkins University)
 
