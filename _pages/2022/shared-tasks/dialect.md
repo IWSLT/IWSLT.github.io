@@ -33,6 +33,12 @@ After you obtain the Tunisian-English speech translation data from LDC, please f
 
 For the <b>Dialect adaptation condition</b>, please add any of the MGB-2 and OPUS bitext referenced above. For the <b>Unconstrained condition</b>, feel free to use any resource. 
 
+## Baseline Models
+
+Feel free to build upon the baseline models in ESPnet provided by <a href="https://shinjiwlab.github.io">CMU WAVLab</a>. Here are the recipes for the basic condition: <a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/asr1/RESULTS.md">ASR model</a> and 
+<a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/st1/RESULTS.md">ST model</a>. The models are also downloadable from Huggingface. 
+
+If you would like to share your baseline models here for other colleagues to use during the evaluation campaign, please contact Kevin Duh. 
 
 ## Submission
 
