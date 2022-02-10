@@ -14,9 +14,6 @@ We are very grateful to our sponsors who have facilitated the IWSLT conference a
   <a href="https://ai.facebook.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/facebook.png" alt="Facebook AI" style="width:100%"/></a>
 </div>     
 
-<div class="card">
-  <a href="https://ai.facebook.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/facebook.png" alt="Facebook AI" style="width:100%"/></a>
-</div>     
 
 
 ## Platinum
