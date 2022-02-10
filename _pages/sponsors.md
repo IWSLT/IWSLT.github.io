@@ -11,7 +11,7 @@ We are very grateful to our sponsors who have facilitated the IWSLT conference a
 ## Diamond
 
 <div class="card">
-<a href="https://aws.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/AWS_logo_RGB.png" alt="Amazon Web Services" style="width:100%"/></a>
+<a href="https://amazon.science/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/amazon.png" alt="Amazon Science" style="width:100%"/></a>
 </div>  
 
 <div class="card">
