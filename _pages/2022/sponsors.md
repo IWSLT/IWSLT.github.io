@@ -23,5 +23,6 @@ and 3 tiers for sponsorships in kind (e.g. computing credits):
 - Platinum Sponsor: $10,000
 - Gold Sponsor:      $5,000  
 
-Sponsors will be recognized in the website, during the conference and in the conference proceedings.
+Sponsors will be recognized in the website, during the conference and in the conference proceedings. 
+
 
