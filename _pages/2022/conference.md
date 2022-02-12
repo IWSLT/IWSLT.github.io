@@ -81,14 +81,80 @@ The submission procedure will be linked here once available.
 ## Organizers
 - Marcello Federico, Amazon, USA (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
-- Marta R. Costa-jussà, UPC, Spain (Program Chair)
+- Marta R. Costa-jussà, Meta AI, France (Program Chair)
 - Jan Niehues, Maastricht U., Netherlands (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Evaluation Chair)
 - Elizabeth Salesky, JHU, USA (Website Chair)
 
 ## Program Committee
 
-TBA
+•	Hirofumi Inaguma, Kyoto University, Japan
+
+•	Surafel Melaku Lakew, Amazon AI, USA
+
+•	Carlos Escolano, Universitat Politècnica de Catalunya, Spain
+
+•	Changhan Wang, Facebook AI Research, USA
+
+•	Yun Tang, Facebook AI Research, USA
+
+•	Akiko Eriguchi, Microsoft, USA
+
+•	Yuchen Liu, Princeton, USA
+
+•	Matthias Sperber, Apple, USA
+
+•	Krzystof Wolk, Polish‐Japanese Academy of Information Technology, Poland
+
+•	Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
+
+•	Julian Salazar, Amazon AWS AI, USA
+
+•	Chengyi Wang, Nankai University, China
+
+•	David Vilar, Amazon, Germany
+
+•	Elizabeth Salesky, JHU, USA
+
+•	Evgeny Matusov, AppTek, Germany
+
+•	Juan Pino, Facebook, USA
+
+•	Katsuhito Sudoh, NAIST, Japan
+
+•	Laurent Besacier, IMAG, France
+
+•	Marco Turchi, FBK, Italy
+
+•	Markus Freitag, Google, USA
+
+•	Matteo Negri, FBK, Italy
+
+•	Matthias Huck, LMU, Germany
+
+•	Mattia di Gangi, AppTek, Germany
+
+•	Cuong Hoang, Amazon AI, USA
+
+•	Nguyen Bach, Alibaba, USA
+
+•	Yves Lepage, U. Waseda, Japan
+
+•	Duygu Ataman, University of Zurich, Switzerland
+
+•	Xutai Ma, Johns Hopkins University, USA
+
+•	Takatomo Kano, Nara Institute of Science and Technology, Japan
+
+•	Sebastian Stüker, Karlsruhe Institute of Technology, Germany
+
+•	Ioannis Tsiamas, Universitat Politècnica de Catalunya, Spain
+
+
+
+
+
+
 
 ## Sponsorship Opportunities
 IWSLT welcomes [sponsorships](/2022/sponsors)
