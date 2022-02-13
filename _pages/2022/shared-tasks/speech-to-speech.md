@@ -53,10 +53,9 @@ Sentence-segmented input will be provided.
 
 ## System Submission
 
-Submissions should be compressed in a single .tar.gz file and emailed to the organizers (link to come), with "IWSLT 2022 Speech-to-Speech Submission" in the subject line.
+Submissions should be compressed in a single .tar.gz file and uploaded to this [dropbox folder](https://www.dropbox.com/request/k18Q6i3OOXqSL135MCru).
 If multiple outputs are submitted, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary.
-
-Further submission information will be posted closer to the submission date.
+The submission should contain one wav file per input segment and a README or README.md file briefly describing the system. There are no restrictions on the number of channels or sampling rate.
 
 Test data release and system submission deadlines will follow the same [dates](/2022/#important-dates) as all shared tasks.
 
