@@ -38,7 +38,7 @@ This year, we will use automatic evaluation very similar to the last year and we
 
 We will use a very similar system as last year for evaluation. The system's performance will be evaluated in two ways:
 
-* Translation quality: we will use multiple standard metrics: BLEU, TER, and METEOR.
+* Translation quality: we will use BLEU.
 * Translation latency: we will use standard metrics for simultaneous machine translation including average proportion (AP), average lagging (AL) and differentiable average lagging (DAL).
 
 Like last year, the evaluation implementation will use the [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit. For latency measurement, we will contrast computation aware and non computation aware latency metrics. See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined. Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)). The latency is calculated on word level for En-De systems and character level for En-Ja systems and En-Zh systems.
