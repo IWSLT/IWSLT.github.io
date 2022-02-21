@@ -5,6 +5,8 @@ main:
     url: /2022/#shared-tasks
   - title: "Important Dates"
     url: /2022/#important-dates
+  - title: "Lectures"
+    url: /lectures/    
   - title: "Sponsors"
     url: /sponsors/
   - title: "SIGSLT"
