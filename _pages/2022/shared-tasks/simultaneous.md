@@ -57,9 +57,9 @@ English-German (both speech-to-text and text-to-text):
 
 English-Japanese:
 
-* Low Latency: AL < = TBD
-* Medium Latency: AL < = TBD
-* High Latency: AL < = TBD
+* Low Latency: AL < = 2500
+* Medium Latency: AL < = 4000
+* High Latency: AL < = 5000
 
 English-Mandarin:
 
