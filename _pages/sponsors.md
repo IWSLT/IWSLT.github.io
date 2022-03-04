@@ -10,17 +10,18 @@ classes: wide
 
 ## Diamond
 
+<div class="card">
+<a href="https://ai.facebook.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/Meta_lockup_positive_primary_RGB.jpg" alt="Meta" style="width:100%"/></a>
+</div>     
+
 <!---
 <div class="card">
 <a href="https://amazon.science/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/amazon.png" alt="Amazon Science" style="width:100%"/></a>
 </div>  
-
-<div class="card">
-<a href="https://ai.facebook.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/facebook.png" alt="Facebook AI" style="width:100%"/></a>
-</div>     
 --->
 
 
+<!--  unused tiers are commented
 ## Platinum
 
 
@@ -31,5 +32,4 @@ classes: wide
 
 
 ## Bronze
-
-
+-->
