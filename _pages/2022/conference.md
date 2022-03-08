@@ -45,12 +45,12 @@ Please join the [IWSLT Evaluation Campaign google group](https://groups.google.c
 
 ## Paper Submission
 
-Submissions should be scientific papers or shared task system description papers. 
+Submissions should be scientific papers or system papers. 
 All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 Accepted papers will be published in the ACL 2022 proceedings and will be presented at the IWSLT conference either orally or as a poster.
 
-Please submit your manuscript through the following Softconf [page](https://www.softconf.com/acl2022/iwslt2022/)
+Please submit scientific papers and system papers via the [submission page](https://www.softconf.com/acl2022/iwslt2022/)
 {: .notice--info}
 
 
