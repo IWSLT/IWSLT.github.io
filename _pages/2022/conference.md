@@ -50,7 +50,7 @@ All papers may consist of 4 to 8 pages of content with additional pages of refer
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 Accepted papers will be published in the ACL 2022 proceedings and will be presented at the IWSLT conference either orally or as a poster.
 
-The submission procedure will be linked here once available. 
+Please submit your manuscript through the following Softconf [page](https://www.softconf.com/acl2022/iwslt2022/)
 {: .notice--info}
 
 
