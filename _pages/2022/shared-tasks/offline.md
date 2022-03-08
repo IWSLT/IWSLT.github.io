@@ -49,7 +49,7 @@ This year one versions of the same TED talks is released. It contains the audio 
 To measure the progress in the ST field, each participant is required to translate also the 2021 test set that is still blind. Similar to last year test set, the 2022 test set will be made available with and without automatic segmentation.
 
 2021:
-  -   [Segmented/Unsegmented](https://surfdrive.surf.nl/files/index.php/s/U3blQuKJ2M0L14K)
+  -   [Segmented/Unsegmented](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2021.en-de.tgz)
 
 2022:
   -   To be released
@@ -86,7 +86,8 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
   * [tst2014](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/preprocessed/IWSLT-SLT.tst2014.en-de.tgz)
   * [tst2015](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/preprocessed/IWSLT-SLT.tst2015.en-de.tgz)
   * [tst2018](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2018.en-de.tgz)
-  * [tst2019](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/)
+  * [tst2019](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2019.en-de.tgz)
+  * [tst2020](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2020.en-de.tgz)
 
 
 ## Allowed Training Data
