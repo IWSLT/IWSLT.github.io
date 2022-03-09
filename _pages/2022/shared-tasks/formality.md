@@ -135,7 +135,7 @@ This special task is **self-service**. In order to have their system included in
 * report their results in a system description paper, which will then be collated in the findings paper
 
 
-Each system will be evaluated for formality control for the provided test set, as well as for overall translation quality on a generic test set. The organizers will provide a [targeted automatic metric](https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022#evaluation), leveraging phrase-level annotations in our dataset, for system-level evaluation of formality-controlled models. Overall translation quality will be measured with [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/) and [COMET v1.0.1](https://pypi.org/project/unbabel-comet/1.0.1/) automatic metrics.
+Each system will be evaluated for formality control for the provided test set, as well as for overall translation quality on a generic test set. The organizers will provide a [targeted automatic metric](https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022#evaluation), leveraging phrase-level annotations in our dataset, for system-level evaluation of formality-controlled models. Overall translation quality will be measured with [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/) (see FAQ for Japanese) and [COMET v1.0.1](https://pypi.org/project/unbabel-comet/1.0.1/) automatic metrics.
 
 
 ## Submissions
@@ -186,6 +186,8 @@ Amazon AWS Translate:
     * For the **unconstrained** setting, we allow pre-trained models for data augmentation, classification etc.
 * Are pre-trained models such as mBERT and mBART allowed?
     * Yes, the use of pre-trained models is allowed. 
+* How to evaluate system outputs for Japanese with sacrebleu?
+    * For evaluating English-Japanese models with sacrebleu, participants should use the MeCab morphological analyzer for tokenization. They can do this by installing support for Japanese tokenization in sacrebleu (https://github.com/mjpost/sacrebleu#installation) and specifying either `--tokenize ja-mecab` or `-l en-ja` in the sacrebleu call.
 * Can papers be submitted to multiple venues?
     * Yes, as long as they cite the dataset/findings paper.
 
