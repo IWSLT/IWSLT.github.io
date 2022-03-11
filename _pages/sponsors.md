@@ -41,7 +41,7 @@ classes: wide
 ### Bronze
 -->
 
-## Donators
+# Donators
 
 ### Diamond
 
