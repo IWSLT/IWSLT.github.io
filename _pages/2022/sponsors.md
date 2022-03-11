@@ -1,6 +1,6 @@
 ---
 permalink: /2022/sponsors
-title: "Sponsorships"
+title: "Sponsorships and Donations"
 ---
 
 IWSLT welcomes sponsors and donors of compute credits (without any sponsorship contract to sign) 
