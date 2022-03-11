@@ -6,7 +6,7 @@ classes: wide
 
 <br>
 <!--- We are very grateful to our sponsors who have facilitated the IWSLT conference and participation in shared tasks.  --->
-*If your organization would like to sponsor IWSLT, please see our [sponsorship information](/2022/sponsors).* 
+*If your organization would like to sponsor or donate to IWSLT, please see our [sponsorship information](/2022/sponsors).* 
 
 ### Diamond
 
