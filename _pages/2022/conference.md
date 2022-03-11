@@ -59,6 +59,7 @@ Please submit scientific papers and system papers via the [submission page](http
 - We accept submissions which have previously been made available as technical reports or preprints, e.g. on arXiv.
 - We will not accept scientific papers for publication that overlap significantly in content or results with papers published elsewhere.
 - Scientific papers which have been, or plan to be, submitted to other venues must be declared as such at the time of submission, and must be withdrawn from the other venues if accepted and published at IWSLT 2022.
+- Scientific paper whose main author is a student will be eligible for the IWSLT 2022 Best Student Paper Award (author can provide the relevant info in the submission form)
 
 
 ## Important Dates
