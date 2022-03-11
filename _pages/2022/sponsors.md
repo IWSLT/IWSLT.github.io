@@ -4,7 +4,7 @@ title: "Sponsorships and Donations"
 ---
 
 IWSLT welcomes sponsors and donors of compute credits (without any sponsorship contract to sign) 
-to fund human evaluations, data collections and student grants. Sponsorships will be collected through 
+to support human evaluations, data collections and participating students. Sponsorships will be collected through 
 the Association for Computational Linguistics and used to fund students grants, human evaluations 
 and data collections.
 
