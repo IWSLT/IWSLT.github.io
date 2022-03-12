@@ -5,6 +5,12 @@ title: "Isometric Spoken Language Translation"
 
 <!-- the task, the languages, and the type of data -->
 
+### Updates
+- March 11: Blind test set (_only the source_) and evaluation script 
+will be released by March 14 [Isometric SLT repo](https://github.com/amazon-research/isometric-slt). 
+See [System Submission](isometric.md#system-submission) section for more details.
+- March 25: The reference of the blind test will be released.
+
 
 ## Description
 Isometric translation task refers to generating translations similar in length to the source. 
@@ -64,7 +70,7 @@ Thus, we will use BERTScore to measure translation quality.
 
 We define length compliance (LC) as the percentage of translations in a given test set falling in a predefined length 
 threshold of ±10% of the number of characters in the source sentence. That is, if the source length is 50 characters, 
-a length compliant translation is between 45 to 55 characters. We calculate how many translations fall in this bracket 
+a length compliant translation is [between 45 to 55 characters](). We calculate how many translations fall in this bracket 
 and report the percentage over a test set. This threshold is motivated by 
 [recent finding](https://www.amazon.science/publications/machine-translation-verbosity-control-for-automatic-dubbing), 
 that shows that if the translation length stays within a ±10% range, 
@@ -114,23 +120,34 @@ after the shared task is completed.
 ## System Submission
 
 Participants are asked to submit the output of their system(s), for one or more of the evaluation language pairs. 
-In addition to the system outputs, participants are required to submit the performance of their system in terms of 
-both the BERTScore and LC metrics. The statistics will be used by the organizers to compare their assessment of 
-submitted systems with that of participants. Details of the evaluation script will be made available when the evaluation data is released. 
+In addition to the system outputs, participants are required to submit the performance of their system(s) in terms of 
+[BERTScore v0.3.11](https://pypi.org/project/bert-score/0.3.11/) (_only for the test set with reference_), 
+and LC metric. The statistics will be used by the organizers to compare their assessment of submitted systems with that of participants. 
+Details of the evaluation script will be made available when the evaluation data is released. 
 
+Submissions should be emailed to the address `iwslt2022-shared-task@amazon` with the  subject line: 
+`IWSLT2022 Isometric-SLT Submission`. Submissions should be packed 
+in a compressed file with the following naming convention: 
+`isometric-slt_[participant-name].tar.gz`. Packages should be organized per 
+source-target language pair, per data setting, and per test set (e.g. `./EN-FR/constrained/[mustc-test/blind-test]`).
 
-Submission file should be packaged and named as `isometric_mt_participant-name.tar.gz`.  
-Package should be organized per source to target language pair (such as `En-Fr`) and include: 
+Each directory should include:
+* Source `test.[target]` and system output files for the Isometric SLT blind test set and the MuST-C v1.2, formatted as
+    * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized, detruecased)
+    * For each system output, one file named `isometric-slt-[id].[target]`, where `id` is used to 
+    distinguish if several approaches are submitted. (e.g. `isometric-slt-01.fr`)
 
-* `tst-COMMON.SRC`: the source file used for translation 
-* `isometric-mt-id.TGT`: the output of participants isometric MT, `id`  is used to distinguish if several approaches/system runs are submitted. 
-* `README.md`: should include
-    * A brief description of each `*isometric-mt-id` system submitted
+* README.md with the following information
+    * Brief description of each system submitted, including which system they prefer for final evaluation by the organizers
     * System performance as computed by the participant
-    * Training data condition
-    * Institution/contact person
+    * Training data conditions (constrained, unconstrained)
+    * List of the data sources used for training the system
+    * Institution and contact person
 
-NB: both the source and the MT output should be submitted in a detokenized format.
+In addition to the system outputs, we invite participants to also submit a paper describing their system(s) by April 1, 2022 
+via the conference submission page. Unconstrained and constrained systems should be evaluated separately in the system description paper.
+
+_To access blind test set and evaluation scripts, please refer the [Isometric SLT](https://github.com/amazon-research/isometric-slt) repo._
 
 
 ## FAQ
