@@ -46,7 +46,7 @@ Tentative schedule based on the IWSLT dates.
 |Date |Stage | Updates |
 |---	|---	|--- |
 |Jan, 15 2022	|release of formality-annotated training and dev data |	Link to data - [amazon-research/IWSLT2022]( https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022)|
-|Mar 14, 2022	|formality evaluation data released	| |
+|Mar 14, 2022	|formality evaluation data released	| Submission instructions updated |
 |Mar 24, 2022	|translation submission deadline	| |
 |Mar 25, 2022	|formality reference translations released	| |
 |Apr 1, 2022	|system paper submission deadline	| |
@@ -140,23 +140,32 @@ Each system will be evaluated for formality control for the provided test set, a
 
 ## Submissions
 
-Submissions should be made to a dedicated public github repository under an MIT license. Submissions should be packed in a compressed file following the naming convention: `formality-control_[participant-name].tar.gz`. Packages should be organized per source to target language pair and per data setting (such as `En-IT/constrained`) and include:
+Submissions should be emailed to the address `iwslt2022-shared-task@amazon.com` with the subject line: `IWSLT2022 Formality-Control Submission`. Submissions should be packed in a compressed file with the following naming convention: `formality-control_[participant-name].tar.gz`. Packages should be organized per 
+source-target language pair, per data setting, and per test set (e.g. `./EN-IT/constrained/formality/blind-test/`).
+Each directory should include:
 
-* `README.md`: including
-    * Brief description of each system submitted
-    * System performance as computed by the participants
+* README.md with the following information
+    * Brief description of each system submitted, including which system they prefer
+       for final evaluation by the organizers
+    * System performance as computed by the participant
     * Training data conditions (constrained/unconstrained; full/zero-shot)
     * List of the data sources used for training the system
     * Institution and contact person
 * Source and system output files for the formality control test set
+    * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized,
+     detruecased)
+    * For each system, one output file for each formality level, named 
+    `formality-control-[id].[formality-level].[target]` (where id is used to 
+    distinguish if several approaches are submitted). Example: 
+    `formality-control-1.formal.de`
+* Source and system output files for the generic quality test set MuST-C v1.2 for 
+EN-DE, EN-ES, EN-IT, EN-RU and WMT newstest2020 for EN-JA and newstest2014 for EN-HI. Outputs should be formatted as:
     * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized, detruecased)
-    * For each system, one output file for each formality level, named `formality-control-[id].[formality-level].[target]` (where `id` is used to distinguish if several approaches are submitted). Example: `formality-control-1.formal.de`
-* Source and system output files for the generic quality test set
-    * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized, detruecased)
-    * One output file per system (corresponding to a generic formality level)
+        One output file per system (corresponding to a generic formality level)
 
+In addition to the system outputs, participants are required to submit the performance of their system(s) in terms of SacreBLEU v2.0.0 (https://pypi.org/project/sacrebleu/2.0.0/), COMET v1.0.1 (https://pypi.org/project/unbabel-comet/1.0.1/), and formality control (using the script provided). We invite participants to also submit a paper describing their system(s) via the conference submission page. Unconstrained and constrained systems should be 
+evaluated separately in the system description paper.
 
-In addition to the system outputs, participants are required to submit the performance of their system(s) in terms of [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/), [COMET v1.0.1](https://pypi.org/project/unbabel-comet/1.0.1/), and formality control (using the script provided). We invite participants to also submit a paper describing their system(s). Unconstrained and constrained systems should be evaluated separately in the system description paper.
 
 
 ## Organizers
