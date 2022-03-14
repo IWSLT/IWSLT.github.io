@@ -42,7 +42,7 @@ If you would like to share your baseline models here for other colleagues to use
 
 ## Submission
 
-Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2022 Dialect Shared Task Submission" in the title; you will receive a confirmation of receipt within a day. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
+Participants will receive email from LDC with instructions for downloading the evaluation set. The evaluation set will include a `segments.txt` (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way. Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2022 Dialect Shared Task Submission" in the title; you will receive a confirmation of receipt within a day. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
 
 File names for translation outputs should follow the following structure:  <br>
 ```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<src>-<tgt>.txt``` <br>
