@@ -54,7 +54,8 @@ File names for speech recognition outputs should follow the following structure:
 e.g.,
 ```gmu.asr.basic.primary.aeb.txt``` for ASR outputs.
 
-The ```<condition>``` tag should be one of the following: "basic" for <b>basic condition</b>, "adaptation" for <b>dialect adaptation condition</b>, and "unconstrained" for <b>unconstrained condition</b>. Submissions should consist of plaintext files with one sentence per line, following the order of the test set, pre-formatted for scoring (detokenized). We ask that the participants include a (very) short system desciption in the submission email.
+The ```<condition>``` tag should be one of the following: "basic" for <b>basic condition</b>, "adaptation" for <b>dialect adaptation condition</b>, and "unconstrained" for <b>unconstrained condition</b>. Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized). The official BLEU score will use lower-case and no punctuation, following the "norm" files in the setup [instructions](https://github.com/kevinduh/iwslt22-dialect). We ask that the participants include a (very) short system desciption in the submission email.
+
 
 ## Organizers
 
