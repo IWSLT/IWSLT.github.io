@@ -52,7 +52,7 @@ To measure the progress in the ST field, each participant is required to transla
   -   [Segmented/Unsegmented](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2021.en-de.tgz)
 
 2022:
-  -   To be released
+  -   [Test 2022](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2022.en-de.tgz)
 
 
 ### English - Chinese Test sets
