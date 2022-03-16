@@ -65,7 +65,7 @@ English-Mandarin:
 
 * Low Latency: AL < = 2000
 * Medium Latency: AL < = 3000
-* High Latency: AL < = TBD
+* High Latency: AL < = 4000
 
 The submitted systems will be categorized into different regimes based on the AL calculated on the MuST-C English-German, English-Mandarin and English-Japanese test sets (`tst-COMMON`), while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. In addition, within each latency regime, we will also measure computation aware AL and rank systems accordingly. Finally, we will report latency-quality trade-off curves for non computation aware AL and for computation aware AL in the findings paper.
 
