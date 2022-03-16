@@ -11,6 +11,11 @@ toc_sticky: true
 
 This goal of this task is to foster the development of automatic methods to translate speech in one language to speech in another target language. In particular, we are interested in comparing the performance of cascade (ASR + MT + TTS or S2T + TTS) approaches with end-to-end/direct (S2S) approaches. For this first edition, we are restricting the scope of the task to offline systems and the English-German language direction. We may extend this task to include simultaneous systems and other languages in subsequent editions.
 
+## Test Data
+
+You can now download the [test data](https://dl.fbaipublicfiles.com/s2st/en_de_s2s_wav.tgz). After downloading, you will find 2059 wav files named 0.wav, 1.wav, ..., 2058.wav.
+Each file should be run through your speech to speech translation system and produce a corresponding audio translation.
+
 ## Constrained Track
 
 In order to simplify the task and to be able to compare more systems together, **we will only allow one constrained track** (see training data allowed below).
