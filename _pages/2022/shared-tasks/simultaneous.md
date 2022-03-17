@@ -30,7 +30,7 @@ The [model](https://pytorch.org/audio/main/prototype.pipelines.html#emformer-rnn
 Example usage is available as an [ASR demo script](https://github.com/pytorch/audio/blob/main/examples/asr/emformer_rnnt/pipeline_demo.py) (see also [screencast](https://github.com/pytorch/audio/pull/2248) for an example).
 This means that the input to the text-to-text track will be cased and punctuated.
 
-In order to evaluate computation-aware latency for a text-to-text system, you may use SimulEval with an additional argument pointing to a timestamp file. See more details in the [SimulEval documentation](https://github.com/facebookresearch/SimulEval/blob/main/docs/timestamps.md).
+In order to evaluate the corresponding speech-to-text latency for a text-to-text system, you may use SimulEval with an additional argument pointing to a timestamp file. See more details in the [SimulEval documentation](https://github.com/facebookresearch/SimulEval/blob/main/docs/timestamps.md).
 
 ## Evaluation
 
