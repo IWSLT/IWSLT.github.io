@@ -67,12 +67,12 @@ We would like to see outputs for both test sets. If multiple outputs are submitt
 File names for translation outputs should follow the following structure:  <br>
 ```<participant>.st.<primary/contrastive>.<src>-<tgt>``` <br>
 e.g.,
-```gmu.st.primary.swa-eng.txt``` for translation outputs.
+```gmu.st.primary.aeb-eng.txt``` for translation outputs.
 
-File names for speech recognition outputs should follow the following structure:  <br>
+File names for speech recognition outputs, if you want to provide them, should follow the following structure:  <br>
 ```<participant>.asr.<primary/contrastive>.<src>``` <br>
 e.g.,
-```gmu.asr.primary.swc.txt``` for ASR outputs.
+```gmu.asr.primary.aeb.txt``` for ASR outputs.
 
 Submissions should consist of plaintext files with one sentence per line, following the order of the test set, pre-formatted for scoring (detokenized). We ask that the participants include a (very) short system desciption in the submission email.
 
