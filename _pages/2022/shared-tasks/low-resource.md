@@ -11,9 +11,10 @@ For the vast majority of the world's languages there exist little speech-transla
 This shared task invites participants to build the best speech transcription/translation system they can for transcribing and/or translating between the following language pairs:
 
 - Tamasheq (taq) to French (fra)
-- Marathi (mar) to Hindi (hin)
-- Bhojpuri (bho) to Hindi (hin)
 - Tunisian Arabic (aeb) to English (eng)
+- <del>Marathi (mar) to Hindi (hin)</del>
+- <del>Bhojpuri (bho) to Hindi (hin)</del>
+
 
 We will provide a list of available:
 - parallel translation text corpora
@@ -39,9 +40,6 @@ You may use any of the resources listed below or any other resource you deem app
 ### Tunisian Arabic - English
 * You can use the same data used for the [dialect task](https://iwslt.org/2022/dialect) (unconstrained condition).
 
-### Marathi and Bhojpuri - Hindi
-* Coming January 23rd!
-
 
 ### Pretrained Models
 The use of pre-trained models such as [wav2vec 2.0](https://arxiv.org/abs/2006.11477), [mBART](https://arxiv.org/abs/2001.08210), or similar is also allowed and is considered a constrained submission.
@@ -54,11 +52,15 @@ In addition, if the participants' systems also produce transcriptions for the so
 
 ### Evaluation Dates
 
-TBA
+April 14 to 27. Test data are available!
+
+For Tamasheq-French, the test set is available at: [https://github.com/mzboito/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test](https://github.com/mzboito/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test)
+
+For participants who signed up to receive the Tunisian-English data, you should have received an email from LDC and should be able to download the eval pack LDC2022E02 from your LDC account. If you have any problems receiving this data, please contact kevinduh@cs.jhu.edu
 
 ## Submission
 
-Submissions should be compressed in a single .tar.gz file and emailed [here (TBA)](TBA), with "IWSLT 2022 Low-Resource Shared Task Submission" in the title.
+Submissions should be compressed in a single .tar.gz file and emailed to marcely.zanon-boito at univ-avignon.fr for Tamasheq and to kevinduh [at] cs.jhu.edu for Tunisian Arabic, with "IWSLT 2022 Low-Resource Shared Task Submission" in the title.
 
 We would like to see outputs for both test sets. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
 
@@ -80,10 +82,10 @@ Submissions should consist of plaintext files with one sentence per line, follow
 <!-- list of names and affiliations -->
 - Sabrina Syeda Akter (George Mason University, USA)
 - Marcely Zanon Boito (Avignon University, France)
-- Atul Kr. Ojha (National University of Ireland Galway, Ireland & Panlingua Language Processing LLP)
 - Antonios Anastasopoulos (George Mason University, USA)
 - Kevin Duh (Johns Hopkins University, USA)
 - Yannick Estève (Avignon University, France)
+- Souhir Gahbiche (Airbus, France)
 - Marcello Federico (Amazon, USA)
 - Alex Waibel (CMU, USA)
 
