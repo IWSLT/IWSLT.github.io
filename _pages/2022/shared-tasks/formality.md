@@ -47,8 +47,8 @@ Tentative schedule based on the IWSLT dates.
 |---	|---	|--- |
 |Jan, 15 2022	|release of formality-annotated training and dev data |	Link to data - [amazon-research/IWSLT2022]( https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022)|
 |Mar 14, 2022	|formality evaluation data released	| Link to test data - [amazon-research/IWSLT2022/data/test]( https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022/data/test) |
-|Mar 24, 2022	|translation submission deadline	| Submission instructions updated March 16 |
-|Mar 25, 2022	|formality reference translations released	| |
+|Mar 25, 2022	|translation submission deadline	| Submission instructions updated March 16; Submission deadline updated from 24 to 25 |
+|Mar 28, 2022	|formality reference translations released	| |
 |Apr 1, 2022	|system paper submission deadline	| |
 |Apr 22, 2022	|paper notification	| |
 |May 1, 2022	|camera ready deadline	| |
