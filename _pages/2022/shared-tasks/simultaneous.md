@@ -32,6 +32,8 @@ This means that the input to the text-to-text track will be cased and punctuated
 
 In order to evaluate the corresponding speech-to-text latency for a text-to-text system, you may use SimulEval with an additional argument pointing to a timestamp file. See more details in the [SimulEval documentation](https://github.com/facebookresearch/SimulEval/blob/main/docs/timestamps.md).
 
+You can find the dev and tst-COMMON sets decoded with the streaming ASR model [here](https://dl.fbaipublicfiles.com/simultaneous_translation/streaming_asr.tgz), along with instructions on how to run the model. Please use these files in order to determine the latency regime of your text-to-text systems.
+
 ## Evaluation
 
 This year, we will use automatic evaluation very similar to the last year and we will trial a manual evaluation for the English-to-German track.
