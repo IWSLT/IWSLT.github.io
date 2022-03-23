@@ -146,7 +146,7 @@ You can find a baseline and instructions on how to reproduce it [here](https://g
 
 ## System Submission
 
-**Note**: the deadline has been extended to March 29 EOD anywhere on earth.
+**Note**: the deadline has been extended to March 29 2022 EOD anywhere on earth.
 
 Participants are required to run the evaluation on the dev and tst-COMMON MuST-C sets and report the results as part of the submission. This is to make sure that the submitted systems work so that organizers can run them as well. The submission files should be packed into a `zip` or `tar.gz` file and uploaded to [Dropbox](https://www.dropbox.com/request/xE7baPRzbFkB7UqI9vKc) prior to the deadline. The submission files should include instructions on how to run the system in a `README` or `README.md` file as well as all the necessary files (Docker image, checkpoints, vocabulary, etc.) for the organizers to be able to run the system.
 
