@@ -70,7 +70,7 @@ Thus, we will use BERTScore to measure translation quality.
 
 We define length compliance (LC) as the percentage of translations in a given test set falling in a predefined length 
 threshold of ±10% of the number of characters in the source sentence. That is, if the source length is 50 characters, 
-a length compliant translation is [between 45 to 55 characters](). We calculate how many translations fall in this bracket 
+a length compliant translation is between 45 to 55 characters. We calculate how many translations fall in this bracket 
 and report the percentage over a test set. This threshold is motivated by 
 [recent finding](https://www.amazon.science/publications/machine-translation-verbosity-control-for-automatic-dubbing), 
 that shows that if the translation length stays within a ±10% range, 
@@ -125,7 +125,7 @@ In addition to the system outputs, participants are required to submit the perfo
 and LC metric. The statistics will be used by the organizers to compare their assessment of submitted systems with that of participants. 
 Details of the evaluation script will be made available when the evaluation data is released. 
 
-Submissions should be emailed to the address `iwslt2022-shared-task@amazon` with the  subject line: 
+Submissions should be emailed to the address `iwslt2022-shared-task@amazon.com` with the  subject line: 
 `IWSLT2022 Isometric-SLT Submission`. Submissions should be packed 
 in a compressed file with the following naming convention: 
 `isometric-slt_[participant-name].tar.gz`. Packages should be organized per 
@@ -156,8 +156,6 @@ _To access blind test set and evaluation scripts, please refer the [Isometric SL
   - No, only language pair specific parallel data is allowed for the constrained task. For instance, for En-De, only 
 the En-De MuST-C parallel data should be used. If using multilingual data from other language pairs, please consider the
 unconstrained task.
-
-
 
 ## Organizers
 
