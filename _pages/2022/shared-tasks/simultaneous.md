@@ -51,7 +51,7 @@ The participants will submit a Docker image (see below for an example) and the o
 
 #### Ranking for Automatic Evaluation
 
-We will evaluate translation quality with detokenized BLEU and latency with AP, AL and DAL. The systems will be ranked by the translation quality with different latency regimes. Three regimes, low, medium and high, will be evaluated. Each regime is determined by a maximum latency threshold. The thresholds are determined by AL, which represents the delay to the perfect real time system (milliseconds for speech and number of words for text), but all three latency metrics, AL, DAL and AP will be reported. Based on analysis on the quality-latency tradeoffs for the baseline systems, the thresholds are set as follows:
+We will evaluate translation quality with detokenized BLEU and latency with AP, AL and DAL. The systems will be ranked by the translation quality with different latency regimes. Three regimes, low, medium and high, will be evaluated. Each regime is determined by a maximum latency threshold. The thresholds are determined by **non computation-aware** AL (NC-AL), which represents the delay to the perfect real time system, but all three latency metrics, AL, DAL and AP will be reported. Based on analysis on the quality-latency tradeoffs for the baseline systems, the thresholds are set as follows:
 
 English-German (both speech-to-text and text-to-text):
 
@@ -71,7 +71,7 @@ English-Mandarin:
 * Medium Latency: AL < = 3000
 * High Latency: AL < = 4000
 
-The submitted systems will be categorized into different regimes based on the AL calculated on the MuST-C English-German, English-Mandarin and English-Japanese test sets (`tst-COMMON`), while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. In addition, within each latency regime, we will also measure computation aware AL and rank systems accordingly. Finally, we will report latency-quality trade-off curves for non computation aware AL and for computation aware AL in the findings paper.
+The submitted systems will be categorized into different regimes based on the NC-AL calculated on the MuST-C English-German, English-Mandarin and English-Japanese test sets (`tst-COMMON`), while the translation quality will be calculated on the blind test set. We require participants to submit at least one system for each latency regime. Participants are encouraged to submit multiple systems for each regime in order to provide more data points for latency-quality tradeoff analyses. If multiple systems are submitted, we will keep the one with the best translation quality for ranking. In addition, within each latency regime, we will also measure computation aware AL and rank systems accordingly. Finally, we will report latency-quality trade-off curves for non computation aware AL and for computation aware AL in the findings paper.
 
 **Note that we will use `tst-COMMON` from the v2.0 release of MuST-C in order to determine the latency regime.**
 
