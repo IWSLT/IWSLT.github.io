@@ -52,7 +52,7 @@ In addition, if the participants' systems also produce transcriptions for the so
 
 ### Evaluation Dates
 
-April 14 to 27. Test data are available!
+March 14 to 29 (extended). Test data are available!
 
 For Tamasheq-French, the test set is available at: [https://github.com/mzboito/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test](https://github.com/mzboito/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test)
 
