@@ -32,6 +32,8 @@ This means that the input to the text-to-text track will be cased and punctuated
 
 In order to evaluate the corresponding speech-to-text latency for a text-to-text system, you may use SimulEval with an additional argument pointing to a timestamp file. See more details in the [SimulEval documentation](https://github.com/facebookresearch/SimulEval/blob/main/docs/timestamps.md).
 
+You can find the dev and tst-COMMON sets decoded with the streaming ASR model [here](https://dl.fbaipublicfiles.com/simultaneous_translation/streaming_asr.tgz), along with instructions on how to run the model. Please use these files in order to determine the latency regime of your text-to-text systems.
+
 ## Evaluation
 
 This year, we will use automatic evaluation very similar to the last year and we will trial a manual evaluation for the English-to-German track.
@@ -143,6 +145,8 @@ You can find a baseline and instructions on how to reproduce it [here](https://g
 You can find a baseline and instructions on how to reproduce it [here](https://github.com/ksudoh/IWSLT2022_simul_t2t_baseline_enja).
 
 ## System Submission
+
+**Note**: the deadline has been extended to March 29 2022 EOD anywhere on earth.
 
 Participants are required to run the evaluation on the dev and tst-COMMON MuST-C sets and report the results as part of the submission. This is to make sure that the submitted systems work so that organizers can run them as well. The submission files should be packed into a `zip` or `tar.gz` file and uploaded to [Dropbox](https://www.dropbox.com/request/xE7baPRzbFkB7UqI9vKc) prior to the deadline. The submission files should include instructions on how to run the system in a `README` or `README.md` file as well as all the necessary files (Docker image, checkpoints, vocabulary, etc.) for the organizers to be able to run the system.
 

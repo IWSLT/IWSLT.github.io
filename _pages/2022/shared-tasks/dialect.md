@@ -3,6 +3,9 @@ permalink: /2022/dialect
 title: "Dialectal Speech Translation"
 ---
 
+## News
+- March 23, 2022: It has come to our attention that the provided segments.txt in LDC2022E02 contains 5 bad segments (e.g. zero duration, no speech) that should be removed from decoding and scoring. Please use [this new segments file](https://www.cs.jhu.edu/~kevinduh/t/iwslt22/segments.4288lines.txt) to decode. For details see [github instructions](https://github.com/kevinduh/iwslt22-dialect#note-for-iwslt22-evaluation-march-23-2022). Sorry for any potential hassle! 
+
 ## Description
 
 In some communities, two dialects of the same language are used by speakers under different settings. For example, in the Arabic-speaking world, Modern Standard Arabic (MSA) is used as spoken and written language for formal communications (e.g., news broadcasts, official speeches, religion), whereas informal communication is carried out in local dialects such as Egyptian, Moroccan, and Tunisian. This diglossia phenomenon poses unique challenges to speech translation. Often only the “high” dialect for formal communication has sufficient training data for building strong ASR and MT systems; the “low” dialect for informal communication may not even be commonly written.
@@ -42,7 +45,7 @@ If you would like to share your baseline models here for other colleagues to use
 
 ## Submission
 
-Participants will receive email from LDC with instructions for downloading the evaluation set. The evaluation set will include a `segments.txt` (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way. Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2022 Dialect Shared Task Submission" in the title; you will receive a confirmation of receipt within a day. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
+Participants will receive email from LDC with instructions for downloading the evaluation set. The evaluation set will include a <del>`segments.txt`</del> (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way. (*Update 3/23/2022*: Please use [this new segments file](https://www.cs.jhu.edu/~kevinduh/t/iwslt22/segments.4288lines.txt), which removes 5 bad lines).</span> Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2022 Dialect Shared Task Submission" in the title; you will receive a confirmation of receipt within a day. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
 
 File names for translation outputs should follow the following structure:  <br>
 ```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<src>-<tgt>.txt``` <br>
