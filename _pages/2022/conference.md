@@ -91,7 +91,7 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Hirofumi Inaguma, Kyoto University, Japan
 
-•	Surafel Melaku Lakew, Amazon AI, USA
+•	Surafel Melaku Lakew, Amazon, USA
 
 •	Carlos Escolano, Universitat Politècnica de Catalunya, Spain
 
@@ -109,7 +109,7 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
 
-•	Julian Salazar, Amazon AWS AI, USA
+•	Julian Salazar, Amazon, USA
 
 •	Chengyi Wang, Nankai University, China
 
@@ -135,9 +135,9 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Mattia di Gangi, AppTek, Germany
 
-•	Cuong Hoang, Amazon AI, USA
+•	Cuong Hoang, Amazon, USA
 
-•	Nguyen Bach, Alibaba, USA
+•	Nguyen Bach, Microsoft, USA
 
 •	Yves Lepage, U. Waseda, Japan
 
