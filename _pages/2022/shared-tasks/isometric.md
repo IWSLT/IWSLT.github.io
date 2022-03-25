@@ -6,10 +6,11 @@ title: "Isometric Spoken Language Translation"
 <!-- the task, the languages, and the type of data -->
 
 ### Updates
+- March 25: Deadline to the shared task submission is extended until March 29 (AoE)
+- March 25: The reference of the blind test will be released on March 29 (previously March 25).
 - March 11: Blind test set (_only the source_) and evaluation script 
 will be released by March 14 [Isometric SLT repo](https://github.com/amazon-research/isometric-slt). 
 See [System Submission](isometric.md#system-submission) section for more details.
-- March 25: The reference of the blind test will be released.
 
 
 ## Description
@@ -138,16 +139,21 @@ Each directory should include:
     distinguish if several approaches are submitted. (e.g. `isometric-slt-01.fr`)
 
 * README.md with the following information
-    * Brief description of each system submitted, including which system they prefer for final evaluation by the organizers
+    * Brief description of each system submitted, if submitting multiple system indicate which one to use as a primary system for evaluation by the organizers
     * System performance as computed by the participant
     * Training data conditions (constrained, unconstrained)
     * List of the data sources used for training the system
     * Institution and contact person
+    * Do you consent to make your submission freely available under MIT license for research purposes and human evaluation? (YES/NO)
+* LICENSE 
+  * Include MIT license file (see [sample](https://opensource.org/licenses/MIT)), if responding YES for the consent request in the README
 
-In addition to the system outputs, we invite participants to also submit a paper describing their system(s) by April 1, 2022 
-via the conference submission page. Unconstrained and constrained systems should be evaluated separately in the system description paper.
 
-_To access blind test set and evaluation scripts, please refer the [Isometric SLT](https://github.com/amazon-research/isometric-slt) repo._
+In addition to the system outputs, we invite participants to submit a paper describing their system(s) via the 
+conference submission page. Check the [system paper submission deadline](https://iwslt.org/2022/#important-dates).  
+Unconstrained and constrained systems should be evaluated separately in the system description paper.
+
+_To access blind test set and evaluation scripts, please refer to the [Isometric SLT](https://github.com/amazon-research/isometric-slt) repo._
 
 
 ## FAQ
