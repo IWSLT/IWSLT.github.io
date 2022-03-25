@@ -151,6 +151,7 @@ Each directory should include:
     * Training data conditions (constrained/unconstrained; full/zero-shot)
     * List of the data sources used for training the system
     * Institution and contact person
+    * Your consent to release the system outputs under MIT license for future research and human evaluation
 * Source and system output files for the formality control test set
     * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized,
      detruecased)
@@ -164,6 +165,7 @@ EN-DE, EN-ES, EN-IT, EN-RU and WMT newstest2020 for EN-JA and newstest2014 for E
         One output file per system (corresponding to a generic formality level), named 
     `formality-control-[id].generic.[target]` (where id is used to 
     distinguish if several approaches are submitted). 
+* MIT license for the system outputs
 
 In addition to the system outputs, participants are required to submit the performance of their system(s) in terms of BLEU score computed with SacreBLEU v2.0.0 (https://pypi.org/project/sacrebleu/2.0.0/), COMET v1.0.1 (https://pypi.org/project/unbabel-comet/1.0.1/), and formality control (using the script provided). We invite participants to also submit a paper describing their system(s) via the conference submission page. Systems with different training conditions (constrained/unconstrained; full/zero-shot) should be 
 evaluated separately in the system description paper.
