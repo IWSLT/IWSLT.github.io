@@ -6,10 +6,10 @@ title: "Isometric Spoken Language Translation"
 <!-- the task, the languages, and the type of data -->
 
 ### Updates
-- March 25: Deadline to the shared task submission is extended until March 29 (AoE)
-- March 25: The reference of the blind test will be released on March 29 (previously March 25).
+- March 25: Deadline for the shared task submission is extended until March 29 (AoE)
+- March 25: The blind test set references will be released on March 29 (previously March 25).
 - March 11: Blind test set (_only the source_) and evaluation script 
-will be released by March 14 [Isometric SLT repo](https://github.com/amazon-research/isometric-slt). 
+will be released by March 14 on [Isometric SLT repo](https://github.com/amazon-research/isometric-slt). 
 See [System Submission](isometric.md#system-submission) section for more details.
 
 
@@ -146,7 +146,7 @@ Each directory should include:
     * Institution and contact person
     * Do you consent to make your submission freely available under MIT license for research purposes and human evaluation? (YES/NO)
 * LICENSE 
-  * Include MIT license file (see [sample](https://opensource.org/licenses/MIT)), if responding YES for the consent request in the README
+    * If responding YES for the consent request in the README, include MIT license file (see [sample file](https://opensource.org/licenses/MIT))
 
 
 In addition to the system outputs, we invite participants to submit a paper describing their system(s) via the 
