@@ -76,7 +76,7 @@ and report the percentage over a test set. This threshold is motivated by
 [recent finding](https://www.amazon.science/publications/machine-translation-verbosity-control-for-automatic-dubbing), 
 that shows that if the translation length stays within a ±10% range, 
 it is easier to synchronize source and target speech for use cases like automatic dubbing. 
-In this evaluation, LC is applied only for translations with length above 10 characters.
+In this evaluation, LC is applied only for source samples with length above 10 characters.
 
 
 #### System Ranking
