@@ -6,7 +6,7 @@ classes: wide
 <!--- We are very grateful to our sponsors and donors who have facilitated the IWSLT conference and participation in shared tasks. --->
 *If your organization would like to sponsor or donate to IWSLT, please see our [sponsorship information](/2022/sponsors).* 
 
-# Sponsors
+# Sponsors & Donors
 
 ### Diamond
 
@@ -22,11 +22,9 @@ classes: wide
 <a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:100%"/></a>
 </div>     
 
-<!---
 <div class="card">
-<a href="https://amazon.science/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/amazon.png" alt="Amazon Science" style="width:100%"/></a>
+<a href="https://amazon.science/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/AWS_logo_RGB.png" alt="AWS" style="width:100%"/></a>
 </div>  
---->
 
 <!--  unused tiers are commented
 ### Platinum
@@ -41,11 +39,4 @@ classes: wide
 ### Bronze
 -->
 
-# Donors
-
-### Diamond
-
-<div class="card">
-<a href="https://amazon.science/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/AWS_logo_RGB.png" alt="AWS" style="width:100%"/></a>
-</div>  
 
