@@ -89,72 +89,71 @@ Please submit scientific papers and system papers via the [submission page](http
 
 ## Program Committee
 
-•	Hirofumi Inaguma, Kyoto University, Japan
-
-•	Surafel Melaku Lakew, Amazon, USA
-
-•	Carlos Escolano, Universitat Politècnica de Catalunya, Spain
-
-•	Changhan Wang, Facebook AI Research, USA
-
-•	Yun Tang, Facebook AI Research, USA
-
-•	Akiko Eriguchi, Microsoft, USA
-
-•	Yuchen Liu, Princeton, USA
-
-•	Matthias Sperber, Apple, USA
-
-•	Krzystof Wolk, Polish‐Japanese Academy of Information Technology, Poland
-
-•	Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
-
-•	Julian Salazar, Amazon, USA
-
-•	Chengyi Wang, Nankai University, China
-
-•	David Vilar, Amazon, Germany
-
-•	Elizabeth Salesky, JHU, USA
-
-•	Evgeny Matusov, AppTek, Germany
-
-•	Juan Pino, Facebook, USA
-
-•	Katsuhito Sudoh, NAIST, Japan
-
-•	Laurent Besacier, IMAG, France
-
-•	Marco Turchi, FBK, Italy
-
-•	Markus Freitag, Google, USA
-
-•	Matteo Negri, FBK, Italy
-
-•	Matthias Huck, LMU, Germany
-
-•	Mattia di Gangi, AppTek, Germany
-
-•	Cuong Hoang, Amazon, USA
+•	Duygu Ataman, New York University, USA
 
 •	Nguyen Bach, Microsoft, USA
 
-•	Yves Lepage, U. Waseda, Japan
+•	Laurent Besacier, IMAG, France
 
-•	Duygu Ataman, University of Zurich, Switzerland
+•	Anna Currey, Amazon, USA 
 
-•	Xutai Ma, Johns Hopkins University, USA
+•	Mattia Di Gangi, AppTek, Germany
+
+•	Georgiana Dinu, Amazon, USA
+
+•	Akiko Eriguchi, Microsoft, USA
+
+•	Carlos Escolano, Universitat Politècnica de Catalunya, Spain
+
+•	Markus Freitag, Google, USA
+
+•	Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
+
+•	Cuong Hoang, Amazon, USA
+
+•	Matthias Huck, LMU, Germany
+
+•	Hirofumi Inaguma, Kyoto University, Japan
 
 •	Takatomo Kano, Nara Institute of Science and Technology, Japan
 
-•	Sebastian Stüker, Karlsruhe Institute of Technology, Germany
+•	Yves Lepage, U. Waseda, Japan
+
+•	Yuchen Liu, Princeton, USA
+
+•	Xutai Ma, Johns Hopkins University, USA
+
+•	Evgeny Matusov, AppTek, Germany
+
+•	Surafel Melaku Lakew, Amazon, USA
+
+•	Matteo Negri, FBK, Italy
+
+•	Juan Pino, Facebook, USA
+
+•	Julian Salazar, Amazon, USA
+
+•	Elizabeth Salesky, JHU, USA
+
+•	Matthias Sperber, Apple, USA
+
+•	Sebastian Stüker, Zoom, Germany
+
+•	Katsuhito Sudoh, NAIST, Japan
+
+•	Yun Tang, Facebook AI Research, USA
 
 •	Ioannis Tsiamas, Universitat Politècnica de Catalunya, Spain
 
+•	Marco Turchi, FBK, Italy
 
+•	David Vilar, Amazon, Germany
 
+•	Changhan Wang, Facebook AI Research, USA
 
+•	Chengyi Wang, Nankai University, China
 
+•	Krzystof Wolk, Polish‐Japanese Academy of Information Technology, Poland
 
 
 ## Sponsorship Opportunities
