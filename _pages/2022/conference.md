@@ -127,6 +127,8 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Surafel Melaku Lakew, Amazon, USA
 
+•	Maria Nadejde, Amazon, USA
+
 •	Matteo Negri, FBK, Italy
 
 •	Juan Pino, Facebook, USA
