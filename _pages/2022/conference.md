@@ -147,7 +147,7 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Yun Tang, Facebook AI Research, USA
 
-•	Briant Thompson, Amazon, USA
+•	Brian Thompson, Amazon, USA
 
 •	Ioannis Tsiamas, Universitat Politècnica de Catalunya, Spain
 
