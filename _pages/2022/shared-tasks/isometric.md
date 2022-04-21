@@ -167,7 +167,7 @@ unconstrained task.
 
 - Surafel M. Lakew (Amazon AI)
 - Prashant Mathur (Amazon AI)
-- Natawut Monaikul (Amazon AI)
+- Yogesh Virkar (Amazon AI)
 - Marcello Federico (Amazon AI) 
 
 
