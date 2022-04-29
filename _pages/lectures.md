@@ -9,6 +9,19 @@ The ISCA SIGSLT lecture series are held periodically on Zoom, with recordings li
 Zoom links are posted to the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
 
 
+## Isochrony for Automatic Dubbing
+Prashant Mathur, Senior Applied Scientist in Amazon AI.
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Thurs 5 May 2022, 23:00 UTC [(8am Fri JST / 1am Fri CET / 7pm Thurs EST / 4pm Thurs PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20220505T230000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Abstract:**  
+In this talk, I will focus on the problem of isochrony in automatic dubbing for media localization where the goal is to maintain synchrony of translated dialogues and original video when the speakers are on-screen. This problem requires that we first identify the location of pauses in the translation and then ensure the speech-pause arrangement as in the source audio. I will first introduce our approaches on aligning the pauses from source speech to target translation (prosodic alignment), then review a recent work on isometric machine translation and a follow-up work on isochrony aware MT. I will end the talk by providing a brief overview of the [Isometric SLT shared task](https://iwslt.org/2022/isometric) we are organizing as a part of IWSLT.
+
+**Bio:**  
+Prashant is a Senior Applied Scientist in Amazon AI. His research focuses on improving the state of the art for machine translation, and domain adaptation with special attention to the problem of Automatic Dubbing. Prior to Amazon, he was a research scientist at eBay working on language generation with structured data and machine translation for eBay’s catalog content.
+
+
 ## Towards Augmented Speech Translation: Joint Speech Translation and Named Entity Recognition
 Marco Gaido, Ph.D. student at Fondazione Bruno Kessler (FBK), Italy
 
