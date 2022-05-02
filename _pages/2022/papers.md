@@ -1,6 +1,6 @@
 ---
 permalink: /2022/papers
-title: "Accepted Papers"
+title: "Papers"
 classes: wide
 ---
 
