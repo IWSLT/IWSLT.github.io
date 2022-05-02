@@ -6,8 +6,7 @@ classes: wide
 
 ***Scientific Papers*** 
 
-*SubER - A Metric for Automatic Evaluation of Subtitle Quality*
-
+*SubER - A Metric for Automatic Evaluation of Subtitle Quality*.
 Authors:  Patrick Wilken, Panayota Georgakopoulou and Evgeny Matusov
 
 *Improving Arabic Diacritization by Learning to Diacritize and Translate*
