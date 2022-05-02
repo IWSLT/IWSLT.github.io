@@ -4,7 +4,7 @@ title: "Accepted Papers"
 classes: wide
 ---
 
-##Scientific Papers
+## Scientific Papers
 
 *SubER - A Metric for Automatic Evaluation of Subtitle Quality*.
 Authors:  Patrick Wilken, Panayota Georgakopoulou and Evgeny Matusov
@@ -37,7 +37,7 @@ Authors:  Prabhakar Gupta, Anil Nelakanti, Grant M. Berry and Abhishek Sharma
 Authors:  Siqi Ouyang, Rong Ye and Lei Li
 
 
-##System Papers
+## System Papers
 
 **Offline & Simultaneous ST** 
 
