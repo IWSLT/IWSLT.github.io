@@ -1,10 +1,7 @@
 ---
-permalink: /2022/
+permalink: /2022/papers
 title: "Accepted Papers"
-toc: true
-toc_label: "Important Links"
-toc_icon: "cog"
-toc_sticky: true
+classes: wide
 ---
 
 Scientific Papers 
