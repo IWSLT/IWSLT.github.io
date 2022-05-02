@@ -20,10 +20,10 @@ The 19th IWSLT will be co-located with [ACL 2022](https://2022.aclweb.org/){:tar
 More information about the program will be posted closer to the conference.
  
 **Keynote:**  
-We are please to have [an invited talk by Frederic Chaume (Universitat Jaume I)](/2022/keynote) on Day 1. 
+We are pleased to have [an invited talk by Frederic Chaume (Universitat Jaume I)](/2022/keynote) on Day 1. 
 
 **Accepted Papers:**  
-Please find the list of [accepted papers](/2022/papers) at IWSLT 2022.  
+This is the list of [accepted papers](/2022/papers) at IWSLT 2022.  
 
 ## Shared Tasks
 
