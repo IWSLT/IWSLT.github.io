@@ -1,10 +1,10 @@
 ---
 permalink: /2022/papers
-title: "Papers"
+title: "Accepted Papers"
 classes: wide
 ---
 
-Scientific Papers 
+*Scientific Papers* 
 
 SubER - A Metric for Automatic Evaluation of Subtitle Quality
 Authors:  Patrick Wilken, Panayota Georgakopoulou and Evgeny Matusov
@@ -38,7 +38,7 @@ MuST be Clean or not? An Empirical Quality Examination on MuST-C Dataset
 Authors:  Siqi Ouyang, Rong Ye and Lei Li
 
 
-System Papers
+*System Papers*
 
 
 Offline & Simultaneous 
