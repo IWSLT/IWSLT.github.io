@@ -27,7 +27,7 @@ Times are linked to a time converter site to view alternate time zones.
 | Day2 | May 27, 2022 |
 | :---: | :-- |
 | **Time (Dublin)** | **Session** |
-| 09:00-10:40am | oral 2: Scientific Papers|
+| 09:00-10:40am | Oral 2: Scientific Papers|
 | 10:40-11:10 | Coffee Break |  
 | 11:10-12:30 | Discussion 1: Retrospective |  
 | 12:30-14:00 | Launch Break |  
