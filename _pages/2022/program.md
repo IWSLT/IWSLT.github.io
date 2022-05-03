@@ -14,7 +14,7 @@ Times are linked to a time converter site to view alternate time zones.
 
 | Day1 | May 26, 2022 |
 | :-- | :-- |
-| **Time (Dublin)** | Sessions |
+| **Time (Dublin)** | **Session** |
 | 09:00-09:10am | Welcome Remarks |
 | 09:10-10:30 | Findings of the IWSLT 2022 Evaluation Campaign |
 | 10:30-11:00 | Coffee Break |  
@@ -26,6 +26,7 @@ Times are linked to a time converter site to view alternate time zones.
 
 | Day2 | May 27, 2022 |
 | :---: | :-- |
+| **Time (Dublin)** | **Session** |
 | 09:00-10:40am | oral 2: Scientific Papers|
 | 10:40-11:10 | Coffee Break |  
 | 11:10-12:30 | Discussion 1: Retrospective |  
@@ -34,4 +35,4 @@ Times are linked to a time converter site to view alternate time zones.
 | 15:00-16:00 | Discussion 3: Planning  | 
 | 16:00-16:30 | Coffee Break   | 
 | 16:30-16:45 | Best Student Paper Award |
-| 16:45-17:00 | Best Student Paper Award |
+| 16:45-17:00 | Closing Remarks |
