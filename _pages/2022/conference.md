@@ -17,7 +17,7 @@ The 19th IWSLT will be co-located with [ACL 2022](https://2022.aclweb.org/){:tar
 ## Program at a Glance
 
 **IWSLT 2022** will occur on two days, 26-27 May, as a hybrid event in-person and online.  
-More information about the program will be posted closer to the conference.
+Please find here a [tentative program](/2022/program).
  
 **Keynote:**  
 We are pleased to have [an invited talk by Frederic Chaume (Universitat Jaume I)](/2022/keynote) on Day 1. 
