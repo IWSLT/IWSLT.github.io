@@ -20,9 +20,10 @@ Times are linked to a time converter site to view alternate time zones.
 | 10:30-11:00 | Coffee Break |  
 | 11:00-12:40 | Oral 1: Scientific Papers |  
 | 12:40-14:00 | Launch Break |  
-| 14:00-15:00 | Keynote |  
-| 15:00-17:30 | Poster: System Papers |
-| 17:30 | Poster Session: System Papers |
+| 14:00-15:00 | Keynote | 
+| 15:00-15:30 | Coffee Break |
+| 15:30-17:30 | Poster: System Papers |
+| 17:30 | End of works |
 
 | Day2 | May 27, 2022 |
 | :---: | :-- |
@@ -31,8 +32,8 @@ Times are linked to a time converter site to view alternate time zones.
 | 10:40-11:10 | Coffee Break |  
 | 11:10-12:30 | Discussion 1: Retrospective |  
 | 12:30-14:00 | Launch Break |  
-| 14:00-15:00 | Discussion 2: Planning  |  
-| 15:00-16:00 | Discussion 3: Planning  | 
-| 16:00-16:30 | Coffee Break   | 
+| 14:00-15:00 | Discussion 2: Planning  | 
+| 15:00-15:30 | Coffee Break   | 
+| 15:30-16:30 | Discussion 3: Planning  | 
 | 16:30-16:45 | Best Student Paper Award |
 | 16:45-17:00 | Closing Remarks |
