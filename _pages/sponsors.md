@@ -27,6 +27,12 @@ classes: wide
 </div>     
 
 
+### Bronze
+
+<div class="card">
+<a href="http://www.apptek.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek.png" alt="AppTek" style="width:75%"/></a>
+</div>     
+
 <!--  unused tiers are commented
 ### Platinum
 
@@ -37,7 +43,6 @@ classes: wide
 ### Silver
 
 
-### Bronze
 -->
 
 
