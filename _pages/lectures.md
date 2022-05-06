@@ -15,6 +15,9 @@ Prashant Mathur, Senior Applied Scientist in Amazon AI.
 **Date:**  
 <i class="fas fa-calendar-day"></i> Thurs 5 May 2022, 23:00 UTC [(8am Fri JST / 1am Fri CET / 7pm Thurs EST / 4pm Thurs PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20220505T230000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
 
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://youtu.be/PaxRvWzBlOI){:target="_blank"}  
+
 **Abstract:**  
 In this talk, I will focus on the problem of isochrony in automatic dubbing for media localization where the goal is to maintain synchrony of translated dialogues and original video when the speakers are on-screen. This problem requires that we first identify the location of pauses in the translation and then ensure the speech-pause arrangement as in the source audio. I will first introduce our approaches on aligning the pauses from source speech to target translation (prosodic alignment), then review a recent work on isometric machine translation and a follow-up work on isochrony aware MT. I will end the talk by providing a brief overview of the [Isometric SLT shared task](https://iwslt.org/2022/isometric) we are organizing as a part of IWSLT.
 
