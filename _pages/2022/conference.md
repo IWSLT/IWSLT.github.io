@@ -35,8 +35,8 @@ The **IWSLT 2022 Evaluation Campaign** will host shared tasks featuring the foll
 - [Speech-to-Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta)
 - [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU)
-- [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, Amazon)
-- [Isometric SLT](/2022/isometric) (Chair: Prashant Mathur, Amazon)
+- [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, AWS)
+- [Isometric SLT](/2022/isometric) (Chair: Prashant Mathur, AWS)
 <!-- this is a comment -->
 
 Data, metrics, and evaluation will be provided by the conference organizers. 
@@ -106,11 +106,11 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Laurent Besacier, IMAG, France
 
-•	Anna Currey, Amazon, USA 
+•	Anna Currey, AWS, USA 
 
 •	Mattia Di Gangi, AppTek, Germany
 
-•	Georgiana Dinu, Amazon, USA
+•	Georgiana Dinu, AWS, USA
 
 •	Akiko Eriguchi, Microsoft, USA
 
@@ -120,7 +120,7 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
 
-•	Cuong Hoang, Amazon, USA
+•	Cuong Hoang, AWS, USA
 
 •	Matthias Huck, LMU, Germany
 
@@ -136,17 +136,17 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Evgeny Matusov, AppTek, Germany
 
-•	Surafel Melaku Lakew, Amazon, USA
+•	Surafel Melaku Lakew, AWS, USA
 
-•	Maria Nadejde, Amazon, USA
+•	Maria Nadejde, AWS, USA
 
 •	Matteo Negri, FBK, Italy
 
-•	Juan Pino, Facebook, USA
+•	Juan Pino, Meta, USA
 
-•	Raghavendra Pappagari, Amazon, USA
+•	Raghavendra Pappagari, AWS, USA
 
-•	Julian Salazar, Amazon, USA
+•	Julian Salazar, AWS, USA
 
 •	Elizabeth Salesky, JHU, USA
 
@@ -158,13 +158,13 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Yun Tang, Facebook AI Research, USA
 
-•	Brian Thompson, Amazon, USA
+•	Brian Thompson, AWS, USA
 
 •	Ioannis Tsiamas, Universitat Politècnica de Catalunya, Spain
 
 •	Marco Turchi, FBK, Italy
 
-•	David Vilar, Amazon, Germany
+•	David Vilar, Google, Germany
 
 •	Changhan Wang, Facebook AI Research, USA
 
