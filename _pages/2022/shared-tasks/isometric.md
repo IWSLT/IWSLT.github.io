@@ -165,10 +165,10 @@ unconstrained task.
 
 ## Organizers
 
-- Surafel M. Lakew (Amazon AI)
-- Prashant Mathur (Amazon AI)
-- Yogesh Virkar (Amazon AI)
-- Marcello Federico (Amazon AI) 
+- Surafel M. Lakew, AWS AI Labs
+- Prashant Mathur, AWS AI Labs
+- Yogesh Virkar, AWS AI Labs
+- Marcello Federico, AWS AI Labs
 
 
 ## Contacts 
