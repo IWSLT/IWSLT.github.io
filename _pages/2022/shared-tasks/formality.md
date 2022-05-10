@@ -174,7 +174,7 @@ evaluated separately in the system description paper.
 
 ## Organizers
 
-Amazon AWS Translate:
+AWS AI Labs - Amazon Translate:
 
 * Maria Nadejde
 * Anna Currey
