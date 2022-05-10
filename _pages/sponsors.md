@@ -29,7 +29,6 @@ classes: wide
 
 ### Platinum
 
-
 <div class="card">
 <a href="https://www.microsoft.com/en-us/research/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/Microsoft-logo_cmyk_c-gray.png" alt="Microsoft" style="width:90%"/></a>
 </div>     
