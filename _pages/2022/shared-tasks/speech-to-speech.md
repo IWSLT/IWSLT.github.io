@@ -78,7 +78,7 @@ Discussion: [iwslt-evaluation-campaign@googlegroups.com](https://groups.google.c
 * Jan Niehues (Maastricht)
 * Matteo Negri (FBK)
 * Sebastian Stueker (Zoom)
-* Marcello Federico (Amazon)
+* Marcello Federico (AWS)
 * Juan Pino (Meta)
 
 <!-- Markdown notes: comments can be formed as above; bulleted lines start with a - ; if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line -->
