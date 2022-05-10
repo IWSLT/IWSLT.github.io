@@ -86,7 +86,7 @@ Submissions should consist of plaintext files with one sentence per line, follow
 - Kevin Duh (Johns Hopkins University, USA)
 - Yannick Estève (Avignon University, France)
 - Souhir Gahbiche (Airbus, France)
-- Marcello Federico (Amazon, USA)
+- Marcello Federico (AWS AI Labs, USA)
 - Alex Waibel (CMU, USA)
 
 The Tamasheq-French task is organized by the ON-TRAC consortium made up of LIA (Avignon University), LIUM (Le Mans University), LIG (University Grenoble Alpes) and Airbus. ON-TRAC is a project co-financed by the French national research agency.
