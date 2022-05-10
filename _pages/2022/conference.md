@@ -29,14 +29,14 @@ This is the list of [accepted papers](/2022/papers) at IWSLT 2022.
 
 The **IWSLT 2022 Evaluation Campaign** will host shared tasks featuring the following focus areas:
 
-- [Simultaneous Speech Translation](/2022/simultaneous) (Chairs: Juan Pino, Meta; Katsuhito Sudoh, NAIST)
+- [Simultaneous Speech Translation](/2022/simultaneous) (Chairs: Juan Pino, Meta AI; Katsuhito Sudoh, NAIST)
 - [Offline Speech Translation](/2022/offline)  (Chair: Marco Turchi, FBK)
 - [Low-Resource Speech Translation](/2022/low-resource) (Chair: Antonis Anastasopoulos, George Mason U.)
-- [Speech-to-Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta)
+- [Speech-to-Speech Translation](/2022/speech-to-speech) (Chair: Juan Pino, Meta AI)
 - [Multilingual Speech Translation](/2022/multilingual) (Chair: Elizabeth Salesky, JHU)
 - [Dialect Speech Translation](/2022/dialect) (Chair: Kevin Duh, JHU)
-- [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, AWS)
-- [Isometric SLT](/2022/isometric) (Chair: Prashant Mathur, AWS)
+- [Formality Control for SLT](/2022/formality) (Chair: Maria Nadejde, AWS AI Labs)
+- [Isometric SLT](/2022/isometric) (Chair: Prashant Mathur, AWS AI Labs)
 <!-- this is a comment -->
 
 Data, metrics, and evaluation will be provided by the conference organizers. 
@@ -93,7 +93,7 @@ Please submit scientific papers and system papers via the [submission page](http
 ## Organizers
 - Marcello Federico, AWS AI Labs, USA (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
-- Marta R. Costa-jussà, Meta, France (Program Chair)
+- Marta R. Costa-jussà, Meta AI, France (Program Chair)
 - Jan Niehues, Maastricht U., Netherlands (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Evaluation Chair)
 - Elizabeth Salesky, JHU, USA (Website Chair)
