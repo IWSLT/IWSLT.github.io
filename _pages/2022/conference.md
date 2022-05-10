@@ -91,9 +91,9 @@ Please submit scientific papers and system papers via the [submission page](http
 {: .notice--warning}
 
 ## Organizers
-- Marcello Federico, Amazon, USA (Conference Chair)
+- Marcello Federico, AWS AI Labs, USA (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
-- Marta R. Costa-jussà, Meta AI, France (Program Chair)
+- Marta R. Costa-jussà, Meta, France (Program Chair)
 - Jan Niehues, Maastricht U., Netherlands (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Evaluation Chair)
 - Elizabeth Salesky, JHU, USA (Website Chair)
@@ -106,11 +106,11 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Laurent Besacier, IMAG, France
 
-•	Anna Currey, AWS, USA 
+•	Anna Currey, AWS AI Labs, USA 
 
 •	Mattia Di Gangi, AppTek, Germany
 
-•	Georgiana Dinu, AWS, USA
+•	Georgiana Dinu, AWS AI Labs, USA
 
 •	Akiko Eriguchi, Microsoft, USA
 
@@ -120,7 +120,7 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Gerard I. Gallego, Universitat Politècnica de Catalunya, Spain
 
-•	Cuong Hoang, AWS, USA
+•	Cuong Hoang, AWS AI Labs, USA
 
 •	Matthias Huck, LMU, Germany
 
@@ -138,15 +138,15 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Surafel Melaku Lakew, AWS, USA
 
-•	Maria Nadejde, AWS, USA
+•	Maria Nadejde, AWS AI Labs, USA
 
 •	Matteo Negri, FBK, Italy
 
-•	Juan Pino, Meta, USA
+•	Juan Pino, Meta AI, USA
 
 •	Raghavendra Pappagari, AWS, USA
 
-•	Julian Salazar, AWS, USA
+•	Julian Salazar, AWS AI Labs, USA
 
 •	Elizabeth Salesky, JHU, USA
 
@@ -156,9 +156,9 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	Katsuhito Sudoh, NAIST, Japan
 
-•	Yun Tang, Facebook AI Research, USA
+•	Yun Tang, Meta, USA
 
-•	Brian Thompson, AWS, USA
+•	Brian Thompson, AWS AI Labs, USA
 
 •	Ioannis Tsiamas, Universitat Politècnica de Catalunya, Spain
 
@@ -166,7 +166,7 @@ Please submit scientific papers and system papers via the [submission page](http
 
 •	David Vilar, Google, Germany
 
-•	Changhan Wang, Facebook AI Research, USA
+•	Changhan Wang, Meta AI, USA
 
 •	Chengyi Wang, Nankai University, China
 
