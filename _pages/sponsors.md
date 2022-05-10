@@ -8,6 +8,12 @@ classes: wide
 
 # Sponsors & Donors
 
+### Platinum
+
+<div class="card">
+<a href="https://www.microsoft.com/en-us/research/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/Microsoft-logo_cmyk_c-gray.png" alt="Microsoft" style="width:90%"/></a>
+</div>     
+
 ### Diamond
 
 <div class="card">
@@ -23,10 +29,6 @@ classes: wide
 </div>     
 
 <div class="card">
-<a href="https://www.microsoft.com/en-us/research/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/Microsoft-logo_cmyk_c-gray.png" alt="Microsoft" style="width:90%"/></a>
-</div>     
-
-<div class="card">
 <a href="https://zoom.us"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/zoom.png" alt="Zoom" style="width:75%"/></a>
 </div>     
 
@@ -38,15 +40,9 @@ classes: wide
 </div>     
 
 <!--  unused tiers are commented
-### Platinum
-
-
 ### Gold
 
-
 ### Silver
-
-
 -->
 
 
