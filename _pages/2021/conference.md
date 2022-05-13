@@ -114,7 +114,7 @@ Accepted papers will be published in the ACL-IJCNLP 2021 proceedings and will be
 - Marta R. Costa-jussà, UPC, Spain (Program Chair)
 - Jan Niehues, Maastricht U., Netherlands (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Evaluation Chair)
-- Elizabeth Salesky, JHU, USA (Website Chair)
+- Elizabeth Salesky, JHU, USA (Website and Publication Chair)
 
 ## Program Committee
 
