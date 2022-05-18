@@ -55,10 +55,11 @@ Papers for each session are listed below.
 
 | :-- | :-- |
 | **Time (Dublin)** | **Paper** |
-| [11:00-11:20am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T100000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***SubER - A Metric for Automatic Evaluation of Subtitle Quality***<br> Authors:  Patrick Wilken, Panayota Georgakopoulou and Evgeny Matusov |
-| [11:20-11:40am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T102000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Improving Arabic Diacritization by Learning to Diacritize and Translate***<br> Authors:  Brian Thompson and Ali Alshehri |
-| [11:40-12:00pm](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T104000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Simultaneous Neural Machine Translation with Prefix Alignment***<br> Authors:  Yasumasa Kano, Katsuhito Sudoh and Satoshi Nakamura |
-| [12:00-12:20pm](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T110000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Locality-Sensitive Hashing for Long Context Neural Machine Translation***<br>Authors:  Frithjof Petrick, Jan Rosendahl, Christian Herold and Hermann Ney |
+| [11:00-11:18am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T100000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***SubER - A Metric for Automatic Evaluation of Subtitle Quality***<br> Authors:  Patrick Wilken, Panayota Georgakopoulou and Evgeny Matusov |
+| [11:18-11:36am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T101800&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Improving Arabic Diacritization by Learning to Diacritize and Translate***<br> Authors:  Brian Thompson and Ali Alshehri |
+| [11:36-11:54am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T103600&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Simultaneous Neural Machine Translation with Prefix Alignment***<br> Authors:  Yasumasa Kano, Katsuhito Sudoh and Satoshi Nakamura |
+| [11:54-12:12pm](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T105400&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Locality-Sensitive Hashing for Long Context Neural Machine Translation***<br>Authors:  Frithjof Petrick, Jan Rosendahl, Christian Herold and Hermann Ney |
+| [12:12-12:30pm](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T111200&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Who Are We Talking About? Handling Person Names in Speech Translation***<br> Authors:  Marco Gaido, Matteo Negri and Marco Turchi |
   
   
 <!--
@@ -73,25 +74,24 @@ Authors:  Yasumasa Kano, Katsuhito Sudoh and Satoshi Nakamura
 
 *Locality-Sensitive Hashing for Long Context Neural Machine Translation*.  
 Authors:  Frithjof Petrick, Jan Rosendahl, Christian Herold and Hermann Ney
+
+*Who Are We Talking About? Handling Person Names in Speech Translation*.  
+Authors:  Marco Gaido, Matteo Negri and Marco Turchi
 -->
 
 ### Oral Session 2
 
 | :-- | :-- |
 | **Time (Dublin)** | **Paper** |
-| [09:00-09:18am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T100000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Anticipation-Free Training for Simultaneous Machine Translation***<br> Authors:  Chih-Chiang Chang, Shun-Po Chuang and Hung-yi Lee |
-| [09:18-09:36am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T102000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Who Are We Talking About? Handling Person Names in Speech Translation***<br> Authors:  Marco Gaido, Matteo Negri and Marco Turchi |
-| [09:36-09:54am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T104000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Joint Generation of Captions and Subtitles with Dual Decoding***<br> Authors:  Jitao Xu, François Buet, Josep Crego, Elise Bertin-Lemée and François Yvon |
-| [09:54-10:12am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T110000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***MirrorAlign: A Super Lightweight Unsupervised Word Alignment Model via Cross-Lingual Contrastive Learning***<br> Authors:  Di Wu, Liang Ding, Shuo Yang, Mingyang Li |
-| [10:12-10:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T110000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***On the Impact of Noises in Crowd-Sourced Data for Speech Translation***<br> Authors:  Siqi Ouyang, Rong Ye and Lei Li |
+| [09:10-09:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T101000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Anticipation-Free Training for Simultaneous Machine Translation***<br> Authors:  Chih-Chiang Chang, Shun-Po Chuang and Hung-yi Lee |
+| [09:30-09:50am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T103000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Joint Generation of Captions and Subtitles with Dual Decoding***<br> Authors:  Jitao Xu, François Buet, Josep Crego, Elise Bertin-Lemée and François Yvon |
+| [09:50-10:10am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T105000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***MirrorAlign: A Super Lightweight Unsupervised Word Alignment Model via Cross-Lingual Contrastive Learning***<br> Authors:  Di Wu, Liang Ding, Shuo Yang, Mingyang Li |
+| [10:10-10:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T111000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***On the Impact of Noises in Crowd-Sourced Data for Speech Translation***<br> Authors:  Siqi Ouyang, Rong Ye and Lei Li |
   
   
 <!--
 *Anticipation-Free Training for Simultaneous Machine Translation*.  
 Authors:  Chih-Chiang Chang, Shun-Po Chuang and Hung-yi Lee
-
-*Who Are We Talking About? Handling Person Names in Speech Translation*.  
-Authors:  Marco Gaido, Matteo Negri and Marco Turchi
 
 *Joint Generation of Captions and Subtitles with Dual Decoding*.  
 Authors:  Jitao Xu, François Buet, Josep Crego, Elise Bertin-Lemée and François Yvon
