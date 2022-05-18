@@ -5,15 +5,12 @@ classes: wide
 ---
 
 ## Provisional Schedule
-<!-- time converter links on times, zoom links for sessions to come -->
 
-<!-- **Note:** Zoom link for Day 1 will be available on the [ACL virtual site](https://underline.io/events/167/sessions?eventSessionId=6299) after registration to ACL-JCNLP 2021. Day 2 links are listed [here](/assets/pdfs/IWSLT21-Q&As.pdf). -->
-
-**Note:** Zoom links will be available on the ACL 2022 virtual site (after registration) once posted. We will link our page here once it is available. 
+**Note:** Zoom links are available on the ACL 2022 virtual site (after registration). Click here for [Day 1](https://underline.io/events/284/sessions?eventSessionId=10949) and [Day 2](https://underline.io/events/284/sessions?eventSessionId=10950). 
 {: .notice--info}
 
 Times are linked to a time converter site to view alternate time zones.  
-Papers for each session are listed below.  
+Papers in each session are listed below.  
 
 
 | Day1 | May 26, 2022 |
@@ -45,10 +42,11 @@ Papers for each session are listed below.
 
 ## Proceedings
 
-<!--
 **Link:** [Paper pdfs, abstracts, and bibtex on the ACL Anthology](https://aclanthology.org/volumes/2022.iwslt-1/).  
-**Videos:** were tested to play on Chrome.
 {: .notice--info}
+
+<!--
+**Videos:** were tested to play on Chrome.
 -->
 
 ### Oral Session 1
