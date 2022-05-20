@@ -30,7 +30,7 @@ Papers in each session are listed below.
 | :-- | :-- |
 | **Time (Dublin)** | **Session** |
 [09:00-09:10am](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T080000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Opening Remarks |
-| [09:10-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T080000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | [Oral 2: Scientific Papers](#oral-session-2) |
+| [09:10-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T081000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | [Oral 2: Scientific Papers](#oral-session-2) |
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T093000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Coffee Break |  
 | [11:00-12:00](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T100000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Discussion 1: Human evaluations |  
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T113000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Lunch Break |  
