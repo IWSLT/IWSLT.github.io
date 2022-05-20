@@ -29,9 +29,10 @@ Papers in each session are listed below.
 | Day2 | May 27, 2022 |
 | :-- | :-- |
 | **Time (Dublin)** | **Session** |
-| [09:00-10:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T080000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | [Oral 2: Scientific Papers](#oral-session-2) |
+[09:00-10:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T080000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Welcome to Day 2 |
+| [09:10-10:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T080000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | [Oral 2: Scientific Papers](#oral-session-2) |
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T093000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Coffee Break |  
-| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T100000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Discussion 1: Human evaluations |  
+| [11:00-12:00](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T100000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Discussion 1: Human evaluations |  
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T113000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Lunch Break |  
 | [14:00-15:00](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T130000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Discussion 2: Retrospective | 
 | [15:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20220527T140000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | Coffee Break   | 
