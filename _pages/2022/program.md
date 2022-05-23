@@ -4,7 +4,7 @@ title: "Program"
 classes: wide
 ---
 
-## Provisional Schedule
+## Program
 
 **Note:** Zoom links are available on the ACL 2022 virtual site (after registration). Click here for [Day 1](https://underline.io/events/284/sessions?eventSessionId=10949) and [Day 2](https://underline.io/events/284/sessions?eventSessionId=10950). 
 {: .notice--info}
