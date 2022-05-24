@@ -106,22 +106,28 @@ Authors:  Siqi Ouyang, Rong Ye and Lei Li
 ### Poster Session
 
 *The YiTrans Neural Speech Translation Systems for IWSLT 2022 Offline Shared Task*.  
-Authors:  Ziqiang Zhang and Junyi Ao
+Authors:  Ziqiang Zhang and Junyi Ao.  
+Video: [Link](https://drive.google.com/file/d/1B3s630vFfwV86lf37FJWAtfkRxANXQYf/view?usp=sharing)
 
 *Amazon Alexa AI's System for IWSLT 2022 Offline Speech Translation Shared Task*.  
-Authors:  Akshaya Vishnu Kudlu Shanbhogue, Ran Xue, Ching-Yun Chang and Sarah Campbell
+Authors:  Akshaya Vishnu Kudlu Shanbhogue, Ran Xue, Ching-Yun Chang and Sarah Campbell  
+Video: [Link]()
 
 *Efficient yet Competitive Speech Translation: FBK@IWSLT2022*.  
-Authors:  Marco Gaido, Sara Papi, Dennis Fucci, Giuseppe Fiameni, Matteo Negri and Marco Turchi
+Authors:  Marco Gaido, Sara Papi, Dennis Fucci, Giuseppe Fiameni, Matteo Negri and Marco Turchi.  
+Video: [Link]()
 
 *Effective combination of pretrained models - KIT@IWSLT2022*.  
-Authors:  Ngoc-Quan Pham, Tuan Nam Nguyen, Thai-Binh Nguyen, Danni Liu, Carlos Mullov, Jan Niehues and Alexander Waibel
+Authors:  Ngoc-Quan Pham, Tuan Nam Nguyen, Thai-Binh Nguyen, Danni Liu, Carlos Mullov, Jan Niehues and Alexander Waibel  
+Video: [Link]()
 
 *The USTC-NELSLIP Offline Speech Translation Systems for IWSLT 2022*.  
-Authors:  Weitai Zhang, Zhongyi Ye, Haitao Tang, Xiaoxi Li, Xinyuan Zhou, Jing Yang, Jianwei Cui, Dan Liu, Junhua Liu and Lirong Dai
+Authors:  Weitai Zhang, Zhongyi Ye, Haitao Tang, Xiaoxi Li, Xinyuan Zhou, Jing Yang, Jianwei Cui, Dan Liu, Junhua Liu and Lirong Dai.  
+Video: [Link]()
 
 *The AISP-SJTU Simultaneous Translation System for IWSLT 2022*.  
-Authors:  Qinpei Zhu, Renshou Wu, Guangfeng Liu, Xinyu Zhu, Xingyu Chen, Yang Zhou, Qingliang Miao, Rui Wang and Kai Yu
+Authors:  Qinpei Zhu, Renshou Wu, Guangfeng Liu, Xinyu Zhu, Xingyu Chen, Yang Zhou, Qingliang Miao, Rui Wang and Kai Yu.  
+Video: [Link]()
 
 *The Xiaomi Text-to-Text Simultaneous Speech Translation System for IWSLT 2022*.  
 Authors:  Bao Guo, Mengge Liu, Wen Zhang, Hexuan Chen, Chang Mu, Xiang Li, Jianwei Cui, Bin Wang and Yuhang Guo
