@@ -195,14 +195,14 @@ Video: [Link](https://drive.google.com/drive/folders/1EIDAi5pS13Ra2YHbt5X4RO46u2
 
 *HW-TSC's Participation in the IWSLT 2022 Isometric Spoken Language Translation*.  
 Authors:  Zongyao Li, JiaXin Guo, Daimeng Wei, Hengchao Shang, Minghan Wang, Ting Zhu, Zhanglin Wu, Zhengzhe Yu, Xiaoyu Chen, Lizhi Lei, Hao Yang and Ying Qin  
-Video: [Link]()
+Video: 
 
 *AppTek's Submission to the IWSLT 2022 Isometric Spoken Language Translation Task*.  
-Authors:  Patrick Wilken and Evgeny Matusov [p] 
+Authors:  Patrick Wilken and Evgeny Matusov [p]   
 Video: [Link](https://apptek930-my.sharepoint.com/:v:/g/personal/ematusov_apptek_com/EUYZLBXrZYlBkCGmXE4MTlUBNjqQnoxQ1pP3A7Wiq_J4Jw?e=J2VWXF)
 
 *Hierarchical Multi-task learning framework for Isometric-Speech Language Translation*.  
 Authors:  Aakash Bhatnagar, Nidhir Bhavsar, Muskaan Singh and Petr Motlicek  
-Video: [Link]()
+Video: 
 
 
