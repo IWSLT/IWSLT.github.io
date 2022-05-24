@@ -130,43 +130,56 @@ Authors:  Qinpei Zhu, Renshou Wu, Guangfeng Liu, Xinyu Zhu, Xingyu Chen, Yang Zh
 Video: [Link]()
 
 *The Xiaomi Text-to-Text Simultaneous Speech Translation System for IWSLT 2022*.  
-Authors:  Bao Guo, Mengge Liu, Wen Zhang, Hexuan Chen, Chang Mu, Xiang Li, Jianwei Cui, Bin Wang and Yuhang Guo
+Authors:  Bao Guo, Mengge Liu, Wen Zhang, Hexuan Chen, Chang Mu, Xiang Li, Jianwei Cui, Bin Wang and Yuhang Guo.  
+Video: [Link]()
 
 *NVIDIA NeMo Offline Speech Translation Systems for IWSLT 2022*.  
-Authors:  Oleksii Hrinchuk, Vahid Noroozi, Abhinav Khattar, Anton Peganov, Sandeep Subramanian, Somshubra Majumdar and Oleksii Kuchaiev
+Authors:  Oleksii Hrinchuk, Vahid Noroozi, Abhinav Khattar, Anton Peganov, Sandeep Subramanian, Somshubra Majumdar and Oleksii Kuchaiev.  
+Video: [Link]()
 
 *The NiuTrans's Submission to the IWSLT22 English-to-Chinese Offline Speech Translation Task*.  
-Authors:  Yuhao Zhang, Canan Huang, Chen Xu, Xiaoqian Liu, Bei Li, Anxiang Ma, Tong Xiao and Jingbo Zhu
+Authors:  Yuhao Zhang, Canan Huang, Chen Xu, Xiaoqian Liu, Bei Li, Anxiang Ma, Tong Xiao and Jingbo Zhu.  
+Video: [Link]()
 
 *The HW-TSC's Offline Speech Translation System for IWSLT 2022 Evaluation*.  
-Authors:  Yinglu Li, Minghan Wang, Jiaxin GUO, Xiaosong Qiao, Yuxia Wang, Daimeng Wei, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin
+Authors:  Yinglu Li, Minghan Wang, Jiaxin GUO, Xiaosong Qiao, Yuxia Wang, Daimeng Wei, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin   
+Video: [Link]()
 
 *The HW-TSC's Simultaneous Speech Translation System for IWSLT 2022 Evaluation*.  
-Authors:  Minghan Wang, Jiaxin GUO, Yinglu Li, Xiaosong Qiao, Yuxia Wang, Zongyao Li, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin
+Authors:  Minghan Wang, Jiaxin GUO, Yinglu Li, Xiaosong Qiao, Yuxia Wang, Zongyao Li, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin  
+Video: [Link]()
 
 *MLLP-VRAIN UPV systems for the IWSLT 2022 Simultaneous Speech Translation and Speech-to-Speech Translation tasks*.  
-Authors:  Javier Iranzo-Sánchez, Javier Jorge Cano, Alejandro Pérez-González-de-Martos, Adrián Giménez Pastor, Gonçal Garcés Díaz-Munío, Pau Baquero-Arnal, ‪Joan Albert Silvestre-Cerdà, Jorge Civera Saiz, Albert Sanchis and Alfons Juan
+Authors:  Javier Iranzo-Sánchez, Javier Jorge Cano, Alejandro Pérez-González-de-Martos, Adrián Giménez Pastor, Gonçal Garcés Díaz-Munío, Pau Baquero-Arnal, ‪Joan Albert Silvestre-Cerdà, Jorge Civera Saiz, Albert Sanchis and Alfons Juan  
+Video: [Link]()
 
 *Pretrained Speech Encoders and Efficient Fine-tuning Methods for Speech Translation: UPC at IWSLT 2022*.  
-Authors:  Ioannis Tsiamas, Gerard I. Gállego, Carlos Escolano, José A. R. Fonollosa and Marta R. Costa-jussà
+Authors:  Ioannis Tsiamas, Gerard I. Gállego, Carlos Escolano, José A. R. Fonollosa and Marta R. Costa-jussà.  
+Video: [Link]()
 
 *CUNI-KIT System for Simultaneous Speech Translation Task at IWSLT 2022*.  
-Authors:  Peter Polák, Ngoc-Quan Pham, Tuan Nam Nguyen, Danni Liu, Carlos Mullov, Jan Niehues, Ondřej Bojar and Alexander Waibel
+Authors:  Peter Polák, Ngoc-Quan Pham, Tuan Nam Nguyen, Danni Liu, Carlos Mullov, Jan Niehues, Ondřej Bojar and Alexander Waibel.  
+Video: [Link]()
 
 *NAIST Simultaneous Speech-to-Text Translation System for IWSLT 2022*.  
-Authors:  Ryo Fukuda, Yuka Ko, Yasumasa Kano, Kosuke Doi, Hirotaka Tokuyama, Sakriani Sakti, Katsuhito Sudoh and Satoshi Nakamura
+Authors:  Ryo Fukuda, Yuka Ko, Yasumasa Kano, Kosuke Doi, Hirotaka Tokuyama, Sakriani Sakti, Katsuhito Sudoh and Satoshi Nakamura.  
+Video: [Link]()
 
 *The HW-TSC's Speech to Speech Translation System for IWSLT 2022 Evaluation*.  
-Authors:  Jiaxin GUO, Yinglu Li, Minghan Wang, Xiaosong Qiao, Yuxia Wang, Hengchao Shang, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin
+Authors:  Jiaxin GUO, Yinglu Li, Minghan Wang, Xiaosong Qiao, Yuxia Wang, Hengchao Shang, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin  
+Video: [Link]()
 
 *CMU's IWSLT 2022 Dialect Speech Translation System*.  
-Authors:  Brian Yan, Patrick Fernandes, Siddharth Dalmia, Jiatong Shi, Yifan Peng, Dan Berrebbi, Xinyi Wang, Graham Neubig and Shinji Watanabe
+Authors:  Brian Yan, Patrick Fernandes, Siddharth Dalmia, Jiatong Shi, Yifan Peng, Dan Berrebbi, Xinyi Wang, Graham Neubig and Shinji Watanabe.  
+v
 
 *ON-TRAC Consortium Systems for the IWSLT 2022 Dialect and Low-resource Speech Translation Tasks*.  
-Authors:  Marcely Zanon Boito, John Ortega, Hugo Riguidel, Antoine LAURENT, Loïc Barrault, Fethi Bougares, Firas Chaabani, Ha Nguyen, Florentin Barbier, SOUHIR GAHBICHE and Yannick Estève
+Authors:  Marcely Zanon Boito, John Ortega, Hugo Riguidel, Antoine LAURENT, Loïc Barrault, Fethi Bougares, Firas Chaabani, Ha Nguyen, Florentin Barbier, SOUHIR GAHBICHE and Yannick Estève.  
+Video: [Link]()
 
 *JHU IWSLT 2022 Dialect Speech Translation System Description*.  
-Authors:  Jinyi Yang, Amir Hussein, Matthew Wiesner and Sanjeev Khudanpur
+Authors:  Jinyi Yang, Amir Hussein, Matthew Wiesner and Sanjeev Khudanpur.  
+Video: [Link]()
 
 *Controlling Translation Formality Using Pre-trained Multilingual Language Models*.  
 Authors:  Elijah Rippeth, Sweta Agrawal and Marine Carpuat
