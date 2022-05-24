@@ -111,92 +111,98 @@ Video: [Link](https://drive.google.com/file/d/1B3s630vFfwV86lf37FJWAtfkRxANXQYf/
 
 *Amazon Alexa AI's System for IWSLT 2022 Offline Speech Translation Shared Task*.  
 Authors:  Akshaya Vishnu Kudlu Shanbhogue, Ran Xue, Ching-Yun Chang and Sarah Campbell  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1AvmRiRMMr6SO_dEn2ixm--PJ0aUGV7GB/view?usp=sharing)
 
 *Efficient yet Competitive Speech Translation: FBK@IWSLT2022*.  
 Authors:  Marco Gaido, Sara Papi, Dennis Fucci, Giuseppe Fiameni, Matteo Negri and Marco Turchi.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1RgqQiRUoECxMSU3Dm3U1IQxfkyP03KNC/view?usp=sharing)
 
 *Effective combination of pretrained models - KIT@IWSLT2022*.  
 Authors:  Ngoc-Quan Pham, Tuan Nam Nguyen, Thai-Binh Nguyen, Danni Liu, Carlos Mullov, Jan Niehues and Alexander Waibel  
-Video: [Link]()
+Video: [Link](https://i13hpc51.ira.uka.de/iwslt2022-kit.mp4)
 
 *The USTC-NELSLIP Offline Speech Translation Systems for IWSLT 2022*.  
 Authors:  Weitai Zhang, Zhongyi Ye, Haitao Tang, Xiaoxi Li, Xinyuan Zhou, Jing Yang, Jianwei Cui, Dan Liu, Junhua Liu and Lirong Dai.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1vO54WysoYYDpYbC2nebjIUJcX7_BAEo8/view?usp=sharing)
 
 *The AISP-SJTU Simultaneous Translation System for IWSLT 2022*.  
 Authors:  Qinpei Zhu, Renshou Wu, Guangfeng Liu, Xinyu Zhu, Xingyu Chen, Yang Zhou, Qingliang Miao, Rui Wang and Kai Yu.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1e3wcmPDxjBmyZIwAYE0E7md1suiefp7b/view?usp=sharing)
 
 *The Xiaomi Text-to-Text Simultaneous Speech Translation System for IWSLT 2022*.  
 Authors:  Bao Guo, Mengge Liu, Wen Zhang, Hexuan Chen, Chang Mu, Xiang Li, Jianwei Cui, Bin Wang and Yuhang Guo.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1v1IFGXZKBEC4-BtwXvH73KfomNEsn3Ov/view?usp=sharing)
 
 *NVIDIA NeMo Offline Speech Translation Systems for IWSLT 2022*.  
 Authors:  Oleksii Hrinchuk, Vahid Noroozi, Abhinav Khattar, Anton Peganov, Sandeep Subramanian, Somshubra Majumdar and Oleksii Kuchaiev.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1IXLtbNIejI0RXqBfQOuT9whmkRG3VOJP/view?usp=sharing)
 
 *The NiuTrans's Submission to the IWSLT22 English-to-Chinese Offline Speech Translation Task*.  
 Authors:  Yuhao Zhang, Canan Huang, Chen Xu, Xiaoqian Liu, Bei Li, Anxiang Ma, Tong Xiao and Jingbo Zhu.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1z7MNQDQtHgzVL_SgC2PcxD6CORQj0cWU/view?usp=sharing)
 
 *The HW-TSC's Offline Speech Translation System for IWSLT 2022 Evaluation*.  
 Authors:  Yinglu Li, Minghan Wang, Jiaxin GUO, Xiaosong Qiao, Yuxia Wang, Daimeng Wei, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin   
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1sdX7nH0DjAQkzoIj8twFx7hZZIOx9qqZ/view?usp=sharing)
 
 *The HW-TSC's Simultaneous Speech Translation System for IWSLT 2022 Evaluation*.  
 Authors:  Minghan Wang, Jiaxin GUO, Yinglu Li, Xiaosong Qiao, Yuxia Wang, Zongyao Li, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1sdX7nH0DjAQkzoIj8twFx7hZZIOx9qqZ/view?usp=sharing)
 
 *MLLP-VRAIN UPV systems for the IWSLT 2022 Simultaneous Speech Translation and Speech-to-Speech Translation tasks*.  
 Authors:  Javier Iranzo-Sánchez, Javier Jorge Cano, Alejandro Pérez-González-de-Martos, Adrián Giménez Pastor, Gonçal Garcés Díaz-Munío, Pau Baquero-Arnal, ‪Joan Albert Silvestre-Cerdà, Jorge Civera Saiz, Albert Sanchis and Alfons Juan  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1CqGcN11h0TKF6Ve5UFjoKpJtXS8W2xJ3/view?usp=sharing)
 
 *Pretrained Speech Encoders and Efficient Fine-tuning Methods for Speech Translation: UPC at IWSLT 2022*.  
 Authors:  Ioannis Tsiamas, Gerard I. Gállego, Carlos Escolano, José A. R. Fonollosa and Marta R. Costa-jussà.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1yGP8w-0pP1_5dl-QEf6KMsAvFVtDxeT2/view)
 
 *CUNI-KIT System for Simultaneous Speech Translation Task at IWSLT 2022*.  
 Authors:  Peter Polák, Ngoc-Quan Pham, Tuan Nam Nguyen, Danni Liu, Carlos Mullov, Jan Niehues, Ondřej Bojar and Alexander Waibel.  
-Video: [Link]()
+Video: [Link](http://ufallab.ms.mff.cuni.cz/~polak/iwslt.mp4)
 
 *NAIST Simultaneous Speech-to-Text Translation System for IWSLT 2022*.  
 Authors:  Ryo Fukuda, Yuka Ko, Yasumasa Kano, Kosuke Doi, Hirotaka Tokuyama, Sakriani Sakti, Katsuhito Sudoh and Satoshi Nakamura.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/11yQo4dOWhgTtlPklYqIldpR7WULdrFhR/view?usp=sharing)
 
 *The HW-TSC's Speech to Speech Translation System for IWSLT 2022 Evaluation*.  
 Authors:  Jiaxin GUO, Yinglu Li, Minghan Wang, Xiaosong Qiao, Yuxia Wang, Hengchao Shang, Chang Su, Yimeng Chen, Min Zhang, shimin tao, Hao Yang and Ying Qin  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1sdX7nH0DjAQkzoIj8twFx7hZZIOx9qqZ/view?usp=sharing)
 
 *CMU's IWSLT 2022 Dialect Speech Translation System*.  
 Authors:  Brian Yan, Patrick Fernandes, Siddharth Dalmia, Jiatong Shi, Yifan Peng, Dan Berrebbi, Xinyi Wang, Graham Neubig and Shinji Watanabe.  
-v
+Video: [Link](https://youtu.be/JwhdKYHk_X4)
 
 *ON-TRAC Consortium Systems for the IWSLT 2022 Dialect and Low-resource Speech Translation Tasks*.  
 Authors:  Marcely Zanon Boito, John Ortega, Hugo Riguidel, Antoine LAURENT, Loïc Barrault, Fethi Bougares, Firas Chaabani, Ha Nguyen, Florentin Barbier, SOUHIR GAHBICHE and Yannick Estève.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1qjgkZrXJL8hMuVgpG6YOiAbvTzuRcTKA/view?usp=sharing)
 
 *JHU IWSLT 2022 Dialect Speech Translation System Description*.  
 Authors:  Jinyi Yang, Amir Hussein, Matthew Wiesner and Sanjeev Khudanpur.  
-Video: [Link]()
+Video: [Link](https://drive.google.com/file/d/1xQW1d660l3SuF8vHeGqsqL3uu1zAQs71/view?usp=sharing)
 
 *Controlling Translation Formality Using Pre-trained Multilingual Language Models*.  
-Authors:  Elijah Rippeth, Sweta Agrawal and Marine Carpuat
+Authors:  Elijah Rippeth, Sweta Agrawal and Marine Carpuat  
+Video: [Link](https://drive.google.com/file/d/1o7yh7cajXgtVW_Or9aeOALI3lRese0KA/view?usp=sharing)
 
 *Controlling Formality in Low-Resource NMT with Domain Adaptation and Re-Ranking: SLT-CDT-UoS at IWSLT2022*.  
-Authors:  Sebastian Vincent, Loïc Barrault and Carolina Scarton
+Authors:  Sebastian Vincent, Loïc Barrault and Carolina Scarton.  
+Video: [Link](https://drive.google.com/file/d/1TGnPCEXVVajw8x1Kfa64GRgIKB7ODhZG/view?usp=sharing)
 
 *Improving Machine Translation Formality Control with Weakly-Labelled Data Augmentation and Post Editing Strategies*.  
-Authors:  Daniel Zhang, Jiang Yu, Pragati Verma, Ashwinkumar Ganesan and Sarah Campbell
+Authors:  Daniel Zhang, Jiang Yu, Pragati Verma, Ashwinkumar Ganesan and Sarah Campbell  
+Video: [Link](https://drive.google.com/drive/folders/1EIDAi5pS13Ra2YHbt5X4RO46u2k5jGow?usp=sharing)
 
 *HW-TSC's Participation in the IWSLT 2022 Isometric Spoken Language Translation*.  
-Authors:  Zongyao Li, JiaXin Guo, Daimeng Wei, Hengchao Shang, Minghan Wang, Ting Zhu, Zhanglin Wu, Zhengzhe Yu, Xiaoyu Chen, Lizhi Lei, Hao Yang and Ying Qin
+Authors:  Zongyao Li, JiaXin Guo, Daimeng Wei, Hengchao Shang, Minghan Wang, Ting Zhu, Zhanglin Wu, Zhengzhe Yu, Xiaoyu Chen, Lizhi Lei, Hao Yang and Ying Qin  
+Video: [Link]()
 
 *AppTek's Submission to the IWSLT 2022 Isometric Spoken Language Translation Task*.  
-Authors:  Patrick Wilken and Evgeny Matusov
+Authors:  Patrick Wilken and Evgeny Matusov  
+Video: [Link](https://apptek930-my.sharepoint.com/:v:/g/personal/ematusov_apptek_com/EUYZLBXrZYlBkCGmXE4MTlUBNjqQnoxQ1pP3A7Wiq_J4Jw?e=J2VWXF)
 
 *Hierarchical Multi-task learning framework for Isometric-Speech Language Translation*.  
-Authors:  Aakash Bhatnagar, Nidhir Bhavsar, Muskaan Singh and Petr Motlicek
+Authors:  Aakash Bhatnagar, Nidhir Bhavsar, Muskaan Singh and Petr Motlicek  
+Video: [Link]()
 
 
