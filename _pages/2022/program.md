@@ -82,7 +82,7 @@ Authors:  Marco Gaido, Matteo Negri and Marco Turchi
 
 | :-- | :-- |
 | **Time (Dublin)** | **Paper** |
-| [09:10-09:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T101000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Anticipation-Free Training for Simultaneous Machine Translation***<br> Authors:  Chih-Chiang Chang, Shun-Po Chuang and Hung-yi Lee |
+| [09:10-09:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T101000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Anticipation-Free Training for Simultaneous Machine Translation***<br> Authors:  Chih-Chiang Chang, Shun-Po Chuang and Hung-yi Lee [Video](https://drive.google.com/file/d/1QBi_0xznQ9uI832U1D8sjVfjABXmASEv/view?usp=sharing)|
 | [09:30-09:50am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T103000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***Joint Generation of Captions and Subtitles with Dual Decoding***<br> Authors:  Jitao Xu, François Buet, Josep Crego, Elise Bertin-Lemée and François Yvon |
 | [09:50-10:10am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T105000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***MirrorAlign: A Super Lightweight Unsupervised Word Alignment Model via Cross-Lingual Contrastive Learning***<br> Authors:  Di Wu, Liang Ding, Shuo Yang, Mingyang Li |
 | [10:10-10:30am](https://www.timeanddate.com/worldclock/converter.html?iso=20220526T111000&p1=78&p2=5805&p3=33&p4=248&p5=179&p6=224) | ***On the Impact of Noises in Crowd-Sourced Data for Speech Translation***<br> Authors:  Siqi Ouyang, Rong Ye and Lei Li |
