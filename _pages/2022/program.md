@@ -44,7 +44,7 @@ Papers in each session are listed below.
 ## Proceedings
 
 **Link:** [Paper pdfs, abstracts, and bibtex on the ACL Anthology](https://aclanthology.org/volumes/2022.iwslt-1/).  
-**Videos:** were tested to play on Chrome.  
+**Videos** were tested to play on Chrome.  
 {: .notice--info}
 
 ### Oral Session 1
@@ -180,7 +180,7 @@ Video: [Link](https://drive.google.com/file/d/1xQW1d660l3SuF8vHeGqsqL3uu1zAQs71/
 
 *Controlling Translation Formality Using Pre-trained Multilingual Language Models*.  
 Authors:  Elijah Rippeth [p], Sweta Agrawal and Marine Carpuat  
-Video: [Link](https://drive.google.com/file/d/1o7yh7cajXgtVW_Or9aeOALI3lRese0KA/view?usp=sharing)
+Video: [Link](https://drive.google.com/file/d/1nqFsrvpLi99YGtg6gRs3FUZOJgxd1UCN/view?usp=sharing)
 
 *Controlling Formality in Low-Resource NMT with Domain Adaptation and Re-Ranking: SLT-CDT-UoS at IWSLT2022*.  
 Authors:  Sebastian Vincent [p], Loïc Barrault and Carolina Scarton.  
