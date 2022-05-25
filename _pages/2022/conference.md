@@ -94,7 +94,7 @@ Please submit scientific papers and system papers via the [submission page](http
 - Marta R. Costa-jussà, Meta AI, France (Program Chair)
 - Jan Niehues, Maastricht U., Netherlands (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Evaluation Chair)
-- Elizabeth Salesky, JHU, USA (Website Chair)
+- Elizabeth Salesky, JHU, USA (Publication and Website Chair)
 
 ## Program Committee
 
