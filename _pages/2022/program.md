@@ -44,11 +44,8 @@ Papers in each session are listed below.
 ## Proceedings
 
 **Link:** [Paper pdfs, abstracts, and bibtex on the ACL Anthology](https://aclanthology.org/volumes/2022.iwslt-1/).  
+**Videos:** were tested to play on Chrome.  
 {: .notice--info}
-
-<!--
-**Videos:** were tested to play on Chrome.
--->
 
 ### Oral Session 1
 
