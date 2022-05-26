@@ -22,6 +22,9 @@ Please find here the detailed [program](/2022/program).
 **Keynote:**  
 We are pleased to have [an invited talk by Frederic Chaume (Universitat Jaume I)](/2022/keynote) on Day 1. 
 
+**Survey:**  
+Link to the [survey](https://docs.google.com/forms/d/e/1FAIpQLSeQ-LfmTej7cJyAsTxEGfWkGqIGkcdvEtIr1xUHywoGhqH8AA/viewform?usp=send_form) for the Retrospective discussion on Day 2. 
+
 
 ## Shared Tasks
 
