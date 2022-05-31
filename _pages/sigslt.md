@@ -24,6 +24,7 @@ Its purpose is to promote interest in the research area of spoken language trans
 ### Steering Committee and Officers
 
   * Laurent Besacier, Naver Labs Europe, France 
+  * Marta R. Costa-jussà, Meta, Spain 
   * Marcello Federico, Amazon, USA (*ACL SIGSLT, President*) 
  <!--- * Will Lewis, University of Washington, USA --->
   * Chi Mai Luong, IOIT, Vietnam
