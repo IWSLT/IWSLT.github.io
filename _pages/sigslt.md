@@ -25,7 +25,7 @@ Its purpose is to promote interest in the research area of spoken language trans
 
   * Laurent Besacier, Naver Labs Europe, France 
   * Marcello Federico, Amazon, USA (*ACL SIGSLT, President*) 
-  <--- * Will Lewis, University of Washington, USA --->
+  <!--- * Will Lewis, University of Washington, USA --->
   * Chi Mai Luong, IOIT, Vietnam
   * Joseph Mariani, CNRS-LISN, France 
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
@@ -39,7 +39,7 @@ Its purpose is to promote interest in the research area of spoken language trans
   * Marco Turchi, FBK, Italy 
   * Alex Waibel, CMU, USA (*Chair*)
   * Shinji Watanabe, CMU, USA
-<---  * Dekai Wu, HKUST Hong Kong, China --->
+<!---  * Dekai Wu, HKUST Hong Kong, China --->
   * François Yvon, CNRS, France
   * Chengqing Zong, NLPR CAS, China
 
