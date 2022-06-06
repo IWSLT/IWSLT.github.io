@@ -122,6 +122,10 @@ You can find instructions to train and evaluate an English-to-Japanese baseline 
 
 Participants are required to run the evaluation on the English-German dev and tst-COMMON MuST-C sets for the English-German track and on the IWSLT21 dev set for the English-Japanese track and report the results as part of the submission. This is to make sure that the submitted systems work so that organizers can run them as well. The submission files should be packed into a `zip` or `tar.gz` file and uploaded to [dropbox](https://www.dropbox.com/request/AqMgj7olK0MWcz2dOuah) prior to the deadline (Apr 23 2021 anywhere on earth). The submission files should include instructions on how to run the system in a `README` or `README.md` file as well as all the necessary files (Docker image, checkpoints, vocabulary, etc.) for the organizers to be able to run the system.
 
+## Results
+
+Results are reported in the [findings paper](https://aclanthology.org/2021.iwslt-1.1/). We've also made available the [system logs](https://dl.fbaipublicfiles.com/simultaneous_translation/iwslt2021_simul-s2t_logs.tgz).
+
 ## Contacts
 
 Discussion: iwslt-evaluation-campaign@googlegroups.com
