@@ -5,8 +5,24 @@ classes: wide
 ---
 
 <br/>
-The ISCA SIGSLT lecture series are held periodically on Zoom, with recordings linked here after the talk for those who cannot join live.
-Zoom links are posted to the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
+The ISCA SIGSLT lecture series is held periodically on Zoom, with recordings posted on [YouTube](https://www.youtube.com/playlist?list=PLMS8PIkS6c4jU-4KZdhFErTYMP7KmFRw-){:target="_blank"} for those who cannot join live.  
+Zoom links are distributed through the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
+
+
+## Towards Streaming Speech Translation
+Javier Iranzo-Sánchez, PhD student at the Universitat Politècnica de València.
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Tues 14 June 2022, 08:00 UTC [(5pm JST / 10am CET / 4am EST / 1am PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20220614T080000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://youtu.be/91btxw8ewcI){:target="_blank"}  
+
+**Abstract:**  
+This seminar introduces the task of Streaming Speech Translation, which is the task of translating an unbounded audio stream under real-time constraints. The different components of the Speech Translation pipeline (Automatic Speech Recognition, Segmentation, Simultaneous Translation, and Evaluation) will be explained in detail, paying special attention to some overlooked details that differ from the standard Speech Translation task.
+
+**Bio:**  
+Javier Iranzo-Sánchez is a PhD student at the Universitat Politècnica de València, under the supervision of Professor Jorge Civera and Professor Alfons Juan. His research topic is Simultaneous Speech Translation, and he has published multiple publications at top ASR and MT conferences. Currently, he is working as a Research Scientist at Apptek while finishing his thesis.
 
 
 ## Isochrony for Automatic Dubbing
