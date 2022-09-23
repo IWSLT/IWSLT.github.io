@@ -9,6 +9,27 @@ The ISCA SIGSLT lecture series is held periodically on Zoom, with recordings pos
 Zoom links are distributed through the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
 
 
+## State of the art and current challenges of MT for sign to spoken languages
+Dr. Dimitar Shterionov, assistant professor in the Department of Cognitive Science and Artificial Intelligence at Tilburg University  
+Dr. Mirella De Sisto, postdoctoral researcher in the Department of Cognitive Science and Artificial Intelligence at Tilburg University  
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Wed 14 Sept 2022, 15:00 UTC [(12am JST / 5pm CEST / 11am EST / 8am PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20220914T150000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://www.youtube.com/watch?v=W20MfKWGMiY){:target="_blank"}  
+
+**Abstract:**  
+Machine translation (MT) is a core technique for reducing language barriers that has advanced and seen many breakthroughs since it began in the 1950s, to reach quality levels comparable to humans. Despite the significant advances of MT for spoken languages in the recent couple of decades, MT is in its infancy when it comes to SLs. The complexity of the problem, automatically translating between SLs or SL and spoken languages, requires multi-disciplinary research. SLMT is lagging behind, in comparison to MT for spoken languages, for a number of reasons linked to challenges of technical as well as linguistic nature.
+  
+In this presentation, we discuss current approaches to SLMT and will dive into some of the challenges that the field is facing. We focus on those challenges which are related to linguistic properties of sign languages and to the format of the data available. We discuss possible approaches to some of them and, by doing that, we introduce our work in progress.
+
+**Bio:**  
+Dr. Dimitar Shterionov is an assistant professor in the Department of Cognitive Science and Artificial Intelligence at Tilburg University. He is the scientific coordinator of the [SignON project](https://signon-project.eu/). His current research focuses on low-resource MT, and, in particular, on MT for Sign Languages. He is an experienced researcher in MT and NLP, and an expert in a plethora of subtopics of MT such as quality estimation, automatic post-editing, evaluation of MT quality and usability, and speech-to-text and text-to-speech translation.
+
+Dr. Mirella De Sisto is a postdoctoral researcher in the Department of Cognitive Science and Artificial Intelligence at Tilburg University. As a member of the SignON project, her current research focus is Sign Language MT and how to support its development with a linguistically-informed approach. Her expertise lies in the interface between linguistics and NLP and MT.
+
+
 ## Towards Streaming Speech Translation
 Javier Iranzo-Sánchez, PhD student at the Universitat Politècnica de València.
 
