@@ -9,6 +9,23 @@ The ISCA SIGSLT lecture series is held periodically on Zoom, with recordings pos
 Zoom links are distributed through the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
 
 
+## Speech Translation: Effectiveness, Efficiency, and Data
+Jinming Zhao, PhD student at Monash University in Australia [(Contact)](mailto:jinming.zhao@monash.edu){:target="_blank"}.  
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Thurs 20 Oct 2022, 00:00 UTC [(9am JST / 2am CEST / 8pm EST / 5pm PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20221020T000000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://youtu.be/LodPoXYsAtQ){:target="_blank"}  
+
+**Abstract:**  
+Speech translation (ST) is a task of translating speech in one language into text in a foreign language. In this talk, I will discuss three avenues for advancing ST, from the perspectives of effectiveness, efficiency and data. First, it is a common practice in ST to jointly fine-tune a pretrained speech encoder and a text decoder. Yet, this exposes a modality gap, as the two modules are pretrained on different modalities. I will describe a novel Transformer-based adapter that we designed to bridge the gap and show that this leads to better translation quality. Secondly, we propose an adapter that can be seamlessly integrated with pretrained speech encoders, which are otherwise expensive to use. The integration leads to significantly reduced computation complexity for wav2vec2, while bringing better model performance. Lastly, we introduce a simple, scalable and effective data augmentation technique to convert text to speech on-the-fly. We demonstrate that synthetic speech generated via our approach works equally well as text-to-speech-generated speech.
+
+
+**Bio:**  
+Jinming Zhao is a PhD student at Monash University in Australia, under supervision of Professor Gholamreza Haffari and Dr Ehsan Shareghi. Her research focuses on improving representation for spoken language translation, and her works have been published at top-tier Speech/NLP conferences.
+
+
 ## State of the art and current challenges of MT for sign to spoken languages
 Dr. Dimitar Shterionov, assistant professor in the Department of Cognitive Science and Artificial Intelligence at Tilburg University  
 Dr. Mirella De Sisto, postdoctoral researcher in the Department of Cognitive Science and Artificial Intelligence at Tilburg University  
@@ -63,7 +80,7 @@ Prashant is a Senior Applied Scientist in Amazon AI. His research focuses on imp
 
 
 ## Towards Augmented Speech Translation: Joint Speech Translation and Named Entity Recognition
-Marco Gaido, Ph.D. student at Fondazione Bruno Kessler (FBK), Italy
+Marco Gaido, PhD student at Fondazione Bruno Kessler (FBK), Italy
 
 **Date:**  
 <i class="fas fa-calendar-day"></i> Wed 6 April 2022, 16:00 UTC [(1am JST / 6pm CET / 12pm EST / 9am PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20220406T160000&p1=1440&p2=248&p3=5805&p4=419&p5=224)
@@ -76,7 +93,7 @@ Translation is a complex task involving different levels of understanding of the
 
 
 ## Simultaneous Speech-to-Speech Translation with Transformer-based Incremental ASR, MT, and TTS
-Katsuhito Sudoh Ph.D., Associate Professor at the Nara Institute of Science and Technology (NAIST), Japan
+Katsuhito Sudoh PhD, Associate Professor at the Nara Institute of Science and Technology (NAIST), Japan
 
 **Date:**  
 <i class="fas fa-calendar-day"></i> Tue 1 March 2022, 8:00 UTC [(5pm JST / 9am CET / 12am PCT)](https://www.timeanddate.com/worldclock/converter.html?iso=20220301T080000&p1=1440&p2=248&p3=5805&p4=224)
