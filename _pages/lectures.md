@@ -9,6 +9,22 @@ The ISCA SIGSLT lecture series is held periodically on Zoom, with recordings pos
 Zoom links are distributed through the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
 
 
+## Controllable and Explainable End-to-End Speech Translation
+Shinji Watanabe, Associate Professor at Carnegie Mellon University.
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Fri 18 Nov 2022, 16:00 UTC [(1am JST / 5pm CEST / 11am EST / 8am PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20221118T160000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://youtu.be/CMMv19ch9P0){:target="_blank"}  
+
+**Abstract:**  
+End-to-end speech translation systems have an undesirable black-box nature, often making them impractical. In this talk, we introduce several activities in our group that aim to improve the controllability and explainability of black-box neural networks. In the first part of our talk, we explain the following two techniques developed through our activities on the IWSLT'22 Dialect Speech Translation task. We present a joint CTC / attention approach that uses CTC alignment information to stabilize the length problem of autoregressive decoders, allowing translation lengths to be smoothly controlled. We then present an end-to-end approach with searchable intermediate ASR representations, which can be improved using external models to ultimately correct translation errors which resulted from incorrect ASR. Finally, we also present our latest activity to simultaneously generate ASR and ST predictions along with word-level alignments that explain how the target language translation is generated from the source language transcription.    
+
+**Bio:**  
+Shinji Watanabe is an Associate Professor at Carnegie Mellon University, Pittsburgh, PA. He received his B.S., M.S., and Ph.D. (Dr. Eng.) degrees from Waseda University, Tokyo, Japan. He was a research scientist at NTT Communication Science Laboratories, Kyoto, Japan, from 2001 to 2011, a visiting scholar at Georgia institute of technology, Atlanta, GA, in 2009, and a senior principal research scientist at Mitsubishi Electric Research Laboratories (MERL), Cambridge, MA USA from 2012 to 2017. Prior to the move to Carnegie Mellon University, he was an associate research professor at Johns Hopkins University, Baltimore, MD, USA, from 2017 to 2020. His research interests include automatic speech recognition, speech enhancement, spoken language understanding, and machine learning for speech and language processing. He has published more than 300 papers in peer-reviewed journals and conferences and received several awards, including the best paper award from the IEEE ASRU in 2019. He serves as a Senior Area Editor of the IEEE Transactions on Audio Speech and Language Processing. He was/has been a member of several technical committees, including the APSIPA Speech, Language, and Audio Technical Committee (SLA), IEEE Signal Processing Society Speech and Language Technical Committee (SLTC), and Machine Learning for Signal Processing Technical Committee (MLSP).  
+
+
 ## Speech Translation: Effectiveness, Efficiency, and Data
 Jinming Zhao, PhD student at Monash University in Australia [(Contact)](mailto:jinming.zhao@monash.edu){:target="_blank"}.  
 
