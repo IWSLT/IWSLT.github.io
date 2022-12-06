@@ -1,16 +1,16 @@
 main:
-  - title: "2022"
-    url: /2022/
+  - title: "2023"
+    url: /2023/
   - title: "Shared Tasks"
-    url: /2022/#shared-tasks
+    url: /2023/#shared-tasks
   - title: "Important Dates"
-    url: /2022/#important-dates
-  - title: "Lectures"
-    url: /lectures/    
+    url: /2023/#important-dates
   - title: "Sponsors"
     url: /sponsors/
-  - title: "SIGSLT"
-    url: /sigslt/
   - title: "Past Editions"
     url: /past-editions/
+  - title: "Lectures"
+    url: /lectures/    
+  - title: "SIGSLT"
+    url: /sigslt/
 twitter:
