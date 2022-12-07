@@ -39,14 +39,14 @@ File names for translation outputs should follow the following structure:  <br>
 e.g.,
 ```gmu.st.basic.primary.aeb-eng.txt``` for translation outputs. The language pair is indicated by ```<src>-<tgt>```. 
 
-File names for speech recognition outputs should follow the following structure:  <br>
+File names for speech recognition outputs (if applicable) should follow the following structure:  <br>
 ```<participant>.asr.<condition>.<primary/contrastive1/contrastive2>.<src>.txt``` <br>
 e.g.,
 ```gmu.asr.basic.primary.aeb.txt``` for ASR outputs.
 
+Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized). 
 The ```<condition>``` tag should be one of the following: 
-“contstrained“ or “unconstrained”. Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized). 
-
+“constrained“ or “unconstrained”. 
 If multiple outputs are submitted for one test set, one system must be explicitly marked as primary.
 We ask that the participants include a (very) short system desciption in the submission email.
 
@@ -61,10 +61,11 @@ The aeb-eng training data is the same as the one used in the IWSLT 2022 Dialecta
 Please follow the train/dev/test1 split instructions according to the aforementioned IWSLT 2022 webpage.
 
 In 2022 we had three conditions: basic, dialect adaptation, and unconstrained. 
-The basic condition in 2022 corresponds to the contrained condition in 2023; the dialect adaptation and unconstrained conditions in 2022 will be referred to as the unconstrained condition in 2023.
+The basic condition in 2022 corresponds to the "constrained" condition in 2023; the dialect adaptation and unconstrained conditions in 2022 will be referred to as the "unconstrained" condition in 2023.
 A new test set (<it>test3</it>) will be provided as part of this 2023 evaluation. 
 
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
+All datasets have been manually segmented at the utterance level.
 
 ### Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
@@ -74,11 +75,13 @@ Feel free to build upon the baseline models in ESPnet provided by <a href="https
 
 If you would like to share your baseline models here for other colleagues to use during the evaluation campaign, please contact Kevin Duh.
 
+You may also find it helpful to refer to the system description papers in 2022 from <a href="https://aclanthology.org/2022.iwslt-1.27/">CMU</a>, <a href="https://aclanthology.org/2022.iwslt-1.29/">JHU</a>, and <a href="https://aclanthology.org/2022.iwslt-1.28/">ON-TRAC</a>. 
+
 ### Submission/Evaluation
 <!-- Description of expected submission format and submission instructions -->
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 
-Please submit your files as ```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.aeb-eng.txt``` <br>
+Please submit your files as ```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.aeb-eng.txt```.
 The evaluation set will include a `segments.txt` (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way. 
 
  Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title; you will receive a confirmation of receipt within a day. 
@@ -92,7 +95,9 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 - Paul McNamee (Johns Hopkins University)
 - Kenton Murray (Johns Hopkins University)
 
-## Language-Pair
+
+## gle-eng: Irish to English
+
 ### Data
 <!-- Details description of the data and links to download -->
 
@@ -109,7 +114,8 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 
 
 
-## Language-Pair
+## mar-eng: Marathi to English 
+
 ### Data
 <!-- Details description of the data and links to download -->
 
@@ -126,7 +132,7 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 
 
 
-## Language-Pair
+## mlt-eng: Maltese to English
 ### Data
 <!-- Details description of the data and links to download -->
 
@@ -143,7 +149,8 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 
 
 
-## Language-Pair
+## pus-fra: Pashto to French 
+
 ### Data
 <!-- Details description of the data and links to download -->
 
@@ -159,8 +166,8 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 <!-- List of organizers' names and affiliations -->
 
 
+## tmh-fra: Tamasheq to French
 
-## Language-Pair
 ### Data
 <!-- Details description of the data and links to download -->
 
@@ -174,10 +181,27 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 
 ### Organizers
 <!-- List of organizers' names and affiliations -->
+
+
+## yum-spa: Quechua to Spanish 
+
+### Data
+<!-- Details description of the data and links to download -->
+
+### Baselines
+<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+
+
+### Submission/Evaluation
+<!-- Description of expected submission format and submission instructions -->
+<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
+### Organizers
+<!-- List of organizers' names and affiliations -->
+
 
 
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair:   
-Discussion: <iwslt-evaluation-campaign@googlegroups.com>
+Although each language-pair is managed by different organizers, please use this common forum for all questions and comments: <iwslt-evaluation-campaign@googlegroups.com>
