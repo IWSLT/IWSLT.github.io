@@ -27,30 +27,144 @@ Participants are free to participate in any number of language-pairs in this tra
 We encourage both dedicated systems that are designed to a single language-pair, as well as general recipes aimed at improving speech translation broadly for a wide typology of languages. 
 
 
-## Data
+## General Information for All Language-Pairs
 
-Data will be released in January.
+The submission format will be standardized across all language-pairs.
+Participants can submit systems under two conditions:
+* Constrained condition: systems are trained only on the dataset provided by the organizers
+* Unconstrained condition: systems can be trained with any resource, including pre-trained models. 
 
+File names for translation outputs should follow the following structure:  <br>
+```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<src>-<tgt>.txt``` <br>
+e.g.,
+```gmu.st.basic.primary.aeb-eng.txt``` for translation outputs. The language pair is indicated by ```<src>-<tgt>```. 
+
+File names for speech recognition outputs should follow the following structure:  <br>
+```<participant>.asr.<condition>.<primary/contrastive1/contrastive2>.<src>.txt``` <br>
+e.g.,
+```gmu.asr.basic.primary.aeb.txt``` for ASR outputs.
+
+The ```<condition>``` tag should be one of the following: 
+“contstrained“ or “unconstrained”. Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized). 
+
+Information about data and baselines are provided in each section specific to the language-pair. 
+
+## aeb-eng: Tunisian Arabic to English 
+
+### Data
 <!-- Details description of the data and links to download -->
 
-
-## Baselines
-
+### Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
 
-## Submission
-
+### Submission
 <!-- Description of expected submission format and submission instructions -->
 
 
-## Evaluation
-
+### Evaluation
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 
+### Organizers
+<!-- List of organizers' names and affiliations -->
 
-## Organizers
 
+## Language-Pair
+### Data
+<!-- Details description of the data and links to download -->
+
+### Baselines
+<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+
+
+### Submission
+<!-- Description of expected submission format and submission instructions -->
+
+
+### Evaluation
+<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
+### Organizers
+<!-- List of organizers' names and affiliations -->
+
+
+
+## Language-Pair
+### Data
+<!-- Details description of the data and links to download -->
+
+### Baselines
+<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+
+
+### Submission
+<!-- Description of expected submission format and submission instructions -->
+
+
+### Evaluation
+<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
+### Organizers
+<!-- List of organizers' names and affiliations -->
+
+
+
+## Language-Pair
+### Data
+<!-- Details description of the data and links to download -->
+
+### Baselines
+<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+
+
+### Submission
+<!-- Description of expected submission format and submission instructions -->
+
+
+### Evaluation
+<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
+### Organizers
+<!-- List of organizers' names and affiliations -->
+
+
+
+## Language-Pair
+### Data
+<!-- Details description of the data and links to download -->
+
+### Baselines
+<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+
+
+### Submission
+<!-- Description of expected submission format and submission instructions -->
+
+
+### Evaluation
+<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
+### Organizers
+<!-- List of organizers' names and affiliations -->
+
+
+
+## Language-Pair
+### Data
+<!-- Details description of the data and links to download -->
+
+### Baselines
+<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+
+
+### Submission
+<!-- Description of expected submission format and submission instructions -->
+
+
+### Evaluation
+<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
+### Organizers
 <!-- List of organizers' names and affiliations -->
 
 
