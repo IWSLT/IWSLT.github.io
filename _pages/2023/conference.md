@@ -30,6 +30,8 @@ The **IWSLT 2023 Evaluation Campaign** will host shared tasks featuring the foll
   - [Dubbing track](/2023/dubbing)  (Prashant Mathur, Brian Thompson, AWS AI Labs, USA)
 - **Dialectal and Low-resource speech translation:**
   - [Dialectal and low-resource tracks](/2023/low-resource) (Multi-organizer collaboration)
+- **Formality control for SLT:**
+  - [Formality track](/2023/formality) (Benjamin Hsu, AWS AI Labs; Marine Carpuat, UMD)
 
 <!-- this is a comment -->
 
