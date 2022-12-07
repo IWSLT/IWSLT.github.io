@@ -13,9 +13,18 @@ if you want to have a line break either put a blank line in between the text or 
 
 ## Description
 
-Details coming soon!
-
 <!-- Description the task, the languages, and the type of data -->
+
+The goal of this shared task is to benchmark and promote speech translation technology for a diverse range of dialects and low-resource languages.
+While significant research progress has been demonstrated recently on popular datasets, many of the world's dialects and low-resource languages lack the parallel data at scale needed for standard supervised learning.
+We will likely require creative approaches in leveraging disparate resources.
+
+For example, to translate dialectal speech such as Tunisian Arabic, one may leverage existing speech and text resources in Modern Standard Arabic. 
+Or, to translate a low-resource language such as Tamasheq, one may need to leverage word-level translation resources and raw audio. 
+
+We will provide training and evaluation data for a range of language-pairs. 
+Participants are free to participate in any number of language-pairs in this track. 
+We encourage both dedicated systems that are designed to a single language-pair, as well as general recipes aimed at improving speech translation broadly for a wide typology of languages. 
 
 
 ## Data
