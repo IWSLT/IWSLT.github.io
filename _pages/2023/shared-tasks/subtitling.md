@@ -13,7 +13,7 @@ if you want to have a line break either put a blank line in between the text or 
 
 ## Description
 
-Details coming soon!
+Details coming very soon!
 
 <!-- Description the task, the languages, and the type of data -->
 
