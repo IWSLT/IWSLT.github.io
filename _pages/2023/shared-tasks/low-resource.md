@@ -150,12 +150,23 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 
 
 ## pus-fra: Pashto to French 
+Pashto is spoken by approximately forty to sixty million people in the world. It is particularly spoken by the Pashtun people in the south, east and southwest of the country, as well as in the north and northwest Pakistan but also in Iran, Tajikistan and India (Uttar Pradesh and Cashmere) and one of the two official languages of Afghanistan.
 
 ### Data
 <!-- Details description of the data and links to download -->
+This corpus is a collection of 103 hours of Broadcast News with transcriptions in Pashto and translations in French text.
 
-### Baselines
+Participants can build systems for evaluation in any of these conditions:
+
+*Basic condition:* train on Pashto-to-French distributed dataset only.
+*Constrained condition:* participants may use only public resources for Pashto and French. Multilingual models beyond Pashto and French are allowed.
+
+### Obtaining data
+IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELRA. Please sign this form and email it to mapelli@elda.org.
+
+### Baseline Models
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+Here are the recipes for the basic conditions. Baseline models are also available with Pashto-to-French dataset.
 
 
 ### Submission/Evaluation
@@ -164,7 +175,8 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 
 ### Organizers
 <!-- List of organizers' names and affiliations -->
-
+Souhir Gahbiche (Airbus, France)
+Khalid Choukri (ELRA, France)
 
 ## tmh-fra: Tamasheq to French
 
