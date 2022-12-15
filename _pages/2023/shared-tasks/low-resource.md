@@ -158,8 +158,8 @@ This corpus is a collection of 103 hours of Broadcast News with transcriptions i
 
 Participants can build systems for evaluation in any of these conditions:
 
-- **Basic condition:** train on Pashto-to-French distributed dataset only.
-- **Constrained condition:** participants may use **only** public resources for Pashto and French. Multilingual models beyond Pashto and French are allowed.
+- **Constrained condition:** systems are trained only on the dataset provided by the organizers.
+- **Unconstrained condition:** participants may use any **public** resources for Pashto and French. Multilingual models beyond Pashto and French are allowed.
 
 ### Obtaining data
 IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELRA. Please sign this form and email it to mapelli@elda.org.
