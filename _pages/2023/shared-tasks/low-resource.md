@@ -162,7 +162,7 @@ Participants can build systems for evaluation in any of these conditions:
 - **Unconstrained condition:** participants may use any **public** resources for Pashto and French. Multilingual models beyond Pashto and French are allowed.
 
 ### Obtaining data
-IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELRA. Please sign this form and email it to mapelli@elda.org.
+IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELDA. Please sign this form and email it to mapelli@elda.org.
 
 ### Baseline Models
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
@@ -176,7 +176,7 @@ Here are the recipes for the basic conditions. Baseline models are also availabl
 ### Organizers
 <!-- List of organizers' names and affiliations -->
 - Souhir Gahbiche (Airbus, France)
-- Khalid Choukri (ELRA, France)
+- Khalid Choukri (ELDA, France)
 
 ## tmh-fra: Tamasheq to French
 
