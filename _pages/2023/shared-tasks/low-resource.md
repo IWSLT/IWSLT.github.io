@@ -50,8 +50,7 @@ The ```<condition>``` tag should be one of the following:
 If multiple outputs are submitted for one test set, one system must be explicitly marked as primary.
 We ask that the participants include a (very) short system desciption in the submission email.
 
-Information about data and baselines are provided in each section specific to the language-pair. 
-
+Information about data and baselines are provided in the sections specific to each language pair. 
 
 ## Data
 
@@ -96,11 +95,11 @@ to be released shortly
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
 Feel free to build upon the baseline models in ESPnet provided by <a href="https://shinjiwlab.github.io">CMU WAVLab</a>. Here are the recipes for the basic condition: <a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/asr1/RESULTS.md">ASR model</a> and
-<a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/st1/RESULTS.md">ST model</a>. The models are also downloadable from Huggingface.
+<a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/st1/RESULTS.md">ST model</a>. The models (for some language pairs) are also downloadable from Huggingface.
 
-If you would like to share your baseline models here for other colleagues to use during the evaluation campaign, please contact Kevin Duh.
+If you would like to share your baseline models here for other colleagues to use during the evaluation campaign, please contact the organizers.
 
-You may also find it helpful to refer to the system description papers in 2022 from <a href="https://aclanthology.org/2022.iwslt-1.27/">CMU</a>, <a href="https://aclanthology.org/2022.iwslt-1.29/">JHU</a>, and <a href="https://aclanthology.org/2022.iwslt-1.28/">ON-TRAC</a>. 
+You may also find it helpful to refer to the system description papers in 2022 from <a href="https://aclanthology.org/2022.iwslt-1.27/">CMU</a>, <a href="https://aclanthology.org/2022.iwslt-1.29/">JHU</a>, and <a href="https://aclanthology.org/2022.iwslt-1.28/">ON-TRAC</a>, or the <a href="https://aclanthology.org/2022.iwslt-1.10v2.pdf">2022 findings paper</a>.
 
 ## Conditions
 Across all tasks, participants can build systems for evaluation in any of these conditions:
@@ -127,22 +126,28 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 - Kevin Duh Johns Hopkins University
 - Paul McNamee Johns Hopkins University
 - Kenton Murray Johns Hopkins University
+
 <strong> pus-fra, tmh-fra:</strong>
 - Souhir Gahbiche (Airbus, France)
 - Khalid Choukri (ELDA, France)
+
 <strong>mlt-eng:</strong>
 - Claudia Borg, University of Malta
 - Thierry Declerck, DFKI
 - Rishu Kumar, CUNI
 - Lonneke van der Plas, IDIAP
+
 <strong>yum-spa:</strong>
 - John Ortega
 - Rodolfo Zevallos, UPF
+
 <strong>mar-eng:</strong>
 - Atul K. Ojha
 - 
+
 <strong> overview</strong>
 - Antonios Anastasopoulos, George Mason University
+
 
 ## Contact
 
