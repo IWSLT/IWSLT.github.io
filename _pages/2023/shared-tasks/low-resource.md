@@ -123,13 +123,14 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 <!-- List of organizers' names and affiliations -->
 
 <strong> aeb-eng: </strong>
-- Kevin Duh Johns Hopkins University
-- Paul McNamee Johns Hopkins University
-- Kenton Murray Johns Hopkins University
+- Kevin Duh, Johns Hopkins University
+- Paul McNamee, Johns Hopkins University
+- Kenton Murray, Johns Hopkins University
 
 <strong> pus-fra, tmh-fra:</strong>
 - Souhir Gahbiche (Airbus, France)
 - Khalid Choukri (ELDA, France)
+- Yannick Estève, University of Avignon
 
 <strong>mlt-eng:</strong>
 - Claudia Borg, University of Malta
@@ -141,15 +142,19 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 - John Ortega
 - Rodolfo Zevallos, UPF
 
-<strong>mar-eng:</strong>
-- Atul K. Ojha
-- 
+<strong>mar-eng, gle-eng:</strong>
+- Atul K. Ojha, Insight Centre
+- John McCrae, Insight Centre
+- John Judge, ADAPT Centre 
 
 <strong> overview</strong>
 - Antonios Anastasopoulos, George Mason University
+- Milind Agarwal, George Mason University
 
 
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Although each language-pair is managed by different organizers, please use this common forum for all questions and comments: <iwslt-evaluation-campaign@googlegroups.com>
+Although each language-pair is managed by different organizers, please use this common forum for all questions and comments: <iwslt-evaluation-campaign@googlegroups.com> <br>
+
+Please use "Dialectal" and/or "Low-Resource" in your email subject to make it easy for the organizers to monitor the forum.
