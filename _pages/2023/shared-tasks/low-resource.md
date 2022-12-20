@@ -44,7 +44,7 @@ File names for speech recognition outputs (if applicable) should follow the foll
 e.g.,
 ```gmu.asr.basic.primary.aeb.txt``` for ASR outputs.
 
-Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized). 
+Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized and cased appropriately). 
 The ```<condition>``` tag should be one of the following: 
 “constrained“ or “unconstrained”. 
 If multiple outputs are submitted for one test set, one system must be explicitly marked as primary.
@@ -52,9 +52,10 @@ We ask that the participants include a (very) short system desciption in the sub
 
 Information about data and baselines are provided in each section specific to the language-pair. 
 
-## aeb-eng: Tunisian Arabic to English 
 
-### Data
+## Data
+
+### aeb-eng: Tunisian Arabic to English 
 <!-- Details description of the data and links to download -->
 
 The aeb-eng training data is the same as the one used in the IWSLT 2022 Dialectal Speech Translation track in the previous year: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>. 
@@ -67,7 +68,31 @@ A new test set (<it>test3</it>) will be provided as part of this 2023 evaluation
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
 All datasets have been manually segmented at the utterance level.
 
-### Baselines
+### gle-eng: Irish to English
+to be released shortly
+
+### mar-eng: Marathi to English 
+to be released shortly
+
+### mlt-eng: Maltese to English
+to be released shortly
+
+### pus-fra: Pashto to French 
+Pashto is spoken by approximately forty to sixty million people in the world. It is particularly spoken by the Pashtun people in the south, east and southwest of the country, as well as in the north and northwest Pakistan but also in Iran, Tajikistan and India (Uttar Pradesh and Cashmere) and one of the two official languages of Afghanistan.
+
+<!-- Details description of the data and links to download -->
+This corpus is a collection of 103 hours of Broadcast News with transcriptions in Pashto and translations in French text.
+
+<strong>Obtaining data</strong>
+IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELDA. Please sign <a href="#">this form</a> and email it to mapelli@elda.org.
+
+### tmh-fra: Tamasheq to French
+to be released shortly
+
+### yum-spa: Quechua to Spanish 
+to be released shortly
+
+## Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
 Feel free to build upon the baseline models in ESPnet provided by <a href="https://shinjiwlab.github.io">CMU WAVLab</a>. Here are the recipes for the basic condition: <a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/asr1/RESULTS.md">ASR model</a> and
@@ -77,141 +102,47 @@ If you would like to share your baseline models here for other colleagues to use
 
 You may also find it helpful to refer to the system description papers in 2022 from <a href="https://aclanthology.org/2022.iwslt-1.27/">CMU</a>, <a href="https://aclanthology.org/2022.iwslt-1.29/">JHU</a>, and <a href="https://aclanthology.org/2022.iwslt-1.28/">ON-TRAC</a>. 
 
-### Submission/Evaluation
+## Conditions
+Across all tasks, participants can build systems for evaluation in any of these conditions:
+
+- **Constrained condition:** systems are trained only on the datasets provided by the organizers.
+- **Unconstrained condition:** participants may use any **public** resources for the shared task languages (or other languages). Multilingual models are allowed.
+
+
+## Submission/Evaluation
 <!-- Description of expected submission format and submission instructions -->
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 
-Please submit your files as ```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.aeb-eng.txt```.
+Please submit your files as ```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<source>-<target>.txt```.
 The evaluation set will include a `segments.txt` (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way. 
 
- Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title; you will receive a confirmation of receipt within a day. 
+Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title; you will receive a confirmation of receipt within a day. 
 
 The official BLEU score will use lower-case and no punctuation, following the "norm" files in the setup [instructions](https://github.com/kevinduh/iwslt22-dialect). 
 
-### Organizers
+## Organizers
 <!-- List of organizers' names and affiliations -->
 
-- Kevin Duh (Johns Hopkins University)
-- Paul McNamee (Johns Hopkins University)
-- Kenton Murray (Johns Hopkins University)
-
-
-## gle-eng: Irish to English
-
-### Data
-<!-- Details description of the data and links to download -->
-
-### Baselines
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
-
-### Submission/Evaluation
-<!-- Description of expected submission format and submission instructions -->
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-
-### Organizers
-<!-- List of organizers' names and affiliations -->
-
-
-
-## mar-eng: Marathi to English 
-
-### Data
-<!-- Details description of the data and links to download -->
-
-### Baselines
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
-
-### Submission/Evaluation
-<!-- Description of expected submission format and submission instructions -->
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-
-### Organizers
-<!-- List of organizers' names and affiliations -->
-
-
-
-## mlt-eng: Maltese to English
-### Data
-<!-- Details description of the data and links to download -->
-
-### Baselines
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
-
-### Submission/Evaluation
-<!-- Description of expected submission format and submission instructions -->
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-
-### Organizers
-<!-- List of organizers' names and affiliations -->
-
-
-
-## pus-fra: Pashto to French 
-Pashto is spoken by approximately forty to sixty million people in the world. It is particularly spoken by the Pashtun people in the south, east and southwest of the country, as well as in the north and northwest Pakistan but also in Iran, Tajikistan and India (Uttar Pradesh and Cashmere) and one of the two official languages of Afghanistan.
-
-### Data
-<!-- Details description of the data and links to download -->
-This corpus is a collection of 103 hours of Broadcast News with transcriptions in Pashto and translations in French text.
-
-Participants can build systems for evaluation in any of these conditions:
-
-- **Constrained condition:** systems are trained only on the dataset provided by the organizers.
-- **Unconstrained condition:** participants may use any **public** resources for Pashto and French. Multilingual models beyond Pashto and French are allowed.
-
-### Obtaining data
-IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELDA. Please sign this form and email it to mapelli@elda.org.
-
-### Baseline Models
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-Here are the recipes for the basic conditions. Baseline models are also available with Pashto-to-French dataset.
-
-
-### Submission/Evaluation
-<!-- Description of expected submission format and submission instructions -->
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-
-### Organizers
-<!-- List of organizers' names and affiliations -->
+<strong> aeb-eng: </strong>
+- Kevin Duh Johns Hopkins University
+- Paul McNamee Johns Hopkins University
+- Kenton Murray Johns Hopkins University
+<strong> pus-fra, tmh-fra:</strong>
 - Souhir Gahbiche (Airbus, France)
 - Khalid Choukri (ELDA, France)
-
-## tmh-fra: Tamasheq to French
-
-### Data
-<!-- Details description of the data and links to download -->
-
-### Baselines
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
-
-### Submission/Evaluation
-<!-- Description of expected submission format and submission instructions -->
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-
-### Organizers
-<!-- List of organizers' names and affiliations -->
-
-
-## yum-spa: Quechua to Spanish 
-
-### Data
-<!-- Details description of the data and links to download -->
-
-### Baselines
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
-
-### Submission/Evaluation
-<!-- Description of expected submission format and submission instructions -->
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-
-### Organizers
-<!-- List of organizers' names and affiliations -->
-
-
+<strong>mlt-eng:</strong>
+- Claudia Borg, University of Malta
+- Thierry Declerck, DFKI
+- Rishu Kumar, CUNI
+- Lonneke van der Plas, IDIAP
+<strong>yum-spa:</strong>
+- John Ortega
+- Rodolfo Zevallos, UPF
+<strong>mar-eng:</strong>
+- Atul K. Ojha
+- 
+<strong> overview</strong>
+- Antonios Anastasopoulos, George Mason University
 
 ## Contact
 
