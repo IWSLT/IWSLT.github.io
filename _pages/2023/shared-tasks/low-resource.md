@@ -139,7 +139,7 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 - Lonneke van der Plas, IDIAP
 
 <strong>yum-spa:</strong>
-- John Ortega
+- John E. Ortega, Northeastern University 
 - Rodolfo Zevallos, UPF
 
 <strong>mar-eng, gle-eng:</strong>
