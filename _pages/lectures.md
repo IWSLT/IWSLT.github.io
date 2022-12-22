@@ -9,6 +9,22 @@ The ISCA SIGSLT lecture series is held periodically on Zoom, with recordings pos
 Zoom links are distributed through the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
 
 
+## Learning shared representations for translation in low-resource conditions
+Danni Liu, PhD student at Karlsruhe Institute of Technology in Germany.
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Wed 21 Dec 2022, 08:00 UTC [(5pm JST / 9am CEST / 3am EST / 12am PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20221221T080000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://youtu.be/CMMv19ch9P0){:target="_blank"}  
+
+**Abstract:**  
+Speech translation (ST) approaches generally fall under the cascaded or end-to-end regime. While each regime has its own pros and cons, a common challenge to both is low-resource conditions. In the first part of the presentation, we focus on the machine translation (MT) component of cascaded systems. While MT data is often more abundant than direct ST data, low-resource conditions still occur especially when scaling up language coverage. In this context, we present our efforts in encouraging language-independent representations to improve zero-shot translation performance. In the second part, we focus on the data scarcity challenge in end-to-end ST systems. We aim to utilize the often-more-abundant text-to-text machine translation data to improve end-to-end ST performance. By a unified encoder for speech and text, we enforce similarity of the encoded speech and text, and analyze its impact on ST quality in low-resource conditions.    
+
+**Bio:**  
+Danni Liu is a PhD student at Karlsruhe Institute of Technology in Germany. She mainly works on multilingual machine translation. A main question she is interested in is how to learn common representations across different languages or modalities.  
+
+
 ## Controllable and Explainable End-to-End Speech Translation
 Shinji Watanabe, Associate Professor at Carnegie Mellon University.
 
