@@ -138,9 +138,10 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 - Rishu Kumar, CUNI
 - Lonneke van der Plas, IDIAP
 
-<strong>yum-spa:</strong>
+<strong>que-spa:</strong>
 - John E. Ortega, Northeastern University 
-- Rodolfo Zevallos, UPF
+- Rodolfo Zevallos, Universitat Pompeu Fabra
+- William Chen, Carnegie Mellon University
 
 <strong>mar-eng, gle-eng:</strong>
 - Atul K. Ojha, Insight Centre
