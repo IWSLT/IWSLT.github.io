@@ -67,11 +67,15 @@ A new test set (<it>test3</it>) will be provided as part of this 2023 evaluation
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
 All datasets have been manually segmented at the utterance level.
 
-### gle-eng: Irish to English
-to be released shortly
+### ga-en: Irish to English
+Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO *ga* code.
 
-### mar-eng: Marathi to English 
-to be released shortly
+IWSLT participants may obtain the Irish-English speech translation data from <a href="#">here</a>. This corpus consists of 20 hours of audio speech data and translations into English text.
+
+### mr-hi: Marathi to Hindi 
+Marathi is an Indo-Aryan language which has the ISO code *mr*, and is dominantly spoken in India’s Maharashtra state. It is one of the 22 scheduled languages of India and the official language of Maharashtra and Goa. As per the 2011 Census of India, it has around 83 million speakers which covers 6.86% of the country's total population. Marathi speakers rank third amongst the languages that are spoken in India.
+
+IWSLT participants may obtain the Marathi-Hindi speech translation data without any cost. Please sign <a href="#"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 32 hours of audio speech data from the news domain and translations into Hindi text.
 
 ### mlt-eng: Maltese to English
 to be released shortly
@@ -143,10 +147,10 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 - Rodolfo Zevallos, Universitat Pompeu Fabra
 - William Chen, Carnegie Mellon University
 
-<strong>mar-eng, gle-eng:</strong>
-- Atul K. Ojha, Insight Centre
-- John McCrae, Insight Centre
-- John Judge, ADAPT Centre 
+<strong>mr-hi, ga-eng:</strong>
+- Atul Kr. Ojha, University of Galway and Panlingua Language Processing LLP
+- John McCrae, University of Galway
+- John Judge, Dublin City University
 
 <strong> overview</strong>
 - Antonios Anastasopoulos, George Mason University
