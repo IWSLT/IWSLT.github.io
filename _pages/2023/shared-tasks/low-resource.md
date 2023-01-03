@@ -67,7 +67,7 @@ A new test set (<it>test3</it>) will be provided as part of this 2023 evaluation
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
 All datasets have been manually segmented at the utterance level.
 
-### ga-en: Irish to English
+### ga-eng: Irish to English
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO *ga* code.
 
 IWSLT participants may obtain the Irish-English speech translation data from <a href="#">here</a>. This corpus consists of 20 hours of audio speech data and translations into English text.
