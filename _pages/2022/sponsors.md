@@ -1,26 +1,54 @@
 ---
-permalink: /2022/sponsors
-title: "Sponsorships and Donations"
+permalink: /2022/sponsors/
+title: ""
+classes: wide
 ---
+<!--- We are very grateful to our sponsors and donors who have facilitated the IWSLT conference and participation in shared tasks. --->
+*If your organization would like to sponsor or donate to IWSLT, please see our [sponsorship information](/2022/sponsor_info).* 
 
-IWSLT welcomes sponsorships and donations of compute credits to support human evaluations, data collections and participating students. 
-Sponsorships will be collected through the Association for Computational Linguistics.
+# Sponsors & Donors
 
-IWSLT 2022 offers 5 tiers of sponsorships: 
+### Diamond
 
-- Diamond Sponsor: $10,000 
-- Platinum Sponsor: $5,000 
-- Gold Sponsor:     $3,000 
-- Silver Sponsor:   $2,000 
-- Bronze Sponsor:   $1,000  
+<div class="card">
+<a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
+</div>     
 
-IWSLT 2022 ackwnowledges 5 tiers of donations of compute credits: 
+<div class="card">
+<a href="https://amazon.science/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/AWS_logo_RGB.png" alt="AWS" style="width:60%"/></a>
+</div>  
 
-- Diamond Donor:  $20,000 and up 
-- Platinum Donor: $10,000 and up
-- Gold Donor:     $5,000 and up
-- Bronze Donor:   below $5,000 
+<div class="card">
+<a href="https://ai.facebook.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/Meta_lockup_positive_primary_RGB.jpg" alt="Meta" style="width:90%"/></a>
+</div>     
 
-Sponsorships and donations will be recognized in the website, during the conference and in the conference proceedings. 
+<div class="card">
+<a href="https://zoom.us"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/zoom.png" alt="Zoom" style="width:75%"/></a>
+</div>     
+
+
+### Platinum
+
+<div class="card">
+<a href="https://www.microsoft.com/en-us/research/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/Microsoft-logo_cmyk_c-gray.png" alt="Microsoft" style="width:90%"/></a>
+</div>     
+
+### Bronze
+
+<div class="card">
+<a href="http://www.apptek.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek.png" alt="AppTek" style="width:75%"/></a>
+</div>     
+
+<!--  unused tiers are commented
+### Platinum
+
+
+### Gold
+
+
+### Silver
+
+
+-->
 
 

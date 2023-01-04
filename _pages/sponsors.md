@@ -3,8 +3,10 @@ permalink: /sponsors/
 title: ""
 classes: wide
 ---
-<!--- We are very grateful to our sponsors and donors who have facilitated the IWSLT conference and participation in shared tasks. --->
-*If your organization would like to sponsor or donate to IWSLT, please see our [sponsorship information](/2022/sponsors).* 
+
+*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2023/sponsor_info).* 
+
+<!-- Commented until finalized for 2023 
 
 # Sponsors & Donors
 
@@ -38,15 +40,6 @@ classes: wide
 <div class="card">
 <a href="http://www.apptek.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek.png" alt="AppTek" style="width:75%"/></a>
 </div>     
-
-<!--  unused tiers are commented
-### Platinum
-
-
-### Gold
-
-
-### Silver
 
 
 -->
