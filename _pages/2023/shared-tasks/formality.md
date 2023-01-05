@@ -25,7 +25,7 @@ Last year’s result confirmed that zero-shot settings and languages with many g
 ## Data
 
 ### Accessing the data
-The annotatated train data is now available for download under the CDLA-Sharing-1.0 License at this location: [amazon-science/IWSLT2023](https://github.com/amazon-science/contrastive-controlled-mt/tree/main/IWSLT2023). 
+The annotatated formality training data is now available for download under the CDLA-Sharing-1.0 License at this location: [amazon-science/IWSLT2023](https://github.com/amazon-science/contrastive-controlled-mt/tree/main/IWSLT2023). 
 
 ### Language pairs
 
