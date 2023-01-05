@@ -24,9 +24,48 @@ Last year’s result confirmed that zero-shot settings and languages with many g
 
 ## Data
 
-Data will be released in January.
+### Accessing the data
+The annotatated train data is now available for download under the CDLA-Sharing-1.0 License at this location: [amazon-science/IWSLT2023](https://github.com/amazon-science/contrastive-controlled-mt/tree/main/IWSLT2023) . 
 
-<!-- Details description of the data and links to download -->
+### Language pairs
+
+For the formality control task, we propose **supervised** and **zero-shot** settings focusing on text-to-text translation of spoken language.
+
+The following language pairs will be evaluated in the supervised setting (formality-annotated training data and test data will be released):
+
+1. English → Korean (EN-KO)
+2. English → Vietnamese (EN-VI)
+
+In addition, we will release test data **only** for the following language pairs in the zero-shot setting:
+
+1. English → Portugal Portuguese (EN-PT)
+2. English → Russian (EN-RU)
+
+### Formality-annotated data
+
+As part of this special task, we will **release novel targeted train and test sets** comprising of source segments paired with two contrastive reference translations, one for each formality level (informal and formal). Formality distinctions are expressed by the use of grammatical register or honorific language. Table 1 gives examples of annotated contrastive translations from the dataset and Table 2 reports the number of source segments used for training and evaluation.
+
+**Table 1** Contrastive reference translations with different formality levels. Phrase-level formality markers in the target languages are annotated with [F]text[/F].
+
+|Language	|	|Text	|
+|---	|---	|---	|
+|KO	|Source	|Yeah Did your mom know you were throwing the party?	|
+|	|Informal	|그, 어머님은 **[F]네가[/F]** 그 파티 연 거 **[F]아셔[/F]**?|
+|	|Formal	|그, 어머님은 **[F]님이[/F]** 그 파티 연 거 **[F]아세요[/F]**?|
+|VI |Source	|Is the sun blocking your internet signal tonight?|
+|	|Informal |Tối nay mặt trời có chặn tín hiệu internet của **[F]bạn[/F]** không? |
+|	|Formal	|Tối nay mặt trời có chặn tín hiệu internet của **[F]quý vị[/F]** không **[F]ạ[/F]**?|
+
+**Table 2**. Number of source segments in the released dataset.
+
+|setting	|language pair	|train	|test		|
+|---	|---	|---	|---		|
+|supervised	|EN-KO	|400	|600		|
+|supervised	|EN-VI	|400	|600		|
+|zero-shot	|EN-PT	|0	|600		|
+|zero-shot	|EN-RU	  |0	|600		|
+
+This special task will offer two training scenarios: **supervised** and **zero-shot**. For the **supervised** training scenario, participants can use the labeled training set for training and development. For the **zero-shot** task, we will release only test data.
 
 
 ## Baselines
