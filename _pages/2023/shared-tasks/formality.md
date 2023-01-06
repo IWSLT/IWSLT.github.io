@@ -127,5 +127,5 @@ Details on the deciding criteria for the overall ranking of the submitted system
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chairs: Benjamin Hsu, AWS AI Labs and Marine Carpuat, UMD
+Chairs: Benjamin Hsu, AWS AI Labs and Marine Carpuat, UMD <br>
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
