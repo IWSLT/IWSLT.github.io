@@ -45,7 +45,7 @@ In this task, we use the following definition of end-to-end model:
 
 ## Test Data
 
-Data will be released in January.
+Data will be released in January.{: .notice--info}
 
 <!-- Details description of the data and links to download -->
 
@@ -76,6 +76,9 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
 
 
 ## Allowed Training Data
+
+More information will be released in January.
+{: .notice--info}
 
 ## Submission Guidelines
 
