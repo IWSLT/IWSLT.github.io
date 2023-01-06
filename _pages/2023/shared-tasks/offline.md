@@ -45,7 +45,7 @@ In this task, we use the following definition of end-to-end model:
 
 ## Test Data
 
-Data will be released in January.
+More information about the test data will be released in January.
 {: .notice--info}
 
 <!-- Details description of the data and links to download -->
