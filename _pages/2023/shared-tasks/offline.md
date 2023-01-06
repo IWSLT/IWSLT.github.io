@@ -117,7 +117,7 @@ The email should include the following information:
 
 ## Contacts 
 
-Chairs: Marco Turchi (Marco Turchi, Zoom, Germany, Matteo Negri, FBK, Italy)). 
+Chairs: Marco Turchi (Matteo Negri, FBK, Italy and Marco Turchi, Zoom, Germany). 
 
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
