@@ -17,9 +17,9 @@ Recent advances in deep learning are giving the possibility to address tradition
 
 The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. The last editions' results have confirmed that the performance of end-to-end models is approaching the results of cascade solutions, however, without identifying the best-performing technology. Moreover, all the recent evaluations have been based on test sets extracted from TED talks. In this controlled scenario, a single speaker acts out a prepared speech without background noise and interaction with other speakers.
 
-<-- To raise the bar and to test current spoken language translation technologies in different conditions, test sets of different complexity are proposed this -->
+<!-- To raise the bar and to test current spoken language translation technologies in different conditions, test sets of different complexity are proposed this -->
 
-<-- Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?**  -->
+<!-- Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?**  -->
 
 In addition to answering the question **if the cascade solution is still the dominant technology**, this year we will address an additional research question in the evaluation:
 * **Is the current spoken language translation technology able to deal with more complex scenarios (e.g. spontaneous speech, terminology, and dialogues)?** In addition to the classic TED talk test set from English into German, the task introduces two more test sets that face more challenging scenarios:
@@ -45,7 +45,8 @@ In this task, we use the following definition of end-to-end model:
 
 ## Test Data
 
-Data will be released in January.{: .notice--info}
+Data will be released in January.
+{: .notice--info}
 
 <!-- Details description of the data and links to download -->
 
