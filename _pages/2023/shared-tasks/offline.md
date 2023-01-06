@@ -121,8 +121,8 @@ Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
 ## Organizers
 
-Sebastian Stüker (KIT, Germany)  
-Jan Niehues (Maastricht University, Netherlands)  
+Sebastian Stüker (Zoom, Germany)  
+Jan Niehues (KIT, Germany)  
 Roldano Cattoni (FBK, Italy) 
 
 
