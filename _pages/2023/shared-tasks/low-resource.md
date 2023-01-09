@@ -88,8 +88,7 @@ This corpus is a collection of 103 hours of Broadcast News with transcriptions i
 
 <strong>Obtaining data</strong>
 IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELDA. Please sign <a href="
-shared-tasks
-/EVALUATION_IWSLT2023_withoutExhibit-v3.docx">this form</a> and email it to mapelli@elda.org.
+shared-tasks/EVALUATION_IWSLT2023_withoutExhibit-v3.docx">this form</a> and email it to mapelli@elda.org.
 
 ### tmh-fra: Tamasheq to French
 to be released shortly
