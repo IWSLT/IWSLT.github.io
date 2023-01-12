@@ -38,9 +38,40 @@ Data will be released in January.
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
 
-## Submission
+## Submission Guidelines
 
 <!-- Description of expected submission format and submission instructions -->
+
+* Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) will be used as the PRIMARY run
+* Submissions have to be submitted as a gzipped TAR archive (see format below) and sent as an email attachment to TBD
+* Each run has to be stored in an SRT (SubRip File Format)
+* Scoring will be case-sensitive and will include the punctuation
+* TAR archive file structure:
+
+< UserID >/< Set >.< LangDir >.< UserID >.primary.srt
+  /< Set >.< LangDir >.< UserID >.contrastive1.srt
+  /< Set >.< LangDir >.< UserID >.contrastive2.srt  
+  /...  
+
+where:
+
+< UserID > = user ID of participant; use the short name chosen in the registration form (e.g. the name of your institution)
+< Set > = IWSLT23.Subtitling.< Domain >tst
+< Domain > = one of {EPTV,TED,Peloton,ITV}
+< LangDir > = en-de/es (ISO 639-1 two-letter codes of languages)
+
+For example, FBK/IWSLT23.Subtitling.TEDtst.en-de.FBK.primary.srt
+
+All the submissions must be sent to this address: TBD
+
+The email should include the following information:
+
+* Institute/company:
+* Contact Person:
+* Email:
+* Data condition: Constrained/Unconstrained
+* Brief abstract about the system:
+* Do you want to make your submissions freely available for research purposes? (yes/no)
 
 
 ## Automatic Evaluation
@@ -52,9 +83,9 @@ Data will be released in January.
   * Sigma ([paper](https://aclanthology.org/2022.lrec-1.328.pdf), [code](https://github.com/fyvo/EvalSubtitle))
 
 * Translation quality vs. reference translations:
-  * BLEU, CHRF (via [sacrebleu](https://github.com/mjpost/sacrebleu) version 2.3.1)
+  * BLEU, CHRF (via [sacreBLEU](https://github.com/mjpost/sacrebleu) version 2.3.1)
   * [COMET](https://github.com/Unbabel/COMET) (model: wmt20-comet-da)
-  * Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacrebleu and COMET
+  * Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacreBLEU and COMET
 
 * Subtitle compliance:
     * Rate of subtitles with more than two lines
