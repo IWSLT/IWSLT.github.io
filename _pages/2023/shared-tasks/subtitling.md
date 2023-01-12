@@ -50,6 +50,23 @@ A **constrained** setup is proposed as the official training data condition, in 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets
 
 
+## Development and Evaluation Data
+
+Participants are asked to automatically subtitle in German and/or Spanish three kinds of audio-visual documents, where the spoken language is always English, featuring different levels of complexity: (i) TED talks from the MuST-Cinema corpus, (ii) press interviews from the Multimedia Centre of the European Parliament (EUROPARLTV) and (iii) commercial contents, in particular Peloton physical training videos and ITV entertainment series.
+
+* [MuST-Cinema](https://ict.fbk.eu/must-cinema/) is a Multilingual Speech-to-Subtitles corpus released in 2020. It comprises audio recordings from English TED Talks, automatically aligned at the sentence level with their manual transcriptions and translations (into seven languages including German and Spanish) marked with subtitle breaks. 
+As dev set, 17 video recordings and subtitles (in English, German and Spanish) of the TED talks defining the evaluation set of the Offline Speech Translation task at IWSLT 2022 (total duration: about 4 hours) can be downloaded from here
+The test set consists of video recordings of 14 TED talks for a total duration of about 80 minutes, which will be made available at evaluation time
+
+* [EUROPARLTV](https://multimedia.europarl.europa.eu/en) is a repository of video recordings related to the European Parliament activities that includes messages of the members, interviews, press conferences, debates, etc. 
+As dev set, 14 video recordings and subtitles (in German and Spanish; English transcriptions/subtitles are available only for 5 documents out of 14) for a total duration of about 1 hour can be downloaded from here
+The test set consists of 10 video recordings for a total duration of about 1 hour, which will be made available at evaluation time
+
+* Peloton ...
+
+* ITV ...
+
+Note that English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
 
 ## Baselines
 
