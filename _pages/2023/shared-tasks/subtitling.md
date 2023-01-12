@@ -68,8 +68,8 @@ A **constrained** setup is proposed as the official training data condition, in 
 | text-parallel | en | de | [Tatoeba](https://object.pouta.csc.fi/OPUS-Tatoeba/v2022-03-03/tmx/de-en.tmx.gz) | v2022-03-03 | |
 | text-parallel | en | es | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/en-es.tmx.gz) | v1 | |
 | text-parallel | en | de | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz) | v1 | |
-| text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](TBD) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
-| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](TBD) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | de | [OpenSubtitles with subtitle breaks] | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks] | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets
