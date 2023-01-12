@@ -65,14 +65,14 @@ Participants are asked to automatically subtitle in German and/or Spanish three 
   * The test set consists of 10 video recordings for a total duration of about 1 hour, which will be made available at evaluation time
 
 * [Peloton](onepeloton.com) is a company that offers fitness training equipment as well as on-line physical training videos which are provided with subtitles in different languages. Peloton is interested in research related to the use of automated subtitling technology in their translation workflows. We would like to thank Peloton for providing IWSLT with samples of their videos for research and evaluation purposes and would like to ask you not to use these videos or subtitles for any commercial purposes and in particular not make them publicly available on any other website. 
-  * As a dev set, 9 recordings of physical training videos (mostly single-speaker - the physical fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from here. Note: the English SRT files are not properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
+  * As a dev set, 9 recordings of physical training videos (mostly single-speaker - the physical fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from here. **Note**: the **English** SRT files are **not** properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
   * The test set with 8 videos of similar content (but potentially different speakers) will be made available at evaluation time.
 
 * [ITV](www.itv.com) is an entertainment content provider which distributes their content (films, series, etc.) globally, providing high-quality subtitles in multiple languages. We would like to thank ITV for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes and in particular not to make them publicly available on any other website.
   * As a dev set, we selected 7 episodes of 3 different entertainment series, with a rough duration of 7 hours.
   * The test set with a similar number of episodes from entertainment series, possibly, but not necessarily from the same ones, will be made available at evaluation time.
 
-Note that English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
+When available, English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
 
 ## Baselines
 
