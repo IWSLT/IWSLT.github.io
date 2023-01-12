@@ -46,7 +46,8 @@ Data will be released in January.
 * Submissions have to be submitted as a gzipped TAR archive (see format below) and sent as an email attachment to TBD
 * Each run has to be stored in an SRT (SubRip File Format)
 * Scoring will be case-sensitive and will include the punctuation
-* TAR archive file structure:
+
+TAR archive file structure:
 ```
 < UserID >/< Set >.< LangDir >.< UserID >.primary.srt 
   /< Set >.< LangDir >.< UserID >.contrastive1.srt  
