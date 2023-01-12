@@ -92,7 +92,7 @@ Participants are asked to automatically subtitle in German and/or Spanish three 
   * The test set with 8 videos of similar content (but potentially different speakers) will be made available at evaluation time
 
 * [ITV](www.itv.com) is an entertainment content provider which distributes their content (films, series, etc.) globally, providing high-quality subtitles in multiple languages. We would like to thank ITV for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes and in particular not to make them publicly available on any other website.
-  * As a dev set, we selected 7 episodes of 3 different entertainment series, with a rough duration of 7 hours
+  * As a dev set, 7 episodes of 3 different entertainment series, with a rough duration of 7 hours, can be downloaded from here
   * The test set with a similar number of episodes from entertainment series, possibly, but not necessarily from the same ones, will be made available at evaluation time
 
 When available, English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
