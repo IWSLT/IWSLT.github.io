@@ -49,7 +49,7 @@ A **constrained** setup is proposed as the official training data condition, in 
   * Monolingual corpora with subtitle boundaries
     * TBD
 
-| Data modality | Source lang | tgt lang | Training corpus (URL) | Version | Comment
+| Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment
 | --- | :---: | :---: | --- | --- | --- |
 | speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into PT which are not to be used
 | speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
