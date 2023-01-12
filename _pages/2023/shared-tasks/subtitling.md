@@ -161,11 +161,11 @@ The email should include the following information:
 
 <!-- List of organizers' names and affiliations -->
 
-* Mauro Cettolo, Fondazione Bruno Kessler
+* Mauro Cettolo, FBK
 * Evgeny Matusov, AppTek
 * Mattia Di Gangi, AppTek
 * Patrick Wiken, AppTek
-* Matteo Negri, Fondazione Bruno Kessler
+* Matteo Negri, FBK
 * Marco Turchi, Zoom Video Communications
 
 ## Contact
