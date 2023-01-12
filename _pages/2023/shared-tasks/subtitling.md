@@ -174,4 +174,5 @@ The email should include the following information:
 Chairs: 
 * Mauro Cettolo, FBK, Italy
 * Evgeny Matusov, AppTek, Germany   
+
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
