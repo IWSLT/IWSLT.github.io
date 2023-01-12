@@ -150,8 +150,8 @@ The email should include the following information:
 
 * Translation quality vs. reference translations:
   * BLEU, CHRF (via [sacreBLEU](https://github.com/mjpost/sacrebleu) version 2.3.1)
-  * [COMET](https://github.com/Unbabel/COMET) (model: wmt20-comet-da)
-  * Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacreBLEU and COMET
+  * [COMET](https://github.com/Unbabel/COMET) (model: wmt20-comet-da)  
+  Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacreBLEU and COMET
 
 * Subtitle compliance:
     * Rate of subtitles with more than two lines
