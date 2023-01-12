@@ -40,8 +40,8 @@ Data will be released in January.
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 
 * Subtitle quality vs. reference subtitles:
- * SubER, primary metric, used also for ranking (paper, code)
- * Sigma (paper, code)
+  * SubER, primary metric, used also for ranking (paper, code)
+  * Sigma (paper, code)
 
 * Translation quality vs. reference translations:
  * BLEU, CHRF (via sacrebleu version 2.3.1)
