@@ -17,6 +17,16 @@ Details coming very soon!
 
 <!-- Description the task, the languages, and the type of data -->
 
+In recent years, the task of automatically creating subtitles for audiovisual content in another language has gained a lot of attention, as we have seen a surge in the amount of movies, series and user-generated videos which are being streamed and distributed all over the world. 
+The task of automatic subtitling is multi-faceted: starting from the speech, not only the translation has to be generated, but it must be segmented into subtitles compliant with constraints that ensure high-quality user experience, like a proper reading speed, synchrony with the voices, maximum number of subtitle lines and characters per line, etc.
+For the first time, this year IWSLT proposes a specific task on automatic subtitling, where participants are asked to generate subtitles in German and/or Spanish of three kinds of audiovisual documents, featuring different levels of complexity, starting from English speech.
+
+The evaluation of subtitling quality is a complex problem on its own, since both the translation quality and the compliance with subtitling constraints have to be considered at the same time. The recently proposed SubeER and Sigma are the automatic metrics that will be used for assessing the quality of automatically generated subtitles, together with standard translation quality metrics; moreover, they will be complemented with some explicit compliance measures, as detailed below.
+Most audio visual companies define their own subtitling guidelines, which can differ slightly from each other. Participants are asked to generate subtitles following some of the tips listed by [TED](https://www.ted.com/participate/translate/subtitling-tips), in particular:
+* never use more than two lines per subtitle
+* lines cannot exceed 42 characters, white spaces included
+* the maximum subtitle reading speed is 21 characters / second
+
 
 ## Data
 
