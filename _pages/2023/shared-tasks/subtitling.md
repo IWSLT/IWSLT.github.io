@@ -49,6 +49,19 @@ A **constrained** setup is proposed as the official training data condition, in 
   * Monolingual corpora with subtitle boundaries
     * TBD
 
+| Data modality | src lang | tgt lang | Training corpus | ver. | URL | Comment
+| --- | --- | --- | --- | --- | --- | --- |
+| speech | en | -- | LibriSpeech ASR corpus | v12 | http://www.openslr.org/12/ | includes translations into PT which are not to be used
+| speech | en | -- | How2 | n/a | https://github.com/srvk/how2-dataset | |
+| speech | en | -- | Mozilla Common Voice | v11.0 | https://commonvoice.mozilla.org/en/datasets | |
+| speech | en | -- | TED LIUM | V3 (also v2) | https://lium.univ-lemans.fr/en/ted-lium3/ | |
+| speech | en | -- | Vox Populi | n/a | https://github.com/facebookresearch/voxpopuli | |
+| --- | --- | --- | --- | --- | --- | --- |
+
+
+
+
+
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets
 
 
@@ -66,11 +79,11 @@ Participants are asked to automatically subtitle in German and/or Spanish three 
 
 * [Peloton](onepeloton.com) is a company that offers fitness training equipment as well as on-line physical training videos which are provided with subtitles in different languages. Peloton is interested in research related to the use of automated subtitling technology in their translation workflows. We would like to thank Peloton for providing IWSLT with samples of their videos for research and evaluation purposes and would like to ask you not to use these videos or subtitles for any commercial purposes and in particular not make them publicly available on any other website. 
   * As a dev set, 9 recordings of physical training videos (mostly single-speaker - the physical fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from here. **Note**: the **English** SRT files are **not** properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
-  * The test set with 8 videos of similar content (but potentially different speakers) will be made available at evaluation time.
+  * The test set with 8 videos of similar content (but potentially different speakers) will be made available at evaluation time
 
 * [ITV](www.itv.com) is an entertainment content provider which distributes their content (films, series, etc.) globally, providing high-quality subtitles in multiple languages. We would like to thank ITV for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes and in particular not to make them publicly available on any other website.
-  * As a dev set, we selected 7 episodes of 3 different entertainment series, with a rough duration of 7 hours.
-  * The test set with a similar number of episodes from entertainment series, possibly, but not necessarily from the same ones, will be made available at evaluation time.
+  * As a dev set, we selected 7 episodes of 3 different entertainment series, with a rough duration of 7 hours
+  * The test set with a similar number of episodes from entertainment series, possibly, but not necessarily from the same ones, will be made available at evaluation time
 
 When available, English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
 
