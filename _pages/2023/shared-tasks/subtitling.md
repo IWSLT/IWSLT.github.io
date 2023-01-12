@@ -55,13 +55,14 @@ Data will be released in January.
 ```
 
 where:
-
+```
 < UserID > = user ID of participant; use the short name chosen in the registration form (e.g. the name of your institution)
 < Set > = IWSLT23.Subtitling.< Domain >tst
 < Domain > = one of {EPTV,TED,Peloton,ITV}
 < LangDir > = en-de/es (ISO 639-1 two-letter codes of languages)
+```
 
-For example, FBK/IWSLT23.Subtitling.TEDtst.en-de.FBK.primary.srt
+Example: FBK/IWSLT23.Subtitling.TEDtst.en-de.FBK.primary.srt
 
 All the submissions must be sent to this address: TBD
 
