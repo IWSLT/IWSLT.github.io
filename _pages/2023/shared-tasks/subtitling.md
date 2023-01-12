@@ -48,8 +48,8 @@ Data will be released in January.
 * Scoring will be case-sensitive and will include the punctuation
 * TAR archive file structure:
 
-< UserID >/< Set >.< LangDir >.< UserID >.primary.srt
-  /< Set >.< LangDir >.< UserID >.contrastive1.srt
+< UserID >/< Set >.< LangDir >.< UserID >.primary.srt 
+  /< Set >.< LangDir >.< UserID >.contrastive1.srt  
   /< Set >.< LangDir >.< UserID >.contrastive2.srt  
   /...  
 
