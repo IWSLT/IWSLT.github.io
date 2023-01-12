@@ -97,10 +97,6 @@ Participants are asked to automatically subtitle in German and/or Spanish three 
 
 When available, English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
 
-## Baselines
-
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
 
 ## Submission Guidelines
 
