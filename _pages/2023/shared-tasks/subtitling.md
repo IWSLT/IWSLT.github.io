@@ -20,10 +20,12 @@ The task of automatic subtitling is multi-faceted: starting from the speech, not
 For the first time, this year IWSLT proposes a specific task on automatic subtitling, where participants are asked to generate subtitles in German and/or Spanish of three kinds of audiovisual documents, featuring different levels of complexity, starting from English speech.
 
 The evaluation of subtitling quality is a complex problem on its own, since both the translation quality and the compliance with subtitling constraints have to be considered at the same time. The recently proposed SubeER and Sigma metrics will be used for assessing the quality of automatically generated subtitles, together with standard translation quality metrics; moreover, they will be complemented with some explicit compliance measures, as detailed below.
-Most audio visual companies define their own subtitling guidelines, which can differ slightly from each other. Participants are asked to generate subtitles following some of the tips listed by [TED](https://www.ted.com/participate/translate/subtitling-tips), in particular:
+Most audio visual companies define their own subtitling guidelines, which can differ slightly from each other. Participants are asked to generate subtitles according to some of the tips listed by [TED](https://www.ted.com/participate/translate/subtitling-tips), in particular:
 * never use more than two lines per subtitle
 * lines cannot exceed 42 characters, white spaces included
 * the maximum subtitle reading speed is 21 characters / second
+
+It is expected that participants will use only the audio track from the provided videos (dev and test sets), the video track being of low quality and provided primarily as a means to verify time synchronicity and other aspects of displaying subtitles on screen.
 
 ## Languages
 
@@ -62,9 +64,13 @@ Participants are asked to automatically subtitle in German and/or Spanish three 
   * As dev set, 14 video recordings and subtitles (in German and Spanish; English transcriptions/subtitles are available only for 5 documents out of 14) for a total duration of about 1 hour can be downloaded from here
   * The test set consists of 10 video recordings for a total duration of about 1 hour, which will be made available at evaluation time
 
-* Peloton ...
+* [Peloton](onepeloton.com) is a company that offers fitness training equipment as well as on-line physical training videos which are provided with subtitles in different languages. Peloton is interested in research related to the use of automated subtitling technology in their translation workflows. We would like to thank Peloton for providing IWSLT with samples of their videos for research and evaluation purposes and would like to ask you not to use these videos or subtitles for any commercial purposes and in particular not make them publicly available on any other website. 
+  * As a dev set, 9 recordings of physical training videos (mostly single-speaker - the physical fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from here. Note: the English SRT files are not properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
+  * The test set with 8 videos of similar content (but potentially different speakers) will be made available at evaluation time.
 
-* ITV ...
+* [ITV](www.itv.com) is an entertainment content provider which distributes their content (films, series, etc.) globally, providing high-quality subtitles in multiple languages. We would like to thank ITV for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes and in particular not to make them publicly available on any other website.
+  * As a dev set, we selected 7 episodes of 3 different entertainment series, with a rough duration of 7 hours.
+  * The test set with a similar number of episodes from entertainment series, possibly, but not necessarily from the same ones, will be made available at evaluation time.
 
 Note that English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
 
