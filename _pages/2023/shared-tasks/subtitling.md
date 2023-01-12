@@ -114,9 +114,9 @@ When available, English subtitles of development sets are released only for conv
 
 TAR archive file structure:
 ```
-< UserID >/< Set >.< LangDir >.< UserID >.primary.srt 
-  /< Set >.< LangDir >.< UserID >.contrastive1.srt  
-  /< Set >.< LangDir >.< UserID >.contrastive2.srt  
+< UserID >/< Set >.< Lang >.< UserID >.primary.srt 
+  /< Set >.< Lang >.< UserID >.contrastive1.srt  
+  /< Set >.< Lang >.< UserID >.contrastive2.srt  
   /...  
 ```
 where:
@@ -124,11 +124,11 @@ where:
 < UserID > = user ID of participant; use the short name chosen in the registration form
 < Set > = IWSLT23.Subtitling.< Domain >tst
 < Domain > = one of {EPTV, TED, Peloton, ITV}
-< LangDir > = one of {en-de, en-es} (ISO 639-1 two-letter codes of languages)
+< Lang > = one of {en-de.de, en-es.es} (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
 ```
-FBK/IWSLT23.Subtitling.TEDtst.en-de.FBK.primary.srt
+FBK/IWSLT23.Subtitling.TEDtst.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
