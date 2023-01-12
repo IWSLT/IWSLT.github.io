@@ -118,8 +118,8 @@ where:
 ```
 < UserID > = user ID of participant; use the short name chosen in the registration form
 < Set > = IWSLT23.Subtitling.< Domain >tst
-< Domain > = one of {EPTV,TED,Peloton,ITV}
-< LangDir > = en-de/es (ISO 639-1 two-letter codes of languages)
+< Domain > = one of {EPTV, TED, Peloton, ITV}
+< LangDir > = one of {en-de, en-es} (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
 ```
@@ -130,7 +130,7 @@ Submissions must be sent as an email attachment to these two addresses:
 *cettolo AT fbk DOT eu*  
 *ematusov AT apptek DOT com*
 
-The email should include the following information:
+The email should also include the following information:
 
 * Institute/company:
 * Contact Person:
