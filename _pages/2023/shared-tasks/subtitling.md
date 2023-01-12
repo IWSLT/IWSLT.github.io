@@ -44,15 +44,17 @@ Data will be released in January.
   * Sigma (paper, code)
 
 * Translation quality vs. reference translations:
- * BLEU, CHRF (via sacrebleu version 2.3.1)
- * COMET (model: wmt20-comet-da)
+  * BLEU, CHRF (via sacrebleu version 2.3.1)
+  * COMET (model: wmt20-comet-da)
+ 
  Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter (Matusov et al., 2005) before running sacrebleu and COMET
 
 * Subtitle compliance:
+ 
  Rates of:
- * subtitles with more than two lines
- * lines longer than 42 characters (white spaces included)
- * subtitles with reading speed higher than 21 characters / second
+  * subtitles with more than two lines
+  * lines longer than 42 characters (white spaces included)
+  * subtitles with reading speed higher than 21 characters / second
 
 
 ## Organizers
