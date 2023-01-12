@@ -126,7 +126,9 @@ Example:
 FBK/IWSLT23.Subtitling.TEDtst.en-de.FBK.primary.srt
 ```
 
-Submissions must be sent as an email attachment to these addresses: *cettolo AT fbk DOT eu* and *ematusov AT apptek DOT com*
+Submissions must be sent as an email attachment to these two addresses: 
+*cettolo AT fbk DOT eu*  
+*ematusov AT apptek DOT com*
 
 The email should include the following information:
 
