@@ -53,7 +53,6 @@ Data will be released in January.
   /< Set >.< LangDir >.< UserID >.contrastive2.srt  
   /...  
 ```
-
 where:
 ```
 < UserID > = user ID of participant; use the short name chosen in the registration form
@@ -61,7 +60,6 @@ where:
 < Domain > = one of {EPTV,TED,Peloton,ITV}
 < LangDir > = en-de/es (ISO 639-1 two-letter codes of languages)
 ```
-
 Example: 
 ```
 FBK/IWSLT23.Subtitling.TEDtst.en-de.FBK.primary.srt
