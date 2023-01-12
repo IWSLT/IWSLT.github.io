@@ -40,14 +40,6 @@ The task involves the processing of audio-video documents for two language pairs
 A **constrained** setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an **unconstrained** setup without data restrictions is also proposed.
 
 * **Constrained** training: Under this condition, the allowed training resources are the following ones (note that the list does not include any pre-trained language model):
-  * Speech translation corpora
-    * TDB
-  * Corpora for ASR training with English transcripts only
-    * TBD
-  * Parallel text-only corpora
-    * TDB
-  * Monolingual corpora with subtitle boundaries
-    * TBD
 
 | Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment
 | --- | :---: | :---: | --- | --- | --- |
