@@ -103,7 +103,7 @@ When available, English subtitles of development sets are released only for conv
 <!-- Description of expected submission format and submission instructions -->
 
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) will be used as the PRIMARY run
-* Submissions have to be submitted as a gzipped TAR archive (see format below) and sent as an email attachment to TBD
+* Submissions have to be submitted as a gzipped TAR archive (see format below)
 * Each run has to be stored in an SRT (SubRip File Format)
 * Scoring will be case-sensitive and will include the punctuation
 
@@ -126,7 +126,7 @@ Example:
 FBK/IWSLT23.Subtitling.TEDtst.en-de.FBK.primary.srt
 ```
 
-All the submissions must be sent to this address: TBD
+Submissions must be sent as an email attachment to these addresses: cettolo AT fbk dot eu
 
 The email should include the following information:
 
