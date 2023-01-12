@@ -52,9 +52,9 @@ Data will be released in January.
 * Subtitle compliance:
  
  Rates of:
-  * subtitles with more than two lines
-  * lines longer than 42 characters (white spaces included)
-  * subtitles with reading speed higher than 21 characters / second
+   * subtitles with more than two lines
+   * lines longer than 42 characters (white spaces included)
+   * subtitles with reading speed higher than 21 characters / second
 
 
 ## Organizers
