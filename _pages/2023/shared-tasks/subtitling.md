@@ -27,7 +27,9 @@ Most audio visual companies define their own subtitling guidelines, which can di
 
 ## Languages
 
-The task involves the processing of audio-video documents for two language pairs: English→German and English→Spanish
+The task involves the processing of audio-video documents for two language pairs: 
+* English→German
+* English→Spanish
 
 ## Training and Data Conditions
 
