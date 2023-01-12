@@ -40,19 +40,18 @@ Data will be released in January.
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 
 * Subtitle quality vs. reference subtitles:
-  * SubER, primary metric, used also for ranking (paper, code)
-  * Sigma (paper, code)
+  * SubER, primary metric, used also for ranking ([paper](https://aclanthology.org/2022.iwslt-1.1.pdf), [code](https://github.com/apptek/SubER))
+  * Sigma ([paper](https://aclanthology.org/2022.lrec-1.328.pdf), [code](https://github.com/fyvo/EvalSubtitle))
 
 * Translation quality vs. reference translations:
-  * BLEU, CHRF (via sacrebleu version 2.3.1)
-  * COMET (model: wmt20-comet-da)
-  * Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter (Matusov et al., 2005) before running sacrebleu and COMET
+  * BLEU, CHRF (via [sacrebleu](https://github.com/mjpost/sacrebleu) version 2.3.1)
+  * [COMET](https://github.com/Unbabel/COMET) (model: wmt20-comet-da)
+  * Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacrebleu and COMET
 
 * Subtitle compliance:
-  * Rates of:
-    * subtitles with more than two lines
-    * lines longer than 42 characters (white spaces included)
-    * subtitles with reading speed higher than 21 characters / second
+    * Rate of subtitles with more than two lines
+    * Rate of lines longer than 42 characters (white spaces included)
+    * Rate of subtitles with reading speed higher than 21 characters / second
 
 
 ## Organizers
