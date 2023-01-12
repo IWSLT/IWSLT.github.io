@@ -132,8 +132,8 @@ FBK/IWSLT23.Subtitling.TEDtst.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
-*cettolo AT fbk DOT eu*  
-*ematusov AT apptek DOT com*
+* *cettolo AT fbk DOT eu*  
+* *ematusov AT apptek DOT com*
 
 The email should also include the following information:
 
