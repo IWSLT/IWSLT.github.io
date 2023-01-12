@@ -154,7 +154,7 @@ The email should include the following information:
   Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacreBLEU and COMET
 
 * Subtitle compliance:  
-  Rates of
+  * Rates of
     * subtitles with more than two lines
     * lines longer than 42 characters (white spaces included)
     * subtitles with reading speed higher than 21 characters / second
