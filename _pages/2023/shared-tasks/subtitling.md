@@ -66,6 +66,12 @@ Data will be released in January.
 
 <!-- List of organizers' names and affiliations -->
 
+* Mauro Cettolo, Fondazione Bruno Kessler
+* Evgeny Matusov, AppTek
+* Mattia Di Gangi, AppTek
+* Patrick Wiken, AppTek
+* Matteo Negri, Fondazione Bruno Kessler
+* Marco Turchi, Zoom Video Communications
 
 ## Contact
 
