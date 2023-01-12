@@ -153,7 +153,8 @@ The email should include the following information:
   * [COMET](https://github.com/Unbabel/COMET) (model: wmt20-comet-da)  
   Automatic subtitles will be realigned to the reference subtitles using mwerSegmenter ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacreBLEU and COMET
 
-* Subtitle compliance:
+* Subtitle compliance:  
+  Rate of
     * Rate of subtitles with more than two lines
     * Rate of lines longer than 42 characters (white spaces included)
     * Rate of subtitles with reading speed higher than 21 characters / second
