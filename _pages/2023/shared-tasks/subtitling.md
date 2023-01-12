@@ -171,5 +171,7 @@ The email should include the following information:
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair:   
+Chairs: 
+* Mauro Cettolo, FBK, Italy
+* Evgeny Matusov, AppTek, Germany   
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
