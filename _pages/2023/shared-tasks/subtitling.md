@@ -49,38 +49,35 @@ A **constrained** setup is proposed as the official training data condition, in 
   * Monolingual corpora with subtitle boundaries
     * TBD
 
-| Data modality | src lang | tgt lang | Training corpus | ver. | URL | Comment
+| Data modality | src lang | tgt lang | Training corpus | ver. | Comment
 | --- | --- | --- | --- | --- | --- | --- |
-| speech | en | -- | LibriSpeech ASR corpus | v12 | http://www.openslr.org/12/ | includes translations into PT which are not to be used
-| speech | en | -- | How2 | na | https://github.com/srvk/how2-dataset | |
-| speech | en | -- | Mozilla Common Voice | v11.0 | https://commonvoice.mozilla.org/en/datasets | |
-| speech | en | -- | TED LIUM | V2/V3 | https://lium.univ-lemans.fr/en/ted-lium3/ | |
-| speech | en | -- | Vox Populi | na | https://github.com/facebookresearch/voxpopuli | |
-
-| speech-to-text-parallel | en | de | MUST-C | v1.2/v2.0 | https://ict.fbk.eu/must-c/ | |
-| speech-to-text-parallel | en | de | MUST-Cinema | v1.0 | https://ict.fbk.eu/must-cinema/ | with subtitle and line breaks |
-| speech-to-text-parallel | en | es | MUST-C | v1.2 | https://ict.fbk.eu/must-c/ | same as MUST-Cinema below but without subtitle breaks |
-| speech-to-text-parallel | en | es | MUST-Cinema | v1.0 | https://ict.fbk.eu/must-cinema/ | with subtitle and line breaks |
-| speech-to-text-parallel | en | de | Speech Translation TED corpus | na | http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/corpus/iwslt-corpus.zip | |
-| speech-to-text-parallel | en | de | CoVoST | v2 | https://github.com/facebookresearch/covost | Only German translation, no English transcription |
-| speech-to-text-parallel | en | de | Europarl-ST | v1.1 | https://www.mllp.upv.es/europarl-st/ | |
-| speech-to-text-parallel | en | es | Europarl-ST | v1.1 | https://www.mllp.upv.es/europarl-st/ | |
-
-| text-parallel | en | de | Europarl | v10 | https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz | |
-| text-parallel | en | es | Europarl | v8  | https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz | |
-| text-parallel | en | de | NewsCommentary | v16 | https://data.statmt.org/news-commentary/v16/training/news-commentary-v16.de-en.tsv.gz | |
-| text-parallel | en | es | NewsCommentary | v16 | https://data.statmt.org/news-commentary/v16/training/news-commentary-v16.en-es.tsv.gz | |
-| text-parallel | en | de | OpenSubtitles | v2018 apptek | https://shorturl.at/gmuCN | partially re-aligned, filtered, with document meta-information on genre |
-| text-parallel | en | es | OpenSubtitles | v2018 apptek | https://shorturl.at/afhot | partially re-aligned, filtered, with document meta-information on genre |
-| text-parallel | en | de | TED2020 | v1 | https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/de-en.tmx.gz | |
-| text-parallel | en | es | TED2020 | v1 | https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/en-es.tmx.gz | |
-| text-parallel | en | es | Tatoeba | v2022-03-03 | https://object.pouta.csc.fi/OPUS-Tatoeba/v2022-03-03/tmx/en-es.tmx.gz | |
-| text-parallel | en | de | Tatoeba | v2022-03-03 | https://object.pouta.csc.fi/OPUS-Tatoeba/v2022-03-03/tmx/de-en.tmx.gz | |
-| text-parallel | en | es | ELRC-CORDIS_News | v1 | https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/en-es.tmx.gz | |
-| text-parallel | en | de | ELRC-CORDIS_News | v1 | https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz | |
-
-| text-monolingual | -- | de | OpenSubtitles with subtitle breaks | v2018-apptek | TBD | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
-| text-monolingual | -- | es | OpenSubtitles with subtitle breaks | v2018-apptek | TBD | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into PT which are not to be used
+| speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
+| speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
+| speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | V2/V3 | |
+| speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
+| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0 | |
+| speech-to-text-parallel | en | de | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
+| speech-to-text-parallel | en | es | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema below but without subtitle breaks |
+| speech-to-text-parallel | en | es | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
+| speech-to-text-parallel | en | de | [Speech Translation TED corpus](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/corpus/iwslt-corpus.zip) | na | |
+| speech-to-text-parallel | en | de | [CoVoST](https://github.com/facebookresearch/covost) | v2 | Only German translation, no English transcription |
+| speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| speech-to-text-parallel | en | es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
+| text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
+| text-parallel | en | de | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v16.de-en.tsv.gz) | v16 | |
+| text-parallel | en | es | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v16.en-es.tsv.gz) | v16 | |
+| text-parallel | en | de | [OpenSubtitles](https://shorturl.at/gmuCN) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | es | [OpenSubtitles](https://shorturl.at/afhot) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | de | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/de-en.tmx.gz) | v1 | |
+| text-parallel | en | es | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/en-es.tmx.gz) | v1 | |
+| text-parallel | en | es | [Tatoeba](https://object.pouta.csc.fi/OPUS-Tatoeba/v2022-03-03/tmx/en-es.tmx.gz) | v2022-03-03 | |
+| text-parallel | en | de | [Tatoeba](https://object.pouta.csc.fi/OPUS-Tatoeba/v2022-03-03/tmx/de-en.tmx.gz) | v2022-03-03 | |
+| text-parallel | en | es | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/en-es.tmx.gz) | v1 | |
+| text-parallel | en | de | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz) | v1 | |
+| text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](TBD) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](TBD) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets
