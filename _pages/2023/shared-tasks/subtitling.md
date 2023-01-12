@@ -25,12 +25,28 @@ Most audio visual companies define their own subtitling guidelines, which can di
 * lines cannot exceed 42 characters, white spaces included
 * the maximum subtitle reading speed is 21 characters / second
 
+## Languages
 
-## Data
+The task involves the processing of audio-video documents for two language pairs: English→German and English→Spanish
 
-Data will be released in January.
+## Training and Data Conditions
 
 <!-- Details description of the data and links to download -->
+
+A **constrained** setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an **unconstrained** setup without data restrictions is also proposed.
+
+* **Constrained** training: Under this condition, the allowed training resources are the following ones (note that the list does not include any pre-trained language model):
+  * Speech translation corpora
+    * TDB
+  * Corpora for ASR training with English transcripts only
+    * TBD
+  * Parallel text-only corpora
+    * TDB
+  * Monolingual corpora with subtitle boundaries
+    * TBD
+
+* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets
+
 
 
 ## Baselines
