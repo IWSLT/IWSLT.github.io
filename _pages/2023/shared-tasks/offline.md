@@ -76,9 +76,9 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
   * [tst2020](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2020.en-de.tgz)
 
 
-## Training and Data Conditions
+<!-- ## Training and Data Conditions
 
-<!-- Details description of the data and links to download -->
+ 
 
 A **constrained** setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an **unconstrained** setup without data restrictions is also proposed.
 
@@ -117,7 +117,7 @@ A **constrained** setup is proposed as the official training data condition, in 
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task inclusing subtitle boundaries (<eob> and <eol>).
 
-* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
+* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets -->
  
 ## Submission Guidelines
 
