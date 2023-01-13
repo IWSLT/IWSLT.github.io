@@ -82,6 +82,8 @@ A **constrained** setup is proposed as the official training data condition, in 
 
 Participants are asked to automatically subtitle in German and/or Spanish three kinds of audio-visual documents, where the spoken language is always English, featuring different levels of complexity: (i) TED talks from the MuST-Cinema corpus, (ii) press interviews from the Multimedia Centre of the European Parliament (EUROPARLTV) and (iii) commercial contents, in particular Peloton physical training videos and ITV entertainment series.
 
+Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
+
 * [MuST-Cinema](https://ict.fbk.eu/must-cinema/) is a Multilingual Speech-to-Subtitles corpus released in 2020. It comprises audio recordings from English TED Talks, automatically aligned at the sentence level with their manual transcriptions and translations (into seven languages including German and Spanish) marked with subtitle breaks. 
   * As **dev** set, 17 video recordings and subtitles (in English, German and Spanish) of the TED talks defining the evaluation set of the Offline Speech Translation task at IWSLT 2022 (total duration: about 4 hours) can be downloaded from [here](https://drive.google.com/file/d/1rYeHoaIXEhxVeU22Cah_EuEQOzyvK2ob/view?usp=share_link)
   * The **test** set consists of video recordings of 14 TED talks for a total duration of about 80 minutes, which will be made available at evaluation time
@@ -109,7 +111,7 @@ When available, English subtitles of development sets are released only for conv
 
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) will be used as the PRIMARY run
 * Submissions have to be submitted as a gzipped TAR archive (see format below)
-* Each run has to be stored in an SRT (SubRip File Format)
+* Each run has to be stored in an SRT (SubRip File Format) UTF-8 encoded file
 * Scoring will be case-sensitive and will include the punctuation
 
 TAR archive file structure:
