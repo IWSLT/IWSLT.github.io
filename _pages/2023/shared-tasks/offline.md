@@ -76,8 +76,13 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
   * [tst2020](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2020.en-de.tgz)
 
 
-## Allowed Training Data
+## Training and Data Conditions
 
+<!-- Details description of the data and links to download -->
+
+A **constrained** setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an **unconstrained** setup without data restrictions is also proposed.
+
+* **Constrained** training: Under this condition, the allowed training resources are the following ones (note that the list does not include any pre-trained language model):
 
 
 | Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment
@@ -112,6 +117,8 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task inclusing subtitle boundaries (<eob> and <eol>).
 
+* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
+ 
 ## Submission Guidelines
 
   * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
