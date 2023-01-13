@@ -11,7 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-[Last update: Jan 12, 2023]
+[Last update: Jan 13, 2023]
 
 
 ## Description
@@ -148,6 +148,8 @@ The email should also include the following information:
 ## Automatic Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
+The evaluation will be carried out from three perspectives, subtitle quality, translation quality and subtitle compliance, through the following automatic measures:
 
 * Subtitle quality vs. reference subtitles:
   * SubER, primary metric, used also for ranking ([paper](https://aclanthology.org/2022.iwslt-1.1.pdf), [code](https://github.com/apptek/SubER))
