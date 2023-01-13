@@ -76,7 +76,12 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
   * [tst2020](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2020.en-de.tgz)
 
 
-<!-- ## Training and Data Conditions
+## Training and Data Conditions
+
+More information about the data will come soon.
+{: .notice--info}
+
+<!-- ## Training Data and Data Conditions
 
  
 
