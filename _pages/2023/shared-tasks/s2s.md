@@ -28,8 +28,9 @@ While we will share both automatic and human evaluation scores, the systems will
 ## Evaluation
 
 **Automatic metrics**
-- **ASR-BLEU**: the speech output will be automatically transcribed with a Chinese ASR system trained on WenetSpeech (https://github.com/wenet-e2e/wenet/blob/main/docs/pretrained_models.en.md), and then BLEU and chrF will be computed between the produced transcript and a textual human reference.
-- **BLASER**: the newly proposed text-free speech-to-speech translation evaluation metric, BLASER (https://github.com/facebookresearch/stopes/tree/main/stopes/eval/blaser) will be computed between the translated speech and referenced speech. 
+- **ASR-BLEU**: the speech output will be automatically transcribed with a Chinese ASR system trained on [WenetSpeech](https://github.com/wenet-e2e/wenet/blob/main/docs/pretrained_models.en.md), and then BLEU and chrF will be computed between the produced transcript and a textual human reference.
+- **BLASER**: the newly proposed text-free speech-to-speech translation evaluation metric, [BLASER](https://github.com/facebookresearch/stopes/tree/main/stopes/eval/blaser), will be computed between the translated speech and referenced speech. 
+
 **Human evaluation**
 - **Translation quality**: bilingual annotators will be presented with the source audio and the target audio, and give scores between 1 and 5.
 - **Output speech quality**: in addition to translation quality (capturing meaning), the quality of the speech output will also be human-evaluated along three dimensions: naturalness (voice and pronunciation), clarity of speech (understandability), and sound quality (noise and other artifacts). These axes are more fine-grained than the traditional overall MOS score.
@@ -41,9 +42,16 @@ The detailed guidelines for speech quality are as follows:
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 
-## Data
+## Training Data
 
-Data will be released in January.
+This task allows all training data from the Offline task on speech-to-text translation.
+In addition, the following training data is allowed for the purpose of building Chinese TTS and English-Chinese speech-to-speech models (note that you can also use the Offline task data to build TTS or speech-to-speech models):
+- [GigaS2S](https://github.com/SpeechTranslation/GigaS2S): target speech for the Chinese target text of [GigaST](https://arxiv.org/abs/2204.03939) which has been synthesized using an in-house TTS model.  The source speech can be obtained from [GigaSpeech](https://arxiv.org/abs/2106.06909).
+- [aishell_3](https://www.aishelltech.com/aishell_3): multi-speaker Chinese TTS dataset.
+
+## Development and Test Data
+
+Development and test data will be released later.
 
 <!-- Details description of the data and links to download -->
 
