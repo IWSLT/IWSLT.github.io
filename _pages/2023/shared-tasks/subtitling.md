@@ -11,7 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-[Last update: Jan 13, 2023]
+[Last update: Jan 15, 2023]
 
 
 ## Description
@@ -99,7 +99,7 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK’s largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or make them publicly available on any other website. 
 
-  * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from here (soon available)
+  * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from [here](https://drive.google.com/file/d/1LLqaq40gG8V0PpV_nLhgzrJFOG_wDNQ-/view?usp=sharing)
   * The **test** set with a similar number of episodes from entertainment series, possibly, but not necessarily from the same ones, will be made available at evaluation time
 
 When available, English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
