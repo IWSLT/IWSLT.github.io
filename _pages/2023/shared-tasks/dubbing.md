@@ -22,9 +22,9 @@ To illustrate, here’s an example in which “hallo! wei gehts?” is translate
 
 ## Data
 
-We will release official training data and test data, link TBA soon. 
+Official training and test data can be found [here](https://github.com/amazon-science/iwslt-autodub-task/tree/main/data).
 
-The training data will be derived from [CoVoST2](https://arxiv.org/abs/2007.10310) and consist of:
+The training data is derived from [CoVoST2](https://arxiv.org/abs/2007.10310) and consists of:
 
 * Source (German) text
 * Desired target speech durations (e.g. 2.1s of speech, followed by a pause, followed by 1.3s of speech)
@@ -41,7 +41,7 @@ Additionally, we will have an unconstrained setting more inline with real world 
 
 ## Baselines
 
-Our baseline will consist of a simple encoder-decoder which takes in a source sentence and the desired speech durations and outputs alternating phones and phoneme durations. Details/code TBA. 
+Our baseline will consist of a simple encoder-decoder which takes in a source sentence and the desired speech durations and outputs alternating phones and phoneme durations. Code to replicate the baseline can be found [here](https://github.com/amazon-science/iwslt-autodub-task).
 
 
 ## Submission
