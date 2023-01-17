@@ -54,6 +54,7 @@ The system's performance will be evaluated in two ways:
   - BLASER
 - Translation latency:
   - Average Lagging
+  - Length Adaptive Average Lagging
   - Average Token Delay
   - Average Proportion
   - Differentiable Average Lagging
@@ -89,14 +90,14 @@ We provide a test-time [Wait-K](https://aclanthology.org/P19-1289/) speech-to-te
 | En -> Zh           | 1.77              | 14.16          |
 | En -> Ja           | 1.82              | 6.63           |
 
-The instruction to reproduce the baseline results can be found [here]().
+The instruction to reproduce the baseline results can be found [here](https://github.com/facebookresearch/fairseq/tree/iwslt2023/examples/simultaneous_translation).
 
 ## Submission
 
 ### Format
 
 Participants can have multiple submissions,
-but can only have one submission for one track (s2t/s2s), one language (de/zh/ja).
+but can only have one submission for one track (`s2t`/`s2s`), one language (`de`/`zh`/`ja`).
 
 One submission should contain the following items:
 
@@ -109,7 +110,7 @@ and uploaded to the google drive (will update soon).
 The name of file should be
 
 ```
-{team_name}_{target_modality}_{target_language}_{latency_regime}.tar.gz
+{team_name}_{target_modality}_{target_language}.tar.gz
 ```
 
 For instance, if one submission is named `meta_text_de.tar.gz`, and `tar -xf meta_text_de.tar.gz` should have the following output
@@ -141,24 +142,21 @@ The docker will start the service of the system, and `simuleval --remote-eval` w
 
 ### MuST-C v2.0 tst-COMMON
 
-The participants are required to submit the output of the system (the `--output` from `simuleval`) for each version of system submitted.
-The latency regime of systems will be categorized based on the output.
-The organizers may also run the systems on tst-COMMON for sanity check.
+The participants are required to submit the output of the system (the `--output` from `simuleval`) on MuST-C v2.0 tst-COMMON.
+The segmented data can be downloaded [here](https://dl.fbaipublicfiles.com/simultaneous_translation/iwslt2023/must-c_v2.0_tst-COMMON.tgz)
+The latency constraint will be check on the MuST-C v2.0 tst-COMMON set.
 
 ### Readme
 
 A `readme` file should contains the following information
 
-- Instruction to run the default system on each track and language direction.
+- Instruction to run the system on each track and language direction.
 - Results on MuST-C v2.0 tst-COMMON of the default system.
 - Any other information needed to run the system
 
-We will provide an example readme based the baseline model.
-Details coming soon!
-
 ### Example
 
-An example of preparing submission with the baseline systems can be found [here](https://github.com/facebookresearch/fairseq/tree/iwslt2023/examples/simultaneous_translation)
+An example of training, evaluating and submission preparation with the baseline systems can be found [here](https://github.com/facebookresearch/fairseq/tree/iwslt2023/examples/simultaneous_translation)
 
 ## Organizers
 
