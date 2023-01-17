@@ -72,10 +72,10 @@ The latency is calculated on detokenized word level for En-De systems and charac
 
 The systems will be ranked by the translation quality within a latency constraint.
 The latency constraint is determined by the latency on MuST-C v2.0 tst-COMMON set.
-The thresholds are determined by the average lagging,
+The constraint is determined by the average lagging,
 but all other latency metrics will be reported.
 Based on analysis on the quality-latency tradeoffs for the baseline systems,
-the thresholds are set as follows:
+for all three languages, the thresholds are set as follows:
 
 - Speech-to-Text Translation: 2 seconds
 - Speech-to-Speech Translation: TBD
@@ -84,11 +84,11 @@ the thresholds are set as follows:
 
 We provide a test-time [Wait-K](https://aclanthology.org/P19-1289/) speech-to-text baseline as follows:
 
-| Language Direction | Latency (seconds) | Quality (BLEU) |
-| ------------------ | ----------------- | -------------- |
-| En -> De           | 1.98              | 14.28          |
-| En -> Zh           | 1.77              | 14.16          |
-| En -> Ja           | 1.82              | 6.63           |
+| Language Direction | Latency (seconds) | Quality (BLEU) | Offline Quality (BLEU) |
+| ------------------ | ----------------- | -------------- | ---------------------- |
+| En -> De           | 1.98              | 14.3           | 23.2                   |
+| En -> Zh           | 1.77              | 14.2           | 18.7                   |
+| En -> Ja           | 1.82              | 6.63           | 11.2                   |
 
 The instruction to reproduce the baseline results can be found [here](https://github.com/facebookresearch/fairseq/tree/iwslt2023/examples/simultaneous_translation).
 
