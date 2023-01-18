@@ -170,7 +170,7 @@ An example of training, evaluating and submission preparation with the baseline 
 - Yun Tang (Meta)
 - Hirofumi Inaguma (Meta)
 - Kevin Tran (Meta)
-- Pengwei (Meta)
+- Pengwei Li (Meta)
 - Mingda Chen (Meta)
 - Xutai Ma (Meta)
 - Juan Pino (Meta)
