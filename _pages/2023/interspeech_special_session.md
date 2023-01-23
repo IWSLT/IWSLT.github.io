@@ -17,7 +17,7 @@ This special session will cover simultaneous and incremental ASR, MT, TTS models
 
 The special session will solicit contributions from different sister communities that we may not otherwise hear from in a venue for speech and audio processing to enrich community discussion on all aspects of simultaneous speech translation. We also welcome papers whose motivations, contributions, or implications highlight issues related to this space that is not commonly addressed at Interspeech, for instance, the use and creation of linguistic resources such as incremental parsers, interpretation corpora, para-linguistic annotations, and knowledge bases. Moreover, the special session encourages submissions that go beyond their technical or empirical contributions and also elaborate on how the work relates to the big picture of simultaneous speech translation and its application in production settings (e.g. efficiency, carbon footprint).
 
-The submission portal will be linked here once opened.
+Papers for the Special Session should have the same format, and be submitted by the same deadline, as regular papers. The submission portal will be linked here once opened.
 {: .notice--info}
 
 
