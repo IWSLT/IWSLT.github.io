@@ -84,10 +84,13 @@ to be released shortly
 Pashto is spoken by approximately forty to sixty million people in the world. It is particularly spoken by the Pashtun people in the south, east and southwest of the country, as well as in the north and northwest Pakistan but also in Iran, Tajikistan and India (Uttar Pradesh and Cashmere) and one of the two official languages of Afghanistan.
 
 <!-- Details description of the data and links to download -->
-This corpus is a collection of 103 hours of Broadcast News with transcriptions in Pashto and translations in French text.
+This corpus is a collection of about 100 hours of Broadcast News with transcriptions in Pashto and translations in French text.
 
 <strong>Obtaining data</strong>
 IWSLT participants may obtain the Pashto-French speech translation data for no cost from ELDA. Please sign <a href="https://docs.google.com/document/d/1RtA2zqg5J-Z1OqJ1lzTzweaZmUqinFey/edit?usp=sharing&ouid=116519656831659480369&rtpof=true&sd=true">this form</a> and email it to mapelli@elda.org.
+
+<strong>Notice</strong>
+For Pashto to French language-pair, we discourage the use of non-public datasets for this language pair. If you do want to use a private dataset, please contact the organizers, to make sure that your dataset does not overlap with the test set.
 
 ### tmh-fra: Tamasheq to French
 to be released shortly
