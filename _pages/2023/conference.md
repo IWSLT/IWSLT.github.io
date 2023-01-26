@@ -97,7 +97,7 @@ The submission portal will open in early 2023.
 - Jan Niehues, KIT, Germany (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Sponsorship Chair)
 - Elizabeth Salesky, JHU, USA (Publication and Website Chair)
-- Atul Kr. Ojha, National University of Ireland Galway, Ireland (Publicity Chair)
+- Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
 <!--- (to be confirmed) - Marta R. Costa-jussà, Meta AI, France (Program Chair) -->
 
 
