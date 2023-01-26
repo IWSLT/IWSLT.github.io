@@ -70,12 +70,12 @@ All datasets have been manually segmented at the utterance level.
 ### ga-eng: Irish to English
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO *ga* code.
 
-IWSLT participants may obtain the Irish-English speech translation data from <a href="#">here</a>. This corpus consists of 15 hours of audio speech data and translations into English text.
+IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-en"> here</a>. Please sign <a href="https://forms.gle/N6KvepNo6gs8BpF56"> this form</a> to get acess and/or password.This corpus consists of 15 hours of audio speech data and translations into English text.
 
 ### mr-hi: Marathi to Hindi 
 Marathi is an Indo-Aryan language which has the ISO code *mr*, and is dominantly spoken in India’s Maharashtra state. It is one of the 22 scheduled languages of India and the official language of Maharashtra and Goa. As per the 2011 Census of India, it has around 83 million speakers which covers 6.86% of the country's total population. Marathi speakers rank third amongst the languages that are spoken in India.
 
-IWSLT participants may obtain the Marathi-Hindi speech translation data without any cost. Please sign <a href="#"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 32 hours of audio speech data from the news domain and translations into Hindi text.
+IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 32 hours of audio speech data from the news domain and translations into Hindi text.
 
 ### mlt-eng: Maltese to English
 to be released shortly
