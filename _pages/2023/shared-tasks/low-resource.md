@@ -27,32 +27,17 @@ Participants are free to participate in any number of language-pairs in this tra
 We encourage both dedicated systems that are designed to a single language-pair, as well as general recipes aimed at improving speech translation broadly for a wide typology of languages. 
 
 
+
 ## General Information for All Language-Pairs
 
 The submission format will be standardized across all language-pairs.
 Participants can submit systems under two conditions:
-* Constrained condition: systems are trained only on the dataset provided by the organizers
-* Unconstrained condition: systems can be trained with any resource, including pre-trained models. 
-
-File names for translation outputs should follow the following structure:  <br>
-```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<src>-<tgt>.txt``` <br>
-e.g.,
-```gmu.st.basic.primary.aeb-eng.txt``` for translation outputs. The language pair is indicated by ```<src>-<tgt>```. 
-
-File names for speech recognition outputs (if applicable) should follow the following structure:  <br>
-```<participant>.asr.<condition>.<primary/contrastive1/contrastive2>.<src>.txt``` <br>
-e.g.,
-```gmu.asr.basic.primary.aeb.txt``` for ASR outputs.
-
-Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized and cased appropriately). 
-The ```<condition>``` tag should be one of the following: 
-“constrained“ or “unconstrained”. 
-If multiple outputs are submitted for one test set, one system must be explicitly marked as primary.
-We ask that the participants include a (very) short system desciption in the submission email.
+- **Constrained condition:** systems are trained only on the dataset provided by the organizers
+- **Unconstrained condition:** systems can be trained with any public resource, including pre-trained models. Multilingual models are allowed. 
 
 Information about data and baselines are provided in the sections specific to each language pair. 
 
-## Data
+## Data and Baselines
 
 ### aeb-eng: Tunisian Arabic to English 
 <!-- Details description of the data and links to download -->
@@ -66,6 +51,11 @@ A new test set (<it>test3</it>) will be provided as part of this 2023 evaluation
 
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
 All datasets have been manually segmented at the utterance level.
+
+The official BLEU score will use lower-case and no punctuation, following the "norm" files in the setup [instructions](https://github.com/kevinduh/iwslt22-dialect). 
+
+For baselines, feel free to build upon the models in ESPnet provided by <a href="https://shinjiwlab.github.io">CMU WAVLab</a>. Here are the recipes for the basic condition: <a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/asr1/RESULTS.md">ASR model</a> and
+<a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/st1/RESULTS.md">ST model</a>. You may also find it helpful to refer to the system description papers in 2022 from <a href="https://aclanthology.org/2022.iwslt-1.27/">CMU</a>, <a href="https://aclanthology.org/2022.iwslt-1.29/">JHU</a>, and <a href="https://aclanthology.org/2022.iwslt-1.28/">ON-TRAC</a>, or the <a href="https://aclanthology.org/2022.iwslt-1.10v2.pdf">2022 findings paper</a>.
 
 ### ga-eng: Irish to English
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO *ga* code.
@@ -102,22 +92,6 @@ There are two main region divisions of Quechua known as Quechua I and Quechua II
 
 IWSLT participants may obtain the public Quechua-Spanish speech translation dataset for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data">IWSLT 2023 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any public websites for the *unconstrained* task. This includes the data set of 60 hours of fully transcribed Quechua audio which can be obtained by emailing j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
 
-## Baselines
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
-Feel free to build upon the baseline models in ESPnet provided by <a href="https://shinjiwlab.github.io">CMU WAVLab</a>. Here are the recipes for the basic condition: <a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/asr1/RESULTS.md">ASR model</a> and
-<a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/st1/RESULTS.md">ST model</a>. The models (for some language pairs) are also downloadable from Huggingface.
-
-If you would like to share your baseline models here for other colleagues to use during the evaluation campaign, please contact the organizers.
-
-You may also find it helpful to refer to the system description papers in 2022 from <a href="https://aclanthology.org/2022.iwslt-1.27/">CMU</a>, <a href="https://aclanthology.org/2022.iwslt-1.29/">JHU</a>, and <a href="https://aclanthology.org/2022.iwslt-1.28/">ON-TRAC</a>, or the <a href="https://aclanthology.org/2022.iwslt-1.10v2.pdf">2022 findings paper</a>.
-
-## Conditions
-Across all tasks, participants can build systems for evaluation in any of these conditions:
-
-- **Constrained condition:** systems are trained only on the datasets provided by the organizers.
-- **Unconstrained condition:** participants may use any **public** resources for the shared task languages (or other languages). Multilingual models are allowed.
-
 
 ## Submission/Evaluation
 <!-- Description of expected submission format and submission instructions -->
@@ -126,9 +100,28 @@ Across all tasks, participants can build systems for evaluation in any of these 
 Please submit your files as ```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<source>-<target>.txt```.
 The evaluation set will include a `segments.txt` (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way. 
 
-Submissions should be compressed in a single .tar.gz file and emailed to x@cs.jhu.edu (where x=kevinduh), with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title; you will receive a confirmation of receipt within a day. 
+Specifically, file names for translation outputs should follow the following structure:  <br>
+```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<src>-<tgt>.txt``` <br>
+e.g.,
+```gmu.st.basic.primary.aeb-eng.txt``` for translation outputs. The language pair is indicated by ```<src>-<tgt>```. 
 
-The official BLEU score will use lower-case and no punctuation, following the "norm" files in the setup [instructions](https://github.com/kevinduh/iwslt22-dialect). 
+File names for speech recognition outputs (if applicable) should follow the following structure:  <br>
+```<participant>.asr.<condition>.<primary/contrastive1/contrastive2>.<src>.txt``` <br>
+e.g.,
+```gmu.asr.basic.primary.aeb.txt``` for ASR outputs.
+
+Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized and cased appropriately). 
+The ```<condition>``` tag should be one of the following: 
+“constrained“ or “unconstrained”. 
+If multiple outputs are submitted for one test set, one system must be explicitly marked as primary.
+We ask that the participants include a (very) short system desciption in the submission email.
+
+All submissions of the same language-pair should be compressed in a single .tar.gz file with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title, and submitted to corresponding organizer for evaluation:
+- <strong> aeb-eng: </strong> x@cs.jhu.edu (where x=kevinduh)
+- <strong> pus-fra, tmh-fra:</strong> TBD
+- <strong>mlt-eng:</strong> TBD
+- <strong>que-spa:</strong> TBD
+- <strong>mr-hi, ga-eng:</strong> TBD
 
 ## Organizers
 <!-- List of organizers' names and affiliations -->
@@ -169,4 +162,4 @@ The official BLEU score will use lower-case and no punctuation, following the "n
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 Although each language-pair is managed by different organizers, please use this common forum for all questions and comments: <iwslt-evaluation-campaign@googlegroups.com> <br>
 
-Please use "Dialectal" and/or "Low-Resource" in your email subject to make it easy for the organizers to monitor the forum.
+Please use "Dialectal/Low-Resource" in your email subject to make it easy for the organizers to monitor the forum.
