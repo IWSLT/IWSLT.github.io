@@ -84,10 +84,10 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
 
 ## Training and Data Conditions
 
-More information about the data will come soon.
-{: .notice--info}
+<!-- More information about the data will come soon.
+{: .notice--info} -->
 
-<!-- ## Training Data and Data Conditions
+## Training Data and Data Conditions
 
  
 
@@ -142,7 +142,7 @@ Note: this list is identical to the one available in the subtitle task. Some tra
   * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
   * [BLOOM(only the small 560m paramter version)](https://huggingface.co/bigscience/bloom-560m#model-details)
 
-* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets -->
+* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
  
 ## Submission Guidelines
 
