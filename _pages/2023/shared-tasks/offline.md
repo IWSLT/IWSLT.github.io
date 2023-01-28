@@ -39,7 +39,6 @@ The system's performance will be evaluated with respect to their capability to p
 <!-- Description the task, the languages, and the type of data -->
 
 
-
 ## Evaluation Conditions
 
 Both cascade and end-to-end models will be evaluated. We kindly ask each participant to specify at submission time if a cascade or an end-to-end model has been used.
@@ -48,11 +47,15 @@ In this task, we use the following definition of end-to-end model:
   * No intermediated discrete representations (source language like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
+All the systems will be evaluated on the combination of the different test tests (depending on the language directions) and on each specific test set. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. For instance, each audio file will have an clear identifier of the type of data: TEDtalk_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
+
 
 ## Test Data
 
 More information about the test data will be released in March.
 {: .notice--info}
+
+
 
 <!-- Details description of the data and links to download -->
 
@@ -89,9 +92,7 @@ More information about the data will come soon.
 
 ## Training Data and Data Conditions
 
- 
-
-A **constrained** setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an **unconstrained** setup without data restrictions is also proposed.
+A **constrained** setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow participants to leverage large language models and medium-sized resources, we propose a **constrained with large language models** conditions, where a specific set of language models is allowed. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an **unconstrained** setup without data restrictions is also proposed.
 
 * **Constrained** training: Under this condition, the allowed training resources are the following ones (note that the list does not include any pre-trained language model):
 
@@ -104,6 +105,8 @@ A **constrained** setup is proposed as the official training data condition, in 
 | speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | V2/V3 | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
 | speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0/v3.0 | A new version of MuST-C en-de has been released!! please chack it out! |
+| speech-to-text-parallel | en | zh | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0 | |
+| speech-to-text-parallel | en | ja | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0 | |
 | speech-to-text-parallel | en | de | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
 | speech-to-text-parallel | en | es | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema below but without subtitle breaks |
 | speech-to-text-parallel | en | es | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
