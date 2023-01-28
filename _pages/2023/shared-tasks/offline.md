@@ -47,7 +47,7 @@ In this task, we use the following definition of end-to-end model:
   * No intermediated discrete representations (source language like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
-All the systems will be evaluated on the combination of the different test tests (depending on the language directions) and on each specific test set. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. For instance, each audio file will have an clear identifier of the type of data: TEDtalk_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
+All the systems will be evaluated on the combination of the different test tests (depending on the language directions) and on each specific test set. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. Each audio file will have a clear identifier of the type of data: e.g. TEDtalk_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
 
 
 ## Test Data
