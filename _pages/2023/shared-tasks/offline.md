@@ -82,9 +82,9 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
   * [tst2020](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2020.en-de.tgz)
 
 
-## Training and Data Conditions
+<!-- ## Training and Data Conditions
 
-<!-- More information about the data will come soon.
+More information about the data will come soon.
 {: .notice--info} -->
 
 ## Training Data and Data Conditions
@@ -128,7 +128,7 @@ A **constrained** setup is proposed as the official training data condition, in 
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task inclusing subtitle boundaries (<eob> and <eol>).
 
-* **Constrained with Large Language Models** training: all the constrained resources plus a restirced selection of large language models. The follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
+* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus a restirced selection of large language models are allowed. The follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
 
   * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
   * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
