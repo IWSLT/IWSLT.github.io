@@ -26,7 +26,7 @@ In addition to answering the question **if the cascade solution is still the dom
   * ACL presentations: a single speaker is presenting on a stage. Although this is similar to the TED talk scenario, the speech translation system needs to deal with non-native speakers, different accents, various recording quality, terminology, and controlled interaction with a second speaker.
   * Press conferences and interviews: in this scenario, two persons interact on different topics. The speech translation system needs to deal with non-native speakers, different accents, controlled interaction with a second speaker, and spontaneous speeche.
 
-Similarly to last year, three language directions are proposed in the offline. Each language direction will be tested in different evaluation scenarios:
+Similarly to last year, three language directions are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
 * English -> German: TED talks, ACL presentations and press conference and interviews.
 * English -> Japanese: TED talks and ACL presentations. 
 * English -> Chinese: TED talks and ACL presentations. 
@@ -51,7 +51,7 @@ In this task, we use the following definition of end-to-end model:
 
 ## Test Data
 
-More information about the test data will be released in January.
+More information about the test data will be released in March.
 {: .notice--info}
 
 <!-- Details description of the data and links to download -->
@@ -127,6 +127,20 @@ A **constrained** setup is proposed as the official training data condition, in 
 | text-monolingual | -- | es | OpenSubtitles with subtitle breaks | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task inclusing subtitle boundaries (<eob> and <eol>).
+
+* **Constrained with Large Language Models** training: all the constrained resources plus a restirced selection of large language models. The follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
+
+  * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
+  * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
+  * [WavLM](https://github.com/microsoft/unilm/tree/master/wavlm)
+  * [SpeechLM](https://github.com/microsoft/unilm/tree/master/speechlm)
+  * [data2vec](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)
+  * [MBART](https://github.com/pytorch/fairseq/blob/main/examples/mbart/README.md)
+  * [MBART50](https://github.com/pytorch/fairseq/tree/main/examples/multilingual#mbart50-models)
+  * [M2M100](https://github.com/pytorch/fairseq/tree/main/examples/m2m_100)
+  * [Delta LM](https://github.com/microsoft/unilm/tree/master/deltalm)
+  * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
+  * [BLOOM(only the small 560m paramter version)](https://huggingface.co/bigscience/bloom-560m#model-details)
 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets -->
  
