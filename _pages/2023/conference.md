@@ -41,11 +41,8 @@ All tasks will follow the same [important dates](#important-dates).
 
 ### Registration
 
-<!---
-Please register for the Evaluation Campaign via the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSc9t26_3oxr1E3HC-aISPaqjCpNI6oz_e7AGUTOf35LDuDDsg/viewform?usp=sf_link).
--->
-Registration for the 2023 Evaluation Campaign will open soon. 
-{: .notice--info}
+
+Please register for the Evaluation Campaign via the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSewDMutBgat38bIvgNwiHBWrJ6NJ7T33XICslfJLzFkRj_mgg/viewform).
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates, community questions and opportunities to receive sponsored cloud computing credits.
 
