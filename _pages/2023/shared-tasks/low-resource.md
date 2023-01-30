@@ -87,8 +87,8 @@ Tamasheq is a variety of Tuareg, a Berber macro-language spoken by nomadic tribe
 This task is about translating spoken Tamasheq into written French. Almost 20 hours of spoken Tamasheq with French translation are **freely** provided by the organizers. 
 A major challenge is that no Tamasheq transcription is provided.
 
- * Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data)
- * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
+ * Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data);
+ * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/);
  * The corpus is described in <a href="https://arxiv.org/abs/2201.05051"> this paper</a>; 
  * A baseline system is available as a <a href="https://speechbrain.github.io"> SpeechBrain </a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>.  
 
