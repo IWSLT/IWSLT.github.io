@@ -93,7 +93,7 @@ A major challenge is that no Tamasheq transcription is provided.
  * A baseline system is available as a <a href="https://speechbrain.github.io"> SpeechBrain </a> recipe <a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here </a>.  
 
 
-Two kinds of submission are possible: **Constrained condition:** and/or **Unconstrained condition:**, following the common rules mentioned above in the *General Information for All Language-Pairs* section.
+Two kinds of submission are possible: **Constrained condition** and/or **Unconstrained condition**, following the common rules mentioned above in the *General Information for All Language-Pairs* section.
 
 Contact: Yannick Estève (Avignon University)
 
