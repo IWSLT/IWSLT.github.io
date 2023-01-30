@@ -83,7 +83,19 @@ IWSLT participants may obtain the Pashto-French speech translation data for no c
 for Pashto to French language-pair, we discourage the use of non-public datasets. If you do want to use a private dataset, please contact the organizers, to make sure that your dataset does not overlap with the test set.
 
 ### tmh-fra: Tamasheq to French
-to be released shortly
+Tamasheq is a variety of Tuareg, a Berber macro-language spoken by nomadic tribes across North Africa in Algeria, Mali, Niger and Burkina Faso. It accounts for approximately 500,000 native speakers, being mostly spoken in Mali and Niger. 
+This task is about translating spoken Tamasheq into written French. Almost 20 hours of spoken Tamasheq with French translation are **freely** provided by the organizers. 
+A major challenge is that no Tamasheq transcription is provided.
+
+ * Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data)
+ * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
+ * The corpus is described in <a href="https://arxiv.org/abs/2201.05051> this paper </a>; 
+ * A baseline system is available as a <a href="https://speechbrain.github.io"> SpeechBrain </a> recipe <a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource> here </a>.  
+
+
+Two kinds of submission are possible: **Constrained condition:** and/or **Unconstrained condition:**, following the common rules mentioned above in the *General Information for All Language-Pairs* section.
+
+Contact: Yannick Estève (Avignon University)
 
 ### que-spa: Quechua to Spanish 
 Quechua is an indigenous language spoken by more than 8 million people in South America. It is mainly spoken in Peru, Ecuador, and Bolivia where the official high-resource language is Spanish. It is a highly inflective language based on its suffixes which agglutinate and found to be similar to other languages like Finnish. The average number of morphemes per word (synthesis) is about two times larger than English. English typically has around 1.5 morphemes per word and Quechua has about 3 morphemes per word. 
@@ -134,7 +146,7 @@ All submissions of the same language-pair should be compressed in a single .tar.
 <strong> pus-fra, tmh-fra:</strong>
 - Souhir Gahbiche (Airbus, France)
 - Khalid Choukri (ELDA, France)
-- Yannick Estève, University of Avignon
+- Yannick Estève, Avignon University
 
 <strong>mlt-eng:</strong>
 - Claudia Borg, University of Malta
