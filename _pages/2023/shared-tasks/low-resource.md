@@ -90,7 +90,7 @@ A major challenge is that no Tamasheq transcription is provided.
  * Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data)
  * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
  * The corpus is described in <a href="https://arxiv.org/abs/2201.05051"> this paper</a>
- * A baseline system is available as a <a href="https://speechbrain.github.io"> SpeechBrain </a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>
+ * A baseline system is available as a <a href="https://speechbrain.github.io"> SpeechBrain </a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>. This system is the one which got the best result during the IWSLT22 edition with a BLEU score of 5.7. 
 
 
 Two kinds of submission are possible: **Constrained condition** and/or **Unconstrained condition**, following the common rules mentioned above in the *General Information for All Language-Pairs* section.
