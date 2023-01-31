@@ -33,7 +33,7 @@ We encourage both dedicated systems that are designed to a single language-pair,
 The submission format will be standardized across all language-pairs.
 Participants can submit systems under two conditions:
 - **Constrained condition:** systems are trained only on the dataset provided by the organizers
-- **Unconstrained condition:** systems can be trained with any public resource, including pre-trained models. Multilingual models are allowed. 
+- **Unconstrained condition:** systems can be trained with any resource, including pre-trained models. Multilingual models are allowed. 
 
 Information about data and baselines are provided in the sections specific to each language pair. 
 
