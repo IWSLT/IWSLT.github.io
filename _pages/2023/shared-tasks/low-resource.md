@@ -82,6 +82,9 @@ IWSLT participants may obtain the Pashto-French speech translation data for no c
 <strong>Notice</strong>
 for Pashto to French language-pair, we discourage the use of non-public datasets. If you do want to use a private dataset, please contact the organizers, to make sure that your dataset does not overlap with the test set.
 
+For baselines, here are the recipes for the basic condition: <a href="[https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/asr1](https://github.com/SouhirG/iwslt2023/tree/main/asr/readme.md">ASR model</a> and
+<a href="https://github.com/SouhirG/iwslt2023/blob/main/mt/readme.md">MT model</a>. They are also downloadable with the dataset.
+
 ### tmh-fra: Tamasheq to French
 Tamasheq is a variety of Tuareg, a Berber macro-language spoken by nomadic tribes across North Africa in Algeria, Mali, Niger and Burkina Faso. It accounts for approximately 500,000 native speakers, being mostly spoken in Mali and Niger. 
 This task is about translating spoken Tamasheq into written French. Almost 20 hours of spoken Tamasheq with French translation are **freely** provided by the organizers. 
