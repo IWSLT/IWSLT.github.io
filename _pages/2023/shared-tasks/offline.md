@@ -85,10 +85,6 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
   * [tst2020](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2020.en-de.tgz)
 
 
-<!-- ## Training and Data Conditions
-
-More information about the data will come soon.
-{: .notice--info} -->
 
 ## Training Data and Data Conditions
 
@@ -104,7 +100,7 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
 | speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | V2/V3 | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
-| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0/v3.0 | A new version of MuST-C en-de has been released!! please chack it out! |
+| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0/v3.0 | A new version of MuST-C en-de has been released!! please check it out! |
 | speech-to-text-parallel | en | zh | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0 | |
 | speech-to-text-parallel | en | ja | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0 | |
 | speech-to-text-parallel | en | de | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
@@ -129,9 +125,9 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | text-monolingual | -- | de | OpenSubtitles with subtitle breaks | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 | text-monolingual | -- | es | OpenSubtitles with subtitle breaks | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
-Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task inclusing subtitle boundaries (<eob> and <eol>).
+Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task including subtitle boundaries (`<eob>` and `<eol>`).
 
-* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus a restirced selection of large language models are allowed. The follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
+* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus a restriced selection of large language models are allowed. The follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
 
   * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
   * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
@@ -143,7 +139,7 @@ Note: this list is identical to the one available in the subtitle task. Some tra
   * [M2M100](https://github.com/pytorch/fairseq/tree/main/examples/m2m_100)
   * [Delta LM](https://github.com/microsoft/unilm/tree/master/deltalm)
   * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
-  * [BLOOM(only the small 560m paramter version)](https://huggingface.co/bigscience/bloom-560m#model-details)
+  * [BLOOM (Note: only the small 560M parameter version)](https://huggingface.co/bigscience/bloom-560m#model-details)
 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
  
