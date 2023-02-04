@@ -78,11 +78,9 @@ The submission portal will open in early 2023.
 | Apr 1-15, 2023 | Evaluation period                            |
 | Apr 24, 2023   | Scientific paper submission deadline         |
 | May 22, 2023   | Notification of acceptance                   |
-| June 6, 2023   | Camera ready paper due                       |
+| May 31, 2023   | Camera ready paper due                       |
 | July 12, 2023  | Pre-recorded video due                       |
 | July 13-14, 2023 | IWSLT conference                           |
-
-<!-- (TBD) | Apr  9, 2023   | System paper submission deadline             | -->
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
