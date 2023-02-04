@@ -54,11 +54,8 @@ All papers may consist of 4 to 8 pages of content with additional pages of refer
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 Accepted papers will be published in the ACL 2023 proceedings and will be presented at the IWSLT conference either orally or as a poster.
 
-<!---
-Please submit scientific papers and system papers via the [submission page](https://www.softconf.com/acl2022/iwslt2022/)
--->
-The submission portal will open in early 2023.
-{: .notice--info}
+
+Please submit scientific papers and system papers through the [submission portal](https://softconf.com/acl2023/iwslt2023/).
 
 
 **Note:**
