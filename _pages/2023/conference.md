@@ -73,7 +73,8 @@ Please submit scientific papers and system papers through the [submission portal
 |----------------|----------------------------------------------|
 | Jan 14, 2023   | Release of shared task training and dev data |
 | Apr 1-15, 2023 | Evaluation period                            |
-| Apr 24, 2023   | Scientific paper submission deadline         |
+| Apr 24, 2023   | Paper submission deadline (all papers)       |
+| Apr 30, 2023   | Systems papers update deadline               |
 | May 22, 2023   | Notification of acceptance                   |
 | May 31, 2023   | Camera ready paper due                       |
 | July 12, 2023  | Pre-recorded video due                       |
