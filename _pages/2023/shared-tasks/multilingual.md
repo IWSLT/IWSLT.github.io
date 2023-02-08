@@ -57,7 +57,7 @@ In order to also encourage the participation of teams equipped with high computa
       <li><a href="https://huggingface.co/bigscience/bloom-560m#model-details">BLOOM (Note: only the smaller 560m parameter version)</a></li></ul>
   </details>
 
-* **Unconstrained**: Any resource (additional datasets or pretrained language models included) can be used, with the exception of evaluation sets 
+* **Unconstrained**: Any resource (additional datasets or pretrained language models included) can be used, with the important exception of evaluation sets and *any* data from ACL 2022 not provided on this page. 
 
 
 ### Development data
