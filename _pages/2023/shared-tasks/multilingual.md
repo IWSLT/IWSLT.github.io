@@ -101,8 +101,8 @@ Training data and any pretrained models used should also be specified in the sub
 
 Translation output will be evaluated using multiple metrics for analysis: translation output using chrF, BLEU, and recent neural metrics, and ASR output using WER. 
 Translation metrics will be calculated with case and punctuation. 
-Official chrF and BLEU scores will be calculated using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz), though we will also compute segment-based scores for analysis. 
 WER will be computed on lowercased text with punctuation and hesitations removed (handled by the scoring script, linked here after data is released). 
+Official metric scores will be calculated using automatic resegmentation of the hypothesis based on the reference transcripts (ASR) or translations (MT) by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). 
 
 ### Ranking
 
