@@ -110,15 +110,16 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
 | text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
 | text-parallel | en | es, zh, de, ja | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training) | v16 | |
-| text-parallel | en | de | [OpenSubtitles](https://shorturl.at/gmuCN) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
-| text-parallel | en | es | [OpenSubtitles](https://shorturl.at/afhot) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | es, zh, de, ja | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) | v2018 | |
+| text-parallel | en | de | [OpenSubtitles](IWSLT23_OPUS_OpenSubtitles_parallel_filtered.de-en.tgz) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | es | [OpenSubtitles](IWSLT23_OPUS_OpenSubtitles_parallel_filtered.en-es.tgz) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
 | text-parallel | en | de | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/de-en.tmx.gz) | v1 | |
 | text-parallel | en | es | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/en-es.tmx.gz) | v1 | |
 | text-parallel | en | es, zh, de, ja | [Tatoeba](https://opus.nlpl.eu/Tatoeba.php) | v2022-03-03 | |
 | text-parallel | en | es | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/en-es.tmx.gz) | v1 | |
 | text-parallel | en | de | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz) | v1 | |
-| text-monolingual | -- | de | OpenSubtitles with subtitle breaks | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
-| text-monolingual | -- | es | OpenSubtitles with subtitle breaks | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](https://drive.google.com/file/d/1LCU_3dff7l88k20BfoPFLydhOil3dtRl/view?usp=sharing_) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](https://drive.google.com/file/d/1xxZnlvF8ds8KBnMnHnRoPzcMP0mRTkuH/view?usp=sharing) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task including subtitle boundaries (`<eob>` and `<eol>`).
 
