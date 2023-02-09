@@ -68,7 +68,9 @@ Marathi is an Indo-Aryan language which has the ISO code *mr*, and is dominantly
 IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 32 hours of audio speech data from the news domain and translations into Hindi text.
 
 ### mlt-eng: Maltese to English
-to be released shortly
+Please fill out <a href="https://forms.office.com/pages/responsepage.aspx?id=vfGpYaB-aECyMbtKa_y3ADtSBzjpn85Mvz9VNgwI-utUQVBGMlBGVzhUVFNKRUQ3RkdVM0ZJMVVJUy4u">this form</a> to request the Maltese-English data for the LowResSLT task. The data is divided into three parts, and we are releasing around 2.5 hours of audio with Maltese transcription and English translation. We are also releasing about 7.5 hours of audio with only Maltese transcription. We will also point to some parallel text corpora for Maltese-English translation.
+
+After filling out this form, you will get the link to download the data as well as an email from us with the link for the dataset, if we update something for the same.
 
 ### pus-fra: Pashto to French 
 Pashto is spoken by approximately forty to sixty million people in the world. It is particularly spoken by the Pashtun people in the south, east and southwest of the country, as well as in the north and northwest Pakistan but also in Iran, Tajikistan and India (Uttar Pradesh and Cashmere) and one of the two official languages of Afghanistan.
