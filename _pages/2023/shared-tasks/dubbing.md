@@ -31,7 +31,7 @@ To make this task accessible for small academic teams with limited training reso
 
 To illustrate, here’s an example in which “hallo! wei gehts?” is translated to “hi! how are you?” such that the output will fit in the desired target speech durations of 0.4s and 1.3s, with a pause in between:
 
-<img src="./dubbing.png" width="1600">
+<img src="./dubbing.png">
 
 
 ## Data
