@@ -178,6 +178,13 @@ img {
     box-shadow: none !important;
 }
 
+.non-resized img {
+    vertical-align: middle;
+    height: auto;
+    width: 1000px;
+    border-radius: 5px;
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
