@@ -31,7 +31,7 @@ To make this task accessible for small academic teams with limited training reso
 
 To illustrate, here’s an example in which “hallo! wei gehts?” is translated to “hi! how are you?” such that the output will fit in the desired target speech durations of 0.4s and 1.3s, with a pause in between:
 
-<img src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png" style="width:1000px !important; height:auto !important;">
+<img src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png" style="max-width:100% !important; height: auto !important;">
 
 ## Data
 
