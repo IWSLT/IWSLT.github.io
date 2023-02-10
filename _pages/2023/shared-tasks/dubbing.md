@@ -30,27 +30,7 @@ Automatic dubbing is a very [difficult/complex task](https://arxiv.org/abs/2212.
 To make this task accessible for small academic teams with limited training resources, we make some simplifications: First, we assume the input speech has already been converted to text using an ASR system and the desired speech/pause times have been extracted from the input speech. Second, to alleviate the challenges of training a TTS model, the output is defined to be [phonemes](https://en.wikipedia.org/wiki/Phoneme) and their durations. These phonemes and durations will be played through [this open-source text-to-speech model](https://github.com/mtresearcher/FastSpeech2) to produce the final speech.
 
 To illustrate, here’s an example in which “hallo! wei gehts?” is translated to “hi! how are you?” such that the output will fit in the desired target speech durations of 0.4s and 1.3s, with a pause in between:
-<div class='fill-screen'><img class='make-it-fit' 
-         src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png'>
-</div>
 
-<img src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png' width="200">
-
-
-
-<img src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png' width="2000">
-
-<img src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png' width="20000">
-
-<img src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png" width=80% height=80%>
-
-<img width="720" alt="dubbing10" src="https://user-images.githubusercontent.com/3534106/218168605-08fc7943-137a-4b61-b2cd-619ef27ce96b.png">
-
-![dubbing60](https://user-images.githubusercontent.com/3534106/218169769-560879d9-c461-48e2-8341-1932ceae3024.png)
-
-<img src="https://user-images.githubusercontent.com/3534106/218169769-560879d9-c461-48e2-8341-1932ceae3024.png">
-
-override stylesheet?
 <img src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png" style="width:1000px !important; height:auto !important;">
 
 ## Data
