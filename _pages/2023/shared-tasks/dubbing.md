@@ -34,6 +34,11 @@ To illustrate, here’s an example in which “hallo! wei gehts?” is translate
          src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png'>
 </div>
 
+<img src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png' width="200">
+
+<img src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png' width="2000">
+
+<img src='https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png' width="20000">
 
 ## Data
 
