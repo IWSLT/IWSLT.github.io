@@ -33,6 +33,8 @@ To illustrate, here’s an example in which “hallo! wei gehts?” is translate
 
 <img src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png" style="width:1000px !important; height:auto !important;">
 
+<img class=“non-resized” src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png">
+
 ## Data
 
 Official training and test data can be found [here](https://github.com/amazon-science/iwslt-autodub-task/tree/main/data).
