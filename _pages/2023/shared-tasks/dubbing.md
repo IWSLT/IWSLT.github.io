@@ -70,6 +70,7 @@ We will also report automatic metrics for each submission, for both machine tran
 * Brian Thompson (AWS AI Labs)
 * Prashant Mathur (AWS AI Labs)
 * Alexandra Chronopoulou (Center for Information and Language Processing, LMU)
+* Proyag Pal (University of Edinburgh)
 
 
 ## Contact
