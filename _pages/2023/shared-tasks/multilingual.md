@@ -94,7 +94,7 @@ Multiple submissions are allowed! If multiple outputs are submitted, one system 
 
 File names should follow the following structure:  
 `<participant>.<constrained/unconstrained>.<primary/contrastive>.<src>-<tgt>.txt`  
-e.g., `jhu.primary.en-de.txt`
+e.g., `jhu.unconstrained.primary.en-de.txt`
   
 Participants should specify in the submission email if their submission uses multilingual models and uses end-to-end or cascaded models for analysis. 
 Training data and any pretrained models used should also be specified in the submission email; if data or pretrained models beyond the list allowed are used, the system should be marked unconstrained and will be ranked separately.
