@@ -141,9 +141,16 @@ mwerSegmenter/segmentBasedOnMWER.sh ${src} ${ref} ${out} ${sys} ${tgt} ${out}.sg
 sed -e "/<[^>]*>/d" ${out}.sgm > ${out}.txt
 
 conda activate py3
-sacrebleu ${ref%.xml}.txt -i ${out}.txt -m chrf bleu
+sacrebleu ${ref%.xml}.txt -i ${out}.txt -m chrf
 ```
 *Note: unfortunately mwerSegmenter requires python2, and sacrebleu requires python3. You may need to switch environments between steps as shown.* 
+
+#### Notes on Metric Tokenizers
+
+We use chrF as the primary metric which enables use of the same metric and tokenization (sacrebleu default `13a`) for all target languages. 
+For some languages, in particular those which do not mark whitespace, it can be recommended to use language-specific tokenization to create tokens for BLEU (Chinese, Japanese, Korean). 
+We will evaluate chrF *without* language-specific tokenizers. For chrF, these tokenizers should not change the score. 
+For BLEU, we *will* use the recommended language-specific tokenizers for Chinese, Japanese, and Korean in sacrebleu (`zh`, `ja-mecab`, `ko-mecab`) -- note, though, that BLEU will be an unofficial metric. 
 
 
 ## Organizers
