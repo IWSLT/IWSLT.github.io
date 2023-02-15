@@ -113,6 +113,7 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | text-parallel | en | es, zh, de, ja | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) | v2018 | |
 | text-parallel | en | de | [OpenSubtitles](IWSLT23_OPUS_OpenSubtitles_parallel_filtered.de-en.tgz) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
 | text-parallel | en | es | [OpenSubtitles](IWSLT23_OPUS_OpenSubtitles_parallel_filtered.en-es.tgz) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | ja | [JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) | | |
 | text-parallel | en | de | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/de-en.tmx.gz) | v1 | |
 | text-parallel | en | es | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/en-es.tmx.gz) | v1 | |
 | text-parallel | en | es, zh, de, ja | [Tatoeba](https://opus.nlpl.eu/Tatoeba.php) | v2022-03-03 | |
