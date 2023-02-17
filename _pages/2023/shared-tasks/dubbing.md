@@ -48,7 +48,7 @@ The test data consist of videos of native speakers reading individual German sen
 
 In order to make the shared task approachable for small academic teams, we will have a constrained setting in which participants may use only the official data listed above and may not use any pretrained models.
 
-Additionally, we will have an unconstrained setting more inline with real world conditions where additional speech and parallel data is likely available.  In the unconstrained setting, participants may use any publicly available datasets or pre-trained models, as long as they are licensed for research purposes. 
+Additionally, we will have an unconstrained setting more inline with real world conditions where additional speech and parallel data is likely available.  In the unconstrained setting, participants may use any public or private datasets or pre-trained models. 
 
 
 ## Baseline
