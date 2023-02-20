@@ -51,7 +51,9 @@ In addition, the following training data is allowed for the purpose of building 
 
 ## Development and Test Data
 
-Development and test data will be released later.
+[Development](http://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/datasets/GigaS2S/EN2ZH/DEV.zip) data can be download, which includes 5715 parallel En2Zh audio segments.
+
+Test data will be released later.
 
 <!-- Details description of the data and links to download -->
 
