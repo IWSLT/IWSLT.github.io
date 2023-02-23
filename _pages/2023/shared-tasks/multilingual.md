@@ -138,10 +138,10 @@ sys=baseline
 grep "<seg id" ${ref} | sed -e "s/<[^>]*>//g" > ${ref%.xml}.txt
 
 mwerSegmenter/segmentBasedOnMWER.sh ${src} ${ref} ${out} ${sys} ${tgt} ${out}.sgm no_normalize 1
-sed -e "/<[^>]*>/d" ${out}.sgm > ${out}.txt
+sed -e '/^<\/\?seg\|^<\/\?doc\|^<\/\?tstset/d' ${out}.sgm > ${out}.final
 
 conda activate py3
-sacrebleu ${ref%.xml}.txt -i ${out}.txt -m chrf
+sacrebleu ${ref%.xml}.txt -i ${out}.final -m chrf
 ```
 *Note: unfortunately mwerSegmenter requires python2, and sacrebleu requires python3. You may need to switch environments between steps as shown.* 
 
