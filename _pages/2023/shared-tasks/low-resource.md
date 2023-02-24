@@ -107,7 +107,7 @@ Quechua is an indigenous language spoken by more than 8 million people in South 
 
 There are two main region divisions of Quechua known as Quechua I and Quechua II. This data set consists of two main types of Quechua spoken in Ayacucho, Peru (Quechua Chanka ISO:quy) and Cusco, Peru (Quechua Collao ISO:quz) which are both part of Quechua II and, thus, considered a “southern” languages. We label the data set with **que** - the ISO norm for Quechua II mixtures.
 
-IWSLT participants may obtain the public Quechua-Spanish speech translation dataset for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data">IWSLT 2023 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any public websites for the *unconstrained* task. This includes the data set of 60 hours of fully transcribed Quechua audio which can be obtained by emailing j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
+IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data">IWSLT 2023 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any public websites for the *unconstrained* task. This includes the data set of 60 hours of fully transcribed Quechua audio which can be obtained by emailing j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
 
 
 ## Submission/Evaluation
