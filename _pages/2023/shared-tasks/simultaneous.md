@@ -38,7 +38,7 @@ We want to highlight the differences with respect to last edition:
 
 ## Data
 
-The data condition for this task is constrained condition. The list of allowed data can be found [here](constrainedData.md).
+The data condition for this task is "constrained with pretrained models". The list of allowed data and pretrained models can be found [here](https://iwslt.org/2023/multilingual#training-data).
 
 ## Evaluation
 
