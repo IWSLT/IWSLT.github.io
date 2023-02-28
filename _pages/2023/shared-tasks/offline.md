@@ -26,6 +26,11 @@ In addition to answering the question **if the cascade solution is still the dom
   * ACL presentations: a single speaker is presenting on a stage. Although this is similar to the TED talk scenario, the speech translation system needs to deal with non-native speakers, different accents, various recording quality, terminology, and controlled interaction with a second speaker.
   * Press conferences and interviews: in this scenario, two persons interact on different topics. The speech translation system needs to deal with non-native speakers, different accents, controlled interaction with a second speaker, and spontaneous speeche.
 
+Similarly to last year, three language directions are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
+* English -> German: TED talks, ACL presentations and press conference and interviews.
+* English -> Japanese: TED talks and ACL presentations. 
+* English -> Chinese: TED talks and ACL presentations. 
+
   
 The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best performing submission of each participant.
 <!-- The guidelines for generating the human translation for TED talks were modified recently, in order to produce shorter translations that better fit for subtitling. Since this task focuses on speech translation without additional constraints, we will produce an additional reference that is generated without additional constraints for the human translators as we did last year. -->
@@ -42,11 +47,15 @@ In this task, we use the following definition of end-to-end model:
   * No intermediated discrete representations (source language like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
+All the systems will be evaluated on the combination of the different test tests (depending on the language directions) and on each specific test set. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. Each audio file will have a clear identifier of the type of data: e.g. TEDtalk_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
+
 
 ## Test Data
 
-More information about the test data will be released in January.
+More information about the test data will be released in March.
 {: .notice--info}
+
+
 
 <!-- Details description of the data and links to download -->
 
@@ -76,16 +85,10 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
   * [tst2020](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2020.en-de.tgz)
 
 
-## Training and Data Conditions
 
-More information about the data will come soon.
-{: .notice--info}
+## Training Data and Data Conditions
 
-<!-- ## Training Data and Data Conditions
-
- 
-
-A **constrained** setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an **unconstrained** setup without data restrictions is also proposed.
+A "**constrained**" setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow participants to leverage large language models and medium-sized resources, we propose a "**constrained with large language models**" conditions, where a specific set of language models is allowed. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an "**unconstrained**" setup without data restrictions is also proposed.
 
 * **Constrained** training: Under this condition, the allowed training resources are the following ones (note that the list does not include any pre-trained language model):
 
@@ -95,34 +98,47 @@ A **constrained** setup is proposed as the official training data condition, in 
 | speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used
 | speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
-| speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | V2/V3 | |
+| speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | v2/v3 | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
-| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0/v3.0 | A new version of MuST-C en-de has been released!! please chack it out! |
-| speech-to-text-parallel | en | de | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
+| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0/v3.0 | A new version of MuST-C en-de has been released!! please check it out! |
+| speech-to-text-parallel | en | ja, zh | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0 | |
+| speech-to-text-parallel | en | de, es | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
 | speech-to-text-parallel | en | es | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema below but without subtitle breaks |
-| speech-to-text-parallel | en | es | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
 | speech-to-text-parallel | en | de | [Speech Translation TED corpus](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/corpus/iwslt-corpus.zip) | na | |
-| speech-to-text-parallel | en | de | [CoVoST](https://github.com/facebookresearch/covost) | v2 | only German translation, no English transcription |
-| speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
-| speech-to-text-parallel | en | es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| speech-to-text-parallel | en | de, ja, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
+| speech-to-text-parallel | en | de, es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
 | text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
-| text-parallel | en | de | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v16.de-en.tsv.gz) | v16 | |
-| text-parallel | en | es | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v16.en-es.tsv.gz) | v16 | |
-| text-parallel | en | de | [OpenSubtitles](https://shorturl.at/gmuCN) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
-| text-parallel | en | es | [OpenSubtitles](https://shorturl.at/afhot) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | es, zh, de, ja | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training) | v16 | |
+| text-parallel | en | es, zh, de, ja | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) | v2018 | |
+| text-parallel | en | de | [OpenSubtitles](IWSLT23_OPUS_OpenSubtitles_parallel_filtered.de-en.tgz) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | es | [OpenSubtitles](IWSLT23_OPUS_OpenSubtitles_parallel_filtered.en-es.tgz) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | ja | [JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) | | |
 | text-parallel | en | de | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/de-en.tmx.gz) | v1 | |
 | text-parallel | en | es | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/en-es.tmx.gz) | v1 | |
-| text-parallel | en | es | [Tatoeba](https://object.pouta.csc.fi/OPUS-Tatoeba/v2022-03-03/tmx/en-es.tmx.gz) | v2022-03-03 | |
-| text-parallel | en | de | [Tatoeba](https://object.pouta.csc.fi/OPUS-Tatoeba/v2022-03-03/tmx/de-en.tmx.gz) | v2022-03-03 | |
+| text-parallel | en | es, zh, de, ja | [Tatoeba](https://opus.nlpl.eu/Tatoeba.php) | v2022-03-03 | |
 | text-parallel | en | es | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/en-es.tmx.gz) | v1 | |
 | text-parallel | en | de | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz) | v1 | |
-| text-monolingual | -- | de | OpenSubtitles with subtitle breaks | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
-| text-monolingual | -- | es | OpenSubtitles with subtitle breaks | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](https://drive.google.com/file/d/1LCU_3dff7l88k20BfoPFLydhOil3dtRl/view?usp=sharing_) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](https://drive.google.com/file/d/1xxZnlvF8ds8KBnMnHnRoPzcMP0mRTkuH/view?usp=sharing) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
-Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task inclusing subtitle boundaries (<eob> and <eol>).
+Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task including subtitle boundaries (`<eob>` and `<eol>`).
 
-* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets -->
+* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus a restriced selection of large language models are allowed. The follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
+
+  * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
+  * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
+  * [WavLM](https://github.com/microsoft/unilm/tree/master/wavlm)
+  * [SpeechLM](https://github.com/microsoft/unilm/tree/master/speechlm)
+  * [data2vec](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)
+  * [MBART](https://github.com/pytorch/fairseq/blob/main/examples/mbart/README.md)
+  * [MBART50](https://github.com/pytorch/fairseq/tree/main/examples/multilingual#mbart50-models)
+  * [M2M100](https://github.com/pytorch/fairseq/tree/main/examples/m2m_100)
+  * [Delta LM](https://github.com/microsoft/unilm/tree/master/deltalm)
+  * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
+  * [BLOOM (Note: only the small 560M parameter version)](https://huggingface.co/bigscience/bloom-560m#model-details)
+
+* **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
  
 ## Submission Guidelines
 

@@ -41,11 +41,8 @@ All tasks will follow the same [important dates](#important-dates).
 
 ### Registration
 
-<!---
-Please register for the Evaluation Campaign via the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSc9t26_3oxr1E3HC-aISPaqjCpNI6oz_e7AGUTOf35LDuDDsg/viewform?usp=sf_link).
--->
-Registration for the 2023 Evaluation Campaign will open soon. 
-{: .notice--info}
+
+Please register for the Evaluation Campaign via the [registration form](https://docs.google.com/forms/d/e/1FAIpQLSewDMutBgat38bIvgNwiHBWrJ6NJ7T33XICslfJLzFkRj_mgg/viewform).
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates, community questions and opportunities to receive sponsored cloud computing credits.
 
@@ -57,11 +54,8 @@ All papers may consist of 4 to 8 pages of content with additional pages of refer
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 Accepted papers will be published in the ACL 2023 proceedings and will be presented at the IWSLT conference either orally or as a poster.
 
-<!---
-Please submit scientific papers and system papers via the [submission page](https://www.softconf.com/acl2022/iwslt2022/)
--->
-The submission portal will open in early 2023.
-{: .notice--info}
+
+Please submit scientific papers and system papers through the [submission portal](https://softconf.com/acl2023/iwslt2023/).
 
 
 **Note:**
@@ -79,13 +73,12 @@ The submission portal will open in early 2023.
 |----------------|----------------------------------------------|
 | Jan 14, 2023   | Release of shared task training and dev data |
 | Apr 1-15, 2023 | Evaluation period                            |
-| Apr 24, 2023   | Scientific paper submission deadline         |
+| Apr 24, 2023   | Paper submission deadline (all papers)       |
+| Apr 30, 2023   | System papers update deadline               |
 | May 22, 2023   | Notification of acceptance                   |
-| June 6, 2023   | Camera ready paper due                       |
+| May 31, 2023   | Camera ready paper due                       |
 | July 12, 2023  | Pre-recorded video due                       |
 | July 13-14, 2023 | IWSLT conference                           |
-
-<!-- (TBD) | Apr  9, 2023   | System paper submission deadline             | -->
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
@@ -97,7 +90,7 @@ The submission portal will open in early 2023.
 - Jan Niehues, KIT, Germany (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Sponsorship Chair)
 - Elizabeth Salesky, JHU, USA (Publication and Website Chair)
-- Atul Kr. Ojha, National University of Ireland Galway, Ireland (Publicity Chair)
+- Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
 <!--- (to be confirmed) - Marta R. Costa-jussà, Meta AI, France (Program Chair) -->
 
 

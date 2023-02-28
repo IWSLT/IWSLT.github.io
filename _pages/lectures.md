@@ -9,6 +9,22 @@ The ISCA SIGSLT lecture series is held periodically on Zoom, with recordings pos
 Zoom links are distributed through the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
 
 
+## Challenges and Approaches in Distant Speech Recognition
+Binh Nguyen, PhD student at Karlsruhe Institute of Technology in Germany.
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Mon 23 Jan 2023, 17:00 UTC [(2am JST / 6pm CEST / 12pm EST / 9am PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20230123T170000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://youtu.be/gmPe9dvpZZc){:target="_blank"}  
+
+**Abstract:**  
+In ideal conditions with a closed speaking microphone, current Automatic Speech Recognition (ASR) systems can surpass the recognition performance of humans. However, in real-world environments with intrusive noise, reverberation, and multiple speakers, ASR systems are confronted with complex acoustic conditions, leading to a dramatic drop in model performance. In this presentation, we aim to provide an overview of the challenges of Distant Speech Recognition, whereby speech contamination severely impacts speech recognition accuracy. Corresponding to each challenge, we also discuss the various machine learning approaches to address it and the open challenges in this field.
+
+**Bio:**  
+Binh Nguyen is a Ph.D. student at the Karlsruhe Institute of Technology in Germany. His current research centers on the field of Distant Speech Recognition. In addition to his research, Binh is an active member of GDEs in Machine Learning, where he is proud to share his open sources with the speech and language processing community.
+
+
 ## Learning Shared Representations for Translation in Low-Resource Conditions
 Danni Liu, PhD student at Karlsruhe Institute of Technology in Germany.
 
