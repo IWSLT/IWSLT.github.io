@@ -38,7 +38,7 @@ We want to highlight the differences with respect to last edition:
 
 ## Data
 
-We will adapt the unconstrained data condition, including all the available data, pre-training models, and proprietary data
+The data condition for this task is constrained condition. The list of allowed data can be found [here](constrainedData.md).
 
 ## Evaluation
 
@@ -78,7 +78,7 @@ Based on analysis on the quality-latency tradeoffs for the baseline systems,
 for all three languages, the thresholds are set as follows:
 
 - Speech-to-Text Translation: 2 seconds
-- Speech-to-Speech Translation: TBD
+- Speech-to-Speech Translation: 2.5 seconds
 
 ## Baselines
 
