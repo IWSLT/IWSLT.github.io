@@ -84,15 +84,55 @@ Please submit scientific papers and system papers through the [submission portal
 **Note:** All deadlines are 11:59PM UTC-12:00.
 {: .notice--warning}
 
+
 ## Organizers
+- Marine Carpuat, University of Maryland, USA (Program Chair) 
 - Marcello Federico, AWS AI Labs, USA (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
 - Jan Niehues, KIT, Germany (Evaluation Chair)
 - Sebastian Stüker, KIT, Germany (Sponsorship Chair)
 - Elizabeth Salesky, JHU, USA (Publication and Website Chair)
 - Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
-<!--- (to be confirmed) - Marta R. Costa-jussà, Meta AI, France (Program Chair) -->
 
+
+## Program Committee
+
+- Sweta Agrawal, University of Maryland
+- Duygu Ataman, New York University
+- Laurent Besacier, Naver Labs
+- Roldano Cattoni, Foundazione Bruno Kessler
+- Alexandra Chronopoulou, LMU Munich
+- Josep Maria Crego, Systran
+- Mattia Di Gangi, AppTek
+- Qianqian Dong, ByteDance AI Lab
+- Akiko Eriguchi, Microsoft
+- Carlos Escolano, Polytechnic University of Catalonia
+- Markus Freitag, Google
+- Hirofumi Inaguma, Meta AI
+- Tom Ko, ByteDance AI Lab
+- Surafel M. Lakew, Amazon AI
+- Yves Lepage, Waseda University
+- Xutai Ma, Meta AI
+- Wolfgang Macherey, Google
+- Prashant Mathur, Amazon AI
+- Evgeny Matusov, AppTek
+- Kenton Murray, Johns Hopkins University
+- Maria Nadejde, Amazon Web Services
+- Matteo Negri, Fundazione Bruno Kessler
+- Xing Niu, Amazon AI
+- Raghavendra Reddy Pappagari, Johns Hopkins University
+- Juan Pino, Meta
+- Elijah Rippeth, University of Maryland
+- Elizabeth Salesky, Johns Hopkins University
+- Rico Sennrich, University of Zurich
+- Matthias Sperber, Apple
+- Sebastian Stüker, Zoom
+- Katsuhito Sudoh, Nara Institute of Science and Technology
+- Brian Thompson, Amazon AWS AI
+- Marco Turchi, Zoom
+- David Vilar, Google
+- Changhan Wang, Meta AI
+- Krzysztof Wolk, Polish-Japanese Institute of Information Technology
 
 
 ## Sponsorship Opportunities
