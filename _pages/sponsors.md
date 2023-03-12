@@ -12,6 +12,10 @@ classes: wide
 ### Diamond
 
 <div class="card">
+<a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
+</div>     
+
+<div class="card">
 <a href="https://translated.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/translated.png" alt="Translated" style="width:90%"/></a>
 </div>     
 
