@@ -137,7 +137,7 @@ All submissions of the same language-pair should be compressed in a single .tar.
 - <strong> aeb-eng: </strong> x@cs.jhu.edu (where x=kevinduh)
 - <strong> pus-fra, tmh-fra:</strong> TBD
 - <strong>mlt-eng:</strong> TBD
-- <strong>que-spa:</strong> TBD
+- <strong>que-spa:</strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
 - <strong>mr-hi, ga-eng:</strong> TBD
 
 ## Organizers
