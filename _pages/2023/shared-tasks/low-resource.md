@@ -135,10 +135,12 @@ We ask that the participants include a (very) short system desciption in the sub
 
 All submissions of the same language-pair should be compressed in a single .tar.gz file with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title, and submitted to corresponding organizer for evaluation:
 - <strong> aeb-eng: </strong> x@cs.jhu.edu (where x=kevinduh)
-- <strong> pus-fra, tmh-fra:</strong> TBD
-- <strong>mlt-eng:</strong> TBD
-- <strong>que-spa:</strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
-- <strong>mr-hi, ga-eng:</strong> TBD
+- <strong> pus-fra: </strong> souhir.gahbiche@airbus.com and antoine.thiol@airbus.com
+- <strong> tmh-fra: </strong> TBD
+- <strong> mlt-eng: </strong> TBD
+- <strong> que-spa: </strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
+- <strong> mr-hi: </strong> TBD
+- <strong> ga-eng: </strong> TBD
 
 ## Organizers
 <!-- List of organizers' names and affiliations -->
