@@ -94,13 +94,6 @@ We will provide baselines for the **constrained supervised task** based on the t
 
 Packages should be organized per source-target language pair, per data setting, and per test set (e.g. `./EN-KO/constrained/blind-test/` or `./EN-KO/constrained/flores-test/`).
 Each directory should include:
-
-* README.md with the following information
-    * Brief description of each system submitted, including which system they prefer for final evaluation by the organizers (marked primary)
-    * Training data conditions (constrained/unconstrained; full/zero-shot)
-    * List of the resources used for training the system
-    * Institution and contact person
-    * Your consent to release the system outputs under MIT license for future research and human evaluation
 * Source and system output files for the formality control test set
     * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized, detruecased) 
     * For each system, one output file for each formality level, named `formality-control-[id].[formality-level].[target]` (where id is used to distinguish if several approaches are submitted). Example: `formality-control-1.formal.ko`
@@ -108,7 +101,15 @@ Each directory should include:
     * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized, detruecased). One output file per system (corresponding to a generic formality level), named `formality-control-[id].flores.[target]` (where id is used to distinguish if several approaches are submitted). 
 * MIT license for the system outputs
 
- Submissions should be emailed to the address `sweagraw@umd.edu` and `erip@umd.edu` with the subject line: `IWSLT2023 Formality-Control Submission`. In addition to the system outputs, participants are also asked to submit the [automatic evaluation](https://iwslt.org/2023/formality#evaluation) scores for their system(s). We also invite participants to submit a paper describing their system(s) via the conference submission page.
+The top-level directory should also include a README.md with the following information
+* Brief description of each system submitted, including which system they prefer for final evaluation by the organizers (marked primary)
+* Training data conditions (constrained/unconstrained; full/zero-shot)
+* List of the resources used for training the system
+* [Automatic evaluation](https://iwslt.org/2023/formality#evaluation) scores for their system(s)
+* Institution and contact person
+* Your consent to release the system outputs under MIT license for future research and human evaluation
+
+ Submissions should be emailed to the address `sweagraw@umd.edu` and `erip@umd.edu` with the subject line: `IWSLT2023 Formality-Control Submission`. We also invite participants to submit a paper describing their system(s) via the conference submission page.
 
 ## Evaluation
 
