@@ -89,7 +89,7 @@ Links to the baselines to be used (descriptions, publications and/or links to mo
 
 Submissions should be compressed into a single .tar.gz file and emailed [here](mailto:iwslt.multilingual@gmail.com).  
 Translation into all 10 target languages is expected for official ranking, though we also encourage submissions to a subset of language pairs, and strongly encourage all participants to also submit English ASR for analysis.  
-Submissions should consist of plaintext files for each language pair with one sentence per line, pre-formatted for scoring (detokenized).
+Submissions should consist of plaintext files for each language pair with one sentence per line, pre-formatted for scoring (detokenized!).
 Multiple submissions are allowed! If multiple outputs are submitted, one system must be explicitly marked as **primary**, or the submission with the latest timestamp will be treated as primary.  
 
 File names should follow the following structure:  
@@ -132,7 +132,7 @@ Then, given raw text translation output, run mwerSegmenter to segment it to matc
 tgt=de
 src=IWSLT.ACLdev2023/text/IWSLT.ACL.ACLdev2023.en-xx.en.xml
 ref=IWSLT.ACLdev2023/text/IWSLT.ACL.ACLdev2023.en-xx.${tgt}.xml
-out=outs/IWSLT.ACLdev2023.en-de.hyp
+out=outs/IWSLT.ACLdev2023.en-${tgt}.hyp
 sys=baseline
 
 grep "<seg id" ${ref} | sed -e "s/<[^>]*>//g" > ${ref%.xml}.txt
@@ -147,10 +147,13 @@ sacrebleu ${ref%.xml}.txt -i ${out}.final -m chrf
 
 #### Notes on Metric Tokenizers
 
-We use chrF as the primary metric which enables use of the same metric and tokenization (sacrebleu default `13a`) for all target languages. 
-For some languages, in particular those which do not mark whitespace, it can be recommended to use language-specific tokenization to create tokens for BLEU (Chinese, Japanese, Korean). 
-We will evaluate chrF *without* language-specific tokenizers. For chrF, these tokenizers should not change the score. 
-For BLEU, we *will* use the recommended language-specific tokenizers for Chinese, Japanese, and Korean in sacrebleu (`zh`, `ja-mecab`, `ko-mecab`) -- note, though, that BLEU will be an unofficial metric. 
+We use chrF as the primary metric which enables use of the same metric for all target languages. 
+For some languages, in particular those which do not mark whitespace, it can be recommended to use language-specific tokenization to calculate BLEU (Chinese, Japanese, Korean). 
+Similarly, mwerSegmenter uses whitespace and segment boundaries for resegmentation, which for these languages may require character-level tokenization or language-specific tokenization. 
+We will use the language-specific tokenizers recommended in sacrebleu (`zh`, `ja-mecab`, `ko-mecab`) for Chinese, Japanese, and Korean -- note, though, that BLEU will be an unofficial metric.
+For all other languages we will use default metric tokenization (`13a` in sacrebleu, XLM-R tokenization for COMET). 
+For chrF, language-specific tokenization should not change the score.
+It is important that you submit detokenized ASR and MT outputs so that metric tokenization can be appropriately.
 
 
 ## Organizers
