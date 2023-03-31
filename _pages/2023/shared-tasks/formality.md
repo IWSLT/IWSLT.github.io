@@ -92,7 +92,7 @@ We will provide baselines for the **constrained supervised task** based on the t
 
 <!-- Description of expected submission format and submission instructions -->
 
-Submissions should be packed in a compressed file with the following naming convention: `formality-control_[participant-name].tar.gz`. Packages should be organized per source-target language pair, per data setting, and per test set (e.g. `./EN-IT/constrained/formality/blind-test/`).
+Submissions should be packed in a compressed file with the following naming convention: `formality-control_[participant-name].tar.gz`. Packages should be organized per source-target language pair, per data setting, and per test set (e.g. `./EN-KO/constrained/blind-test/` or `./EN-KO/constrained/flores-test/`).
 
 Each directory should include:
 * Source and system output files for the formality control test set
