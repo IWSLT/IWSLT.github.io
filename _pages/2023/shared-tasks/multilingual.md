@@ -68,6 +68,12 @@ We provide the full wav files to enable research into alternative segmentation m
 
 The development data is released [here](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-xx/IWSLT-SLT.ACLdev2023.en-xx.tgz).
 
+### Evaluation data
+
+The blind evaluation data follows the same format as above. References will be released after the eval period. 
+
+The evaluation data is released [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/esalesk1_jh_edu/ERCOi9DV57FBhE56BpMFOY0BAgvKpimZzRPgUr8LOGHh2w?e=99Tea1).
+
 
 ## Languages
 
@@ -153,7 +159,7 @@ Similarly, mwerSegmenter uses whitespace and segment boundaries for resegmentati
 We will use the language-specific tokenizers recommended in sacrebleu (`zh`, `ja-mecab`, `ko-mecab`) for Chinese, Japanese, and Korean -- note, though, that BLEU will be an unofficial metric.
 For all other languages we will use default metric tokenization (`13a` in sacrebleu, XLM-R tokenization for COMET). 
 For chrF, language-specific tokenization should not change the score.
-It is important that you submit detokenized ASR and MT outputs so that metric tokenization can be appropriately.
+It is important that you submit detokenized ASR and MT outputs so that metric tokenization can be applied appropriately.
 
 
 ## Organizers
