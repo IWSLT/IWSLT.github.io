@@ -65,7 +65,9 @@ IWSLT participants may obtain the Irish-English speech translation data  from <a
 ### mr-hi: Marathi to Hindi 
 Marathi is an Indo-Aryan language which has the ISO code *mr*, and is dominantly spoken in India’s Maharashtra state. It is one of the 22 scheduled languages of India and the official language of Maharashtra and Goa. As per the 2011 Census of India, it has around 83 million speakers which covers 6.86% of the country's total population. Marathi speakers rank third amongst the languages that are spoken in India.
 
-IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 32 hours of audio speech data from the news domain and translations into Hindi text.
+IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 30 hours of audio speech data from the news domain and translations into Hindi text.
+
+* Participants can get the additional Marathi audio data (with transcription) from here: [Common Voice](https://commonvoice.mozilla.org/en/datasets), [OpenSLR](https://www.openslr.org/64/) and [Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)
 
 ### mlt-eng: Maltese to English
 Please fill out <a href="https://forms.office.com/pages/responsepage.aspx?id=vfGpYaB-aECyMbtKa_y3ADtSBzjpn85Mvz9VNgwI-utUQVBGMlBGVzhUVFNKRUQ3RkdVM0ZJMVVJUy4u">this form</a> to request the Maltese-English data for the LowResSLT task. The data is divided into three parts, and we are releasing around 2.5 hours of audio with Maltese transcription and English translation. We are also releasing about 7.5 hours of audio with only Maltese transcription. We will also point to some parallel text corpora for Maltese-English translation.
@@ -141,8 +143,8 @@ All submissions of the same language-pair should be compressed in a single .tar.
 - <strong> tmh-fra: </strong> TBD
 - <strong> mlt-eng: </strong> TBD
 - <strong> que-spa: </strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
-- <strong> mr-hi: </strong> TBD
-- <strong> ga-eng: </strong> TBD
+- <strong> mr-hi: </strong> [The test data](https://github.com/panlingua/iwslt2023_mr-hi/test/) are now availabile. As earlier mentioned, submission file should consist of plaintext file(s) with one translation by line, in the same order as the one given in the segments file [here](https://github.com/panlingua/iwslt2023_mr-hi/test/stamped.tsv). Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
+- <strong> ga-eng: </strong> Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
 
 ## Organizers
 <!-- List of organizers' names and affiliations -->
