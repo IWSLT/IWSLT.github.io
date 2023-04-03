@@ -143,7 +143,7 @@ All submissions of the same language-pair should be compressed in a single .tar.
 - <strong> tmh-fra: </strong> TBD
 - <strong> mlt-eng: </strong> TBD
 - <strong> que-spa: </strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
-- <strong> mr-hi: </strong> [The test data](https://github.com/panlingua/iwslt2023_mr-hi/test/) are now availabile. As earlier mentioned, submission file should consist of plaintext file(s) with one translation by line, in the same order as the one given in the segments file [here](https://github.com/panlingua/iwslt2023_mr-hi/test/stamped.tsv). Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
+- <strong> mr-hi: </strong> The test data are now availabile. As earlier mentioned, submission file should consist of plaintext file(s) with one translation by line, in the same order as the one given in the segments file [here](https://github.com/panlingua/iwslt2023_mr-hi/test/stamped.tsv). Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
 - <strong> ga-eng: </strong> Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
 
 ## Organizers
