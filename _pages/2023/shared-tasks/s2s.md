@@ -49,18 +49,13 @@ In addition, the following training data is allowed for the purpose of building 
 - [GigaS2S](https://github.com/SpeechTranslation/GigaS2S): target speech for the Chinese target text of [GigaST](https://arxiv.org/abs/2204.03939) which has been synthesized using an in-house TTS model.  The source speech can be obtained from [GigaSpeech](https://arxiv.org/abs/2106.06909).
 - [aishell_3](https://www.aishelltech.com/aishell_3): multi-speaker Chinese TTS dataset.
 
-## Development and Test Data
+## Development Data
 
 [Development](http://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/datasets/GigaS2S/EN2ZH/DEV.zip) data can be download, which includes 5715 parallel En2Zh audio segments.
 
-Test data will be released later.
+## Test Data
 
-<!-- Details description of the data and links to download -->
-
-
-## Baselines
-
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+The [blind evaluation](http://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/datasets/GigaS2S/EN2ZH/TEST.zip) data can be downloaded now. The test set contains 2000 wav files named 0000.wav, 0001.wav, ..., 1999.wav. The corresponding audio translation of each given audio file should be produced by the speech to speech translation system.
 
 
 ## Segmentation
