@@ -97,7 +97,7 @@ A major challenge is that no Tamasheq transcription is provided.
  * The corpus is described in <a href="https://arxiv.org/abs/2201.05051">this paper</a>
  * A baseline system is available as a <a href="https://speechbrain.github.io">SpeechBrain</a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>. This system is the one which got the best result during the IWSLT22 edition with a BLEU score of 5.7
  * **THE TEST DATA FOR 2023 IS NOW AVAILABLE [HERE](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/wav)**
- * **Submission file is a text document, with one translation by line, in the same order as the one given in the segments file** [here](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/txt) *
+ * **Submission file is a text document, with one translation by line, in the same order as the one given in the segments file** [here](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/txt)
 
 
 Two kinds of submission are possible: **Constrained condition** and/or **Unconstrained condition**, following the common rules mentioned above in the *General Information for All Language-Pairs* section.
