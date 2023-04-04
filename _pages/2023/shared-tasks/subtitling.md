@@ -111,26 +111,28 @@ When available, English subtitles of development sets are released only for conv
 
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) will be used as the PRIMARY run
 * Submissions have to be submitted as a gzipped TAR archive (see format below)
-* Each run has to be stored in an SRT (SubRip File Format) UTF-8 encoded file
+* Each run has to be stored in SRT (SubRip File Format) UTF-8 encoded files
+* For each video of test sets, provide the subtitles in an SRT file whose name includes the file identifier (number) of the video
 * Scoring will be case-sensitive and will include the punctuation
 
 TAR archive file structure:
 ```
-< UserID >/< Set >.< Lang >.< UserID >.primary.srt 
-  /< Set >.< Lang >.< UserID >.contrastive1.srt  
-  /< Set >.< Lang >.< UserID >.contrastive2.srt  
+< UserID >/< Set >_< VdId >.< Lang >.< UserID >.primary.srt 
+  /< Set >_< VdId >.< Lang >.< UserID >.contrastive1.srt  
+  /< Set >_< VdId >.< Lang >.< UserID >.contrastive2.srt  
   /...  
 ```
 where:
 ```
 < UserID > = user ID of participant; use the short name chosen in the registration form
 < Set > = IWSLT23.Subtitling.< Domain >tst
+< VdId > = numeric identifier of the video
 < Domain > = one of {EPTV, TED, Peloton, ITV}
 < Lang > = one of {en-de.de, en-es.es} (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
 ```
-FBK/IWSLT23.Subtitling.TEDtst.en-de.de.FBK.primary.srt
+FBK/IWSLT23.Subtitling.TEDtst_13587.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
