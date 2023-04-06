@@ -165,11 +165,11 @@ The evaluation will be carried out from three perspectives, subtitle quality, tr
   Automatic subtitles will be realigned to the reference subtitles using [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz) ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacreBLEU and COMET
 
 * Subtitle compliance:  
-  * Rates of ([paper](https://arxiv.org/abs/2209.13192),[code](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py))
+  * Rates of 
     * subtitles with more than two lines
     * lines longer than 42 characters (white spaces included)
     * subtitles with reading speed higher than 21 characters / second  
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;([paper](https://arxiv.org/abs/2209.13192),[code](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py))
 
 ## Organizers
 
