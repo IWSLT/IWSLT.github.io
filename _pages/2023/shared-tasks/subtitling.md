@@ -168,8 +168,8 @@ The evaluation will be carried out from three perspectives, subtitle quality, tr
   * Rates of
     * subtitles with more than two lines
     * lines longer than 42 characters (white spaces included)
-    * subtitles with reading speed higher than 21 characters / second
-    [code](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py)
+    * subtitles with reading speed higher than 21 characters / second  
+  [code](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py)
 
 ## Organizers
 
