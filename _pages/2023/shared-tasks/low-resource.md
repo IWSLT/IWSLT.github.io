@@ -113,6 +113,27 @@ There are two main region divisions of Quechua known as Quechua I and Quechua II
 
 IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data">IWSLT 2023 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any public websites for the *unconstrained* task. This includes the data set of 60 hours of fully transcribed Quechua audio which can be obtained by emailing j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
 
+Test Data now available: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data/tree/main/que_spa_clean/test">Quechua Test Data </a>
+ 
+Participants will submit their final predictions in the following format where "team_name" is the
+name of their team:
+
+team_name.st.constrained.primary.que-spa.txt
+team_name.st.constrained.contrastive1.que-spa.txt
+team_name.st.constrained.contrastive2.que-spa.txt
+team_name.st.unconstrained.primary.que-spa.txt
+team_name.st.unconstrained.contrastive1.que-spa.txt
+team_name.st.unconstrained.contrastive2.que-spa.txt
+
+If participants do not have a constrained/unconstrained system or primary, constrastive1, constrastive2 they should submit only the files that the have, please do NOT repeat submissions.
+
+Submission files should contain translations in the format of 1 per line following the format of
+the segments file (in sequence) found here: <a href=>"Quechua Test Segments File Order"</a>
+
+Submissions should be sent to all: j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
+
+Good Luck!
+
 
 ## Submission/Evaluation
 <!-- Description of expected submission format and submission instructions -->
