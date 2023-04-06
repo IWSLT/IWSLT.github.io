@@ -118,7 +118,7 @@ The top-level directory should also include a README.md with the following infor
 
 We will evaluate the submitted system outputs along the following two dimensions:
 
-a) The overall translation quality of the outputs will be evaluated using [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/), and  [COMET](https://github.com/Unbabel/COMET) (eamt22-cometinho-da) on both the shared task-provided test sets and a generic test set. We will use [FLORES](https://github.com/facebookresearch/flores/tree/main/flores200) as our generic quality test bed for all language pairs under supervised and zero-shot settings.
+a) The overall translation quality of the outputs will be evaluated using [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/), and  [COMET](https://github.com/Unbabel/COMET) (eamt22-cometinho-da) on both the shared task-provided test sets and a generic test set. We will use the "devtest" split of [FLORES](https://github.com/facebookresearch/flores/tree/main/flores200) as our generic quality test bed for all language pairs under supervised and zero-shot settings.
 
 b) Formality control of the models will be evaluated using:
 
