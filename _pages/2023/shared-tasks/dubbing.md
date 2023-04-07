@@ -57,6 +57,8 @@ We provide a complete [baseline](https://github.com/amazon-science/iwslt-autodub
 
 ## Submission
 
+Submissions should be uploaded [here](https://drive.google.com/drive/folders/1WCUfG8j1Pjk8WRfgZFr4HqZjr_p07ioj).
+
 Submissions should be packed in a compressed file with the following naming convention: dubbing-iwslt-2023_[participant-name].tar.gz.  Compressed file should contain a root folder with your primary and contrastive system submissions (as folders). Each folder should include two sub directories for `subset1` and `subset2`.
 
 * `subset1` and `subset2` folders should contain the dubbed English speech.
