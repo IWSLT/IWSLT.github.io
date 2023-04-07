@@ -52,12 +52,12 @@ All the systems will be evaluated on the combination of the different test tests
 
 ## Test Data
 
-More information about the test data will be released in March.
-{: .notice--info}
-
-
-
-<!-- Details description of the data and links to download -->
+ * English-German
+   * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2023.en-de.tgz)
+ * English-Japanese
+   * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-ja/IWSLT-SLT.tst2023.en-ja.tgz)
+ * English-Chinese
+   * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-zh/IWSLT-SLT.tst2023.en-zh.tgz)
 
 
 ## Past Editions Development Data
