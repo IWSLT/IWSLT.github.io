@@ -129,7 +129,7 @@ If participants do not have a constrained/unconstrained system or primary, const
 
 Submission files should contain translations in the format of 1 per line following the format of the segments file (in sequence) found here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data/blob/main/que_spa_clean/test/txt/segments">Quechua Test Segments File Order</a>
 
-The scripts to score submissions are based on BLEU and CHRF and can be found on the main site: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data">Scripts for scoring using BLEU/CHRF</a>. When BLEU scores are found to be below 5, CHRF will be considered.
+The scripts to score submissions are based on BLEU and CHRF and can be found on the main site: <a href="https://github.com/Llamacha/iwslt23_que_esp">Scripts for scoring using BLEU/CHRF</a>. When BLEU scores are found to be below 5, CHRF will be considered.
 
 Submissions should be sent to all: j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all) 
 
