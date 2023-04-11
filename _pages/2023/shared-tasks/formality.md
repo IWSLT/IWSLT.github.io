@@ -124,7 +124,7 @@ b) Formality control of the models will be evaluated using:
 
 1. [Matched-Accuracy](https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022#evaluation) (M-Acc), a reference-based corpus-level automatic metric that leverages phrase-level formality markers from the references to classify a system-generated hypothesis as formal, informal, or neutral. The final corpus-level score is the percentage of system outputs that matches the desired formality level.
     
-2. a reference-free variant of M-Acc that uses a multilingual formality classifier to label a system-generated hypothesis as formal or informal. The final corpus-level score is the percentage of system outputs that matches the desired formality level. The formality classifier will be released soon.
+2. [a reference-free variant of M-Acc](https://github.com/amazon-science/contrastive-controlled-mt/tree/main/IWSLT2023#additional-resources) that uses a multilingual formality classifier to label a system-generated hypothesis as formal or informal. The final corpus-level score is the percentage of system outputs that matches the desired formality level. The formality classifier will be released soon.
 
 Details on the deciding criteria for the overall ranking of the submitted systems will be updated soon.
 
