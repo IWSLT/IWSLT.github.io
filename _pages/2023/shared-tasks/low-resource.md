@@ -162,7 +162,7 @@ We ask that the participants include a (very) short system desciption in the sub
 All submissions of the same language-pair should be compressed in a single .tar.gz file with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title, and submitted to corresponding organizer for evaluation:
 - <strong> aeb-eng: </strong> x@cs.jhu.edu (where x=kevinduh). <strong>March 31, 2013 update: The test sets are released. Please login to your LDC account and click on "Downloads". Please submit results for LDC2022E02 (previous year's test) and LDC2023E09 (new test), with filenames e.g. ```<participant>.LDC2022E02.st.<condition>.primary.aeb-eng.txt```, ```<participant>.LDC2023E09.st.<condition>.primary.aeb-eng.txt```  </strong>
 - <strong> pus-fra: </strong> souhir.gahbiche@airbus.com and antoine.thiol@airbus.com
-- <strong> tmh-fra: </strong> TBD
+- <strong> tmh-fra: </strong> manh-ha.nguyen@univ-avignon.fr and yannick.esteve@univ-avignon.fr
 - <strong> mlt-eng: </strong> TBD
 - <strong> que-spa: </strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
 - <strong> mr-hi: </strong> The test data are now availabile. As earlier mentioned, submission file should consist of plaintext file(s) with one translation by line, in the same order as the one given in the segments file [here](https://github.com/panlingua/iwslt2023_mr-hi/test/stamped.tsv). Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
