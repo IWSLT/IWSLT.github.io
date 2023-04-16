@@ -55,7 +55,11 @@ In addition, the following training data is allowed for the purpose of building 
 
 ## Test Data
 
-The [blind evaluation](http://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/datasets/GigaS2S/EN2ZH/TEST.zip) data can be downloaded now. The test set contains 2000 wav files named 0000.wav, 0001.wav, ..., 1999.wav. The corresponding audio translation of each given audio file should be produced by the speech to speech translation system.
+The [blind evaluation](http://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/datasets/GigaS2S/EN2ZH/TEST.zip) data can be downloaded now. The test set contains 2000 wav files named 0000.wav, 0001.wav, ..., 1999.wav. 
+
+The [expanded test set](https://drive.google.com/file/d/1erxpGL7nzc3vIdm7KhipMAr4ai5mztMF/view?usp=sharing) is updated, which contains 3917 wav files named 2000.wav, ..., 5916.wav.
+
+The corresponding audio translation of each given audio file should be produced by the speech to speech translation system.
 
 
 ## Segmentation
