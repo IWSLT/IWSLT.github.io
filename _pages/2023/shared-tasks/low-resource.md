@@ -74,6 +74,9 @@ Please fill out <a href="https://forms.office.com/pages/responsepage.aspx?id=vfG
 
 After filling out this form, you will get the link to download the data as well as an email from us with the link for the dataset, if we update something for the same.
 
+For submission, please follow the standard instructions provided below. Please also submit the split you used for training and validation, along with your translation output. For evaluation, we will be lowercasing everything with punctuation removed. We will also include an additional evaluation with casing and punctuation if your submission contains them. We also encourage you to submit your ASR files as well if you have a cascade/pipeline approach. Please send your submissions to Rishu.Kumar [at] dfki.de
+
+
 ### pus-fra: Pashto to French 
 Pashto is spoken by approximately forty to sixty million people in the world. It is particularly spoken by the Pashtun people in the south, east and southwest of the country, as well as in the north and northwest Pakistan but also in Iran, Tajikistan and India (Uttar Pradesh and Cashmere) and one of the two official languages of Afghanistan.
 
@@ -163,7 +166,7 @@ All submissions of the same language-pair should be compressed in a single .tar.
 - <strong> aeb-eng: </strong> x@cs.jhu.edu (where x=kevinduh). <strong>March 31, 2013 update: The test sets are released. Please login to your LDC account and click on "Downloads". Please submit results for LDC2022E02 (previous year's test) and LDC2023E09 (new test), with filenames e.g. ```<participant>.LDC2022E02.st.<condition>.primary.aeb-eng.txt```, ```<participant>.LDC2023E09.st.<condition>.primary.aeb-eng.txt```  </strong>
 - <strong> pus-fra: </strong> souhir.gahbiche@airbus.com and antoine.thiol@airbus.com
 - <strong> tmh-fra: </strong> manh-ha.nguyen@univ-avignon.fr and yannick.esteve@univ-avignon.fr
-- <strong> mlt-eng: </strong> TBD
+- <strong> mlt-eng: </strong> Rishu.Kumar@dfki.de
 - <strong> que-spa: </strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
 - <strong> mr-hi: </strong> The test data are now availabile. As earlier mentioned, submission file should consist of plaintext file(s) with one translation by line, in the same order as the one given in the segments file [here](https://github.com/panlingua/iwslt2023_mr-hi/test/stamped.tsv). Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
 - <strong> ga-eng: </strong> Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
