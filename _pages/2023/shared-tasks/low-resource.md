@@ -60,17 +60,22 @@ For baselines, feel free to build upon the models in ESPnet provided by <a href=
 ### ga-eng: Irish to English
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO *ga* code.
 
-IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-en"> here</a>. Please sign <a href="https://forms.gle/N6KvepNo6gs8BpF56"> this form</a> to get acess and/or password.This corpus consists of 15 hours of audio speech data and translations into English text.
+IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-en"> here</a>. Please sign <a href="https://forms.gle/N6KvepNo6gs8BpF56"> this form</a> to get acess and/or password.This corpus consists of 11 hours of audio speech data and translations into English text.
 
 ### mr-hi: Marathi to Hindi 
 Marathi is an Indo-Aryan language which has the ISO code *mr*, and is dominantly spoken in India’s Maharashtra state. It is one of the 22 scheduled languages of India and the official language of Maharashtra and Goa. As per the 2011 Census of India, it has around 83 million speakers which covers 6.86% of the country's total population. Marathi speakers rank third amongst the languages that are spoken in India.
 
-IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 32 hours of audio speech data from the news domain and translations into Hindi text.
+IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 30 hours of audio speech data from the news domain and translations into Hindi text.
+
+* Participants can get the additional Marathi audio data (with transcription) from here: [Common Voice](https://commonvoice.mozilla.org/en/datasets), [OpenSLR](https://www.openslr.org/64/) and [Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)
 
 ### mlt-eng: Maltese to English
 Please fill out <a href="https://forms.office.com/pages/responsepage.aspx?id=vfGpYaB-aECyMbtKa_y3ADtSBzjpn85Mvz9VNgwI-utUQVBGMlBGVzhUVFNKRUQ3RkdVM0ZJMVVJUy4u">this form</a> to request the Maltese-English data for the LowResSLT task. The data is divided into three parts, and we are releasing around 2.5 hours of audio with Maltese transcription and English translation. We are also releasing about 7.5 hours of audio with only Maltese transcription. We will also point to some parallel text corpora for Maltese-English translation.
 
 After filling out this form, you will get the link to download the data as well as an email from us with the link for the dataset, if we update something for the same.
+
+For submission, please follow the standard instructions provided below. Please also submit the split you used for training and validation, along with your translation output. For evaluation, we will be lowercasing everything with punctuation removed. We will also include an additional evaluation with casing and punctuation if your submission contains them. We also encourage you to submit your ASR files as well if you have a cascade/pipeline approach. Please send your submissions to Rishu.Kumar [at] dfki.de
+
 
 ### pus-fra: Pashto to French 
 Pashto is spoken by approximately forty to sixty million people in the world. It is particularly spoken by the Pashtun people in the south, east and southwest of the country, as well as in the north and northwest Pakistan but also in Iran, Tajikistan and India (Uttar Pradesh and Cashmere) and one of the two official languages of Afghanistan.
@@ -96,6 +101,8 @@ A major challenge is that no Tamasheq transcription is provided.
  * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
  * The corpus is described in <a href="https://arxiv.org/abs/2201.05051">this paper</a>
  * A baseline system is available as a <a href="https://speechbrain.github.io">SpeechBrain</a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>. This system is the one which got the best result during the IWSLT22 edition with a BLEU score of 5.7
+ * **THE TEST DATA FOR 2023 IS NOW AVAILABLE [HERE](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/wav)**
+ * **Submission file is a text document, with one translation by line, in the same order as the one given in the segments file** [here](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/txt)
 
 
 Two kinds of submission are possible: **Constrained condition** and/or **Unconstrained condition**, following the common rules mentioned above in the *General Information for All Language-Pairs* section.
@@ -108,6 +115,28 @@ Quechua is an indigenous language spoken by more than 8 million people in South 
 There are two main region divisions of Quechua known as Quechua I and Quechua II. This data set consists of two main types of Quechua spoken in Ayacucho, Peru (Quechua Chanka ISO:quy) and Cusco, Peru (Quechua Collao ISO:quz) which are both part of Quechua II and, thus, considered a “southern” languages. We label the data set with **que** - the ISO norm for Quechua II mixtures.
 
 IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data">IWSLT 2023 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any public websites for the *unconstrained* task. This includes the data set of 60 hours of fully transcribed Quechua audio which can be obtained by emailing j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
+
+Test Data now available: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data/tree/main/que_spa_clean/test">Quechua Test Data </a>
+ 
+Participants will submit their final predictions in the following format where "team_name" is the
+name of their team:
+
+- team_name.st.constrained.primary.que-spa.txt
+- team_name.st.constrained.contrastive1.que-spa.txt
+- team_name.st.constrained.contrastive2.que-spa.txt
+- team_name.st.unconstrained.primary.que-spa.txt
+- team_name.st.unconstrained.contrastive1.que-spa.txt
+- team_name.st.unconstrained.contrastive2.que-spa.txt
+
+If participants do not have a constrained/unconstrained system or primary, constrastive1, constrastive2 they should submit only the files that the have, please do NOT repeat submissions.
+
+Submission files should contain translations in the format of 1 per line following the format of the segments file (in sequence) found here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data/blob/main/que_spa_clean/test/txt/segments">Quechua Test Segments File Order</a>
+
+The scripts to score submissions are based on BLEU and CHRF and can be found on the main site: <a href="https://github.com/Llamacha/iwslt23_que_esp">Scripts for scoring using BLEU/CHRF</a>. When BLEU scores are found to be below 5, CHRF will be considered.
+
+Submissions should be sent to all: j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all) 
+
+Good Luck!
 
 
 ## Submission/Evaluation
@@ -134,11 +163,13 @@ If multiple outputs are submitted for one test set, one system must be explicitl
 We ask that the participants include a (very) short system desciption in the submission email.
 
 All submissions of the same language-pair should be compressed in a single .tar.gz file with "IWSLT 2023 Dialectal and Low-Resource Task Submission" in the title, and submitted to corresponding organizer for evaluation:
-- <strong> aeb-eng: </strong> x@cs.jhu.edu (where x=kevinduh)
-- <strong> pus-fra, tmh-fra:</strong> TBD
-- <strong>mlt-eng:</strong> TBD
-- <strong>que-spa:</strong> TBD
-- <strong>mr-hi, ga-eng:</strong> TBD
+- <strong> aeb-eng: </strong> x@cs.jhu.edu (where x=kevinduh). <strong>March 31, 2013 update: The test sets are released. Please login to your LDC account and click on "Downloads". Please submit results for LDC2022E02 (previous year's test) and LDC2023E09 (new test), with filenames e.g. ```<participant>.LDC2022E02.st.<condition>.primary.aeb-eng.txt```, ```<participant>.LDC2023E09.st.<condition>.primary.aeb-eng.txt```  </strong>
+- <strong> pus-fra: </strong> souhir.gahbiche@airbus.com and antoine.thiol@airbus.com
+- <strong> tmh-fra: </strong> manh-ha.nguyen@univ-avignon.fr and yannick.esteve@univ-avignon.fr
+- <strong> mlt-eng: </strong> Rishu.Kumar@dfki.de
+- <strong> que-spa: </strong> j.ortega@northeastern.edu, rodolfojoel.zevallos@upf.edu, and williamchen@cmu.edu (please send to all)
+- <strong> mr-hi: </strong> The test data are now availabile. As earlier mentioned, submission file should consist of plaintext file(s) with one translation by line, in the same order as the one given in the segments file [here](https://github.com/panlingua/iwslt2023_mr-hi/test/stamped.tsv). Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
+- <strong> ga-eng: </strong> Submissions must be sent as an email to atulkumar.ojha@insight-centre.org
 
 ## Organizers
 <!-- List of organizers' names and affiliations -->

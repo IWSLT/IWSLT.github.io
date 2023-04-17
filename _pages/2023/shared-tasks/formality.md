@@ -92,7 +92,25 @@ We will provide baselines for the **constrained supervised task** based on the t
 
 <!-- Description of expected submission format and submission instructions -->
 
-Details TBA.
+Submissions should be packed in a compressed file with the following naming convention: `formality-control_[participant-name].tar.gz`. Packages should be organized per source-target language pair, per data setting, and per test set (e.g. `./EN-KO/constrained/blind-test/` or `./EN-KO/constrained/flores-test/`).
+
+Each directory should include:
+* Source and system output files for the formality control test set
+    * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized, detruecased) 
+    * For each system, one output file for each formality level, named `formality-control-[id].[formality-level].[target]` (where id is used to distinguish if several approaches are submitted). Example: `formality-control-1.formal.ko`
+* Source and system output files for the [FLORES](https://github.com/facebookresearch/flores/blob/main/flores200/README.md) test set for all the language pairs. Outputs should be formatted as:
+    * Plaintext files, one sentence per line, pre-formatted for scoring (detokenized, detruecased). One output file per system (corresponding to a generic formality level), named `formality-control-[id].flores.[target]` (where id is used to distinguish if several approaches are submitted). 
+* MIT license for the system outputs
+
+The top-level directory should also include a README.md with the following information
+* Brief description of each system submitted, including which system they prefer for final evaluation by the organizers (marked primary)
+* Training data conditions (constrained/unconstrained; full/zero-shot)
+* List of the resources used for training the system
+* [Automatic evaluation](https://iwslt.org/2023/formality#evaluation) scores for their system(s)
+* Institution and contact person
+* Your consent to release the system outputs under MIT license for future research and human evaluation
+
+ Submissions should be emailed to the address `sweagraw@umd.edu` and `erip@umd.edu` with the subject line: `IWSLT2023 Formality-Control Submission`. We also invite participants to submit a paper describing their system(s) via the conference submission page.
 
 ## Evaluation
 
@@ -100,13 +118,13 @@ Details TBA.
 
 We will evaluate the submitted system outputs along the following two dimensions:
 
-a) The overall translation quality of the outputs will be evaluated using [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/), and  [COMET](https://github.com/Unbabel/COMET) (eamt22-cometinho-da) on both the shared task-provided test sets and a generic test set. We will use [FLORES](https://github.com/facebookresearch/flores/tree/main/flores200) as our generic quality test bed for all language pairs under supervised and zero-shot settings.
+a) The overall translation quality of the outputs will be evaluated using [SacreBLEU v2.0.0](https://pypi.org/project/sacrebleu/2.0.0/), and  [COMET](https://github.com/Unbabel/COMET) (eamt22-cometinho-da) on both the shared task-provided test sets and a generic test set. We will use the "devtest" split of [FLORES](https://github.com/facebookresearch/flores/tree/main/flores200) as our generic quality test bed for all language pairs under supervised and zero-shot settings.
 
 b) Formality control of the models will be evaluated using:
 
 1. [Matched-Accuracy](https://github.com/amazon-research/contrastive-controlled-mt/tree/main/IWSLT2022#evaluation) (M-Acc), a reference-based corpus-level automatic metric that leverages phrase-level formality markers from the references to classify a system-generated hypothesis as formal, informal, or neutral. The final corpus-level score is the percentage of system outputs that matches the desired formality level.
     
-2. a reference-free variant of M-Acc that uses a multilingual formality classifier to label a system-generated hypothesis as formal or informal. The final corpus-level score is the percentage of system outputs that matches the desired formality level. The formality classifier will be released soon.
+2. [a reference-free variant of M-Acc](https://github.com/amazon-science/contrastive-controlled-mt/tree/main/IWSLT2023#additional-resources) that uses a multilingual formality classifier to label a system-generated hypothesis as formal or informal. The final corpus-level score is the percentage of system outputs that matches the desired formality level. The formality classifier will be released soon.
 
 Details on the deciding criteria for the overall ranking of the submitted systems will be updated soon.
 

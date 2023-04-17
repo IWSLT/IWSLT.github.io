@@ -57,8 +57,22 @@ We provide a complete [baseline](https://github.com/amazon-science/iwslt-autodub
 
 ## Submission
 
-Details TBA.
+Submissions should be uploaded [here](https://drive.google.com/drive/folders/1WCUfG8j1Pjk8WRfgZFr4HqZjr_p07ioj).
 
+Submissions should be packed in a compressed file with the following naming convention: dubbing-iwslt-2023_[participant-name].tar.gz.  Compressed file should contain a root folder with your primary and contrastive system submissions (as folders). Each folder should include two sub directories for `subset1` and `subset2`.
+
+* `subset1` and `subset2` folders should contain the dubbed English speech.
+* Organizers will overlay the English audio over the original German videos.
+* The root folder should contain a README with the following information
+  * Brief description of each system submitted, if submitting multiple system indicate which one to use as a primary system for evaluation by the organizers
+  * Optionally, participants can also report system performance with [metrics as mentioned here](https://github.com/amazon-science/iwslt-autodub-task#evaluate-baseline_factored_noised01-output).
+  * Training data conditions (constrained, unconstrained)
+  * List of the data sources used for training the system
+  * Institution and contact person
+  * Do you consent to make your submission freely available under MIT license for research purposes and human evaluation? (YES/NO)
+
+LICENSE
+* If responding YES for the consent request in the README, include MIT license file (see [sample file](https://opensource.org/licenses/MIT))
 
 ## Evaluation
 

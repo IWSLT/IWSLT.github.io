@@ -11,7 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-[Last update: Feb 9, 2023]
+[Last update: Apr 6, 2023]
 
 
 ## Description
@@ -86,21 +86,21 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
 * [MuST-Cinema](https://ict.fbk.eu/must-cinema/) is a Multilingual Speech-to-Subtitles corpus released in 2020. It comprises audio recordings from English TED Talks, automatically aligned at the sentence level with their manual transcriptions and translations (into seven languages including German and Spanish) marked with subtitle breaks. 
   * As **dev** set, 17 video recordings and subtitles (in English, German and Spanish) of the TED talks defining the evaluation set of the Offline Speech Translation task at IWSLT 2022 (total duration: about 4 hours) can be downloaded from [here](https://drive.google.com/file/d/1rYeHoaIXEhxVeU22Cah_EuEQOzyvK2ob/view?usp=share_link).
-  * The **test** set consists of video recordings of 14 TED talks for a total duration of about 80 minutes, which will be made available at evaluation time.
+  * The **test** set consists of video recordings of 14 TED talks for a total duration of about 80 minutes, can be downloaded from [here](https://drive.google.com/file/d/1_q8q_8glECzvtjYAp1vLHzTx5HBm7Ov7/view?usp=share_link)
 
-* [EUROPARLTV](https://multimedia.europarl.europa.eu/en) is a repository of video recordings related to the European Parliament activities that includes messages of the members, interviews, press conferences, debates, etc. 
-  * As **dev** set, 14 video recordings and subtitles (in German and Spanish; English transcriptions/subtitles are available only for 5 documents out of 14) for a total duration of about 1 hour can be downloaded from [here](https://drive.google.com/file/d/1Jm3tqAxVgATlV0S9IxxsnDxbnFLljFkZ/view?usp=share_link).
-  * The **test** set consists of 10 video recordings for a total duration of about 1 hour, which will be made available at evaluation time.
+* [EUROPARLTV](https://multimedia.europarl.europa.eu/en) is a repository of video recordings related to the European Parliament activities that includes messages of the members, interviews, press conferences, debates, etc. Additional infos on the benchmark, terms for its use and contacts can be found in this [README](https://drive.google.com/file/d/1cbFrsdHWOwLegI9Nwgw23owQAfZtL_FS/view?usp=share_link). 
+  * As **dev** set, 12 video recordings and subtitles (in German and Spanish; English transcriptions/subtitles are available only for 5 documents out of 12) for a total duration of about 1 hour can be downloaded from [here](https://drive.google.com/file/d/1Jm3tqAxVgATlV0S9IxxsnDxbnFLljFkZ/view?usp=share_link).
+  * The **test** set consists of 10 video recordings for a total duration of about 1 hour, can be downloaded frome [here](https://drive.google.com/file/d/11uav5FKzcDS10dR4OBp7oPNdRGnLt4qa/view?usp=share_link)
 
 * [Peloton](https://www.onepeloton.com/) is a US company that offers fitness training equipment as well as on-line fitness classes which are provided with subtitles in different languages. Peloton is interested in research related to the use of automated subtitling technology in their translation workflows. We would like to thank Peloton for providing IWSLT with samples of their videos for research and evaluation purposes and would like to ask you not to use these videos or subtitles for any commercial purposes or make them publicly available on any other website.  
 
   * As a **dev** set, 9 recordings of fitness training videos (mostly single-speaker - the fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from [here](https://drive.google.com/file/d/1zFDJCRwD8ID-SKl1L0qCq4L4Qc7MuwYO/view?usp=sharing). **Note**: the **English** SRT files are **not** properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
-  * The **test** set with 8 videos of similar content (but potentially different speakers) will be made available at evaluation time.
+  * The **test** set with 8 videos of similar content (but potentially different speakers) can be downloaded from [here](https://drive.google.com/file/d/1wIMWTtCP6K50CgnaeWNS3sKxwCULZEWL/view?usp=share_link)
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK’s largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or make them publicly available on any other website. 
 
   * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from [here](https://drive.google.com/file/d/1LLqaq40gG8V0PpV_nLhgzrJFOG_wDNQ-/view?usp=sharing). **Note**: some of the **English** SRT files were created following different subtitling guidelines than the ones used in this evaluation (e.g. they contain subtitles with 3 lines) and are provided for informational purposes only.
-  * The **test** set with a similar number of episodes from entertainment series, possibly, but not necessarily from the same ones, will be made available at evaluation time.
+  * The **test** set with 7 episodes from entertainment series, possibly, but not necessarily from the same ones, can be downloaded from [here](https://drive.google.com/file/d/18FSrKnjj7K6_d8z8cjzb4ujFUdBfetcy/view?usp=share_link)
 
 When available, English subtitles of development sets are released only for convenience of participants; it is not required to generate them for the final evaluation.
 
@@ -111,26 +111,28 @@ When available, English subtitles of development sets are released only for conv
 
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) will be used as the PRIMARY run
 * Submissions have to be submitted as a gzipped TAR archive (see format below)
-* Each run has to be stored in an SRT (SubRip File Format) UTF-8 encoded file
+* Each run has to be stored in SRT (SubRip File Format) UTF-8 encoded files
+* For each video of test sets, provide the subtitles in an SRT file whose name includes the file identifier (number) of the video
 * Scoring will be case-sensitive and will include the punctuation
 
 TAR archive file structure:
 ```
-< UserID >/< Set >.< Lang >.< UserID >.primary.srt 
-  /< Set >.< Lang >.< UserID >.contrastive1.srt  
-  /< Set >.< Lang >.< UserID >.contrastive2.srt  
+< UserID >/< Set >_< VdId >.< Lang >.< UserID >.primary.srt 
+  /< Set >_< VdId >.< Lang >.< UserID >.contrastive1.srt  
+  /< Set >_< VdId >.< Lang >.< UserID >.contrastive2.srt  
   /...  
 ```
 where:
 ```
 < UserID > = user ID of participant; use the short name chosen in the registration form
 < Set > = IWSLT23.Subtitling.< Domain >tst
+< VdId > = numeric identifier of the video
 < Domain > = one of {EPTV, TED, Peloton, ITV}
 < Lang > = one of {en-de.de, en-es.es} (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
 ```
-FBK/IWSLT23.Subtitling.TEDtst.en-de.de.FBK.primary.srt
+FBK/IWSLT23.Subtitling.TEDtst_13587.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
@@ -163,11 +165,12 @@ The evaluation will be carried out from three perspectives, subtitle quality, tr
   Automatic subtitles will be realigned to the reference subtitles using [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz) ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)) before running sacreBLEU and COMET
 
 * Subtitle compliance:  
-  * Rates of
+  * Rates of 
     * subtitles with more than two lines
     * lines longer than 42 characters (white spaces included)
-    * subtitles with reading speed higher than 21 characters / second
+    * subtitles with reading speed higher than 21 characters / second  
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;([paper](https://arxiv.org/abs/2209.13192), [code](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py))
 
 ## Organizers
 
