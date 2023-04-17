@@ -11,6 +11,11 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
+## Updates
+
+- Submission link updated: [dropbox folder](https://www.dropbox.com/scl/fo/g623o0jyndqahcblmz5gn/h?dl=0&rlkey=6e441oy6uhn64ldqxmbomn7c7). Please request the access before submitting the system.
+- Speech-to-speech track: the latency threshold will be the translation starting offset.
+
 ## Description
 
 Simultaneous translation (also known as real-time or streaming translation) is the task of generating translations incrementally given partial input only.
@@ -77,8 +82,8 @@ but all other latency metrics will be reported.
 Based on analysis on the quality-latency tradeoffs for the baseline systems,
 for all three languages, the thresholds are set as follows:
 
-- Speech-to-Text Translation: 2 seconds
-- Speech-to-Speech Translation: 2.5 seconds
+- Speech-to-Text Translation: 2 seconds (Average Lagging)
+- Speech-to-Speech Translation: 2.5 seconds (Starting Offset)
 
 ## Baselines
 
@@ -106,7 +111,8 @@ One submission should contain the following items:
 - A **readme** file containing information needed to run the system, named `readme`.
 
 The submission should be compressed as a `tar.gz` file,
-and uploaded to the google drive (will update soon).
+and uploaded to the [dropbox](https://www.dropbox.com/scl/fo/g623o0jyndqahcblmz5gn/h?dl=0&rlkey=6e441oy6uhn64ldqxmbomn7c7). For data security reason, you might need to request the access before the uploading the file.
+
 The name of file should be
 
 ```
@@ -165,6 +171,8 @@ An example of training, evaluating and submission preparation with the baseline 
 - Yasumasa Kano (NAIST)
 - Ondřej Bojar (Charles University)
 - Peter Polak (Charles University)
+- Dávid Javorský (Charles University)
+- Barry Haddow (University of Edinburgh)
 - Shinji Watababe (CMU)
 - Jiatong Shi (CMU)
 - Yun Tang (Meta)
