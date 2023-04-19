@@ -86,7 +86,7 @@ Note: in all cases, **no additionally manually created formality-labeled data is
 
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
-We provide baselines for the **supervised task** and the **unconstrained zero-shot task** below. The AWS-baseline is based on the transfer learning approach detailed in [Nadejde et al., 2022](https://aclanthology.org/2022.findings-naacl.47.pdf), where a generic pre-trained neural machine translation model (trained on CCMatrix) is finetuned on generic unlabelled and formality-annotated contrastive controlled datasets. The UMD-baseline uses 16 few-shot exemplars to prompt XGLM-7.5B (Lin et al., 2021)[https://arxiv.org/abs/2112.10668]) to generate formal and informal transations. For the supervised setup, examples are drawn from the official training dataset and for the zero-shot setup, the examples are taken from [Tatoeba](https://opus.nlpl.eu/Tatoeba.php). 
+We provide baselines for the **supervised task** and the **unconstrained zero-shot task** below. The AWS-baseline is based on the transfer learning approach detailed in [Nadejde et al., 2022](https://aclanthology.org/2022.findings-naacl.47.pdf), where a generic pre-trained neural machine translation model (trained on CCMatrix) is finetuned on generic unlabelled and formality-annotated contrastive controlled datasets. The UMD-baseline uses 16 few-shot exemplars to prompt XGLM-7.5B [Lin et al., 2021](https://arxiv.org/abs/2112.10668) to generate formal and informal transations. For the supervised setup, examples are drawn from the official training dataset and for the zero-shot setup, the examples are taken from [Tatoeba](https://opus.nlpl.eu/Tatoeba.php). 
 
 
 | |En-Ko| | | |En-Vi| | | |
