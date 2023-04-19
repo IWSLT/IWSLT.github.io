@@ -86,7 +86,24 @@ Note: in all cases, **no additionally manually created formality-labeled data is
 
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
-We will provide baselines for the **constrained supervised task** based on the transfer learning approach detailed in [Nadejde et al., 2022](https://aclanthology.org/2022.findings-naacl.47.pdf), where a generic pre-trained neural machine translation model (trained on CCMatrix) is finetuned on generic unlabelled and formality-annotated contrastive controlled datasets. Please refer to the original paper for more details.
+We provide baselines for the **supervised task** and the **unconstrained zero-shot task** below. The AWS-baseline is based on the transfer learning approach detailed in [Nadejde et al., 2022](https://aclanthology.org/2022.findings-naacl.47.pdf), where a generic pre-trained neural machine translation model (trained on CCMatrix) is finetuned on generic unlabelled and formality-annotated contrastive controlled datasets. The UMD-baseline uses 16 few-shot exemplars to prompt XGLM-7.5B (Lin et al., 2021)[https://arxiv.org/abs/2112.10668]) to generate formal and informal transations. For the supervised setup, examples are drawn from the official training dataset and for the zero-shot setup, the examples are taken from [Tatoeba](https://opus.nlpl.eu/Tatoeba.php). 
+
+
+| |En-Ko| | | |En-Vi| | | |
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+| |BLEU|COMET|%M-Acc|%C-F|BLEU|COMET|%M-Acc|%C-F|
+|UMD-baseline (Unconstrined-F)|4.91|0.2110|78.30%|98.60%|26.71|0.3629|96.00%|99.67%|
+|AWS-baseline (Constrained-F)|11.10|0.5044|28.50%|54.61%|43.20|0.6189|99.40%|99.16%|
+|UMD-baseline (Unconstrained-IF)|4.85|0.1697|97.60%|99.50%|25.28|0.3452|96.00%|98.16%|
+|AWS-baseline (Constrained-IF)|11.10|0.5125|80.40%|57.62%|41.50|0.6021|98.10%|98.49%|
+Table: Suvervised (F: Formal; IF: Informal)
+
+| |En-Pt| | | |En-Ru| | | |
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+| |BLEU|COMET|%M-Acc|%C-F|BLEU|COMET|%M-Acc|%C-F|
+|UMD-baseline (Unconstrained-F)|27.29|0.4477|96.30%|97.66%|21.96|0.3492|96.20%|92.00%|
+|UMD-baseline (Unconstrained-IF)|30.93|0.4161|93.20%|90.82%|21.63|0.3475|84.10%|85.17%|
+Table: Zero-shot (F: Formal; IF: Informal)
 
 ## Submission
 
