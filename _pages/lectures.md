@@ -9,6 +9,27 @@ The ISCA SIGSLT lecture series is held periodically on Zoom, with recordings pos
 Zoom links are distributed through the [SIGSLT google group](https://groups.google.com/g/sigslt){:target="_blank"}.
 
 
+## Recent Works on Speech Translation at Naver Labs Europe
+Ioan Calapodescu, Senior Scientist at Naver Labs Europe, NLP team.  
+Laurent Besacier, Principal Scientist at Naver Labs Europe, Interactive Systems Group Lead.  
+
+**Date:**  
+<i class="fas fa-calendar-day"></i> Wed 3 May 2023, 16:00 UTC [(1am JST / 5pm CEST / 11am EST / 8am PST)](https://www.timeanddate.com/worldclock/converter.html?iso=20230503T160000&p1=1440&p2=248&p3=5805&p4=224&p5=179)
+
+**Recording:**  
+<i class="fas fa-video"></i> Watch on [YouTube](https://youtu.be/SyJkrdF2Ed4){:target="_blank"}  
+
+<p style="margin-bottom:-10pt;"><b>Abstract:</b><br/>
+In this talk, we will present two recent projects related to speech translation made at Naver Labs Europe in 2022:</p>
+- Parameter-Efficient Stacked Transformer for Low-Resource Speech-to-Text Translation
+- A Textless Metric for Speech-to-Speech Comparison
+
+**Bios:**  
+In 2012, Ioan started at Xerox Research Center Europe as a Machine Learning Engineer working on NLP technologies like categorisation and clustering tools for textual documents, active learning, NLU and machine translation. Since 2017, at Naver Labs Europe, he focused my research on massively multilingual, multi-domain NMT models for text and speech, in collaboration with Papago (Naver's business team providing MT services). More recently, his interests are centered around building multi-modal multi-task DNN models for embodied agents, like Naver's 1784 Robots.
+
+Laurent Besacier led the NLP team at Naver Labs Europe for 2 years (2021-2022). Since January 2023 he is leading a multidisciplinary group dedicated to human-robot interaction that combines expertise in several scientific fields: speech, LLMs, information retrieval, knowledge representation, and low-code/no-code prog. Before that, he became a professor at the University Grenoble Alpes (UGA) in 2009 where he led the GETALP group (natural language and speech processing). He is still affiliated with UGA. His personal research expertise and interest lie in the field of natural language processing, automatic speech recognition, machine translation, under-resourced languages, and evaluation of NLP systems.
+
+
 ## Challenges and Approaches in Distant Speech Recognition
 Binh Nguyen, PhD student at Karlsruhe Institute of Technology in Germany.
 
