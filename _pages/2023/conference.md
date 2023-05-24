@@ -98,7 +98,7 @@ Please submit scientific papers and system papers through the [submission portal
 - Sweta Agrawal, University of Maryland
 - Duygu Ataman, New York University
 - Laurent Besacier, Naver Labs
-- Roldano Cattoni, Foundazione Bruno Kessler
+- Roldano Cattoni, Fondazione Bruno Kessler
 - Alexandra Chronopoulou, LMU Munich
 - Josep Maria Crego, Systran
 - Mattia Di Gangi, AppTek
@@ -116,7 +116,7 @@ Please submit scientific papers and system papers through the [submission portal
 - Evgeny Matusov, AppTek
 - Kenton Murray, Johns Hopkins University
 - Maria Nadejde, Amazon Web Services
-- Matteo Negri, Fundazione Bruno Kessler
+- Matteo Negri, Fondazione Bruno Kessler
 - Xing Niu, Amazon AI
 - Raghavendra Reddy Pappagari, Johns Hopkins University
 - Juan Pino, Meta
