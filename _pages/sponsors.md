@@ -30,9 +30,12 @@ classes: wide
 </div>     
 
 
-<!--
 ### Silver
--->
+
+<div class="card">
+<a href="https://www.apptek.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek.png" alt="AppTek" style="width:75%"/></a>
+</div>     
+
 
 <!--
 ### Bronze
