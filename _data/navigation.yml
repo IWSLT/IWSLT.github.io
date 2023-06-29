@@ -1,6 +1,8 @@
 main:
   - title: "2023"
     url: /2023/
+  - title: "Program"
+    url: /2023/program
   - title: "Shared Tasks"
     url: /2023/#shared-tasks
   - title: "Important Dates"
