@@ -24,8 +24,8 @@ The papers in each session are listed below.
 | [08:30-08:45](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T123000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks |
 | [08:45-09:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Findings of the IWSLT 2023 Evaluation Campaign |
 | [09:15-09:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
+| [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) | 
 | [09:30-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](/2023/keynote) |  
-| [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |  
 | [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 1: System Papers (Posters)](#session-1-posters) | 
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
 | [14:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 2: System Papers (Posters)](#session-2-posters) | 
