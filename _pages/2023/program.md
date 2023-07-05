@@ -167,8 +167,31 @@ Authors: Aiden Williams, Kurt Abela, Rishu Kumar, Martin Bär, Hannah Billinghur
 *SRI-B's Systems for IWSLT 2023 Dialectal and Low-resource Track: Marathi-Hindi Speech Translation*  
 Authors: Balaji Radhakrishnan, Saurabh Agrawal, Raj Prakash Gohil, Kiran Praveen, Advait Vinay Dhopeshwarkar and Abhishek Pandey					
 
+## Day 2
 
-### Session 3 (Posters) 
+### Session 4 (Oral)
+
+#### Scientific Papers
+
+*Evaluating Multilingual Speech Translation under Realistic Conditions with Resegmentation and Terminology*  
+Authors: Elizabeth Salesky, Kareem Darwish, Mohamed Al-Badrashiny, Mona Diab and Jan Niehues
+
+*MT Metrics Correlate with Human Ratings of Simultaneous Speech Translation*  
+Authors: Dominik Macháček, Ondřej Bojar and Raj Dabre
+
+*Tagged End-to-End Simultaneous Speech Translation Training Using Simultaneous Interpretation Data*  
+Authors: Yuka Ko, Ryo Fukuda, Yuta Nishikawa, Yasumasa Kano, Katsuhito Sudoh and Satoshi Nakamura
+
+*Improving End-to-End Speech Translation by Imitation-Based Knowledge Distillation with Synthetic Transcripts*  
+Authors: Rebekka Hubert, Artem Sokolov and Stefan Riezler
+
+*Enhancing Video Translation Context with Object Labels*  
+Authors: Jeremy Gwinnup, Tim Anderson, Brian Ore, Eric Hansen and Kevin Duh
+
+*Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling*  
+Authors: Itai Gat, Felix Kreuk, Tu Anh Nguyen, Ann Lee, Jade Copet, Gabriel Synnaeve, Emmanuel Dupoux and Yossi Adi
+
+### Session 4 (Posters) 
 
 #### Topics in Neural MT
 
@@ -222,31 +245,6 @@ Authors: Simone Perone
 
 *Length-Aware NMT and Adaptive Duration for Automatic Dubbing*  
 Authors: Zhiqiang Rao, Hengchao Shang, Jinlong Yang, Daimeng Wei, Zongyao Li, Jiaxin GUO, Shaojun Li, Zhengzhe Yu, Zhanglin Wu, Yuhao Xie, Bin Wei, Jiawei Zheng, Lizhi Lei and Hao Yang
-
-
-## Day 2
-
-### Session 4 (Oral)
-
-#### Scientific Papers
-
-*Evaluating Multilingual Speech Translation under Realistic Conditions with Resegmentation and Terminology*  
-Authors: Elizabeth Salesky, Kareem Darwish, Mohamed Al-Badrashiny, Mona Diab and Jan Niehues
-
-*MT Metrics Correlate with Human Ratings of Simultaneous Speech Translation*  
-Authors: Dominik Macháček, Ondřej Bojar and Raj Dabre
-
-*Tagged End-to-End Simultaneous Speech Translation Training Using Simultaneous Interpretation Data*  
-Authors: Yuka Ko, Ryo Fukuda, Yuta Nishikawa, Yasumasa Kano, Katsuhito Sudoh and Satoshi Nakamura
-
-*Improving End-to-End Speech Translation by Imitation-Based Knowledge Distillation with Synthetic Transcripts*  
-Authors: Rebekka Hubert, Artem Sokolov and Stefan Riezler
-
-*Enhancing Video Translation Context with Object Labels*  
-Authors: Jeremy Gwinnup, Tim Anderson, Brian Ore, Eric Hansen and Kevin Duh
-
-*Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling*  
-Authors: Itai Gat, Felix Kreuk, Tu Anh Nguyen, Ann Lee, Jade Copet, Gabriel Synnaeve, Emmanuel Dupoux and Yossi Adi
 
 
 ### 2024 Planning Meeting
