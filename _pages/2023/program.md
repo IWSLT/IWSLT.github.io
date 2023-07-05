@@ -35,9 +35,9 @@ The papers in each session are listed below.
 | Day2 | July 14, 2023 |
 | :-- | :-- |
 | **Time (Toronto)** | **Session** |
-| [09:00-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 3: Scientific Papers (Oral)](#session-4-oral) | 
+| [09:00-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 3: Scientific Papers (Oral)](#session-3-oral) | 
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |
-| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 4: System Papers (Posters)](#session-1-posters) | 
+| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 4: System Papers (Posters)](#session-4-posters) | 
 | [12:30-13:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
 | [13:30-14:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [2024 Planning Meeting](#2024-planning-meeting) |
 | [14:30-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Panel Discussion](#panel-discussion) |
