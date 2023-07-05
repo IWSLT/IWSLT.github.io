@@ -169,7 +169,7 @@ Authors: Balaji Radhakrishnan, Saurabh Agrawal, Raj Prakash Gohil, Kiran Praveen
 
 ## Day 2
 
-### Session 4 (Oral)
+### Session 3 (Oral)
 
 #### Scientific Papers
 
