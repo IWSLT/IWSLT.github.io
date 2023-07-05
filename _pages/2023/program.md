@@ -29,8 +29,8 @@ The papers in each session are listed below.
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
 | [14:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 1: System Papers (Posters)](#session-2-posters) | 
 | [15:30-16:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T193000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |  
-| [16:00-18:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T200000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 2: System and Scientic Papers, incl. Findings of ACL (Posters)](#session-3-posters) |
-| **18:00** | **End of Day 1** |
+| [16:00-17:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T200000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 2: System and Scientic Papers, incl. Findings of ACL (Posters)](#session-3-posters) |
+| **17:30** | **End of Day 1** |
 
 | Day2 | July 14, 2023 |
 | :-- | :-- |
