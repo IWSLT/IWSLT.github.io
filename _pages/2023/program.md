@@ -25,7 +25,7 @@ The papers in each session are listed below.
 | [08:45-10:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Findings of the IWSLT 2023 Evaluation Campaign |
 | [10:15-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) | 
-| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](/2023/keynote) |  
+| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) |  
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
 | [14:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 1: System Papers (Posters)](#session-1-posters) | 
 | [15:30-16:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T193000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |  
@@ -56,6 +56,12 @@ The papers in each session are listed below.
 
 
 ## Day 1
+
+### 20 Years of IWSLT
+**Celebration and Review**  
+
+More details to come.
+
 
 ### Session 1 (Posters)
 
@@ -92,15 +98,16 @@ Authors: Xinyuan Zhou, Jianwei Cui, Zhongyi Ye, Yichi Wang, Luzhen Xu, Hanyi Zha
 #### Simultaneous track
 
 *CMU's IWSLT 2023 Simultaneous Speech Translation System*  
-Authors: Brian Yan, Jiatong Shi, Soumi Maiti, William Chen, Xinjian Li, Yifan Peng, Siddhant Arora and Shinji Watanabe 	
+Authors: Brian Yan, Jiatong Shi, Soumi Maiti, William Chen, Xinjian Li, Yifan Peng, Siddhant Arora and Shinji Watanabe
 
 *The HW-TSC's Simultaneous Speech-to-Text Translation System for IWSLT 2023 Evaluation*  
-Authors: Jiaxin GUO, Daimeng Wei, Zhanglin Wu, Zongyao Li, Zhiqiang Rao, Minghan Wang, Hengchao Shang, Xiaoyu Chen, Zhengzhe Yu, Shaojun Li, Yuhao Xie, Lizhi Lei and Hao Yang 					
+Authors: Jiaxin GUO, Daimeng Wei, Zhanglin Wu, Zongyao Li, Zhiqiang Rao, Minghan Wang, Hengchao Shang, Xiaoyu Chen, Zhengzhe Yu, Shaojun Li, Yuhao Xie, Lizhi Lei and Hao Yang
+
 *The HW-TSC's Simultaneous Speech-to-Speech Translation System for IWSLT 2023 Evaluation*  
-Authors: Hengchao Shang, Zhiqiang Rao, Zongyao Li, Zhanglin Wu, Jiaxin GUO, Minghan Wang, Daimeng Wei, Shaojun Li, Zhengzhe YU, Xiaoyu Chen, Lizhi Lei and Hao Yang 					
+Authors: Hengchao Shang, Zhiqiang Rao, Zongyao Li, Zhanglin Wu, Jiaxin GUO, Minghan Wang, Daimeng Wei, Shaojun Li, Zhengzhe YU, Xiaoyu Chen, Lizhi Lei and Hao Yang
 
 *NAIST Simultaneous Speech-to-speech Translation System for IWSLT 2023*  
-Authors: Ryo Fukuda, Yuta Nishikawa, Yasumasa Kano, Yuka Ko, Tomoya Yanagita, Kosuke Doi, Mana Makinae, Sakriani Sakti, Katsuhito Sudoh and Satoshi Nakamura					
+Authors: Ryo Fukuda, Yuta Nishikawa, Yasumasa Kano, Yuka Ko, Tomoya Yanagita, Kosuke Doi, Mana Makinae, Sakriani Sakti, Katsuhito Sudoh and Satoshi Nakamura
 
 *Direct Models for Simultaneous Translation and Automatic Subtitling: FBK@IWSLT2023*  
 Authors: Sara Papi, Marco Gaido and Matteo Negri
