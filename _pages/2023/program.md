@@ -21,8 +21,8 @@ The papers in each session are listed below.
 | Day1 | July 13, 2023 |
 | :-- | :-- |
 | **Time (Toronto)** | **Session** |
-| [08:30-08:45](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T123000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks |
-| [08:45-10:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Findings of the IWSLT 2023 Evaluation Campaign |
+| [08:30-08:45](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T123000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks [Chair: Alex Waibel]|
+| [08:45-10:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Findings of the IWSLT 2023 Evaluation Campaign [Chair: Jan Niehues]|
 | [10:15-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) | 
 | [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) |  
