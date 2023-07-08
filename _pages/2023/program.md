@@ -25,11 +25,11 @@ The papers in each session are listed below.
 | [08:45-10:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Findings of the IWSLT 2023 Evaluation Campaign [Chair: Jan Niehues]|
 | [10:15-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) | 
-| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) |  
+| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) [Chair: Alex Waibel]|  
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
-| [14:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 1: System Papers (Posters)](#session-1-posters) | 
+| [14:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 1: System Papers (Posters)](#session-1-posters) [Chair: Jan Niehues] | 
 | [15:30-16:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T193000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |  
-| [16:00-17:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T200000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 2: System and Scientic Papers, incl. Findings of ACL (Posters)](#session-2-posters) |
+| [16:00-17:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T200000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 2: System and Scientic Papers, incl. Findings of ACL (Posters)](#session-2-posters) [Chair: Ko Tom]|
 | **17:30** | **End of Day 1** |
 
 | Day2 | July 14, 2023 |
