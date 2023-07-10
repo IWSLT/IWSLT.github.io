@@ -58,9 +58,8 @@ The papers in each session are listed below.
 ## Day 1
 
 ### 20 Years of IWSLT
-**Celebration and Review**  
 
-More details to come.
+A celebration and review of where we are and where we've come from. Chair: Alex Waibel.
 
 
 ### Session 1 (Posters)
@@ -256,7 +255,7 @@ Authors: Zhiqiang Rao, Hengchao Shang, Jinlong Yang, Daimeng Wei, Zongyao Li, Ji
 
 ### 2024 Planning Meeting
 
-More details to come.
+This is an opportunity for organizers and participants to meet and discuss plans for future shared tasks.  People can meet in small groups either inside or outside the conference room.
 
 
 ### Panel Discussion
