@@ -9,9 +9,8 @@ toc_sticky: true
 
 ## Program at a Glance
 
-**Note:** Zoom links will be available on the ACL 2023 virtual site (after registration).
-We will link each session here once the site is available. 
-<!-- Click here for [Day 1](https://underline.io/events/284/sessions?eventSessionId=10949) and [Day 2](https://underline.io/events/284/sessions?eventSessionId=10950). -->
+**Note:** Zoom links are available on the ACL 2023 virtual site (after registration).  
+Click here for [Day 1](https://underline.io/events/395/sessions?eventSessionId=15304) and [Day 2](https://underline.io/events/395/sessions?eventSessionId=15305).
 {: .notice--info}
 
 Times listed are local Toronto time, and linked to a time converter site to view alternate time zones.  
