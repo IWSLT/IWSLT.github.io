@@ -38,8 +38,8 @@ The papers in each session are listed below.
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |
 | [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 4: System and Scientific Papers, incl. Findings Papers (Posters)](#session-4-posters) [Chair: Elizabeth Salesky] | 
 | [12:30-13:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
-| [13:30-14:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [2024 Planning Meeting](#2024-planning-meeting) [Chair: Jan Niehues] |
-| [14:30-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Panel Discussion](#panel-discussion) |
+| [13:30-14:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Panel Discussion: Is ST Solved?](#panel-discussion) |
+| [14:30-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [2024 Planning Meeting](#2024-planning-meeting) [Chair: Jan Niehues] |
 | [15:30-16:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T193000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |
 | [16:00-16:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T200000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Best Paper Award [Chair: Satoshi Nakamura] |
 | [16:15-16:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T201500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Closing Remarks [Chair: Alex Waibel] |
@@ -311,12 +311,13 @@ Authors: Zhiqiang Rao, Hengchao Shang, Jinlong Yang, Daimeng Wei, Zongyao Li, Ji
 [paper](https://aclanthology.org/2023.iwslt-1.9.pdf){: .btn .btn--info}
 
 
-### 2024 Planning Meeting
-
-This is an opportunity for organizers and participants to meet and discuss plans for future shared tasks.  People can meet in small groups either inside or outside the conference room.
-
-
 ### Panel Discussion
 
-More details to come.
+Is speech translation solved? What are the big issues and challenges still to be addressed?  
+Bring your opinions and join us for a discussion.  
+Chair: Alex Waibel. 
 
+### 2024 Planning Meeting
+
+This is an opportunity for organizers and participants to meet and discuss plans for future shared tasks and next year's conference.  
+Chair: Jan Niehues. 
