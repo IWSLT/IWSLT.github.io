@@ -20,11 +20,11 @@ The papers in each session are listed below.
 | Day1 | July 13, 2023 - Room: Dockside 1|
 | :-- | :-- |
 | **Time (Toronto)** | **Session** |
-| [09:00-09:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T123000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks [Chair: Alex Waibel]|
-| [09:15-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Findings of the IWSLT 2023 Evaluation Campaign](#findings-of-the-iwslt-2023-evaluation-campaign) [Chair: Jan Niehues]|
+| [09:00-09:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T130000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks [Chair: Alex Waibel]|
+| [09:15-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Findings of the IWSLT 2023 Evaluation Campaign](#findings-of-the-iwslt-2023-evaluation-campaign) [Chair: Jan Niehues]|
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |
-| [11:15-11:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
-| [11:15-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) [Chair: Alex Waibel]|  
+| [11:00-11:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
+| [11:15-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T151500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) [Chair: Alex Waibel]|  
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
 | [14:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 1: System Papers (Posters)](#session-1-posters) [Chair: Jan Niehues] | 
 | [15:30-16:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T193000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |  
@@ -207,7 +207,7 @@ Authors: Aiden Williams, Kurt Abela, Rishu Kumar, Martin Bär, Hannah Billinghur
 
 *SRI-B's Systems for IWSLT 2023 Dialectal and Low-resource Track: Marathi-Hindi Speech Translation*  
 Authors: Balaji Radhakrishnan, Saurabh Agrawal, Raj Prakash Gohil, Kiran Praveen, Advait Vinay Dhopeshwarkar and Abhishek Pandey  
-[paper](https://aclanthology.org/2023.iwslt-1.43.pdf){: .btn .btn--info}
+[paper](https://aclanthology.org/2023.iwslt-1.43.pdf){: .btn .btn--info} [video](https://drive.google.com/file/d/1DouWKhb46aIBerCjfJhKDZnbmL8q1J8A/view?usp=sharing){: .btn .btn--success} [slides](https://drive.google.com/file/d/1RdcHoYF0ME0zfW1R3YuAx_i-LAkkmm5e/view?usp=sharing){: .btn .btn--warning}
 
 
 ## Day 2
