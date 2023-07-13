@@ -20,11 +20,11 @@ The papers in each session are listed below.
 | Day1 | July 13, 2023 |
 | :-- | :-- |
 | **Time (Toronto)** | **Session** |
-| [08:30-08:45](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T123000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks [Chair: Alex Waibel]|
-| [08:45-10:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Findings of the IWSLT 2023 Evaluation Campaign](#findings-of-the-iwslt-2023-evaluation-campaign) [Chair: Jan Niehues]|
-| [10:15-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
-| [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) | 
-| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) [Chair: Alex Waibel]|  
+| [09:00-09:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T123000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks [Chair: Alex Waibel]|
+| [09:15-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T124500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Findings of the IWSLT 2023 Evaluation Campaign](#findings-of-the-iwslt-2023-evaluation-campaign) [Chair: Jan Niehues]|
+| [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |
+| [11:15-11:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T131500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Q&A |  
+| [11:15-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [20 Years of IWSLT: Celebration and Review](#20-years-of-iwslt) [Chair: Alex Waibel]|  
 | [12:30-14:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
 | [14:00-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 1: System Papers (Posters)](#session-1-posters) [Chair: Jan Niehues] | 
 | [15:30-16:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T193000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |  
@@ -36,10 +36,10 @@ The papers in each session are listed below.
 | **Time (Toronto)** | **Session** |
 | [09:00-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 3: Scientific Papers (Oral)](#session-3-oral) [Chair: Brian Thompson] | 
 | [10:30-11:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T143000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |
-| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 4: System and Scientific Papers, incl. Findings Papers (Posters)](#session-4-posters) [Chair: Sebastian Stueker] | 
+| [11:00-12:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 4: System and Scientific Papers, incl. Findings Papers (Posters)](#session-4-posters) [Chair: Elizabeth Salesky] | 
 | [12:30-13:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T163000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Lunch |
 | [13:30-14:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T150000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [2024 Planning Meeting](#2024-planning-meeting) [Chair: Jan Niehues] |
-| [14:30-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Panel Discussion](#panel-discussion) [TBD] |
+| [14:30-15:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T180000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Panel Discussion](#panel-discussion) |
 | [15:30-16:00](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T193000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Coffee Break (ACL organized) |
 | [16:00-16:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T200000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Best Paper Award [Chair: Satoshi Nakamura] |
 | [16:15-16:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T201500&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Closing Remarks [Chair: Alex Waibel] |
