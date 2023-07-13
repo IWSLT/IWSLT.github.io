@@ -49,8 +49,7 @@ The papers in each session are listed below.
 ## Proceedings
 
 **ACL Anthology:** [Paper pdfs, abstracts, and bibtex on the ACL Anthology](https://aclanthology.org/volumes/2023.iwslt-1/).  
-**Individual papers:** Links to each paper and its prerecorded video will be posted below by July 12.
-<!-- **Videos** were tested to play on Chrome.  -->
+**Individual papers:** Links to each paper, prerecorded video and slides are posted below. Videos tested on Chrome. 
 {: .notice--info}
 
 
