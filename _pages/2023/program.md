@@ -17,7 +17,7 @@ Times listed are local Toronto time, and linked to a time converter site to view
 The papers in each session are listed below.  
 
 
-| Day1 | July 13, 2023 |
+| Day1 | July 13, 2023 Room: Dockside 1|
 | :-- | :-- |
 | **Time (Toronto)** | **Session** |
 | [09:00-09:15](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T123000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | Welcome Remarks [Chair: Alex Waibel]|
@@ -31,7 +31,7 @@ The papers in each session are listed below.
 | [16:00-17:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230713T200000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 2: System Papers (Posters)](#session-2-posters) [Chair: Ko Tom]|
 | **17:30** | **End of Day 1** |
 
-| Day2 | July 14, 2023 |
+| Day2 | July 14, 2023  Room Dockside 1|
 | :-- | :-- |
 | **Time (Toronto)** | **Session** |
 | [09:00-10:30](https://www.timeanddate.com/worldclock/converter.html?iso=20230714T133000&p1=250&p2=1440&p3=tz_jst&p4=33&p5=964&p6=179&p7=224) | [Session 3: Scientific Papers (Oral)](#session-3-oral) [Chair: Brian Thompson] | 
