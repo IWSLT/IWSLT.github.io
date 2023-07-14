@@ -59,7 +59,16 @@ The papers in each session are listed below.
 
 *Findings of the IWSLT 2023 Evaluation Campaign*  
 Sweta Agrawal, Antonios Anastasopoulos, Luisa Bentivogli, Ondřej Bojar, Claudia Borg, Marine Carpuat, Roldano Cattoni, Mauro Cettolo, Mingda Chen, William Chen, Khalid Choukri, Alexandra Chronopoulou, Anna Currey, Thierry Declerck, Qianqian Dong, Kevin Duh, Yannick Estève, Marcello Federico, Souhir Gahbiche, Barry Haddow, Benjamin Hsu, Phu Mon Htut, Hirofumi Inaguma, Dávid Javorský, John Judge, Yasumasa Kano, Tom Ko, Rishu Kumar, Pengwei Li, Xutai Ma, Prashant Mathur, Evgeny Matusov, Paul McNamee, John P. McCrae, Kenton Murray, Maria Nadejde, Satoshi Nakamura, Matteo Negri, Ha Nguyen, Jan Niehues, Xing Niu, Atul Kr. Ojha, John E. Ortega, Proyag Pal, Juan Pino, Lonneke van der Plas, Peter Polák, Elijah Rippeth, Elizabeth Salesky, Jiatong Shi, Matthias Sperber, Sebastian Stüker, Katsuhito Sudoh, Yun Tang, Brian Thompson, Kevin Tran, Marco Turchi, Alex Waibel, Mingxuan Wang, Shinji Watanabe, Rodolfo Zevallos  
-[paper](https://aclanthology.org/2023.iwslt-1.1.pdf){: .btn .btn--info}
+[paper](https://aclanthology.org/2023.iwslt-1.1.pdf){: .btn .btn--info} 
+<strong style="color:#d67f05; padding-left:5px;">Slides:</strong> [Offline](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/EdG33vp4stZFsptbBhQOrIsB_zNEwy4pmWBDoQsjmj0w7g?e=iCNZcM){: .btn .btn--warning}
+[Simultaneous](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/Efx5dNXv7rhBl3vZfwSjKPsBlt6xo4vl0rH28wM_aoMK8g?e=1n9wQf){: .btn .btn--warning}
+[Subtitling](https://livejohnshopkins-my.sharepoint.com/:p:/g/personal/esalesk1_jh_edu/EQv9gCH57JFAuseHQk6aDZsBr80jFTP3odmg5h-FfpL7ZA?e=O0fl0F){: .btn .btn--warning}
+[Multilingual](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/EXqNkluiiDNGvehhfq8T9G0BMybsDqDd1YzoWYelrGmAsQ?e=9QV4e3){: .btn .btn--warning}
+[Speech-to-Speech](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/EfmLxinyF-ZIjPhAA1TTBnYBUqwQtr9ROd-VCSbLhWYaVQ?e=RHphDh){: .btn .btn--warning}
+[Dubbing](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/EYNDRIxL1exGvw0wEzFRUxYBeyqma-h94wvUDQQBFDt4vw?e=UbwXaF){: .btn .btn--warning}
+[Dialect](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/ETvFEBTuZshDoGWE3y7KSoQBTMjARmMbyws-Z6NgcGl8ng?e=GSwSVG){: .btn .btn--warning}
+[Low-resource](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/EWxBDAq6xM9HvzkyceO1AvcByUtDpux_Gny5KPJHWZrb_g?e=u9Veto){: .btn .btn--warning}
+[Formality](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/esalesk1_jh_edu/EenFhEUt5pdMghtm-P2hTbIBrN3uCY-pjFWkZFTTOzY4WQ?e=0bXOGE){: .btn .btn--warning}
 
 
 ### 20 Years of IWSLT
