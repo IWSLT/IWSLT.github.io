@@ -175,7 +175,7 @@ Authors: John E. Ortega, Rodolfo Zevallos and William Chen
 
 *GMU Systems for the IWSLT 2023 Dialect and Low-resource Speech Translation Tasks*  
 Authors: Jonathan Mbuya and Antonios Anastasopoulos  
-[paper](https://aclanthology.org/2023.iwslt-1.24.pdf){: .btn .btn--info}
+[paper](https://aclanthology.org/2023.iwslt-1.24.pdf){: .btn .btn--info} [video](https://drive.google.com/file/d/1HZW2vFUtXPRctyWClL0PBF1aGywsa-RY/view?usp=sharing){: .btn .btn--success} [slides](https://docs.google.com/presentation/d/1w0i54tzPQBLKNynrWJmK5K10ShnvCz3E/){: .btn .btn--warning}
 
 *JHU IWSLT 2023 Dialect Speech Translation System Description*  
 Authors: Amir Hussein, Cihan Xiao, Neha Verma, Thomas Thebaud, Matthew Wiesner and Sanjeev Khudanpur  
@@ -222,7 +222,7 @@ Authors: Elizabeth Salesky, Kareem Darwish, Mohamed Al-Badrashiny, Mona Diab and
 
 *MT Metrics Correlate with Human Ratings of Simultaneous Speech Translation*  
 Authors: Dominik Macháček, Ondřej Bojar and Raj Dabre  
-[paper](https://aclanthology.org/2023.iwslt-1.12.pdf){: .btn .btn--info}
+[paper](https://aclanthology.org/2023.iwslt-1.12.pdf){: .btn .btn--info} [slides](http://ufallab.ms.mff.cuni.cz/~machacek/acl+iwslt23/Metrics-Correlate-in-SimST-slides.pdf){: .btn .btn--warning}
 
 *Tagged End-to-End Simultaneous Speech Translation Training Using Simultaneous Interpretation Data*  
 Authors: Yuka Ko, Ryo Fukuda, Yuta Nishikawa, Yasumasa Kano, Katsuhito Sudoh and Satoshi Nakamura  
@@ -300,7 +300,7 @@ Authors: Zhanglin Wu, Zongyao Li, Daimeng Wei, Hengchao Shang, Jiaxin Guo, Xiaoy
 
 *Speech Translation with Style: AppTek's Submissions to the IWSLT Subtitling and Formality Tracks in 2023*  
 Authors: Parnia Bahar, Patrick Wilken, Javier Iranzo-Sánchez, Mattia Di Gangi, Evgeny Matusov and Zoltán Tüske  
-[paper](https://aclanthology.org/2023.iwslt-1.22.pdf){: .btn .btn--info}
+[paper](https://aclanthology.org/2023.iwslt-1.22.pdf){: .btn .btn--info} [video](https://drive.google.com/file/d/1fBf-Pn2023jaeRbijNGXwfBixB2fmFAs/view?usp=sharing){: .btn .btn--success} [slides](https://drive.google.com/file/d/1FT03mB7KByGyefjd5ZN-5WUWO89mjEIX/view?usp=sharing){: .btn .btn--warning} 
 
 *Matesub: The Translated Subtitling Tool at the IWSLT2023 Subtitling Task*  
 Authors: Simone Perone  
