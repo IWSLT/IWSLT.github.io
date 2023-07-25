@@ -75,6 +75,29 @@ The blind evaluation data follows the same format as above. References will be r
 The evaluation data is released [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/esalesk1_jh_edu/ERCOi9DV57FBhE56BpMFOY0BAgvKpimZzRPgUr8LOGHh2w?e=99Tea1).
 
 
+#### Full Dataset with References
+
+The full ACL 60-60 dataset with references is hosted on the ACL Anthology [here](https://aclanthology.org/2023.iwslt-1.2/).  
+If you use this data in your work, we ask that you please cite the dataset paper as below:
+```
+@inproceedings{salesky-etal-2023-evaluating,
+    title = "Evaluating Multilingual Speech Translation under Realistic Conditions with Resegmentation and Terminology",
+    author = "Salesky, Elizabeth  and
+      Darwish, Kareem  and
+      Al-Badrashiny, Mohamed  and
+      Diab, Mona  and
+      Niehues, Jan",
+    booktitle = "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwslt-1.2",
+    pages = "62--78",
+    abstract = "We present the ACL 60/60 evaluation sets for multilingual translation of ACL 2022 technical presentations into 10 target languages. This dataset enables further research into multilingual speech translation under realistic recording conditions with unsegmented audio and domain-specific terminology, applying NLP tools to text and speech in the technical domain, and evaluating and improving model robustness to diverse speaker demographics.",
+}
+```
+
 ## Languages
 
 This task covers ten language pairs with English as the source language and ten 60-60 languages as target languages. 
