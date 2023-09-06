@@ -84,7 +84,7 @@ Participants are asked to automatically subtitle in German and/or Spanish three 
 
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
-* [MuST-Cinema](https://ict.fbk.eu/must-cinema/) is a Multilingual Speech-to-Subtitles corpus released in 2020. It comprises audio recordings from English TED Talks, automatically aligned at the sentence level with their manual transcriptions and translations (into seven languages including German and Spanish) marked with subtitle breaks. 
+* TED is a new collection of audio recordings from English [TED](https://www.ted.com/) Talks, automatically aligned at the sentence level with their manual transcriptions and translations (into German and Spanish) marked with subtitle breaks.
   * As **dev** set, 17 video recordings and subtitles (in English, German and Spanish) of the TED talks defining the evaluation set of the Offline Speech Translation task at IWSLT 2022 (total duration: about 4 hours) can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EYVU_jLDOdte0LhVQiDAhUYBGDoQdsrZExZJztTs3SMHcw?e=UhsODW).
   * The **test** set consists of video recordings of 14 TED talks for a total duration of about 80 minutes, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EbjonhpHvDVTwjrB_yuEs4sBYGsYrIAVe7kxRF3fHWnXoQ?e=6GKs2s)
 
