@@ -5,7 +5,8 @@ classes: wide
 ---
 
 
-  * [IWSLT 2022](https://iwslt.org/2022/){:target="_blank"}, 26-27 May 2022 - Dublin, Ireland + Hybrid
+  * [IWSLT 2023](https://iwslt.org/2023/){:target="_blank"}, 13-14 July 2023 - Toronto, Canada + Virtual Hybrid
+  * [IWSLT 2022](https://iwslt.org/2022/){:target="_blank"}, 26-27 May 2022 - Dublin, Ireland + Virtual Hybrid
   * [IWSLT 2021](https://iwslt.org/2021/){:target="_blank"}, 05-06 Aug. 2021 - Virtual Event
   * [IWSLT 2020](http://iwslt2020.ira.uka.de){:target="_blank"}, 09-10 Jul. 2020 - Virtual Event
   * [IWSLT 2019](http://workshop2019.iwslt.org){:target="_blank"}, 02-03 Nov. 2019 - Hong Kong, China
