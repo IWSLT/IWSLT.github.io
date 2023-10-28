@@ -41,7 +41,7 @@ Please join the [IWSLT Evaluation Campaign google group](https://groups.google.c
 
 ## Paper Submission
 
-Submissions should be scientific papers or system papers. 
+Submissions should be scientific papers or shared task system description papers. 
 All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 Accepted papers will be published in the ACL 2024 proceedings and will be presented at the IWSLT conference either orally or as a poster.
@@ -62,8 +62,15 @@ The submission portal will open in early 2024.
 
 ### Timeline
 
-Important dates for 2024 will be posted later this year. 
-{: .notice--info}
+|-----------------|----------------------------------------------|
+| Dec 1, 2023     | Release of shared task training and dev data |
+| Mar 15, 2024    | Scientific paper submission deadline         |
+| Apr 1-15, 2024  | Evaluation period                            |
+| Apr 21, 2024    | System paper submission deadline             |
+| May 15, 2024    | Notification of acceptance                   |
+| June 1, 2024    | Camera ready deadline                        |
+| August 2024     | IWSLT conference                             |
+
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
 {: .notice--warning}
