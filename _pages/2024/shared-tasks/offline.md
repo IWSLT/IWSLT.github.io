@@ -17,26 +17,22 @@ Recent advances in deep learning are giving the possibility to address tradition
 
 The goal of the **Offline Speech Translation Task** is to examine automatic methods for translating audio speech in one language into text in the target language. This has to be done either by exploiting cascaded solutions or end-to-end approaches. The last editions' results have confirmed that the performance of end-to-end models is approaching the results of cascade solutions, however, without identifying the best-performing technology. Moreover, all the recent evaluations have been based on test sets extracted from TED talks. In this controlled scenario, a single speaker acts out a prepared speech without background noise and interaction with other speakers.
 
-<!-- To raise the bar and to test current spoken language translation technologies in different conditions, test sets of different complexity are proposed this -->
-
-<!-- Hence, the questions we want to answer this year are: **is the cascaded solution still the dominant technology in spoken language translation?**  -->
-
-In addition to answering the question **if the cascade solution is still the dominant technology**, this year we will address an additional research question in the evaluation:
+<!-- Decision to take: what scientific questions? Here we need to highlight the robust scenario -->
+<!--In addition to answering the question **if the cascade solution is still the dominant technology**, this year we will address an additional research question in the evaluation:
 * **Is the current spoken language translation technology able to deal with more complex scenarios (e.g. spontaneous speech, terminology, and dialogues)?** In addition to the classic TED talk test set from English into German, the task introduces two more test sets that face more challenging scenarios:
   * ACL presentations: a single speaker is presenting on a stage. Although this is similar to the TED talk scenario, the speech translation system needs to deal with non-native speakers, different accents, various recording quality, terminology, and controlled interaction with a second speaker.
-  * Press conferences and interviews: in this scenario, two persons interact on different topics. The speech translation system needs to deal with non-native speakers, different accents, controlled interaction with a second speaker, and spontaneous speeche.
+  * Press conferences and interviews: in this scenario, two persons interact on different topics. The speech translation system needs to deal with non-native speakers, different accents, controlled interaction with a second speaker, and spontaneous speeches.-->
 
-Similarly to last year, three language directions are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
+<!-- Decision to take: What language directions -->
+<!--Similarly to last year, three language directions are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
 * English -> German: TED talks, ACL presentations and press conference and interviews.
 * English -> Japanese: TED talks and ACL presentations. 
-* English -> Chinese: TED talks and ACL presentations. 
+* English -> Chinese: TED talks and ACL presentations. -->
 
-  
-The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best performing submission of each participant.
-<!-- The guidelines for generating the human translation for TED talks were modified recently, in order to produce shorter translations that better fit for subtitling. Since this task focuses on speech translation without additional constraints, we will produce an additional reference that is generated without additional constraints for the human translators as we did last year. -->
+<!-- Decision to take: what evaluation metrics? -->
+<!--The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER, and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.-->
 
 
-<!-- Description the task, the languages, and the type of data -->
 
 
 ## Evaluation Conditions
@@ -47,22 +43,22 @@ In this task, we use the following definition of end-to-end model:
   * No intermediated discrete representations (source language like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
-All the systems will be evaluated on the combination of the different test tests (depending on the language directions) and on each specific test set. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. Each audio file will have a clear identifier of the type of data: e.g. TEDtalk_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
+All the systems will be evaluated on the combination of the different test tests (depending on the language directions) and each specific test set. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. Each audio file will have a clear identifier of the type of data: e.g. TEDtalk_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
 
 
 ## Test Data
-
- * English-German
+<!-- Decision to take: to uncomment when releasing the data -->
+<!-- * English-German
    * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2023.en-de.tgz)
  * English-Japanese
    * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-ja/IWSLT-SLT.tst2023.en-ja.tgz)
  * English-Chinese
    * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-zh/IWSLT-SLT.tst2023.en-zh.tgz)
-
+-->
 
 ## Past Editions Development Data
 
-The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. But the participants might also use a different segmentation. The data provided as an archive with the following files ($set e.g. IWSLT.TED.dev2010):
+The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. However the participants might also use a different segmentation. The data is provided as an archive with the following files ($set e.g. IWSLT.TED.dev2010):
   * $set.en-de.en.xml: Reference transcript (will not be provided for evaluation data)
   * $set.en-de.en.xml: Reference translation (will not be provided for evaluation data)
   * CTM_LIST: Ordered file list containing the ASR Output CTM Files (will not be provided for evaluation data) (Generated by ASR systems that use more data)
@@ -88,7 +84,7 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
 
 ## Training Data and Data Conditions
 
-A "**constrained**" setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow participants to leverage large language models and medium-sized resources, we propose a "**constrained with large language models**" conditions, where a specific set of language models is allowed. In order to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an "**unconstrained**" setup without data restrictions is also proposed.
+A "**constrained**" setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow participants to leverage large language models and medium-sized resources, we propose a "**constrained with large language models**" condition, where a specific set of language models is allowed. In order to allow the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an "**unconstrained**" setup without data restrictions is also proposed.
 
 * **Constrained** training: Under this condition, the allowed training resources are the following ones (note that the list does not include any pre-trained language model):
 
@@ -124,7 +120,7 @@ A "**constrained**" setup is proposed as the official training data condition, i
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task including subtitle boundaries (`<eob>` and `<eol>`).
 
-* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus a restriced selection of large language models are allowed. The follow pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
+* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus a restricted selection of large language models are allowed. The following pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
 
   * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
   * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
@@ -146,7 +142,7 @@ Note: this list is identical to the one available in the subtitle task. Some tra
   * Submissions have to be submitted as a gzipped TAR archive (see format below) and sent as an email attachment to  <iwslt_offline_task_submission@fbk.eu>.
   * The TAR archive should include in the file name the type of system (cascade/end-to-end) used to generate the submission
   * Each run has to be stored in a plain text file with one sentence per line
-  * Scoring will be case-sensitive and including the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing etc are not considered during the evaluation.
+  * Scoring will be case-sensitive and include the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
 
 TAR archive file structure:
 ```
@@ -156,7 +152,7 @@ TAR archive file structure:
   /...  
 ```
 where:  
-`< UserID >` = user ID of participant used the short name chosen in the registration form (e.g. the name of your institution)  
+`< UserID >` = user ID of the participant used the short name chosen in the registration form (e.g. the name of your institution)  
 `< Set >` = IWSLT21.SLT.tst2021  
 `< LangDir >` = en-de/zh/ja, using language identifiers (LIDs) as given by ISO 639-1 codes  
 `< Task >` =  OfflineTask.  
@@ -176,17 +172,20 @@ The email should include the following information:
 
 
 ## Contacts 
+<!-- Decision to take: Add more contact here -->
 
-Chairs: Marco Turchi (Zoom, Germany) and Matteo Negri (FBK, Italy) 
+Chairs: Marco Turchi (Zoom, Germany), Matteo Negri (FBK, Italy) 
 
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
 
 ## Organizers
 
+<!-- Decision to take: Add more organizers here -->
 Sebastian Stüker (Zoom, Germany)  
 Jan Niehues (KIT, Germany)  
-Roldano Cattoni (FBK, Italy) 
+Roldano Cattoni (FBK, Italy)
+
 
 
 
