@@ -1,6 +1,6 @@
 ---
 permalink: /2024/low-resource
-title: "Low-resource track"
+title: "Dialectal and Low-resource track"
 toc: true
 toc_sticky: true
 ---
@@ -13,40 +13,208 @@ if you want to have a line break either put a blank line in between the text or 
 
 ## Description
 
-Details coming soon!
+The goal of this shared task is to benchmark and promote speech translation technology for a diverse range of dialects and low-resource languages.
+While significant research progress has been demonstrated recently on popular datasets, many of the world's dialects and low-resource languages lack the parallel data at scale needed for standard supervised learning.
+We will likely require creative approaches in leveraging disparate resources.
 
-<!-- Description the task, the languages, and the type of data -->
+For example, to translate dialectal speech such as Tunisian Arabic, one may leverage existing speech and text resources in Modern Standard Arabic. 
+Or, to translate a low-resource language such as Tamasheq, one may need to leverage word-level translation resources and raw audio. 
+
+We will provide training and evaluation data for a range of language-pairs. 
+Participants are free to participate in any number of language-pairs in this track, but we highly encourage participation in as many as possible. 
+We welcome both dedicated systems that are designed to a single language-pair, as well as general recipes aimed at improving speech translation broadly for a wide typology of languages. 
+
+## General Information for All Language-Pairs
+
+The submission format will be standardized across all language-pairs.
+Participants can submit systems under two conditions:
+- **Constrained condition:** systems are trained only on the dataset provided by the organizers
+- **Unconstrained condition:** systems can be trained with any resource, including pre-trained models. Multilingual models are allowed. 
+
+Information about data and baselines are provided in the sections specific to each language pair. 
+
+## Data and Baselines
+
+### Dialectal Arabic to English (ara-eng)
+
+This language pair will focus on evaluating performance on three Arabic vernaculars:
+<ul>
+	<li> Tunisian (ISO-3 code: aeb)</li>
+	<li> Moroccan (ISO-3 code: ary) </li>
+	<li> North Levantine (ISO-3 code: apc) </li>
+</ul>
+
+We point the participants to training data across different Arabic varieties:
+<ul>
+<li>The aeb-eng training data are the same as the one used in the IWSLT 2022 and 2023 tracks: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>.  We suggest you follow the train/dev/test1 split instructions according to the linked webpage.
+
+IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
+All datasets have been manually segmented at the utterance level.</li>
+</ul>
+We also provide links to speech recognition datasets that include Arabic data:
+<ul>
+<li> OpenSLR Resource [SLR46](https://www.openslr.org/46/)</li>
+<li> OpenSLR Resource [SLR48](https://www.openslr.org/48/)</li>
+<li> OpenSLR Resource [SLR108](https://www.openslr.org/108/)</li>
+<li> OpenSLR Resource [SLR132](https://www.openslr.org/132/)</li>
+</ul>
+
+### Bemba to English (bem-eng)
+Bemba is a Bantu language, spoken by over 10 million people in Zambia and other parts of Africa.
+
+Data are based on the corpus described in [this paper](https://aclanthology.org/2023.acl-long.115/), providing 180 hours of Bemba speech, along with transcriptions and translations in English.
+They are available for download in this <a href="#">Github link</a>.
+
+Additional Bemba speech data (with transcriptions) are available here:
+<ul>
+	<li>BembaSpeech [data](https://github.com/csikasote/BembaSpeech) [paper](https://arxiv.org/pdf/2102.04889.pdf)</li>
+	<li>ZambeziVoice [data](https://github.com/unza-speech-lab/zambezi-voice) [paper](https://arxiv.org/pdf/2306.04428.pdf)</li>
+</ul>
+
+### Bhojpuri to Hindi (bho-hin)
+
+Details coming soon.
 
 
-## Data
+### Irish to English (gle-eng)
+Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
 
-Data will be released in January.
+IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-en"> here</a>. Please sign <a href="#"> this form</a> to get acess credentials. This corpus consists of 11 hours of audio speech data and translations into English text.
 
-<!-- Details description of the data and links to download -->
+
+### Maltese to English (mlt-eng)
+
+Please fill out <a href="#">this form</a> to request the Maltese-English data for the LowResSLT task. The data is divided into three parts, and we are releasing around 2.5 hours of audio with Maltese transcription and English translation. We are also releasing about 7.5 hours of audio with only Maltese transcription. We will also point to some parallel text corpora for Maltese-English translation.
+
+After filling out this form, you will get the link to download the data as well as an email from us with the link for the dataset, if we update something for the same.
+
+
+### Marathi to Hindi (mar-hin)
+
+Marathi is an Indo-Aryan language dominantly spoken in India’s Maharashtra state. It is one of the 22 scheduled languages of India and the official language of Maharashtra and Goa. As per the 2011 Census of India, it has around 83 million speakers which covers 6.86% of the country's total population. Marathi speakers rank third amongst the languages that are spoken in India.
+
+IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 30 hours of audio speech data from the news domain and translations into Hindi text.
+
+We point participants to additional Marathi audio data (with transcriptions) from here: 
+<ul>
+<li>[Common Voice](https://commonvoice.mozilla.org/en/datasets)</li> 
+<li>[OpenSLR](https://www.openslr.org/64/)</li> 
+<li>[Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)</li>
+</ul>
+
+### Quechua to Spanish (que-spa)
+
+Quechua is an indigenous language spoken by more than 8 million people in South America. It is mainly spoken in Peru, Ecuador, and Bolivia where the official high-resource language is Spanish. It is a highly inflective language based on its suffixes which agglutinate and found to be similar to other languages like Finnish. The average number of morphemes per word (synthesis) is about two times larger than English. English typically has around 1.5 morphemes per word and Quechua has about 3 morphemes per word. 
+
+There are two main region divisions of Quechua known as Quechua I and Quechua II. This data set consists of two main types of Quechua spoken in Ayacucho, Peru (Quechua Chanka ISO:quy) and Cusco, Peru (Quechua Collao ISO:quz) which are both part of Quechua II and, thus, considered “southern” languages. We label the data set with **que** - the ISO code for Quechua II mixtures.
+
+IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2023_Quechua_data">IWSLT 2023 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any publicly available data for the *unconstrained* task. This includes a data set of 60 hours of fully transcribed Quechua audio which can be obtained by emailing j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
+
+
+### Tamasheq to French (tmh-fra)
+
+Tamasheq is a variety of Tuareg, a Berber macro-language spoken by nomadic tribes across North Africa in Algeria, Mali, Niger and Burkina Faso. It accounts for approximately 500,000 native speakers, being mostly spoken in Mali and Niger. 
+This task is about translating spoken Tamasheq into written French. Almost 20 hours of spoken Tamasheq with French translation are **freely** provided by the organizers. 
+A major challenge is that no Tamasheq transcription is provided.
+
+
+ * Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data)
+ * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
+ * The corpus is described in <a href="https://arxiv.org/abs/2201.05051">this paper</a>
+ <!--* **THE TEST DATA FOR 2023 IS NOW AVAILABLE [HERE](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/wav)**
+ * **Submission file is a text document, with one translation by line, in the same order as the one given in the segments file** [here](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/txt)-->
 
 
 ## Baselines
 
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
+We provide various baselines:
+
+* For Arabic, feel free to build upon the baseline models in ESPnet provided by <a href="https://shinjiwlab.github.io">CMU WAVLab</a>. Here are the recipes for the basic condition: <a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/asr1/RESULTS.md">ASR model</a> and
+<a href="https://github.com/espnet/espnet/blob/master/egs2/iwslt22_dialect/st1/RESULTS.md">ST model</a>. You may also find it helpful to refer to the system description papers in 2022 from <a href="https://aclanthology.org/2022.iwslt-1.27/">CMU</a>, <a href="https://aclanthology.org/2022.iwslt-1.29/">JHU</a>, and <a href="https://aclanthology.org/2022.iwslt-1.28/">ON-TRAC</a>, or the <a href="https://aclanthology.org/2022.iwslt-1.10v2.pdf">2022 findings paper</a>.
+
+* A baseline system for Tamasheq is available as a <a href="https://speechbrain.github.io">SpeechBrain</a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>. This system is the one which got the best result during the IWSLT22 edition with a BLEU score of 5.7.
+
+* We also direct the participants to [the IWSLT 2023 findings paper](https://aclanthology.org/2023.iwslt-1.1v2.pdf) for best practices based on last year's shared task. Papers describing last year's submitted systems are listed [here](https://aclanthology.org/events/iwslt-2023/). 
+
 
 ## Submission
 
 <!-- Description of expected submission format and submission instructions -->
 
+Participants will submit their final predictions in the following format for all language pairs.
+
+We will primarily focus on speech translation results ("st"), but participants are welcome to share intermediate speech recognition outputs as well ("asr").
+
+We ask participants to identify their _primary_ submission (which will be used for the final ranking). We will also allow up to two contrastive submissions ("contrastive1", "contrastive2").
+
+Please name all files as follows:
+- [team_name].[task].[type].[label].[language-pair].txt
+
+where:
+- "team_name" is the name of the team
+- "task" is one of "st" and "asr"
+- "type" is one of "constrained" and "unconstrained"
+- "label" is one of "primary" and "contrastive1" or "contrastive2"
+- "language-pair" uses the three-letter ISO codes defined above (e.g. que-spa for Quechua to Spanish)
+
+If participants do not have a constrained/unconstrained system or primary, constrastive1, constrastive2 they should submit only the files that they have, please do NOT repeat submissions.
+
+Submission files should contain translations (or transcriptions) in the format of 1 per line following the format of the segments file (in sequence) corresponding to the test data splits.
+
 
 ## Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+The official BLEU score will use lower-case and no punctuation, following the "norm" files in the setup [instructions](https://github.com/kevinduh/iwslt22-dialect). 
+
 
 
 ## Organizers
 
 <!-- List of organizers' names and affiliations -->
+Bemba:
+<ul>
+	<li>Antonios Anastasopoulos, George Mason University (antonis [email symbol] gmu.edu)</li>
+	<li>Claytone Sikasote, University of Zambia (claytone.sikasote [email symbol] cs.unza.zm)</li>
+</ul>
 
+Maltese:
+<ul>
+	<li>Claudia Borg, University of Malta (claudia.borg [email symbol] um.edu.mt)</li>
+	<li>Rishu Kumar, Charles University (kumarri [email symbol] student.cuni.cz></li>
+</ul>
+
+Arabic:
+<ul>
+	<li>Kenton Murray, Johns Hopkins University </li>
+	<li>Mateusz Krubiński, Institute of Formal and Applied Linguistics, Charles University</li>
+	<li>Pavel Pecina, Institute of Formal and Applied Linguistics, Charles University (pecina [email symbol] ufal.mff.cuni.cz)</li>
+</ul>
+
+Quechua:
+<ul>
+	<li>Rodolfo Zevallos - Universitat Pompeu Fabra (rodolfojoel.zevallos [email symbol] upf.edu)</li>
+	<li>William Chen - Carnegie Mellon Univerisy (wc4 [email symbol] andrew.cmu.edu)</li>
+	<li>Ibrahim Ahmed - Northeastern University (i.ahmad [email symbol] northeastern.edu)</li>
+	<li>John Ortega - Northeastern University (j.ortega [email symbol] northeastern.edu)</li>
+</ul>
+
+Tamasheq:
+<ul>
+ 	<li>Yannick Estève - Avignon University (yannick.esteve [email symbol] univ-avignon.fr)</li>
+</ul>
+
+Irish, Marathi, Bhojpuri:
+<ul>
+	<li>Atul Kr. Ojha - University of Galway (atulkumar.ojha [email symbol] insight-centre.org)</li>
+</ul>
 
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair:   
+Chair: Antonios Anastasopoulos, George Mason University
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
+
+Please use the tag [LowRes] in your email title when emailing the above googlegroup.
