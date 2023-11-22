@@ -20,7 +20,7 @@ We will likely require creative approaches in leveraging disparate resources.
 For example, to translate dialectal speech such as Tunisian Arabic, one may leverage existing speech and text resources in Modern Standard Arabic. 
 Or, to translate a low-resource language such as Tamasheq, one may need to leverage word-level translation resources and raw audio. 
 
-We will provide training and evaluation data for a range of language-pairs. 
+We will provide training and evaluation data for 8 typologically diverse language-pairs. 
 Participants are free to participate in any number of language-pairs in this track, but we highly encourage participation in as many as possible. 
 We welcome both dedicated systems that are designed to a single language-pair, as well as general recipes aimed at improving speech translation broadly for a wide typology of languages. 
 
@@ -28,7 +28,7 @@ We welcome both dedicated systems that are designed to a single language-pair, a
 
 The submission format will be standardized across all language-pairs.
 Participants can submit systems under two conditions:
-- **Constrained condition:** systems are trained only on the dataset provided by the organizers
+- **Constrained condition:** systems are trained only on the datasets provided by the organizers (listed below)
 - **Unconstrained condition:** systems can be trained with any resource, including pre-trained models. Multilingual models are allowed. 
 
 Information about data and baselines are provided in the sections specific to each language pair. 
@@ -45,19 +45,18 @@ This language pair will focus on evaluating performance on three Arabic vernacul
 </ul>
 
 We point the participants to training data across different Arabic varieties:
-<ul>
-<li>The aeb-eng training data are the same as the one used in the IWSLT 2022 and 2023 tracks: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>.  We suggest you follow the train/dev/test1 split instructions according to the linked webpage.
+
+ - The aeb-eng training data are the same as the one used in the IWSLT 2022 and 2023 tracks: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>.  We suggest you follow the train/dev/test1 split instructions according to the linked webpage.
 
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
-All datasets have been manually segmented at the utterance level.</li>
-</ul>
+All datasets have been manually segmented at the utterance level.
+
 We also provide links to speech recognition datasets that include Arabic data:
-<ul>
-<li> OpenSLR Resource [SLR46](https://www.openslr.org/46/)</li>
-<li> OpenSLR Resource [SLR48](https://www.openslr.org/48/)</li>
-<li> OpenSLR Resource [SLR108](https://www.openslr.org/108/)</li>
-<li> OpenSLR Resource [SLR132](https://www.openslr.org/132/)</li>
-</ul>
+- OpenSLR Resource [SLR46](https://www.openslr.org/46/)
+- OpenSLR Resource [SLR48](https://www.openslr.org/48/)
+- OpenSLR Resource [SLR108](https://www.openslr.org/108/)
+- OpenSLR Resource [SLR132](https://www.openslr.org/132/)
+
 
 ### Bemba to English (bem-eng)
 Bemba is a Bantu language, spoken by over 10 million people in Zambia and other parts of Africa.
@@ -66,10 +65,9 @@ Data are based on the corpus described in [this paper](https://aclanthology.org/
 They are available for download in this <a href="#">Github link</a>.
 
 Additional Bemba speech data (with transcriptions) are available here:
-<ul>
-	<li>BembaSpeech [data](https://github.com/csikasote/BembaSpeech) [paper](https://arxiv.org/pdf/2102.04889.pdf)</li>
-	<li>ZambeziVoice [data](https://github.com/unza-speech-lab/zambezi-voice) [paper](https://arxiv.org/pdf/2306.04428.pdf)</li>
-</ul>
+
+- BembaSpeech [data](https://github.com/csikasote/BembaSpeech) [paper](https://arxiv.org/pdf/2102.04889.pdf)
+- ZambeziVoice [data](https://github.com/unza-speech-lab/zambezi-voice) [paper](https://arxiv.org/pdf/2306.04428.pdf)
 
 ### Bhojpuri to Hindi (bho-hin)
 
@@ -96,11 +94,10 @@ Marathi is an Indo-Aryan language dominantly spoken in India’s Maharashtra sta
 IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 30 hours of audio speech data from the news domain and translations into Hindi text.
 
 We point participants to additional Marathi audio data (with transcriptions) from here: 
-<ul>
-<li>[Common Voice](https://commonvoice.mozilla.org/en/datasets)</li> 
-<li>[OpenSLR](https://www.openslr.org/64/)</li> 
-<li>[Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)</li>
-</ul>
+
+- [Common Voice](https://commonvoice.mozilla.org/en/datasets)
+- [OpenSLR](https://www.openslr.org/64/)
+- [Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)
 
 ### Quechua to Spanish (que-spa)
 
@@ -118,11 +115,9 @@ This task is about translating spoken Tamasheq into written French. Almost 20 ho
 A major challenge is that no Tamasheq transcription is provided.
 
 
- * Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data)
- * Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
- * The corpus is described in <a href="https://arxiv.org/abs/2201.05051">this paper</a>
- <!--* **THE TEST DATA FOR 2023 IS NOW AVAILABLE [HERE](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/wav)**
- * **Submission file is a text document, with one translation by line, in the same order as the one given in the segments file** [here](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2023/txt)-->
+ - Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data)
+ - Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
+ - The corpus is described in <a href="https://arxiv.org/abs/2201.05051">this paper</a>
 
 
 ## Baselines
@@ -156,28 +151,42 @@ where:
 - "team_name" is the name of the team
 - "task" is one of "st" and "asr"
 - "type" is one of "constrained" and "unconstrained"
-- "label" is one of "primary" and "contrastive1" or "contrastive2"
+- "label" is one of "primary", "contrastive1", or "contrastive2"
 - "language-pair" uses the three-letter ISO codes defined above (e.g. que-spa for Quechua to Spanish)
 
 If participants do not have a constrained/unconstrained system or primary, constrastive1, constrastive2 they should submit only the files that they have, please do NOT repeat submissions.
 
-Submission files should contain translations (or transcriptions) in the format of 1 per line following the format of the segments file (in sequence) corresponding to the test data splits.
+Submission files should contain translations (or transcriptions) in the format of one per line following the format of the segments file (in sequence) corresponding to the test data splits.
 
+Submission details will be provided with the release of the test data.
 
 ## Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 The official BLEU score will use lower-case and no punctuation, following the "norm" files in the setup [instructions](https://github.com/kevinduh/iwslt22-dialect). 
 
+We will also aim for a human evaluation of the translation outputs.
 
 
 ## Organizers
 
 <!-- List of organizers' names and affiliations -->
+Arabic:
+<ul>
+	<li>Kenton Murray, Johns Hopkins University </li>
+	<li>Mateusz Krubiński, Institute of Formal and Applied Linguistics, Charles University (krubinski [email symbol] ufal.mff.cuni.cz)</li>
+	<li>Pavel Pecina, Institute of Formal and Applied Linguistics, Charles University (pecina [email symbol] ufal.mff.cuni.cz)</li>
+</ul>
+
 Bemba:
 <ul>
 	<li>Antonios Anastasopoulos, George Mason University (antonis [email symbol] gmu.edu)</li>
 	<li>Claytone Sikasote, University of Zambia (claytone.sikasote [email symbol] cs.unza.zm)</li>
+</ul>
+
+Bhojpuri, Irish, Marathi:
+<ul>
+	<li>Atul Kr. Ojha - University of Galway (atulkumar.ojha [email symbol] insight-centre.org)</li>
 </ul>
 
 Maltese:
@@ -186,12 +195,6 @@ Maltese:
 	<li>Rishu Kumar, Charles University (kumarri [email symbol] student.cuni.cz></li>
 </ul>
 
-Arabic:
-<ul>
-	<li>Kenton Murray, Johns Hopkins University </li>
-	<li>Mateusz Krubiński, Institute of Formal and Applied Linguistics, Charles University</li>
-	<li>Pavel Pecina, Institute of Formal and Applied Linguistics, Charles University (pecina [email symbol] ufal.mff.cuni.cz)</li>
-</ul>
 
 Quechua:
 <ul>
@@ -206,15 +209,12 @@ Tamasheq:
  	<li>Yannick Estève - Avignon University (yannick.esteve [email symbol] univ-avignon.fr)</li>
 </ul>
 
-Irish, Marathi, Bhojpuri:
-<ul>
-	<li>Atul Kr. Ojha - University of Galway (atulkumar.ojha [email symbol] insight-centre.org)</li>
-</ul>
 
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 Chair: Antonios Anastasopoulos, George Mason University
+
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
 Please use the tag [LowRes] in your email title when emailing the above googlegroup.
