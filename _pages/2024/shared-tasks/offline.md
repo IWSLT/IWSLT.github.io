@@ -19,6 +19,10 @@ The goal of the **Offline Speech Translation Task** is to examine automatic meth
 
 Last year's edition showed that increasing the complexity of the scenario (e.g. spontaneous speech, terminology, and dialogues) there is a clear degradation of the performance of both technologies compared to the use of the classic TED talk test set.
 
+This imposes an interesting research question of how robust our current SLT system is in a more realistic scenario. Accent, a specific pronunciation by people in a particular area, country or social group, is a unique characteristic in the speech modality. In spite of speaking in the same language, such specific pronunciation could hinder communication between people in different groups. However, accent is rarely examined in our SLT systems. This year, in addition to the traditional test sets, we would provide an extra test set to challenge the participant’s systems on accented conversations in the English-to-German language direction.
+
+The submitted system, whether it is under “constrained” data condition or not, would be evaluated on this extra test set. The participants are also welcome to adapt their systems for this robustness challenge on the accent related data, e.g., VCTK corpus, LibriTTS corpus and ACL 60/60 evaluation sets. 
+
 <!-- Decision to take: what scientific questions? Here we need to highlight the robust scenario -->
 <!--In addition to answering the question **if the cascade solution is still the dominant technology**, this year we will address an additional research question in the evaluation:
 * **Is the current spoken language translation technology able to deal with more complex scenarios (e.g. spontaneous speech, terminology, and dialogues)?** In addition to the classic TED talk test set from English into German, the task introduces two more test sets that face more challenging scenarios:
@@ -190,7 +194,9 @@ Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 Sebastian Stüker (Zoom, Germany)  
 Jan Niehues (KIT, Germany)  
 Roldano Cattoni (FBK, Italy)
-
+Tsz Kin Lam (The University of Edinburgh, the United Kingdom)
+Barry Haddow (The University of Edinburgh, the United Kingdom)
+Marcely Zanon Boito (NAVER LABS Europe, France)
 
 
 
