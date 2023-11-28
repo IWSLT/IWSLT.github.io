@@ -193,11 +193,10 @@ Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 <!-- Decision to take: Add more organizers here -->
 Sebastian Stüker (Zoom, Germany)  
 Jan Niehues (KIT, Germany)  
-Roldano Cattoni (FBK, Italy)
-Tsz Kin Lam (The University of Edinburgh, the United Kingdom)
-Barry Haddow (The University of Edinburgh, the United Kingdom)
+Roldano Cattoni (FBK, Italy)\
+Tsz Kin Lam (The University of Edinburgh, the United Kingdom)\
+Barry Haddow (The University of Edinburgh, the United Kingdom)\
 Marcely Zanon Boito (NAVER LABS Europe, France)
-
 
 
 ## Contact
