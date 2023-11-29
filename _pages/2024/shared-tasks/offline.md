@@ -1,5 +1,5 @@
 ---
-permalink: /2023/offline
+permalink: /2024/offline
 title: "Offline track"
 toc: true
 toc_sticky: true
