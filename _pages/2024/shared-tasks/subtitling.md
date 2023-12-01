@@ -15,10 +15,6 @@ if you want to have a line break either put a blank line in between the text or 
 
 <!-- Description the task, the languages, and the type of data -->
 
-## Description
-
-<!-- Description the task, the languages, and the type of data -->
-
 In recent years, the task of automatically creating subtitles for audiovisual content in another language has gained a lot of attention, as we have seen a surge in the amount of movies, series and user-generated videos which are being streamed and distributed all over the world. 
 The task of automatic subtitling is multi-faceted: starting from the speech, not only the translation has to be generated, but it must be segmented into subtitles compliant with constraints that ensure high-quality user experience, like a proper reading speed, synchrony with the voices, maximum number of subtitle lines and characters per line, etc.
 
