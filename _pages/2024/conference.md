@@ -63,7 +63,7 @@ The submission portal will open in early 2024.
 ### Timeline
 
 |-----------------|----------------------------------------------|
-| Dec 1, 2023     | Release of shared task training and dev data |
+| Jan 1, 2024     | Release of shared task training and dev data |
 | Mar 15, 2024    | Scientific paper submission deadline         |
 | Apr 1-15, 2024  | Evaluation period                            |
 | Apr 21, 2024    | System paper submission deadline             |
