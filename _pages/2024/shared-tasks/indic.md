@@ -64,21 +64,36 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 ## Submission
 
 <!-- Description of expected submission format and submission instructions -->
+The submissions must be mailed to this email:
 
+Only one submission is allowed per team. 
+
+The submissions must be submitted zipped in tar.gz format and then emailed. 
+
+The email should include the following information:
+
+Institute:
+Contact Person:
+Email:
+Data condition: Constrained/Unconstrained
+Segmentation: Own/Given
+Brief abstract about the system:
+Multilingual: Yes/No
+Do you want to make your submissions freely available for research purposes? (yes/no)
 
 
 ## Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-
+Only one test-set will be provided for each language-pair, consisting Speech in the English language only. 
 
 ## Organizers
 
 <!-- List of organizers' names and affiliations -->
 
-1. Nivedita Sethiya (PhD Scholar, AI labs, Computer Science and Engineering, Indian Institute of Technology Indore, India)- phd2201201003@iiti.ac.in
-2. Balaram Sarkar (MS, AI labs, Computer Science and Engineering, Indian Institute of Technology Indore, India)- ms2204101006@iiti.ac.in
-3. Dr. Chandresh Kumar Maurya (Assistant Professor, Computer Science and Engineering, Indian Institute of Technology Indore, India)- chandresh@iiti.ac.in
+1. Nivedita Sethiya (PhD Scholar, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- phd2201201003@iiti.ac.in
+2. Balaram Sarkar (MS, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- ms2204101006@iiti.ac.in
+3. Dr. Chandresh Kumar Maurya (Assistant Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- chandresh@iiti.ac.in
 
 ## Contact
 
