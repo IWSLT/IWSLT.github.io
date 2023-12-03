@@ -29,6 +29,15 @@ The data for this Indic-track shared task comprises a Speech-to-Text (ST) corpus
 
 <!-- Details description of the data and links to download -->
 
+English to Hindi (en-> hi): 
+Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations). The data is available here. 
+
+English to Bengali (en-> bn): 
+Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). The data is available here. 
+
+English to Tamil (en-> ta): 
+Tamil is one of the classical languages of India, spoken by 90.8 million speakers. It belongs to Dravidian language family, spoken by Tamil people of South-Asia. It is the official language of Tamil Nadu state of India, written in Brahmi script. The data contains English speech, English texts (transcripts), and Tamil texts (translations). The data is available here. 
+
 
 ## Baselines
 
