@@ -29,19 +29,19 @@ The data for this Indic-track shared task comprises a Speech-to-Text (ST) corpus
 
 <!-- Details description of the data and links to download -->
 
-English to Hindi (en-> hi): 
+#English to Hindi (en-> hi): 
 
 Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations). The speech of English language is 95.7 hours and the texts for Hindi language is 37K lines. The data is available here. 
 
 The baseline for English to Hindi speech translation is a BLEU score of 5.23.
 
-English to Bengali (en-> bn): 
+#English to Bengali (en-> bn): 
 
 Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). The speech of English language is 16.44 hours and the texts for Bengali language is 6.9K lines. The data is available here. 
 
 The baseline for English to Bengali speech translation is a BLEU score of 5.86.
 
-English to Tamil (en-> ta): 
+#English to Tamil (en-> ta): 
 
 Tamil is one of the classical languages of India, spoken by 90.8 million speakers. It belongs to Dravidian language family, spoken by Tamil people of South-Asia. It is the official language of Tamil Nadu state of India, written in Brahmi script. The data contains English speech, English texts (transcripts), and Tamil texts (translations). The speech of English language is 22.15 hours and the texts for Tamil language is 8K lines. The data is available here. 
 
@@ -51,12 +51,20 @@ The baseline for English to Tamil speech translation is a BLEU score of 1.9.
 
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
+##Conditions:
 
+The submissions for the all the language-pairs can for the below 2 conditions:
+
+1. Constrained Conditions: Only the language data provided with the data here can be used for pre-training the models. No data from any other sources can be used for pre-training of the models. 
+
+
+2. Unconstrained Conditions: Any pre-trained models and any other data can be used for pre-training the models. 
 
 
 ## Submission
 
 <!-- Description of expected submission format and submission instructions -->
+
 
 
 ## Evaluation
@@ -68,6 +76,9 @@ The baseline for English to Tamil speech translation is a BLEU score of 1.9.
 
 <!-- List of organizers' names and affiliations -->
 
+1. Nivedita Sethiya (PhD Scholar, AI labs, Computer Science and Engineering, Indian Institute of Technology Indore, India)- phd2201201003@iiti.ac.in
+2. Balaram Sarkar (MS, AI labs, Computer Science and Engineering, Indian Institute of Technology Indore, India)- ms2204101006@iiti.ac.in
+3. Dr. Chandresh Kumar Maurya (Assistant Professor, Computer Science and Engineering, Indian Institute of Technology Indore, India)- chandresh@iiti.ac.in
 
 ## Contact
 
