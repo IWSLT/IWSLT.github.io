@@ -13,14 +13,19 @@ if you want to have a line break either put a blank line in between the text or 
 
 ## Description
 
-Details coming soon!
+In the realm of spoken language processing, Speech-to-Text Translation (ST) holds a crucial role at the intersection of natural language processing. The primary aim of ST is to convert spoken language from one linguistic context into written text in another language. This typically involves using Automatic Speech Recognition (ASR) to convert speech in the source language into text, followed by Machine Translation (MT) to translate the source language text into the target language. ST is a multimodal task that takes speech input and produces output in text format. Furthermore, it is inherently multilingual, taking speech input in one language and generating text output in another.Traditionally, human language translators proficient in both the source and target languages have handled this task. However, the scarcity of translators fluent in multiple languages has created a pressing need for a dedicated model tailored to excel in the unique realm of ST tasks across diverse languages. Recent advancements in ST have predominantly focused on high-resource languages, leaving a significant gap for low-resource languages that face a substantial catch-up journey. The attention imbalance is primarily due to the scarcity of data for low-resource languages, as most deep-learning models depend on data abundance. Acquiring such data for low-resource languages poses a formidable challenge.
+
+While a considerable body of research is dedicated to ST across diverse language families, there is a noticeable gap in investigating this domain concerning low-resource Indian languages. Currently, there are no datasets specifically designed for the ST task in Indian languages, covering both the Indo-Aryan and the Dravidian language families. The goal of this research is to create an End-to-End (E2E) Speech-to-Text (ST) model that encompasses all Indian languages.
+
+The aim of this Indic-track shared task is to establish a speech translation model that spans a diverse array of dialects and low-resource languages originating from the Indo-Aryan and Dravidian language families in India. Given that a significant portion of the data is sourced from very low-resource languages, these languages remain largely unexplored in the realm of speech translation. Compounding this challenge is the fact that many of the target languages are distantly related to English. Consequently, we anticipate that relying solely on pre-trained models may encounter numerous obstacles. The dataset provided will serve as the inaugural benchmark and gold standard dataset, encompassing all major Indian languages. Our aspiration is for participants to develop systems capable of real-world deployment in the future.
 
 <!-- Description the task, the languages, and the type of data -->
 
-
 ## Data
 
-Data will be released in January.
+The ST task data for the Indic-track will encompass three Indian languages representing diverse language families. The languages included in this shared task are Hindi (hi), Bengali (bn), and Tamil (ta), originating from the Indo-Aryan and Dravidian language families. The dataset will include speeches and texts (transcriptions) in English (source language) and texts (translations) in Hindi, Bengali, and Tamil (target languages).
+
+The data for this Indic-track shared task comprises a Speech-to-Text (ST) corpus that includes 3 low-resource Indian languages. Table 1 illustrates the consistency maintained across all corpora, with an equal number of lines in their .en, .lang, and .yaml files. However, due to inherent linguistic differences, the number of tokens in the .en and .lang files varies. The count of audio files corresponds to the number of distinct talks, each delivered by an individual speaker. Additionally, the speech hours indicate the cumulative duration of speech in a given language. Each of these parameters is meticulously categorized into test, train, and valid subsets, establishing a comprehensive and structured dataset.
 
 <!-- Details description of the data and links to download -->
 
@@ -28,6 +33,8 @@ Data will be released in January.
 ## Baselines
 
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
+
+
 
 
 ## Submission
