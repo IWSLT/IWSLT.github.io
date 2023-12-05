@@ -71,13 +71,21 @@ Additional Bemba speech data (with transcriptions) are available here:
 
 ### Bhojpuri to Hindi (bho-hin)
 
-Details coming soon.
+Bhojpuri belongs to the Indo-Aryan language group. It is dominantly spoken in India’s western part of Bihar, the north-western part of Jharkhand, and the Purvanchal region of Uttar Pradesh. As per the 2011 Census of India, it has around 50.58 million speakers. Bhojpuri is spoken not just in India but also in other countries such as Nepal, Trinidad, Mauritius, Guyana, Suriname, and Fiji. Since Bhojpuri was considered a dialect of Hindi for a long time, it did not attract much attention from linguists and hence remains among the many lesser-known and less-resourced languages of India.
+
+IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_bho-hi">Bhojpuri-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_bho-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 25 hours of audio speech data from the news domain and translations into Hindi text.
+
+We point participants to additional Bhojpuri audio data (with transcriptions), parallel and monolingual corpora from here: 
+
+- [ULCA-asr-dataset-corpus](https://github.com/Open-Speech-EkStep/ULCA-asr-dataset-corpus)
+- [Bhojpuri-wav2vec2 based model](https://github.com/Open-Speech-EkStep/vakyansh-models#wav2vec2-based-models)
+- [Bhojpuri Language Technological Resources (BHLTR)](https://github.com/shashwatup9k/bho-resources)
 
 
 ### Irish to English (gle-eng)
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
 
-IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-en"> here</a>. Please sign <a href="#"> this form</a> to get acess credentials. This corpus consists of 11 hours of audio speech data and translations into English text.
+IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-en"> here</a>. Please sign <a href="https://forms.gle/7UPquNT9PT6SSTgk6"> this form</a> to get access credentials. This corpus consists of 11 hours of audio speech data and translations into English text.
 
 
 ### Maltese to English (mlt-eng)
