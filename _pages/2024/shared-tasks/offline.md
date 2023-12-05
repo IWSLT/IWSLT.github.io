@@ -38,7 +38,7 @@ The submitted system, whether it is under “constrained” data condition or no
 -->
 
 <!-- Decision to take: what evaluation metrics? -->
-<!--The system's performance will be evaluated with respect to their capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER, and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.
+<!--The system's performance will be evaluated with respect to its capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: BLEU, TER, BEER, and characTER. The submitted runs will be ranked based on the BLEU calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.
 -->
 
 
@@ -49,7 +49,7 @@ The submitted system, whether it is under “constrained” data condition or no
 Both cascade and end-to-end models will be evaluated. We kindly ask each participant to specify at submission time if a cascade or an end-to-end model has been used.
 
 In this task, we use the following definition of end-to-end model:
-  * No intermediated discrete representations (source language like in cascade or target languages like in rover)
+  * No intermediate discrete representations (e.g., source language transcripts like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
 All the systems will be evaluated on the combination of the different test tests (depending on the language directions) and each specific test set. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. Each audio file will have a clear identifier of the type of data: e.g. TEDtalk_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
@@ -79,7 +79,6 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
 
 **Development data:**
 
-(Please note that system generated the provided ASR scripts use more training data than allowed for this year's evaluations)
   * [dev2010](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/preprocessed/IWSLT-SLT.dev2010.en-de.tgz)
   * [tst2010](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/preprocessed/IWSLT-SLT.tst2010.en-de.tgz)
   * [tst2013](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/preprocessed/IWSLT-SLT.tst2013.en-de.tgz)
@@ -148,10 +147,10 @@ Note: this list is identical to the one available in the subtitle task. Some tra
 ## Submission Guidelines
 
   * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
-  * Submissions have to be submitted as a gzipped TAR archive (see format below) and sent as an email attachment to  <iwslt_offline_task_submission@fbk.eu>.
+  * Submissions must be packaged as a gzipped TAR archive (see format below) and sent as an email attachment to <iwslt_offline_task_submission@fbk.eu>.
   * The TAR archive should include in the file name the type of system (cascade/end-to-end) used to generate the submission
-  * Each run has to be stored in a plain text file with one sentence per line
-  * Scoring will be case-sensitive and include the punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
+  * Each run has to be stored as a plain text file with one sentence per line
+  * Scoring will be case-sensitive and will include punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
 
 TAR archive file structure:
 ```
