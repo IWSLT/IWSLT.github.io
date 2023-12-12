@@ -4,7 +4,7 @@ title: ""
 classes: wide
 ---
 
-*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2023/sponsor_info).* 
+*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2024/sponsor_info).* 
 
 
 # Sponsors & Donors
