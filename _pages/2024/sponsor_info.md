@@ -1,12 +1,12 @@
 ---
-permalink: /2024/sponsor_info
+permalink: /2023/sponsor_info
 title: "Sponsorships and Donations"
 ---
 
 IWSLT welcomes sponsorships and donations in the form of either money or compute credits to support human evaluations, data collections and participating students. 
 Sponsorships and donations will be collected through the Association for Computational Linguistics.
 
-IWSLT 2024 offers 5 tiers of sponsorships/donations of money: 
+IWSLT 2023 offers 5 tiers of sponsorships/donations of money: 
 
 - Diamond Sponsor: $10,000 
 - Platinum Sponsor: $5,000 
@@ -14,7 +14,7 @@ IWSLT 2024 offers 5 tiers of sponsorships/donations of money:
 - Silver Sponsor:   $2,000 
 - Bronze Sponsor:   $1,000  
 
-IWSLT 2024 acknowledges 5 tiers of sponsorships/donations of compute credits: 
+IWSLT 2023 acknowledges 5 tiers of sponsorships/donations of compute credits: 
 
 - Diamond Donor:  $20,000 and up 
 - Platinum Donor: $10,000 and up
