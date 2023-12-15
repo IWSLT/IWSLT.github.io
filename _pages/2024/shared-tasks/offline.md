@@ -26,15 +26,19 @@ The submitted system, whether it is under “constrained” data condition or no
 <!-- Decision to take: what scientific questions? Here we need to highlight the robust scenario -->
 <!--In addition to answering the question **if the cascade solution is still the dominant technology**, this year we will address an additional research question in the evaluation:
 * **Is the current spoken language translation technology able to deal with more complex scenarios (e.g. spontaneous speech, terminology, and dialogues)?** In addition to the classic TED talk test set from English into German, the task introduces two more test sets that face more challenging scenarios:
-  * ACL presentations: a single speaker is presenting on a stage. Although this is similar to the TED talk scenario, the speech translation system needs to deal with non-native speakers, different accents, various recording quality, terminology, and controlled interaction with a second speaker.
-  * Press conferences and interviews: in this scenario, two persons interact on different topics. The speech translation system needs to deal with non-native speakers, different accents, controlled interaction with a second speaker, and spontaneous speeches.
+ replace this with Amazon data * ACL presentations: a single speaker is presenting on a stage. Although this is similar to the TED talk scenario, the speech translation system needs to deal with non-native speakers, different accents, various recording quality, terminology, and controlled interaction with a second speaker.
+ replace this bullet with subtitling test sets * Press conferences and interviews: in this scenario, two persons interact on different topics. The speech translation system needs to deal with non-native speakers, different accents, controlled interaction with a second speaker, and spontaneous speeches.
+-->
+
+<!--Move here the part on accent
+Add the part on the additional test sets. Deadline 1st of March -> only the audio. Evaluation performed by the persons who submitted the data. About the format, Marco contacts Jan. We force them to translate everything by merging the additional test sets into a single file.
 -->
 
 <!-- Decision to take: What language directions -->
 <!--Similarly to last year, three language directions are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
 * English -> German: TED talks, ACL presentations and press conference and interviews.
-* English -> Japanese: TED talks and ACL presentations. 
-* English -> Chinese: TED talks and ACL presentations. 
+* English -> Japanese: TED talks + subtitling. 
+* English -> Chinese: TED talks. 
 -->
 
 
