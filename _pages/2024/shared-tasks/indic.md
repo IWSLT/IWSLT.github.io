@@ -63,13 +63,9 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 ## Submission
 
 <!-- Description of expected submission format and submission instructions -->
-The submissions must be mailed to this email:
+The submissions must be mailed to this email: Link
 
-Only one submission is allowed per team. 
-
-The submissions must be submitted zipped in tar.gz format and then emailed. 
-
-The email should include the following information:
+Only one submission is allowed per team. The submissions must be submitted zipped in tar.gz format and then emailed. The email should include the following information:
 
 Institute:
 
