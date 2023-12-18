@@ -62,14 +62,14 @@ The submission portal will open in early 2024.
 
 ### Timeline
 
-|-----------------|----------------------------------------------|
-| Jan 1, 2024     | Release of shared task training and dev data |
-| Mar 15, 2024    | Scientific paper submission deadline         |
-| Apr 1-15, 2024  | Evaluation period                            |
-| Apr 21, 2024    | System paper submission deadline             |
-| May 15, 2024    | Notification of acceptance                   |
-| June 1, 2024    | Camera ready deadline                        |
-| August 2024     | IWSLT conference                             |
+|--------------------|----------------------------------------------|
+| Jan 15, 2024       | Release of shared task training and dev data |
+| Mar 15, 2024       | Scientific paper submission deadline         |
+| Apr 1-15, 2024     | Evaluation period                            |
+| Apr 21, 2024       | System paper submission deadline             |
+| May 15, 2024       | Notification of acceptance                   |
+| June 1, 2024       | Camera ready deadline                        |
+| August 15-16, 2024 | IWSLT conference                             |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
