@@ -29,7 +29,7 @@ and two language directions:
 * English -> Spanish
 
 ## Training and Data Conditions
-### Automatic Subtitling
+### 🔵 AUTOMATIC SUBTITLING 🔵
 Two training data conditions are proposed:
 * **constrained**: the official training data condition, in which the allowed training data is limited to a medium-sized framework (described below) in order to keep the training time and resource requirements manageable
 * **unconstrained**: a setup without data restrictions (any resource, pre-trained language models can be used) to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources
@@ -43,14 +43,13 @@ Two training data conditions are proposed:
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
 | speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | V2/V3 | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
-| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0/v3.0 |  |
+| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0/v3.0 |  |
 | speech-to-text-parallel | en | de | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
-| speech-to-text-parallel | en | es | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema below but without subtitle breaks |
+| speech-to-text-parallel | en | de, es | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema but without subtitle breaks |
 | speech-to-text-parallel | en | es | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
 | speech-to-text-parallel | en | de | [Speech Translation TED corpus](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/corpus/iwslt-corpus.zip) | na | |
 | speech-to-text-parallel | en | de | [CoVoST](https://github.com/facebookresearch/covost) | v2 | only German translation, no English transcription |
-| speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
-| speech-to-text-parallel | en | es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| speech-to-text-parallel | en | de, es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
 | text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
 | text-parallel | en | de | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v16.de-en.tsv.gz) | v16 | |
@@ -68,13 +67,13 @@ Two training data conditions are proposed:
 
 #### Development and Evaluation Data
 
-Participants are asked to automatically subtitle in German and/or Spanish three kinds of audio-visual documents, where the spoken language is always English, featuring different levels of complexity: *(1)* TED talks from the MuST-Cinema corpus, *2* Peloton physical training videos, and *(3)* ITV entertainment series.
+Participants are asked to automatically subtitle three kinds of audio-visual documents, where the spoken language is always English, featuring different levels of complexity: *(1)* TED talks from the MuST-Cinema corpus, *(2)* Peloton physical training videos, and *(3)* ITV entertainment series.
 
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
 ⏳ *Data will be released in January*
 
-### 🆕 Subtitle Compression
+### 🔵 🆕 SUBTITLE COMPRESSION 🔵
 
 This year, we propose a new simplified sub-track where participants are asked to rephrase subtitles that are non-compliant with the reading speed constraint (> 21 cps) to make them compliant. In this sub-task, time boundaries do not have to be changed: only the text, in a given time span, has to be compressed when necessary.
 
