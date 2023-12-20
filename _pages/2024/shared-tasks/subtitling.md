@@ -35,6 +35,7 @@ Two training data conditions are proposed:
 * **unconstrained**: a setup without data restrictions (any resource, pre-trained language models can be used) to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources
 
 #### Training Data allowed for Constrained Conditions
+
 | Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment
 | --- | :---: | :---: | --- | --- | --- |
 | speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used
