@@ -1,6 +1,8 @@
 ---
 permalink: /2024/sponsor_info
 title: "Sponsorships and Donations"
+toc: true
+toc_sticky: true
 ---
 
 IWSLT welcomes sponsorships and donations in the form of either money or compute credits to support human evaluations, data collections and participating students. 
