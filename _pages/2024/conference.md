@@ -87,6 +87,6 @@ The submission portal will open in early 2024.
 
 
 ## Sponsorship Opportunities
-IWSLT welcomes [sponsorships](/2024/sponsors_info)!
+IWSLT welcomes [sponsorships](/2024/sponsor_info)!
 
 
