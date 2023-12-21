@@ -30,12 +30,12 @@ Finally, last year's edition showed that introducing complexity to the scenario 
  replace this bullet with subtitling test sets * Press conferences and interviews: in this scenario, two persons interact on different topics. The speech translation system needs to deal with non-native speakers, different accents, controlled interaction with a second speaker, and spontaneous speeches.
 -->
 
-In addition to answering the question **if the cascade solution is still the dominant technology**, this year we will address an additional research question in the evaluation:
+In addition to answering the question **if the cascade solution is still the dominant technology**, this year we will address an additional research question in the evaluation: 
 * **Is the current spoken language translation technology able to deal with more complex scenarios (e.g. spontaneous speech, terminology, different accents, background noise, and dialogues)?** In addition to the classic TED talk test set from English into German, the task introduces two more test sets that face more challenging scenarios:
-<!-- replace this with Amazon data * ACL presentations: a single speaker is presenting on a stage. Although this is similar to the TED talk scenario, the speech translation system needs to deal with non-native speakers, different accents, various recording quality, terminology, and controlled interaction with a second speaker.-->
- * TV series from ITV studios: in this scenario, multiple persons interact in different scenarios. The speech translation system needs to deal with overlapping speakers, different accents, and background noise.
- * Physical training sessions: in this scenario, persons are speaking while practicing in the gym. The speech translation system needs to deal with background noise and an informal speaking style.
- * Accent challenge data: accent, a specific pronunciation by people in a particular area, country, or social group, is a unique characteristic in the speech modality. In spite of speaking in the same language, such specific pronunciation could hinder communication between people in different groups. However, accent is rarely examined in our SLT systems. The submitted system, whether it is under “constrained” data conditions or not, would be evaluated on this extra test set. The participants are also welcome to adapt their systems for this robustness challenge on the accent-related data, e.g., VCTK corpus, LibriTTS corpus, and ACL 60/60 evaluation sets. 
+  * TV series: in this scenario, multiple persons interact in different scenarios. The speech translation system needs to deal with overlapping speakers, different accents, and background noise.
+  * Physical training sessions: in this scenario, persons are speaking while practicing in the gym. The speech translation system needs to deal with background noise and an informal speaking style.
+  * Accent challenge data: accent, a specific pronunciation by people in a particular area, country, or social group, is a unique characteristic in the speech modality. In spite of speaking in the same language, such specific pronunciation could hinder communication between people in different groups. However, accent is rarely examined in our SLT systems. The submitted system, whether it is under “constrained” data conditions or not, would be evaluated on this extra test set. The participants are also welcome to adapt their systems for this robustness challenge on the accent-related data, e.g., VCTK corpus, LibriTTS corpus, and ACL 60/60 evaluation sets.
+  <!-- Jan replace this with Amazon data * ACL presentations: a single speaker is presenting on a stage. Although this is similar to the TED talk scenario, the speech translation system needs to deal with non-native speakers, different accents, various recording quality, terminology, and controlled interaction with a second speaker.-->
 
 <!--Move here the part on accent
 Add the part on the additional test sets. Deadline 1st of March -> only the audio. Evaluation performed by the persons who submitted the data. About the format, Marco contacts Jan. We force them to translate everything by merging the additional test sets into a single file.
@@ -48,16 +48,20 @@ Add the part on the additional test sets. Deadline 1st of March -> only the audi
 * English -> Chinese: TED talks. 
 -->
 
-Similarly to last year, three language directions are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
+Similarly to last year, three **language directions** are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
 * English -> German: TED talks, TV series, physical training sessions, and accent challenge data.
 * English -> Japanese: TED talks. 
 * English -> Chinese: TED talks. 
 
 
-The system's performance will be evaluated with respect to its capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: COMET, BLEURT, BLEU, TER, and characTER. The submitted runs will be ranked based on the COMET calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.
+The system's performance will be evaluated with respect to its capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: COMET, BLEURT, BLEU, TER, and characTER. The submitted runs will be ranked based on the **COMET** calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.
 
 
 
+🆕 Novelties as in a nutshell:
+ * New test data (accent challenge data)
+ * Test suite evaluation
+ * Novel primary metric: COMET
 
 
 ## Evaluation Conditions
@@ -72,6 +76,9 @@ All the systems will be evaluated on the combination of the different test tests
 
 
 ## Test Data
+
+The test data will include the official offline task data plus the test suite data (see below).
+
 <!-- Decision to take: to uncomment when releasing the data -->
 <!-- * English-German
    * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-de/IWSLT-SLT.tst2023.en-de.tgz)
@@ -81,9 +88,15 @@ All the systems will be evaluated on the combination of the different test tests
    * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-zh/IWSLT-SLT.tst2023.en-zh.tgz)
 -->
 
+### Test Suite
+
+<!--Move here the part on accent
+Add the part on the additional test sets. Deadline 1st of March -> only the audio. Evaluation performed by the persons who submitted the data. About the format, Marco contacts Jan. We force them to translate everything by merging the additional test sets into a single file.
+-->
+
 ## Past Editions Development Data
 
-The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. However the participants might also use a different segmentation. The data is provided as an archive with the following files ($set e.g. IWSLT.TED.dev2010):
+The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. However, the participants might also use a different segmentation. The data is provided as an archive with the following files ($set e.g. IWSLT.TED.dev2010):
   * $set.en-de.en.xml: Reference transcript (will not be provided for evaluation data)
   * $set.en-de.en.xml: Reference translation (will not be provided for evaluation data)
   * CTM_LIST: Ordered file list containing the ASR Output CTM Files (will not be provided for evaluation data) (Generated by ASR systems that use more data)
@@ -198,7 +211,7 @@ The email should include the following information:
 ## Contacts 
 <!-- Decision to take: Add more contact here -->
 
-Chairs: Marco Turchi (Zoom, Germany), Matteo Negri (FBK, Italy) 
+Chairs: Matteo Negri (FBK, Italy), Marco Turchi (Zoom, Germany)
 
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
