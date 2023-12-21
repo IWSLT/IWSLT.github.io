@@ -146,13 +146,12 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
 | speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | v2/v3 | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
-| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2/v2.0/v3.0 | A new version of MuST-C en-de has been released!! please check it out! |
-| speech-to-text-parallel | en | ja, zh | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0 | |
-| speech-to-text-parallel | en | de, es | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
-| speech-to-text-parallel | en | es | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema below but without subtitle breaks |
+| speech-to-text-parallel | en | de | [MUST-C](https://mt.fbk.eu/must-c/) | v1.2/v2.0/v3.0 |  |
+| speech-to-text-parallel | en | ja, zh | [MUST-C](https://mt.fbk.eu/must-c/) | v2.0 | |
+| speech-to-text-parallel | en | de | [MUST-Cinema](https://mt.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
 | speech-to-text-parallel | en | de | [Speech Translation TED corpus](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/corpus/iwslt-corpus.zip) | na | |
 | speech-to-text-parallel | en | de, ja, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
-| speech-to-text-parallel | en | de, es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
 | text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
 | text-parallel | en | es, zh, de, ja | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training) | v16 | |
