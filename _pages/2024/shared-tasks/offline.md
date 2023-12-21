@@ -56,12 +56,13 @@ Similarly to last year, three **language directions** are proposed in the offlin
 
 The system's performance will be evaluated with respect to its capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: COMET, BLEURT, BLEU, TER, and characTER. The submitted runs will be ranked based on the **COMET** calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.
 
-
+While evaluating the submitted systems to the official test sets, in this edition the organizers give the possibility to submit additional test suites. The goal of a test suite is to evaluate an SLT system on specific aspects that are generally hidden by the classic evaluation frameworks. More information in the session **Test suite**. This means that each participant will translate the official test sets and the test suites. While the official evaluation will be based only on the official test sets, the test suites will give the possibility to identify specific and challenging aspects that affect the SLT performance.  
 
 🆕 Novelties as in a nutshell:
  * New test data (accent challenge data)
  * Test suite evaluation
  * Novel primary metric: COMET
+ * Test suites
 
 
 ## Evaluation Conditions
@@ -89,6 +90,18 @@ The test data will include the official offline task data plus the test suite da
 -->
 
 ### Test Suite
+
+Test suites are custom extensions to standard offline test sets constructed so that they can focus on particular aspects of the SLT output. The goal of the test suite is to investigate specific aspects that are generally omitted by the classic evaluation strategies. Test suites also evaluate these aspects in their custom way.
+The particular test suite composition and its evaluation are fully on the test suite provider.
+
+If you are interested in submitting a test suite, you will need to upload (link to be provided) the data including the audio and a textual file describing the goal of the test suite. The format of the audio files will be provided later in January by the organizers of the offline task. 
+
+All the test suites will then be merged and made available to the participants in the test set section. Once the translations are received, they will be split according to the test suites and forwarded to the owners of the test suites. An evaluation is expected to be performed on time to be included in the findings paper.
+
+Important date:
+* The test suite should be submitted by the **1st of March**.
+
+For more information about the test suite: <iwslt-evaluation-campaign@googlegroups.com>
 
 <!--Move here the part on accent
 Add the part on the additional test sets. Deadline 1st of March -> only the audio. Evaluation performed by the persons who submitted the data. About the format, Marco contacts Jan. We force them to translate everything by merging the additional test sets into a single file.
