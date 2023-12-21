@@ -43,10 +43,9 @@ Two training data conditions are proposed:
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
 | speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | V2/V3 | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
-| speech-to-text-parallel | en | de | [MUST-C](https://ict.fbk.eu/must-c/) | v2.0/v3.0 |  |
-| speech-to-text-parallel | en | de | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
-| speech-to-text-parallel | en | de, es | [MUST-C](https://ict.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema but without subtitle breaks |
-| speech-to-text-parallel | en | es | [MUST-Cinema](https://ict.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
+| speech-to-text-parallel | en | de | [MUST-C](https://mt.fbk.eu/must-c/) | v2.0/v3.0 |  |
+| speech-to-text-parallel | en | de, es | [MUST-Cinema](https://mt.fbk.eu/must-cinema/) | v1.1 | with subtitle and line breaks |
+| speech-to-text-parallel | en | de, es | [MUST-C](https://mt.fbk.eu/must-c/) | v1.2 | same as MUST-Cinema but without subtitle breaks |
 | speech-to-text-parallel | en | de | [Speech Translation TED corpus](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/corpus/iwslt-corpus.zip) | na | |
 | speech-to-text-parallel | en | de | [CoVoST](https://github.com/facebookresearch/covost) | v2 | only German translation, no English transcription |
 | speech-to-text-parallel | en | de, es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
