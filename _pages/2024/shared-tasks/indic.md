@@ -55,7 +55,7 @@ Tamil is one of the classical languages of India, spoken by 90.8 million speaker
 ## Submission
 
 <!-- Description of expected submission format and submission instructions -->
-The submissions must be mailed to this email: iwsltindictracksubmissions@gmail.com
+The submissions must be mailed to this email: <iwsltindictracksubmissions@gmail.com>
 
 Only one submission is allowed per team. The submissions must be submitted zipped in tar.gz format and then emailed. The email should include the following information:
 
@@ -97,9 +97,9 @@ For every sentence of the speech, the result txt file must contain the predicted
 
 <!-- List of organizers' names and affiliations -->
 
-1. Nivedita Sethiya (PhD Scholar, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- phd2201201003@iiti.ac.in
-2. Balaram Sarkar (MS Research, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- ms2204101006@iiti.ac.in
-3. Dr. Chandresh Kumar Maurya (Assistant Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- chandresh@iiti.ac.in
+1. Nivedita Sethiya (PhD Scholar, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <phd2201201003@iiti.ac.in>
+2. Balaram Sarkar (MS Research, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <ms2204101006@iiti.ac.in>
+3. Dr. Chandresh Kumar Maurya (Assistant Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <chandresh@iiti.ac.in>
 
 ## Contact
 
