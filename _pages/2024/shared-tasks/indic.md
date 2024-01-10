@@ -51,13 +51,6 @@ Tamil is one of the classical languages of India, spoken by 90.8 million speaker
 
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
-##Conditions:
-
-The submissions for the all the language-pairs can for the below 2 conditions:
-
-1. Constrained Conditions: Only the language data provided with the data here can be used for pre-training the models. No data from any other sources can be used for pre-training of the models. 
-
-2. Unconstrained Conditions: Any pre-trained models and any other data can be used for pre-training the models. 
 
 
 ## Submission
@@ -84,6 +77,15 @@ End-to-End or Cascaded ST Model:
 Multilingual: Yes/No
 
 Do you want to make your submissions freely available for research purposes? (yes/no)
+
+
+## Submission Criterion
+<!-- Description of constraints for contestants to follow -->
+The submissions for the all the language-pairs can for the below 2 conditions:
+
+1. Constrained Conditions: Only the language data provided with the data here can be used for pre-training the models. No data from any other sources can be used for pre-training of the models. 
+
+2. Unconstrained Conditions: Any pre-trained models and any other data can be used for pre-training the models.
 
 
 ## Evaluation
