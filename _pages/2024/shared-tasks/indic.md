@@ -37,7 +37,7 @@ The baseline for English to Hindi speech translation is a BLEU score of 5.23.
 
 #English to Bengali (en-> bn): 
 
-Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). The speech of English language is 16.44 hours and the texts for Bengali language is 6.9K lines. The data is available here, [Bengali Data](https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/EZDmpaF_c4xMoY51HA3qbdEBd5N4iVOcpQ3eZeHtlXBX5g?e=cGe03d). 
+Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). The speech of English language is 16.44 hours and the texts for Bengali language is 6.9K lines. The data is available here, [Bengali Data]([https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/EZDmpaF_c4xMoY51HA3qbdEBd5N4iVOcpQ3eZeHtlXBX5g?e=cGe03d](https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/EYhzdlL7mtNHmEDrhA0Y2NUBWHm15h4aK7hPUvk44Hbp1A?e=0rIjfR)). 
 
 The baseline for English to Bengali speech translation is a BLEU score of 5.86.
 
