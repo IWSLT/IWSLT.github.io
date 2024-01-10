@@ -41,7 +41,7 @@ Bengali is the 7th most spoken language in the world, with 228 million speakers.
 
 
 
-**English to Tamil** (en-> ta):  
+**English to Tamil** (en-> ta)  
 
 Tamil is one of the classical languages of India, spoken by 90.8 million speakers. It belongs to Dravidian language family, spoken by Tamil people of South-Asia. It is the official language of Tamil Nadu state of India, written in Brahmi script. The data contains English speech, English texts (transcripts), and Tamil texts (translations). The speech of English language is 22.15 hours and the texts for Tamil language is 8K lines. The baseline for English to Tamil speech translation is a BLEU score of 1.9. The data is available here, [Tamil Data](https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/EZDmpaF_c4xMoY51HA3qbdEBd5N4iVOcpQ3eZeHtlXBX5g?e=cGe03d). 
 
