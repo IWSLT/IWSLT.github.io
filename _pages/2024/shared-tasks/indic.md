@@ -31,7 +31,7 @@ The data for this Indic-track shared task comprises a Speech-to-Text (ST) corpus
 
 #English to Hindi (en-> hi): 
 
-Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations). The speech of English language is 95.7 hours and the texts for Hindi language is 37K lines. The baseline for English to Hindi speech translation is a BLEU score of 5.23. The data is available here. 
+Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations). The speech of English language is 95.7 hours and the texts for Hindi language is 37K lines. The baseline for English to Hindi speech translation is a BLEU score of 5.23. The data is available here, [Hindi Data](https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/Eakl5jrLIGVHrcUYOjnKd1MBuZQixSjwS-z3fFEiF-Q7Bw?e=ahCPV1). 
 
 
 
