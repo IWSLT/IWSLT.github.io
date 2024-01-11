@@ -61,9 +61,11 @@ Only one submission is allowed per team. The submissions must be submitted zippe
 
 Institute:
 
-Contact Person:
+Contact Person (mail ID):
 
-Email:
+Team Members with Details:
+
+**Language specific**
 
 Data condition: Constrained/Unconstrained
 
