@@ -80,6 +80,31 @@ Multilingual: Yes/No
 Do you want to make your submissions freely available for research purposes? (yes/no)
 
 
+ 
+**TAR archive file structure**: 
+
+```
+For language specific submission:
+< UserID >_< LangPair >_< STModel >_< IndicYear >.tar.gz  
+  /< LangPair >_< STModel >_< IndicYear >.<Tgt>
+  /...
+
+For multilinguagl submission:
+< UserID >_< STModel >_< IndicYear >.tar.gz  
+  /< LangPair >_< STModel >_< IndicYear >.<hi>
+  /< LangPair >_< STModel >_< IndicYear >.<bn>
+  /< LangPair >_< STModel >_< IndicYear >.<ta>
+```
+where:
+
+'<UserID>' is the ID used at the time of registration.
+'<LangPair>' denotes language pair, example: en-hi, en-bn, en-ta.
+'<STModel>' denotes whether the ST model is cascaded or end-to-end, example: **Casc** or **E2E**.
+'<IndicYear>' is the year of submission for Indic track.
+'<Tgt>' denotes the file extension of target language, example: 'hi' for hindi, 'bn' for bengali and 'ta' for tamil.
+
+For Example: '<IITI_en-hi_E2E_Indic2024.hi>'
+
 ## Submission Criterion
 <!-- Description of constraints for contestants to follow -->
 The submissions for the all the language-pairs can for the below 2 conditions:
