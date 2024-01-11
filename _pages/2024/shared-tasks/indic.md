@@ -121,6 +121,8 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 ## Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+Case-sensitive detokenized **sacre-BLEU** is used for the evaluations. 
+
 Only one test-set will be provided for each language-pair, consisting Speech in the English language only. 
 For every sentence of the speech, the result txt file must contain the predicted translation per line in the target language. All submissions must contain this result txt file for evaluation.  
 
