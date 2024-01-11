@@ -89,7 +89,7 @@ For language specific submission:
   /< LangPair >_< STModel >_< IndicYear >.<Tgt>
   /...
 
-For multilinguagl submission:
+For multilingual submission:
 < UserID >_< STModel >_< IndicYear >.tar.gz  
   /< LangPair >_< STModel >_< IndicYear >.<hi>
   /< LangPair >_< STModel >_< IndicYear >.<bn>
