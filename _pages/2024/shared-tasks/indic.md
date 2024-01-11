@@ -59,25 +59,25 @@ The submissions must be mailed to this email: <iwsltindictracksubmissions@gmail.
 
 Only one submission is allowed per team. The submissions must be submitted zipped in tar.gz format and then emailed. The email should include the following information:
 
-Institute:
+- Institute:
 
-Contact Person (mail ID):
+- Contact Person (mail ID):
 
-Team Members with Details:
+- Team Members with Details:
 
 **Language specific** (must mention for each language pair)
 
-Data condition: Constrained/Unconstrained
+- Data condition: Constrained/Unconstrained
 
-Segmentation: Own/Given
+- Segmentation: Own/Given
 
-Brief abstract about the system:
+- Brief abstract about the system:
 
-End-to-End or Cascaded ST Model:
+- End-to-End or Cascaded ST Model:
 
-Multilingual: Yes/No
+- Multilingual: Yes/No
 
-Do you want to make your submissions freely available for research purposes? (yes/no)
+- Do you want to make your submissions freely available for research purposes? (yes/no)
 
 
  
