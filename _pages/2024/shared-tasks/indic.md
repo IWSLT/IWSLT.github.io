@@ -138,4 +138,5 @@ For every sentence of the speech, the result txt file must contain the predicted
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 Chair: Dr. Chandresh Kumar Maurya
+
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
