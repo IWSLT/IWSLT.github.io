@@ -65,7 +65,7 @@ Contact Person (mail ID):
 
 Team Members with Details:
 
-**Language specific**
+**Language specific** (must mention for each language pair)
 
 Data condition: Constrained/Unconstrained
 
