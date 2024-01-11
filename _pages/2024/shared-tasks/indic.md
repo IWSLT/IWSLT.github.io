@@ -107,7 +107,7 @@ where:
 
 `<Tgt>` denotes the file extension of target language, example: '**hi**' for hindi, '**bn**' for bengali and '**ta**' for tamil.
 
-For Example: `<IITI_en-hi_E2E_Indic2024.hi>`
+For Example: `IITI_en-hi_E2E_Indic2024.hi`
 
 ## Submission Criterion
 <!-- Description of constraints for contestants to follow -->
