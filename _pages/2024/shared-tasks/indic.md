@@ -99,13 +99,13 @@ where:
 
 `<UserID>` is the ID used at the time of registration.
 
-`<LangPair>` denotes language pair, example: en-hi, en-bn, en-ta.
+`<LangPair>` denotes language pair, example: **'en-hi', 'en-bn', 'en-ta'**.
 
-`<STModel>` denotes whether the ST model is cascaded or end-to-end, example: **Casc** or **E2E**.
+`<STModel>` denotes whether the ST model is cascaded or end-to-end, example: '**Casc**' or '**E2E**'.
 
-`<IndicYear>` is the year of submission for Indic track.
+`<IndicYear>` is the year of submission for Indic track, example: '**Indic2024**'.
 
-`<Tgt>` denotes the file extension of target language, example: 'hi' for hindi, 'bn' for bengali and 'ta' for tamil.
+`<Tgt>` denotes the file extension of target language, example: '**hi**' for hindi, '**bn**' for bengali and '**ta**' for tamil.
 
 For Example: `<IITI_en-hi_E2E_Indic2024.hi>`
 
