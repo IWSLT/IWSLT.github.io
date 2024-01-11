@@ -91,9 +91,9 @@ For language specific submission:
 
 For multilingual submission:
 < UserID >_< STModel >_< IndicYear >.tar.gz  
-  /< LangPair >_< STModel >_< IndicYear >.<hi>
-  /< LangPair >_< STModel >_< IndicYear >.<bn>
-  /< LangPair >_< STModel >_< IndicYear >.<ta>
+  /< LangPair >_< STModel >_< IndicYear >.hi
+  /< LangPair >_< STModel >_< IndicYear >.bn
+  /< LangPair >_< STModel >_< IndicYear >.ta
 ```
 where:
 
