@@ -98,9 +98,13 @@ For multilinguagl submission:
 where:
 
 `<UserID>` is the ID used at the time of registration.
+
 `<LangPair>` denotes language pair, example: en-hi, en-bn, en-ta.
+
 `<STModel>` denotes whether the ST model is cascaded or end-to-end, example: **Casc** or **E2E**.
+
 `<IndicYear>` is the year of submission for Indic track.
+
 `<Tgt>` denotes the file extension of target language, example: 'hi' for hindi, 'bn' for bengali and 'ta' for tamil.
 
 For Example: `<IITI_en-hi_E2E_Indic2024.hi>`
