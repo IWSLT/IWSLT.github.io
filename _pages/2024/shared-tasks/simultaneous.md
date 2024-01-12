@@ -63,7 +63,7 @@ One submission should contain the following items:
 - A **readme** file containing information needed to run the system, named `readme`.
 
 The submission should be compressed as a `tar.gz` file,
-and uploaded to the [dropbox](https://www.dropbox.com/scl/fo/g623o0jyndqahcblmz5gn/h?dl=0&rlkey=6e441oy6uhn64ldqxmbomn7c7). For data security reason, you might need to request the access before the uploading the file.
+and uploaded (link TBD). For data security reason, you might need to request the access before the uploading the file.
 
 The name of file should be
 
@@ -81,7 +81,7 @@ image.tar results readme
 
 ### Docker Image
 
-The docker image should already be built and able to run in a controlled environment, specifically an AWS [ap3.2xlarge](https://aws.amazon.com/ec2/instance-types/p3/) instance. Please make sure that the **docker image alone** is enough to run the system. All dependencies, such as checkpoints and dictionaries should be included inside the image.
+The docker image should already be built and able to run in a controlled environment, specifically an AWS (details TBD) instance. Please make sure that the **docker image alone** is enough to run the system. All dependencies, such as checkpoints and dictionaries should be included inside the image.
 
 The follow command should be able to reproduce the same output as `results` in the submission:
 
@@ -126,8 +126,8 @@ We will use the new [remote evaluation](https://simuleval.readthedocs.io/en/late
 The system's performance will be evaluated in two ways:
 
 - Translation quality metrics:
-  - BLEU
-  - BLASER
+  - BLEU (speech-to-text)
+  - ASR-BLEU (speech-to-speech)
 - Translation latency:
   - Average Lagging
   - Length Adaptive Average Lagging
@@ -160,16 +160,6 @@ for all three languages, the thresholds are set as follows:
 
 - Katsuhito Sudoh (NAIST)
 - Ondřej Bojar (Charles University)
-- Peter Polak (Charles University)
-- Dávid Javorský (Charles University)
-- Barry Haddow (University of Edinburgh)
-- Shinji Watababe (CMU)
-- Jiatong Shi (CMU)
-- Yun Tang (Meta)
-- Hirofumi Inaguma (Meta)
-- Kevin Tran (Meta)
-- Pengwei Li (Meta)
-- Mingda Chen (Meta)
 - Xutai Ma (Meta)
 - Juan Pino (Meta)
 
