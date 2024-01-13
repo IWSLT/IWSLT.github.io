@@ -22,7 +22,7 @@ The **IWSLT 2024 Evaluation Campaign** will host shared tasks featuring the foll
   - [Speech-to-speech track](/2024/s2s)  (Qianqian Dong, Bytedance, China) 
   - [Simultaneous track](/2024/simultaneous) (Katsuhito Sudoh, NAIST, Japan)
   - [Subtitling track](/2024/subtitling)  (Mauro Cettolo, FBK, Italy; Evgeny Matusov, AppTek, Germany)
-  - [Offline track](/2024/offline)  (Marco Turchi, Zoom, Germany; ...)
+  - [Offline track](/2024/offline)  (Marco Turchi, Zoom, Germany; Matteo Negri, FBK, Italy)
   - [Dubbing track](/2024/dubbing)  (Brian Thompson, AWS AI Labs, USA)
   - [Low-resource track](/2024/low-resource)  (Antonios Anastasopoulos, George Mason University)
   - [Indic track](/2024/indic)  (Chandresh Kumar Maurya, IIT Indore, India)
