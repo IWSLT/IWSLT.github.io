@@ -65,11 +65,11 @@ Only one submission is allowed per team. The submissions must be submitted zippe
 
 - Team Members with Details:
 
+- Brief abstract about the system (Mention details about all the models if a different model is used for different language pair): 
+
 **Language specific** (must mention for each language pair)
 
 - Data condition: Constrained/Unconstrained
-
-- Brief abstract about the system:
 
 - End-to-End or Cascaded ST Model:
 
