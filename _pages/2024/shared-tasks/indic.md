@@ -69,8 +69,6 @@ Only one submission is allowed per team. The submissions must be submitted zippe
 
 - Data condition: Constrained/Unconstrained
 
-- Segmentation: Own/Given
-
 - Brief abstract about the system:
 
 - End-to-End or Cascaded ST Model:
@@ -121,10 +119,11 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 ## Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-Case-sensitive detokenized **sacre-BLEU** is used for the evaluations. 
+- **sacre-BLEU** is used for the evaluations. 
 
-Only one test-set will be provided for each language-pair, consisting Speech in the English language only. 
-For every sentence of the speech, the result txt file must contain the predicted translation per line in the target language. All submissions must contain this result txt file for evaluation.  
+- Only one test-set will be provided for each language-pair, consisting Speech in the English language only. The test set will contain only the **.wav** files and a **.yaml** file containing the segmentation of these wav files.
+
+- For every sentence of the speech, the result txt file must contain only the predicted translation per line in the target language. All submissions must contain this result txt file for evaluation.  
 
 ## Organizers
 
