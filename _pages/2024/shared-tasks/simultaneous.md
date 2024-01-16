@@ -132,8 +132,6 @@ The system's performance will be evaluated in two ways:
   - Average Lagging
   - Length Adaptive Average Lagging
   - Average Token Delay
-  - Average Proportion
-  - Differentiable Average Lagging
 
 For latency measurement, we will contrast computation aware and non computation aware latency metrics.
 See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined.
