@@ -83,19 +83,19 @@ Only one submission is allowed per team. The submissions must be submitted zippe
 
 ```
 For language specific submission:
-< UserID >_< LangPair >_< STModel >_< IndicYear >.tar.gz  
+< TeamID >_< LangPair >_< STModel >_< IndicYear >.tar.gz  
   /< LangPair >_< STModel >_< IndicYear >.<Tgt>
   /...
 
 For multilingual submission:
-< UserID >_< STModel >_< IndicYear >.tar.gz  
+< TeamID >_< STModel >_< IndicYear >.tar.gz  
   /< LangPair >_< STModel >_< IndicYear >.hi
   /< LangPair >_< STModel >_< IndicYear >.bn
   /< LangPair >_< STModel >_< IndicYear >.ta
 ```
 where:
 
-`<UserID>` is the ID used at the time of registration.
+`<TeamID>` is the Team ID used at the time of filling google form for downloading datasets.
 
 `<LangPair>` denotes language pair, example: **'en-hi', 'en-bn', 'en-ta'**.
 
