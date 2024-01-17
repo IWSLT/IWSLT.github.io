@@ -31,21 +31,21 @@ The data for this Indic-track shared task comprises a Speech-to-Text (ST) corpus
 
 **English to Hindi** (en-> hi) 
 
-Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations). The speech of English language is 95.7 hours and the texts for Hindi language is 37K lines. The baseline for English to Hindi speech translation is a BLEU score of 5.23. The data is available here, [Hindi Data](https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/Eakl5jrLIGVHrcUYOjnKd1MBuZQixSjwS-z3fFEiF-Q7Bw?e=ahCPV1). 
+Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations). The speech of English language is 95.7 hours and the texts for Hindi language is 37K lines. The baseline for English to Hindi speech translation is a BLEU score of 5.23.
 
 
 
 **English to Bengali** (en-> bn) 
 
-Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). The speech of English language is 16.44 hours and the texts for Bengali language is 6.9K lines. The baseline for English to Bengali speech translation is a BLEU score of 5.86. The data is available here, [Bengali Data](https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/EYhzdlL7mtNHmEDrhA0Y2NUBWHm15h4aK7hPUvk44Hbp1A?e=0rIjfR). 
+Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). The speech of English language is 16.44 hours and the texts for Bengali language is 6.9K lines. The baseline for English to Bengali speech translation is a BLEU score of 5.86.
 
 
 
 **English to Tamil** (en-> ta)  
 
-Tamil is one of the classical languages of India, spoken by 90.8 million speakers. It belongs to Dravidian language family, spoken by Tamil people of South-Asia. It is the official language of Tamil Nadu state of India, written in Brahmi script. The data contains English speech, English texts (transcripts), and Tamil texts (translations). The speech of English language is 22.15 hours and the texts for Tamil language is 8K lines. The baseline for English to Tamil speech translation is a BLEU score of 1.9. The data is available here, [Tamil Data](https://indianinstituteoftechindore-my.sharepoint.com/:u:/g/personal/phd2201201003_iiti_ac_in/EZDmpaF_c4xMoY51HA3qbdEBd5N4iVOcpQ3eZeHtlXBX5g?e=cGe03d). 
+Tamil is one of the classical languages of India, spoken by 90.8 million speakers. It belongs to Dravidian language family, spoken by Tamil people of South-Asia. It is the official language of Tamil Nadu state of India, written in Brahmi script. The data contains English speech, English texts (transcripts), and Tamil texts (translations). The speech of English language is 22.15 hours and the texts for Tamil language is 8K lines. The baseline for English to Tamil speech translation is a BLEU score of 1.9.  
 
-
+**To Download the Datasets, please fill this form: [Google Form](https://forms.gle/8HcBqJXGvepYvgdr9)**
 
 <!-- ## Baselines -->
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
