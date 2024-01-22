@@ -49,7 +49,8 @@ The test data consist of videos of native speakers reading individual German sen
 
 #### English - Chinese
 
-TBD
+In this task, we are adding a new language direction for dubbing, English-Chinese. We will be providing training and test sets by TBD.
+
 
 
 In order to make the shared task approachable for small academic teams, we will have a constrained setting in which participants may use only the official data listed above and may not use any pretrained models.
