@@ -73,7 +73,7 @@ Additional Bemba speech data (with transcriptions) are available here:
 
 Bhojpuri belongs to the Indo-Aryan language group. It is dominantly spoken in India’s western part of Bihar, the north-western part of Jharkhand, and the Purvanchal region of Uttar Pradesh. As per the 2011 Census of India, it has around 50.58 million speakers. Bhojpuri is spoken not just in India but also in other countries such as Nepal, Trinidad, Mauritius, Guyana, Suriname, and Fiji. Since Bhojpuri was considered a dialect of Hindi for a long time, it did not attract much attention from linguists and hence remains among the many lesser-known and less-resourced languages of India.
 
-IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_bho-hi">Bhojpuri-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_bho-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 25 hours of audio speech data from the news domain and translations into Hindi text.
+IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_bho-hi">Bhojpuri-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2024_bho-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 25 hours of audio speech data from the news domain and translations into Hindi text.
 
 We point participants to additional Bhojpuri audio data (with transcriptions), parallel and monolingual corpora from here: 
 
@@ -99,7 +99,7 @@ After filling out this form, you will get the link to download the data as well 
 
 Marathi is an Indo-Aryan language dominantly spoken in India’s Maharashtra state. It is one of the 22 scheduled languages of India and the official language of Maharashtra and Goa. As per the 2011 Census of India, it has around 83 million speakers which covers 6.86% of the country's total population. Marathi speakers rank third amongst the languages that are spoken in India.
 
-IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2023_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 30 hours of audio speech data from the news domain and translations into Hindi text.
+IWSLT participants may obtain the <a href="https://github.com/panlingua/iwslt2023_mr-hi">Marathi-Hindi speech translation data</a> without any cost. Please sign <a href="http://panlingua.co.in/iwslt-2023/IWSLT2024_mr-hi_Panlingua_Agreement.pdf"> this form</a> and email it to info@panlingua.co.in. This corpus consists of 30 hours of audio speech data from the news domain and translations into Hindi text.
 
 We point participants to additional Marathi audio data (with transcriptions) from here: 
 
@@ -194,6 +194,7 @@ Bemba:
 Bhojpuri, Irish, Marathi:
 <ul>
 	<li>Atul Kr. Ojha - University of Galway (atulkumar.ojha [email symbol] insight-centre.org)</li>
+	<li> John P. McCae - University of Galway
 </ul>
 
 Maltese:
