@@ -27,11 +27,12 @@ And will be asked to generate videos like this, dubbed into target language, in 
 
 Automatic dubbing is a very [difficult/complex task](https://arxiv.org/abs/2212.12137), and for this shared task we will focus on the characteristic which is most unique to dubbing: **isochrony**. Isochrony refers to the property that the speech translation is time aligned with the original speaker’s video. When the speaker’s mouth is moving, a listener should hear speech; likewise, when their mouth isn’t moving, a listener should not hear speech. 
 
-To make this task accessible for small academic teams with limited training resources, we make some simplifications: First, we assume the input speech has already been converted to text using an ASR system and the desired speech/pause times have been extracted from the input speech. Second, to alleviate the challenges of training a TTS model, the output is defined to be [phonemes](https://en.wikipedia.org/wiki/Phoneme) and their durations. These phonemes and durations will be played through [this open-source text-to-speech model](https://github.com/mtresearcher/FastSpeech2) to produce the final speech.
+<!--To make this task accessible for small academic teams with limited training resources, we make some simplifications: First, we assume the input speech has already been converted to text using an ASR system and the desired speech/pause times have been extracted from the input speech. Second, to alleviate the challenges of training a TTS model, the output is defined to be [phonemes](https://en.wikipedia.org/wiki/Phoneme) and their durations. These phonemes and durations will be played through [this open-source text-to-speech model](https://github.com/mtresearcher/FastSpeech2) to produce the final speech.
 
 To illustrate, here’s an example in which “hallo! wei gehts?” is translated to “hi! how are you?” such that the output will fit in the desired target speech durations of 0.4s and 1.3s, with a pause in between:
 
 <img src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png" style="max-width:100% !important; height: auto !important;">
+-->
 
 ## Data
 
@@ -41,7 +42,8 @@ Official training and test data can be found [here](https://github.com/amazon-sc
 
 The training data for German-English direction is derived from [CoVoST2](https://arxiv.org/abs/2007.10310) and consists of:
 
-* Source (German) text
+* Videos in source language (German)
+* Source text
 * Desired target speech durations (e.g. 2.1s of speech, followed by a pause, followed by 1.3s of speech)
 * Target (English) phonemes and durations corresponding to a translation which adheres to the desired timing
 
@@ -49,8 +51,7 @@ The test data consist of videos of native speakers reading individual German sen
 
 #### English - Chinese
 
-In this task, we are adding a new language direction for dubbing, English-Chinese. We will be providing training and test sets by TBD.
-
+In this task, we are adding a new language direction for dubbing, English-Chinese. In collaboration with subtitle task, we will use English videos as described [here](https://iwslt.org/2023/subtitling#development-and-evaluation-data) as dev and test sets. 
 
 
 In order to make the shared task approachable for small academic teams, we will have a constrained setting in which participants may use only the official data listed above and may not use any pretrained models.
