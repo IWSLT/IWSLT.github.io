@@ -20,7 +20,7 @@ Participants will be given original videos (like this), along with their transcr
 <video src="https://user-images.githubusercontent.com/3534106/217985339-fb31a3a5-7845-4d52-b651-0ab93e426c70.mp4" controls="controls" style="max-width: 600px;">
 </video>
 
-And will be asked to generate videos like this, dubbed into target language, in this case, English:
+And will be asked to generate new audio (in the target language) for the video which when overlayed on the original video looks like this:
 
 <video src="https://user-images.githubusercontent.com/3534106/217978682-d74d35b8-3a5f-4e46-82c2-94269e56b3b4.mp4" controls="controls" style="max-width: 600px;">
 </video>
