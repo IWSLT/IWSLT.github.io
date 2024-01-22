@@ -25,25 +25,19 @@ And will be asked to generate videos like this, dubbed into target language, in 
 <video src="https://user-images.githubusercontent.com/3534106/217978682-d74d35b8-3a5f-4e46-82c2-94269e56b3b4.mp4" controls="controls" style="max-width: 600px;">
 </video>
 
-Automatic dubbing is a very [difficult/complex task](https://arxiv.org/abs/2212.12137), and for this shared task we will focus on the characteristic which is most unique to dubbing: **isochrony**. Isochrony refers to the property that the speech translation is time aligned with the original speaker’s video. When the speaker’s mouth is moving, a listener should hear speech; likewise, when their mouth isn’t moving, a listener should not hear speech. 
-
-<!--To make this task accessible for small academic teams with limited training resources, we make some simplifications: First, we assume the input speech has already been converted to text using an ASR system and the desired speech/pause times have been extracted from the input speech. Second, to alleviate the challenges of training a TTS model, the output is defined to be [phonemes](https://en.wikipedia.org/wiki/Phoneme) and their durations. These phonemes and durations will be played through [this open-source text-to-speech model](https://github.com/mtresearcher/FastSpeech2) to produce the final speech.
-
-To illustrate, here’s an example in which “hallo! wei gehts?” is translated to “hi! how are you?” such that the output will fit in the desired target speech durations of 0.4s and 1.3s, with a pause in between:
-
-<img src="https://user-images.githubusercontent.com/3534106/218159375-443e8168-147f-4963-b88a-5adb0b789d83.png" style="max-width:100% !important; height: auto !important;">
--->
+Automatic dubbing is a very [difficult/complex task](https://arxiv.org/abs/2212.12137). A unique aspect of dubbing is **isochrony** which refers to the property that the speech translation is time aligned with the original speaker’s video. When the speaker’s mouth is moving, a listener should hear speech; likewise, when their mouth isn’t moving, a listener should not hear speech. 
 
 ## Data
 
+We will just operate in an unconstrained setting more inline with real world conditions where additional speech and parallel data is likely available.  Participants may use any public or private datasets or pre-trained models. 
+
 #### German - English
 
-Official training and test data can be found [here](https://github.com/amazon-science/iwslt-autodub-task/tree/main/data).
+We follow last year (2023) release of training and test data that can be found [here](https://github.com/amazon-science/iwslt-autodub-task/tree/main/data).
 
 The training data for German-English direction is derived from [CoVoST2](https://arxiv.org/abs/2007.10310) and consists of:
 
-* Videos in source language (German)
-* Source text
+* Source (German) text
 * Desired target speech durations (e.g. 2.1s of speech, followed by a pause, followed by 1.3s of speech)
 * Target (English) phonemes and durations corresponding to a translation which adheres to the desired timing
 
@@ -54,39 +48,24 @@ The test data consist of videos of native speakers reading individual German sen
 In this task, we are adding a new language direction for dubbing, English-Chinese. In collaboration with subtitle task, we will use English videos as described [here](https://iwslt.org/2023/subtitling#development-and-evaluation-data) as dev and test sets. 
 
 
-In order to make the shared task approachable for small academic teams, we will have a constrained setting in which participants may use only the official data listed above and may not use any pretrained models.
-
-Additionally, we will have an unconstrained setting more inline with real world conditions where additional speech and parallel data is likely available.  In the unconstrained setting, participants may use any public or private datasets or pre-trained models. 
-
-
 ## Baseline
 
-We provide a complete [baseline](https://github.com/amazon-science/iwslt-autodub-task) (used to create the videos in the description above) as a starting point for participants. The baseline uses target factors to keep track of remaining durations and pauses while generating phonemes and durations in the target language. Those phones and durations are then passed through a publically available [text-to-speech](https://github.com/ming024/FastSpeech2) system. 
+In German-English direction, we provide a complete [baseline](https://github.com/amazon-science/iwslt-autodub-task) (used to create the videos in the description above) as a starting point for participants. The baseline uses target factors to keep track of remaining durations and pauses while generating phonemes and durations in the target language. Those phones and durations are then passed through a publically available [text-to-speech](https://github.com/ming024/FastSpeech2) system. 
+
+In English-Chinese, baseline systems are TBD. 
 
 ## Submission
 
-Submissions should be uploaded TBD.
-
-Submissions should be packed in a compressed file with the following naming convention: dubbing-iwslt-2024_[participant-name].tar.gz.  Compressed file should contain a root folder with your primary and contrastive system submissions (as folders). Each folder should include two sub directories for `subset1` and `subset2`.
-
-* `subset1` and `subset2` folders should contain the dubbed English speech.
-* Organizers will overlay the English audio over the original German videos.
-* The root folder should contain a README with the following information
-  * Brief description of each system submitted, if submitting multiple system indicate which one to use as a primary system for evaluation by the organizers
-  * Optionally, participants can also report system performance with [metrics as mentioned here](https://github.com/amazon-science/iwslt-autodub-task#evaluate-baseline_factored_noised01-output).
-  * Training data conditions (constrained, unconstrained)
-  * List of the data sources used for training the system
-  * Institution and contact person
-  * Do you consent to make your submission freely available under MIT license for research purposes and human evaluation? (YES/NO)
-
-LICENSE
-* If responding YES for the consent request in the README, include MIT license file (see [sample file](https://opensource.org/licenses/MIT))
+TBD.
 
 ## Evaluation
 
 Participant teams will submit English speech for a set of German videos, each containing one sentence from the CoVoST-2 test set. The new audio will be overlayed on the original video and the resulting video will be judged for it’s overall quality (both isochrony and translation quality). Exact details TBD. 
 
-We will also report automatic metrics for each submission, for both machine translation quality and isochrony adherence. However, human judgements will be the primary evaluation method. 
+For English-Chinese direction, participants will be asked to generate target speech audio on subtitle test sets.
+
+We will report automatic metrics for each submission, for both machine translation quality and isochrony adherence. 
+Human evaluations are TBD.
 
 
 ## Organizers
