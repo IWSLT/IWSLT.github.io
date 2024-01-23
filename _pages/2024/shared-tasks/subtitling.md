@@ -66,11 +66,28 @@ Two training data conditions are proposed:
 
 #### Development and Evaluation Data
 
-Participants are asked to automatically subtitle three kinds of audio-visual documents, where the spoken language is always English, featuring different levels of complexity: *(1)* TED talks from the MuST-Cinema corpus, *(2)* Peloton physical training videos, and *(3)* ITV entertainment series.
+Participants are asked to automatically subtitle in German and/or Spanish three kinds of audio-visual documents, where the spoken language is always English, featuring different levels of complexity: *(1)* TED talks from the MuST-Cinema corpus, *(2)* Peloton physical training videos, and *(3)* ITV entertainment series.
 
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
-⏳ *Data will be released in January*
+* [EUROPARLTV](https://multimedia.europarl.europa.eu/en) is a repository of video recordings related to the European Parliament activities that include messages of the members, interviews, press conferences, debates, etc. This dev set corresponds to the EPTV test of the paper ["Direct Speech Translation for Automatic Subtitling" (Papi et al., 2023)](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00607/118115/Direct-Speech-Translation-for-Automatic-Subtitling). Additional info on the benchmark is available in the paper.
+  * As **dev** set, 12 video recordings and subtitles (in German and Spanish; English transcriptions/subtitles are available only for 5 documents out of 12) for a total duration of about 1 hour can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EXC_DOvECbhZWJ7B0ZlFi6kBegGzWjbjbaQi7gbS-LqoKA?e=M5f37C).
+
+* [TED](https://www.ted.com/) is a new collection of audio recordings from English TED Talks, automatically aligned at the sentence level with their manual transcriptions and translations (into German and Spanish) marked with subtitle breaks.
+  * As **dev** set, 17 video recordings and subtitles (in English, German and Spanish) of the TED talks defining the evaluation set of the Offline Speech Translation task at IWSLT 2022 (total duration: about 4 hours) can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EYVU_jLDOdte0LhVQiDAhUYBGDoQdsrZExZJztTs3SMHcw?e=UhsODW).
+  * The **test** set will be released soon ⏳ 
+
+* [Peloton](https://www.onepeloton.com/) is a US company that offers fitness training equipment as well as on-line fitness classes which are provided with subtitles in different languages. Peloton is interested in research related to the use of automated subtitling technology in their translation workflows. We would like to thank Peloton for providing IWSLT with samples of their videos for research and evaluation purposes and would like to ask you not to use these videos or subtitles for any commercial purposes or make them publicly available on any other website.  
+
+  * As a **dev** set, 9 recordings of fitness training videos (mostly single-speaker - the fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESITGO_X_S1QhmBxE7ZkLuABq4O8fFD_iOIa7TKIqUV88w?e=cIvER3). **Note**: the **English** SRT files are **not** properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
+  * The **test** will be released soon ⏳
+
+* [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK’s largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or make them publicly available on any other website. 
+
+  * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EZXtQE00-Z5VP5Stmbhw1Y4BI3k6WyppWs0_cSCCBbwjyQ?e=nxIqkf). **Note**: some of the **English** SRT files were created following different subtitling guidelines than the ones used in this evaluation (e.g. they contain subtitles with 3 lines) and are provided for informational purposes only.
+  * The **test** will be released soon ⏳
+
+When available, English subtitles of development sets are released only for the convenience of participants; it is not required to generate them for the final evaluation.
 
 ### 🔵 🆕 SUBTITLE COMPRESSION 🔵
 
