@@ -100,9 +100,9 @@ The following is an example of a non-conform subtitle block (dashed red) with 35
 
 ![subtitle-compression](subtitle_example.png)
 
-&ast; The texts present in the image are in English only for explanation purposes 
+\* The texts present in the image are in English only for explanation purposes 
 
-<img src="https://github.com/IWSLT/IWSLT.github.io/blob/cfaef4837f79eeed997293fb26bda69db91a4079/_pages/2024/shared-tasks/subtitle_example.png" style="max-height:800px;max-width:800px>
+<img src="https://github.com/IWSLT/IWSLT.github.io/blob/cfaef4837f79eeed997293fb26bda69db91a4079/_pages/2024/shared-tasks/subtitle_example.png" style="max-height:800px;max-width:800px">
 
 
 <br/>
