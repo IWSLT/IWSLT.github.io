@@ -98,7 +98,7 @@ The conditions for the sub-track are:
 
 The following is an example of a non-conform subtitle block (dashed red) with 35 CPS, thus exceeding the 21 CPS limit, that is replaced by a conform subtitle (dashed green) with 15 CPS. Timestamps remain unchanged while the text has been compressed to not exceed the 21 CPS limit while conveying the same meaning.
 
-<img src="https://raw.githubusercontent.com/IWSLT/IWSLT.github.io/cfaef4837f79eeed997293fb26bda69db91a4079/_pages/2024/shared-tasks/subtitle_example.png" style="max-height:600px;max-width:800px">
+<img src="https://raw.githubusercontent.com/IWSLT/IWSLT.github.io/cfaef4837f79eeed997293fb26bda69db91a4079/_pages/2024/shared-tasks/subtitle_example.png" style="max-height:600px;max-width:600px">
 
 \* The texts present in the image are in English only for explanation purposes 
 
