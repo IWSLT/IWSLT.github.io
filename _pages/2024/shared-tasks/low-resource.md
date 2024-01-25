@@ -37,16 +37,16 @@ Information about data and baselines are provided in the sections specific to ea
 
 ### Dialectal Arabic to English (ara-eng)
 
-This language pair will focus on evaluating performance on three Arabic vernaculars:
+This language pair will focus on evaluating performance on two Arabic vernaculars:
 <ul>
 	<li> Tunisian (ISO-3 code: aeb)</li>
-	<li> Moroccan (ISO-3 code: ary) </li>
 	<li> North Levantine (ISO-3 code: apc) </li>
 </ul>
 
 We point the participants to training data across different Arabic varieties:
 
- - The aeb-eng training data are the same as the one used in the IWSLT 2022 and 2023 tracks: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>.  We suggest you follow the train/dev/test1 split instructions according to the linked webpage.
+ - The **aeb-eng** training data are the same as the one used in the IWSLT 2022 and 2023 tracks: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>.  We suggest you follow the train/dev/test1 split instructions according to the linked webpage.
+ - The **apc-eng** validation/testing data (with transcriptions) can be found [here](https://github.com/ufal/IWSLT2024_Levantine_Arabic_data). Participants are provided with ~120k lines of multi-parallel North Levantine-MSA-English textual data, that can be downloaded from the [LINDAT/CLARIAH-CZ Repository](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-5033). For the speech data, we recommend two LDC resources: BBN/AUB DARPA Babylon Levantine corpus ([Speech + Transcript]((https://catalog.ldc.upenn.edu/LDC2005S08))) and the Levantine Arabic QT Training Data Set 5 corpus ([Speech](https://catalog.ldc.upenn.edu/LDC2006S29) + [Transcript](https://catalog.ldc.upenn.edu/LDC2006T07)).
 
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
 All datasets have been manually segmented at the utterance level.
