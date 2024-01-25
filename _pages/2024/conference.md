@@ -81,7 +81,7 @@ The submission portal will open in early 2024.
 - Marcello Federico, AWS AI Labs, USA (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
 - Jan Niehues, KIT, Germany (Evaluation Chair)
-- Sebastian Stüker, KIT, Germany (Sponsorship Chair)
+- Sebastian Stüker, Zoom, Germany (Sponsorship Chair)
 - Elizabeth Salesky, JHU, USA (Publication and Website Chair)
 - Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
 
