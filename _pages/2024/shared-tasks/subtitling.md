@@ -70,9 +70,6 @@ Participants are asked to automatically subtitle in German and/or Spanish three 
 
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
-* [EUROPARLTV](https://multimedia.europarl.europa.eu/en) is a repository of video recordings related to the European Parliament activities that include messages of the members, interviews, press conferences, debates, etc. This dev set corresponds to the EuroParl Interviews test of the paper ["Direct Speech Translation for Automatic Subtitling" (Papi et al., 2023)](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00607/118115/Direct-Speech-Translation-for-Automatic-Subtitling). Additional info on the benchmark is available in the paper.
-  * As **dev** set, 12 video recordings and subtitles (in German and Spanish; English transcriptions/subtitles are available only for 5 documents out of 12) for a total duration of about 1 hour can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EXC_DOvECbhZWJ7B0ZlFi6kBegGzWjbjbaQi7gbS-LqoKA?e=M5f37C).
-
 * [TED](https://www.ted.com/) is a new collection of audio recordings from English TED Talks, automatically aligned at the sentence level with their manual transcriptions and translations (into German and Spanish) marked with subtitle breaks.
   * As **dev** set, 17 video recordings and subtitles (in English, German and Spanish) of the TED talks defining the evaluation set of the Offline Speech Translation task at IWSLT 2022 (total duration: about 4 hours) can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EYVU_jLDOdte0LhVQiDAhUYBGDoQdsrZExZJztTs3SMHcw?e=UhsODW).
   * The **test** set will be released soon ⏳ 
@@ -102,15 +99,10 @@ The conditions for the sub-track are:
 The following is an example of a non-conform subtitle block (dashed red) with 35 CPS, thus exceeding the 21 CPS limit, that is replaced by a conform subtitle (dashed green) with 15 CPS. Timestamps remain unchanged while the text has been compressed to not exceed the 21 CPS limit while conveying the same meaning.
 
 <img src="https://github.com/IWSLT/IWSLT.github.io/blob/511193cde9b5ee1097df99b4738ea708edaec06e/_pages/2024/shared-tasks/subtitle_example.png" width="60%">
-The texts present in the image are in English only for explanation purposes 
+* The texts present in the image are in English only for explanation purposes 
 
 ![Link Name](subtitle_example.png) 
 
-does the following work?
-
-<picture>
-  <img alt="Trial" src="https://github.com/IWSLT/IWSLT.github.io/blob/511193cde9b5ee1097df99b4738ea708edaec06e/_pages/2024/shared-tasks/subtitle_example.png">
-</picture>
 
 <br/>
 <br/>
