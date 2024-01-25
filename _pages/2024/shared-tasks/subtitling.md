@@ -106,7 +106,7 @@ The texts present in the image are in English only for explanation purposes
 
 ![Link Name](subtitle_example.png) 
 
-Does the following work?
+does the following work?
 
 <picture>
   <img alt="Trial" src="https://github.com/IWSLT/IWSLT.github.io/blob/511193cde9b5ee1097df99b4738ea708edaec06e/_pages/2024/shared-tasks/subtitle_example.png">
