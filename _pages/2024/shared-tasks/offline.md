@@ -173,12 +173,13 @@ Note: this list is identical to the one available in the subtitle task. Some tra
   * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
   * [BLOOM (Note: only the small 560M parameter version)](https://huggingface.co/bigscience/bloom-560m#model-details)
   * [Mistral 7B Instruction Fine-tuned](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)
-  * [Mistral 7B Base Model] (https://huggingface.co/mistralai/Mistral-7B-v0.1)
-  * [Mistral 7B Base Model] (https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
-  * [Llama2 7B base model] (https://huggingface.co/meta-llama/Llama-2-7b-hf)
-  * [NLLB 3.3B] (https://huggingface.co/facebook/nllb-200-distilled-1.3B)
-  * [NLLB 1.3B] (https://huggingface.co/facebook/nllb-200-3.3B)
-  * [NLLB 600M] (https://huggingface.co/facebook/nllb-200-distilled-600M)
+  * [Mistral 7B Base Model](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+  * [Mistral 7B Base Model](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
+  * [Llama2 7B base model](https://huggingface.co/meta-llama/Llama-2-7b-hf)
+  * [NLLB 3.3B](https://huggingface.co/facebook/nllb-200-distilled-1.3B)
+  * [NLLB 1.3B](https://huggingface.co/facebook/nllb-200-3.3B)
+  * [NLLB 600M](https://huggingface.co/facebook/nllb-200-distilled-600M)
+  * [Seamless Models (SeamlessM4T/Streaming/Expressive)](https://github.com/facebookresearch/seamless_communication)
     
 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
