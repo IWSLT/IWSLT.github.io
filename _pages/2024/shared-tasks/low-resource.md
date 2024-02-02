@@ -85,7 +85,7 @@ We point participants to additional Bhojpuri audio data (with transcriptions), p
 ### Irish to English (gle-eng)
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
 
-IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-en"> here</a>. Please sign <a href="https://forms.gle/7UPquNT9PT6SSTgk6"> this form</a> to get access credentials. This corpus consists of 11 hours of audio speech data and translations into English text.
+IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-eng"> here</a>. Please sign <a href="https://forms.gle/7UPquNT9PT6SSTgk6"> this form</a> to get access credentials. This corpus consists of 11 hours of audio speech data and translations into English text.
 
 
 ### Maltese to English (mlt-eng)
