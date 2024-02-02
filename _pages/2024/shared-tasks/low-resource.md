@@ -46,8 +46,9 @@ This language pair will focus on evaluating performance on two Arabic vernacular
 We point the participants to training data across different Arabic varieties:
 
  - The **aeb-eng** training data are the same as the one used in the IWSLT 2022 and 2023 tracks: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>.  We suggest you follow the train/dev/test1 split instructions according to the linked webpage.
- - The **apc-eng** validation/testing data (with transcriptions) can be found [here](https://github.com/ufal/IWSLT2024_Levantine_Arabic_data). Participants are provided with ~120k lines of multi-parallel North Levantine-MSA-English textual data, that can be downloaded from the [LINDAT/CLARIAH-CZ Repository](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-5033). For the speech data, we recommend two LDC resources: BBN/AUB DARPA Babylon Levantine corpus ([Speech + Transcript]((https://catalog.ldc.upenn.edu/LDC2005S08))) and the Levantine Arabic QT Training Data Set 5 corpus ([Speech](https://catalog.ldc.upenn.edu/LDC2006S29) + [Transcript](https://catalog.ldc.upenn.edu/LDC2006T07)).
+ - The **apc-eng** validation/testing data (with transcriptions) can be found [here](https://github.com/ufal/IWSLT2024_Levantine_Arabic_data). Participants are provided with about 120k lines of multi-parallel North Levantine-MSA-English textual data, that can be downloaded from the [LINDAT/CLARIAH-CZ Repository](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-5033). For the speech data, we recommend two LDC resources: BBN/AUB DARPA Babylon Levantine corpus ([Speech + Transcript]((https://catalog.ldc.upenn.edu/LDC2005S08))) and the Levantine Arabic QT Training Data Set 5 corpus ([Speech](https://catalog.ldc.upenn.edu/LDC2006S29) + [Transcript](https://catalog.ldc.upenn.edu/LDC2006T07)).
 
+**\[Feb 1 Update:\] We are working with LDC to make sure participants can access the below-mentioned Tunisian-English data. For now, please refrain from submitting the form.**
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign this [form](https://www.cs.jhu.edu/~kevinduh/j/iwslt23/IWSLT_2023_LDC_Evaluation_Agreement) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to 160 hours and 200k lines worth of aligned audio in Tunisian speech, Tunisian transcripts, and English translations.
 All datasets have been manually segmented at the utterance level.
 
@@ -90,9 +91,16 @@ IWSLT participants may obtain the Irish-English speech translation data  from <a
 
 ### Maltese to English (mlt-eng)
 
-Please fill out <a href="#">this form</a> to request the Maltese-English data for the LowResSLT task. The data is divided into three parts, and we are releasing around 2.5 hours of audio with Maltese transcription and English translation. We are also releasing about 7.5 hours of audio with only Maltese transcription. We will also point to some parallel text corpora for Maltese-English translation.
+**\[Update Feb 1\]: The data and form are available!**
+Maltese is a Semitic language, with a heavy influence from Italian and English. It is spoken mostly in Malta, but also in migrant communities abroad, most notably in Australia and parts of America and Canada. The data release for this shared task consists of over 14 hours (split into dev and train) of audio data, together with their transcription in Maltese and translation into English. 
 
-After filling out this form, you will get the link to download the data as well as an email from us with the link for the dataset, if we update something for the same.
+To obtain the data, please fill out <a href="https://forms.gle/SqLLneEp33i7isEG6">this form</a>. 
+
+We also point participants to additional Maltese data here:
+
+- [text corpus](https://github.com/MLRS/BERTu) used to train BERTu, a Maltese BERT model
+- [MASRI Data](https://www.um.edu.mt/projects/masri/) speech recognition data
+- [Maltese Language Resource Server](https://mlrs.research.um.edu.mt/)
 
 
 ### Marathi to Hindi (mar-hin)
