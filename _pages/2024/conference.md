@@ -7,11 +7,11 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-##  15-16 August 2024 - Bangkok
+##  17-18 August 2024 - Bangkok
 
 The International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference, associated with an open evaluation campaign on spoken language translation, where both scientific papers and system descriptions are presented.
 
-The 21st edition of IWSLT will be run as an ELRA/ACL event and co-located with [ACL 2024](https://2024.aclweb.org/){:target="_blank"} in Bangkok, Thailand on  15-16 August 2024. It will be run as a hybrid event.
+The 21st edition of IWSLT will be run as an ELRA/ACL event and co-located with [ACL 2024](https://2024.aclweb.org/){:target="_blank"} in Bangkok, Thailand on  17-18 August 2024. It will be run as a hybrid event.
 
 
 ## Shared Tasks
@@ -69,7 +69,7 @@ The submission portal will open in early 2024.
 | June 4, 2024       | Notification of acceptance                   |
 | June 24, 2024      | Camera ready deadline                        |
 | July 22, 2024      | Pre-recorded video due                       |
-| August 15-16, 2024 | IWSLT conference                             |
+| August 17-18, 2024 | IWSLT conference                             |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
