@@ -27,13 +27,25 @@ and three language directions:
 - English -> German
 - English -> Chinese
 - English -> Japanese
-- (One more language direction in consideration)
+- English -> Czech (New)
 
 
 ## Data
 
 The data condition for this task is "constrained with pretrained models". The list of allowed data and pretrained models can be found [here](https://iwslt.org/2024/offline#training-data-and-data-conditions).
 
+### Czech-English Data
+For the Czech-English task, the following training data are available. The development set will be released soon.
+
+#### Speech
+ParCzech 3.0 (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3631) allowed subset for training: asr-train
+VoxPopuli (2009-2020 European Parliament event recordings; https://github.com/facebookresearch/voxpopuli) Unlabelled Data: cs_v2 + transcribed data + speech-to-speech Cs -> En data
+Common Voice Corpus 15.0 (https://commonvoice.mozilla.org/en/datasets) Czech data
+
+#### Text
+Czeng 2.0 (https://ufal.mff.cuni.cz/czeng) Training data and synthetic data only for training
+OpenSubtitles (v2018; https://opus.nlpl.eu/OpenSubtitles/cs&en/v2018/OpenSubtitles)
+Europarl (https://www.statmt.org/europarl/)
 
 ## Baselines
 
@@ -158,6 +170,8 @@ for all three languages, the thresholds are set as follows:
 
 - Katsuhito Sudoh (NAIST)
 - Ondřej Bojar (Charles University)
+- Dávid Javorský (Charles University)
+- Peter Polák (Charles University)
 - Xutai Ma (Meta)
 - Juan Pino (Meta)
 
