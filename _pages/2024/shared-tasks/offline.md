@@ -94,7 +94,7 @@ The test data will include the official offline task data plus the test suite da
 Test suites are custom extensions to standard offline test sets constructed so that they can focus on particular aspects of the SLT output. The goal of the test suite is to investigate specific aspects that are generally omitted by the classic evaluation strategies. Test suites also evaluate these aspects in their custom way.
 The particular test suite composition and its evaluation are fully on the test suite provider.
 
-If you are interested in submitting a test suite, you will need to upload (link to be provided) the data including the audio and a textual file describing the goal of the test suite. The format of the audio files will be provided later in January by the organizers of the offline task. 
+If you are interested in submitting a test suite, please send us a link to the data including the audio and a textual file describing the goal of the test suite. The format of the audio files is similar to the format of the test audio in the previous editions: a folder with the WAV files and a textual file containing the order in which the audio files will be processed. To share the test suite link, please use the following email: <iwslt_offline_task_submission@fbk.eu>
 
 All the test suites will then be merged and made available to the participants in the test set section. Once the translations are received, they will be split according to the test suites and forwarded to the owners of the test suites. An evaluation is expected to be performed on time to be included in the findings paper.
 
