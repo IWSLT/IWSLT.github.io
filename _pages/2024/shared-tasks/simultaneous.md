@@ -27,7 +27,7 @@ and three language directions:
 - English -> German
 - English -> Chinese
 - English -> Japanese
-- English -> Czech (New)
+- Czech -> English (New, <b>different direction than others</b>)
 
 
 ## Data
@@ -37,12 +37,12 @@ The data condition for this task is "constrained with pretrained models". The li
 ### Czech-English Data
 For the Czech-English task, the following training data are available. The development set will be released soon.
 
-#### Speech
+#### Czech Speech
 ParCzech 3.0 (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3631) allowed subset for training: asr-train
 VoxPopuli (2009-2020 European Parliament event recordings; https://github.com/facebookresearch/voxpopuli) Unlabelled Data: cs_v2 + transcribed data + speech-to-speech Cs -> En data
 Common Voice Corpus 15.0 (https://commonvoice.mozilla.org/en/datasets) Czech data
 
-#### Text
+#### Text (Czech-English)
 Czeng 2.0 (https://ufal.mff.cuni.cz/czeng) Training data and synthetic data only for training
 OpenSubtitles (v2018; https://opus.nlpl.eu/OpenSubtitles/cs&en/v2018/OpenSubtitles)
 Europarl (https://www.statmt.org/europarl/)
