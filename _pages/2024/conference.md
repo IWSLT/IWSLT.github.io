@@ -39,6 +39,16 @@ Registration for the 2024 Evaluation Campaign will open later this year.
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates, community questions and opportunities to receive sponsored cloud computing credits.
 
 
+## Special Session: Recent Highlights in SLT
+
+IWSLT 2024 will introduce a special session entitled "SLT Recent Highlights".
+The session intends to provide an overview of recent highlights from the field across venues, with a series of short presentations focused reviews on recent developments and new/emerging trends. 
+Additionally, a short and lively discussion may follow the presentations. 
+We believe this initiative will contribute to a better understanding of the current landscape of SLT research and foster collaboration and exchange of ideas within the IWSLT community.
+
+For more information, see here: [Special Session: Recent Highlights in SLT](/2024/special-session). 
+
+
 ## Paper Submission
 
 Submissions should be scientific papers or shared task system description papers. 
