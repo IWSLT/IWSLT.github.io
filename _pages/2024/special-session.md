@@ -1,5 +1,5 @@
 ---
-permalink: /2024/
+permalink: /2024/special-session
 title: "Special Session"
 toc: true
 toc_sticky: true
