@@ -45,7 +45,7 @@ The test data consist of videos of native speakers reading individual German sen
 
 #### English - Chinese
 
-In this task, we are adding a new language direction for dubbing, English-Chinese. In collaboration with subtitle task, we will use English videos as described [here](https://iwslt.org/2023/subtitling#development-and-evaluation-data) as dev and test sets. 
+This year, we are adding a new language direction for dubbing, English-Chinese. In collaboration with subtitle task, we will use English dev set videos as described [here](https://iwslt.org/2023/subtitling#development-and-evaluation-data) and the test set is [here](https://github.com/amazon-science/iwslt-autodub-task/raw/main/data/test24/test24_itv_dubbing_clips.tgz). 
 
 
 ## Baseline
@@ -56,7 +56,9 @@ In English-Chinese, baseline systems are TBD.
 
 ## Submission
 
-TBD.
+Submissions should be uploaded [here](https://drive.google.com/drive/folders/1WCUfG8j1Pjk8WRfgZFr4HqZjr_p07ioj). Please submit one zip file per team.
+
+Submissions should contain dubbed videos with filenames matching the original (non-dubbed) test set files. If you submit more than one system, please designate your primary submission.
 
 ## Evaluation
 
