@@ -33,8 +33,7 @@ All tasks will follow the same [important dates](#important-dates).
 
 ### Registration
 
-Registration for the 2024 Evaluation Campaign will open later this year. 
-{: .notice--info}
+Please register for the Evaluation Campaign via the [registration form](https://forms.gle/pkjTz5oYfae2Csj7A).
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates, community questions and opportunities to receive sponsored cloud computing credits.
 
