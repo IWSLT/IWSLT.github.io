@@ -35,7 +35,7 @@ and three language directions:
 The data condition for this task is "constrained with pretrained models". The list of allowed data and pretrained models can be found [here](https://iwslt.org/2024/offline#training-data-and-data-conditions).
 
 ### Czech-English Data
-For the Czech-English task, the following training data are available. The development set will be released soon.
+For the Czech-English task, the following training and development sets are available.
 
 #### Czech Speech
 ParCzech 3.0 (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3631) allowed subset for training: asr-train
@@ -46,6 +46,9 @@ Common Voice Corpus 15.0 (https://commonvoice.mozilla.org/en/datasets) Czech dat
 Czeng 2.0 (https://ufal.mff.cuni.cz/czeng) Training data and synthetic data only for training
 OpenSubtitles (v2018; https://opus.nlpl.eu/OpenSubtitles/cs&en/v2018/OpenSubtitles)
 Europarl (https://www.statmt.org/europarl/)
+
+#### Development Set
+https://drive.google.com/file/d/1-XicsrBQubkGK-kyBIxKO-7JAx94o_KV/view?usp=sharing
 
 ## Baselines
 
