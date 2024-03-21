@@ -119,6 +119,8 @@ The participants are required to submit the output of the system (the `--output`
 The segmented data can be downloaded [here](https://dl.fbaipublicfiles.com/simultaneous_translation/iwslt2023/must-c_v2.0_tst-COMMON.tgz)
 The latency constraint will be check on the MuST-C v2.0 tst-COMMON set.
 
+For Czech-English, the participants should use the development set for this purpose because we do not provide a dedicated devtest set.
+
 ### Readme
 
 A `readme` file should contains the following information
