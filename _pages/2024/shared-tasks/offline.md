@@ -145,7 +145,7 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
 | text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
 | text-parallel | en | es, zh, de, ja | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training) | v16 | |
-| text-parallel | en | es, zh, de, ja | [OpenSubtitles]([https://opus.nlpl.eu/OpenSubtitles-v2018.php](https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles)) | v2018 | |
+| text-parallel | en | es, zh, de, ja | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles)) | v2018 | |
 | text-parallel | en | de | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/ESYWN8_BzeJAmBv4GcRapbsBeLpmLOd699qBc9_WG7Gifw?e=Bk6UWh) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
 | text-parallel | en | es | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/EafNtfaI0yNKgsoDIDTsEK8BelStVZVsZIrQcwjgTx5diA?e=BT97yx) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
 | text-parallel | en | ja | [JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) | | |
@@ -154,8 +154,8 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | text-parallel | en | es, zh, de, ja | [Tatoeba](https://opus.nlpl.eu/Tatoeba.php) | v2022-03-03 | |
 | text-parallel | en | es | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/en-es.tmx.gz) | v1 | |
 | text-parallel | en | de | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz) | v1 | |
-| text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](https://drive.google.com/file/d/1LCU_3dff7l88k20BfoPFLydhOil3dtRl/view?usp=sharing_) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
-| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](https://drive.google.com/file/d/1xxZnlvF8ds8KBnMnHnRoPzcMP0mRTkuH/view?usp=sharing) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](https://fbk.sharepoint.com/:u:/s/MTUnit/Efm0lF0ITTJeBM0ZmjlAKeEBu9CE33SCvb05S1tAq2AkSA?e=FHbZci) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](https://fbk.sharepoint.com/:u:/s/MTUnit/EXSih5zOAUZciBlO9HiXrJYBVYjjyRuEM7EK9c9BzpKD7w?e=MllfhK) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task including subtitle boundaries (`<eob>` and `<eol>`).
 
