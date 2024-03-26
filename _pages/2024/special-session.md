@@ -23,7 +23,7 @@ The special session will focus on hot topics, emerging trends, and promising sol
  * Low-Resource SLT
  * Any other topics relevant to SLT research
 
- ### Format 
+### Format 
  The format of the session will include oral presentations by students and researchers who will share their highlights on the designated topics. Optionally, a brief interactive discussion may follow each presentation, allowing presenters to engage with the audience. The overall duration of the session is expected to be 2 hours, providing ample time for in-depth presentations and potential discussions.
 
 ### Submission 
