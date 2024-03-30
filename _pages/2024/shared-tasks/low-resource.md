@@ -133,7 +133,8 @@ A major challenge is that no Tamasheq transcription is provided.
  - Speech-to-translation parallel data: [here](https://github.com/gruly/IWSLT2022_Tamasheq_data)
  - Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
  - The corpus is described in <a href="https://arxiv.org/abs/2201.05051">this paper</a>
-
+  * Baseline systems are available as a <a href="https://speechbrain.github.io">SpeechBrain</a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>. The best baseline system gets  a BLEU score of 13.89 on the validation data
+-  * **THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2024/wav)**
 
 ## Baselines
 
