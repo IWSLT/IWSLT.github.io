@@ -58,6 +58,8 @@ We also provide links to speech recognition datasets that include Arabic data:
 - OpenSLR Resource [SLR108](https://www.openslr.org/108/)
 - OpenSLR Resource [SLR132](https://www.openslr.org/132/)
 
+**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/ufal/IWSLT2024_Levantine_Arabic_data)**
+
 
 ### Bemba to English (bem-eng)
 Bemba is a Bantu language, spoken by over 10 million people in Zambia and other parts of Africa.
@@ -69,6 +71,8 @@ Additional Bemba speech data (with transcriptions) are available here:
 
 - BembaSpeech [data](https://github.com/csikasote/BembaSpeech) [paper](https://arxiv.org/pdf/2102.04889.pdf)
 - ZambeziVoice [data](https://github.com/unza-speech-lab/zambezi-voice) [paper](https://arxiv.org/pdf/2306.04428.pdf)
+
+**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/csikasote/iwslt_2024_bemba_test )**
 
 ### Bhojpuri to Hindi (bho-hin)
 
@@ -82,11 +86,14 @@ We point participants to additional Bhojpuri audio data (with transcriptions), p
 - [Bhojpuri-wav2vec2 based model](https://github.com/Open-Speech-EkStep/vakyansh-models#wav2vec2-based-models)
 - [Bhojpuri Language Technological Resources (BHLTR)](https://github.com/shashwatup9k/bho-resources)
 
+**\[April 2 Update:\] THE TEST DATA FOR 2024 WILL BE SENT TO REGISTERED PARTICIPANTS ONLY. IF YOU HAVE NOT REGISTERED, PLEASE SEND AN EMAIL TO info@panlingua.co.in**
 
 ### Irish to English (gle-eng)
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
 
 IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-eng"> here</a>. Please sign <a href="https://forms.gle/7UPquNT9PT6SSTgk6"> this form</a> to get access credentials. This corpus consists of 11 hours of audio speech data and translations into English text.
+
+**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/shashwatup9k/iwslt2023_ga-eng)**
 
 
 ### Maltese to English (mlt-eng)
@@ -102,6 +109,7 @@ We also point participants to additional Maltese data here:
 - [MASRI Data](https://www.um.edu.mt/projects/masri/) speech recognition data
 - [Maltese Language Resource Server](https://mlrs.research.um.edu.mt/)
 
+**\[April 2 Update:\] THE TEST DATA FOR 2024 WILL BE AVAILABLE [HERE]() SHORTLY**
 
 ### Marathi to Hindi (mar-hin)
 
@@ -115,6 +123,8 @@ We point participants to additional Marathi audio data (with transcriptions) fro
 - [OpenSLR](https://www.openslr.org/64/)
 - [Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)
 
+**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/panlingua/iwslt2023_mr-hi)**
+
 ### Quechua to Spanish (que-spa)
 
 Quechua is an indigenous language spoken by more than 8 million people in South America. It is mainly spoken in Peru, Ecuador, and Bolivia where the official high-resource language is Spanish. It is a highly inflective language based on its suffixes which agglutinate and found to be similar to other languages like Finnish. The average number of morphemes per word (synthesis) is about two times larger than English. English typically has around 1.5 morphemes per word and Quechua has about 3 morphemes per word. 
@@ -122,6 +132,9 @@ Quechua is an indigenous language spoken by more than 8 million people in South 
 There are two main region divisions of Quechua known as Quechua I and Quechua II. This data set consists of two main types of Quechua spoken in Ayacucho, Peru (Quechua Chanka ISO:quy) and Cusco, Peru (Quechua Collao ISO:quz) which are both part of Quechua II and, thus, considered “southern” languages. We label the data set with **que** - the ISO code for Quechua II mixtures.
 
 IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2024_Quechua_data">IWSLT 2024 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any publicly available data for the *unconstrained* task. This includes a data set of nearly 50 hours of fully transcribed Quechua audio from previous shared tasks. For assistance with the data sets, please email j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
+
+**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/Llamacha/IWSLT2024_Quechua_data)**
+
 
 ### Tamasheq to French (tmh-fra)
 
@@ -134,8 +147,9 @@ A major challenge is that no Tamasheq transcription is provided.
  - Additional audio data (see description in the above Github page): [here](https://demo-lia.univ-avignon.fr/studios-tamani-kalangou/)
  - The corpus is described in <a href="https://arxiv.org/abs/2201.05051">this paper</a>
   * Baseline systems are available as a <a href="https://speechbrain.github.io">SpeechBrain</a> recipe<a href="https://github.com/speechbrain/speechbrain/tree/develop/recipes/IWSLT22_lowresource"> here</a>. The best baseline system gets  a BLEU score of 13.89 on the validation data
-<!-- -  * **THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2024/wav)**
- -->
+ 
+ **\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/gruly/IWSLT2022_Tamasheq_data/tree/main/taq_fra_clean/test2024/wav)**
+ 
  
 ## Baselines
 
