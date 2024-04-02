@@ -137,14 +137,14 @@ TAR archive file structure:
 where:
 ```
 < UserID > = user ID of participant; use the short name chosen in the registration form
-< Set > = IWSLT24.Subtitling.< Domain >tst
+< Set > = IWSLT24.Subtitling.< Domain >_{tst24, tst23}
 < VdId > = numeric identifier of the video
 < Domain > = one of {TED, Peloton, ITV}
 < Lang > = one of {en-de.de, en-es.es} (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
 ```
-FBK/IWSLT24.Subtitling.TEDtst_13587.en-de.de.FBK.primary.srt
+FBK/IWSLT24.Subtitling.TED_tst24_13587.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
