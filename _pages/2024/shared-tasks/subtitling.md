@@ -167,6 +167,7 @@ The email should also include the following information:
   * __ONLY CHANGES REGARDING THE TEXTUAL CONTENT ARE ADMITTED, THE TIMESTAMP OF THE SUBTITLES CAN NOT BE CHANGED!__
 * For each element of test sets, provide the subtitles in an SRT file whose name includes the file identifier (number) of the video.
 * Submissions have to be sent as a gzipped TAR archive.
+* Submission must include both test23 and test 24.
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run; all other run submissions are considered CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file timestamp) will be used as the PRIMARY run.
 
 TAR archive file structure:
