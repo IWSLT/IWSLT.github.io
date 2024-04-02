@@ -144,7 +144,7 @@ where:
 ```
 Example: 
 ```
-FBK/IWSLT24.Subtitling.TED_tst24_13587.en-de.de.FBK.primary.srt
+FBK/IWSLT24.Subtitling.TED_tst24_23833.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
