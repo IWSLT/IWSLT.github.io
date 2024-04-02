@@ -13,6 +13,8 @@ if you want to have a line break either put a blank line in between the text or 
 
 ## Description
 
+[Update] Please submit the system through [Submission link](https://www.dropbox.com/scl/fo/nzq8pxjijtwre0yshrtwr/h?rlkey=x9wrklyttf803cwrxt9xar23d&dl=0). Please request the edit access before submission.
+
 Simultaneous translation (also known as real-time or streaming translation) is the task of generating translations incrementally given partial input only.
 Simultaneous translation enables interesting applications such as automatic simultaneous interpretation or international conference translations.
 Simultaneous systems are typically evaluated with respect to quality and latency.
