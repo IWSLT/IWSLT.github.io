@@ -11,7 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-[Last update: Mar 26, 2024]
+[Last update: Apr 02, 2024]
 
 ## Description
 
@@ -78,17 +78,17 @@ Audio-visual documents of development and evaluation sets are and will be provid
   **IMPORTANT!** If TED2020 has been used by participants, this TED dev set does not represent a reliable evaluation benchmark due to its significant overlap in content with the TED2020 training set. Please consider using the other dev sets for your evaluations.
   {: .notice--info}
 
-  * The **test** set will be released soon ⏳ 
+  * The **test** set 2024, consisting of 16 video recordings, can be found in this [archive](https://fbk.sharepoint.com/:u:/s/MTUnit/Eb5v2Jb4gN1AjJT6_W5steYBaCYvhfqqTR_JE_m7tzH4Hw?e=pI9cqQ), which also includes the test set 2023, released for measuring progresses over years.
 
 * [Peloton](https://www.onepeloton.com/) is a US company that offers fitness training equipment as well as on-line fitness classes which are provided with subtitles in different languages. Peloton is interested in research related to the use of automated subtitling technology in their translation workflows. We would like to thank Peloton for providing IWSLT with samples of their videos for research and evaluation purposes and would like to ask you not to use these videos or subtitles for any commercial purposes or make them publicly available on any other website.  
 
   * As a **dev** set, 9 recordings of fitness training videos (mostly single-speaker - the fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESITGO_X_S1QhmBxE7ZkLuABq4O8fFD_iOIa7TKIqUV88w?e=cIvER3). **Note**: the **English** SRT files are **not** properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
-  * The **test** will be released soon ⏳
+  * The **test** set 2024, consisting of 4 video recordings, can be found in this [archive](https://fbk.sharepoint.com/:u:/s/MTUnit/ETj6LtxpsuRJnWS4yRIWhIUBZXzQoZF20pOeuAmm3vijLg?e=az9hQz), which also includes the test set 2023, released for measuring progresses over years.
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK’s largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or to make them publicly available on any other website. 
 
   * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EZXtQE00-Z5VP5Stmbhw1Y4BI3k6WyppWs0_cSCCBbwjyQ?e=nxIqkf). **Note**: some of the **English** SRT files were created following different subtitling guidelines than the ones used in this evaluation (e.g. they contain subtitles with 3 lines) and are provided for informational purposes only.
-  * The **test** will be released soon ⏳
+  * The **test** set 2024, consisting of 7 video recordings, can be found in this [archive](https://fbk.sharepoint.com/:u:/s/MTUnit/EdRmtVakEfRBmqljZUAY6-cBMqu11oZxuYdHOcHjkmlKtQ?e=FiS1Gd), which also includes the test set 2023, released for measuring progresses over years.
 
 When available, English subtitles of development sets are released only for the convenience of participants; it is not required to generate them for the final evaluation.
 
