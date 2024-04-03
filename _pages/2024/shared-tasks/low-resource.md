@@ -109,7 +109,7 @@ We also point participants to additional Maltese data here:
 - [MASRI Data](https://www.um.edu.mt/projects/masri/) speech recognition data
 - [Maltese Language Resource Server](https://mlrs.research.um.edu.mt/)
 
-**\[April 2 Update:\] THE TEST DATA FOR 2024 WILL BE AVAILABLE [HERE]() SHORTLY**
+**\[April 2 Update:\] THE TEST DATA FOR 2024 CAN BE DOWNLOADED [HERE](https://drive.google.com/drive/folders/1ldOnKHZHD9YXfcPZ-DNwV-fS9J4jsSwI?usp=sharing)**
 
 ### Marathi to Hindi (mar-hin)
 
