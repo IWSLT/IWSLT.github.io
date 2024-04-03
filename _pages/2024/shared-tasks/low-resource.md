@@ -93,7 +93,7 @@ Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (
 
 IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2023_ga-eng"> here</a>. Please sign <a href="https://forms.gle/7UPquNT9PT6SSTgk6"> this form</a> to get access credentials. This corpus consists of 11 hours of audio speech data and translations into English text.
 
-**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/shashwatup9k/iwslt2023_ga-eng)**
+**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/shashwatup9k/iwslt2023_ga-eng/tree/main/test-2024)**
 
 
 ### Maltese to English (mlt-eng)
@@ -123,7 +123,7 @@ We point participants to additional Marathi audio data (with transcriptions) fro
 - [OpenSLR](https://www.openslr.org/64/)
 - [Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)
 
-**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/panlingua/iwslt2023_mr-hi)**
+**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/panlingua/iwslt2023_mr-hi/tree/main/test-2024)**
 
 ### Quechua to Spanish (que-spa)
 
