@@ -87,7 +87,7 @@ Only one submission is allowed per team. The submissions must be submitted zippe
 
 ```
 For language specific submission:
-< TeamID >_< LangPair >_< STModel >_<DataCon>_< IndicYear >.tar.gz  
+< TeamID >_< STModel >_<DataCon>_< IndicYear >.tar.gz  
   /< LangPair >_< STModel >_< IndicYear >.<Tgt>
   /...
 
