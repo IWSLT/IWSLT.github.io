@@ -55,7 +55,9 @@ This task allows all training data from the Offline task on speech-to-text trans
 The development set also aligns with the [offline track](https://iwslt.org/2024/offline#past-editions-development-data) and the past edition of English-to-Chinese translation set can be used as the development set. 
 
 ## Test Data
+The [blind evaluation](https://drive.google.com/file/d/14i4gQwfxoskzLR_STDtqyj7z-vO6xBoU/view?usp=sharing) data can be downloaded now. The test set contains 2000 wav files named 0000.wav, 0001.wav, ..., 1999.wav. 
 
+The corresponding audio translation of each given audio file should be produced by the speech to speech translation system.
 
 ## Segmentation
 
@@ -64,8 +66,11 @@ Sentence-segmented input will be provided.
 
 ## Submission
 
-Submissions should be compressed in a single .tar.gz file and sent as an email attachment to dongqianqian@bytedance.com. If multiple outputs are submitted, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. The submission should contain one wav file per input segment and a README or README.md file briefly describing the system. There are no restrictions on the number of channels or sampling rate.
-Test data release and system submission deadlines will follow the same [dates](https://iwslt.org/2024/#important-dates) as all shared tasks.
+- Submissions should be compressed in a single .tar.gz file and sent as an email attachment to dongqianqian@bytedance.com. If multiple outputs are submitted, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary. 
+- The submission should contain one wav file per input segment and a README or README.md file briefly describing the system and explicitly stating whether the system is cascaded or end-to-end, constrained or unconstrained. 
+- There are no restrictions on the number of channels or sampling rate. 
+
+The deadline for submission has been extended to **April 20th, 2024**.
 
 <!-- Description of expected submission format and submission instructions -->
 
