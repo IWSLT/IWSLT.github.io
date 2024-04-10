@@ -87,12 +87,12 @@ Only one submission is allowed per team. The submissions must be submitted zippe
 
 ```
 For language specific submission:
-< TeamID >_< LangPair >_< STModel >_< IndicYear >.tar.gz  
+< TeamID >_< LangPair >_< STModel >_<DataCon>_< IndicYear >.tar.gz  
   /< LangPair >_< STModel >_< IndicYear >.<Tgt>
   /...
 
 For multilingual submission:
-< TeamID >_< STModel >_< IndicYear >.tar.gz  
+< TeamID >_< STModel >_<DataCon>_< IndicYear >.tar.gz  
   /< LangPair >_< STModel >_< IndicYear >.hi
   /< LangPair >_< STModel >_< IndicYear >.bn
   /< LangPair >_< STModel >_< IndicYear >.ta
@@ -104,6 +104,8 @@ where:
 `<LangPair>` denotes language pair, example: **'en-hi', 'en-bn', 'en-ta'**.
 
 `<STModel>` denotes whether the ST model is cascaded or end-to-end, example: '**Casc**' or '**E2E**'.
+
+`<DataCon>` denotes whether the data used for model training is constrained or unconstrained, example: '**Cons**' or '**UnCons**'. 
 
 `<IndicYear>` is the year of submission for Indic track, example: '**Indic2024**'.
 
