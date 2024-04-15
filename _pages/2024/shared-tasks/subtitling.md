@@ -185,7 +185,7 @@ where:
 ```
 Example: 
 ```
-FBK/IWSLT24.SubtitleCompression.en-de.de.FBK.primary.srt
+FBK/IWSLT24.SubtitleCompression.15.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
