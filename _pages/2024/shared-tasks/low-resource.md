@@ -61,6 +61,7 @@ We also provide links to speech recognition datasets that include Arabic data:
 **\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/ufal/IWSLT2024_Levantine_Arabic_data)**
 
 
+
 ### Bemba to English (bem-eng)
 Bemba is a Bantu language, spoken by over 10 million people in Zambia and other parts of Africa.
 
@@ -189,7 +190,17 @@ If participants do not have a constrained/unconstrained system or primary, const
 
 Submission files should contain translations (or transcriptions) in the format of one per line following the format of the segments file (in sequence) corresponding to the test data splits.
 
-Submission details will be provided with the release of the test data.
+**\[April 14 Update:\] ANNOUNCING A 4 DAY EXTENSION -- FINAL DEADLINE IS APRIL 19 EOD**
+
+**\[April 15 Update:\] Submission Information -- please see below**
+
+We ask participants to email their submissions for all language pairs to the organizers in the following email address:
+- iwslt.2024.lowres.submissions@gmail.com
+
+If submitting a system for Quechua, please cc John Ortega: j.ortega@northeastern.edu
+If submitting a system for Bhojpuri, Marathi, or Irish, please cc Atul K. Ojha: atulkumar.ojha@insight-centre.org
+
+
 
 ## Evaluation
 
@@ -197,6 +208,7 @@ Submission details will be provided with the release of the test data.
 The official BLEU score will use lower-case and no punctuation, following the "norm" files in the setup [instructions](https://github.com/kevinduh/iwslt22-dialect). 
 
 We will also aim for a human evaluation of the translation outputs.
+
 
 
 ## Organizers
