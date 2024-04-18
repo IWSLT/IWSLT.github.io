@@ -134,7 +134,9 @@ There are two main region divisions of Quechua known as Quechua I and Quechua II
 
 IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *constrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2024_Quechua_data">IWSLT 2024 QUE-SPA Data set</a>. IWSLT particpants should also feel free to use any publicly available data for the *unconstrained* task. This includes a data set of nearly 50 hours of fully transcribed Quechua audio from previous shared tasks. For assistance with the data sets, please email j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
 
-**\[April 2 Update:\] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/Llamacha/IWSLT2024_Quechua_data/tree/main/que_spa_constrained)**
+**\[April 2 Update:\] THE TEST <u>DATA</u> FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/Llamacha/IWSLT2024_Quechua_data/tree/main/que_spa_constrained)**
+
+**\[April 18 Update:\] THE TEST <u>SCRIPT</u> BLEU and CHRF FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/Llamacha/iwslt24_que_esp)**
 
 
 ### Tamasheq to French (tmh-fra)
@@ -243,7 +245,7 @@ Maltese:
 
 Quechua:
 <ul>
-	<li>John Ortega - Northeastern University (j.ortega [email symbol] northeastern.edu)</li>
+	<li>John E. Ortega - Northeastern University (j.ortega [email symbol] northeastern.edu)</li>
 	<li>Rodolfo Zevallos - Universitat Pompeu Fabra (rodolfojoel.zevallos [email symbol] upf.edu)</li>
 	<li>William Chen - Carnegie Mellon Univerisy (wc4 [email symbol] andrew.cmu.edu)</li>
 	<li>Ibrahim Ahmed - Northeastern University (i.ahmad [email symbol] northeastern.edu)</li>
