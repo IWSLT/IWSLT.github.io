@@ -62,13 +62,13 @@ For more information, see here: [Special Session: Recent Highlights in SLT](/202
 
 ## Paper Submission
 
-Submissions should be scientific papers or shared task system description papers. 
+Submissions should be scientific papers or evaluation campaign system description papers. 
 All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
-Accepted papers will be published in the ACL 2024 proceedings and will be presented at the IWSLT conference either orally or as a poster.
+Accepted papers will be published in the ACL Anthology and will be presented at the IWSLT conference either orally or as a poster.
 
-The submission portal will open in early 2024.
-{: .notice--info}
+Please submit all papers through the [IWSLT'24 submission portal](https://softconf.com/n/iwslt2024/). 
+
 
 **Note:**
 - Scientific papers must be anonymized for submission, while system description papers do not need to be.
