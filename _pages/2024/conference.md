@@ -30,8 +30,7 @@ All tasks followed the same [schedule](#important-dates). For updates and commun
 
 ### Registration
 
-Registration for IWSLT will be handled through [ACL 2024](https://2024.aclweb.org/).  
-Further details will be posted here once the ACL 2024 registration portal is open.
+Participants need to register to the [ACL 2024](https://2024.aclweb.org/) workshops.  
 
 <!--Please register for the Evaluation Campaign via the [registration form](https://forms.gle/pkjTz5oYfae2Csj7A). -->
 
