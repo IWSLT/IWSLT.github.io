@@ -53,7 +53,7 @@ All papers may consist of 4 to 8 pages of content with additional pages of refer
 Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments.
 Accepted papers will be published in the ACL Anthology and will be presented at the IWSLT conference either orally or as a poster.
 
-Please submit all papers through the [IWSLT'24 submission portal](https://softconf.com/n/iwslt2024/). 
+Scientific and system papers can be submitted through the [IWSLT'24 submission portal](https://softconf.com/n/iwslt2024/). Please 
 
 
 **Note:**
