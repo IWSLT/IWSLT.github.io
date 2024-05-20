@@ -1,4 +1,3 @@
-
 ---
 permalink: /paper-submission/
 title: "Paper Submission"
