@@ -46,7 +46,7 @@ For more information, see here: [Special Session: Recent Highlights in SLT](/202
 ## Paper Submission
 
 IWSLT encourages submissions of scientific papers and system papers describing the participation in a shared task.
-Please visit the [paper submissions](/2024/paper-submission) page for further information.
+Please visit the [paper submission](/2024/paper-submission) page for further information.
 
 
 ## Important Dates
