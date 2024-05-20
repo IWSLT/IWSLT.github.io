@@ -48,9 +48,9 @@ Please join the [IWSLT Evaluation Campaign google group](https://groups.google.c
 ## Special Session: Recent Highlights in SLT
 
 IWSLT 2024 will introduce a special session entitled "SLT Recent Highlights".
-The session intends to provide an overview of recent highlights from the field across venues, with a series of short presentations focused reviews on recent developments and new/emerging trends. 
+<!--The session intends to provide an overview of recent highlights from the field across venues, with a series of short presentations focused reviews on recent developments and new/emerging trends. 
 Additionally, a short and lively discussion may follow the presentations. 
-We believe this initiative will contribute to a better understanding of the current landscape of SLT research and foster collaboration and exchange of ideas within the IWSLT community.
+We believe this initiative will contribute to a better understanding of the current landscape of SLT research and foster collaboration and exchange of ideas within the IWSLT community.-->
 
 For more information, see here: [Special Session: Recent Highlights in SLT](/2024/special-session). 
 
