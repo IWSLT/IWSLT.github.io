@@ -85,7 +85,7 @@ Please submit all papers through the [IWSLT'24 submission portal](https://softco
 | June 4, 2024       | Notification of acceptance                   |
 | June 24, 2024      | Camera ready deadline                        |
 | July 22, 2024      | Pre-recorded video due                       |
-| August 17-18, 2024 | IWSLT conference                             |
+| August 15-16, 2024 | IWSLT conference                             |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
