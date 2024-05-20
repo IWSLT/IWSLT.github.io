@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 ---
 ## Submission Portal
-[Softconf Portal](https://softconf.com/n/iwslt2024/login/)
+[IWSLT 2024 Softconf Portal](https://softconf.com/n/iwslt2024/login/)
 
 ## Instructions
 - Submissions should be scientific papers or evaluation campaign system description papers. 
