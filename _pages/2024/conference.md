@@ -30,7 +30,7 @@ All tasks followed the same [schedule](#important-dates). For updates and commun
 
 ### Registration
 
-Participants need to register to the [ACL 2024](https://2024.aclweb.org/) workshops.  
+Participation requires registration to the [ACL 2024](https://2024.aclweb.org/) workshops.  
 
 <!--Please register for the Evaluation Campaign via the [registration form](https://forms.gle/pkjTz5oYfae2Csj7A). -->
 
