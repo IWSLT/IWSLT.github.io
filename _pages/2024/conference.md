@@ -30,7 +30,7 @@ IWSLT 2024 will be held in the same location as ACL 2024, the [Centara Grand & B
 - [Low-resource track](/2024/low-resource)  (Antonios Anastasopoulos, George Mason University)
 - [Indic track](/2024/indic)  (Chandresh Kumar Maurya, IIT Indore, India)
 
-All tasks followed the same [important dates](#important-dates). 
+All tasks followed the same [schedule](#important-dates). 
 
 
 ### Registration
