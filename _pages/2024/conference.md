@@ -25,7 +25,7 @@ The 21st edition of IWSLT will be run as an ACL and ELRA Event, co-located with 
 - [Low-resource track](/2024/low-resource)  (Antonios Anastasopoulos, George Mason University)
 - [Indic track](/2024/indic)  (Chandresh Kumar Maurya, IIT Indore, India)
 
-All tasks followed the same [schedule](#important-dates). 
+All tasks followed the same [schedule](#important-dates). For updates and communications please join [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"}.
 
 
 ### Registration
@@ -35,7 +35,7 @@ Further details will be posted here once the ACL 2024 registration portal is ope
 
 <!--Please register for the Evaluation Campaign via the [registration form](https://forms.gle/pkjTz5oYfae2Csj7A). -->
 
-Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates, community questions and opportunities to receive sponsored cloud computing credits.
+
 
 
 ## Special Session
