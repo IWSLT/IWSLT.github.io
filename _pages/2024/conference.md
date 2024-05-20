@@ -15,7 +15,7 @@ The 21st edition of IWSLT will be run as an ACL and ELRA Event and co-located wi
 
 ### Location
 
-IWSLT 2024 will be held in the same location as ACL 2024, the [Centara Grand & Bangkok Convention Center at CentralWorld](https://www.centarahotelsresorts.com/centaragrand/cgcw).  
+[Centara Grand & Bangkok Convention Center at CentralWorld](https://www.centarahotelsresorts.com/centaragrand/cgcw).  
 
 
 ## Shared Tasks
