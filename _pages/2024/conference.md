@@ -28,7 +28,7 @@ The 21st edition of IWSLT will be run as an ACL and ELRA Event, co-located with 
 All tasks followed the same [schedule](#important-dates). For updates and communications please join [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"}.
 
 
-### Registration
+## Registration
 
 Participation requires registration to the [ACL 2024](https://2024.aclweb.org/) workshops.  
 
