@@ -45,14 +45,13 @@ Further details will be posted here once the ACL 2024 registration portal is ope
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates, community questions and opportunities to receive sponsored cloud computing credits.
 
 
-## Special Session: Recent Highlights in SLT
+## Special Session
 
-IWSLT 2024 will introduce a special session entitled "SLT Recent Highlights".
+IWSLT 2024 will include a special session entitled [Recent Highlights in SLT](/2024/special-session)
 <!--The session intends to provide an overview of recent highlights from the field across venues, with a series of short presentations focused reviews on recent developments and new/emerging trends. 
 Additionally, a short and lively discussion may follow the presentations. 
-We believe this initiative will contribute to a better understanding of the current landscape of SLT research and foster collaboration and exchange of ideas within the IWSLT community.-->
-
-For more information, see here: [Special Session: Recent Highlights in SLT](/2024/special-session). 
+We believe this initiative will contribute to a better understanding of the current landscape of SLT research and foster collaboration and exchange of ideas within the IWSLT community.
+For more information, see here: [Special Session: Recent Highlights in SLT](/2024/special-session). -->
 
 
 ## Paper Submission
