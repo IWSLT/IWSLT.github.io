@@ -1,7 +1,8 @@
 ---
 permalink: /2024/paper-submission
 title: "Paper Submission"
-classes: wide
+toc: true
+toc_sticky: true
 ---
 
 - Submissions should be scientific papers or evaluation campaign system description papers. 
