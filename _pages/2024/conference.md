@@ -34,9 +34,6 @@ Participation requires registration to the [ACL 2024](https://2024.aclweb.org/) 
 
 <!--Please register for the Evaluation Campaign via the [registration form](https://forms.gle/pkjTz5oYfae2Csj7A). -->
 
-
-
-
 ## Special Session
 
 IWSLT 2024 will include a special session entitled [Recent Highlights in SLT](/2024/special-session)
@@ -48,7 +45,7 @@ For more information, see here: [Special Session: Recent Highlights in SLT](/202
 
 ## Paper Submission
 
-IWSLT encourages submissions ofscientific papers and evaluation campaign system description papers.
+IWSLT encourages submissions of scientific papers and system papers describing the participation in a shared task.
 Please visit the [paper submissions](paper-submission) page for further information.
 
 **Note:**
