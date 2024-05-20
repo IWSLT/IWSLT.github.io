@@ -20,19 +20,17 @@ IWSLT 2024 will be held in the same location as ACL 2024, the [Centara Grand & B
 
 ## Shared Tasks
 
-The **IWSLT 2024 Evaluation Campaign** will host shared tasks featuring the following focus areas:
+**IWSLT 2024** hosts the following shared tasks:
 
-- **Speech translation campaign tracks:**
-  - [Speech-to-speech track](/2024/s2s)  (Qianqian Dong, Bytedance, China) 
-  - [Simultaneous track](/2024/simultaneous) (Katsuhito Sudoh, NAIST, Japan)
-  - [Subtitling track](/2024/subtitling)  (Mauro Cettolo, FBK, Italy; Evgeny Matusov, AppTek, Germany)
-  - [Offline track](/2024/offline)  (Marco Turchi, Zoom, Germany; Matteo Negri, FBK, Italy)
-  - [Dubbing track](/2024/dubbing)  (Brian Thompson, Amazon, USA; Prashant Mathur, AWS AI Labs, USA)
-  - [Low-resource track](/2024/low-resource)  (Antonios Anastasopoulos, George Mason University)
-  - [Indic track](/2024/indic)  (Chandresh Kumar Maurya, IIT Indore, India)
+- [Speech-to-speech track](/2024/s2s)  (Qianqian Dong, Bytedance, China) 
+- [Simultaneous track](/2024/simultaneous) (Katsuhito Sudoh, NAIST, Japan)
+- [Subtitling track](/2024/subtitling)  (Mauro Cettolo, FBK, Italy; Evgeny Matusov, AppTek, Germany)
+- [Offline track](/2024/offline)  (Marco Turchi, Zoom, Germany; Matteo Negri, FBK, Italy)
+- [Dubbing track](/2024/dubbing)  (Brian Thompson, Amazon, USA; Prashant Mathur, AWS AI Labs, USA)
+- [Low-resource track](/2024/low-resource)  (Antonios Anastasopoulos, George Mason University)
+- [Indic track](/2024/indic)  (Chandresh Kumar Maurya, IIT Indore, India)
 
-Data, metrics, and evaluation will be provided by the conference organizers.  
-All tasks will follow the same [important dates](#important-dates). 
+All tasks followed the same [important dates](#important-dates). 
 
 
 ### Registration
