@@ -5,12 +5,10 @@ title: "Paper Submission"
 classes: wide
 ---
 
-Submissions should be scientific papers or evaluation campaign system description papers. All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
-Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments. Accepted papers will be published in the ACL Anthology and will be presented at the IWSLT conference either orally or as a poster.
-
-Please submit all papers through the [IWSLT'24 submission portal](https://softconf.com/n/iwslt2024/). 
-
-Instructions:
+- Submissions should be scientific papers or evaluation campaign system description papers. 
+- All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
+- Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments. 
+- Accepted papers will be published in the ACL Anthology and will be presented at the IWSLT conference either orally or as a poster.
 - Scientific papers must be anonymized for submission, while system description papers do not need to be.
 - We accept submissions which have previously been made available as technical reports or preprints, e.g. on arXiv.
 - We will not accept scientific papers for publication that overlap significantly in content or results with papers published elsewhere.
