@@ -48,14 +48,6 @@ For more information, see here: [Special Session: Recent Highlights in SLT](/202
 IWSLT encourages submissions of scientific papers and system papers describing the participation in a shared task.
 Please visit the [paper submissions](paper-submission) page for further information.
 
-**Note:**
-- Scientific papers must be anonymized for submission, while system description papers do not need to be.
-- We accept submissions which have previously been made available as technical reports or preprints, e.g. on arXiv.
-- We will not accept scientific papers for publication that overlap significantly in content or results with papers published elsewhere.
-- Scientific papers which have been, or plan to be, submitted to other venues must be declared as such at the time of submission, and must be withdrawn from the other venues if accepted and published at IWSLT 2024.
-- Scientific papers whose first author is a student will be eligible for the IWSLT 2024 Best Student Paper Award (authors should note eligibility in the paper submission form).
-- Limitations and Ethics Statement sections (see [the ACL'23 call for papers for more details](https://2023.aclweb.org/calls/main_conference/)) are encouraged but not required. If included, they should be placed after the conclusion for submission and will not count against the page limit. 
-
 
 ## Important Dates
 
