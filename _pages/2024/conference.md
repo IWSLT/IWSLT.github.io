@@ -73,8 +73,6 @@ Please submit all papers through the [IWSLT'24 submission portal](https://softco
 
 ## Important Dates
 
-### Timeline (Tentative)
-
 |--------------------|----------------------------------------------|
 | Jan 15, 2024       | Release of shared task training and dev data |
 | Apr 1-15, 2024     | Evaluation period                            |
