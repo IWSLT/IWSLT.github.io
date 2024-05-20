@@ -1,5 +1,5 @@
 ---
-permalink: /paper-submission/
+permalink: /2024/paper-submission/
 title: "Paper Submission"
 classes: wide
 ---
