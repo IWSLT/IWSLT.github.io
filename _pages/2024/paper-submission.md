@@ -4,7 +4,10 @@ title: "Paper Submission"
 toc: true
 toc_sticky: true
 ---
+#Submission Portal
+[Softconf Portal](https://softconf.com/n/iwslt2024/login/)
 
+#Instructions
 - Submissions should be scientific papers or evaluation campaign system description papers. 
 - All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
 - Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments. 
