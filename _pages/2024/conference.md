@@ -55,6 +55,7 @@ Please visit the [paper submission](/2024/paper-submission) page for further inf
 | Jan 15, 2024       | Release of shared task training and dev data |
 | Apr 1-15, 2024     | Evaluation period                            |
 | Apr 29, 2024       | Paper submission (all papers)                |
+| May 28, 2024       | ARR Commitment deadline                      |
 | June 4, 2024       | Notification of acceptance                   |
 | June 24, 2024      | Camera ready deadline                        |
 | July 22, 2024      | Pre-recorded video due                       |

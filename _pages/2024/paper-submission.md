@@ -5,7 +5,11 @@ toc: true
 toc_sticky: true
 ---
 ## Submission Portal
-[IWSLT 2024 Softconf Portal](https://softconf.com/n/iwslt2024/login/)
+
+Direct submission: [IWSLT 2024 Softconf Portal](https://softconf.com/n/iwslt2024/login/)
+
+ARR commitment: [ARR Commitment Form](https://forms.gle/VS2WpJBrPZRtQSig7)
+
 
 ## Instructions
 - Submissions should be scientific papers or evaluation campaign system description papers. 
