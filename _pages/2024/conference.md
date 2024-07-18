@@ -58,11 +58,13 @@ Please visit the [paper submission](/2024/paper-submission) page for further inf
 | May 28, 2024       | ARR Commitment deadline                      |
 | June 4, 2024       | Notification of acceptance                   |
 | June 24, 2024      | Camera ready deadline                        |
-| ~~July 22, 2024~~      | ~~Pre-recorded video due~~                       |
+| July 22, 2024~~    | Pre-recorded video (optional)                |
 | August 15-16, 2024 | IWSLT conference                             |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
+**Note:** ACL will offer virtual attendance and oral presentation via the Underline platform. Poster presentations of system papers 
+are expected to be in presence. We accept links to playable video presentations (hosted by you)in this [google doc](https://docs.google.com/document/d/1o6wkXFcuADd9oPuw_zH_1KJ1mG9Ds3xGxgXZDotA1uU/edit?usp=sharing).  
 {: .notice--warning}
 
 
