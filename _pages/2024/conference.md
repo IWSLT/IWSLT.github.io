@@ -58,7 +58,7 @@ Please visit the [paper submission](/2024/paper-submission) page for further inf
 | May 28, 2024       | ARR Commitment deadline                      |
 | June 4, 2024       | Notification of acceptance                   |
 | June 24, 2024      | Camera ready deadline                        |
-| July 22, 2024      | Pre-recorded video due                       |
+| ~~July 22, 2024~~      | ~~Pre-recorded video due~~                       |
 | August 15-16, 2024 | IWSLT conference                             |
 
 
