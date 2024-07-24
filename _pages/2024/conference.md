@@ -18,7 +18,7 @@ The 21st edition of IWSLT will be run as an ACL and ELRA sponsored event, co-loc
 **IWSLT 2024** hosts the following shared tasks:
 
 - [Speech-to-speech track](/2024/s2s)  (Qianqian Dong, Bytedance, China) 
-- [Simultaneous track](/2024/simultaneous) (Xutai Ma and Juan Pino Meta, USA; Katsuhito Sudoh, NAIST, Japan)
+- [Simultaneous track](/2024/simultaneous) (Xutai Ma and Juan Pino, Meta, USA; Katsuhito Sudoh, NAIST, Japan)
 - [Subtitling track](/2024/subtitling)  (Mauro Cettolo, FBK, Italy; Evgeny Matusov, AppTek, Germany)
 - [Offline track](/2024/offline)  (Marco Turchi, Zoom, Germany; Matteo Negri, FBK, Italy)
 - [Dubbing track](/2024/dubbing)  (Brian Thompson, Amazon, USA; Prashant Mathur, AWS AI Labs, USA)
