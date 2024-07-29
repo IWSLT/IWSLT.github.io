@@ -1,5 +1,5 @@
 ---
-permalink: /2023/sponsors
+permalink: /2024/sponsors
 title: ""
 classes: wide
 ---
@@ -14,15 +14,11 @@ classes: wide
 <div class="card">
 <a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
 </div>     
-
-<div class="card">
-<a href="https://translated.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/translated.png" alt="Translated" style="width:90%"/></a>
-</div>     
-
 <!--
 ### Platinum
 -->
 
+<!--
 ### Gold
 
 <div class="card">
@@ -35,7 +31,7 @@ classes: wide
 <div class="card">
 <a href="https://www.apptek.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek.png" alt="AppTek" style="width:75%"/></a>
 </div>     
-
+-->
 
 <!--
 ### Bronze
