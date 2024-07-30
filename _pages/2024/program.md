@@ -50,22 +50,16 @@ offline & dubbing tracks
 ### Oral session A:
 
 - _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
-
   Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli 
-
 - _Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities_
-
   Authors: Maximilian Awiszus, Jan Niehues, Marco Turchi, Sebastian Stüker and Alex Waibel
 
 ### Oral session B:
 
-_Recent Highlights in Multilingual and Multimodal Speech Translation_
-
-Authors: Danni Liu and Jan Niehues
-
-_Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data_
-
-Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
+- _Recent Highlights in Multilingual and Multimodal Speech Translation_
+  Authors: Danni Liu and Jan Niehues
+- _Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data_
+  Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
 
 ### Oral session C:
 
