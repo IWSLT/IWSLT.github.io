@@ -20,21 +20,30 @@ toc_sticky: true
 12:30–14:00	Lunch
 
 14:00–15:30	Poster session I: System papers for low resource & indic tracks 
+
 15:30–16:00	Coffee break
+
 16:00–16:30 Oral session B: Scientific papers
+
 16:30–17:30	Panel discussion
+
 17:30		End of day 1
 
 ## DAY 2: August 16 2024
 
 09:00–10:30 Oral session C: Scientific papers
+
 10:20–11:00	Coffee break
-11:00–12:30	Poster session II: Finding papers and system papers for speech-to-speech, simultaneous, subtitling, offline & dubbing tracks 
+
+11:00–12:30	Poster session II: Finding papers and system papers for speech-to-speech, simultaneous, subtitling, 
+offline & dubbing tracks 
 
 12:30–14:00	Lunch
 
 14:00–15:30 Planning Session for 2025
+
 15:30–16:00	Coffee break
+
 16:00–16:15	Closing remarks
 
 
