@@ -47,7 +47,7 @@ offline & dubbing tracks
 16:00–16:15	Closing remarks
 
 
-# Oral session A:
+### Oral session A:
 
 _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
 
@@ -57,7 +57,7 @@ _Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for
 
 Authors: Maximilian Awiszus, Jan Niehues, Marco Turchi, Sebastian Stüker and Alex Waibel
 
-# Oral session B:
+### Oral session B:
 
 _Recent Highlights in Multilingual and Multimodal Speech Translation_
 
@@ -67,7 +67,7 @@ _Enhancing Translation Accuracy of Large Language Models through Continual Pre-T
 
 Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
 
-# Oral session C:
+### Oral session C:
 
 _Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
 
@@ -93,7 +93,7 @@ _Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
 
 Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
 
-# ACL Findings papers presented in Poster Session II
+### ACL Findings papers presented in Poster Session II
 
 _Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation_ 
 
