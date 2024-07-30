@@ -11,17 +11,17 @@ toc_sticky: true
 
 09:15–10:30	Findings of the IWSLT 2024 Evaluation Campaign 
 
-10:30–11:00	Coffee break
+10:30–11:00	_Coffee break_
 
 11:00–12:00 Findings of the IWSLT 2024 Evaluation Campaign
 
 12:00-12:30	Oral session A: Test suite papers
 
-12:30–14:00	Lunch
+12:30–14:00	_Lunch break_
 
 14:00–15:30	Poster session I: System papers for low resource & indic tracks 
 
-15:30–16:00	Coffee break
+15:30–16:00	_Coffee break_
 
 16:00–16:30 Oral session B: Scientific papers
 
@@ -33,16 +33,16 @@ toc_sticky: true
 
 09:00–10:30 Oral session C: Scientific papers
 
-10:20–11:00	Coffee break
+10:20–11:00	_Coffee break_
 
 11:00–12:30	Poster session II: Finding papers and system papers for speech-to-speech, simultaneous, subtitling, 
 offline & dubbing tracks 
 
-12:30–14:00	Lunch
+12:30–14:00	_Lunch break_
 
 14:00–15:30 Planning Session for 2025
 
-15:30–16:00	Coffee break
+15:30–16:00	_Coffee break_
 
 16:00–16:15	Closing remarks
 
