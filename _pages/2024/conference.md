@@ -61,13 +61,13 @@ Please visit the [paper submission](/2024/paper-submission) page for further inf
 | May 28, 2024       | ARR Commitment deadline                      |
 | June 4, 2024       | Notification of acceptance                   |
 | June 24, 2024      | Camera ready deadline                        |
-| July 31, 2024~~    | Pre-recorded video (**optional**)                |
+| August 10, 2024    | Pre-recorded video (**optional**)            |
 | August 15-16, 2024 | IWSLT conference                             |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
 
-**Note:** ACL will support virtual attendance and oral presentations in person and remotely via the Underline platform for all registered participants. Poster presentations are expected to be on site only. Poster format is A0. [Printing service](https://2024.aclweb.org/participants/printing/) is available on site. Authors with a virtual registration who are unable to present their poster in person can provide a link to a video of max 15min with their presentation via this [google doc](https://docs.google.com/document/d/1o6wkXFcuADd9oPuw_zH_1KJ1mG9Ds3xGxgXZDotA1uU/edit?usp=sharing). The page will be editable until July 31 and  videos will be linked on the IWSLT program through the end of the IWSLT conference.  
+**Note:** ACL will support virtual attendance and oral presentations in person and remotely via the Underline platform for all registered participants. Poster presentations are expected to be on site only. Poster format is A0. [Printing service](https://2024.aclweb.org/participants/printing/) is available on site. Authors with a virtual registration who are unable to present their poster in person can provide a link to a video of max 15min with their presentation via this [google doc](https://docs.google.com/document/d/1o6wkXFcuADd9oPuw_zH_1KJ1mG9Ds3xGxgXZDotA1uU/edit?usp=sharing). The page will be editable until August 10 and  videos will be linked on the IWSLT program through the end of the IWSLT conference.  
 {: .notice--warning}
 
 
