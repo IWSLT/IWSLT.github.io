@@ -57,43 +57,28 @@ offline & dubbing tracks
 ### Oral session B:
 
 - _Recent Highlights in Multilingual and Multimodal Speech Translation_
-  Authors: Danni Liu and Jan Niehues
+  - Authors: Danni Liu and Jan Niehues
 - _Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data_
-  Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
+  - Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
 
 ### Oral session C:
 
-_Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
-
-Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
-
-_Conditioning LLMs with Emotion in Neural Machine Translation_
-
-Authors:  Charles Brazier and Jean-Luc Rouas
-
-_Compact Speech Translation Models via Discrete Speech Units Pretraining_
-
-Authors:  Tsz Kin Lam, Alexandra Birch and Barry Haddow
-
-_Speech Data from Radio Broadcasts for Low Resource Languages_
-
-Authors:  Bismarck Bamfo Odoom, Leibny Paola Garcia Perera, Prangthip Hansanti, Loic Barrault, Christophe Ropers, Matthew Wiesner, Kenton Murray, Alexandre Mourachko and Philipp Koehn
-
-_Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation_
-
-Authors: Kosuke Doi, Yuka Ko, Mana Makinae, Katsuhito Sudoh and Satoshi Nakamura
-
-_Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
-
-Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
+- _Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
+  - Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
+- _Conditioning LLMs with Emotion in Neural Machine Translation_
+  - Authors:  Charles Brazier and Jean-Luc Rouas
+= _Compact Speech Translation Models via Discrete Speech Units Pretraining_
+  - Authors:  Tsz Kin Lam, Alexandra Birch and Barry Haddow
+- _Speech Data from Radio Broadcasts for Low Resource Languages_
+  - Authors:  Bismarck Bamfo Odoom, Leibny Paola Garcia Perera, Prangthip Hansanti, Loic Barrault, Christophe Ropers, Matthew Wiesner, Kenton Murray, Alexandre Mourachko and Philipp Koehn
+- _Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation_
+  - Authors: Kosuke Doi, Yuka Ko, Mana Makinae, Katsuhito Sudoh and Satoshi Nakamura
+- _Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
+   - Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
 
 ### ACL Findings papers presented in Poster Session II
 
-_Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation_ 
-
-https://arxiv.org/abs/2406.02733 (Findings of ACL 2024)
-
-
-_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_
-
-https://aclanthology.org/2023.findings-acl.816.pdf (Findings of ACL 2023)
+- [_Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation_](https://arxiv.org/abs/2406.02733)
+  -  Authors: Min-Jae Hwang, Ilia Kulikov, Benjamin Peloquin, Hongyu Gong, Peng-Jen Chen and Ann Lee
+- [_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_](https://aclanthology.org/2023.findings-acl.816.pdf)
+  - Matthew Raffel and Lizhong Chen
