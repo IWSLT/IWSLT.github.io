@@ -5,36 +5,36 @@ toc: true
 toc_sticky: true
 ---
 
-DAY 1: August 15 2024
+## DAY 1: August 15 2024
 
 09:00–09:15	Welcome remarks
 09:15–10:30	Findings of the IWSLT 2024 Evaluation Campaign 
 10:30–11:00	Coffee break
-11:00–12:00    Findings of the IWSLT 2024 Evaluation Campaign
-12:00-12:30	Oral session A: Test suite papers (2)
+11:00–12:00 Findings of the IWSLT 2024 Evaluation Campaign
+12:00-12:30	Oral session A: Test suite papers
 
 12:30–14:00	Lunch
 
-14:00–15:30	Poster session I: system papers for low resource & indic tracks (13 papers)
+14:00–15:30	Poster session I: System papers for low resource & indic tracks 
 15:30–16:00	Coffee break
-16:00–16:30   Oral session B: 1 scientific paper + 1 highlight paper
+16:00–16:30 Oral session B: Scientific papers
 16:30–17:30	Panel discussion
 17:30		End of day 1
 
-DAY 2: August 16 2024
+## DAY 2: August 16 2024
 
-09:00–10:30   Oral session C: 6 scientific papers (oral)
+09:00–10:30 Oral session C: Scientific papers
 10:20–11:00	Coffee break
-11:00–12:30	Poster session II: Finding papers (2) and system papers for speech-to-speech, simultaneous, subtitling, offline & dubbing tracks (12 papers)
+11:00–12:30	Poster session II: Finding papers and system papers for speech-to-speech, simultaneous, subtitling, offline & dubbing tracks 
 
 12:30–14:00	Lunch
 
-14:00–15:30 	Planning Session for 2025
+14:00–15:30 Planning Session for 2025
 15:30–16:00	Coffee break
 16:00–16:15	Closing remarks
 
 
-Oral session A:
+# Oral session A:
 
 FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE
 Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli 
@@ -42,7 +42,7 @@ Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli
 Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities
 Authors: Maximilian Awiszus, Jan Niehues, Marco Turchi, Sebastian Stüker and Alex Waibel
 
-Oral session B:
+# Oral session B:
 
 Recent Highlights in Multilingual and Multimodal Speech Translation
 Authors: Danni Liu and Jan Niehues
@@ -50,7 +50,7 @@ Authors: Danni Liu and Jan Niehues
 Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data
 Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
 
-Oral session C:
+# Oral session C:
 
 Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems
 Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
@@ -69,15 +69,7 @@ Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluat
 Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters
 Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
 
-
-Poster session I (system papers)
-
-System papers: low-resource and indic tracks (13 papers)
-
-
-Poster session II (system papers + 2 findings papers) 
-
-Findings papers:
+# Findings papers presented in Poster Session II
 
 Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation, https://arxiv.org/abs/2406.02733 (Findings of ACL 2024)
 
