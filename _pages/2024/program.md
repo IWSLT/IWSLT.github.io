@@ -49,54 +49,57 @@ offline & dubbing tracks
 
 # Oral session A:
 
-FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE
+_FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
 
 Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli 
 
-Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities
+_Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities_
 
 Authors: Maximilian Awiszus, Jan Niehues, Marco Turchi, Sebastian Stüker and Alex Waibel
 
 # Oral session B:
 
-Recent Highlights in Multilingual and Multimodal Speech Translation
+_Recent Highlights in Multilingual and Multimodal Speech Translation_
 
 Authors: Danni Liu and Jan Niehues
 
-Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data
+_Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data_
 
 Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
 
 # Oral session C:
 
-Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems
+_Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
 
 Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
 
-Conditioning LLMs with Emotion in Neural Machine Translation
+_Conditioning LLMs with Emotion in Neural Machine Translation_
 
 Authors:  Charles Brazier and Jean-Luc Rouas
 
-Compact Speech Translation Models via Discrete Speech Units Pretraining
+_Compact Speech Translation Models via Discrete Speech Units Pretraining_
 
 Authors:  Tsz Kin Lam, Alexandra Birch and Barry Haddow
 
-Speech Data from Radio Broadcasts for Low Resource Languages
+_Speech Data from Radio Broadcasts for Low Resource Languages_
 
 Authors:  Bismarck Bamfo Odoom, Leibny Paola Garcia Perera, Prangthip Hansanti, Loic Barrault, Christophe Ropers, Matthew Wiesner, Kenton Murray, Alexandre Mourachko and Philipp Koehn
 
-Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation
+_Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation_
 
 Authors: Kosuke Doi, Yuka Ko, Mana Makinae, Katsuhito Sudoh and Satoshi Nakamura
 
-Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters
+_Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
 
 Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
 
 # ACL Findings papers presented in Poster Session II
 
-Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation, https://arxiv.org/abs/2406.02733 (Findings of ACL 2024)
+_Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation_ 
+
+https://arxiv.org/abs/2406.02733 (Findings of ACL 2024)
 
 
-Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation
+_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_
+
 https://aclanthology.org/2023.findings-acl.816.pdf (Findings of ACL 2023)
