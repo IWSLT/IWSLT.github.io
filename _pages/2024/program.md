@@ -8,9 +8,13 @@ toc_sticky: true
 ## DAY 1: August 15 2024
 
 09:00–09:15	Welcome remarks
+
 09:15–10:30	Findings of the IWSLT 2024 Evaluation Campaign 
+
 10:30–11:00	Coffee break
+
 11:00–12:00 Findings of the IWSLT 2024 Evaluation Campaign
+
 12:00-12:30	Oral session A: Test suite papers
 
 12:30–14:00	Lunch
