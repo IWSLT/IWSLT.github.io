@@ -89,7 +89,7 @@ offline & dubbing tracks
 - [2] [_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_](https://aclanthology.org/2023.findings-acl.816.pdf)
   - Authors: Matthew Raffel and Lizhong Chen
 
-### System papers presented at the Poster Sessions I and II 
+### System papers presented in Poster Sessions I and II 
 
 **Papers covering multiple shared tasks can be presented with multiple posters**
 
