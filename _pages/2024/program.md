@@ -70,17 +70,17 @@ offline & dubbing tracks
 
 ### Oral session C:
 
-1. _Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
+- _Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
   - Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
-3. _Conditioning LLMs with Emotion in Neural Machine Translation_
+- _Conditioning LLMs with Emotion in Neural Machine Translation_
   - Authors:  Charles Brazier and Jean-Luc Rouas
-3. _Compact Speech Translation Models via Discrete Speech Units Pretraining_
+- _Compact Speech Translation Models via Discrete Speech Units Pretraining_
   - Authors:  Tsz Kin Lam, Alexandra Birch and Barry Haddow
-4. _Speech Data from Radio Broadcasts for Low Resource Languages_
+- _Speech Data from Radio Broadcasts for Low Resource Languages_
   - Authors:  Bismarck Bamfo Odoom, Leibny Paola Garcia Perera, Prangthip Hansanti, Loic Barrault, Christophe Ropers, Matthew Wiesner, Kenton Murray, Alexandre Mourachko and Philipp Koehn
-5. _Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation_
+- _Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation_
   - Authors: Kosuke Doi, Yuka Ko, Mana Makinae, Katsuhito Sudoh and Satoshi Nakamura
-6. _Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
+- _Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
    - Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
 
 ### ACL Findings papers presented in Poster Session II
