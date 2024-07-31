@@ -55,9 +55,9 @@ offline & dubbing tracks
 
 ### Oral session A:
 
-_ [1] _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
+_  _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
   - Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli 
-- [2] _Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities_
+- _Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities_
   - Authors: Maximilian Awiszus, Jan Niehues, Marco Turchi, Sebastian Stüker and Alex Waibel
 
 ### Oral session B:
