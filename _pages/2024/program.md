@@ -53,12 +53,11 @@ offline & dubbing tracks
 **Oral sessions:** Scientific papers, test suited and highlight will be presented in threee oral sessions. Each paper is allotted a slot of 15 minutes, including 2-3 minutes for questions. Speakers attending virtually will be able to present through the Underline platform. 
 
 
-
 ### Oral session A:
 
-- _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
+-1 _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
   - Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli 
-- _Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities_
+-2 _Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities_
   - Authors: Maximilian Awiszus, Jan Niehues, Marco Turchi, Sebastian Stüker and Alex Waibel
 
 ### Oral session B:
