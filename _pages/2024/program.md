@@ -55,8 +55,8 @@ offline & dubbing tracks
 
 ### Oral session A:
 
-_ [1] _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
-  - Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli 
+- [1] _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
+  - Authors: Beatrice Savoldi, Marco Gaido, Matteo Negri and Luisa Bentivogli
 - [2] _Charles Locock, Lowcock or Lockhart? Offline Speech Translation: Test Suite for Named Entities_
   - Authors: Maximilian Awiszus, Jan Niehues, Marco Turchi, Sebastian Stüker and Alex Waibel
 
@@ -69,17 +69,17 @@ _ [1] _FBK@IWSLT Test Suites Task: Gender Bias evaluation with MuST-SHE_
 
 ### Oral session C:
 
-- _Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
+- [1] _Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
   - Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
-- _Conditioning LLMs with Emotion in Neural Machine Translation_
+- [2] _Conditioning LLMs with Emotion in Neural Machine Translation_
   - Authors:  Charles Brazier and Jean-Luc Rouas
-- _Compact Speech Translation Models via Discrete Speech Units Pretraining_
+- [3] _Compact Speech Translation Models via Discrete Speech Units Pretraining_
   - Authors:  Tsz Kin Lam, Alexandra Birch and Barry Haddow
-- _Speech Data from Radio Broadcasts for Low Resource Languages_
+- [4] _Speech Data from Radio Broadcasts for Low Resource Languages_
   - Authors:  Bismarck Bamfo Odoom, Leibny Paola Garcia Perera, Prangthip Hansanti, Loic Barrault, Christophe Ropers, Matthew Wiesner, Kenton Murray, Alexandre Mourachko and Philipp Koehn
-- _Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation_
+- [5] _Word Order in English-Japanese Simultaneous Interpretation: Analyses and Evaluation using Chunk-wise Monotonic Translation_
   - Authors: Kosuke Doi, Yuka Ko, Mana Makinae, Katsuhito Sudoh and Satoshi Nakamura
-- _Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
+- [6] _Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
    - Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
 
 ### ACL Findings papers presented in Poster Session II
