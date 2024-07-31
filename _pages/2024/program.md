@@ -40,11 +40,13 @@ offline & dubbing tracks
 
 12:30–14:00	_Lunch break_
 
-14:00–15:30 Planning Session for 2025
+14:00–15:15 Planning Session for 2025
+
+15:15–16:30	Closing remarks
 
 15:30–16:00	_Coffee break_
 
-16:00–16:15	Closing remarks
+16:00		End of conference
 
 ## Important Notes
 
