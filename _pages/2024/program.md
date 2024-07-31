@@ -48,8 +48,8 @@ offline & dubbing tracks
 
 ## Notes
 
-System papers will be presented in two poster sessions arranged by shared tasks. Papers covering multiple tasks can be presented as distinct posters. Poster format is A0. Poster format is A0. Printing service is available on site. Authors with a virtual registration who are unable to present their poster in person can provide a link to a video of max 15min with their presentation via this [google doc[(https://docs.google.com/document/d/1o6wkXFcuADd9oPuw_zH_1KJ1mG9Ds3xGxgXZDotA1uU/edit#heading=h.vwtpu5gd8zji). The page will be editable until August 10 and videos will be linked on the IWSLT program through the end of the IWSLT conference.
-Scientific papers, test suited and highlight will be presented in threee oral sessions. Each paper is allotted a slot of 15 minutes, including 2-3 minutes for questions.   
+System papers will be presented in two poster sessions arranged by shared tasks. Papers covering multiple tasks can be presented as distinct posters. Poster format is A0. Printing service is available [on site](https://2024.aclweb.org/participants/printing/). Authors with a virtual registration who are unable to present their poster in person can provide a link to a video of max 15min with their presentation via this [google doc[(https://docs.google.com/document/d/1o6wkXFcuADd9oPuw_zH_1KJ1mG9Ds3xGxgXZDotA1uU/edit#heading=h.vwtpu5gd8zji). The page will be editable until August 10 and videos will be linked on the IWSLT program through the end of the IWSLT conference.
+Scientific papers, test suited and highlight will be presented in threee oral sessions. Each paper is allotted a slot of 15 minutes, including 2-3 minutes for questions. Speakers attending virtually will be able to present through the Underline platform. 
 
 
 
