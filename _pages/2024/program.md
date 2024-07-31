@@ -81,4 +81,4 @@ offline & dubbing tracks
 - [_Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation_](https://arxiv.org/abs/2406.02733)
   -  Authors: Min-Jae Hwang, Ilia Kulikov, Benjamin Peloquin, Hongyu Gong, Peng-Jen Chen and Ann Lee
 - [_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_](https://aclanthology.org/2023.findings-acl.816.pdf)
-  - Matthew Raffel and Lizhong Chen
+  - Authors: Matthew Raffel and Lizhong Chen
