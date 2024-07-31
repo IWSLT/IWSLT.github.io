@@ -64,9 +64,9 @@ offline & dubbing tracks
 ### Oral session B:
 
 - _Recent Highlights in Multilingual and Multimodal Speech Translation_
-   Authors: Danni Liu and Jan Niehues
+  - Authors: Danni Liu and Jan Niehues
 - _Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data_
-  Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
+  - Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
 
 ### Oral session C:
 
