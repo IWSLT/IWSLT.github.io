@@ -64,16 +64,16 @@ offline & dubbing tracks
 ### Oral session B:
 
 - _Recent Highlights in Multilingual and Multimodal Speech Translation_
-  - Authors: Danni Liu and Jan Niehues
+   Authors: Danni Liu and Jan Niehues
 - _Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data_
-  - Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
+  Authors:  Minato Kondo, Takehito Utsuro and Masaaki Nagata
 
 ### Oral session C:
 
 1. _Transforming LLMs into Cross-modal and Cross-lingual Retrieval Systems_
-  - Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
-2. _Conditioning LLMs with Emotion in Neural Machine Translation_
-  - Authors:  Charles Brazier and Jean-Luc Rouas
+    Authors:  Frank Palma Gomez, Ramon Sanabria, Yun-hsuan Sung, Daniel Cer, Siddharth Dalmia and Gustavo Hernandez Abrego
+3. _Conditioning LLMs with Emotion in Neural Machine Translation_
+    Authors:  Charles Brazier and Jean-Luc Rouas
 3. _Compact Speech Translation Models via Discrete Speech Units Pretraining_
   - Authors:  Tsz Kin Lam, Alexandra Birch and Barry Haddow
 4. _Speech Data from Radio Broadcasts for Low Resource Languages_
