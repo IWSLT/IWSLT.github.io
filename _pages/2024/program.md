@@ -83,7 +83,10 @@ offline & dubbing tracks
 - [_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_](https://aclanthology.org/2023.findings-acl.816.pdf)
   - Authors: Matthew Raffel and Lizhong Chen
 
-### System papers presented at the Poster Sessions I and II (papers covering multiple shared tasks can be presented with multiple posters)
+### System papers presented at the Poster Sessions I and II 
+
+**Papers covering multiple shared tasks can be presented with multiple posters**
+
 - _Pause-Aware Automatic Dubbing using LLM and Voice Cloning_
   - Authors: Yuang Li, Jiaxin Guo, Min Zhang, Ma Miaomiao, Zhiqiang Rao, Weidong Zhang, Xianghui He, Daimeng Wei, Hao Yang
 - _NICT's Cascaded and End-To-End Speech Translation Systems using Whisper and IndicTrans2 for the Indic Task_
