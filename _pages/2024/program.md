@@ -46,7 +46,7 @@ offline & dubbing tracks
 
 16:00–16:15	Closing remarks
 
-## Notes
+## Important Notes
 
 **Poster sessions:**  System papers will be presented in two poster sessions arranged by shared tasks. Papers covering multiple tasks can be presented as distinct posters. Poster format is A0. Printing service is available [on site](https://2024.aclweb.org/participants/printing/). Authors with a virtual registration who are unable to present their poster in person can provide a link to a video of max 15min with their presentation via this [google doc](https://docs.google.com/document/d/1o6wkXFcuADd9oPuw_zH_1KJ1mG9Ds3xGxgXZDotA1uU/edit#heading=h.vwtpu5gd8zji). The page will be editable until August 10 and videos will be linked on the IWSLT program through the end of the IWSLT conference.
 
