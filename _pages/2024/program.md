@@ -15,15 +15,15 @@ toc_sticky: true
 
 11:00–12:00 Findings of the IWSLT 2024 Evaluation Campaign
 
-12:00-12:30	Oral session A: Test suite papers
+12:00-12:30	Oral Session A: Test suite papers
 
 12:30–14:00	_Lunch break_
 
-14:00–15:30	Poster session I: System papers for low resource & indic tracks 
+14:00–15:30	Poster Session I: System papers for low resource & indic tracks 
 
 15:30–16:00	_Coffee break_
 
-16:00–16:30 Oral session B: Scientific papers
+16:00–16:30 Oral Session B: Scientific papers
 
 16:30–17:30	Panel discussion
 
@@ -31,22 +31,25 @@ toc_sticky: true
 
 ## DAY 2: August 16 2024
 
-09:00–10:30 Oral session C: Scientific papers
+09:00–10:30 Oral Session C: Scientific papers
 
 10:20–11:00	_Coffee break_
 
-11:00–12:30	Poster session II: Finding papers and system papers for speech-to-speech, simultaneous, subtitling, 
+11:00–12:30	Poster Session II: Findings papers and system papers for speech-to-speech, simultaneous, subtitling, 
 offline & dubbing tracks 
 
 12:30–14:00	_Lunch break_
 
-14:00–15:15 Planning Session for 2025
+14:00–14:15 Oral Session D: Findings papers
 
-15:15–16:30	Closing remarks
+14:15–15:30 Planning Session for 2025
 
 15:30–16:00	_Coffee break_
 
-16:00		End of conference
+16:00-16:15	Closing remarks
+
+16:15		End of conference
+
 
 ## Important Notes
 
@@ -84,11 +87,11 @@ offline & dubbing tracks
 - [6] _Fixed and Adaptive Simultaneous Machine Translation Strategies Using Adapters_
    - Authors:  Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes and Gerasimos Spanakis
 
-### ACL Findings papers presented in Poster Session II
+### ACL Findings papers presented at IWSLT:
 
-- [1] [_Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation_](https://arxiv.org/abs/2406.02733)
+- [Oral Session D] [_Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation_](https://arxiv.org/abs/2406.02733)
   -  Authors: Min-Jae Hwang, Ilia Kulikov, Benjamin Peloquin, Hongyu Gong, Peng-Jen Chen and Ann Lee
-- [2] [_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_](https://aclanthology.org/2023.findings-acl.816.pdf)
+- [Poster Session II] [_Implicit Memory Transformer for Computationally Efficient Simultaneous Speech Translation_](https://aclanthology.org/2023.findings-acl.816.pdf)
   - Authors: Matthew Raffel and Lizhong Chen
 
 ### System papers presented in Poster Sessions I and II 
