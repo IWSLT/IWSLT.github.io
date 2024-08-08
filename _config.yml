@@ -69,7 +69,7 @@ footer:
       icon: "https://www.aclweb.org/portal/sites/default/themes/acl_common/images/logo.png"
       url: "https://www.aclweb.org"
     - label: "ISCA"
-      icon: "https://www.isca-speech.org/iscaweb/images/files/isca/ISCA_logo_diamond.gif"
+      icon: "https://iwslt.org/assets/images/ISCA_logo_diamond.png"
       url: "https://www.isca-speech.org"
     - label: "ELRA"
       icon: "https://www.clarin.eu/sites/default/files/ELRA-logo_0.png"
