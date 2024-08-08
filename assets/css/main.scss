@@ -7,11 +7,11 @@
 /* variables definitions go above import statements, css etc goes below */
 
 $background-color: #fff !default;
-$link-color: #2f7d95 !default;
+$link-color: teal !default;
 $text-color: #3d4144 !default;
 $link-color-visited: $link-color !default;
 
-$masthead-link-color: #517A88 !default;
+$masthead-link-color: teal !default;
 $masthead-link-color-hover: $link-color !default;
 $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 
@@ -83,7 +83,7 @@ a {
 
 .greedy-nav a.site-title {
     font-weight: bold;
-    color: $text-color;
+    color: black;
 }
 
 .greedy-nav a {
@@ -191,4 +191,20 @@ img {
 .toc__menu li ul li ul > li a {
     padding-left: 1.75rem;
     color: #517a88a6;
+}
+
+.masthead {
+    background: linear-gradient(to right, #009688 0%, #F9F0B7 70%);
+    border-bottom: 1px solid #009688;
+}
+
+.greedy-nav {
+    background: none;
+}
+
+#index-img {
+    max-height: none;
+    max-width: none;
+    margin-top: 10px;
+    width: 100%;
 }
