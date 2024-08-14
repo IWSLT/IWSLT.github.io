@@ -31,7 +31,7 @@ Its purpose is to promote interest in the research area of spoken language trans
   * Joseph Mariani, CNRS-LISN, France 
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
   * Hermann Ney, RWTH, Germany
-  * Jan Niehues, Mastricht U., Netherlands
+  * Jan Niehues, KIT, Germany
   * Juan Pino, Meta, USA
   * Elizabeth Salesky, JHU, USA
   * Mark Seligman, Spoken Translation Inc., USA
