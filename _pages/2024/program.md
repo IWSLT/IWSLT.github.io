@@ -19,11 +19,11 @@ toc_sticky: true
 
 12:30–14:00	_Lunch break_
 
+14:00–14:30 Oral Session B: Scientific papers
+
 14:30–16:00	Poster Session I: System papers for low resource & indic tracks 
 
 15:30–16:00	_Coffee break_
-
-14:00–14:30 Oral Session B: Scientific papers
 
 16:30–17:30	Panel discussion
 
