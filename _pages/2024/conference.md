@@ -15,7 +15,7 @@ The 21st edition of IWSLT will be run as an ACL and ELRA sponsored event, co-loc
 
 ## Program
 
-[Tentative Program](/2024/program)
+[Program](/2024/program)
 
 
 
