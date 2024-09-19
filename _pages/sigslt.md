@@ -40,7 +40,7 @@ Its purpose is to promote interest in the research area of spoken language trans
   * François Yvon, CNRS, France
   * Chengqing Zong, NLPR CAS, China
 
-### Former Steering Committee and Officers
+### Former Steering Committee Members
 * Will Lewis, University of Washington, USA 
 * Marta R. Costa-jussà, Meta, Spain
 * Laurent Besacier, Naver Labs Europe, France 
