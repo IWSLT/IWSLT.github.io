@@ -23,10 +23,7 @@ Its purpose is to promote interest in the research area of spoken language trans
 
 ### Steering Committee and Officers
 
-  <!--- * Laurent Besacier, Naver Labs Europe, France --->
-  <!--- * Marta R. Costa-jussà, Meta, Spain --->
   * Marcello Federico, Amazon, USA (*ACL SIGSLT, President*) 
- <!--- * Will Lewis, University of Washington, USA --->
   * Chi Mai Luong, IOIT, Vietnam
   * Joseph Mariani, CNRS-LISN, France 
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
@@ -37,10 +34,15 @@ Its purpose is to promote interest in the research area of spoken language trans
   * Mark Seligman, Spoken Translation Inc., USA
   * Katsuhito Sudoh, NAIST, Japan
   * Sebastian Stüker, Zoom, Germany (*ELRA SIGSLT, President*)
-  * Marco Turchi, FBK, Italy 
+  * Marco Turchi, Zoom, Italy 
   * Alex Waibel, CMU, USA (*Chair*)
   * Shinji Watanabe, CMU, USA
-<!---  * Dekai Wu, HKUST Hong Kong, China --->
   * François Yvon, CNRS, France
   * Chengqing Zong, NLPR CAS, China
+
+### Former Steering Committee and Officers
+* Will Lewis, University of Washington, USA 
+* Marta R. Costa-jussà, Meta, Spain
+* Laurent Besacier, Naver Labs Europe, France 
+* Dekai Wu, HKUST Hong Kong, China  
 
