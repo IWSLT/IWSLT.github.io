@@ -11,7 +11,7 @@ $link-color: teal !default;
 $text-color: #3d4144 !default;
 $link-color-visited: $link-color !default;
 
-$masthead-link-color: teal !default;
+$masthead-link-color: black !default;
 $masthead-link-color-hover: $link-color !default;
 $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 
@@ -194,7 +194,7 @@ img {
 }
 
 .masthead {
-    background: linear-gradient(to right, #009688 0%, #F9F0B7 70%);
+    background: #009688;
     border-bottom: 1px solid #009688;
 }
 
