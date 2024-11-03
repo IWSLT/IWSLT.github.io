@@ -85,6 +85,6 @@ Please visit the [paper submission](/2024/paper-submission) page for further inf
 
 
 ## Sponsorship Opportunities
-IWSLT welcomes [sponsorships](/2024/sponsor_info)!
+IWSLT welcomes [sponsorships](/2024/sponsors)!
 
 
