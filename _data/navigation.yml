@@ -1,12 +1,12 @@
 main:
-  - title: "2024"
-    url: /2024/
+  - title: "2025"
+    url: /2025/
   - title: "Shared Tasks"
-    url: /2024/#shared-tasks
+    url: /2025/#shared-tasks
   - title: "Important Dates"
-    url: /2024/#important-dates
+    url: /2025/#important-dates
   - title: "Sponsors"
-    url: /sponsors/
+    url: /2025/sponsors/
   - title: "Past Editions"
     url: /past-editions/
   - title: "Lectures"
