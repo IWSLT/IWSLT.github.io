@@ -80,7 +80,7 @@ The email should also include the following information:
 * Brief abstract about the system:
 * Do you want to make your submissions freely available for research purposes? (yes/no)
 
-### 🔵 🆕 SUBTITLE COMPRESSION 🔵
+### 🔵 SUBTITLE COMPRESSION 🔵
 
 * Submission files have to be stored as SRT (SubRip File Format) UTF-8 encoded files as the original input.
   * __ONLY CHANGES REGARDING THE TEXTUAL CONTENT ARE ADMITTED, THE TIMESTAMP OF THE SUBTITLES CAN NOT BE CHANGED!__
@@ -139,7 +139,7 @@ We adopt the following metrics, where limits of acceptability for the conformity
   
 Scoring will be case-sensitive and will include the punctuation.
 
-### 🔵 🆕 SUBTITLE COMPRESSION 🔵
+### 🔵 SUBTITLE COMPRESSION 🔵
 
 For the subtitle compression sub-track, the following metrics will be used:
 * **CPS**: the percentage of subtitles not exceeding 21 characters per second, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607));
