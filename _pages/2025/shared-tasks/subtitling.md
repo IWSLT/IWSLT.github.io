@@ -23,8 +23,8 @@ As in 2024, we propose two sub-tracks:
 * **subtitle compression**: participants are asked to rephrase subtitles that are non-compliant with the reading speed constraint (at most 21 characters / second) to make them compliant
 
 and two language directions:
-* 🆕 English -> Arabic
-* English -> German
+* 🆕 English &rarr; Arabic
+* English &rarr; German
 
 ## Training and Data Conditions
 
