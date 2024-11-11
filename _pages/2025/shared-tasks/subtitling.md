@@ -31,7 +31,7 @@ and two language directions:
 <!-- Details description of the data and links to download -->
 Data will be released in January.
 
-### 🔵 🆕 SUBTITLE COMPRESSION 🔵
+### 🔵 SUBTITLE COMPRESSION 🔵
 <!-- Details description of the data and links to download -->
 Data will be released in January.
 
