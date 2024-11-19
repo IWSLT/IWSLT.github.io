@@ -29,7 +29,7 @@ It will be run as a hybrid event.
 - [Low-resource track](/2025/low-resource)
 - [Indic (multilingual) tracks](/2025/indic)
 
-**Multi-task speech processing**
+**Instruction-Following Speech Processing**
 - [Technical domain ST, ASR, Summarization, and QA](/2025/multi-task)
 
 
