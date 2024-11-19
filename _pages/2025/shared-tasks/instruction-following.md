@@ -1,6 +1,6 @@
 ---
-permalink: /2025/multi-task
-title: "Multi-task track"
+permalink: /2025/instruction-following
+title: "Instruction-following Speech Processing track"
 toc: true
 toc_sticky: true
 ---
