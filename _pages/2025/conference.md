@@ -30,7 +30,7 @@ It will be run as a hybrid event.
 - [Indic (multilingual) tracks](/2025/indic)
 
 **Instruction-Following Speech Processing**
-- [Technical domain ST, ASR, Summarization, and QA](/2025/multi-task)
+- [Technical domain ST, ASR, Summarization, and QA](/2025/instruction-following)
 
 
 All tasks will follow the same schedule [(below)](#important-dates).
