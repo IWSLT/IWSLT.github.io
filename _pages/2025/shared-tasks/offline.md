@@ -21,7 +21,7 @@ The advent of large language models (LLMs) offers unprecedented opportunities to
 The goal of the **Offline Speech Translation Task** at IWSLT, the one with the longest-standing tradition at the conference, is to provide a stable evaluation framework for tracking technological advancements in SLT, with a focus on unconstrained speech translation—free from the temporal and structural constraints imposed by tasks such as simultaneous translation or subtitling. To this end, while maintaining the overall task formulation is essential, over the years the emphasis has shifted towards incrementally raising the task's difficulty to better reflect real-world needs, including the translation of new and diverse languages, domains, and speaking styles.
 
 In this spirit, this year's edition aims to: 
-* include a new and challenging language, Arabic (the full list will be made available soon); 
+* include a new and challenging language, Arabic (the full list of the new language directions will be made available soon); 
 * offer a varied scenario in terms of domains (news, physical training sessions, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
 * promote the development and use of flexible systems capable of operating in this multi-domain scenario, without resorting to ad-hoc, domain-specialized models. 
 
@@ -83,6 +83,8 @@ Add the part on the additional test sets. Deadline 1st of March -> only the audi
 
 ## Past Editions Development Data
 
+* [IWST.OfflineTask](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask)
+
 The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. However, the participants might also use a different segmentation. The data is provided as an archive with the following files ($set e.g. IWSLT.TED.dev2010):
   * $set.en-de.en.xml: Reference transcript (will not be provided for evaluation data)
   * $set.en-de.en.xml: Reference translation (will not be provided for evaluation data)
@@ -92,9 +94,7 @@ The development data is not segmented using the reference transcript. The archiv
   * $set.h5: This file contains the 40-dimensional Filterbank features for each sentence-like segment of the test data created by XNMT.
   * The last two files are created by the following command:
 python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramidal-preproc.yaml
-
-**Development data:**
-  * [IWST.OfflineTask](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask)
+  
 
 ## Training Data and Data Conditions
 
