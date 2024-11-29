@@ -37,13 +37,15 @@ Participants are asked to build a model capable to perform the following tasks:
 ### Languages
 English for ASR and S2TSUM, and English -> German, Italian, Chinese for S2TT and SQA.
 
-**IMPORTANT!** The results can be submitted for some or all language directions.{: .notice--info}
+**IMPORTANT!** The results can be submitted for some or all language directions.
+{: .notice--info}
 
 ## Data Conditions
 
 We adopt two conditions. The first is *constrained*, where a pre-defined training setting is adopted, and only a specified pre-trained SFM and LLM architecture can be used. The second is *unconstrained*, with no limitation on pre-trained models and training data.
 
-**IMPORTANT!** The use of the pre-trained SFM and/or LLM is *NOT* mandatory and we also accept submissions with models trained from scratch on the allowed data as well as solutions using only one of the two pre-trained models (either SFM or LLM).{: .notice--info}
+**IMPORTANT!** The use of the pre-trained SFM and/or LLM is *NOT* mandatory and we also accept submissions with models trained from scratch on the allowed data as well as solutions using only one of the two pre-trained models (either SFM or LLM).
+{: .notice--info}
 
 Conditions:
 * **Constrained**: Data and models will be provided soon;
