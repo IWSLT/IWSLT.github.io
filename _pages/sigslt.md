@@ -23,12 +23,14 @@ Its purpose is to promote interest in the research area of spoken language trans
 
 ### Steering Committee and Officers
 
-  * Marcello Federico, Amazon, USA (*ACL SIGSLT, President*) 
+  * Marine Carpuat, University of Maryland, USA
+  * Marcello Federico, Amazon, Spain (*ACL SIGSLT, President*) 
   * Chi Mai Luong, IOIT, Vietnam
   * Joseph Mariani, CNRS-LISN, France 
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
   * Hermann Ney, RWTH, Germany
   * Jan Niehues, KIT, Germany
+  * Atul Kr. Ojha, University of Galway, Ireland
   * Juan Pino, Meta, USA
   * Elizabeth Salesky, JHU, USA
   * Mark Seligman, Spoken Translation Inc., USA
