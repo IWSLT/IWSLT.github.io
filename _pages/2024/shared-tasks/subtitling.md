@@ -82,8 +82,16 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
 * [Peloton](https://www.onepeloton.com/) is a US company that offers fitness training equipment as well as on-line fitness classes which are provided with subtitles in different languages. Peloton is interested in research related to the use of automated subtitling technology in their translation workflows. We would like to thank Peloton for providing IWSLT with samples of their videos for research and evaluation purposes and would like to ask you not to use these videos or subtitles for any commercial purposes or make them publicly available on any other website.  
 
-  * As a **dev** set, 9 recordings of fitness training videos (mostly single-speaker - the fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESITGO_X_S1QhmBxE7ZkLuABq4O8fFD_iOIa7TKIqUV88w?e=cIvER3). **Note**: the **English** SRT files are **not** properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
-  * The **test** set 2024, consisting of 4 video recordings, can be found in this [archive](https://fbk.sharepoint.com/:u:/s/MTUnit/ETj6LtxpsuRJnWS4yRIWhIUBZXzQoZF20pOeuAmm3vijLg?e=az9hQz), which also includes the test set 2023, released for measuring progresses over years.
+  * As a **dev** set, 9 recordings of fitness training videos (mostly single-speaker - the fitness instructor) and corresponding subtitles (in English, German and Spanish) for a total duration of about 4 hours
+were released but they are no longer available due to copyright reasons.
+<!--
+can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESITGO_X_S1QhmBxE7ZkLuABq4O8fFD_iOIa7TKIqUV88w?e=cIvER3). --> 
+**Note**: the **English** SRT files are **not** properly segmented according to the usual subtitle and line segmentation guidelines and are provided for informational purposes only. The German and Spanish SRT files are the ones created by professional subtitle translators.
+  * The **test** set 2024, consisting of 4 video recordings,
+was released together with the test set 2023 (for measuring progresses over years) but they are no longer available due to copyright reasons.
+ <!--
+can be found in this [archive](https://fbk.sharepoint.com/:u:/s/MTUnit/ETj6LtxpsuRJnWS4yRIWhIUBZXzQoZF20pOeuAmm3vijLg?e=az9hQz), which also includes the test set 2023, released for measuring progresses over years.
+-->
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK’s largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or to make them publicly available on any other website. 
 
