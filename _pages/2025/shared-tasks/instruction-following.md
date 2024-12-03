@@ -36,6 +36,7 @@ Participants are asked to build a model capable to perform, depending on the tra
 * **TRACK LONG** (input: long-form audio): 
     * **Automatic Speech Recognition (ASR)**: the speech is transcribed into the same language;
     * **Speech-to-text Translation (S2TT)**: the speech is translated into the target language;
+    * **Spoken Question Answering (SQA)**: textual questions have to be answered based on the spoken content in the same language and in a language different from the speech (questions and answers are always in the same language);
     * **Speech-to-text Summarization (S2TSUM)**: a summary has to be provided from the spoken content in the same language and in a language different from the speech.
 All tasks listed for each track are mandatory.
 
