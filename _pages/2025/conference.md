@@ -51,13 +51,19 @@ Please join the [IWSLT Evaluation Campaign google group](https://groups.google.c
 The submission portal will open in early 2025.
 {: .notice--info}
 
-- IWSLT welcomes scientific research papers and evaluation campaign system description papers. 
+IWSLT invites submissions of **scientific papers** to be **published** in the ACL Proceedings and presented either in oral or poster format. The conference selects high-quality, original contributions on theoretical and practical issues of spoken language translation research, technologies and applications. Submissions will be accepted directly through the IWSLT submission site. We also accept commitments of fully-reviewed papers from  ACL Rolling Review (_commitment deadline to come_). 
+
+Shared task participants also have the opportunity to publish and present their work through a **system description paper** that will be published in the ACL Proceedings and presented at the conference. Papers should be submitted for review directly through the IWSLT submission site. 
+ 
+Additionally, to foster cross-pollination of ideas and further community discussion, the conference also invites the **presentation** of papers on speech translation recently published elsewhere. Please note that this is for non-archival presentation of papers relevant to speech translation already published in other venues (e.g., ACL 2025 Findings papers, or other speech, NLP, or MT conferences). Submissions for this category will be accepted through a dedicated form (_to be linked here in spring 2025_). Papers will be checked for relevance to IWSLT, and assigned either oral or poster presentation slots if selected.
+
+### Submission requirements
 - All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
 - Upon acceptance, all papers will be given one (1) additional content page to address reviewers' comments. 
 - Accepted papers will be published in the ACL Anthology and will be presented at the IWSLT conference either orally or as a poster.
 - Scientific papers must be anonymized for submission, while system description papers do not need to be.
 - We accept submissions which have previously been made available as technical reports or preprints, e.g. on arXiv.
-- We will not accept scientific papers for publication that overlap significantly in content or results with papers published elsewhere.
+- We will not accept scientific papers for publication that overlap significantly in content or results with papers published elsewhere (though these may be _presented_ at the conference as described above)
 - Scientific papers which have been, or plan to be, submitted to other venues must be declared as such at the time of submission, and must be withdrawn from the other venues if accepted and published at IWSLT 2025.
 - Scientific papers whose first author is a student will be eligible for the IWSLT 2025 Best Student Paper Award (authors should note eligibility in the paper submission form).
 - Limitations and Ethics Statement sections (see [the ACL call for papers for more details](https://2025.aclweb.org/calls/main_conference_papers/)) are encouraged but not required. If included, they should be placed after the conclusion for submission and will not count against the page limit. 
