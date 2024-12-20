@@ -24,6 +24,7 @@ It will be run as a hybrid event.
 - [Offline track](/2025/offline)
 - [Simultaneous track](/2025/simultaneous)
 - [Subtitling track](/2025/subtitling)
+- [Model compression track](/2025/model-compression)
 
 **Low-resource ST**
 - [Low-resource track](/2025/low-resource)
