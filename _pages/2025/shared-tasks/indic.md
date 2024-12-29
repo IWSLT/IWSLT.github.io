@@ -41,12 +41,12 @@ Data will be released in January.
 
 
 ## Organizers
-
+Chandresh
 <!-- List of organizers' names and affiliations -->
 
 
 ## Contact
-
+chandresh@iiti.ac.in
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 Chair(s):   
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
