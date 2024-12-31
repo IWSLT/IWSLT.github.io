@@ -25,25 +25,23 @@ The aim of this Indic-track shared task is to establish a speech translation mod
 
 The ST task data for the Indic-track will encompass three Indian languages representing diverse language families. The languages included in this shared task are Hindi (hi), Bengali (bn), and Tamil (ta), originating from the Indo-Aryan and Dravidian language families. The dataset will include speeches and texts (transcriptions) in English (source language) and texts (translations) in Hindi, Bengali, and Tamil (target languages).
 
-The data for this Indic-track shared task comprises a Speech-to-Text (ST) corpus that includes 3 low-resource Indian languages. Table 1 illustrates the consistency maintained across all corpora, with an equal number of lines in their .en, .lang, and .yaml files. However, due to inherent linguistic differences, the number of tokens in the .en and .lang files varies. The count of audio files corresponds to the number of distinct talks, each delivered by an individual speaker. Additionally, the speech hours indicate the cumulative duration of speech in a given language. Each of these parameters is meticulously categorized into test, train, and valid subsets, establishing a comprehensive and structured dataset.
+The data for this Indic-track shared task comprises a Speech-to-Text (ST) corpus that includes 3 low-resource Indian languages. Consistency is maintained across all corpora, with an equal number of lines in their .en, .lang, and .yaml files. However, due to inherent linguistic differences, the number of tokens in the .en and .lang files varies. The count of audio files corresponds to the number of distinct talks, each delivered by an individual speaker. Additionally, the speech hours indicate the cumulative duration of speech in a given language. Each of these parameters is meticulously categorized into test, train, and valid subsets, establishing a comprehensive and structured dataset.
 
 <!-- Details description of the data and links to download -->
 
-**English to Hindi** (en-> hi) 
+**English to Hindi and Hindi to English** (en <-> hi) 
 
-Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations). The speech of English language is 95.7 hours and the texts for Hindi language is 37K lines. The baseline for English to Hindi speech translation is a BLEU score of 5.23.
-
-
-
-**English to Bengali** (en-> bn) 
-
-Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). The speech of English language is 16.44 hours and the texts for Bengali language is 6.9K lines. The baseline for English to Bengali speech translation is a BLEU score of 5.86.
+Hindi is the third most spoken language in the world, with 615 million speakers. It belongs to Indo-Aryan language family, mainly spoken in India. It is also the official language of India, written in Devnagiri script. The data contains English speech, English texts (transcripts), and Hindi texts (translations).
 
 
+**English to Bengali and Bengali to English** (en <-> bn) 
 
-**English to Tamil** (en-> ta)  
+Bengali is the 7th most spoken language in the world, with 228 million speakers. It belongs to Indo-Aryan language family, spoken in Bengal region of South-Asia. It is also the official language of Bangladesh, written in Bengali-Assamese script. The data contains English speech, English texts (transcripts), and Bengali texts (translations). 
 
-Tamil is one of the classical languages of India, spoken by 90.8 million speakers. It belongs to Dravidian language family, spoken by Tamil people of South-Asia. It is the official language of Tamil Nadu state of India, written in Brahmi script. The data contains English speech, English texts (transcripts), and Tamil texts (translations). The speech of English language is 22.15 hours and the texts for Tamil language is 8K lines. The baseline for English to Tamil speech translation is a BLEU score of 1.9.  
+
+**English to Tamil and Tamil to English** (en <-> ta)  
+
+Tamil is one of the classical languages of India, spoken by 90.8 million speakers. It belongs to Dravidian language family, spoken by Tamil people of South-Asia. It is the official language of Tamil Nadu state of India, written in Brahmi script. The data contains English speech, English texts (transcripts), and Tamil texts (translations). 
 
 **To Download the Datasets, please fill this form: [Google Form](https://forms.gle/8HcBqJXGvepYvgdr9)**
 
@@ -101,7 +99,7 @@ where:
 
 `<TeamID>` is the Team ID used at the time of filling google form for downloading datasets.
 
-`<LangPair>` denotes language pair, example: **'en-hi', 'en-bn', 'en-ta'**.
+`<LangPair>` denotes language pair, example: **'en-hi', 'en-bn', 'en-ta', 'hi-en', 'bn-en', 'ta-en' **.
 
 `<STModel>` denotes whether the ST model is cascaded or end-to-end, example: '**Casc**' or '**E2E**'.
 
@@ -127,7 +125,7 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 - **sacre-BLEU** is used for the evaluations. 
 
-- Only one test-set will be provided for each language-pair, consisting Speech in the English language only. The test set will contain only the **.wav** files and a **.yaml** file containing the segmentation of these wav files.
+- Only one test set will be provided for each language pair, consisting speech in the source language only. The test set will contain only the **.wav** files and a **.yaml** file containing the segmentation of these wav files.
 
 - For every sentence of the speech, the result txt file must contain only the predicted translation per line in the target language. All submissions must contain this result txt file for evaluation.  
 
@@ -136,7 +134,7 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 <!-- List of organizers' names and affiliations -->
 
 1. Nivedita Sethiya (PhD Scholar, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <phd2201201003@iiti.ac.in>
-2. Balaram Sarkar (MS Research, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <ms2204101006@iiti.ac.in>
+<!-- 2. Balaram Sarkar (MS Research, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <ms2204101006@iiti.ac.in> -->
 3. Dr. Chandresh Kumar Maurya (Assistant Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <chandresh@iiti.ac.in>
 
 ## Contact
