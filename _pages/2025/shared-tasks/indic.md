@@ -135,7 +135,9 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 
 1. Nivedita Sethiya (PhD Scholar, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <phd2201201003@iiti.ac.in>
 <!-- 2. Balaram Sarkar (MS Research, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <ms2204101006@iiti.ac.in> -->
-3. Dr. Chandresh Kumar Maurya (Assistant Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <chandresh@iiti.ac.in>
+2. Ashwin Sankar (MS Student, Indian Institute of Technology Madras; Researcher, AI4Bharat) - <da24s022@smail.iitm.ac.in>
+3. Raj Dabre ( Adjunct Professor, Indian Institute of Technology Madras; Researcher AI4Bharat) - <raj.dabre@cse.iitm.ac.in>
+4. Dr. Chandresh Kumar Maurya (Assistant Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <chandresh@iiti.ac.in>
 
 ## Contact
 
