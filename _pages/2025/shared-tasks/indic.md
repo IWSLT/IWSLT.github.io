@@ -127,7 +127,10 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 
 - Only one test set will be provided for each language pair, consisting speech in the source language only. The test set will contain only the **.wav** files and a **.yaml** file containing the segmentation of these wav files.
 
-- For every sentence of the speech, the result txt file must contain only the predicted translation per line in the target language. All submissions must contain this result txt file for evaluation.  
+- For every sentence of the speech, the result txt file must contain only the predicted translation per line in the target language. All submissions must contain this result txt file for evaluation.
+
+## Timeline
+We follow the same schedule as all the other tasks. [(Important Dates)](#important-dates).
 
 ## Organizers
 
