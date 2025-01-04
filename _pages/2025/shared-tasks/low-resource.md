@@ -23,7 +23,7 @@ The low-resource shared task will, for the first time, involve three tracks:
 <ul>
 	<li> Track 1: A "traditional" speech-to-text translation track focusing on XX typologically diverse language-pairs.</li>
 	<li> Track 2: A speech-to-speech translation track, focusing on XX Indic languages. </li>
-	<li> Track 3: A data track, inviting participants to provide open-sourced speech translation datasets for under-resourced languages.
+	<li> Track 3: A data track, inviting participants to provide open-sourced speech translation datasets for under-resourced languages.</li>
 </ul>
 
 Participants are free to participate in any number of language-pairs in any of the tracks, but we <emph>highly encourage participation in as many as possible.</emph> 
