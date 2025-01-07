@@ -5,13 +5,7 @@ toc: true
 toc_sticky: true
 ---
 
-<!--
-Markdown notes: comments can be formed as in this example;
-bulleted lines start with a - ;
-if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
--->
-
-[Last update: Dec. 3, 2024]
+[Last update: Jan. 7, 2025]
 
 ## Description
 
@@ -29,11 +23,11 @@ for the speech modality.*
 
 ### Tasks Description
 Participants are asked to build a model capable to perform, depending on the track, the following tasks:
-* **TRACK SHORT** (input: automatically segmented audio):
+* **SHORT TRACK** (input: automatically segmented audio):
     * **Automatic Speech Recognition (ASR)**: the speech is transcribed into the same language;
     * **Speech-to-text Translation (S2TT)**: the speech is translated into the target language;
     * **Spoken Question Answering (SQA)**: textual questions have to be answered based on the spoken content in the same language and in a language different from the speech (questions and answers are always in the same language);
-* **TRACK LONG** (input: long-form audio): 
+* **LONG TRACK** (input: long-form audio): 
     * **Automatic Speech Recognition (ASR)**: the speech is transcribed into the same language;
     * **Speech-to-text Translation (S2TT)**: the speech is translated into the target language;
     * **Spoken Question Answering (SQA)**: textual questions have to be answered based on the spoken content in the same language and in a language different from the speech (questions and answers are always in the same language);
@@ -47,30 +41,49 @@ English for ASR, monolingual SQA and S2TSUM, and English -> German, Italian, Chi
 {: .notice--info}
 
 ## Data Conditions
+<!-- Details description of the data and links to download -->
 
 We adopt two conditions. The first is *constrained*, where a pre-defined training setting is adopted, and only a specified pre-trained SFM and LLM architecture can be used. The second is *unconstrained*, with no limitation on pre-trained models and training data.
+
+### Constrained
+Participants are allowed to use the SFM and LLM provided below, and training the system on the following data.
+* **Pre-trained Models**:
+    * *SFM*: [facebook/seamless-m4t-v2-large](https://huggingface.co/facebook/seamless-m4t-v2-large)
+    * *LLM*: [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)
+* **Training Data**:
+    * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de;
+    * *SQA*: [Spoken-SQuAD](https://github.com/Chia-Hsuan-Lee/Spoken-SQuAD);
+    * *S2TSUM*: [IWSLT-IT2025 ACL abstracts (from 2017-2022)](https://huggingface.co/datasets/maikezu/abstract-gen-acl-17-22)
+* **Validation Data:
+    * *ACL 60/60*: [downloadble here](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip), it contains transcripts, translations, and summaries (abstracts) can be easily retrieved using the video ID.
+ 
+We do not provide any training data for SQA (questions and answers) and S2TSUM (summaries) in languages different from the source speech.
 
 **IMPORTANT!** The use of the pre-trained SFM and/or LLM is *NOT* mandatory and we also accept submissions with models trained from scratch on the allowed data as well as solutions using only one of the two pre-trained models (either SFM or LLM).
 {: .notice--info}
 
-Conditions:
-* **Constrained**: Data and models will be provided soon;
-* **Unconstrained**: Any model, any data.
-
-<!-- Details description of the data and links to download -->
-
+### Unconstrained 
+Any model, any data.
 
 ## Evaluation
-
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-Details will be given soon.
 
+We release the video, the source audio, and the instructions, and participants submit their outputs. 
+In SQA, questions are provided both in the same language of the speech (English) and in different languages (German, Italian, Chinese) but they always have to be replied to in the same language of the questions (e.g., an Italian question should be replied to in Italian). Questions can also be nonanswerable, in this case, only the answer “Not answerable.” will be considered correct.
+
+The Long Track will process audio files in WAV format that are, on average, 5–6 minutes long. The Short Track will handle the same audio files, but they will be automatically segmented into 15–20 second audio segments, on average, using [SHAS](https://github.com/mt-upc/SHAS).
+
+We provide an example for the Long track, [downloadable here](https://drive.google.com/file/d/1qhej5_Irx_PC1H_IpPDSbOVdLBzZiH8g/view?usp=sharing). ***Participants are also allowed to use it as 1-shot example for their model.***
+
+We also provide useful scripts for parsing inputs and outputs, [downloadble here](https://drive.google.com/file/d/1o0fZ4uC3WbnZ9CVjB2uFoextkI_xTt9v/view?usp=sharing).
+
+**Details on the metrics used will be given soon.**
 
 ## Submission
 
 <!-- Description of expected submission format and submission instructions -->
 
-Details will be given soon.
+Results will have to be uploaded through a web platform. **More details will be given soon.**
 
 
 ## Organizers
