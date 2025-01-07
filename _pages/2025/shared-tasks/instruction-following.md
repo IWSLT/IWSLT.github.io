@@ -54,7 +54,7 @@ Participants are allowed to use the SFM and LLM provided below, and training the
     * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de;
     * *SQA*: [Spoken-SQuAD](https://github.com/Chia-Hsuan-Lee/Spoken-SQuAD);
     * *S2TSUM*: [IWSLT-IT2025 ACL abstracts (from 2017-2022)](https://huggingface.co/datasets/maikezu/abstract-gen-acl-17-22)
-* **Validation Data:
+* **Validation Data**:
     * *ACL 60/60*: [downloadble here](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip), it contains transcripts, translations, and summaries (abstracts) can be easily retrieved using the video ID.
  
 We do not provide any training data for SQA (questions and answers) and S2TSUM (summaries) in languages different from the source speech.
