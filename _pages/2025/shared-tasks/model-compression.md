@@ -50,7 +50,7 @@ The evaluation will consider two criteria: model size and translation performanc
 
 Each bin will independently evaluate models within its range to ensure fair comparisons among models of similar size. Models exactly on a bin boundary will be placed in the higher bin (e.g., 200 MB is categorized into Bin4).
 
-Each model will be evaluated for translation quality within its respective bin. Translation quality will be assessed using **COMET**, comparing the model's output to reference translations. COMET scores will be calculated on the test set through automatic resegmentation of the hypothesis, aligned with the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Additionally, human evaluation will be conducted on the best-performing submission from each participant.
+Each model will be evaluated for translation quality within its respective bin. Translation quality will be assessed using **COMET**, comparing the model's output to reference translations. As in the offline track, COMET scores will be calculated on the test set through automatic resegmentation of the hypothesis, aligned with the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Additionally, human evaluation will be conducted on the best-performing submission from each participant.
 
 
 ## Submission
@@ -77,7 +77,7 @@ where:
 
 For example, `FBK/IWSLT25.SLT.tst2025.en-de.ModelCompressionTask.FBK.Bin1.primary.txt`
 
-Similar to the offline track submissions, each (primary/contrastive) run has to be stored as a plain text file with one sentence per line.
+As in the offline track submissions, each (primary/contrastive) run has to be stored as a plain text file with one sentence per line.
 
 Scoring will be case-sensitive and will include punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
 
