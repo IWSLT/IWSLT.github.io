@@ -26,7 +26,9 @@ The evaluation focuses on innovative compression techniques that strike a balanc
 While computational efficiency (i.e., speed) is recognized as a critical factor for deploying models in resource-constrained environments, it is excluded from the evaluation framework in this initial round. However, the task will follow a phased approach over the years, with future rounds set to include computational efficiency, thereby broadening the evaluation scope. Similarly, while this year's evaluation focuses on a single language setting, future rounds will consider expansions to additional languages. 
 
 ## Permitted Model Compression Techniques
-The allowed techniques for reducing the model focus solely on modifying or optimizing the model's internal parameters while ensuring that the final compressed model remains strictly derived from the original [Qwen2-Audio](https://huggingface.co/Qwen/Qwen2-Audio-7B) model. Therefore, eligible techniques include pruning (i.e. the removal of less important neurons and/or entire layers within the model, by identifying and reducing parameters that contribute minimally to the model's output), quantization (i.e. the reduction of the precision of the model's weights (e.g., from 32-bit to 16-bit or 8-bit) to lower the model's memory footprint), distillation (i.e. the creation of a smaller "student" model derived from Qwen2-Audio, for instance through pruning, to replicate the behavior of the original "teacher" model), as well as any other technique that produces a compressed counterpart of the original model. 
+The allowed techniques for reducing the model focus solely on modifying or optimizing the model's internal parameters **<ins>while ensuring that the final compressed model remains strictly derived from the original [Qwen2-Audio](https://huggingface.co/Qwen/Qwen2-Audio-7B) model</ins>**. 
+
+Therefore, eligible techniques include pruning (i.e. the removal of less important neurons and/or entire layers within the model, by identifying and reducing parameters that contribute minimally to the model's output), quantization (i.e. the reduction of the precision of the model's weights (e.g., from 32-bit to 16-bit or 8-bit) to lower the model's memory footprint), distillation (i.e. the creation of a smaller "student" model derived from Qwen2-Audio, for instance through pruning, to replicate the behavior of the original "teacher" model), as well as any other technique that produces a compressed counterpart of the original model. 
 
 Compression techniques can be used either in isolation or in combination.
 
@@ -69,13 +71,16 @@ Submissions must be packaged as a gzipped TAR archive with the following file st
 ```
 
 where:  
-`< UserID >` = the short name used in the registration form (e.g. the name of the participants’ institution)    
-`< Set >` = IWSLT25.SLT.tst2025  
-`< LangDir >` = en-de  
-`< Task >` = ModelCompressionTask  
-`< Bin >` = Bin1/Bin2/Bin3/Bin4/Bin5  
+```
+< UserID > = the short name used in the registration form (e.g. the name of the participants’ institution)    
+< Set > = IWSLT25.SLT.tst2025  
+< LangDir > = en-de  
+< Task > = ModelCompressionTask  
+< Bin > = Bin1/Bin2/Bin3/Bin4/Bin5  
+```
+For example:
 
-For example, `FBK/IWSLT25.SLT.tst2025.en-de.ModelCompressionTask.FBK.Bin1.primary.txt`
+`FBK/IWSLT25.SLT.tst2025.en-de.ModelCompressionTask.FBK.Bin1.primary.txt`
 
 As in the offline track submissions, each (primary/contrastive) run has to be stored as a plain text file with one sentence per line.
 
