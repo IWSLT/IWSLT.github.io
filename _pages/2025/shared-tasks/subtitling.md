@@ -67,7 +67,7 @@ Audio-visual documents of development and evaluation sets are and will be provid
   * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EZXtQE00-Z5VP5Stmbhw1Y4BI3k6WyppWs0_cSCCBbwjyQ?e=nxIqkf). **Note**: some of the **English** SRT files were created following different subtitling guidelines than the ones used in this evaluation (e.g. they contain subtitles with 3 lines) and are provided for informational purposes only.
   * The **test** set 2025, and the test sets proposed in 2023 and 2024 editions, will be released according to the evaluation campaign schedule.
 
-* [Asharq Bloomberg](https://) is ... TO BE COMPLETED
+* [Asharq Bloomberg](https://www.bloomberg.com/) is ... TO BE COMPLETED
 
 * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq News/Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive includes audios, reference Arabic and German subtitles and YAML files which provides the audio segments for which subtitles must be created.
   
