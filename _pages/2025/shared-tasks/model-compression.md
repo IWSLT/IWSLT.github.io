@@ -61,8 +61,7 @@ Each model will be evaluated for translation quality within its respective bin. 
 
 Multiple submissions are allowed, both within the same bin and across different bins. In the case of multiple submissions for the same bin, participants must explicitly designate one as the PRIMARY submission, while all others will be treated as CONTRASTIVE submissions. If no submission is marked as PRIMARY, the most recent one (determined by the file timestamp) will be used as the PRIMARY submission.
 
-Submissions must be packaged as a gzipped TAR archive with the following file structure:
-
+Submissions must be packaged as a gzipped TAR archive with the following file structure: 
 ```
 < UserID >/< Set >.< LangDir >.< Task >.< UserID >.<bin>.primary.txt  
   /< Set >.< LangDir >.< Task >.< UserID >.<bin>.contrastive1.txt  
@@ -78,9 +77,11 @@ where:
 < Task > = ModelCompressionTask  
 < Bin > = Bin1/Bin2/Bin3/Bin4/Bin5  
 ```
-For example:
 
-`FBK/IWSLT25.SLT.tst2025.en-de.ModelCompressionTask.FBK.Bin1.primary.txt`
+For example: 
+``` 
+FBK/IWSLT25.SLT.tst2025.en-de.ModelCompressionTask.FBK.Bin1.primary.txt
+``` 
 
 As in the offline track submissions, each (primary/contrastive) run has to be stored as a plain text file with one sentence per line.
 
