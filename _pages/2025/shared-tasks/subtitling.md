@@ -69,7 +69,7 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
 * [Asharq Bloomberg](https://www.bloomberg.com/) is ... TO BE COMPLETED
 
-* As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq News/Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive includes audios, reference Arabic and German subtitles and YAML files which provides the audio segments for which subtitles must be created.
+* As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq News/Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive contains audios, reference Arabic and German subtitles and YAML files which provides the audio segments for which subtitles must be created.
   
 ### 🔵 SUBTITLE COMPRESSION 🔵
 <!-- Details description of the data and links to download -->
