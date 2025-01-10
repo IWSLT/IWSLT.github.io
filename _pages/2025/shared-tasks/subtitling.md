@@ -42,6 +42,7 @@ Two training data conditions are proposed:
 | speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
+| speech-to-text-parallel | en | ar | [CoVoST](https://github.com/facebookresearch/covost) | v2 | only Arabic translation, no English transcription |
 | speech-to-text-parallel | en | de | [CoVoST](https://github.com/facebookresearch/covost) | v2 | only German translation, no English transcription |
 | speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
