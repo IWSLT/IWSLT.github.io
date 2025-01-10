@@ -130,7 +130,7 @@ The submissions for the all the language-pairs can for the below 2 conditions:
 - For every sentence of the speech, the result txt file must contain only the predicted translation per line in the target language. All submissions must contain this result txt file for evaluation.
 
 ## Timeline
-We follow the same schedule as all the other tasks. [(Important Dates)](2025/#important-dates).
+We follow the same schedule as all the other tasks. [(Important Dates)](https://iwslt.org/2025/#important-dates)
 
 ## Organizers
 
