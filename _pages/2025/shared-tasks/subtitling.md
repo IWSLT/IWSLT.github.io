@@ -19,8 +19,8 @@ if you want to have a line break either put a blank line in between the text or 
 In recent years, the task of automatically creating subtitles for audiovisual content in another language has gained increasing attention, as we have seen a surge in the amount of movies, series, and user-generated videos that are being streamed and distributed all over the world. The task is a multi-faceted one: not only the translation has to be generated from speech, which is right on target for IWSLT, but also the subtitling constraints have to be respected (i.e. a proper reading speed, synchrony with the voices, maximum number of subtitle lines and characters per line).
 
 As in 2024, in 2025 edition we propose two sub-tracks:
-* **automatic subtitling**: participants are asked to generate subtitles in Arabic and/or German of different kinds of audiovisual documents, featuring different levels of complexity, starting from English speech
-* **subtitle compression**: participants are asked to rephrase subtitles that are non-compliant with the reading speed constraint (at most 21 characters / second) to make them compliant
+* <span style="color:blue">**automatic subtitling**</span>: participants are asked to generate subtitles in Arabic and/or German of different kinds of audiovisual documents, featuring different levels of complexity, starting from English speech
+* <span style="color:purple">**subtitle compression**</span>: participants are asked to rephrase subtitles that are non-compliant with the reading speed constraint (at most 21 characters / second) to make them compliant
 
 and two language directions:
 * 🆕 English &rarr; Arabic
