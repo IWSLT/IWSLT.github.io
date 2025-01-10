@@ -58,7 +58,7 @@ Two training data conditions are proposed:
 | text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](https://fbk.sharepoint.com/:u:/s/MTUnit/EXSih5zOAUZciBlO9HiXrJYBVYjjyRuEM7EK9c9BzpKD7w?e=MllfhK) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 ### Development and Evaluation Data
-Participants are asked to automatically subtitle in German and/or Arabic two kinds of audio-visual documents, where the spoken language is always English: *(1)* ITV entertainment series and *(2)* news, news talk, financial news from the Bloomberg/Asharq platform.
+Participants are asked to automatically subtitle in German and/or Arabic two kinds of audio-visual documents, where the spoken language is always English: *(1)* ITV entertainment series and *(2)* news programs from the Asharq-Bloomberg platform.
 
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
@@ -69,7 +69,7 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
 * [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with ‘Bloomberg Media’ powers this distinguished business news multi-platform, drawing on Bloomberg’s comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms.
 
-  * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq/Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive contains a README file with important infos, audios, reference Arabic and German subtitles and YAML files which provides the audio segments for which subtitles must be created.
+  * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive contains a README file with important infos, audios, reference Arabic and German subtitles and YAML files which provides the audio segments for which subtitles must be created.
   * The **test** set 2025 will be released according to the evaluation campaign schedule.
 
 ## 🟣 Subtitle Compression
