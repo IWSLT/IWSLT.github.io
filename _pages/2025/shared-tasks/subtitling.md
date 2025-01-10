@@ -206,7 +206,7 @@ BLEURT and CPS will be both considered as **primary scores** since the texts sho
 
 Scoring will be case-sensitive and will include the punctuation.
 
-## Organizers
+### Organizers
 
 <!-- List of organizers' names and affiliations -->
 * Mauro Cettolo, FBK
@@ -216,7 +216,7 @@ Scoring will be case-sensitive and will include the punctuation.
 * Patrick Wilken, AppTek
 
 
-## Contact
+### Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 Chair(s):   
