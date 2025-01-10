@@ -80,7 +80,7 @@ Also this year, we propose the simplified sub-track where participants are asked
 
 The conditions for the sub-track are:
 * Participants are provided with original AV docs (the same released for the Automatic Subtitling sub-track) and subtitles to be corrected
-* No indication is given on which subtitles need to be corrected: all of them can be processed but participants can decide to process only a portion based on the CPS values, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) by [Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607). The script computes the CPS values for each block by enabling the option `--sentence-level`. This allows participants to find the uncompliant blocks
+* No indication is given on which subtitles need to be corrected: all of them can be processed but participants can decide to process only a portion based on the CPS values, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) by [Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607). The script computes the CPS values for each subtitle by enabling the option `--sentence-level`. This allows participants to find the uncompliant subtitles
 * A wide range of solutions can be adopted, without limitations on the training data conditions, and including the use of LLM prompted for text compression (e.g. [chatGPT](https://chat.openai.com/chat))
 * The original audio, though potentially helpful, can either be used or not by participants, which can also be processed with external tools (e.g. [Whisper](https://github.com/openai/whisper))
 
