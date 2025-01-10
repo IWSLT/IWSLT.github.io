@@ -43,10 +43,10 @@ Two training data conditions are proposed:
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
 | speech-to-text-parallel | en | de | [CoVoST](https://github.com/facebookresearch/covost) | v2 | only German translation, no English transcription |
-| speech-to-text-parallel | en | de, es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
-| text-parallel | en | ar | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v18.ar-en.tsv.gz) | v16 | |
-| text-parallel | en | de | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v18.de-en.tsv.gz) | v16 | |
+| text-parallel | en | ar | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v18.ar-en.tsv.gz) | v18 | |
+| text-parallel | en | de | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training/news-commentary-v18.de-en.tsv.gz) | v18 | |
 | text-parallel | en | de | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/ESYWN8_BzeJAmBv4GcRapbsBeLpmLOd699qBc9_WG7Gifw?e=Bk6UWh) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
 | text-parallel | en | ar | [Tatoeba](https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/tmx/ar-en.tmx.gz) | v2023-04-12 | |
 | text-parallel | en | de | [Tatoeba](https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/tmx/de-en.tmx.gz) | v2023-04-12 | |
