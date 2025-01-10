@@ -47,7 +47,7 @@ Tamil is one of the classical languages of India, spoken by 90.8 million speaker
 
 ## Test Data :-
 
-**To Download the Test sets, please fill this form: [Google Form](https://forms.gle/2JMc1CxWvZoQ9KpQ9)**
+**Test data will be released soon.**
 
 <!-- ## Baselines -->
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
