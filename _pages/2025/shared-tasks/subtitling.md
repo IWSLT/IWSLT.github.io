@@ -120,7 +120,7 @@ where:
 < Set > = one of {tst25, tst24, tst23}
 < VdId > = numeric identifier of the video
 < Domain > = one of {ITV, Asharq}
-< Lang > = one of {en-ar.ar, en-de.de} (ISO 639-1 two-letter codes of languages)
+< Lang > = {en-de.de} if <Domain>=ITV and one of {en-ar.ar, en-de.de} if <Domain>=Asharq (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
 ```
