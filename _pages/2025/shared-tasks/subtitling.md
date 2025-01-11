@@ -161,8 +161,8 @@ TAR archive file structure:
 where:
 ```
 <UserID> = user ID of the participant; use the short name chosen in the registration form
-<VdId> = numeric identifier of the video
-<Lang> = one of {en-ar.ar, en-de.de} (ISO 639-1 two-letter codes of languages)
+<VdId>   = numeric identifier of the video
+<Lang>   = one of {en-ar.ar, en-de.de} (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
 ```
