@@ -27,6 +27,12 @@ In this spirit, this year's edition aims to:
 
 Similar to last year, the task will provide the opportunity to submit custom extensions to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that are typically overlooked by traditional evaluation methods.
 
+<!--Similarly to last year, three **language directions** are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
+* English -> German: TV series, ACL presentations, business news, and accent challenge data.
+* English -> Arabic: business news. 
+* English -> Chinese: ACL presentations. 
+-->
+
 The system's performance will be evaluated with respect to its capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: COMET, BLEURT, BLEU, TER, and characTER. The submitted runs will be ranked based on the **COMET** calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.
 
 <!-- While evaluating the submitted systems to the official test sets, in this edition the organizers give the possibility to submit additional test suites. The goal of a test suite is to evaluate an SLT system on specific aspects that are generally hidden by the classic evaluation frameworks. More information in the session **Test suite**. This means that each participant will translate the official test sets and the test suites. While the official evaluation will be based only on the official test sets, the test suites will give the possibility to identify specific and challenging aspects that affect the SLT performance.  
