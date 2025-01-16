@@ -117,53 +117,25 @@ A "**constrained**" setup is proposed as the official training data condition, i
 | speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used
 | speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
-| speech | en | -- | [TED LIUM](https://lium.univ-lemans.fr/en/ted-lium3/) | v2/v3 | |
-| speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
-| speech-to-text-parallel | en | de | [MUST-C](https://mt.fbk.eu/must-c/) | v1.2/v2.0/v3.0 |  |
-| speech-to-text-parallel | en | ja, zh | [MUST-C](https://mt.fbk.eu/must-c/) | v2.0 | |
-| speech-to-text-parallel | en | de | [MUST-Cinema](https://mt.fbk.eu/must-cinema/) | v1.0 | with subtitle and line breaks |
-| speech-to-text-parallel | en | de | [Speech Translation TED corpus](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/corpus/iwslt-corpus.zip) | na | |
-| speech-to-text-parallel | en | de, ja, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
+| speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | only translation, no transcription |
+| speech-to-text-parallel | en | de, ar, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
 | speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| text-parallel | en | ar | [UNPC](https://object.pouta.csc.fi/OPUS-UNPC/v1.0/tmx/ar-en.tmx.gz) | v1.0 | |
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
-| text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
-| text-parallel | en | es, zh, de, ja | [NewsCommentary](https://data.statmt.org/news-commentary/v16/training) | v16 | |
-| text-parallel | en | es, zh, de, ja | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles) | v2018 | |
+| text-parallel | en | ar | [Tanzil](https://object.pouta.csc.fi/OPUS-Tanzil/v1/tmx/ar-en.tmx.gz) | v1 | |
+| text-parallel | en | zh, de, ar | [NewsCommentary](https://data.statmt.org/news-commentary/v18/training) | v18 | |
+| text-parallel | en | ar | [GlobalVoices](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/tmx/ar-en.tmx.gz) | v2018q4 | | 
+| text-parallel | en | ar, zh, de | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles) | v2018 | |
 | text-parallel | en | de | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/ESYWN8_BzeJAmBv4GcRapbsBeLpmLOd699qBc9_WG7Gifw?e=Bk6UWh) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
-| text-parallel | en | es | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/EafNtfaI0yNKgsoDIDTsEK8BelStVZVsZIrQcwjgTx5diA?e=BT97yx) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
-| text-parallel | en | ja | [JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) | | |
-| text-parallel | en | de | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/de-en.tmx.gz) | v1 | |
-| text-parallel | en | es | [TED2020](https://object.pouta.csc.fi/OPUS-TED2020/v1/tmx/en-es.tmx.gz) | v1 | |
-| text-parallel | en | es, zh, de, ja | [Tatoeba](https://opus.nlpl.eu/Tatoeba.php) | v2022-03-03 | |
-| text-parallel | en | es | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/en-es.tmx.gz) | v1 | |
+| text-parallel | en | ar, zh, de | [Tatoeba]([https://opus.nlpl.eu/Tatoeba.php](https://opus.nlpl.eu/Tatoeba/corpus/version/Tatoeba)) | v2023-04-12 | |
+| text-parallel | en | ar | [ELRC_2922](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/tmx/ar-en.tmx.gz) | v1 | |
 | text-parallel | en | de | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz) | v1 | |
 | text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](https://fbk.sharepoint.com/:u:/s/MTUnit/Efm0lF0ITTJeBM0ZmjlAKeEBu9CE33SCvb05S1tAq2AkSA?e=FHbZci) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
-| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](https://fbk.sharepoint.com/:u:/s/MTUnit/EXSih5zOAUZciBlO9HiXrJYBVYjjyRuEM7EK9c9BzpKD7w?e=MllfhK) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 Note: this list is identical to the one available in the subtitle task. Some training data are specific for the subtitling task including subtitle boundaries (`<eob>` and `<eol>`).
 
-* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus a restricted selection of large language models are allowed. The following pre-trained language models are considered parts of the training data and freely usable to build the SLT systems:
+* **Constrained with Large Language Models** training: Under this condition, all the constrained resources plus freely accessible large language models released under a permissive license are allowed.
 
-  * [Wav2vec 2.0](https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md)
-  * [Hubert](https://github.com/pytorch/fairseq/tree/main/examples/hubert)
-  * [WavLM](https://github.com/microsoft/unilm/tree/master/wavlm)
-  * [SpeechLM](https://github.com/microsoft/unilm/tree/master/speechlm)
-  * [data2vec](https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec)
-  * [MBART](https://github.com/pytorch/fairseq/blob/main/examples/mbart/README.md)
-  * [MBART50](https://github.com/pytorch/fairseq/tree/main/examples/multilingual#mbart50-models)
-  * [M2M100](https://github.com/pytorch/fairseq/tree/main/examples/m2m_100)
-  * [Delta LM](https://github.com/microsoft/unilm/tree/master/deltalm)
-  * [T5](https://github.com/google-research/text-to-text-transfer-transformer)
-  * [BLOOM (Note: only the small 560M parameter version)](https://huggingface.co/bigscience/bloom-560m#model-details)
-  * [Mistral 7B Instruction Fine-tuned](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)
-  * [Mistral 7B Base Model](https://huggingface.co/mistralai/Mistral-7B-v0.1)
-  * [Mistral 7B Base Model](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
-  * [Llama2 7B base model](https://huggingface.co/meta-llama/Llama-2-7b-hf)
-  * [NLLB 3.3B](https://huggingface.co/facebook/nllb-200-distilled-1.3B)
-  * [NLLB 1.3B](https://huggingface.co/facebook/nllb-200-3.3B)
-  * [NLLB 600M](https://huggingface.co/facebook/nllb-200-distilled-600M)
-  * [Seamless Models (SeamlessM4T/Streaming/Expressive)](https://github.com/facebookresearch/seamless_communication)
-    
 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
 --> 
