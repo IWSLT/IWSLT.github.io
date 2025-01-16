@@ -54,8 +54,8 @@ Baselines will be provided later, including automatic speech segmentation for lo
 ## Submission
 <!-- Description of expected submission format and submission instructions -->
 The evaluation implementation will use the latest [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit.
-We will use the new [remote evaluation](https://simuleval.readthedocs.io/en/latest/tutorials/remote_evaluation.html) mode.
-Participants do not need to submit their systems in Docker images as in previous years.
+Participants do not need to submit their systems in Docker images as in previous years but are asked to submit system logs.
+Details will be provided later.
 
 ## Evaluation
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
@@ -89,4 +89,5 @@ The detailed constraint for each track will be announced later.
 ## Contact
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 Chair(s): Katsuhito Sudoh (Nara Women’s University)
+
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
