@@ -113,6 +113,7 @@ The email should include the following information:
   * Institute:
   * Contact Person:
   * Email:
+  * Data condition: Constrained/Unconstrained
   * Brief description of the model(s):
     * Exact storage size:
     * Number of parameters:
