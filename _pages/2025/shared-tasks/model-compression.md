@@ -38,14 +38,16 @@ Participants can submit their runs under two data conditions: **constrained** an
 
 * ***Constrained*** 
 In this condition, participants are allowed to use only the 
-[ACL 60/60](https://iwslt.org/2023/multilingual) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
+[ACL 60/60](https://iwslt.org/2023/multilingual#development-data) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
 
 * ***Unconstrained***
 In this condition,  there are no restrictions on data usage.
 
 
 ## Evaluation 
-For the two language directions (en-de, en-zh), the evaluation will be conducted separately on the respective ACL 60/60 evaluation sets, which are also used in the [Offline](https://iwslt.org/2025/offline) and [Instruction-Following Speech Processing](https://iwslt.org/2025/instruction-following) tracks.
+<!--For the two language directions (en-de, en-zh), the evaluation will be conducted separately on the respective ACL 60/60 evaluation sets, which are also used in the [Offline](https://iwslt.org/2025/offline) and [Instruction-Following Speech Processing](https://iwslt.org/2025/instruction-following) tracks.-->
+
+The evaluation will be separately conducted for the two language directions (en-de, en-zh) and data conditions (constrained, unconstrained).
 
 The evaluation will consider two criteria: model size and translation performance. To this end, models will be categorized into five size bins based on storage demands (*S*), representing increasingly extreme levels of compression. Each bin will have a clearly defined upper limit, with models at the boundary assigned to the higher bin. The bins are defined as follows:
 
@@ -83,9 +85,9 @@ Multiple submissions are allowed for the two languages, both within the same bin
 
 Submissions must be packaged as a gzipped TAR archive with the following file structure: 
 ```
-< UserID >/< Set >.< Task >.< LangDir >.< UserID >.<bin>.primary.txt  
-  /< Set >.< Task >.< LangDir >.< UserID >.<bin>.contrastive1.txt  
-  /< Set >.< Task >.< LangDir >.< UserID >.<bin>.contrastive2.txt  
+< UserID >/< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.primary.txt  
+  /< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.contrastive1.txt  
+  /< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.contrastive2.txt  
   /... 
 ```
 
@@ -95,12 +97,13 @@ where:
 < Set > = IWSLT25  
 < Task > = ModelCompressionTask  
 < LangDir > = en-de/en-zh  
-< Bin > = Bin1/Bin2/Bin3/Bin4/Bin5  
+< Bin > = Bin1/Bin2/Bin3/Bin4/Bin5
+< Condition > = Constrained/Unconstrained 
 ```
 
 For example: 
 ``` 
-FBK/IWSLT25.ModelCompressionTask.en-de.FBK.Bin1.primary.txt
+FBK/IWSLT25.ModelCompressionTask.en-de.FBK.Bin1.Constrained.primary.txt
 ``` 
 
 As in the offline track submissions, each (primary/contrastive) run has to be stored as a plain text file with one sentence per line.
