@@ -71,9 +71,9 @@ English-German test set of the offline track, **coming soon!**-->
 
 
 ## Test data
-English-German test set of the offline track - **coming soon!** :hourglass_flowing_sand: 
+ACL 60/60 English-German test set of the offline track - **coming soon!** :hourglass_flowing_sand: 
 
-English-Chinese test set of the offline track - **coming soon!** :hourglass_flowing_sand: )
+ACL 60/60 English-Chinese test set of the offline track - **coming soon!** :hourglass_flowing_sand: )
 
 ## Submission
 
