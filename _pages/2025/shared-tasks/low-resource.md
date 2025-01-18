@@ -19,11 +19,10 @@ The goal of this shared task is to benchmark and promote speech translation tech
 While significant research progress has been demonstrated recently on popular datasets, many of the world's dialects and low-resource languages lack the parallel data at scale needed for standard supervised learning.
 We will likely require creative approaches in leveraging disparate resources.
 
-The low-resource shared task will, for the first time, involve three tracks:
+The low-resource shared task will, for the first time, involve two tracks:
 <ul>
 	<li> Track 1: A "traditional" speech-to-text translation track focusing on XX typologically diverse language-pairs.</li>
-	<li> Track 2: A speech-to-speech translation track, focusing on XX Indic languages. </li>
-	<li> Track 3: A data track, inviting participants to provide open-sourced speech translation datasets for under-resourced languages.</li>
+	<li> Track 2: A data track, inviting participants to provide open-sourced speech translation datasets for under-resourced languages.</li>
 </ul>
 
 Participants are free to participate in any number of language-pairs in any of the tracks, but we <emph>highly encourage participation in as many as possible.</emph> 
@@ -155,38 +154,9 @@ Coming soon!
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 Coming soon!
 
-## Track 2: Speech-to-Speech Translation
-
-The second track of this year's Shared Task focuses on speech-to-speech translation for four languages spoken in the Indian subcontinent: Hindi, English, Bengali, and XXX.
-
-More details below (coming soon!).
-
-### Data
-
-Data will be released in January.
-
-<!-- Details description of the data and links to download -->
 
 
-### Baselines
-
-Coming soon!
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-
-
-### Submission
-
-Coming soon!
-<!-- Description of expected submission format and submission instructions -->
-
-
-### Evaluation
-
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-Coming soon!
-
-
-## Track 3: Training and Evaluation Data Track
+## Track 2: Training and Evaluation Data Track
 
 This track aims to empower language communities to contribute to key datasets. These datasets are essential for expanding the reach of spoken language technology to more languages and varieties.
 
@@ -217,5 +187,57 @@ Coming soon!
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair(s):   
+Chair(s):  
+
+<ul>
+	<li> General Overview:
+		<ul>
+			<li> Antonios Anastasopoulos, George Mason University</li>
+			<li> Kenton Murray, Johns Hopkins University</li>
+		</ul>
+	</li>
+	<li> Bemba:
+		<ul>
+			<li>Claytone Sikasote, University of Zambia</li>
+		</ul>
+	</li>
+	<li> Arabic:
+		<ul>
+			<li>Mateusz Krubiński, Institute of Formal and Applied Linguistics, Charles University (krubinski [email symbol] ufal.mff.cuni.cz)</li>
+			<li>Pavel Pecina, Institute of Formal and Applied Linguistics, Charles University (pecina [email symbol] ufal.mff.cuni.cz)</li>
+			<li>Fethi bougares, University of Le Mans</li>
+		</ul>
+	</li>
+	<li> Fongbe:
+		<ul>
+			<li>Yannick Estève, Avignon University (yannick.esteve [email symbol] univ-avignon.fr)</li>
+			<li>Fethi Bougares, University of Le Mans</li>
+			<li>Salima Mdhaffar, Avignon University</li>
+		</ul>
+	</li>
+	<li> Irish, Bhojpuri, Marathi:
+		<ul>
+			<li>Atul Kr. Ojha, University of Galway (atulkumar.ojha [email symbol] insight-centre.org)</li>
+			<li>John P. McCae, University of Galway</li>
+		</ul>
+	</li>
+	<li> Estonian:
+		<ul>
+			<li>Tanel Alumäe, Tallinn University of Technology</li>
+			<li>Mark Fishel, University of Tartu</li>
+		</ul>
+	</li>
+	<li> Maltese:
+		<ul>
+			<li>Claudia Borg, University of Malta (claudia.borg [email symbol] um.edu.mt)</li>
+		</ul>
+	</li>
+	<li> Quechua:
+		<ul>
+			<li>John E. Ortega, Northeastern University (j.ortega [email symbol] northeastern.edu)</li>
+			<li>Rodolfo Zevallos, Universitat Pompeu Fabra (rodolfojoel.zevallos [email symbol] upf.edu)</li>
+		</ul>
+	</li>
+</ul>
+
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
