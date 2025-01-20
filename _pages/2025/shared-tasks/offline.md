@@ -155,10 +155,10 @@ TAR archive file structure:
 ```
 where:  
 `< UserID >` = user ID of the participant used the short name chosen in the registration form (e.g. the name of your institution)  
-`< Set >` = IWSLT21.SLT.tst2021  
-`< LangDir >` = en-de/zh/ja, using language identifiers (LIDs) as given by ISO 639-1 codes  
+`< Set >` = IWSLT21.SLT.tst2025  
+`< LangDir >` = en-de/zh/ar, using language identifiers (LIDs) as given by ISO 639-1 codes  
 `< Task >` =  OfflineTask.  
-For example, `FBK/IWSLT21.SLT.tst2021.en-de.OfflineTask.FBK.primary.txt`  
+For example, `FBK/IWSLT21.SLT.tst2025.en-de.OfflineTask.FBK.primary.txt`  
 
 All the submissions should be sent to this address: <iwslt_offline_task_submission@fbk.eu>
 
