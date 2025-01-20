@@ -44,7 +44,7 @@ Information about data and baselines are provided in the sections specific to ea
 
 Please see below for data pointers for each language pair.
 
-### Dialectal Arabic to English (ara-eng)
+### North Levantine Dialectal Arabic to English (ara-eng)
 
 This language pair will focus on evaluating performance on one Arabic vernacular:
 <ul>
@@ -62,6 +62,74 @@ We also provide links to speech recognition datasets that include Arabic data:
 - OpenSLR Resource [SLR48](https://www.openslr.org/48/)
 - OpenSLR Resource [SLR108](https://www.openslr.org/108/)
 - OpenSLR Resource [SLR132](https://www.openslr.org/132/)
+
+### Tunisian Arabic Dialect to English (aeb-eng) 
+<!--In spite of the recent progress in artificial intelligence and particularly in speech processing, the majority of world languages and dialects remain uncovered.
+That is the case of the Arabic-speaking world where informal communication is carried out using a mixture of local dialects, Standard Arabic and foreign languages such as English and French. This complex linguistic situation coupled with the absence of dedicated data sets represents a significant barrier to the development of performant speech processing systems for a number of Arabic dialects.
+-->
+This shared task is intended to advance the state of the art of speech transcription and translation for the Tunisian dialect.
+
+Participants will be provided with the following datasets:
+-   (1) 323.73 hours of Tunisian Conversational Telephone Speech (CTS), with manual transcripts;
+-   (2) 167.48 hours of the above data manually translated into English for end-to-end speech translation models;
+-  (3) 08 hours of Tunisian dialect Conversations in train stations with manual transcripts.
+
+Datasets (1) and (2) are made available to the IWSLT participants at no cost by LDC.
+The development and test sets (~3 hours each) are also three-way Tunisian Conversational Telephone Speech from LDC. 
+Participants will be evaluated using CTS (similar to LDC datasets) test sets for:
+- <b>(1) Speech Transcription</b> that takes Tunisian speech as input and generates Tunisian text as output;
+- <b>(2) Speech Translation</b> that takes Tunisian speech as input and generates English text as output.
+
+Participants can build systems for evaluation in any of these conditions:
+- <b>Constrained</b>: train using only Tunisian-English resources from LDC;
+- <b>Unconstrained condition</b>: participants may use any additional public or private resources.
+
+#### Obtaining Data
+
+IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign [this](https://github.com/fbougares/iwslt25_aeb-eng/blob/main/IWSLT_2025_LDC_Evaluation_Agreement.pdf) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to datasets (1) and (2) mentioned in the above Description section.
+TARIC data set is available by fill out the form available at https://demo-lia.univ-avignon.fr/taric-dataset/ of TARIC
+
+After you obtain the data sets please use the files ids available here <https://github.com/fbougares/iwslt25_aeb-eng> to generate your dev and internet test sets. The official test set files will be released later for official evaluation.
+#### Baseline Models
+
+Stay tuned, we will be releasing baseline models.
+
+#### Submission
+
+Participants will receive email from LDC with instructions for downloading the evaluation set.
+The evaluation set will include a ```segments.txt``` (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way.
+Submissions should be compressed in a single .tar.gz file and emailed to fethi DOT bougares AT elyadata.com, with "IWSLT 2025 Dialect Shared Task Submission" in the title; you will receive a confirmation of receipt within a day. If multiple outputs are submitted for one test set, one system must be explicitly marked as primary, or the submission with the latest timestamp will be treated as primary.
+
+File names pattern for translation outputs should follow the following structure:  <br>
+
+(1) File names for speech recognition outputs should follow the following structure:  <br>
+```<participant>.asr.<condition>.<primary/contrastive1/contrastive2>.<src>.txt``` <br>
+e.g.,
+```lia.asr.constrained.primary.aeb.txt```
+
+(1) File names for speech translation outputs should follow the following structure:  <br>
+```<participant>.st.<condition>.<primary/contrastive1/contrastive2>.<src>-<tgt>.txt``` <br>
+e.g.,
+```lia.st.unconstrained.primary.aeb-eng.txt```
+
+
+Submissions should consist of plaintext files with one sentence per line, following the order of the test set segment file, pre-formatted for scoring (detokenized). We will be using BLEU and CHRF scores for official evaluation. Submissions are supposed to be lower-cased and without punctuation.
+
+Participants are requested to include a short system description in the submission email.
+
+#### Organizers
+
+- Fethi Bougares (Head of Research @ Elyadata / Associate member @LIA)
+- Yannick Estève (Full Professor @LIA)
+- Salima Mdhaffar (Researcher @LIA)
+- Haroun Elleuch (Phd student Elyadata/LIA)
+
+For questions and clarifications about this task, please write to 
+fethi DOT bougares @ elyadata.com
+yannick DOT esteve @ univ-avignon.fr
+
+
+
 
 ### Bemba to English (bem-eng)
 Bemba is a Bantu language, spoken by over 10 million people in Zambia and other parts of Africa.
