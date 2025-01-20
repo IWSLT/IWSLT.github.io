@@ -84,17 +84,17 @@ Participants can build systems for evaluation in any of these conditions:
 - <b>Constrained</b>: train using only Tunisian-English resources from LDC;
 - <b>Unconstrained condition</b>: participants may use any additional public or private resources.
 
-#### Obtaining Data
+**Obtaining Data**
 
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign [this](https://github.com/fbougares/iwslt25_aeb-eng/blob/main/IWSLT_2025_LDC_Evaluation_Agreement.pdf) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to datasets (1) and (2) mentioned in the above Description section.
 TARIC data set is available by fill out the form available at https://demo-lia.univ-avignon.fr/taric-dataset/ of TARIC
 
 After you obtain the data sets please use the files ids available here <https://github.com/fbougares/iwslt25_aeb-eng> to generate your dev and internet test sets. The official test set files will be released later for official evaluation.
-#### Baseline Models
+**Baseline Models**
 
 Stay tuned, we will be releasing baseline models.
 
-#### Submission
+**Submission**
 
 Participants will receive email from LDC with instructions for downloading the evaluation set.
 The evaluation set will include a ```segments.txt``` (one utterance per line, with file-ids and start/end times) and the submission of translation outputs should be ordered in the same way.
@@ -117,7 +117,7 @@ Submissions should consist of plaintext files with one sentence per line, follow
 
 Participants are requested to include a short system description in the submission email.
 
-#### Organizers
+**Organizers**
 
 - Fethi Bougares (Head of Research @ Elyadata / Associate member @LIA)
 - Yannick Estève (Full Professor @LIA)
