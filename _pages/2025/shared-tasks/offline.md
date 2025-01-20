@@ -25,12 +25,14 @@ In this spirit, this year's edition aims to:
 * offer a varied scenario in terms of domains (news, physical training sessions, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
 * promote the development and use of flexible systems capable of operating in this multi-domain scenario, without resorting to ad-hoc, domain-specialized models. 
 
-Similar to last year, the task will provide the opportunity to submit custom extensions to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that are typically overlooked by traditional evaluation methods.
+Similar to last year, the task will allow users to submit custom extensions to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that traditional evaluation methods typically overlook.
 
 <!--Similarly to last year, three **language directions** are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
 * English -> German: TV series, ACL 60/60 presentations, business news, and accent challenge data.
 * English -> Arabic: business news. 
 * English -> Chinese: ACL 60/60 presentations. 
+
+The test sets are totally or partially shared with the subtitling and model compression tasks.
 -->
 
 The system's performance will be evaluated with respect to its capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: COMET, BLEURT, BLEU, TER, and characTER. The submitted runs will be ranked based on the **COMET** calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on the best-performing submission of each participant.
