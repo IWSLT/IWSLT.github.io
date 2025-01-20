@@ -169,9 +169,8 @@ The email should include the following information:
   * Data condition: Constrained/Unconstrained
   * Segmentation: Own/Given
   * Brief but accurate description of the system (main features, training data, model architecture, etc.):
- <!--  * Multilingual: Yes/No -->
   * Do you want to make your submissions freely available for research purposes? (yes/no)
-
+ <!--  * Multilingual: Yes/No -->
 
 ## Contacts 
 <!-- Decision to take: Add more contact here -->
