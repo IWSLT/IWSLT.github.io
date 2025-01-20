@@ -25,7 +25,7 @@ In this spirit, this year's edition aims to:
 * offer a varied scenario in terms of domains (news, physical training sessions, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
 * promote the development and use of flexible systems capable of operating in this multi-domain scenario, without resorting to ad-hoc, domain-specialized models. 
 
-Similar to last year, the task will allow users to submit custom extensions (i.e. test suites) to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that traditional evaluation methods typically overlook.
+<!--Similar to last year, the task will allow users to submit custom extensions (i.e. test suites) to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that traditional evaluation methods typically overlook.  -->
 
 Similarly to last year, three **language directions** are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
 * English -> German: TV series, ACL 60/60 presentations, business news, and accent challenge data.
@@ -168,7 +168,7 @@ The email should include the following information:
   * Email:
   * Data condition: Constrained/Unconstrained
   * Segmentation: Own/Given
-  * Brief abstract about the system:
+  * Brief description of the system:
   * Multilingual: Yes/No 
   * Do you want to make your submissions freely available for research purposes? (yes/no)
 
