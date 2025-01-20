@@ -25,7 +25,7 @@ In this spirit, this year's edition aims to:
 * offer a varied scenario in terms of domains (news, physical training sessions, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
 * promote the development and use of flexible systems capable of operating in this multi-domain scenario, without resorting to ad-hoc, domain-specialized models. 
 
-<!--Similar to last year, the task will allow users to submit custom extensions (i.e. test suites) to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that traditional evaluation methods typically overlook.  -->
+Similar to last year, the task will allow users to submit custom extensions (i.e. test suites) to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that traditional evaluation methods typically overlook. 
 
 Similarly to last year, three **language directions** are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
 * English -> German: TV series, ACL 60/60 presentations, business news, and accent challenge data.
@@ -70,7 +70,7 @@ You can download it here:
    * [tst2023](http://i13pc106.ira.uka.de/~jniehues/IWSLT-SLT/data/eval/en-zh/IWSLT-SLT.tst2023.en-zh.tgz)
 -->
 
-<!--### Test Suite
+### Test Suite
 
 Test suites are custom extensions to standard offline test sets constructed so that they can focus on particular aspects of the SLT output. The goal of the test suite is to investigate specific aspects that are generally omitted by the classic evaluation strategies. Test suites also evaluate these aspects in their custom way.
 The particular test suite composition and its evaluation are fully on the test suite provider.
@@ -83,7 +83,7 @@ Important date:
 * The test suite should be submitted by the **1st of March**.
 
 For more information about the test suite: <iwslt-evaluation-campaign@googlegroups.com>
--->
+
 <!--Move here the part on accent
 Add the part on the additional test sets. Deadline 1st of March -> only the audio. Evaluation performed by the persons who submitted the data. About the format, Marco contacts Jan. We force them to translate everything by merging the additional test sets into a single file.
 -->
@@ -169,7 +169,7 @@ The email should include the following information:
   * Data condition: Constrained/Unconstrained
   * Segmentation: Own/Given
   * Brief description of the system:
-  * Multilingual: Yes/No 
+ <!--  * Multilingual: Yes/No -->
   * Do you want to make your submissions freely available for research purposes? (yes/no)
 
 
