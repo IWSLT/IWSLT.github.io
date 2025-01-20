@@ -44,7 +44,7 @@ Information about data and baselines are provided in the sections specific to ea
 
 Please see below for data pointers for each language pair.
 
-### North Levantine Dialectal Arabic to English (ara-eng)
+### (North) Levantine Dialectal Arabic to English (pca-eng)
 
 This language pair will focus on evaluating performance on one Arabic vernacular:
 <ul>
@@ -56,6 +56,7 @@ We point the participants to training data across different Arabic varieties:
 
  <!--- The **aeb-eng** training data are the same as the one used in the previous IWSLT tasks: <a href="https://iwslt.org/2022/dialect">https://iwslt.org/2022/dialect</a>.  We suggest you follow the train/dev/test1 split instructions according to the linked webpage.-->
  - The **apc-eng** validation/testing data (with transcriptions) can be found [here](https://github.com/ufal/IWSLT2024_Levantine_Arabic_data). Participants are provided with about 120k lines of multi-parallel North Levantine-MSA-English textual data, that can be downloaded from the [LINDAT/CLARIAH-CZ Repository](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-5033). For the speech data, we recommend two LDC resources: BBN/AUB DARPA Babylon Levantine corpus ([Speech + Transcript]((https://catalog.ldc.upenn.edu/LDC2005S08))) and the Levantine Arabic QT Training Data Set 5 corpus ([Speech](https://catalog.ldc.upenn.edu/LDC2006S29) + [Transcript](https://catalog.ldc.upenn.edu/LDC2006T07)).
+ For validation, please use the [validation](http://hdl.handle.net/11234/1-5518) and [test](http://hdl.handle.net/11234/1-5519) splits of [IWSLT 2024](https://iwslt.org/2024/low-resource). We will provide a new test set for the evaluation period.
 
 We also provide links to speech recognition datasets that include Arabic data:
 - OpenSLR Resource [SLR46](https://www.openslr.org/46/)
@@ -271,7 +272,7 @@ Chair(s):
 	</li>
 	<li> Arabic:
 		<ul>
-			<li>Mateusz Krubiński, Institute of Formal and Applied Linguistics, Charles University (krubinski [email symbol] ufal.mff.cuni.cz)</li>
+			<!-- <li>Mateusz Krubiński, Institute of Formal and Applied Linguistics, Charles University (krubinski [email symbol] ufal.mff.cuni.cz)</li> -->
 			<li>Pavel Pecina, Institute of Formal and Applied Linguistics, Charles University (pecina [email symbol] ufal.mff.cuni.cz)</li>
 			<li>Fethi bougares, University of Le Mans</li>
 		</ul>
