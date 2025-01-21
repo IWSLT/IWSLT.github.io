@@ -32,7 +32,7 @@ Similarly to last year, three **language directions** are proposed in the offlin
 * English -> Arabic: business news. 
 * English -> Chinese: ACL 60/60 presentations. 
 
-The test sets are totally or partially shared with the subtitling and model compression tasks.
+The test sets are totally or partially shared with other tasks (e.g. the subtitling task).
 
 The system's performance will be evaluated with respect to its capability to produce translations similar to the target-language references. Such similarity will be measured in terms of multiple automatic metrics: COMET, BLEURT, BLEU, TER, and characTER. The submitted runs will be ranked based on the **COMET** calculated on the test set by using automatic resegmentation of the hypothesis based on the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Moreover, to meet the requests of last year's participants, a human evaluation will be performed on each participant's best-performing submission.
 
