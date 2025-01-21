@@ -127,8 +127,8 @@ Participants are requested to include a short system description in the submissi
 - Haroun Elleuch (Phd student Elyadata/LIA)
 
 For questions and clarifications about this task, please write to 
-fethi DOT bougares @ elyadata.com
-yannick DOT esteve @ univ-avignon.fr
+- fethi DOT bougares @ elyadata.com
+- yannick DOT esteve @ univ-avignon.fr
 
 
 
