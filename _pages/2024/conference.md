@@ -76,7 +76,7 @@ Please visit the [paper submission](/2024/paper-submission) page for further inf
 
 ## Organizers
 - Marine Carpuat, University of Maryland, USA (Program Chair) 
-- Marcello Federico, AWS AI Labs, USA (Conference Chair)
+- Marcello Federico, Amazon, Spain (Conference Chair)
 - Alex Waibel, CMU, USA (Conference Chair)
 - Jan Niehues, KIT, Germany (Evaluation Chair)
 - Sebastian Stüker, Zoom, Germany (Sponsorship Chair)
