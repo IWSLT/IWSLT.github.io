@@ -34,15 +34,20 @@ We have two focuses this year:
 - **long-form speech**: our evaluation will be conducted on *unsegmented* speech
 - **large language models**: participants are allowed to use LLMs (details will be announced later)
 
-
+The test set domains are the subsets of the ones of the offline track:
+- English -> German: ACL 60/60 and accent challenge data
+- English -> Arabic: business news
+- English -> Chinese: ACL 60/60
+- English -> Japanese: ACL 60/60
+- Czech -> English: 
 
 ## Data
 <!-- Details description of the data and links to download -->
-The data condition for this task is "constrained with pretrained models (including large language models (LLMs))".
+The data condition for this task is "constrained with large language models (LLMs)".
 
 ### English-to-X
-Our English-to-X data condition basically follows the one in the offline task.
-The list of allowed data and pretrained models will be released soon [here](https://iwslt.org/2025/offline#training-data-and-data-conditions).
+Our English-to-X data condition follows the one in the offline task.
+The list is available [here](https://iwslt.org/2025/offline#training-data-and-data-conditions).
 
 ### Czech-to-English
 Details will be available later.
@@ -54,7 +59,10 @@ Baselines will be provided later, including automatic speech segmentation for lo
 ## Submission
 <!-- Description of expected submission format and submission instructions -->
 The evaluation implementation will use the latest [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit.
-Participants do not need to submit their systems in Docker images as in previous years but are asked to submit system logs.
+Participants have two options for the submission:
+- Docker image submission; the organizers run the system to compare the computation-aware latency
+- System log submission; the computation-aware latency cannot be compared directly but will be reported with its hardware difference
+
 Details will be provided later.
 
 ## Evaluation
