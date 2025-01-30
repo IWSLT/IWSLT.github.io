@@ -141,7 +141,7 @@ The email should also include the following information:
 * Track: Automatic Subtitling
 * Data condition: Constrained/Unconstrained
 * Brief abstract about the system:
-* Do you agree to make your submitted system output data freely available, including usage for a potential data release? We may exclude submissions from human evaluation without this consent. (yes/no)
+* Do you agree that the IWSLT organizers may release your submitted system output data under an Apache 2.0 or similar license (depending on licensing details of test sets), to encourage future research? We may exclude your submissions from human evaluation without this consent. (yes/no)
 
 ### 🟣 Subtitle Compression
 
