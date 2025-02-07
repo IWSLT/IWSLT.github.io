@@ -25,7 +25,7 @@ There will be two tracks:
 in the following language directions (more details will be made available soon):
 
 - English -> German
-- English -> Arabic (new)
+- ~~English -> Arabic (new)~~ (cancelled in the simultaneous track)
 - English -> Chinese
 - English -> Japanese
 - Czech -> English
@@ -36,7 +36,7 @@ We have two focuses this year:
 
 The test set domains are the subsets of the ones of the offline track:
 - English -> German: ACL 60/60 and accent challenge data
-- English -> Arabic: business news
+- ~~English -> Arabic: business news~~ (cancelled)
 - English -> Chinese: ACL 60/60
 - English -> Japanese: ACL 60/60
 - Czech -> English: 
@@ -67,6 +67,7 @@ Details will be provided later.
 
 ## Evaluation
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+
 ### Metrics
 The system's performance will be evaluated in two ways:
 
@@ -85,6 +86,9 @@ Note that the definition of average lagging has been modified from the [original
 ### Ranking
 The systems will be ranked by the translation quality within the latency constraints.
 The detailed constraint for each track will be announced later.
+
+### Human Evaluation
+Human evaluation will be conducted for primary submissions.
 
 ## Organizers
 <!-- List of organizers' names and affiliations -->
