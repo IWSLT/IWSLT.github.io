@@ -38,6 +38,13 @@ All tasks will follow the same schedule [(below)](#important-dates).
 For updates, please join [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"}.
 
 
+## Demo Session
+
+We invite researchers, practitioners, and industry professionals to participate in an engaging **demo session** highlighting innovative systems, tools, and component technologies that advance the field of speech translation. 
+The session will include live and interactive system demonstrations to foster discussion and knowledge exchange among participants across the field. 
+
+For more information, please see our [**Call for Demos**](/2025/call-for-demos)
+
 
 ## Registration
 
