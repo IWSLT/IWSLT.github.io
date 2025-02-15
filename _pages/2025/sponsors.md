@@ -1,6 +1,6 @@
 ---
 permalink: /2025/sponsors
-title: ""
+title: "Sponsors"
 classes: wide
 ---
 
