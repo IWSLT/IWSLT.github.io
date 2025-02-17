@@ -289,6 +289,7 @@ Chair(s):
 		<ul>
 			<li>Atul Kr. Ojha, University of Galway (atulkumar.ojha [email symbol] insight-centre.org)</li>
 			<li>John P. McCae, University of Galway</li>
+			<li> Yasmin Moslem, Bering Lab (only for Irish language pair)
 		</ul>
 	</li>
 	<li> Estonian:
