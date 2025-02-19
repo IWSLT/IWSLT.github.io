@@ -98,9 +98,9 @@ The preliminary timeline is below and may be subject to minor changes.
 
 
 ## Organizers
-- Marine Carpuat, University of Maryland, USA (Program Chair) 
-- Marcello Federico, Amazon, Spain (Conference Chair)
-- Alex Waibel, CMU, USA (Conference Chair)
+- Marcello Federico, Amazon, Spain (Conference co-Chair)
+- Alex Waibel, CMU, USA (Conference co-Chair)
+- Antonios Anastasopoulos, George Mason University (Program Chair)
 - Jan Niehues, KIT, Germany (Evaluation Chair)
 - Sebastian Stüker, Zoom, Germany (Sponsorship Chair)
 - Elizabeth Salesky, JHU, USA (Publication and Website Chair)
