@@ -59,7 +59,7 @@ The evaluation will consider two criteria: model size and translation performanc
 
 Each bin will independently evaluate models within its range to ensure fair comparisons among models of similar size. Models exactly on a bin boundary will be placed in the higher bin (e.g., 200 MB is categorized into Bin4).
 
-Each model will be evaluated for translation quality within its respective bin. Translation quality will be assessed using **COMET**, comparing the model's output to reference translations. As in the offline track, COMET scores will be calculated on the <!-- ACL 60/60 -->
+Each model will be evaluated for translation quality within its respective bin. Translation quality will be assessed using [**COMET**](https://huggingface.co/Unbabel/wmt22-comet-da), comparing the model's output to reference translations. As in the offline track, COMET scores will be calculated on the <!-- ACL 60/60 -->
 test sets through automatic resegmentation of the hypothesis, aligned with the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Additionally, human evaluation will be conducted on the best-performing submission from each participant.
 
 <!--## Data
