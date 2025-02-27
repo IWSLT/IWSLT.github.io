@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 ---
 
-[Last update: Jan. 7, 2025]
+[Last update: Jan. 27, 2025]
 
 ## Description
 
@@ -73,17 +73,17 @@ In SQA, questions are provided both in the same language of the speech (English)
 
 The Long Track will process audio files in WAV format that are, on average, 5–6 minutes long. The Short Track will handle the same audio files, but they will be automatically segmented into 15–20 second audio segments, on average, using [SHAS](https://github.com/mt-upc/SHAS).
 
-We provide an example for the Long track, [downloadable here](https://drive.google.com/file/d/1qhej5_Irx_PC1H_IpPDSbOVdLBzZiH8g/view?usp=sharing). ***Participants are also allowed to use it as 1-shot example for their model.***
+We provide an example for the Long track, [downloadable here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESlS27NCiRNCj5kBYusDpW4BCkpCPe7cI_5ON75tIAe2hw?e=mOsdQV). ***Participants are also allowed to use it as 1-shot example for their model.***
 
 We also provide useful scripts for parsing inputs and outputs, [downloadble here](https://drive.google.com/file/d/1o0fZ4uC3WbnZ9CVjB2uFoextkI_xTt9v/view?usp=sharing).
 
-**Details on the metrics used will be given soon.**
+**Details on the metrics used for the final ranking will be given after the Evaluation period.**
 
 ## Submission
 
 <!-- Description of expected submission format and submission instructions -->
 
-Results will have to be uploaded through a web platform. **More details will be given soon.**
+**More details will be given soon.**
 
 
 ## Organizers
