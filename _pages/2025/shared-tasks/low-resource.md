@@ -90,7 +90,7 @@ Participants can build systems for evaluation in any of these conditions:
 IWSLT participants may obtain the Tunisian-English speech translation data for no cost from LDC. Please sign [this](https://github.com/fbougares/iwslt25_aeb-eng/blob/main/IWSLT_2025_LDC_Evaluation_Agreement.pdf) and email it to ldc@ldc.upenn.edu. This 3-way parallel data corresponds to datasets (1) and (2) mentioned in the above Description section.
 TARIC data set is available by fill out the form available at <https://demo-lia.univ-avignon.fr/taric-dataset/> of TARIC
 
-After you obtain the data sets please use the files ids available here <https://github.com/fbougares/iwslt25_aeb-eng> to generate your dev and internet test sets. The official test set files will be released later for official evaluation.
+After you obtain the data sets please use the files ids available here <https://github.com/fbougares/iwslt25_aeb-eng> to generate your dev and internal test sets. The official test set files will be released later for official evaluation.
 
 **Baseline Models**
 
