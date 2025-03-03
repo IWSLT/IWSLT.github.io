@@ -170,9 +170,14 @@ We point participants to additional Bhojpuri audio data (with transcriptions), p
 
 ### Estonian to English (est-eng)
 
-Details on  Estonian.
+<!---Details on  Estonian.
 
-Data pointers.
+Data pointers.--->
+
+Training and dev data for [IWSLT 2025](https://iwslt.org/2025/) Estonian-English speech translation task are available [here](https://github.com/taltechnlp/iwslt2025_est2eng_data) 
+
+Training data contains 581647 utterances (1258 hours), and the development set 1601 utterances (3.6 hours). Training data originates from the TalTech Estonian Speech Dataset 1.0 which is a manually transcribed dataset of mostly broadcast data created for training ASR models. All the speech data consists of long-form speech and has been manually transcribed and time-aligned with speech at an utterance level. In the dataset provided here, the long-form recordings have been split up into utterances. The transcripts have been automatically translated to English using Google Translate. Development data contains data from government and municipal press conferences, TV news and TV talk shows and has been manually translated to English. Both original Estonian transcriptions as well as English translations are provided for all utterances.
+
 
 ### Maltese to English (mlt-eng)
 
