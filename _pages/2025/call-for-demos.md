@@ -56,9 +56,7 @@ At least one author of an accepted demo must register for the conference and pre
 
 ### How to Submit
 
-Submit your extended abstract via the softconf submission portal.
-
-The conference submission portal will be posted in March. 
+Please submit your extended abstract via our [Submission Portal](https://softconf.com/acl2025/iwslt2025/)
 {: .notice--info}
 
 
