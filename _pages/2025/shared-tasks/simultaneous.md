@@ -35,10 +35,10 @@ We have two focuses this year:
 - **large language models**: participants are allowed to use LLMs (details will be announced later)
 
 The test set domains are the subsets of the ones of the offline track:
-- English -> German: ACL 60/60 and accent challenge data
+- English -> German: ACL talks and accent challenge data
 - ~~English -> Arabic: business news~~ (cancelled)
-- English -> Chinese: ACL 60/60
-- English -> Japanese: ACL 60/60
+- English -> Chinese: ACL talks
+- English -> Japanese: ACL talks
 - Czech -> English: 
 
 ## Data
@@ -46,8 +46,9 @@ The test set domains are the subsets of the ones of the offline track:
 The data condition for this task is "constrained with large language models (LLMs)".
 
 ### English-to-X
-Our English-to-X data condition follows the one in the offline task.
+Our English-to-X training data condition follows the one in the offline task.
 The list is available [here](https://iwslt.org/2025/offline#training-data-and-data-conditions).
+[ACL 60/60 dataset](https://aclanthology.org/2023.iwslt-1.2/) can be the development test set.
 
 ### Czech-to-English
 Details will be available later.
