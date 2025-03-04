@@ -56,7 +56,7 @@ Please join the [IWSLT Evaluation Campaign google group](https://groups.google.c
 
 ## Paper Submission
 
-Submssion portal: [SoftCont](https://softconf.com/acl2025/iwslt2025/)
+Read the following information before submitting your paper through our [Submission Portal](https://softconf.com/acl2025/iwslt2025/)
 {: .notice--info}
 
 IWSLT invites submissions of **scientific papers** to be **published** in the ACL Proceedings and presented either in oral or poster format. The conference selects high-quality, original contributions on theoretical and practical issues of spoken language translation research, technologies and applications. Submissions will be accepted directly through the IWSLT submission site. We also accept commitments of fully-reviewed papers from  ACL Rolling Review (_commitment deadline to come_). 
