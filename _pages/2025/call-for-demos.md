@@ -37,7 +37,7 @@ Submissions are encouraged in, but not limited to, the following areas:
 
 ### Submission Guidelines
 
-To participate in the demo session, please submit an **extended abstract of up to 2 pages** detailing:
+To participate in the demo session, please submit an **extended abstract of up to 2 pages**, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html), detailing:
 
 1. The problem addressed and its significance
 2. Technical description of the system or technology
