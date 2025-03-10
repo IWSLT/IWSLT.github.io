@@ -38,7 +38,7 @@ Participants can submit their runs under two data conditions: **constrained** an
 
 * ***Constrained*** 
 In this condition, participants are allowed to use only the 
-[ACL 60/60](https://iwslt.org/2023/multilingual#development-data) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
+[ACL 60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
 
 * ***Unconstrained***
 In this condition,  there are no restrictions on data usage.
