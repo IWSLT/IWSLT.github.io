@@ -43,7 +43,7 @@ The test set domains are the subsets of the ones of the offline track:
 
 ## Data
 <!-- Details description of the data and links to download -->
-The data condition for this task is "constrained with large language models (LLMs)".
+The data condition for this task is "constrained with large language models (LLMs)". Any model that is open-weights with a permissive license is acceptable for use. In addition, pretrained speech encoders and ASR models may be employed. 
 
 ### English-to-X
 Our English-to-X training data condition follows the one in the offline task.
@@ -64,7 +64,7 @@ Participants have two options for the submission:
 - Docker image submission; the organizers run the system to compare the computation-aware latency
 - System log submission; the computation-aware latency cannot be compared directly but will be reported with its hardware difference
 
-Details will be provided later.
+Systems submitted via docker image are expected to run on a single NVIDIA A100 GPU with 80 GB of HBM. 
 
 ## Evaluation
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
