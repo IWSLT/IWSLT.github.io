@@ -142,5 +142,5 @@ Jan Niehues (Karlsruhe Institute for Technology)
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair(s):   
+Chair: Matteo Negri (Fondazione Bruno Kessler)   
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
