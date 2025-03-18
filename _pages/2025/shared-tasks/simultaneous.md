@@ -56,8 +56,8 @@ Details will be available later.
 ## Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
-You can find the baseline here.
-[https://github.com/pe-trik/iwslt25-baselines/tree/master/experiments/acl6060_dev/de/fixed_segmenter](https://github.com/pe-trik/iwslt25-baselines/tree/master/experiments/acl6060_dev/de/fixed_segmenter)
+You can find the baseline 
+[here (GitHub)](https://github.com/pe-trik/iwslt25-baselines/tree/master/experiments/acl6060_dev/de/fixed_segmenter).
 
 We'll have two latency regimes, low and high.
 The exact thresholds, which are measured by non-computation-aware StreamLAAL, will soon be available.
