@@ -96,6 +96,9 @@ The preliminary timeline is below and may be subject to minor changes.
 **Note:** All deadlines are 11:59PM UTC-12:00.
 
 
+## Sponsorship Opportunities
+IWSLT welcomes [sponsorships](/2025/sponsors)!
+
 
 ## Organizers
 - Marcello Federico, Amazon, Spain (Conference co-Chair)
@@ -107,7 +110,45 @@ The preliminary timeline is below and may be subject to minor changes.
 - Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
 
 
-## Sponsorship Opportunities
-IWSLT welcomes [sponsorships](/2025/sponsors)!
 
+## Program Committee
 
+- Ibrahim Said	Ahmad
+- Tanel	Alumäe
+- Maximilian	Awiszus
+- Laurent	Besacier
+- Claudia	Borg
+- Mauro	Cettolo
+- Lizhong	Chen
+- Qianqian	Dong
+- Akiko	Eriguchi
+- Mark	Fishel
+- Marco	Gaido
+- Gerard I.	Gállego
+- HyoJung	Han
+- Benjamin	Hsu
+- Philipp	Koehn
+- Surafel M.	Lakew
+- Yves	Lepage
+- Evgeny	Matusov
+- Chandresh	Maurya
+- Matteo	Negri
+- Jan	Niehues
+- Atul Kr.	Ojha
+- John E.	Ortega
+- Sara	Papi
+- Kumar	Rishu
+- Elizabeth	Salesky
+- Rico	Sennrich
+- Berrak	Sisman
+- Gerasimos	Spanakis
+- Matthias	Sperber
+- Sebastian	Stüker
+- Katsuhito	Sudoh
+- Yun	Tang
+- Marco	Turchi
+- Yogesh	Virkar
+- Krzysztof	Wolk
+- Tong	Xiao
+- Brian	Yan
+- Rodolfo	Zevallos
