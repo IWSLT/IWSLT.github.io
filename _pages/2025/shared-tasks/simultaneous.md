@@ -53,6 +53,9 @@ The list is available [here](https://iwslt.org/2025/offline#training-data-and-da
 ### Czech-to-English
 Details will be available later.
 
+## Test set
+This year's test sets will be available at the beginning of the evaluation period (April 1st).
+
 ## Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
@@ -70,6 +73,11 @@ Participants have two options for the submission:
 - System log submission; the computation-aware latency cannot be compared directly but will be reported with its hardware difference
 
 Systems submitted via docker image are expected to run on a single NVIDIA A100 GPU with 80 GB of HBM. 
+
+Submission link: (available soon)
+
+Participants can update their submissions during the evaluation period.
+
 
 ## Evaluation
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
