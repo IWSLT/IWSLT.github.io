@@ -50,7 +50,7 @@ At least one author of an accepted demo must register for the conference and pre
 
 ### Important Dates
 
-- Submission Deadline: April 21, 2025
+- Submission Deadline: April 25, 2025
 - Notification of Acceptance: May 15, 2025
 - Demo Session: August 1, 2025
 
