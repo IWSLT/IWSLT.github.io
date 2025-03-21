@@ -114,42 +114,41 @@ IWSLT welcomes [sponsorships](/2025/sponsors)!
 
 ## Program Committee
 
-- Ibrahim Said	Ahmad
-- Tanel	Alumäe
-- Maximilian	Awiszus
-- Laurent	Besacier
-- Claudia	Borg
-- Mauro	Cettolo
-- Lizhong	Chen
-- Qianqian	Dong
-- Akiko	Eriguchi
-- Mark	Fishel
-- Marco	Gaido
-- Gerard I.	Gállego
-- HyoJung	Han
-- Benjamin	Hsu
-- Philipp	Koehn
-- Surafel M.	Lakew
-- Yves	Lepage
-- Evgeny	Matusov
-- Chandresh	Maurya
-- Matteo	Negri
-- Jan	Niehues
-- Atul Kr.	Ojha
-- John E.	Ortega
-- Sara	Papi
-- Kumar	Rishu
-- Elizabeth	Salesky
-- Rico	Sennrich
-- Berrak	Sisman
-- Gerasimos	Spanakis
-- Matthias	Sperber
-- Sebastian	Stüker
-- Katsuhito	Sudoh
-- Yun	Tang
-- Marco	Turchi
-- Yogesh	Virkar
-- Krzysztof	Wolk
-- Tong	Xiao
-- Brian	Yan
-- Rodolfo	Zevallos
+- Tanel Alumäe, Tallinn University of Technology
+- Maximilian Awiszus, Zoom
+- Laurent Besacier, Naver Labs Europe
+- Claudia Borg, University of Malta
+- Mauro Cettolo, FBK
+- Lizhong Chen, Oregon State University
+- Qianqian Dong, ByteDance
+- Akiko Eriguchi, Microsoft
+- Mark Fishel, University of Tartu
+- Marco Gaido, FBK
+- Gerard I. Gállego, Barcelona Supercomputing Center & Universitat Politècnica de Catalunya
+- HyoJung Han, University of Maryland
+- Benjamin Hsu, Amazon
+- Philipp Koehn, Johns Hopkins University
+- Surafel M. Lakew, Amazon
+- Yves Lepage, Waseda University
+- Evgeny Matusov, AppTek
+- Chandresh Maurya, Indian Institute of Technology Indore
+- Matteo Negri, FBK
+- Jan Niehues, KIT
+- Atul Kr. Ojha, University of Galway
+- John E. Ortega, Northeastern Universtiy
+- Sara Papi, FBK
+- Kumar Rishu, UFAL Charles University
+- Elizabeth Salesky, Google
+- Rico Sennrich, University of Zurich
+- Berrak Sisman, Johns Hopkins University
+- Gerasimos Spanakis, Maastricht University
+- Matthias Sperber, Apple
+- Sebastian Stüker, Zoom
+- Katsuhito Sudoh, NAIST
+- Yun Tang, Samsung Research America
+- Marco Turchi, Zoom
+- Yogesh Virkar, Amazon
+- Krzysztof Wolk, Wolk.AI
+- Tong Xiao, Northeastern University
+- Brian Yan, Carnegie Mellon University
+- Rodolfo Zevallos, Universitat Pompeu Fabra
