@@ -49,6 +49,7 @@ The data condition for this task is "constrained with large language models (LLM
 Our English-to-X training data condition follows the one in the offline task.
 The list is available [here](https://iwslt.org/2025/offline#training-data-and-data-conditions).
 [ACL 60/60 dataset](https://aclanthology.org/2023.iwslt-1.2/) can be the development test set.
+The development data can be found [here](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) while the yaml files containing the audio information (useful for metrics computation) can be found [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ETIMufobKrxLqfePQCvss8gBJ-2QMsFBJGqfJQEepGETfQ?e=HGwB6x).
 
 ### Czech-to-English
 Details will be available later.
@@ -59,11 +60,8 @@ This year's test sets will be available at the beginning of the evaluation perio
 ## Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
-You can find the baseline 
+The baselines for each language pair can be found 
 [here (GitHub)](https://github.com/pe-trik/iwslt25-baselines/tree/master/experiments/acl6060_dev/de/fixed_segmenter).
-
-We'll have two latency regimes, low and high.
-The exact thresholds, which are measured by non-computation-aware StreamLAAL, will soon be available.
 
 ## Submission
 <!-- Description of expected submission format and submission instructions -->
@@ -72,12 +70,13 @@ Participants have two options for the submission:
 - Docker image submission; the organizers run the system to compare the computation-aware latency
 - System log submission; the computation-aware latency cannot be compared directly but will be reported with its hardware difference
 
-Systems submitted via docker image are expected to run on a single NVIDIA A100 GPU with 80 GB of HBM. 
+Systems submitted via docker image are expected to run on a single NVIDIA A100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*.
+
+Regardless of the submission type (Docker or log), participants must also submit results on the *development set* (i.e., ACL 60/60 or the dedicated Czech-to-English dev set) to determine the **latency regime** of their submission.
 
 Submission link: (available soon)
 
 Participants can update their submissions during the evaluation period.
-
 
 ## Evaluation
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
@@ -85,21 +84,23 @@ Participants can update their submissions during the evaluation period.
 ### Metrics
 The system's performance will be evaluated in two ways:
 
-- Translation quality metrics:
+- Quality:
   - BLEU
   - Additional results using neural metrics (COMET, BLEURT, …)
-- Translation latency:
-  - Average Lagging
-  - Length Adaptive Average Lagging
-  - Average Token Delay
+- Latency:
+  - [StreamLAAL](https://github.com/hlt-mt/FBK-fairseq/blob/master/fbk_works/STREAMATT_STREAMLAAL.md)
 
 For latency measurement, we will contrast computation aware and non computation aware latency metrics.
-See the [SimulEval description](https://arxiv.org/abs/2007.16193) for how those metrics are defined.
-Note that the definition of average lagging has been modified from the [original definition](https://www.aclweb.org/anthology/P19-1289/) (see section 3.2 in the [SimulEval description](https://arxiv.org/abs/2007.16193)).
 
 ### Ranking
-The systems will be ranked by the translation quality within the latency constraints.
-The detailed constraint for each track will be announced later.
+The systems will be ranked by the translation quality within the latency constraints, measured by non-computation-aware StreamLAAL.
+
+This year, we have two latency regimes, **low** and **high**. 
+
+The detailed latency constraints (non-computationally-aware StreamLAAL) for each language pair are the following:
+- **English-to-German** and **Czech-to-English**: 0-2s (*low*), 2-4s (*high*);
+- **English-to-Chinese**: 0-2.5s (*low*), 2.5-4s (*high*);
+- **English-to-Japanese**: 0-3.5s (*low*), 3.5s-5s (*high*).
 
 ### Human Evaluation
 Human evaluation will be conducted for primary submissions.
