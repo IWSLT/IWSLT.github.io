@@ -1,7 +1,6 @@
 ---
 permalink: /past-editions/
 title: "Past Editions"
-classes: wide
 ---
 
 

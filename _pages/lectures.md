@@ -1,7 +1,6 @@
 ---
 permalink: /lectures/
 title: "Lectures"
-classes: wide
 ---
 
 <br/>

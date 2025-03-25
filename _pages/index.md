@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "Welcome to IWSLT!"
-classes: wide
 ---
 
 The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference, dedicated to all aspects of spoken language translation.

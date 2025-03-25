@@ -1,7 +1,6 @@
 ---
 permalink: /2025/sponsors
 title: "Sponsors"
-classes: wide
 ---
 
 
