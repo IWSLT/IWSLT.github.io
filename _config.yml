@@ -82,8 +82,6 @@ defaults:
       path: ""
       type: posts
     values:
-      sidebar:
-        nav: "twitter"
       layout: single
       author_profile: false
       read_time: true
@@ -95,8 +93,6 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      sidebar:
-        nav: "twitter"
       layout: single
       author_profile: false
 
