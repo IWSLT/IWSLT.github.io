@@ -7,12 +7,12 @@
 /* variables definitions go above import statements, css etc goes below */
 
 $background-color: #fff !default;
-$link-color: teal !default;
-$text-color: #3d4144 !default;
+$link-color: #7f253c !default;
+$text-color: #1c1c1c !default;
 $link-color-visited: $link-color !default;
 
-$masthead-link-color: black !default;
-$masthead-link-color-hover: $link-color !default;
+$masthead-link-color: #fff !default;
+$masthead-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 
 /* type scale */
@@ -33,29 +33,13 @@ $type-size-8                  : 0.6875em !default; // ~11px
 // -----------------
 
 /* horizontal spacing */
-@media (min-width: 80em) { .masthead__inner-wrap {max-width: 1370px;} }
-@media (min-width: 80em) { #main { max-width: 1380px; } }
-@media (min-width: 64em) { .page {float: right;width: calc(100% - 220px);padding-right: 220px;} }
-@media (min-width: 80em) { .page {width: calc(100% - 275px);padding-right: 320px;} }
 
-@media (min-width: 64em) { .wide .page { padding-right: 100px; } }
-@media (min-width: 80em) { .wide .page { padding-right: 100px; } }
-@media (min-width: 64em) { .wide .page__related { padding-right: 100px; } }
-@media (min-width: 80em) { .wide .page__related { padding-right: 100px; } }
-
-@media (min-width: 64em) { .wide .archive { padding-right: 100px; } }
-@media (min-width: 80em) { .wide .archive { padding-right: 100px; } }
-
-@media (min-width: 64em) { .sidebar { width: calc(200px - 1em); } }
-@media (min-width: 80em) { .sidebar { width: calc(250px - 1em); } }
-
-@media (max-width: 64em) { .sidebar { display: none; } }
-
-.sidebar { clear: both; padding-right: 0px; }
 
 /* vertical spacing */
 h1, h2, h3, h4, h5, h6 {
-    margin: 1.5em 0 0.5em; line-height: 1.2;font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;font-weight: bold;
+    margin: 1.5em 0 0.5em;
+    line-height: 1.2;
+    font-family: 'Jubilat-Medium';
 }
  
 .page__title {
@@ -81,9 +65,16 @@ a {
     color: $link-color;
 }
 
+.notice--info {
+    background-color: #e0c9ce !important;
+}
+
+.notice--info a {
+    color: $link-color;
+}
+
 .greedy-nav a.site-title {
     font-weight: bold;
-    color: black;
 }
 
 .greedy-nav a {
@@ -111,7 +102,7 @@ a {
 }
 
 .toc .nav__title {
-    background: $masthead-link-color;
+    background: $link-color;
 }
 
 /* font sizes */
@@ -188,14 +179,36 @@ img {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.toc {
+    background: #d8d9df;
+    padding-bottom: 5px;
+    border: 1px solid #d8d9df !important;
+}
+
+.toc__menu a {
+    border-bottom: 1px solid #c7c8d1 !important;
+}
+
 .toc__menu li ul li ul > li a {
     padding-left: 1.75rem;
-    color: #517a88a6;
+    color: $text-color !important;
+}
+
+ul {
+    margin-block-start: 0.5em;
+}
+
+.toc__menu a {
+    color: $text-color !important;
 }
 
 .masthead {
-    background: #009688;
-    border-bottom: 1px solid #009688;
+    background: $link-color;
+    font-family: 'Jubilat-Light';    
+}
+
+.masthead a {
+    font-family: 'Jubilat-Light';
 }
 
 .greedy-nav {
@@ -207,4 +220,43 @@ img {
     max-width: none;
     margin-top: 10px;
     width: 100%;
+}
+
+
+/* Fonts */
+
+$sans-serif-narrow  : "PT Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$global-font-family : "PT Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+body, .toc, .notice--info {
+    font-family: $sans-serif-narrow !important;
+}
+
+
+@font-face {
+    font-family: 'Jubilat-Regular';
+    src: url('/assets/fonts/Jubilat-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jubilat-Light';
+    src: url('/assets/fonts/Jubilat-Regular.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jubilat-Medium';
+    src: url('/assets/fonts/Jubilat-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jubilat-Bold';
+    src: url('/assets/fonts/Jubilat-Bold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
 }
