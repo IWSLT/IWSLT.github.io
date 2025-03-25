@@ -1,7 +1,6 @@
 ---
 permalink: /sigslt/
 title: "SIGSLT"
-classes: wide
 ---
 
 ## ACL-ISCA-ELRA Special Interest Group on Spoken Language Translation
@@ -32,7 +31,7 @@ Its purpose is to promote interest in the research area of spoken language trans
   * Jan Niehues, KIT, Germany
   * Atul Kr. Ojha, University of Galway, Ireland
   * Juan Pino, Meta, USA
-  * Elizabeth Salesky, JHU, USA
+  * Elizabeth Salesky, Google, USA
   * Mark Seligman, Spoken Translation Inc., USA
   * Katsuhito Sudoh, NAIST, Japan
   * Sebastian Stüker, Zoom, Germany (*ELRA SIGSLT, President*)
