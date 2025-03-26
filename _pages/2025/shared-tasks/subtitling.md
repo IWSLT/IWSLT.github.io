@@ -74,7 +74,7 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
   * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive contains a README file with important infos, audios, reference **Arabic** and **German** subtitles, and YAML files which provide the audio segments for which subtitles must be created.
   * The **test** set 2025 will be released on April 1th.
-<!--, 2 recordings lasting approximately 2.5 hours each, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EUC1DTOdQpFMs9EYFeLx4CoBgI7jHvlgGWZk64RURwr_lA?e=Pkg364). The archive contains a README file with important infos, audios, and YAML files which provide the audio segments for which subtitles must be created.>
+<!--, 2 recordings lasting approximately 2.5 hours each, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EUC1DTOdQpFMs9EYFeLx4CoBgI7jHvlgGWZk64RURwr_lA?e=Pkg364). The archive contains a README file with important infos, audios, and YAML files which provide the audio segments for which subtitles must be created.-->
 
 ## 🟣 Subtitle Compression
 <!-- Details description of the data and links to download -->
