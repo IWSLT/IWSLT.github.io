@@ -107,7 +107,7 @@ IWSLT welcomes [sponsorships](/2025/sponsors)!
 - Antonios Anastasopoulos, George Mason University (Program Chair)
 - Jan Niehues, KIT, Germany (Evaluation Chair)
 - Sebastian Stüker, Zoom, Germany (Sponsorship Chair)
-- Elizabeth Salesky, JHU, USA (Publication and Website Chair)
+- Elizabeth Salesky, Google, USA (Publication and Website Chair)
 - Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
 
 
