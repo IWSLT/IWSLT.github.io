@@ -52,7 +52,32 @@ The list is available [here](https://iwslt.org/2025/offline#training-data-and-da
 The development data can be found [here](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) while the yaml files containing the audio information (useful for metrics computation) can be found [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ETIMufobKrxLqfePQCvss8gBJ-2QMsFBJGqfJQEepGETfQ?e=HGwB6x).
 
 ### Czech-to-English
-Details will be available later.
+
+Allowed data:
+
+- ParCzech 3.0 (ASR): 
+  - Allowed data: parczech-3.0-asr-train-20*.tar.gz
+  - https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3631?show=full 
+- VoxPopuli (ST)
+  - Unlabelled Data: cs_v2
+  - translated data Cs -> En data
+  - speech-to-speech Cs -> En data
+  - https://github.com/facebookresearch/voxpopuli
+- Common Voice Corpus 20.0 (ASR)
+  - Czech ASR data
+  - CV version: 20.0
+  - https://commonvoice.mozilla.org/en/datasets
+- Czeng 2.0 (MT)
+  - https://ufal.mff.cuni.cz/czeng
+- OpenSubtitles v2018 (MT)
+  - https://opus.nlpl.eu/OpenSubtitles/cs&en/v2018/OpenSubtitles 
+- Europarl (MT)
+  - https://www.statmt.org/europarl/ 
+- MOSEL (transcripts only)
+  - automatic transcripts for unlabeled VoxPopuli audio
+  - https://huggingface.co/datasets/FBK-MT/mosel 
+- Dev Set	(ST)
+  - https://drive.google.com/file/d/1-XicsrBQubkGK-kyBIxKO-7JAx94o_KV/view?usp=sharing 
 
 ## Test set
 This year's test sets will be available at the beginning of the evaluation period (April 1st).
