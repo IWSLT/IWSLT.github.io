@@ -140,12 +140,18 @@ Note: this list is identical to the one available in the subtitle task. Some tra
  
 ## Submission Guidelines
 
+**This year, the evaluation will be performed using an evaluation server. Complete information will be released by April 1st.**
+
+
   * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
-  * Submissions must be packaged as a gzipped TAR archive (see format below) and sent as an email attachment to <iwslt_offline_task_submission@fbk.eu>.
-  * The TAR archive should include in the file name the type of system (cascade/end-to-end) used to generate the submission
   * Each run has to be stored as a plain text file with one sentence per line
   * Scoring will be case-sensitive and will include punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
 
+
+<!-- * Submissions must be packaged as a gzipped TAR archive (see format below) and sent as an email attachment to <iwslt_offline_task_submission@fbk.eu>.
+  * The TAR archive should include in the file name the type of system (cascade/end-to-end) used to generate the submission -->
+
+<!-- 
 TAR archive file structure:
 ```
 < UserID >/< Set >.< LangDir >.< Task >.< UserID >.primary.txt  
@@ -169,7 +175,7 @@ The email should include the following information:
   * Data condition: Constrained/Unconstrained
   * Segmentation: Own/Given
   * Brief but accurate description of the system (main features, training data, model architecture, etc.):
-  * Do you want to make your submissions freely available for research purposes? (yes/no)
+  * Do you want to make your submissions freely available for research purposes? (yes/no) -->
  <!--  * Multilingual: Yes/No -->
 
 ## Contacts 
