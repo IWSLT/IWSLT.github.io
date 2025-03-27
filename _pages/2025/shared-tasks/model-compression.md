@@ -38,14 +38,14 @@ Participants can submit their runs under two data conditions: **constrained** an
 
 * ***Constrained*** 
 In this condition, participants are allowed to use only the 
-[ACL 60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
+[IWSLT25Instruct](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
 
 * ***Unconstrained***
 In this condition,  there are no restrictions on data usage.
 
 
 ## Evaluation 
-<!--For the two language directions (en-de, en-zh), the evaluation will be conducted separately on the respective ACL 60/60 evaluation sets, which are also used in the [Offline](https://iwslt.org/2025/offline) and [Instruction-Following Speech Processing](https://iwslt.org/2025/instruction-following) tracks.-->
+<!--For the two language directions (en-de, en-zh), the evaluation will be conducted separately on the respective IWSLT25Instruct evaluation sets, which are also used in the [Offline](https://iwslt.org/2025/offline) and [Instruction-Following Speech Processing](https://iwslt.org/2025/instruction-following) tracks.-->
 
 The evaluation will be separately conducted for the two language directions (en-de, en-zh) and data conditions (constrained, unconstrained).
 
@@ -59,7 +59,7 @@ The evaluation will consider two criteria: model size and translation performanc
 
 Each bin will independently evaluate models within its range to ensure fair comparisons among models of similar size. Models exactly on a bin boundary will be placed in the higher bin (e.g., 200 MB is categorized into Bin4).
 
-Each model will be evaluated for translation quality within its respective bin. Translation quality will be assessed using [**COMET**](https://huggingface.co/Unbabel/wmt22-comet-da), comparing the model's output to reference translations. As in the offline track, COMET scores will be calculated on the <!-- ACL 60/60 -->
+Each model will be evaluated for translation quality within its respective bin. Translation quality will be assessed using [**COMET**](https://huggingface.co/Unbabel/wmt22-comet-da), comparing the model's output to reference translations. As in the offline track, COMET scores will be calculated on the <!-- IWSLT25Instruct -->
 test sets through automatic resegmentation of the hypothesis, aligned with the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Additionally, human evaluation will be conducted on the best-performing submission from each participant.
 
 <!--## Data
@@ -74,9 +74,9 @@ English-German test set of the offline track, **coming soon!**-->
 
 
 ### Test data
-<!-- ACL 60/60  English-German test set of the offline track - **coming soon!** :hourglass_flowing_sand: -->
+<!-- IWSLT25Instruct  English-German test set of the offline track - **coming soon!** :hourglass_flowing_sand: -->
 
-<!-- ACL 60/60 English-Chinese test set of the offline track - **coming soon!** :hourglass_flowing_sand:  -->
+<!-- IWSLT25Instruct English-Chinese test set of the offline track - **coming soon!** :hourglass_flowing_sand:  -->
 
 English-German test set - **coming soon!** :hourglass_flowing_sand:
 
