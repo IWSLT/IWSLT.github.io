@@ -86,9 +86,11 @@ English-Chinese test set - **coming soon!** :hourglass_flowing_sand:
 
 <!-- Description of expected submission format and submission instructions -->
 
+**This year, the evaluation will be performed using an evaluation server. Complete information will be released by April 1st.**
+
 Multiple submissions are allowed for the two languages, both within the same bin and across different bins. In the case of multiple submissions for the same bin, participants must explicitly designate one as the PRIMARY submission, while all others will be treated as CONTRASTIVE submissions. If no submission is marked as PRIMARY, the most recent one (determined by the file timestamp) will be used as the PRIMARY submission.
 
-Submissions must be packaged as a gzipped TAR archive with the following file structure: 
+<!--Submissions must be packaged as a gzipped TAR archive with the following file structure: 
 ```
 < UserID >/< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.primary.txt  
   /< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.contrastive1.txt  
@@ -126,7 +128,7 @@ The email should include the following information:
     * Exact storage size:
     * Number of parameters:
     * Compression techniques:
-    * [**OPTIONAL**] Additional details (e.g. computational efficiency metrics like inference time and FLOPs):
+    * [**OPTIONAL**] Additional details (e.g. computational efficiency metrics like inference time and FLOPs):-->
 
 ## Organizers
 Matteo Negri (Fondazione Bruno Kessler)  
