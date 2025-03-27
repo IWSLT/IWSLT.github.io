@@ -28,9 +28,9 @@ In this spirit, this year's edition aims to:
 Similar to last year, the task will allow users to submit custom extensions (i.e. test suites) to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that traditional evaluation methods typically overlook. 
 
 Similarly to last year, three **language directions** are proposed in the offline task. Each language direction will be tested in different evaluation scenarios:
-* English -> German: TV series, ACL 60/60 presentations, business news, and accent challenge data.
+* English -> German: TV series, <!-- ACL 60/60 --> scientific presentations, business news, and accent challenge data.
 * English -> Arabic: business news. 
-* English -> Chinese: ACL 60/60 presentations. 
+* English -> Chinese: <!-- ACL 60/60 --> scientific presentations. 
 
 The test sets are totally or partially shared with other tasks (e.g. the subtitling task).
 
