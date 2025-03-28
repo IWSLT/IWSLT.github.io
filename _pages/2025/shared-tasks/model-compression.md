@@ -11,6 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
+## ANNOUNCEMENTS
 * 2025-03-28: Submission Procedure changed! We're moving to the MeeTween 
 [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). Check the new [**Submission Guidelines**](#sg).
 
@@ -107,6 +108,8 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 * If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
 
 ### Submission Steps
+
+Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proceed through the following two steps. 
 
 #### STEP 1: Create a New Model
 
