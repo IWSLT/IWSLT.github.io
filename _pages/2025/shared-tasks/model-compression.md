@@ -85,53 +85,91 @@ English-German test set - **coming soon!** :hourglass_flowing_sand:
 
 English-Chinese test set - **coming soon!** :hourglass_flowing_sand: 
 
-## Submission
+<a id="sg"></a>
+## Submission Guidelines
 
-<!-- Description of expected submission format and submission instructions -->
+This year, the evaluation will be performed using the MeeTween SPEECHM centralized evaluation server:
+[SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).
 
-**This year, the evaluation will be performed using an evaluation server. Complete information will be released by April 1st.**
+### General Guidelines
 
-Multiple submissions are allowed for the two languages, both within the same bin and across different bins. In the case of multiple submissions for the same bin, participants must explicitly designate one as the PRIMARY submission, while all others will be treated as CONTRASTIVE submissions. If no submission is marked as PRIMARY, the most recent one (determined by the file timestamp) will be used as the PRIMARY submission.
+* Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
 
-<!--Submissions must be packaged as a gzipped TAR archive with the following file structure: 
-```
-< UserID >/< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.primary.txt  
-  /< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.contrastive1.txt  
-  /< Set >.< Task >.< LangDir >.< UserID >.<Bin>.<Condition>.contrastive2.txt  
-  /... 
-```
+* Scoring will be case-sensitive and will include punctuation. Submissions have to be in plain UTF-8 text format, with one sentence per line. Tags such as applause, laughing, etc are not considered during the evaluation.
 
-where:  
-```
-< UserID > = the short name used in the registration form (e.g. the name of the participants’ institution)    
-< Set > = IWSLT25  
-< Task > = ModelCompressionTask  
-< LangDir > = en-de/en-zh  
-< Bin > = Bin1/Bin2/Bin3/Bin4/Bin5
-< Condition > = Constrained/Unconstrained 
-```
 
-For example: 
-``` 
-FBK/IWSLT25.ModelCompressionTask.en-de.FBK.Bin1.Constrained.primary.txt
-``` 
+* Once logged in to the  [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), the submission process requires participants to create one or more Models for each language pair they intend to participate in (English-German, English-Chinese).
 
-As in the offline track submissions, each (primary/contrastive) run has to be stored as a plain text file with one sentence per line.
+* For each chosen language pair, multiple Models can be created based on the training condition (CONSTRAINED / UNCONSTRAINED) and the submission type (PRIMARY / CONTRASTIVE).
 
-Scoring will be case-sensitive and will include punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
+* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., 1 test set for English-Chinese, and 4 test sets for English-German).
 
-The TAR archive must be sent as an email attachment to <iwslt_offline_task_submission@fbk.eu>.
+* If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
 
-The email should include the following information:
-  * Institute:
-  * Contact Person:
-  * Email:
-  * Data condition: Constrained/Unconstrained
-  * Brief description of the model(s):
-    * Exact storage size:
-    * Number of parameters:
-    * Compression techniques:
-    * [**OPTIONAL**] Additional details (e.g. computational efficiency metrics like inference time and FLOPs):-->
+### Submission Steps
+
+#### STEP 1: Create a New Model
+
+<!-- To create a new model, follow these steps: --> 
+
+    1.1 Click on “My submissions” (at the top of the page).
+    1.2 Click on “New model” (button at the top right).
+    1.3 Create a new model:
+       Insert the Model Name using the standardized format:
+       
+         ${TEAM}_IWSLT25_ModelCompression_${LANGUAGE_PAIR}_${BIN}_${CONDITION}_${SUBMISSION_TYPE}
+         
+          Where:
+           - ${TEAM} → Short name of your team (e.g., KIT)
+           - ${LANGUAGE_PAIR} → Choose from [en-de, en-ar, en-zh]
+           - ${BIN} → Choose from [Bin1, Bin2, Bin3, Bin4, Bin5]
+           - ${CONDITION} → Choose from [constrained, unconstrained]
+           - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
+
+           Example Model Names:
+             KIT_IWSLT25_ModelCompression_en-de_Bin3_constrained_primary  
+             KIT_IWSLT25_ModelCompression_en-de_Bin3_constrained_contrastive 
+     1.4 Insert Description
+       Provide a brief but accurate description of your model, including:
+          - Exact storage size [MANDATORY]
+          - Number of parameters [MANDATORY]
+          - Applied Compression techniques [MANDATORY]
+          - Datasets used [MANDATORY for submissions in the unconstrained condition]
+          - Any relevant additional details (e.g. computational efficiency metrics like inference time and FLOPs) [OPTIONAL] 
+     1.5 Consent Option (optional)
+       Consider enabling “Consents” to freely release your submitted system output data.
+     1.6 Select Task Compatibility
+       Choose the Model compression Task Id in the compatibility map.
+     1.7 Click “Create Model” (a “Model created” message will appear on the top right).
+
+#### STEP 2: Submit Your Processed Test Set
+
+    2.1 Go to “My Submissions”.
+    2.2 Click on the specific model created in STEP 1 
+       (e.g., KIT_IWSLT25_ModelCompression_en-de_Bin3_constrained_primary).
+    2.3 Click the “MODEL COMPRESSION Hypotheses” button.
+    2.4 Among the test sets and language pairs, click "Upload hypothesis" for the intended submission:
+       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
+    2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
+
+### Manage Your Submission
+
+#### Download or Delete a Submission
+    1 Click on “My Submissions”.
+    2 Click on the model associated with the submitted run 
+       (e.g., KIT_IWSLT25_ModelCompression_en-de_Bin3_constrained_primary).
+    3 Click on the “MODEL COMPRESSION Hypotheses” button.
+    4 Use the three-dot menu on the right to:
+        - Download the test input (audio source archive).
+        - Download the submitted run (hypothesis).
+        - Delete the submitted run and confirm.
+        
+#### Replace a Submission
+    1 Delete your existing run.
+    2 Submit a new run file (repeat STEP 2 of “Submission steps”).
+
+
+
 
 ## Organizers
 Matteo Negri (Fondazione Bruno Kessler)  
