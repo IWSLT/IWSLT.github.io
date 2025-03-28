@@ -166,7 +166,7 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 
 ### Submission Steps
 
-#### 1. Create a New Model
+#### STEP 1: Create a New Model
 
 <!-- To create a new model, follow these steps: --> 
 
@@ -198,10 +198,10 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
        Choose the Offline Task Id in the compatibility map.
      1.7 Click “Create Model” (a “Model created” message will appear on the top right).
 
-#### 2. Submit Your Processed Test Set
+#### STEP 2: Submit Your Processed Test Set
 
     2.1 Go to “My Submissions”.
-    2.2 Click on the specific model created in Step 1 
+    2.2 Click on the specific model created in STEP 1 
        (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
     2.3 Click the “OFFLINE Hypotheses” button.
     2.4 Among the test sets and language pairs, click "Upload hypothesis" for the intended submission:
