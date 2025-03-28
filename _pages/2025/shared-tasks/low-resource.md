@@ -227,8 +227,10 @@ Coming soon!
 ### Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-Coming soon!
+The official scoring will be based on automatic metrics (COMET, BLEU, chrF++) over lower-cased outputs after removing punctuation. 
+Please follow the “norm” files in the <a href="https://github.com/kevinduh/iwslt22-dialect">setup instructions</a>.
 
+We will also aim for a human evaluation of the translation outputs for the more competitive systems.
 
 
 ## Track 2: Training and Evaluation Data Track
