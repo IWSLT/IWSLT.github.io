@@ -214,7 +214,7 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
     1 Click on “My Submissions”.
     2 Click on the model associated with the submitted run 
        (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
-    3 Click on the "OFFLINE Hypotheses" button.
+    3 Click on the “OFFLINE Hypotheses” button.
     4 Use the three-dot menu on the right to:
         - Download the test input (audio source archive).
         - Download the submitted run (hypothesis).
