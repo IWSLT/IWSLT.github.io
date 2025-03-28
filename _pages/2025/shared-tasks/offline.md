@@ -152,14 +152,15 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 ### General Guidelines
 
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
-* Each run has to be stored as a plain text file with one sentence per line
-* Scoring will be case-sensitive and will include punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
+
+* Scoring will be case-sensitive and will include punctuation. Submissions have to be in plain UTF-8 text format, with one sentence per line. Tags such as applause, laughing, etc are not considered during the evaluation.
 
 
 * Once logged in to the  [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), the submission process requires participants to create one or more Models for each language pair they intend to participate in <!--for the Offline task--> (English-German, English-Arabic, English-Chinese).
 
 * For each chosen language pair, multiple Models can be created based on the training condition (CONSTRAINED / UNCONSTRAINED) and the submission type (PRIMARY / CONTRASTIVE).
-The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German).
+
+* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German).
 
 * If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
 
