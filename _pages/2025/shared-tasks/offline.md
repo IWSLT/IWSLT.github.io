@@ -203,7 +203,7 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
     2.1 Go to “My Submissions”.
     2.2 Click on the specific model created in Step 1 
        (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
-    2.3 Click the "OFFLINE Hypotheses" button.
+    2.3 Click the “OFFLINE Hypotheses” button.
     2.4 Among the test sets and language pairs, click "Upload hypothesis" for the intended submission:
        ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
     2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
