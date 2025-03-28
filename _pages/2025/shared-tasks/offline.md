@@ -222,7 +222,7 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
         
 #### Replace a Submission
     1 Delete your existing run.
-    2 Submit a new run file (repeat Step 2 of “Submission steps”).
+    2 Submit a new run file (repeat STEP 2 of “Submission steps”).
 
 
 
