@@ -12,7 +12,7 @@ if you want to have a line break either put a blank line in between the text or 
 -->
 
 ## ANNOUNCEMENTS
-* 2025-03-28: **Submission Guidelines changed!** We're moving to the MeeTween SPEECHM centralized evaluation server:
+* 2025-03-28: **[Submission Guidelines](#sg) changed!** We're moving to the MeeTween SPEECHM centralized evaluation server:
 [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).
   
 
@@ -143,6 +143,7 @@ Note: this list is identical to the one available in the subtitle task. Some tra
 
 * **Unconstrained** training: any resource, pre-trained language models included, can be used with the exception of evaluation sets 
  
+<a id="sg"></a>
 ## Submission Guidelines
 
 This year, the evaluation will be performed using the MeeTween SPEECHM centralized evaluation server:
@@ -161,10 +162,6 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German).
 
 * If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
-
-
-
-
 
 ### Submission Steps
 
