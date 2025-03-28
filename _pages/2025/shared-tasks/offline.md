@@ -229,45 +229,6 @@ The created Model(s) must be used to submit runs for each of the test sets relea
 
 
 
-
-<!-- **This year, the evaluation will be performed using an evaluation server. Complete information will be released by April 1st.** -->
-
-
- <!-- * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
-  * Each run has to be stored as a plain text file with one sentence per line
-  * Scoring will be case-sensitive and will include punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.-->
-
-
-<!-- * Submissions must be packaged as a gzipped TAR archive (see format below) and sent as an email attachment to <iwslt_offline_task_submission@fbk.eu>.
-  * The TAR archive should include in the file name the type of system (cascade/end-to-end) used to generate the submission -->
-
-<!-- 
-TAR archive file structure:
-```
-< UserID >/< Set >.< LangDir >.< Task >.< UserID >.primary.txt  
-  /< Set >.< LangDir >.< Task >.< UserID >.contrastive1.txt  
-  /< Set >.< LangDir >.< Task >.< UserID >.contrastive2.txt  
-  /...  
-```
-where:  
-`< UserID >` = user ID of the participant used the short name chosen in the registration form (e.g. the name of your institution)  
-`< Set >` = IWSLT21.SLT.tst2025  
-`< LangDir >` = en-de/zh/ar, using language identifiers (LIDs) as given by ISO 639-1 codes  
-`< Task >` =  OfflineTask.  
-For example, `FBK/IWSLT21.SLT.tst2025.en-de.OfflineTask.FBK.primary.txt`  
-
-All the submissions should be sent to this address: <iwslt_offline_task_submission@fbk.eu>
-
-The email should include the following information:
-  * Institute:
-  * Contact Person:
-  * Email:
-  * Data condition: Constrained/Unconstrained
-  * Segmentation: Own/Given
-  * Brief but accurate description of the system (main features, training data, model architecture, etc.):
-  * Do you want to make your submissions freely available for research purposes? (yes/no) -->
- <!--  * Multilingual: Yes/No -->
-
 ## Contacts 
 <!-- Decision to take: Add more contact here -->
 
