@@ -166,6 +166,8 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 
 ### Submission Steps
 
+Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proceed through the following two steps. 
+
 #### STEP 1: Create a New Model
 
 <!-- To create a new model, follow these steps: --> 
