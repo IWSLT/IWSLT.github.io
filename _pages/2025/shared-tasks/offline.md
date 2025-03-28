@@ -140,6 +140,91 @@ Note: this list is identical to the one available in the subtitle task. Some tra
  
 ## Submission Guidelines
 
+This year, the evaluation will be performed using the MeeTween SPEECHM centralized evaluation server:
+[SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).
+
+### General Guidelines
+
+* Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
+* Each run has to be stored as a plain text file with one sentence per line
+* Scoring will be case-sensitive and will include punctuation. Submissions have to be in UTF-8. Tags such as applause, laughing, etc are not considered during the evaluation.
+
+
+* Once logged in to the  [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), the submission process requires participants to create one or more Models for each language pair they intend to participate in <!--for the Offline task--> (English-German, English-Arabic, English-Chinese).
+
+* For each chosen language pair, multiple Models can be created based on the training condition (CONSTRAINED / UNCONSTRAINED) and the submission type (PRIMARY / CONTRASTIVE).
+The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German).
+
+* If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
+
+
+
+
+
+### Submission Steps
+
+#### 1. Create a New Model
+
+<!-- To create a new model, follow these steps: --> 
+
+    1.1 Click on “My submissions” (at the top of the page).
+    1.2 Click on “New model” (button at the top right).
+    1.3 Create a new model:
+       Insert the Model Name using the standardized format:
+       
+         ${TEAM}_IWSLT25_Offline_${LANGUAGE_PAIR}_${CONDITION}_${SUBMISSION_TYPE}
+         
+          Where:
+           - ${TEAM} → Short name of your team (e.g., KIT)
+           - ${LANGUAGE_PAIR} → Choose from [en-de, en-ar, en-zh]
+           - ${CONDITION} → Choose from [constrained, unconstrained]
+           - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
+
+           Example Model Names:
+             KIT_IWSLT25_Offline_en-de_constrained_primary  
+             KIT_IWSLT25_Offline_en-de_constrained_contrastive 
+     1.4 Insert Description
+       Provide a brief but accurate description of your model, including:
+          - General approach (e.g., cascade / end-to-end)
+          - Training data used
+          - Model architecture
+          - Any relevant features characterizing your approach
+     1.5 Consent Option (optional)
+       Consider enabling “Consents” to freely release your submitted system output data.
+     1.6 Select Task Compatibility
+       Choose the Offline Task Id in the compatibility map.
+     1.7 Click “Create Model” (a “Model created” message will appear on the top right).
+
+#### 2. Submit Your Processed Test Set
+
+    2.1 Go to “My Submissions”.
+    2.2 Click on the specific model created in Step 1 
+       (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
+    2.3 Click the "OFFLINE Hypotheses" button.
+    2.4 Among the test sets and language pairs, click "Upload hypothesis" for the intended submission:
+       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
+    2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
+
+### Manage Your Submission
+
+#### Download or Delete a Submission
+    1 Click on “My Submissions”.
+    2 Click on the model associated with the submitted run 
+       (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
+    3 Click on the "OFFLINE Hypotheses" button.
+    4 Use the three-dot menu on the right to:
+        - Download the test input (audio source archive).
+        - Download the submitted run (hypothesis).
+        - Delete the submitted run and confirm.
+        
+#### Replace a Submission
+    1 Delete your existing run.
+    2 Submit a new run file (repeat Step 2 of “Submission steps”).
+
+
+
+
+
 **This year, the evaluation will be performed using an evaluation server. Complete information will be released by April 1st.**
 
 
