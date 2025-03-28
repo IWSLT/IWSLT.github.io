@@ -11,6 +11,9 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
+* 2025-03-28: Submission Procedure changed! We're moving to the MeeTween 
+[SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). Check the new [**Submission Guidelines**](#sg).
+
 ## Task Overview
 
 <!-- Description the task, the languages, and the type of data -->
