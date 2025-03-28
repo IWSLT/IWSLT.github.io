@@ -12,8 +12,8 @@ if you want to have a line break either put a blank line in between the text or 
 -->
 
 ## ANNOUNCEMENTS
-* 2025-03-28: **[Submission Procedure changed!](#sg)** We're moving to the MeeTween SPEECHM centralized evaluation server:
-[SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/). Check the new [Submission Guidelines](#sg)
+* 2025-03-28: **Submission Procedure changed!** We're moving to the MeeTween SPEECHM centralized evaluation server:
+[SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/). Check the new [Submission Guidelines](#sg).
   
 
 ## Description
