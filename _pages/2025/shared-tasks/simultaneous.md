@@ -99,9 +99,9 @@ Systems submitted via docker image are expected to run on a single NVIDIA A100 G
 
 Regardless of the submission type (Docker or log), participants must also submit results on the *development set* (i.e., ACL 60/60 or the dedicated Czech-to-English dev set) to determine the **latency regime** of their submission.
 
-Submission link: (available soon)
+Submission link: [Dropbox Folder](https://www.dropbox.com/scl/fo/i4uh2wjrqbwedj9162gpo/AIVYqmU6Uf7IV_eRd7puMuk?rlkey=ds6qj1fmwocn32sq27m8atjdl&st=6aj128kv&dl=0)
 
-Participants can update their submissions during the evaluation period.
+Participants can update their submissions during the evaluation period. If you have specific questions regarding your submission to the simultaneous shared task, please reach out via e-mail at agostinv@oregonstate.edu.
 
 ## Evaluation
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
