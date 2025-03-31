@@ -39,7 +39,7 @@ The test set domains are the subsets of the ones of the offline track:
 - ~~English -> Arabic: business news~~ (cancelled)
 - English -> Chinese: ACL talks
 - English -> Japanese: ACL talks
-- Czech -> English: 
+- Czech -> English: dedicated dev set (see below)
 
 ## Data
 <!-- Details description of the data and links to download -->
