@@ -206,9 +206,11 @@ Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proce
     2.2 Click on the specific model created in STEP 1 
        (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
     2.3 Click the “OFFLINE Hypotheses” button.
-    2.4 Among the test sets and language pairs, click "Upload hypothesis" for the intended submission:
+    2.4 Click on “Test input” to download the test audio source archive for each test set and language.
+    2.5 Once you have generated the outputs with your model for the test set, click “Upload hypothesis” for the intended submission:
        ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
-    2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
+    2.6 Upload your submission file (plain UTF-8 text format, one sentence per line).
+
 
 ### Manage Your Submission
 
@@ -218,7 +220,6 @@ Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proce
        (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
     3 Click on the “OFFLINE Hypotheses” button.
     4 Use the three-dot menu on the right to:
-        - Download the test input (audio source archive).
         - Download the submitted run (hypothesis).
         - Delete the submitted run and confirm.
         
