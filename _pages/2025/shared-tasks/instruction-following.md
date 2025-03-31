@@ -32,6 +32,7 @@ Participants are asked to build a model capable to perform, depending on the tra
     * **Speech-to-text Translation (S2TT)**: the speech is translated into the target language;
     * **Spoken Question Answering (SQA)**: textual questions have to be answered based on the spoken content in the same language and in a language different from the speech (questions and answers are always in the same language);
     * **Speech-to-text Summarization (S2TSUM)**: a summary has to be provided from the spoken content in the same language and in a language different from the speech.
+
 All tasks listed for each track are mandatory.
 
 ### Languages
@@ -83,7 +84,83 @@ We also provide useful scripts for parsing inputs and outputs, [downloadble here
 
 <!-- Description of expected submission format and submission instructions -->
 
-**More details will be given soon.**
+This year, the evaluation will be performed using the Meetween [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).
+
+### General Guidelines
+
+* Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file time-stamp) for the respective track will be used as the PRIMARY run.
+
+* Once logged in to the [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), the submission process requires participants to create one or more Models for each target language they intend to participate in (English -> English, German, Italian, Chinese).
+
+* For each chosen target language, multiple Models can be created based on the training condition (CONSTRAINED / UNCONSTRAINED) and the submission type (PRIMARY / CONTRASTIVE).
+
+* The created Model(s) must be used to submit runs, which should follow the xml format specified in [the Evaluation section](#evaluation).
+
+* If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
+
+### Submission Steps
+
+Once logged in to [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), proceed through the following two steps. 
+
+#### STEP 1: Create a New Model
+
+<!-- To create a new model, follow these steps: --> 
+
+    1.1 Click on “My submissions” (at the top of the page).
+    1.2 Click on “New model” (button at the top right).
+    1.3 Create a new model:
+        1.3.1 Insert the Model Name using the standardized format:
+       
+            ${TEAM}_IWSLT25_IF_${TRACK}_${LANGUAGE_PAIR}_${CONDITION}_${SUBMISSION_TYPE}
+         
+            Where:
+            - ${TEAM} → Short name of your team (e.g., KIT)
+            - ${TRACK} → Choose from [SHORT, LONG]
+            - ${LANGUAGE_PAIR} → Choose from [en-en, en-de, en-it, en-zh]
+            - ${CONDITION} → Choose from [constrained, unconstrained]
+            - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
+
+            Example Model Names:
+                KIT_IWSLT25_IF_SHORT_en-de_constrained_primary  
+                KIT_IWSLT25_IF_SHORT_en-de_constrained_contrastive 
+
+        1.3.2 Insert Description
+            Provide a brief but accurate description of your model, including:
+                - General approach (e.g., SFM and LLM used, type of integration)
+                - Training data used
+                - Model architecture
+                - Any relevant features characterizing your approach
+        1.3.3 Consent Option (optional)
+            Consider enabling “Consents” to freely release your submitted system output data.
+        1.3.4 Select the Task in which you want to participate
+            Choose Instruction-Following Short (IFSHORT) and/or Instruction-Following Long (IFLONG) depending on which track(s) the model participates into as the Task ids in the Compatibility Map.
+        1.3.5 Click on “Create Model” (button at the bottom right).
+
+#### STEP 2: Submit the Outputs
+
+    2.1 Go to “My Submissions”.
+    2.2 Click on the specific model created in STEP 1 
+       (e.g., KIT_IWSLT25_IF_SHORT_en-de_constrained_primary).
+    2.3 Click the “IFSHORT/IFLONG Hypotheses” button.
+    2.4 Click on "Test input" to download the test input archive (containing audios and XMLs with instructions) for each test set and language.
+    2.5 Once you have generated the outputs with your model for the test set, click "Upload hypothesis" for the intended submission:
+       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
+    2.6 Upload your submission XML file.
+
+### Manage Your Submission
+
+#### Download or Delete a Submission
+    1 Click on “My Submissions”.
+    2 Click on the specific model created in STEP 1 
+       (e.g., KIT_IWSLT25_IF_SHORT_en-de_constrained_primary).
+    3 Click on the “IFSHORT/IFLONG Hypotheses” button.
+    4 Use the three-dot menu on the right to:
+        - Download the submitted run (hypothesis).
+        - Delete the submitted run and confirm.
+        
+#### Replace a Submission
+    1 Delete your existing run.
+    2 Submit a new run file (repeat STEP 2 of “Submission steps”).
 
 
 ## Organizers
