@@ -6,7 +6,7 @@ toc_sticky: true
 ---
 
 ## ANNOUNCEMENTS
-* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). See STEP 2.4 of the [**Submission Step**](#submission-steps).
+* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). See [**Download Test Data**](#step-0-download-test-data).
 
 ## Description
 
@@ -101,7 +101,12 @@ This year, the evaluation will be performed using the Meetween [SPEECHM Evaluati
 
 ### Submission Steps
 
-Once logged in to [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), proceed through the following two steps. 
+Once logged in to [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), proceed through the following steps. 
+
+#### STEP 0: Download Test Data
+    0.1 Click on “Test sets” (at the top of the page).
+    0.2 Click on the “IWSLT25INSTRUCT” test set. 
+    0.3 Download the test set (containing audios and XMLs with instructions) under “Entries for Instruction-Following Long/Short” depending on your track.
 
 #### STEP 1: Create a New Model
 
@@ -143,10 +148,9 @@ Once logged in to [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cy
     2.2 Click on the specific model created in STEP 1 
        (e.g., KIT_IWSLT25_IF_SHORT_en-de_constrained_primary).
     2.3 Click the “IFSHORT/IFLONG Hypotheses” button.
-    2.4 Click on "Test input" to download the test input archive (containing audios and XMLs with instructions) for each test set and language.
-    2.5 Once you have generated the outputs with your model for the test set, click "Upload hypothesis" for the intended submission:
+    2.4 Once you have generated the outputs with your model for the test set, click "Upload hypothesis" for the intended submission:
        ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
-    2.6 Upload your submission XML file.
+    2.5 Upload your submission XML file.
 
 ### Manage Your Submission
 
