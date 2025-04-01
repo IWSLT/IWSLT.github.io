@@ -12,6 +12,7 @@ if you want to have a line break either put a blank line in between the text or 
 -->
 
 ## ANNOUNCEMENTS
+* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). See the [**Submission Guidelines**](#sg).
 * 2025-03-28: Submission Procedure changed! We're moving to the MeeTween 
 [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). Check the new [**Submission Guidelines**](#sg).
   
@@ -56,7 +57,9 @@ All the systems will be evaluated using a combination of the different test test
 
 ## Test Data
 
-Coming Soon!
+<!--Coming Soon!-->
+
+All test data can be downloaded from the [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), see Submission STEP 2.4 below. 
 
 <!--
 The test data includes the official offline task data plus the test suite data (see below).
