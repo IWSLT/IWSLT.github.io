@@ -48,8 +48,8 @@ For more information, please see our [**Call for Demos**](/2025/call-for-demos)
 
 ## Registration
 
-Registration for the 2025 Evaluation Campaign will open later this year. 
-{: .notice--info}
+<!-- Registration for the 2025 Evaluation Campaign will open later this year. 
+{: .notice--info} -->
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
 
