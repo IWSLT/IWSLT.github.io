@@ -12,7 +12,8 @@ if you want to have a line break either put a blank line in between the text or 
 -->
 
 ## ANNOUNCEMENTS
-* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). See the [**Submission Guidelines**](#sg).
+<!--* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). See the [**Submission Guidelines**](#sg).-->
+* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/test_sets). See  [**Download the test data**](#downloadTest).
 * 2025-03-28: Submission Procedure changed! We're moving to the MeeTween 
 [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). Check the new [**Submission Guidelines**](#sg).
 
@@ -44,7 +45,7 @@ Participants can submit their runs under two data conditions: **constrained** an
 
 * ***Constrained*** 
 In this condition, participants are allowed to use only the 
-[IWSLT25Instruct](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
+[ACL60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data).
 
 * ***Unconstrained***
 In this condition,  there are no restrictions on data usage.
@@ -74,9 +75,7 @@ To support the model compression process, participants are allowed to use any da
 * Fine-tuning the reduced model after pruning, quantization, or other compression techniques.
 * Training the student model in knowledge distillation, using the outputs of the larger teacher model.
 
-### Test data
-English-German test set of the offline track, **coming soon!**-->
- 
+
 
 
 ### Test data
@@ -88,7 +87,8 @@ English-German test set of the offline track, **coming soon!**-->
 
 <!-- English-Chinese test set - **coming soon!** :hourglass_flowing_sand:  -->
 
-All test data can be downloaded from the [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), see Submission STEP 2.4 below. 
+<!--All test data can be downloaded from the [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), see Submission STEP 2.4 below.--> 
+All test data can be downloaded from the [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/test_sets), see Submission STEP 0 below. 
 
 
 <a id="sg"></a>
@@ -115,6 +115,15 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 ### Submission Steps
 
 Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proceed through the following two steps. 
+
+
+<a id="downloadTest"></a>
+#### STEP 0: Download and process the test data
+    0.1 Click on “Test sets” (at the top of the page).
+    0.2 Click on the “Model Compression” button associated with the “IWSLT25INSTRUCT” test set at top of the list.
+    0.3 Download the test sets for the language pair(s) chosen for participation  (1 test set for en-de, 1 test set for en-zh).
+    0.4 Process the test data to obtain your candidate submission file (to be stored in plain UTF-8 text format, one sentence per line)
+
 
 #### STEP 1: Create a New Model
 
@@ -156,10 +165,9 @@ Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proce
     2.2 Click on the specific model created in STEP 1 
        (e.g., KIT_IWSLT25_ModelCompression_en-de_Bin3_constrained_primary).
     2.3 Click the “MODEL COMPRESSION Hypotheses” button.
-    2.4 Click on “Test input” to download the test audio source archive for each test set and language.
-    2.5 Once you have generated the outputs with your model for the test set, click “Upload hypothesis” for the intended submission:
+    2.4 Once you have generated the outputs with your model for the test set, click “Upload hypothesis” for the intended submission:
        ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
-    2.6 Upload your submission file (plain UTF-8 text format, one sentence per line).
+    2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
 
     
 
