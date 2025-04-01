@@ -85,7 +85,7 @@ Allowed data:
 ## Test set
 The test sets for this year's submission are now available:
 - **English -> {German, Chinese, Japanese}**: [IWSLT25Instruct](https://fbk.sharepoint.com/:u:/s/MTUnit/EbwKrywzb5xMuPiDtmItJ_wBHQozf_k8wp3BXayUHrVj0g?e=DXKXWF)
-- **Czech -> English**: [IWSLT25](http://ufallab.ms.mff.cuni.cz/~polak/iwslt-2025.cs-en.audios.zip)
+- **Czech -> English**: [IWSLT25](https://drive.google.com/file/d/138KgEoFnNwKHVjh-hCF-JwQttwMyWpzl/view?usp=sharing)
 
 ## Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
