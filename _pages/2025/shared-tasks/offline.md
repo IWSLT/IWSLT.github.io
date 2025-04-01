@@ -12,7 +12,7 @@ if you want to have a line break either put a blank line in between the text or 
 -->
 
 ## ANNOUNCEMENTS
-* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). See the [**Submission Guidelines**](#sg).
+* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/test_sets). See  [**Download the test data**](#downloadTest).
 * 2025-03-28: Submission Procedure changed! We're moving to the MeeTween 
 [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). Check the new [**Submission Guidelines**](#sg).
   
@@ -59,7 +59,7 @@ All the systems will be evaluated using a combination of the different test test
 
 <!--Coming Soon!-->
 
-All test data can be downloaded from the [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), see Submission STEP 2.4 below. 
+All test data can be downloaded from the [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/test_sets), see Submission STEP 0 below. 
 
 <!--
 The test data includes the official offline task data plus the test suite data (see below).
@@ -171,6 +171,14 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 
 Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proceed through the following two steps. 
 
+<a id="downloadTest"></a>
+#### STEP 0: Download and process the test data
+    0.1 Click on “Test sets” (at the top of the page).
+    0.2 Click on the “offline” button associated with any of the visible test sets in the list.
+    0.3 Download the test sets for the language pair(s) chosen for participation  (4 test sets for en-de, 1 test set for en-ar, 1 test set for en-zh).
+    0.4 Process the test data to obtain your candidate submission file (to be stored in plain UTF-8 text format, one sentence per line)
+
+
 #### STEP 1: Create a New Model
 
 <!-- To create a new model, follow these steps: --> 
@@ -209,10 +217,9 @@ Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proce
     2.2 Click on the specific model created in STEP 1 
        (e.g., KIT_IWSLT25_Offline_en-de_constrained_primary).
     2.3 Click the “OFFLINE Hypotheses” button.
-    2.4 Click on “Test input” to download the test audio source archive for each test set and language.
-    2.5 Once you have generated the outputs with your model for the test set, click “Upload hypothesis” for the intended submission:
+    2.4 Once you have generated the outputs with your model for each test set, click “Upload hypothesis” for the intended submission:
        ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT25INSTRUCT / en-de)
-    2.6 Upload your submission file (plain UTF-8 text format, one sentence per line).
+    2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
 
 
 ### Manage Your Submission
