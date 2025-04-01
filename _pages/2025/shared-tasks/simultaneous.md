@@ -11,6 +11,9 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
+### ANNOUNCEMENT
+🥁 The test sets for this year are available under [Test Set](#test-set) and submission is **now open**! 🥁
+
 ## Description
 <!-- Description the task, the languages, and the type of data -->
 
@@ -80,7 +83,9 @@ Allowed data:
   - https://drive.google.com/file/d/1-XicsrBQubkGK-kyBIxKO-7JAx94o_KV/view?usp=sharing 
 
 ## Test set
-This year's test sets will be available at the beginning of the evaluation period (April 1st).
+The test sets for this year's submission are now available:
+- **English -> {German, Chinese, Japanese}**: [IWSLT25Instruct](https://fbk.sharepoint.com/:u:/s/MTUnit/EbwKrywzb5xMuPiDtmItJ_wBHQozf_k8wp3BXayUHrVj0g?e=DXKXWF)
+- **Czech -> English**: [IWSLT25](http://ufallab.ms.mff.cuni.cz/~polak/iwslt-2025.cs-en.audios.zip)
 
 ## Baselines
 <!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
@@ -92,8 +97,8 @@ The baselines for each language pair can be found
 <!-- Description of expected submission format and submission instructions -->
 The evaluation implementation will use the latest [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit.
 Participants have two options for the submission:
-- Docker image submission; the organizers run the system to compare the computation-aware latency
-- System log submission; the computation-aware latency cannot be compared directly but will be reported with its hardware difference
+- *Docker image submission*: the organizers run the system to compare the computation-aware latency
+- *System log submission:* the computation-aware latency cannot be compared directly but will be reported with its hardware difference
 
 Systems submitted via docker image are expected to run on a single NVIDIA A100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*. To enable communication between evaluators and participants, a point-of-contact and e-mail should be provided in the **README** in case of issues with evaluating the submitted system.
 
