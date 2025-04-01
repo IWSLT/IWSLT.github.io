@@ -5,7 +5,8 @@ toc: true
 toc_sticky: true
 ---
 
-[Last update: Mar. 6, 2025]
+## ANNOUNCEMENTS
+* 2025-04-01: Test data released through the [SPEECHM centralized evaluation server](https://iwslt2025.speechm.cloud.cyfronet.pl/). See STEP 2.4 of the [**Submission Step**](#submission-steps).
 
 ## Description
 
