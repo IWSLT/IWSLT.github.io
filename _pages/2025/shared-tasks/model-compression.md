@@ -69,7 +69,7 @@ Each bin will independently evaluate models within its range to ensure fair comp
 Each model will be evaluated for translation quality within its respective bin. Translation quality will be assessed using [**COMET**](https://huggingface.co/Unbabel/wmt22-comet-da), comparing the model's output to reference translations. As in the offline track, COMET scores will be calculated on the <!-- IWSLT25Instruct -->
 test sets through automatic resegmentation of the hypothesis, aligned with the reference translation by [mwerSegmenter](https://www-i6.informatik.rwth-aachen.de/web/Software/mwerSegmenter.tar.gz). The detailed evaluation script can be found in the [SLT.KIT](https://github.com/isl-mt/SLT.KIT/blob/master/scripts/evaluate/Eval.sh). Additionally, human evaluation will be conducted on the best-performing submission from each participant.
 
-<!--## Data
+## Data
 ### Supplied Development Data
 To support the model compression process, participants are allowed to use any datasets as long as they are publicly available. Possible resources include the English-German [training](https://iwslt.org/2024/offline) and [development](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask/tree/main/data/en-de) corpora allowed for the “Constrained” data condition of previous rounds of the offline track. These datasets can be used for:
 * Fine-tuning the reduced model after pruning, quantization, or other compression techniques.
