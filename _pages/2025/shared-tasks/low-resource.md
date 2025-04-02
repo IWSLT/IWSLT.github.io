@@ -150,6 +150,9 @@ Fongbe, a tonal African language, is the most spoken dialect of Benin, by more t
 This task involves translating spoken Fongbe into written French. The organizers provides nearly 57 hours of spoken Fongbe with corresponding French translations. The data used for this shared task is an extension of the [FFTSC corpus](https://aclanthology.org/2024.lrec-main.638.pdf)
 The use of this data is restricted to participation in this shared task.
 To get it, please sign [this form](https://drive.google.com/file/d/1xMG8riQEjnK1NHrkDLF86ZgosXlzbPxf/view?usp=sharing) and email it to fortune.kponou@imsp-uac.org
+
+**Evaluation data are now accessible to the registered participants on the [private HF repo](https://huggingface.co/GbeBenin) dedicated to this fon-fra task**
+
  
 ### Irish to English (gle-eng)
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
