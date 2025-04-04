@@ -144,6 +144,8 @@ Additional Bemba speech data (with transcriptions) are available here:
 - BembaSpeech [data](https://github.com/csikasote/BembaSpeech) [paper](https://arxiv.org/pdf/2102.04889.pdf)
 - ZambeziVoice [data](https://github.com/unza-speech-lab/zambezi-voice) [paper](https://arxiv.org/pdf/2306.04428.pdf)
 
+<strong>(NEW April 3) The test set can be accessed [here](https://github.com/csikasote/iwslt_2025_bem_eng_test).</strong>
+
 ### Fongbe to French (fon-fra)
 Fongbe, a tonal African language, is the most spoken dialect of Benin, by more than 50% of Benin’s population, including 8 million speakers. Fongbe is also spoken in Nigeria and Togo.
 
