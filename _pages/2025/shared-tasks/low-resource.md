@@ -161,6 +161,8 @@ Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (
 
 IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2025_ga-eng"> here</a>.
 
+<strong>(NEW April 5) The test set can be accessed [here](https://github.com/shashwatup9k/iwslt2025_ga-eng/tree/main/test-2025).</strong>
+
 ### Bhojpuri to Hindi (bho-hin)
 
 Bhojpuri belongs to the Indo-Aryan language group. It is dominantly spoken in India’s western part of Bihar, the north-western part of Jharkhand, and the Purvanchal region of Uttar Pradesh. As per the 2011 Census of India, it has around 50.58 million speakers. Bhojpuri is spoken not just in India but also in other countries such as Nepal, Trinidad, Mauritius, Guyana, Suriname, and Fiji. Since Bhojpuri was considered a dialect of Hindi for a long time, it did not attract much attention from linguists and hence remains among the many lesser-known and less-resourced languages of India.
