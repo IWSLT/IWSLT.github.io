@@ -175,6 +175,8 @@ We point participants to additional Bhojpuri audio data (with transcriptions), p
 - [Bhojpuri-wav2vec2 based model](https://github.com/Open-Speech-EkStep/vakyansh-models#wav2vec2-based-models)
 - [Bhojpuri Language Technological Resources (BHLTR)](https://github.com/shashwatup9k/bho-resources)
 
+<strong> (NEW April 5) The test set can be accessed [here](https://github.com/panlingua/iwslt2025_bho-hi/tree/main/test-2025).</strong>
+
 ### Estonian to English (est-eng)
 
 <!---Details on  Estonian.
