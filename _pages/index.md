@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-<img src="/assets/images/iwslt2025_riesenrad_banner.jpg" alt="Wien Riesenrad, with the text 22nd IWSLT, Vienna, 31 July-1 August 2025." id="index-img">
+<img src="/assets/images/iwslt2025_vienna_banner.png" alt="Vienna Schönbrunn Palace, with the text 22nd IWSLT, Vienna, 31 July-1 August 2025." id="index-img">
 
 
 The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference dedicated to all aspects of spoken language translation.

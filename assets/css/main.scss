@@ -7,13 +7,15 @@
 /* variables definitions go above import statements, css etc goes below */
 
 $background-color: #fff !default;
-$link-color: #7f253c !default;
+$masthead-color: #242d5c !default;
+$link-color: #f29b3e !default;
 $text-color: #1c1c1c !default;
 $link-color-visited: $link-color !default;
 
 $masthead-link-color: #fff !default;
 $masthead-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $masthead-link-color, 20%) !default;
+$notice--info-color: mix(#fff, $link-color, 80%) !default;
 
 /* type scale */
 $type-size-1                  : 2.441em !default;  // ~39.056px
@@ -66,7 +68,7 @@ a {
 }
 
 .notice--info {
-    background-color: #e0c9ce !important;
+    background-color: $notice--info-color !important;
 }
 
 .notice--info a {
@@ -207,7 +209,7 @@ ul {
 }
 
 .masthead {
-    background: $link-color;
+    background: $masthead-color;
     font-family: 'Jubilat-Light';    
 }
 
