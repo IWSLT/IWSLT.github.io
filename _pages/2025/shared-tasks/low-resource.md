@@ -213,6 +213,7 @@ We point participants to additional Marathi audio data (with transcriptions) fro
 - [OpenSLR](https://www.openslr.org/64/)
 - [Indian Language Corpora](https://www.cse.iitb.ac.in/~pjyothi/indiccorpora/)
 
+<strong> (NEW April 7) The test set can be accessed [here](https://github.com/panlingua/iwslt2025_mr-hi/tree/main/test-2025).</strong>
 
 ### Quechua to Spanish (que-spa)
 
