@@ -187,6 +187,7 @@ Training and dev data for [IWSLT 2025](https://iwslt.org/2025/) Estonian-English
 
 Training data contains 581647 utterances (1258 hours), and the development set 1601 utterances (3.6 hours). Training data originates from the TalTech Estonian Speech Dataset 1.0 which is a manually transcribed dataset of mostly broadcast data created for training ASR models. All the speech data consists of long-form speech and has been manually transcribed and time-aligned with speech at an utterance level. In the dataset provided here, the long-form recordings have been split up into utterances. The transcripts have been automatically translated to English using Google Translate. Development data contains data from government and municipal press conferences, TV news and TV talk shows and has been manually translated to English. Both original Estonian transcriptions as well as English translations are provided for all utterances.
 
+<strong> (NEW April 10) The test set can be accessed [here](https://github.com/TartuNLP/iwslt2025_est-eng).</strong>
 
 ### Maltese to English (mlt-eng)
 
