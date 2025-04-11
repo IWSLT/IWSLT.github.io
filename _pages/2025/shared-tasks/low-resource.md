@@ -64,6 +64,8 @@ We also provide links to speech recognition datasets that include Arabic data:
 - OpenSLR Resource [SLR108](https://www.openslr.org/108/)
 - OpenSLR Resource [SLR132](https://www.openslr.org/132/)
 
+<strong>(New April 11) The link to the GitHub repo (with updated section for 2025) is [here](https://github.com/ufal/IWSLT2024_Levantine_Arabic_data) provides the test set!</strong>
+
 ### Tunisian Arabic Dialect to English (aeb-eng) 
 <!--In spite of the recent progress in artificial intelligence and particularly in speech processing, the majority of world languages and dialects remain uncovered.
 That is the case of the Arabic-speaking world where informal communication is carried out using a mixture of local dialects, Standard Arabic and foreign languages such as English and French. This complex linguistic situation coupled with the absence of dedicated data sets represents a significant barrier to the development of performant speech processing systems for a number of Arabic dialects.
