@@ -226,6 +226,9 @@ There are two main region divisions of Quechua known as Quechua I and Quechua II
 
 IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *unconstrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2025_Quechua_data">IWSLT 2025 QUE-SPA Data set</a>. IWSLT particpants should feel free to use any publicly available data for the *unconstrained* task. This includes a data set of nearly 50 hours of fully transcribed Quechua audio from previous shared tasks along with the introduction of a new data set this year which is about 8 hours of synthetic (post-edited) translations. For assistance with the data sets, please email j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
 
+<strong> (NEW April 10) The test set can be accessed [here](https://github.com/Llamacha/IWSLT2025_Quechua_data/tree/main/que_spa_unconstrained/test).</strong>
+
+
 
 ### Baselines
 
