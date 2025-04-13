@@ -22,7 +22,7 @@ Simultaneous translation enables interesting applications such as automatic simu
 Simultaneous systems are typically evaluated with respect to quality and latency.
 
 There will be two tracks:
-- Text-to-Text: simultaneously translating text in source language into text in target language. Participants will employ an ASR agent of their choice to produce the text, so as to respect computational latency constraints.
+- Text-to-Text: simultaneously translating text in source language into text in target language. Participants will employ an ASR agent of their choice to produce the text, so as to respect computational latency constraints. No _golden_ transcripts are provided.
 - Speech-to-Text: simultaneously translating speech in source language into text in target language.
 
 in the following language directions (more details will be made available soon):
