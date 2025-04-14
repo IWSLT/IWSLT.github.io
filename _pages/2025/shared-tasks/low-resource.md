@@ -204,6 +204,8 @@ We also point participants to additional Maltese data here:
 - [MASRI Data](https://www.um.edu.mt/projects/masri/) speech recognition data
 - [Maltese Language Resource Server](https://mlrs.research.um.edu.mt/)
 
+<strong> (New April 14) Test data are available [here](https://drive.google.com/drive/folders/1ldOnKHZHD9YXfcPZ-DNwV-fS9J4jsSwI?usp=sharing). The link provides pointers to two test sets. We ask participants to submit predictions for both test sets, marking them in the file name appropriately.</strong>
+
 ### Marathi to Hindi (mar-hin)
 
 Marathi is an Indo-Aryan language dominantly spoken in India’s Maharashtra state. It is one of the 22 scheduled languages of India and the official language of Maharashtra and Goa. As per the 2011 Census of India, it has around 83 million speakers which covers 6.86% of the country's total population. Marathi speakers rank third amongst the languages that are spoken in India.
