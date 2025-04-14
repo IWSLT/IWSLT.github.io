@@ -100,7 +100,7 @@ Participants have two options for the submission:
 - *Docker image submission*: the organizers run the system to compare the computation-aware latency
 - *System log submission:* the computation-aware latency cannot be compared directly but will be reported with its hardware difference
 
-Systems submitted via docker image are expected to run on a single NVIDIA A100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*. To enable communication between evaluators and participants, a point-of-contact and e-mail should be provided in the **README** in case of issues with evaluating the submitted system.
+Systems submitted via docker image are expected to run on a single NVIDIA A100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*. To enable communication between evaluators and participants, a point-of-contact and e-mail should be provided in the **README** in case of issues with evaluating the submitted system. Docker images should include the `linux/arm64` architecture, specified during building via the `--platform` flag.
 
 Regardless of the submission type (Docker or log), participants must also submit results on the *development set* (i.e., ACL 60/60 or the dedicated Czech-to-English dev set) to determine the **latency regime** of their submission.
 
