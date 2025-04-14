@@ -230,15 +230,40 @@ IWSLT participants may obtain the public Quechua-Spanish speech translation data
 
 
 
-### Baselines
-
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
-Coming soon!
-
 ### Submission
 
 <!-- Description of expected submission format and submission instructions -->
-Coming soon!
+<strong> (New April 13) Concrete details for the submissions are available!</strong> 
+
+We will primarily focus on speech translation results ("st"), but participants are welcome to share intermediate speech recognition outputs as well ("asr").
+
+We ask participants to identify their _primary_ submission (which will be used for the final ranking). We will also allow up to two contrastive submissions ("contrastive1", "contrastive2").
+
+Please name all files as follows:
+- [team_name].[task].[type].[label].[language-pair].txt
+
+where:
+- "team_name" is the name of the team
+- "task" is one of "st" and "asr"
+- "type" is one of "constrained" and "unconstrained"
+- "label" is one of "primary", "contrastive1", or "contrastive2"
+- "language-pair" uses the three-letter ISO codes defined above (e.g. que-spa for Quechua to Spanish)
+
+If participants do not have a constrained/unconstrained system or primary, constrastive1, constrastive2 they should submit only the files that they have, please do NOT repeat submissions.
+
+<strong>Submission files should contain translations (or transcriptions) in the format of one per line following the format of the segments file (in sequence) corresponding to the test data splits.</strong>
+
+We ask participants to email their submissions for all language pairs to the organizers in the following email address:
+- iwslt.2025.lowres.submissions@gmail.com
+
+If submitting a system for Quechua, please cc John Ortega: j.ortega@northeastern.edu
+If submitting a system for Bhojpuri, Marathi, or Irish, please cc Atul K. Ojha: atulkumar.ojha@insight-centre.org
+
+Ideally, your email body should include a brief description of your system (which the organizers can use/modify for describing your submission in the Findings paper), and a brief explanation if you include multiple files per language. 
+
+
+**\[April 14 Update:\] ANNOUNCING A 4 DAY EXTENSION -- FINAL DEADLINE IS APRIL 19 EOD**
+
 
 ### Evaluation
 
@@ -270,7 +295,7 @@ We highly encourage participants to get creative, however we also want to ensure
 
 ### Paper Submission Requirements
 
-Coming soon!
+Coming soon!                                                               
 
 ## Organizers
 
