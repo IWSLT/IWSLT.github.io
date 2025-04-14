@@ -123,7 +123,7 @@ The system's performance will be evaluated in two ways:
 For latency measurement, we will contrast computation aware and non computation aware latency metrics.
 
 ### Ranking
-The systems will be ranked by the translation quality within the latency constraints, measured by non-computation-aware StreamLAAL.
+The systems will be ranked by the translation quality within the latency constraints, measured by non-computation-aware StreamLAAL. System latency is based on the log with *development set* results.
 
 This year, we have two latency regimes, **low** and **high**. 
 
