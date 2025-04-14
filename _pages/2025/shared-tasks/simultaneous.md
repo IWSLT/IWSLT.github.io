@@ -14,6 +14,8 @@ if you want to have a line break either put a blank line in between the text or 
 ### ANNOUNCEMENT
 🥁 The test sets for this year are available under [Test Set](#test-set) and submission is **now open**! 🥁
 
+📢 The deadline for system submissions has been extended to **April 19th**! 📢
+
 ## Description
 <!-- Description the task, the languages, and the type of data -->
 
@@ -95,6 +97,9 @@ The baselines for each language pair can be found
 
 ## Submission
 <!-- Description of expected submission format and submission instructions -->
+
+Note: The deadline for system submissions has been extended to **April 19th**!
+
 The evaluation implementation will use the latest [SimulEval](https://github.com/facebookresearch/SimulEval) toolkit.
 Participants have two options for the submission:
 - *Docker image submission*: the organizers run the system to compare the computation-aware latency
