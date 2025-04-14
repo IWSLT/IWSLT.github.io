@@ -86,8 +86,8 @@ The preliminary timeline is below and may be subject to minor changes.
 |---------------------|----------------------------------------------|
 | Jan 1, 2025         | Release of shared task training and dev data |
 | March 22, 2025      | Scientific paper submission deadline         |
-| Apr 1-15, 2025      | Evaluation period                            |
-| Apr 21, 2025        | System description paper submission deadline |
+| Apr 1-19, 2025      | Evaluation period                            |
+| Apr 24, 2025        | System description paper submission deadline |
 | Apr 25, 2025        | Demo abstract submission deadline            |
 | May 15, 2025        | Notification of acceptance                   |
 | June 1, 2025        | Camera ready deadline (all paper)            |
