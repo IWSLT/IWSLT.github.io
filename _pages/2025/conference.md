@@ -48,7 +48,7 @@ For more information, please see our [**Call for Demos**](/2025/call-for-demos)
 
 ## Registration
 
-< Please register for the Evaluation Campaign via the [registration form](https://forms.gle/fc4dP4d522zaNUUb6). 
+Please register for the Evaluation Campaign via the [registration form](https://forms.gle/fc4dP4d522zaNUUb6). 
 <!--{: .notice--info} -->
 
 Please join the [IWSLT Evaluation Campaign google group](https://groups.google.com/g/iwslt-evaluation-campaign){:target="_blank"} for periodic updates and community questions.
