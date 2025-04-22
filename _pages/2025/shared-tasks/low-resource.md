@@ -297,7 +297,7 @@ We highly encourage participants to get creative, however we also want to ensure
 
 ### Paper Submission Requirements
 
-Coming soon!                                                               
+Please follow the [general submission requirements](https://iwslt.org/2025/#submission-requirements), ensuring that your paper includes all necessary details for reproducing your system.
 
 ## Organizers
 
