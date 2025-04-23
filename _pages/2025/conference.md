@@ -59,11 +59,13 @@ Please join the [IWSLT Evaluation Campaign google group](https://groups.google.c
 Read the following information before submitting your paper through our [Submission Portal](https://softconf.com/acl2025/iwslt2025/)
 {: .notice--info}
 
-IWSLT invites submissions of **scientific papers** to be **published** in the ACL Proceedings and presented either in oral or poster format. The conference selects high-quality, original contributions on theoretical and practical issues of spoken language translation research, technologies and applications. Submissions will be accepted directly through the IWSLT submission site. We also accept commitments of fully-reviewed papers from  ACL Rolling Review (_commitment deadline to come_). 
+IWSLT invites submissions of **scientific papers** to be **published** in the ACL Proceedings and presented either in oral or poster format. The conference selects high-quality, original contributions on theoretical and practical issues of spoken language translation research, technologies and applications. Submissions will be accepted directly through the [IWSLT submission site](https://softconf.com/acl2025/iwslt2025/). 
+
+We also accept commitments of fully-reviewed papers from ACL Rolling Review (ARR), with a commitment deadline of May 17, via [this form](https://forms.gle/1QtVrHXyCGoEq3qa9). 
 
 Shared task participants also have the opportunity to publish and present their work through a **system description paper** that will be published in the ACL Proceedings and presented at the conference. Papers should be submitted for review directly through the IWSLT submission portal. 
  
-Additionally, to foster cross-pollination of ideas and further community discussion, the conference also invites the **presentation** of papers on speech translation recently published elsewhere. Please note that this is for non-archival presentation of papers relevant to speech translation already published in other venues (e.g., ACL 2025 Findings papers, or other speech, NLP, or MT conferences). Submissions for this category will be accepted through a dedicated form (_to be linked here in spring 2025_). Papers will be checked for relevance to IWSLT, and assigned either oral or poster presentation slots if selected.
+Additionally, to foster cross-pollination of ideas and further community discussion, the conference also invites the **presentation** of papers on speech translation recently published elsewhere. Please note that this is for non-archival presentation of papers relevant to speech translation already published in other venues (e.g., ACL 2025 Findings papers, or other speech, NLP, or MT conferences). Submissions for this category will be accepted through a dedicated form (_to be linked here near the ACL notification date_). Papers will be checked for relevance to IWSLT, and assigned either oral or poster presentation slots if selected.
 
 ### Submission requirements
 - All papers may consist of 4 to 8 pages of content with additional pages of references, formatted using the [ACL stylesheets](https://acl-org.github.io/ACLPUB/formatting.html){:target="_blank"}. 
@@ -90,7 +92,8 @@ The preliminary timeline is below and may be subject to minor changes.
 | Apr 24, 2025        | System description paper submission deadline |
 | Apr 25, 2025        | Demo abstract submission deadline            |
 | May 15, 2025        | Notification of acceptance                   |
-| June 1, 2025        | Camera ready deadline (all paper)            |
+| May 17, 2025        | ARR commitment deadline (fully-reviewed papers) |
+| June 1, 2025        | Camera ready deadline (all papers)           |
 | July 31-Aug 1, 2025 | IWSLT conference                             |
 
 
