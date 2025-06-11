@@ -10,12 +10,13 @@ title: "Sponsors"
 {: .notice--info}
 
 
-<!--
 ### Diamond
 
 <div class="card">
 <a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
 </div>     
+
+<!--
 
 ### Platinum
 
