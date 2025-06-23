@@ -49,7 +49,7 @@ For more information, please see our [**Call for Demos**](/2025/call-for-demos)
 ## Registration
 
 Please register to the IWSLT Conference via the ACL [registration page](https://2025.aclweb.org/registration/). 
-Notice that per the ACL policy accepted scientific papers must have one author register their paper to present. Workshop shared task papers do not need to register their paper to present. 
+Accepted scientific papers must have one author register their paper to present. Workshop shared task papers do not need to register their paper to present. 
 
 Please note: All conference attendees must be registered to attend the conference. If an author is not registered, they will not be able to access the venue or Underline site.
 
