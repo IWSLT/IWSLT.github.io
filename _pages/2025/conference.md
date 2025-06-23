@@ -53,6 +53,8 @@ Accepted scientific papers must have one author register their paper to present.
 
 Please note: All conference attendees must be registered to attend the conference. If an author is not registered, they will not be able to access the venue or Underline site.
 
+The conference will include both in-person and virtual presentation options. 
+
 <!--Please register for the Evaluation Campaign via the [registration form](https://forms.gle/fc4dP4d522zaNUUb6).--> 
 <!--{: .notice--info} -->
 
