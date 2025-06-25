@@ -16,6 +16,10 @@ title: "Sponsors"
 <a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
 </div>     
 
+<div class="card">
+<a href="https://www.apptek.ai/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek-ai-logo-blue.png" alt="AppTek_AI" style="width:85%"/></a>
+</div>
+
 <!--
 
 ### Platinum
