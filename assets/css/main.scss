@@ -142,6 +142,10 @@ html {
 
 /* sponsor cards */
 
+div.email > span:nth-child(2) {
+	display: none;
+}
+
 .card {
     position: relative;
     transition: 0.3s;
