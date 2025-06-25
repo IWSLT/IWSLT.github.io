@@ -23,4 +23,4 @@ IWSLT 2025 acknowledges 5 tiers of sponsorships/donations of compute credits:
 
 Sponsorships and donations will be recognized on the website, during the conference and in the conference proceedings. 
 
-
+If you are interested in becoming a sponsor please contact Sebastian St&uuml;ker at <div class="email">sebastian.stueker@<span>zoom.</span>com</div>
