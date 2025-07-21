@@ -17,15 +17,15 @@ toc_sticky: true
 
 11:00–12:00	Findings of the IWSLT 2025 Evaluation Campaign (_Chair: Jan Niehues_)
 
-12:00-12:30	[Oral Session A](#Oral-Session-A) (_Chair: Marcello Federico_)
+12:00-12:30	[Oral Session A](#oral-session-a) (_Chair: Marcello Federico_)
 
 12:30–14:00	_Lunch break_
 
-14:00–15:30	[Poster Session I: Offline, Instruction Following, Simultaneous, Subtitling, Model Compression](#Poster-Session-I)
+14:00–15:30	[Poster Session I: Offline, Instruction Following, Simultaneous, Subtitling, Model Compression](#poster-session-i)
 
 15:30–16:00	_Coffee break_
 
-16:00–16:30	[Oral Session B](#Oral-Session-B) (_Chair: TBA_)
+16:00–16:30	[Oral Session B](#oral-session-b) (_Chair: TBA_)
 
 16:30–17:30	Panel discussion: New applications of speech translation (_Chair: Max and Berrak_)
 
@@ -33,15 +33,15 @@ toc_sticky: true
 
 ## DAY 2: August 1 2025
 
-09:00–10:30	[Oral Session C](#Oral-Session-C) (_Chair: TBA_)
+09:00–10:30	[Oral Session C](#oral-session-c) (_Chair: TBA_)
 
 10:30–11:00	_Coffee break_
 
-11:00–12:30	[Poster Session II: Low-Resource, Indic](#Poster-Session-II)
+11:00–12:30	[Poster Session II: Low-Resource, Indic](#poster-session-ii)
 
 12:30–14:00	_Lunch break_
 
-14:00–14:30	[Oral Session D](#Oral-Session-D) (_Chair: TBA_)
+14:00–14:30	[Oral Session D](#oral-session-d) (_Chair: TBA_)
 
 14:30–15:30	Planning Session for 2025
 
