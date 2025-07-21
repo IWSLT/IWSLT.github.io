@@ -14,11 +14,10 @@ The International Conference on Spoken Language Translation (IWSLT) is an annual
 The 22nd edition of IWSLT will be run as an ACL and ELRA sponsored event, co-located with [ACL 2025](https://2025.aclweb.org/){:target="_blank"} in Vienna, Austria on 31 July-1 August 2025. 
 It will be run as a hybrid event.
 
-## Program (work in progress)
+## Program 
 
-**System papers** will be presented in poster sessions. Papers covering multiple tasks can be presented as distinct posters. Poster format is A0. Printing service is available on site. Authors with a virtual registration who are unable to present their poster in person can provide a link to a video of max 15min with their presentation via a google doc we will share soon.
+[See here for the detailed 2025 program](/2025/program).
 
-**Scientific papers** will be presented in oral sessions. Each paper is allotted a slot of 15 minutes, including 2-3 minutes for questions. Speakers attending virtually will be able to present through the Underline platform.
 
 ## Shared Tasks
 
