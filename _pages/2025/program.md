@@ -27,7 +27,7 @@ toc_sticky: true
 
 16:00–16:30	[Oral Session B](#oral-session-b) (_Chair: TBA_)
 
-16:30–17:30	Panel discussion: New applications of speech translation (_Chair: Max and Berrak_)
+16:30–17:30	Demo Panel: Advances in the field of speech translation (_Chair: Maximilian Awiszus_)
 
 17:30		End of day 1
 
