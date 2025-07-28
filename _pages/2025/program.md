@@ -17,9 +17,9 @@ toc_sticky: true
 
 11:00–12:00	Findings of the IWSLT 2025 Evaluation Campaign (_Chair: Jan Niehues_)
 
-12:00-12:30	[Oral Session A](#oral-session-a) (_Chair: Marcello Federico_)
+12:00-12:45	[Oral Session A](#oral-session-a) (_Chair: Marcello Federico_)
 
-12:30–14:00	_Lunch break_
+12:45–14:00	_Lunch break_
 
 14:00–15:30	[Poster Session I: Offline, Instruction Following, Simultaneous, Subtitling, Model Compression](#poster-session-i)
 
@@ -72,6 +72,7 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 - [1] The Warmup Dilemma: How Learning Rate Strategies Impact Speech-to-Text Model Convergence
 - [2] Effects of automatic alignment on speech translation metrics
+- [3] Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages
 
 ### Oral Session B
 
@@ -126,8 +127,7 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 - [25] JHU IWSLT 2025 Low-resource System Description
 - [26] KIT's Low-resource Speech Translation Systems for IWSLT2025: System Enhancement with Synthetic Data and Model Regularization
 - [27] LIA and ELYADATA systems for the IWSLT 2025 low-resource speech translation shared task
-- [28] Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages
-- [29] QUESPA Submission for the IWSLT 2025 Dialectal and Low-resource Speech Translation Task
-- [30] SYSTRAN @ IWSLT 2025 Low-resource track
-- [31] Kuvost: A Large-Scale Human-Annotated English to Central Kurdish Speech Translation Dataset Driven from English Common Voice
-- [32] FFSTC 2: Extending the Fongbe to French Speech Translation Corpus
+- [28] QUESPA Submission for the IWSLT 2025 Dialectal and Low-resource Speech Translation Task
+- [29] SYSTRAN @ IWSLT 2025 Low-resource track
+- [30] Kuvost: A Large-Scale Human-Annotated English to Central Kurdish Speech Translation Dataset Driven from English Common Voice
+- [31] FFSTC 2: Extending the Fongbe to French Speech Translation Corpus
