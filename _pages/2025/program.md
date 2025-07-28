@@ -43,7 +43,7 @@ toc_sticky: true
 
 14:00–14:30	[Oral Session D](#oral-session-d) (_Chair: TBA_)
 
-14:30–15:30	Planning Session for 2025
+14:30–15:30	Planning Session for 2026
 
 15:30–16:00	_Coffee break_
 
