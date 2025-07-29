@@ -17,9 +17,9 @@ toc_sticky: true
 
 11:00–12:00	Findings of the IWSLT 2025 Evaluation Campaign (_Chair: Jan Niehues_)
 
-12:00-12:45	[Oral Session A](#oral-session-a) (_Chair: Marcello Federico_)
+12:00-12:30	[Oral Session A](#oral-session-a) (_Chair: Marcello Federico_)
 
-12:45–14:00	_Lunch break_
+12:30–14:00	_Lunch break_
 
 14:00–15:30	[Poster Session I: Offline, Instruction Following, Simultaneous, Subtitling, Model Compression](#poster-session-i)
 
@@ -72,7 +72,6 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 - [1] The Warmup Dilemma: How Learning Rate Strategies Impact Speech-to-Text Model Convergence
 - [2] Effects of automatic alignment on speech translation metrics
-- [3] Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages
 
 ### Oral Session B
 
@@ -97,19 +96,20 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 **Papers covering multiple shared tasks can be presented with multiple posters**
 
-- [1] Instituto de Telecomunicações at IWSLT 2025: Aligning Small-Scale Speech and Language Models for Speech-to-Text Learning
-- [2] NAVER LABS Europe Submission to the Instruction-following Track
-- [3] Efficient Speech Translation through Model Compression and Knowledge Distillation
-- [4] KIT's Offline Speech Translation and Instruction Following Submission for IWSLT 2025
-- [5] CUNI-NL@IWSLT 2025: End-to-end Offline Speech Translation and Instruction Following with LLMs
-- [6] NAIST Offline Speech Translation System for IWSLT 2025
-- [7] NYA's Offline Speech Translation System for IWSLT 2025
-- [8] Simultaneous Translation with Offline Speech and LLM Models in CUNI Submission to IWSLT 2025
-- [9] BeaverTalk: Oregon State University's IWSLT 2025 Simultaneous Speech Translation System
-- [10] CMU's IWSLT 2025 Simultaneous Speech Translation System
-- [11] MLLP-VRAIN UPV system for the IWSLT 2025 Simultaneous Speech Translation Translation task
-- [12] NAIST Simultaneous Speech Translation System for IWSLT 2025
-- [13] AppTek's Automatic Speech Translation: Generating Accurate and Well-Readable Subtitles
+- [1] Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages
+- [2] Instituto de Telecomunicações at IWSLT 2025: Aligning Small-Scale Speech and Language Models for Speech-to-Text Learning
+- [3] NAVER LABS Europe Submission to the Instruction-following Track
+- [4] Efficient Speech Translation through Model Compression and Knowledge Distillation
+- [5] KIT's Offline Speech Translation and Instruction Following Submission for IWSLT 2025
+- [6] CUNI-NL@IWSLT 2025: End-to-end Offline Speech Translation and Instruction Following with LLMs
+- [7] NAIST Offline Speech Translation System for IWSLT 2025
+- [8] NYA's Offline Speech Translation System for IWSLT 2025
+- [9] Simultaneous Translation with Offline Speech and LLM Models in CUNI Submission to IWSLT 2025
+- [10] BeaverTalk: Oregon State University's IWSLT 2025 Simultaneous Speech Translation System
+- [11] CMU's IWSLT 2025 Simultaneous Speech Translation System
+- [12] MLLP-VRAIN UPV system for the IWSLT 2025 Simultaneous Speech Translation Translation task
+- [13] NAIST Simultaneous Speech Translation System for IWSLT 2025
+- [14] AppTek's Automatic Speech Translation: Generating Accurate and Well-Readable Subtitles
 
 ### Poster Session II
 
