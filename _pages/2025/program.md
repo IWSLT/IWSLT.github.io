@@ -49,7 +49,7 @@ toc_sticky: true
 
 16:00-16:30	Closing remarks
 
-16:30		End of conference
+16:30		_End of conference_
 
 
 
@@ -75,21 +75,21 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 ### Oral Session B
 
-- [1] HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation
-- [2] Quality-Aware Decoding: Unifying Quality Estimation and Decoding
+- [3] HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation
+- [4] Quality-Aware Decoding: Unifying Quality Estimation and Decoding
 
 ### Oral Session C
 
-- [1] Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models
-- [2] SSR: Alignment-Aware Modality Connector for Speech Language Models
-- [3] Streaming Sequence Transduction through Dynamic Compression
-- [4] Prompting LLMs: Length Control for Isometric Machine Translation
-- [5] Swiss German Speech Translation and the Curse of Multidialectality
+- [5] Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models
+- [6] SSR: Alignment-Aware Modality Connector for Speech Language Models
+- [7] Streaming Sequence Transduction through Dynamic Compression
+- [8] Prompting LLMs: Length Control for Isometric Machine Translation
+- [9] Swiss German Speech Translation and the Curse of Multidialectality
 
 ### Oral Session D
 
-- [1] NUTSHELL: A Dataset for Abstract Generation from Scientific Talks
-- [2] SparQLe: Speech Queries to Text Translation Through LLMs
+- [10] NUTSHELL: A Dataset for Abstract Generation from Scientific Talks
+- [11] SparQLe: Speech Queries to Text Translation Through LLMs
 
 
 ### Poster Session I
