@@ -87,9 +87,11 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 - [5] [Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models](https://aclanthology.org/2025.iwslt-1.8/)  
   Authors: Minghan Wang | Thuy-Trang Vu | Yuxia Wang | Ehsan Shareghi | Gholamreza Haffari
 - [6] [SSR: Alignment-Aware Modality Connector for Speech Language Models](https://aclanthology.org/2025.iwslt-1.5/)  
-  Authors: Weiting Tan | Hirofumi Inaguma | Ning Dong | Paden D. Tomasello | Xutai Ma
+  Authors: Weiting Tan | Hirofumi Inaguma | Ning Dong | Paden D. Tomasello | Xutai Ma  
+  Links: [[Video]](https://youtu.be/IR7iLT2-TTY)
 - [7] [Streaming Sequence Transduction through Dynamic Compression](https://aclanthology.org/2025.iwslt-1.1/)  
   Authors: Weiting Tan | Yunmo Chen | Tongfei Chen | Guanghui Qin | Haoran Xu | Chenyu Zhang | Benjamin Van Durme | Philipp Koehn
+  Links: [[Video]](https://youtu.be/7Um-nYri8qY) 
 - [8] [Prompting LLMs: Length Control for Isometric Machine Translation](https://aclanthology.org/2025.iwslt-1.11/)  
   Authors: Dávid Javorský | Ondřej Bojar | François Yvon
 - [9] [Swiss German Speech Translation and the Curse of Multidialectality](https://aclanthology.org/2025.iwslt-1.15/)  
@@ -125,7 +127,8 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 - [9] [Simultaneous Translation with Offline Speech and LLM Models in CUNI Submission to IWSLT 2025](https://aclanthology.org/2025.iwslt-1.41/)  
   Authors: Dominik Macháček | Peter Polák
 - [10] [BeaverTalk: Oregon State University's IWSLT 2025 Simultaneous Speech Translation System](https://aclanthology.org/2025.iwslt-1.30/)  
-  Authors: Matthew Raffel | Victor Agostinelli III | Lizhong Chen
+  Authors: Matthew Raffel | Victor Agostinelli III | Lizhong Chen  
+  Links: [[Slides]](https://drive.google.com/file/d/1E_oCqAkuJE8lyh86VcUk73jWQmZsNMCQ/view?usp=sharing)
 - [11] [CMU's IWSLT 2025 Simultaneous Speech Translation System](https://aclanthology.org/2025.iwslt-1.31/)  
   Authors: Siqi Ouyang | Xi Xu | Lei Li
 - [12] [MLLP-VRAIN UPV system for the IWSLT 2025 Simultaneous Speech Translation Translation task](https://aclanthology.org/2025.iwslt-1.35/)  
@@ -138,17 +141,21 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 ### Poster Session II
 
 - [15] [CDAC-SVNIT submission for IWSLT 2025 Indic track shared task](https://aclanthology.org/2025.iwslt-1.16/)  
-  Authors: Mukund K. Roy | Karunesh Arora | Praveen Kumar Chandaliya | Rohit Kumar | Pruthwik Mishra
+  Authors: Mukund K. Roy | Karunesh Arora | Praveen Kumar Chandaliya | Rohit Kumar | Pruthwik Mishra  
+  Links: [[Video]](https://youtu.be/Deq946tgFgg)
 - [16] [Effectively combining Phi-4 and NLLB for Spoken Language Translation: SPRING Lab IITM's submission to Low Resource Multilingual Indic Track](https://aclanthology.org/2025.iwslt-1.42/)  
   Authors: Sankalpa Sarkar | Samriddhi Kashyap | Advait Joglekar | Srinivasan Umesh
 - [17] [HITSZ's End-To-End Speech Translation Systems Combining Sequence-to-Sequence Auto Speech Recognition Model and Indic Large Language Model for IWSLT 2025 in Indic Track](https://aclanthology.org/2025.iwslt-1.43/)  
   Authors: Xuchen Wei | Yangxin Wu | Yaoyin Zhang | Henglyu Liu | Kehai Chen | Xuefeng Bai | Min Zhang
 - [18] [IIITH-BUT system for IWSLT 2025 low-resource Bhojpuri to Hindi speech translation](https://aclanthology.org/2025.iwslt-1.34/)  
-  Authors: Bhavana Akkiraju | Aishwarya Pothula | Santosh Kesiraju | Anil Vuppala
+  Authors: Bhavana Akkiraju | Aishwarya Pothula | Santosh Kesiraju | Anil Vuppala  
+  Links: [[Video]](https://www.youtube.com/watch?v=BWGOq7yTFu4) 
 - [19] [IWSLT 2025 Indic Track System Description Paper: Speech-to-Text Translation from Low-Resource Indian Languages (Bengali and Tamil) to English](https://aclanthology.org/2025.iwslt-1.23/)  
-  Authors: Sayan Das | Soham Chaudhuri | Dipanjan Saha | Dipankar Das | Sivaji Bandyopadhyay
+  Authors: Sayan Das | Soham Chaudhuri | Dipanjan Saha | Dipankar Das | Sivaji Bandyopadhyay  
+  Links: [[Video]](https://youtu.be/ceikD2YwPUc) 
 - [20] [JU-CSE-NLP's Cascaded Speech to Text Translation Systems for IWSLT 2025 in Indic Track](https://aclanthology.org/2025.iwslt-1.18/)  
-  Authors: Debjit Dhar | Soham Lahiri | Tapabrata Mondal | Sivaji Bandyopadhyay
+  Authors: Debjit Dhar | Soham Lahiri | Tapabrata Mondal | Sivaji Bandyopadhyay  
+  Links: [[Video]](https://youtu.be/Yymz-lOmSFw) [[Slides]](https://drive.google.com/file/d/1Vz7lfrBDC51y4c1RwWAfHB_xWaLynjtt/view?usp=drive_link)
 - [21] [ALADAN at IWSLT25 Low-resource Arabic Dialectal Speech Translation Task](https://aclanthology.org/2025.iwslt-1.24/)  
   Authors: Josef Jon | Waad Ben Kheder | Andre Beyer | Claude Barras | Jean-Luc Gauvain
 - [22] [Bemba Speech Translation: Exploring a Low-Resource African Language](https://aclanthology.org/2025.iwslt-1.37/)  
@@ -164,7 +171,8 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 - [27] [KIT's Low-resource Speech Translation Systems for IWSLT2025: System Enhancement with Synthetic Data and Model Regularization](https://aclanthology.org/2025.iwslt-1.20/)  
   Authors: Zhaolin Li | Yining Liu | Danni Liu | Tuan Nam Nguyen | Enes Yavuz Ugan | Tu Anh Dinh | Carlos Mullov | Alexander Waibel | Jan Niehues
 - [28] [LIA and ELYADATA systems for the IWSLT 2025 low-resource speech translation shared task](https://aclanthology.org/2025.iwslt-1.27/)  
-  Authors: Chaimae Chellaf | Haroun Elleuch | Othman Istaiteh | D. Fortuné KPONOU | Fethi Bougares | Yannick Estève | Salima Mdhaffar
+  Authors: Chaimae Chellaf | Haroun Elleuch | Othman Istaiteh | D. Fortuné KPONOU | Fethi Bougares | Yannick Estève | Salima Mdhaffar  
+  Links: [[Video]](https://youtu.be/54QuVTfzP8Q)
 - [29] [QUESPA Submission for the IWSLT 2025 Dialectal and Low-resource Speech Translation Task](https://aclanthology.org/2025.iwslt-1.25/)  
   Authors: John E. Ortega | Rodolfo Joel Zevallos | William Chen | Idris Abdulmumin
 - [30] [SYSTRAN @ IWSLT 2025 Low-resource track](https://aclanthology.org/2025.iwslt-1.33/)  
@@ -172,5 +180,6 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 - [31] [Kuvost: A Large-Scale Human-Annotated English to Central Kurdish Speech Translation Dataset Driven from English Common Voice](https://aclanthology.org/2025.iwslt-1.9/)  
   Authors: Mohammad Mohammadamini | Daban Jaff | Sara Jamal | Ibrahim Ahmed | Hawkar Omar | Darya Sabr | Marie Tahon | Antoine Laurent
 - [32] [FFSTC 2: Extending the Fongbe to French Speech Translation Corpus](https://aclanthology.org/2025.iwslt-1.13/)  
-  Authors: D. Fortuné KPONOU | Salima Mdhaffar | Fréjus A. A. Laleye | Eugène Cokou Ezin | Yannick Estève
+  Authors: D. Fortuné KPONOU | Salima Mdhaffar | Fréjus A. A. Laleye | Eugène Cokou Ezin | Yannick Estève  
+  Links: [[Video]](https://youtu.be/A4KlsB54IHA) 
 
