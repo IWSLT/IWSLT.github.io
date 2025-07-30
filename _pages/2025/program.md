@@ -106,20 +106,34 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 **Papers covering multiple shared tasks can be presented with multiple posters**
 
-- [1] Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages
-- [2] Instituto de Telecomunicações at IWSLT 2025: Aligning Small-Scale Speech and Language Models for Speech-to-Text Learning
-- [3] NAVER LABS Europe Submission to the Instruction-following Track
-- [4] Efficient Speech Translation through Model Compression and Knowledge Distillation
-- [5] KIT's Offline Speech Translation and Instruction Following Submission for IWSLT 2025
-- [6] CUNI-NL@IWSLT 2025: End-to-end Offline Speech Translation and Instruction Following with LLMs
-- [7] NAIST Offline Speech Translation System for IWSLT 2025
-- [8] NYA's Offline Speech Translation System for IWSLT 2025
-- [9] Simultaneous Translation with Offline Speech and LLM Models in CUNI Submission to IWSLT 2025
-- [10] BeaverTalk: Oregon State University's IWSLT 2025 Simultaneous Speech Translation System
-- [11] CMU's IWSLT 2025 Simultaneous Speech Translation System
-- [12] MLLP-VRAIN UPV system for the IWSLT 2025 Simultaneous Speech Translation Translation task
-- [13] NAIST Simultaneous Speech Translation System for IWSLT 2025
-- [14] AppTek's Automatic Speech Translation: Generating Accurate and Well-Readable Subtitles
+- [1] [Literary Translations and Synthetic Data for Machine Translation of Low-resourced Middle Eastern Languages](https://aclanthology.org/2025.iwslt-1.10/)
+  - Authors: Sina Ahmadi | Razhan Hameed | Rico Sennrich
+- [2] [Instituto de Telecomunicações at IWSLT 2025: Aligning Small-Scale Speech and Language Models for Speech-to-Text Learning](https://aclanthology.org/2025.iwslt-1.36/)
+  - Authors: Giuseppe Attanasio | Sonal Sannigrahi | Ben Peters | André Filipe Torres Martins
+- [3] [NAVER LABS Europe Submission to the Instruction-following Track](https://aclanthology.org/2025.iwslt-1.17/)
+  - Authors: Beomseok Lee | Marcely Zanon Boito | Laurent Besacier | Ioan Calapodescu
+- [4] [Efficient Speech Translation through Model Compression and Knowledge Distillation](https://aclanthology.org/2025.iwslt-1.40/)
+  - Authors: Yasmin Moslem
+- [5] [KIT's Offline Speech Translation and Instruction Following Submission for IWSLT 2025](https://aclanthology.org/2025.iwslt-1.22/)
+  - Authors: Sai Koneru | Maike Züfle | Thai Binh Nguyen | Seymanur Akti | Jan Niehues | Alexander Waibel
+- [6] [CUNI-NL@IWSLT 2025: End-to-end Offline Speech Translation and Instruction Following with LLMs](https://aclanthology.org/2025.iwslt-1.28/)
+  - Authors: Nam Luu | Ondřej Bojar
+- [7] [NAIST Offline Speech Translation System for IWSLT 2025](https://aclanthology.org/2025.iwslt-1.38/)
+  - Authors: Ruhiyah Faradishi Widiaputri | Haotian Tan | Jan Meyer Saragih | Yuka Ko | Katsuhito Sudoh | Satoshi Nakamura | Sakriani Sakti
+- [8] [NYA's Offline Speech Translation System for IWSLT 2025](https://aclanthology.org/2025.iwslt-1.19/)
+  - Authors: Wenxuan Wang | Yingxin Zhang | Yifan Jin | Binbin Du | Yuke Li
+- [9] [Simultaneous Translation with Offline Speech and LLM Models in CUNI Submission to IWSLT 2025](https://aclanthology.org/2025.iwslt-1.41/)
+  - Authors: Dominik Macháček | Peter Polák
+- [10] [BeaverTalk: Oregon State University's IWSLT 2025 Simultaneous Speech Translation System](https://aclanthology.org/2025.iwslt-1.30/)
+  - Authors: Matthew Raffel | Victor Agostinelli III | Lizhong Chen
+- [11] [CMU's IWSLT 2025 Simultaneous Speech Translation System](https://aclanthology.org/2025.iwslt-1.31/)
+  - Authors: Siqi Ouyang | Xi Xu | Lei Li
+- [12] [MLLP-VRAIN UPV system for the IWSLT 2025 Simultaneous Speech Translation Translation task](https://aclanthology.org/2025.iwslt-1.35/)
+  - Authors: Jorge Iranzo-Sánchez | Javier Iranzo-Sanchez | Adrià Giménez Pastor | Jorge Civera Saiz | Alfons Juan
+- [13] [NAIST Simultaneous Speech Translation System for IWSLT 2025](https://aclanthology.org/2025.iwslt-1.39/)
+  - Authors: Haotian Tan | Ruhiyah Faradishi Widiaputri | Jan Meyer Saragih | Yuka Ko | Katsuhito Sudoh | Satoshi Nakamura | Sakriani Sakti
+- [14] [AppTek's Automatic Speech Translation: Generating Accurate and Well-Readable Subtitles](https://aclanthology.org/2025.iwslt-1.21/)
+  - Authors: Frithjof Petrick | Patrick Wilken | Evgeny Matusov | Nahuel Unai Roselló Beneitez | Sarah Beranek
 
 ### Poster Session II
 
