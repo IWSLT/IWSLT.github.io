@@ -70,27 +70,37 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 ### Oral Session A
 
-- [1] The Warmup Dilemma: How Learning Rate Strategies Impact Speech-to-Text Model Convergence
-- [2] Effects of automatic alignment on speech translation metrics
+- [1] [The Warmup Dilemma: How Learning Rate Strategies Impact Speech-to-Text Model Convergence](https://aclanthology.org/2025.iwslt-1.4/)
+  - Authors: Marco Gaido | Sara Papi | Luisa Bentivogli | Alessio Brutti | Mauro Cettolo | Roberto Gretter | Marco Matassoni | Mohamed Nabih | Matteo Negri
+- [2] [Effects of automatic alignment on speech translation metrics](https://aclanthology.org/2025.iwslt-1.7/)
+  - Authors: Matt Post | Hieu Hoang
 
 ### Oral Session B
 
-- [3] HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation
-- [4] Quality-Aware Decoding: Unifying Quality Estimation and Decoding
+- [3] [HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation](https://aclanthology.org/2025.iwslt-1.14/)
+  - Authors: Amir Hussein | Cihan Xiao | Matthew Wiesner | Dan Povey | Leibny Paola Garcia Perera | Sanjeev Khudanpur
+- [4] [Quality-Aware Decoding: Unifying Quality Estimation and Decoding](https://aclanthology.org/2025.iwslt-1.3/)
+  - Authors: Sai Koneru | Matthias Huck | Miriam Exel | Jan Niehues
 
 ### Oral Session C
 
-- [5] Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models
-- [6] SSR: Alignment-Aware Modality Connector for Speech Language Models
-- [7] Streaming Sequence Transduction through Dynamic Compression
-- [8] Prompting LLMs: Length Control for Isometric Machine Translation
-- [9] Swiss German Speech Translation and the Curse of Multidialectality
+- [5] [Conversational SimulMT: Efficient Simultaneous Translation with Large Language Models](https://aclanthology.org/2025.iwslt-1.8/)
+  - Authors: Minghan Wang | Thuy-Trang Vu | Yuxia Wang | Ehsan Shareghi | Gholamreza Haffari
+- [6] [SSR: Alignment-Aware Modality Connector for Speech Language Models](https://aclanthology.org/2025.iwslt-1.5/)
+  - Authors: Weiting Tan | Hirofumi Inaguma | Ning Dong | Paden D. Tomasello | Xutai Ma
+- [7] [Streaming Sequence Transduction through Dynamic Compression](https://aclanthology.org/2025.iwslt-1.1/)
+  - Authors: Weiting Tan | Yunmo Chen | Tongfei Chen | Guanghui Qin | Haoran Xu | Chenyu Zhang | Benjamin Van Durme | Philipp Koehn
+- [8] [Prompting LLMs: Length Control for Isometric Machine Translation](https://aclanthology.org/2025.iwslt-1.11/)
+  - Authors: Dávid Javorský | Ondřej Bojar | François Yvon
+- [9] [Swiss German Speech Translation and the Curse of Multidialectality](https://aclanthology.org/2025.iwslt-1.15/)
+  - Authors: Martin Bär | Andrea DeMarco | Gorka Labaka
 
 ### Oral Session D
 
-- [10] NUTSHELL: A Dataset for Abstract Generation from Scientific Talks
-- [11] SparQLe: Speech Queries to Text Translation Through LLMs
-
+- [10] [NUTSHELL: A Dataset for Abstract Generation from Scientific Talks](https://aclanthology.org/2025.iwslt-1.2/)
+  - Authors: Maike Züfle | Sara Papi | Beatrice Savoldi | Marco Gaido | Luisa Bentivogli | Jan Niehues
+- [11] [SparQLe: Speech Queries to Text Translation Through LLMs](https://aclanthology.org/2025.iwslt-1.6/)
+  - Authors: Amirbek Djanibekov | Hanan Aldarmaki
 
 ### Poster Session I
 
