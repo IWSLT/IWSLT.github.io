@@ -137,21 +137,40 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 ### Poster Session II
 
-- [15] CDAC-SVNIT submission for IWSLT 2025 Indic track shared task
-- [16] Effectively combining Phi-4 and NLLB for Spoken Language Translation: SPRING Lab IITM's submission to Low Resource Multilingual Indic Track
-- [17] HITSZ's End-To-End Speech Translation Systems Combining Sequence-to-Sequence Auto Speech Recognition Model and Indic Large Language Model for IWSLT 2025 in Indic Track
-- [18] IIITH-BUT system for IWSLT 2025 low-resource Bhojpuri to Hindi speech translation
-- [19] IWSLT 2025 Indic Track System Description Paper: Speech-to-Text Translation from Low-Resource Indian Languages (Bengali and Tamil) to English
-- [20] JU-CSE-NLP's Cascaded Speech to Text Translation Systems for IWSLT 2025 in Indic Track
-- [21] ALADAN at IWSLT25 Low-resource Arabic Dialectal Speech Translation Task
-- [22] Bemba Speech Translation: Exploring a Low-Resource African Language
-- [23] BUINUS at IWSLT: Evaluating the Impact of Data Augmentation and QLoRA-based Fine-Tuning for Maltese to English Speech Translation
-- [24] GMU Systems for the IWSLT 2025 Low-Resource Speech Translation Shared Task
-- [25] Human-Evaluated Urdu-English Speech Corpus: Advancing Speech-to-Text for Low-Resource Languages
-- [26] JHU IWSLT 2025 Low-resource System Description
-- [27] KIT's Low-resource Speech Translation Systems for IWSLT2025: System Enhancement with Synthetic Data and Model Regularization
-- [28] LIA and ELYADATA systems for the IWSLT 2025 low-resource speech translation shared task
-- [29] QUESPA Submission for the IWSLT 2025 Dialectal and Low-resource Speech Translation Task
-- [30] SYSTRAN @ IWSLT 2025 Low-resource track
-- [31] Kuvost: A Large-Scale Human-Annotated English to Central Kurdish Speech Translation Dataset Driven from English Common Voice
-- [32] FFSTC 2: Extending the Fongbe to French Speech Translation Corpus
+- [15] [CDAC-SVNIT submission for IWSLT 2025 Indic track shared task](https://aclanthology.org/2025.iwslt-1.16/)
+  - Authors: Mukund K. Roy | Karunesh Arora | Praveen Kumar Chandaliya | Rohit Kumar | Pruthwik Mishra
+- [16] [Effectively combining Phi-4 and NLLB for Spoken Language Translation: SPRING Lab IITM's submission to Low Resource Multilingual Indic Track](https://aclanthology.org/2025.iwslt-1.42/)
+  - Authors: Sankalpa Sarkar | Samriddhi Kashyap | Advait Joglekar | Srinivasan Umesh
+- [17] [HITSZ's End-To-End Speech Translation Systems Combining Sequence-to-Sequence Auto Speech Recognition Model and Indic Large Language Model for IWSLT 2025 in Indic Track](https://aclanthology.org/2025.iwslt-1.43/)
+  - Authors: Xuchen Wei | Yangxin Wu | Yaoyin Zhang | Henglyu Liu | Kehai Chen | Xuefeng Bai | Min Zhang
+- [18] [IIITH-BUT system for IWSLT 2025 low-resource Bhojpuri to Hindi speech translation](https://aclanthology.org/2025.iwslt-1.34/)
+  - Authors: Bhavana Akkiraju | Aishwarya Pothula | Santosh Kesiraju | Anil Vuppala
+- [19] [IWSLT 2025 Indic Track System Description Paper: Speech-to-Text Translation from Low-Resource Indian Languages (Bengali and Tamil) to English](https://aclanthology.org/2025.iwslt-1.23/)
+  - Authors: Sayan Das | Soham Chaudhuri | Dipanjan Saha | Dipankar Das | Sivaji Bandyopadhyay
+- [20] [JU-CSE-NLP's Cascaded Speech to Text Translation Systems for IWSLT 2025 in Indic Track](https://aclanthology.org/2025.iwslt-1.18/)
+  - Authors: Debjit Dhar | Soham Lahiri | Tapabrata Mondal | Sivaji Bandyopadhyay
+- [21] [ALADAN at IWSLT25 Low-resource Arabic Dialectal Speech Translation Task](https://aclanthology.org/2025.iwslt-1.24/)
+  - Authors: Josef Jon | Waad Ben Kheder | Andre Beyer | Claude Barras | Jean-Luc Gauvain
+- [22] [Bemba Speech Translation: Exploring a Low-Resource African Language](https://aclanthology.org/2025.iwslt-1.37/)
+  - Authors: Muhammad Hazim Al Farouq | Aman Kassahun Wassie | Yasmin Moslem
+- [23] [BUINUS at IWSLT: Evaluating the Impact of Data Augmentation and QLoRA-based Fine-Tuning for Maltese to English Speech Translation](https://aclanthology.org/2025.iwslt-1.26/)
+  - Authors: Filbert Aurelian Tjiaranata | Vallerie Alexandra Putra | Eryawan Presma Yulianrifat | Ikhlasul Akmal Hanif
+- [24] [GMU Systems for the IWSLT 2025 Low-Resource Speech Translation Shared Task](https://aclanthology.org/2025.iwslt-1.29/)
+  - Authors: Chutong Meng | Antonios Anastasopoulos
+- [25] [Human-Evaluated Urdu-English Speech Corpus: Advancing Speech-to-Text for Low-Resource Languages](https://aclanthology.org/2025.iwslt-1.12/)
+  - Authors: Humaira Mehmood | Sadaf Abdul Rauf
+- [26] [JHU IWSLT 2025 Low-resource System Description](https://aclanthology.org/2025.iwslt-1.32/)
+  - Authors: Nathaniel Romney Robinson | Niyati Bafna | Xiluo He | Tom Lupicki | Lavanya Shankar | Cihan Xiao | Qi Sun | Kenton Murray | David Yarowsky
+- [27] [KIT's Low-resource Speech Translation Systems for IWSLT2025: System Enhancement with Synthetic Data and Model Regularization](https://aclanthology.org/2025.iwslt-1.20/)
+  - Authors: Zhaolin Li | Yining Liu | Danni Liu | Tuan Nam Nguyen | Enes Yavuz Ugan | Tu Anh Dinh | Carlos Mullov | Alexander Waibel | Jan Niehues
+- [28] [LIA and ELYADATA systems for the IWSLT 2025 low-resource speech translation shared task](https://aclanthology.org/2025.iwslt-1.27/)
+  - Authors: Chaimae Chellaf | Haroun Elleuch | Othman Istaiteh | D. Fortuné KPONOU | Fethi Bougares | Yannick Estève | Salima Mdhaffar
+- [29] [QUESPA Submission for the IWSLT 2025 Dialectal and Low-resource Speech Translation Task](https://aclanthology.org/2025.iwslt-1.25/)
+  - Authors: John E. Ortega | Rodolfo Joel Zevallos | William Chen | Idris Abdulmumin
+- [30] [SYSTRAN @ IWSLT 2025 Low-resource track](https://aclanthology.org/2025.iwslt-1.33/)
+  - Authors: Marko Avila | Josep Crego
+- [31] [Kuvost: A Large-Scale Human-Annotated English to Central Kurdish Speech Translation Dataset Driven from English Common Voice](https://aclanthology.org/2025.iwslt-1.9/)
+  - Authors: Mohammad Mohammadamini | Daban Jaff | Sara Jamal | Ibrahim Ahmed | Hawkar Omar | Darya Sabr | Marie Tahon | Antoine Laurent
+- [32] [FFSTC 2: Extending the Fongbe to French Speech Translation Corpus](https://aclanthology.org/2025.iwslt-1.13/)
+  - Authors: D. Fortuné KPONOU | Salima Mdhaffar | Fréjus A. A. Laleye | Eugène Cokou Ezin | Yannick Estève
+
