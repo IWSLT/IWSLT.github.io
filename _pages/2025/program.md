@@ -25,7 +25,7 @@ toc_sticky: true
 
 15:30–16:00	_Coffee break_
 
-16:00–16:30	[Oral Session B](#oral-session-b) (_Chair: TBA_)
+16:00–16:30	[Oral Session B](#oral-session-b) (_Chair: Atul Kr. Ojha_)
 
 16:30–17:30	Demo Panel: Advances in the field of speech translation (_Chair: Maximilian Awiszus_)
 
@@ -33,7 +33,7 @@ toc_sticky: true
 
 ## DAY 2: August 1 2025
 
-09:00–10:30	[Oral Session C](#oral-session-c) (_Chair: TBA_)
+09:00–10:30	[Oral Session C](#oral-session-c) (_Chair: Stephan Peitz_)
 
 10:30–11:00	_Coffee break_
 
@@ -41,7 +41,7 @@ toc_sticky: true
 
 12:30–14:00	_Lunch break_
 
-14:00–14:30	[Oral Session D](#oral-session-d) (_Chair: TBA_)
+14:00–14:30	[Oral Session D](#oral-session-d) (_Chair: Katsuhito Sudoh_)
 
 14:30–15:30	Planning Session for 2026
 
