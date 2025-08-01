@@ -22,10 +22,12 @@ Its purpose is to promote interest in the research area of spoken language trans
 
 ### Steering Committee and Officers
 
+  * Luisa Bentivogli, FBK, Italy
   * Marine Carpuat, University of Maryland, USA
   * Marcello Federico, Amazon, Spain (*ACL SIGSLT, President*) 
   * Chi Mai Luong, IOIT, Vietnam
-  * Joseph Mariani, CNRS-LISN, France 
+  * Joseph Mariani, CNRS-LISN, France
+  * Evgeny Matusov, AppTek, Germany
   * Satoshi Nakamura, NAIST, Japan (*ISCA SIGSLT, President*)
   * Hermann Ney, RWTH, Germany
   * Jan Niehues, KIT, Germany
@@ -33,6 +35,7 @@ Its purpose is to promote interest in the research area of spoken language trans
   * Juan Pino, Meta, USA
   * Elizabeth Salesky, Google, USA
   * Mark Seligman, Spoken Translation Inc., USA
+  * Matthias Sperber, Apple, Germany
   * Katsuhito Sudoh, NAIST, Japan
   * Sebastian Stüker, Zoom, Germany (*ELRA SIGSLT, President*)
   * Marco Turchi, Zoom, Italy 
