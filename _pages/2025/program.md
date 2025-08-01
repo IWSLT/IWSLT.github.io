@@ -47,7 +47,7 @@ toc_sticky: true
 
 15:30–16:00	_Coffee break_
 
-16:00-16:30	Closing remarks
+16:00-16:30	Best student paper award and closing remarks
 
 16:30		_End of conference_
 
