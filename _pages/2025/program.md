@@ -77,7 +77,7 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 ### Oral Session B
 
-- [3] [HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation](https://aclanthology.org/2025.iwslt-1.14/)  
+- [3] [HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation](https://aclanthology.org/2025.iwslt-1.14/)  (Best paper award) 
   Authors: Amir Hussein | Cihan Xiao | Matthew Wiesner | Dan Povey | Leibny Paola Garcia Perera | Sanjeev Khudanpur
 - [4] [Quality-Aware Decoding: Unifying Quality Estimation and Decoding](https://aclanthology.org/2025.iwslt-1.3/)  
   Authors: Sai Koneru | Matthias Huck | Miriam Exel | Jan Niehues
