@@ -47,7 +47,7 @@ toc_sticky: true
 
 15:30–16:00	_Coffee break_
 
-16:00-16:30	Best student paper award and closing remarks
+16:00-16:30	Best paper award and closing remarks
 
 16:30		_End of conference_
 
@@ -77,7 +77,7 @@ Printing service is available on site: [info from ACL 2025](https://2025.aclweb.
 
 ### Oral Session B
 
-- [3] [HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation](https://aclanthology.org/2025.iwslt-1.14/)  (Best paper award) 
+- [3] [HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation](https://aclanthology.org/2025.iwslt-1.14/) 
   Authors: Amir Hussein | Cihan Xiao | Matthew Wiesner | Dan Povey | Leibny Paola Garcia Perera | Sanjeev Khudanpur
 - [4] [Quality-Aware Decoding: Unifying Quality Estimation and Decoding](https://aclanthology.org/2025.iwslt-1.3/)  
   Authors: Sai Koneru | Matthias Huck | Miriam Exel | Jan Niehues
