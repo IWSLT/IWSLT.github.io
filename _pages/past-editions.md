@@ -4,6 +4,7 @@ title: "Past Editions"
 ---
 
 
+  * [IWSLT 2025](https://iwslt.org/2025/){:target="_blank"}, 31 July-1 August 2025 - Vienna, Austria + Virtual Hybrid
   * [IWSLT 2024](https://iwslt.org/2024/){:target="_blank"}, 15-16 August 2024 - Bangkok, Thailand + Virtual Hybrid
   * [IWSLT 2023](https://iwslt.org/2023/){:target="_blank"}, 13-14 July 2023 - Toronto, Canada + Virtual Hybrid
   * [IWSLT 2022](https://iwslt.org/2022/){:target="_blank"}, 26-27 May 2022 - Dublin, Ireland + Virtual Hybrid

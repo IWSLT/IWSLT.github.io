@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-<img src="/assets/images/iwslt2025_vienna_banner.png" alt="Vienna Schönbrunn Palace, with the text 22nd IWSLT, Vienna, 31 July-1 August 2025." id="index-img">
+<img src="/assets/images/iwslt2026_sandiego_banner.png" alt="???, with the text 23rd IWSLT, San Diego, CA, USA, July 6-7, 2026." id="index-img">
 
 
 The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference dedicated to all aspects of spoken language translation.
@@ -13,6 +13,6 @@ Scientific papers and system descriptions documenting the state-of-the art achie
 IWSLT is the annual meeting of [**SIGSLT**](/sigslt), the ACL-ISCA-ELRA Special Interest Group on Spoken Language Translation.
 
 <!--
-**Save the date:** The 22nd edition of IWSLT will be run as an ACL and ELRA sponsored event, co-located with [ACL 2025](https://2025.aclweb.org/){:target="_blank"} on the 31 July-1 August 2025.
+**Save the date:** The 23rd edition of IWSLT will be run as an ACL and ELRA sponsored event, co-located with [ACL 2026](https://2026.aclweb.org/){:target="_blank"} on July 6-7, 2026.
 {: .notice--info}
 -->
