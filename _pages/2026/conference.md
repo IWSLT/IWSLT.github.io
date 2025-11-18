@@ -24,7 +24,6 @@ It will be run as a hybrid event.
 **Speech to Text Translation**
 - [Offline ST](/2026/offline)
 - [Low-resource ST](/2026/low-resource)
-- [African/Celtic ST](/2026/african-celtic)
 
 **Customized Speech Translation**
 - [Compression](/2026/compression)
