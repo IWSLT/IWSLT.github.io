@@ -33,7 +33,6 @@ It will be run as a hybrid event.
 **Speech Generation**
 - [Indic S2S](/2026/indic)
 - [African/Celtic S2S](/2026/african-celtic)
-- [Transfer of Pragmatic Intent in S2S](/2026/pragmatic-intent)
 - [Cross-lingual Voice Cloning](/2026/voice-cloning)
 
 **Instruction Following**
