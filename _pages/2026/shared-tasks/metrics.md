@@ -44,9 +44,16 @@ Data will be released in January.
 
 <!-- List of organizers' names and affiliations -->
 
+- Maike Züfle, Karlsruhe Institute of Technology, <maike.zuefle@kit.edu>
+- Vilém Zouhar, ETH Zurich, <vzouhar@ethz.ch>
+- Brian Thompson
+- Dominik Macháček, Charles University
+- Mattias Sperber, Apple
+- Marine Carpuat, University of Maryland
+- HyoJung Han, University of Maryland
 
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair(s): Maike Züfle <maike.zuefle@kit.edu>;  
+Chair(s): Maike Züfle <maike.zuefle@kit.edu>; Vilém Zouhar <vzouhar@ethz.ch>
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
