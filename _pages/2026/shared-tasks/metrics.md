@@ -99,6 +99,8 @@ We will provide evaluations scripts to verify dev data performance on January 1.
 - Mattias Sperber, Apple
 - Marine Carpuat, University of Maryland
 - HyoJung Han, University of Maryland
+- Marco Turchi, Zoom
+- Matteo Negri, FBK
 
 ## Contact
 
