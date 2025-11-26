@@ -35,28 +35,28 @@ We look forward to your submissions!
 
 ## Data
 
-An an example input, consider the following audio:
+As an example input, consider the following audio:
 
 <audio controls>
-    <source src="https://www.signalogic.com/melp/EngSamples/Orig/male.wav" type="audio/wav">
+    <source src="https://www.signalogic.com/melp/EngSamples/Orig/ENG_M.wav" type="audio/wav">
 </audio>
 
 and the corresponding testset entry:
 ```
 {
     "src_wav": "sample.wav"
-    "src_asr": "But what if somebody decides to break it? Be careful that you keep adequate coverage, but look for places to save money. Maybe it's taking longer to get things squared away than the bankers expected. Hiring the wife for one's company may win her tax-aided retirement income. The boost is helpful but inadequate. New self-deceiving rags are hurriedly tossed on the two naked bones. What a discussion can ensue when the title of this type of song is in question. There is no dying or waxing or gassing needed. Paperweight may be personalized on back while clay is leather hard. Place work on a flat surface and smooth out. The simplest kind of separate system uses a single self-contained unit. The old shop adage still holds: A good mechanic is usually a bad boss. Both figures would go higher in later years. Some make beautiful chairs, cabinets, chests, dollhouses, etc.",
-    "tgt": "Aber was, wenn jemand beschließt, zu brechen es? Sei vorsichtig damit, dass du eine angemessene Deckung beibehältst, aber suche nach Plätzen, um Geld zu sparen. Vielleicht dauert es länger, die Dinge quadratisch zu bekommen, als die Banker erwartet hatten. Das Anstellen der Ehefrau für die eigene Firma kann erringen ihr steuerbegünstigtes Renteneinkommen. Die Steigerung ist hilfreich, aber nicht ausreichend. Neue, sich selbst täuschende Lumpen werden hastig auf die zwei nackten Knochen geworfen gewesen. Was für eine Diskussion kann erfolgen, wenn der Titel dieser Art von Lied in Frage steht. Es wird kein Sterben oder Wachsen oder Gasen benötigt. Das Papiergewicht kann auf der Rückseite personalisiert sein, während Ton Leder-hart ist. Platziere Arbeit auf einer flachen Oberfläche und glätte heraus. Die einfachste Art von separatem System benutzt eine einzige, in sich selbst enthaltene Einheit. Das alte Werkstatt-Sprichwort hält immer noch: Ein guter Mechaniker ist normalerweise ein schlechter Chef. Beide Zahlen würden höher gehen in späteren Jahren. Manche stellen schöne Stühle, Schränke, Truhen, Puppenhäuser, usw. her.",
-    "score_human": 75.5,
+    "src_asr": "Plans are well underway for races to Mars and the Moon in 1992, by solar sail. The race to Mars is to commemorate Columbus's journey to the New World 500 years ago, and the one to the Moon is to promote the use of solar sails in space exploration.",
+    "tgt": "Pläne sind gut im Wege für Rennen nach Mars und der Mond in 1992, mit Sonnensegel. Das Rennen zum Mars ist zu Kolumbus' Reise in die Neue Welt vor 500 Jahren zu gedenken, und der eine zum Mond ist den Gebrauch von Sonnensegeln in Weltraum Exploration zu fördern.",
+    "score_human": 71.5,
 }
 ```
 
+The goal is to predict `score_human` given `src_wav`, `src_asr`, and `tgt`.
 The human score is not 100 because the style of the automatic translation is awkward at places.
 
 Train and development data will be released on January 1.
 
 <!-- Details description of the data and links to download -->
-
 
 ## Baselines
 
