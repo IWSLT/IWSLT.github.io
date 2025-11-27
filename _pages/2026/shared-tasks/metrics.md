@@ -81,7 +81,7 @@ As part of the submission, we require a system description paper to be submitted
 
 Quality Estimation models will be evaluated by measuring their correlation with human judgments similar to [WMT Metrics Shared Task](https://www2.statmt.org/wmt25/pdf/2025.wmt-1.23.pdf).
 For each language pair, we compute:
-- <b>acc<sub>eq</sub><sup>*</sup></b>: segment-level measure, akin to Pearson correlation groupped by item. This measures the ability of metrics to select the best translation given a single source.
+- <b>Kendall's Tau<sub>b</sub></b>: segment-level measure, akin to Pearson correlation groupped by item. This measures the ability of metrics to select the best translation given a single source.
 - <b>Soft Pairwise Accuracy</b>: system-level measure. This reveals how good the metric is at ranking the participating systems.
 
 We will provide evaluations scripts to verify dev data performance on January 1.
