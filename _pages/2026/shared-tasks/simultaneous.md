@@ -15,6 +15,8 @@ if you want to have a line break either put a blank line in between the text or 
 
 Details coming soon!
 
+In the mean time, help us shape the shared task! Please fill out this [short survey](https://docs.google.com/forms/d/e/1FAIpQLSdg5tJMjCsVw3YHLYFI5FbhLyDaKmc3g2K_dOiCUYP9Mr2ggw/viewform?usp=dialog) regarding your preferences. We kindly ask for your feedback by January 6, 23:59 AoE.
+
 <!-- Description the task, the languages, and the type of data -->
 
 
