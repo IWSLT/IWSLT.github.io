@@ -20,7 +20,7 @@ The advent of large language models (LLMs) offers unprecedented opportunities to
 
 The goal of the **Offline Speech Translation Task** at IWSLT, the one with the longest-standing tradition at the conference, is to provide a stable evaluation framework for tracking technological advancements in SLT, with a focus on unconstrained speech translation—free from the temporal and structural constraints imposed by tasks such as simultaneous translation or subtitling. To this end, while maintaining the overall task formulation is essential, over the years the emphasis has shifted towards incrementally raising the task's difficulty to better reflect real-world needs, including the translation of new and diverse languages, domains, and speaking styles.
 
-<--In this spirit, this year's edition aims to: 
+<!--In this spirit, this year's edition aims to: 
 * include a new and challenging language, Arabic; 
 * offer a varied scenario in terms of domains (news, physical training sessions, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
 * promote the development and use of flexible systems capable of operating in this multi-domain scenario, without resorting to ad-hoc, domain-specialized models. -->
