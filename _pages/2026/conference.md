@@ -7,11 +7,11 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-##  July 6-7, 2026 - San Diego, CA, USA
+##  July 3-4, 2026 - San Diego, CA, USA
 
 The International Conference on Spoken Language Translation (IWSLT) is an annual scientific conference, associated with shared tasks on spoken language translation, where both scientific papers and system descriptions are presented.
 
-The 23rd edition of IWSLT will be run as an ACL and ELRA sponsored event, co-located with [ACL 2026](https://2026.aclweb.org/){:target="_blank"} in San Diego, CA, USA on July 6-7, 2026. 
+The 23rd edition of IWSLT will be run as an ACL and ELRA sponsored event, co-located with [ACL 2026](https://2026.aclweb.org/){:target="_blank"} in San Diego, CA, USA on July 3-4, 2026. 
 It will be run as a hybrid event.
 
 
@@ -101,7 +101,7 @@ The preliminary timeline is below and may be subject to minor changes.
 | Apr 21, 2026        | System description paper submission deadline |
 | May 15, 2026        | Notification of acceptance                   |
 | June 1, 2026        | Camera ready deadline (all papers)           |
-| July 6-7, 2026      | IWSLT conference                             |
+| July 3-4, 2026      | IWSLT conference                             |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
