@@ -40,12 +40,12 @@ Participants are allowed to use the SFM and LLM provided below, and training the
     * *SFM*: [facebook/seamless-m4t-v2-large](https://huggingface.co/facebook/seamless-m4t-v2-large)
     * *LLM*: [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)
 * **Training Data**:
-    * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de;
-    * *SQA*: [LibriSQA](https://github.com/ZihanZhaoSJTU/LibriSQA);
+    * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de
+    * *SQA*: [LibriSQA](https://github.com/ZihanZhaoSJTU/LibriSQA)
     * *S2TSUM*: [NUTSHELL](https://huggingface.co/datasets/maikezu/abstract-gen-acl-17-22)
     * *ACHAP*: [YTSeg](https://huggingface.co/datasets/retkowski/ytseg)
 * **Validation Data**:
-    * *ASR/S2TT/SQA/S2TSUM*: [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF);
+    * *ASR/S2TT/SQA/S2TSUM*: [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF)
     * *ACHAP*: [YTSeg](https://huggingface.co/datasets/retkowski/ytseg)
  
 We do not provide any training data for SQA, ACHAP, and S2TSUM in languages different from the source speech.
@@ -63,7 +63,9 @@ For cross-lingual tasks, the output language should be the one used in the promp
 
 The Long Track will process audio files in WAV format that are, on average, 6 minutes long. The Short Track will handle the same audio files, but they will be automatically segmented into 15–20 second audio segments, on average, using [SHAS](https://github.com/mt-upc/SHAS).
 
-An example for the Long track from last here is  [downloadable here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESlS27NCiRNCj5kBYusDpW4BCkpCPe7cI_5ON75tIAe2hw?e=mOsdQV). ***Participants are also allowed to use it as 1-shot example for their model.***
+An example of the input format for the Long track is [downloadable here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESlS27NCiRNCj5kBYusDpW4BCkpCPe7cI_5ON75tIAe2hw?e=mOsdQV). ***Participants are also allowed to use it as 1-shot example for their model.***
+
+The expected output format will be same of MCIF, please see the [GitHub repository](https://github.com/hlt-mt/mcif).
 
 We also provide useful scripts for parsing inputs and outputs, [downloadble here](https://drive.google.com/file/d/1o0fZ4uC3WbnZ9CVjB2uFoextkI_xTt9v/view?usp=sharing).
 
