@@ -41,7 +41,7 @@ Participants are allowed to use the SFM and LLM provided below, and training the
     * *LLM*: [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)
 * **Training Data**:
     * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de;
-    * *SQA*: [LibriSQA](https://github.com/Chia-Hsuan-Lee/Spoken-SQuAD);
+    * *SQA*: [LibriSQA](https://github.com/ZihanZhaoSJTU/LibriSQA);
     * *S2TSUM*: [NUTSHELL](https://huggingface.co/datasets/maikezu/abstract-gen-acl-17-22)
     * *ACHAP*: [YTSeg](https://huggingface.co/datasets/retkowski/ytseg)
 * **Validation Data**:
