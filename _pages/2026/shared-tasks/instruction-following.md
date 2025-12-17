@@ -63,9 +63,9 @@ For cross-lingual tasks, the output language should be the one used in the promp
 
 The Long Track will process audio files in WAV format that are, on average, 6 minutes long. The Short Track will handle the same audio files, but they will be automatically segmented into 15–20 second audio segments, on average, using [SHAS](https://github.com/mt-upc/SHAS).
 
-An example of the input format for the Long track is [downloadable here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESlS27NCiRNCj5kBYusDpW4BCkpCPe7cI_5ON75tIAe2hw?e=mOsdQV). ***Participants are also allowed to use it as 1-shot example for their model.***
+An example of the **input format** for the Long track is [downloadable here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESlS27NCiRNCj5kBYusDpW4BCkpCPe7cI_5ON75tIAe2hw?e=mOsdQV). *Participants are also allowed to use it as 1-shot example for their model.*
 
-The expected output format will be same of MCIF, please see the [GitHub repository](https://github.com/hlt-mt/mcif).
+The expected **output format** will be same of MCIF, please see the [GitHub repository](https://github.com/hlt-mt/mcif).
 
 We also provide useful scripts for parsing inputs and outputs, [downloadble here](https://drive.google.com/file/d/1o0fZ4uC3WbnZ9CVjB2uFoextkI_xTt9v/view?usp=sharing).
 
