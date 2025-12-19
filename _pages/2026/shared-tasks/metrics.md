@@ -88,6 +88,19 @@ We will provide evaluations scripts to verify dev data performance on January 1.
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
 
+## Important Dates
+The preliminary timeline is below and may be subject to minor changes.
+{: .notice--info}
+
+|---------------------|----------------------------------------------|
+| Jan 1, 2026         | Release of shared task training and dev data |
+| Apr 10-22, 2026     | Evaluation period (only for Metrics Task)    |
+| Apr 24, 2026        | System paper submission deadline             |
+| May 15, 2026        | Notification of acceptance                   |
+| June 1, 2026        | Camera ready deadline (all papers)           |
+| July 3-4, 2026      | IWSLT conference                             |
+
+
 ## Organizers
 
 <!-- List of organizers' names and affiliations -->
