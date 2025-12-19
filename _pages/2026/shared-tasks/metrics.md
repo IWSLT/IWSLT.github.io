@@ -60,13 +60,11 @@ Train and development data will be released on January 1.
 
 ## Baselines
 
-We consider the following quality estimation baselines:
+We consider the following quality estimation baselines, which are [available on GitHub](https://github.com/zouharvi/iwslt26-metrics):
 - ASR-based [COMETKiwi-22](https://huggingface.co/Unbabel/wmt22-cometkiwi-da)
 - ASR-based [COMET-partial](https://huggingface.co/zouharvi/COMET-partial)
 - [SpeechQE](https://arxiv.org/pdf/2410.21485)
 - More baseline to be announced
-
-<!-- Links to the baselines to be used (descriptions, publications and/or links to models, code) -->
 
 
 ## Submission
@@ -84,9 +82,7 @@ For each language pair, we compute:
 - [<b>Kendall's Tau<sub>b</sub></b>](https://aclanthology.org/2023.emnlp-main.798.pdf): segment-level measure, akin to Pearson correlation groupped by item. This measures the ability of metrics to select the best translation given a single source.
 - [<b>Soft Pairwise Accuracy</b>](https://aclanthology.org/2024.wmt-1.118.pdf): system-level measure. This reveals how good the metric is at ranking the participating systems.
 
-We will provide evaluations scripts to verify dev data performance on January 1.
-
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+The scripts for meta-evaluation of metrics are available [publicly on GitHub](https://github.com/zouharvi/iwslt26-metrics).
 
 ## Important Dates
 The preliminary timeline is below and may be subject to minor changes.
@@ -117,7 +113,6 @@ The preliminary timeline is below and may be subject to minor changes.
 
 ## Contact
 
-<!-- Add chair(s) and their contact info, as well as standard google group -->
 Chair(s): Maike Züfle <maike.zuefle@kit.edu>; Vilém Zouhar <vzouhar@ethz.ch>
 
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
