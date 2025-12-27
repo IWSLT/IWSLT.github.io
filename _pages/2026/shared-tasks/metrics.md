@@ -35,6 +35,11 @@ We look forward to your submissions!
 
 ## Data
 
+Train and development data is stored on Hugging Face: [maikezu/iwslt2026-metrics-shared-train-dev](https://huggingface.co/datasets/maikezu/iwslt2026-metrics-shared-train-dev)
+
+The train set includes human annotations from IWSLT 2023, WMT 2024 and WMT 2025. The dev set consists of the human annotaions from IWSLT 2025 (ACL Talks). More details can be found on Hugging Face.
+
+
 As an example input, consider the following audio:
 
 <audio controls>
@@ -44,17 +49,16 @@ As an example input, consider the following audio:
 and the corresponding testset entry:
 ```
 {
-    "src_wav": "sample.wav"
-    "src_asr": "Plans are well underway for races to Mars and the Moon in 1992, by solar sail. The race to Mars is to commemorate Columbus's journey to the New World 500 years ago, and the one to the Moon is to promote the use of solar sails in space exploration.",
-    "tgt": "Pläne sind gut im Wege für Rennen nach Mars und der Mond in 1992, mit Sonnensegel. Das Rennen zum Mars ist zu Kolumbus' Reise in die Neue Welt vor 500 Jahren zu gedenken, und der eine zum Mond ist den Gebrauch von Sonnensegeln in Weltraum Exploration zu fördern.",
-    "score_human": 71.5,
+    "audio": "sample.wav"
+    "src_text": "Plans are well underway for races to Mars and the Moon in 1992, by solar sail. The race to Mars is to commemorate Columbus's journey to the New World 500 years ago, and the one to the Moon is to promote the use of solar sails in space exploration.",
+    "tgt_text": "Pläne sind gut im Wege für Rennen nach Mars und der Mond in 1992, mit Sonnensegel. Das Rennen zum Mars ist zu Kolumbus' Reise in die Neue Welt vor 500 Jahren zu gedenken, und der eine zum Mond ist den Gebrauch von Sonnensegeln in Weltraum Exploration zu fördern.",
+    "score": 71.5,
 }
 ```
 
-The goal is to predict `score_human` given `src_wav`, `src_asr`, and `tgt`.
+The goal is to predict the human score `score` given the source speech `audio`, the ASR transription `src_text`, and `tgt_text`.
 The human score is not 100 because the style of the automatic translation is awkward at places.
 
-Train and development data will be released on January 1.
 
 <!-- Details description of the data and links to download -->
 
