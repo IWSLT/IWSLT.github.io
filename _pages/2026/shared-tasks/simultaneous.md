@@ -50,5 +50,5 @@ Data will be released in January.
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair(s): Peter Polák, Siqi Ouyang <[surname]@ufal.mff.cuni.cz, siqiouya@andrew.cmu.edu>;  
+Chair(s): Peter Polák, Siqi Ouyang, Victor Agostinelli, Lizhong Chen <[surname]@ufal.mff.cuni.cz, siqiouya@andrew.cmu.edu, agostinv@oregonstate.edu, chenliz@oregonstate.edu>;  
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
