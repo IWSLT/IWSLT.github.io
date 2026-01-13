@@ -166,11 +166,11 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 * Scoring will be case-sensitive and will include punctuation. Submissions have to be in plain UTF-8 text format, with one sentence per line. Tags such as applause, laughing, etc are not considered during the evaluation.
 
 
-* Once logged in to the  [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), the submission process requires participants to create one or more Models for each language pair they intend to participate in <!--for the Offline task--> (English-German, English-Arabic, English-Chinese).
+* Once logged in to the  [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/), the submission process requires participants to create one or more Models for each language pair they intend to participate in <!--for the Offline task--> (English-German, English-Arabic, English-Chinese, English-Japanese, X-English, X-German).
 
 * For each chosen language pair, multiple Models can be created based on the training condition (CONSTRAINED / UNCONSTRAINED) and the submission type (PRIMARY / CONTRASTIVE).
 
-* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German).
+* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair. <!-- (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German). -->
 
 * If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
 
@@ -182,7 +182,7 @@ Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proce
 #### STEP 0: Download and process the test data
     0.1 Click on “Test sets” (at the top of the page).
     0.2 Click on the “offline” button associated with any of the visible test sets in the list.
-    0.3 Download ALL the test sets for the language pair(s) chosen for participation  (4 test sets for en-de, 1 test set for en-ar, 1 test set for en-zh).
+    0.3 Download ALL the test sets for the language pair(s) chosen for participation.   <!-- (4 test sets for en-de, 1 test set for en-ar, 1 test set for en-zh).-->
     0.4 Process the test data to obtain your candidate submission file (to be stored in plain UTF-8 text format, one sentence per line)
 
 
@@ -199,7 +199,7 @@ Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proce
          
           Where:
            - ${TEAM} → Short name of your team (e.g., KIT)
-           - ${LANGUAGE_PAIR} → Choose from [en-de, en-ar, en-zh]
+           - ${LANGUAGE_PAIR} → Choose from [en-de, en-ar, en-zh, en-jp, X-en, X-de]
            - ${CONDITION} → Choose from [constrained, unconstrained]
            - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
 
