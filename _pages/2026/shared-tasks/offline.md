@@ -58,7 +58,7 @@ Moreover, as a complement to automatic evaluation, human evaluation will be perf
 <!-- While evaluating the submitted systems to the official test sets, in this edition the organizers give the possibility to submit additional test suites. The goal of a test suite is to evaluate an SLT system on specific aspects that are generally hidden by the classic evaluation frameworks. More information will be provided in the session **Test suite**. This means that each participant will translate the official test sets and the test suites. While the official evaluation will be based only on the official test sets, the test suites will give the possibility to identify specific and challenging aspects that affect the SLT performance.  
 -->
 
-<!--## Tracks
+## Tracks
 For this round of the Offline Speech Translation Task, we propose two tracks: language-aware and language-agnostic.
 
 **Language-aware**: This track follows the traditional format of previous rounds, where participants are challenged with test sets covering a predefined list of language directions. Submissions may be made for any of the following directions:
@@ -67,8 +67,9 @@ For this round of the Offline Speech Translation Task, we propose two tracks: la
 * English -> Japanese: TV series, scientific presentations, business news.
 * English -> Arabic: business news.
 
-**Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech into English when the source language is unknown. By removing the requirement for pre-defined language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak.
--->
+**Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech into when the source language is unknown. By removing the requirement for pre-defined source language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak.
+
+More information about the test data and the target languages will be released soon.
 
 ## Evaluation Conditions
 
