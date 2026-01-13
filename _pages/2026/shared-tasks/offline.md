@@ -67,7 +67,7 @@ For this round of the Offline Speech Translation Task, we propose two tracks: la
 * English -> Japanese: TV series, scientific presentations, business news.
 * English -> Arabic: business news.
 
-**Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech into when the source language is unknown. By removing the requirement for pre-defined source language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak.
+**Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech when the source language is unknown. By removing the requirement for pre-defined source language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak.
 
 More information about the test data and the target languages will be released soon.
 
