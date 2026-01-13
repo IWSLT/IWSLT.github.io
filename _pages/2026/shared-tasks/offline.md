@@ -170,7 +170,9 @@ This year, the evaluation will be performed using the MeeTween SPEECHM centraliz
 
 * For each chosen language pair, multiple Models can be created based on the training condition (CONSTRAINED / UNCONSTRAINED) and the submission type (PRIMARY / CONTRASTIVE).
 
-* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair. <!-- (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German). -->
+* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair.
+
+  <!-- (i.e., 1 test set for English-Arabic and English-Chinese, and 4 test sets for English-German). -->
 
 * If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
 
@@ -182,9 +184,10 @@ Once logged in to [SPEECHM](https://iwslt2025.speechm.cloud.cyfronet.pl/), proce
 #### STEP 0: Download and process the test data
     0.1 Click on “Test sets” (at the top of the page).
     0.2 Click on the “offline” button associated with any of the visible test sets in the list.
-    0.3 Download ALL the test sets for the language pair(s) chosen for participation.   <!-- (4 test sets for en-de, 1 test set for en-ar, 1 test set for en-zh).-->
-    0.4 Process the test data to obtain your candidate submission file (to be stored in plain UTF-8 text format, one sentence per line)
-
+    0.3 Download ALL the test sets for the language pair(s) chosen for participation.   
+    0.4 Process the test data to obtain your candidate submission file (to be stored in plain UTF-8 text format, one sentence per line).
+    
+<!-- (4 test sets for en-de, 1 test set for en-ar, 1 test set for en-zh).-->
 
 #### STEP 1: Create a New Model
 
