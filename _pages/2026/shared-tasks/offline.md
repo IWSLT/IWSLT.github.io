@@ -73,7 +73,7 @@ For this round of the Offline Speech Translation Task, we propose two tracks: la
 
 Both cascade and end-to-end models will be evaluated. We kindly ask each participant to specify at submission time if a cascade or an end-to-end model has been used.
 
-In this task, we use the following definition of end-to-end model:
+In continuity with past rounds, we use the following definition of end-to-end model:
   * No intermediate discrete representations (e.g., source language transcripts like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
