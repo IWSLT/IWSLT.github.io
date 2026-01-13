@@ -156,7 +156,7 @@ Note: this list is identical to the one available in the subtitle task. Some tra
 <a id="sg"></a>
 ## Submission Guidelines
 
-This year, the evaluation will be performed using the MeeTween SPEECHM centralized evaluation server:
+Also this year, the evaluation will be performed using the MeeTween SPEECHM centralized evaluation server:
 [SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).
 
 ### General Guidelines
