@@ -27,7 +27,7 @@ many languages remain severely underrepresented. A critical, yet often overlooke
 [Prabhu et al., 2023](#ref-prabhu2023accentedspeechrecognitionaccentspecific)).
 This shared task is designed to spur innovation in speech translation for underserved languages, with a focus on improving the preservation of these vital cultural and linguistic details.
 
-The goal of this shared task is to advance speech translation for low-resource languages, focusing on challenges central to linguistic and cultural fidelity, such as the translation of proper nouns, named entities, and culturally specific terminology. The task is organized into two primary modeling tracks and a parallel evaluation track.
+The goal of this shared task is to advance speech translation for low-resource languages, focusing on challenges central to linguistic and cultural fidelity, such as the translation of proper nouns, named entities, and culturally specific terminology. The task is organized into two primary modeling tracks.
 
 ## Modeling Tracks
 
@@ -67,15 +67,15 @@ Each English sentence in the test sets is recorded twice (once per accent), whil
 The original text source material was collected in English and manually translated into Hausa, Igbo, and Yorùbá by native speakers.
 
 The training data consists of sentences drawn from three existing world-news text datasets:
-- **MAFAND** ([Adelani et al., 2022](#))
-- **NTREX** ([Barrault et al., 2019](#); [Federmann et al., 2022](#))
-- **SSA-MT** ([Li et al., 2025](#))
+- **MAFAND** ([Adelani et al., 2022](#ref-adelani-etal-2022-thousand))
+- **NTREX** ([Barrault et al., 2019](#ref-barrault-etal-2019-findings); [Federmann et al., 2022](#ref-federmann-etal-2022-ntrex))
+- **SSA-MT** ([Li et al., 2025](#ref-li2025ssacometllmsoutperformlearned))
 
 The newly introduced test sets were curated from a combination of open-source newspapers, with a focus on arts and culture, business, and sports articles from *Voice of America*. Test data is evenly split between European-context and African-context articles.
 
 *An optional additional Irish–English track may be added in February/March.*
 
-## Data Format
+### Data Format
 
 All speech data is recorded at a **48 kHz sample rate** and saved as `.wav` files. There should be no need for additional audio post-processing.
 
@@ -139,20 +139,23 @@ All text transcriptions are available in `recordings_metadata.xlsx`, along with 
 
 ## Submission
 
+*Submission instructions will be added before the evaluation period in April.*
+
 <!-- Description of expected submission format and submission instructions -->
 
 
 ## Evaluation
 
 <!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
-## Evaluation
 
 | Track | Metrics |
 |-------|---------|
 | Speech-to-text | BLEU |
 | Speech-to-speech | ASR + CER |
 
-Additional unofficial metrics will be used for further analysis, such as MetricX and SQuID. The ASR system to be used for evaluation is Omnilingual ASR (OmniASR_CTC_1B) ([Omnilingual ASR Team, 2025](#ref-omnilingualasrteam2025omnilingualasropensourcemultilingual)).
+Additional unofficial metrics will be used for further analysis, such as MetricX and SQuID. 
+The ASR system to be used for S2S evaluation is Omnilingual ASR (OmniASR_CTC_1B) ([Omnilingual ASR Team, 2025](#ref-omnilingualasrteam2025omnilingualasropensourcemultilingual)).
+
 
 ## Organizers
 <!-- List of organizers' names and affiliations -->
@@ -162,7 +165,7 @@ Additional unofficial metrics will be used for further analysis, such as MetricX
 - Min Ma, Google DeepMind: minm@google.com
 - Elizabeth Salesky, Google DeepMind: esalesky@google.com
 
-## Contact
+### Contact
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 
 - Chair(s): David Adelani david.adelani@mila.quebec
