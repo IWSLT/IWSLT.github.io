@@ -45,7 +45,7 @@ Participants are allowed to use the SFM and LLM provided below, and training the
     * *S2TSUM*: [NUTSHELL](https://huggingface.co/datasets/maikezu/abstract-gen-acl-17-22)
     * *ACHAP*: [YTSeg](https://huggingface.co/datasets/retkowski/ytseg)
 * **Validation Data**:
-    * *ASR/S2TT/SQA/S2TSUM*: [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF)
+    * *ASR/S2TT/SQA/S2TSUM*: [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) (including the [IWSLT25 Instruction Following test set](https://huggingface.co/datasets/FBK-MT/MCIF/tree/IWSLT2025))
     * *ACHAP*: [YTSeg](https://huggingface.co/datasets/retkowski/ytseg)
  
 We do not provide any training data for SQA, ACHAP, and S2TSUM in languages different from the source speech.
