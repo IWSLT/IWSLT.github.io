@@ -21,7 +21,7 @@ if you want to have a line break either put a blank line in between the text or 
 In recent years, the task of automatically creating subtitles for audiovisual content in another language has gained increasing attention, as we have seen a surge in the amount of movies, series, and user-generated videos that are being streamed and distributed all over the world. The task is a multi-faceted one: not only the translation has to be generated from speech, which is right on target for IWSLT, but also the subtitling constraints have to be respected (i.e. a proper reading speed, synchrony with the voices, maximum number of subtitle lines and characters per line).
 
 As in past editions, in 2026 we propose the <span style="color:blue">**Automatic Subtitling**</span> track, where participants are asked to generate subtitles of different kinds of audiovisual documents, starting from English speech. 
-The novelty this year is the set of target languages: in addition to **Arabic** and **German**, already offered in edition 2025, this year **Chinese** and **Japanese** have been added.
+The novelty this year is the set of target languages: in addition to **Arabic** and **German**, already offered in edition 2025, this year **Chinese** and **Japanese** have been added. Also, **Spanish (Europe)** is available again as the target language for one of the three domains (see below).
 
 ## Training and Data Conditions
 
@@ -54,24 +54,26 @@ Two training data conditions are proposed:
 
 ## Development and Evaluation Data
 
-Participants are asked to automatically subtitle three kinds of audio-visual documents, where the spoken language is always English: 
-* **ITV** entertainment series, to be subtitled in **Chinese**, **German** and/or **Japanese**
-* news programs from the **Asharq-Bloomberg** platform, to be subtitled in **Arabic**, **Chinese**, **German** and/or **Japanese**
-* recordings from the **YODAS** YouTube dataset, to be subtitled in **Chinese**, **German** and/or **Japanese**
-
-Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
+Participants are asked to automatically subtitle three kinds of audio-visual documents, where the spoken language is always English:
+* ITV entertainment series, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**, **Spanish (Europe)**
+* news programs from the **Asharq-Bloomberg**  platform, to be subtitled in the language(s) of your choice: **Arabic**, **Chinese**, **German**, **Japanese**
+* audio recordings from the **Yodas** YouTube dataset, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**
+Audio-visual documents of development and evaluation sets are and will be provided in MP4 format (asharq-bloomberg and ITV) and WAV format (Yodas); subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK's largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or to make them publicly available on any other website. 
 
-  * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EZXtQE00-Z5VP5Stmbhw1Y4BI3k6WyppWs0_cSCCBbwjyQ?e=nxIqkf). **Note 1**: some of the **English** SRT files were created following different subtitling guidelines than the ones used in this evaluation (e.g. they contain subtitles with 3 lines) and are provided for informational purposes only. **Note 2**: reference Spanish subtitles can be ignored since **German** is the only target language considered for ITV.
+  * As a new dev2026 development set, 3 episodes of a television series,  with an approximate duration of 2.5 hours in total, can be downloaded from [LINK1]. Note 1: English SRT files are provided for informational purposes only. The dev set from previous years can also be used for system development and training.    
   * The **test** set 2026 will be released according to the scheduling.
 
-* [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with 'Bloomberg Media' powers this distinguished business news multi-platform, drawing on Bloomberg's comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms.
+* [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with 'Bloomberg Media' powers this distinguished business news multi-platform, drawing on Bloomberg's comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms. Professional human reference translations into Chinese, Japanese, Arabic, and German have been created by AppTek (https://apptek.ai).
 
-  * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive contains a README file with important infos, audios, reference **Arabic** and **German** subtitles, and YAML files which provide the audio segments for which subtitles must be created.
+  * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [LINK2].  The archive contains a README file with important infos, audios, reference subtitles, and YAML files which provide the audio segments for which subtitles must be created (the rest of the video file can be ignored). The dev set was already used in the 2025 evaluation, but now Chinese and Japanese were added as the additional target languages.
   * The **test** set 2026 will be released according to the scheduling.
 
 * [YODAS](https://huggingface.co/datasets/espnet/yodas) (YouTube-Oriented Dataset for Audio and Speech) is *"a large-scale, multilingual dataset comprising currently over 500k hours of speech data in more than 100 languages, sourced from both labeled and unlabeled YouTube speech datasets.*" Refer to this [paper](https://ieeexplore.ieee.org/abstract/document/10389689) for more details.
+
+  IMPORTANT NOTE: the "en003" partition of the Yodas dataset is used for selecting dev/test data and is therefore not permitted for training (e.g. for an auxiliary ASR task). This partition had also been used to select a speech recognition benchmarking test set by the creators of the Loquacious dataset and thus is a natural held-out choice. Professional human reference translations into Chinese, Japanese, and German have been created by AppTek (https://apptek.ai).
+  * The **dev2026** development set, consisting of 6 files, can be downloaded from [LINK3]
   * The **test** set 2026 will be released according to the scheduling.
 
 ## Submission
