@@ -33,8 +33,7 @@ Two training data conditions are proposed:
 
 | Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment |
 | --- | :---: | :---: | --- | --- | --- |
-| speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not 
-to be used |
+| speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used |
 | speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
 | speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v11.0  | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
