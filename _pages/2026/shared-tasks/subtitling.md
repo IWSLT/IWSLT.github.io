@@ -30,7 +30,7 @@ Two training data conditions are proposed:
 d framework (described below) in order to keep the training time and resource requirements manageable
 * **unconstrained**: a setup without data restrictions (any resource, pre-trained language models can be used) to allow
  also the participation of teams equipped with high computational power and effective in-house solutions built on addit
-ional resources.
+ional resources
 
 ### Training Data allowed for Constrained Conditions
 
@@ -61,24 +61,24 @@ to be used |
 ## Development and Evaluation Data
 
 Participants are asked to automatically subtitle three kinds of audio-visual documents, where the spoken language is always English: 
-* ITV entertainment series, to be subtitled in **Chinese**, **German** and/or **Japanese**
-* news programs from the Asharq-Bloomberg platform, to be subtitled in **Arabic**, **Chinese**, **German** and/or **Japanese**
-* recordings from the YODAS YouTube dataset, to be subtitled in **Chinese**, **German** and/or **Japanese**
+* **ITV** entertainment series, to be subtitled in **Chinese**, **German** and/or **Japanese**
+* news programs from the **Asharq-Bloomberg** platform, to be subtitled in **Arabic**, **Chinese**, **German** and/or **Japanese**
+* recordings from the **YODAS** YouTube dataset, to be subtitled in **Chinese**, **German** and/or **Japanese**
 
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format; subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK's largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or to make them publicly available on any other website. 
 
   * As a **dev** set, 7 episodes of 3 different television series, with an approximate duration of 7 hours in total, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EZXtQE00-Z5VP5Stmbhw1Y4BI3k6WyppWs0_cSCCBbwjyQ?e=nxIqkf). **Note 1**: some of the **English** SRT files were created following different subtitling guidelines than the ones used in this evaluation (e.g. they contain subtitles with 3 lines) and are provided for informational purposes only. **Note 2**: reference Spanish subtitles can be ignored since **German** is the only target language considered for ITV.
-  * The **test** set 2026 
+  * The **test** set 2026 will be released according to the scheduling.
 
 * [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with 'Bloomberg Media' powers this distinguished business news multi-platform, drawing on Bloomberg's comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms.
 
   * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ESRKAm6saCZAjgNh78K0TW0BkC7uOP7eu1iefelrJANZsA?e=yIPmkI). The archive contains a README file with important infos, audios, reference **Arabic** and **German** subtitles, and YAML files which provide the audio segments for which subtitles must be created.
-  * The **test** set 2026...
+  * The **test** set 2026 will be released according to the scheduling.
 
-* [YODAS](https://huggingface.co/datasets/espnet/yodas) is ...
-  * The **test** set 2026...
+* [YODAS](https://huggingface.co/datasets/espnet/yodas) (YouTube-Oriented Dataset for Audio and Speech) is *"a large-scale, multilingual dataset comprising currently over 500k hours of speech data in more than 100 languages, sourced from both labeled and unlabeled YouTube speech datasets.*" Refer to this [paper](https://ieeexplore.ieee.org/abstract/document/10389689) for more details.
+  * The **test** set 2026 will be released according to the scheduling.
 
 ## Submission
 
