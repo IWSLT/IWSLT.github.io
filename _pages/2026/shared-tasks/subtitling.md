@@ -130,7 +130,7 @@ The email should also include the following information:
 
 ## Evaluation
 
-__DISCLAIMER__: It is expected that participants will use only the audio track from the provided videos (dev and test sets), the  video track being of low quality and provided primarily as a means to verify time synchronicity and other aspects of displaying subtitles on the screen.
+__DISCLAIMER__: It is expected that participants will use only the audio track from the provided videos (dev and test sets), the  video track provided primarily as a means to verify time synchronicity and other aspects of displaying subtitles on the screen.
 
 The evaluation of subtitling quality is a complex problem on its own since both the translation quality and the compliance with subtitling constraints have to be considered at the same time. 
 We adopt the following metrics, where limits of acceptability for the conformity metrics (CPS, CPL, LPB) are set following the [TED](https://www.ted.com/participate/translate/subtitling-tips) and Netflix (for [Japanese](https://partnerhelp.netflixstudios.com/hc/en-us/articles/215767517-Japanese-Timed-Text-Style-Guide) and [Chinese](https://partnerhelp.netflixstudios.com/hc/en-us/articles/215986007-Chinese-Simplified-Timed-Text-Style-Guide)) guidelines:
