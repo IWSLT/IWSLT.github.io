@@ -126,12 +126,12 @@ The email should also include the following information:
 __DISCLAIMER__: It is expected that participants will use only the audio track from the provided videos (dev and test sets), the  video track being of low quality and provided primarily as a means to verify time synchronicity and other aspects of displaying subtitles on the screen.
 
 The evaluation of subtitling quality is a complex problem on its own since both the translation quality and the compliance with subtitling constraints have to be considered at the same time. 
-We adopt the following metrics, where limits of acceptability for the conformity metrics (LPB, CPS, CPL) are set following the [TED guidelines](https://www.ted.com/participate/translate/subtitling-tips):
+We adopt the following metrics, where limits of acceptability for the conformity metrics (CPS, CPL, LPB) are set following the [TED guidelines](https://www.ted.com/participate/translate/subtitling-tips):
 * [**SubER**](https://github.com/apptek/SubER): the **primary metric** of the task, for measuring the overall quality of automatically generated subtitles
 * [**BLEU**](https://github.com/mjpost/sacrebleu) and [**BLEURT**](https://github.com/google-research/bleurt): for measuring the translation quality, automatic subtitles will be realigned to the reference subtitles using [mweralign](https://github.com/mjpost/mweralign) ([Post and Hoang, 2025](https://aclanthology.org/2025.iwslt-1.7/)), which implements a variant of the AS-WER algorithm ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)), before running these metrics
-* **LPB**: the percentage of subtitles not exceeding 2 lines per subtitle, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
 *  **CPS**: the percentage of subtitles not exceeding 21 characters per second, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
 *  **CPL**: the percentage of subtitles not exceeding 42 characters per line, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
+* **LPB**: the percentage of subtitles not exceeding 2 lines per subtitle, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
   
 Scoring will be case-sensitive and will include the punctuation.
 
