@@ -30,7 +30,7 @@ Two training data conditions are proposed:
 d framework (described below) in order to keep the training time and resource requirements manageable
 * **unconstrained**: a setup without data restrictions (any resource, pre-trained language models can be used) to allow
  also the participation of teams equipped with high computational power and effective in-house solutions built on addit
-ional resources
+ional resources.
 
 ### Training Data allowed for Constrained Conditions
 
