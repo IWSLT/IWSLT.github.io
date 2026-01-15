@@ -38,19 +38,22 @@ Two training data conditions are proposed:
 | speech | en | -- | [Mozilla Common Voice](https://datacollective.mozillafoundation.org/datasets/cmj8u3p1w0075nxxbe8bedl00) | v24.0  | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na | |
 | speech-to-text-parallel | en | ar, de, ja, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | only translations, no English transcription |
-| speech-to-text-parallel | en | de | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| speech-to-text-parallel | en | de, es | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
 | text-parallel | en | ar | [UNPC](https://object.pouta.csc.fi/OPUS-UNPC/v1.0/tmx/ar-en.tmx.gz) | v1.0 | |
 | text-parallel | en | de | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
-| text-parallel | en | ar, de, ja | [Tanzil](https://opus.nlpl.eu/Tanzil/corpus/version/Tanzil) | v1 | |
-| text-parallel | en | ar, de, ja, zh | [NewsCommentary](https://data.statmt.org/news-commentary/v18/training/) | v18 | |
-| text-parallel | en | ar, de | [GlobalVoices](https://opus.nlpl.eu/GlobalVoices/corpus/version/GlobalVoices) | v2018q4 | | 
-| text-parallel | en | ar, de, ja, zh | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles) | v2024 | |
+| text-parallel | en | es | [Europarl](https://object.pouta.csc.fi/OPUS-Europarl/v8/tmx/en-es.tmx.gz) | v8 | |
+| text-parallel | en | ar, de, es, ja | [Tanzil](https://opus.nlpl.eu/Tanzil/corpus/version/Tanzil) | v1 | |
+| text-parallel | en | ar, de, es, ja, zh | [NewsCommentary](https://data.statmt.org/news-commentary/v18/training/) | v18 | |
+| text-parallel | en | ar, de, es | [GlobalVoices](https://opus.nlpl.eu/GlobalVoices/corpus/version/GlobalVoices) | v2018q4 | | 
+| text-parallel | en | ar, de, es, ja, zh | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles) | v2024 | |
 | text-parallel | en | de | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/ESYWN8_BzeJAmBv4GcRapbsBeLpmLOd699qBc9_WG7Gifw?e=Bk6UWh) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | es | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/EafNtfaI0yNKgsoDIDTsEK8BelStVZVsZIrQcwjgTx5diA?e=BT97yx) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
 | text-parallel | en | ja | [JParaCrawl](https://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) | na | |
-| text-parallel | en | ar, de, ja, zh | [Tatoeba](https://opus.nlpl.eu/Tatoeba/corpus/version/Tatoeba) | v2023-04-12 | |
+| text-parallel | en | ar, de, es, ja, zh | [Tatoeba](https://opus.nlpl.eu/Tatoeba/corpus/version/Tatoeba) | v2023-04-12 | |
 | text-parallel | en | ar, zh | [ELRC_2922](https://opus.nlpl.eu/ELRC_2922/corpus/version/ELRC_2922) | v1 | |
-| text-parallel | en | de | [ELRC-CORDIS_News](https://opus.nlpl.eu/ELRC-CORDIS_News/corpus/version/ELRC-CORDIS_News) | v1 | |
+| text-parallel | en | de, es | [ELRC-CORDIS_News](https://opus.nlpl.eu/ELRC-CORDIS_News/corpus/version/ELRC-CORDIS_News) | v1 | |
 | text-monolingual | -- | de | [OpenSubtitles with subtitle breaks](https://fbk.sharepoint.com/:u:/s/MTUnit/Efm0lF0ITTJeBM0ZmjlAKeEBu9CE33SCvb05S1tAq2AkSA?e=FHbZci) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
+| text-monolingual | -- | es | [OpenSubtitles with subtitle breaks](https://fbk.sharepoint.com/:u:/s/MTUnit/EXSih5zOAUZciBlO9HiXrJYBVYjjyRuEM7EK9c9BzpKD7w?e=MllfhK) | v2018-apptek | superset of parallel data, with subtitle breaks and document meta-info on genre, automatically predicted line breaks |
 
 ## Development and Evaluation Data
 
@@ -65,7 +68,7 @@ Audio-visual documents of development and evaluation sets are and will be provid
   * As a new dev2026 development set, 3 episodes of a television series,  with an approximate duration of 2.5 hours in total, can be downloaded from [LINK1]. Note 1: English SRT files are provided for informational purposes only. The dev set from previous years can also be used for system development and training.    
   * The **test** set 2026 will be released according to the scheduling.
 
-* [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with 'Bloomberg Media' powers this distinguished business news multi-platform, drawing on Bloomberg's comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms. Professional human reference translations into Chinese, Japanese, Arabic, and German have been created by AppTek (https://apptek.ai).
+* [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with 'Bloomberg Media' powers this distinguished business news multi-platform, drawing on Bloomberg's comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms. Professional human reference translations into Chinese, Japanese, Arabic, and German have been created by [AppTek](https://apptek.ai).
 
   * As a **dev** set, 2 recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [LINK2].  The archive contains a README file with important infos, audios, reference subtitles, and YAML files which provide the audio segments for which subtitles must be created (the rest of the video file can be ignored). The dev set was already used in the 2025 evaluation, but now Chinese and Japanese were added as the additional target languages.
   * The **test** set 2026 will be released according to the scheduling.
