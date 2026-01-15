@@ -26,11 +26,8 @@ The novelty this year is the set of target languages: in addition to **Arabic** 
 ## Training and Data Conditions
 
 Two training data conditions are proposed:
-* **constrained**: the official training data condition, in which the allowed training data is limited to a medium-size
-d framework (described below) in order to keep the training time and resource requirements manageable
-* **unconstrained**: a setup without data restrictions (any resource, pre-trained language models can be used) to allow
- also the participation of teams equipped with high computational power and effective in-house solutions built on addit
-ional resources
+* **constrained**: the official training data condition, in which the allowed training data is limited to a medium-sized framework (described below) in order to keep the training time and resource requirements manageable
+* **unconstrained**: a setup without data restrictions (any resource, pre-trained language models can be used) to allow also the participation of teams equipped with high computational power and effective in-house solutions built on additional resources
 
 ### Training Data allowed for Constrained Conditions
 
