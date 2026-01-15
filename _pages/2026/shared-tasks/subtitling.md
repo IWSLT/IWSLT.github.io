@@ -102,8 +102,9 @@ where:
          = one of {tst26, tst25} if <Domain>=Asharq
          = tst26 if <Domain>=YODAS
 <VdId>   = numeric identifier of the video
-<Lang>   = one of {en-de.de,en-ja.ja,en-zh.zh} if <Domain>=ITV or YODAS
+<Lang>   = one of {en-de.de,en-es.es,en-ja.ja,en-zh.zh} if <Domain>=ITV
          = one of {en-ar.ar,en-de.de,en-ja.ja,en-zh.zh} if <Domain>=Asharq
+         = one of {en-de.de,en-ja.ja,en-zh.zh} if <Domain>=YODAS
            (ISO 639-1 two-letter codes of languages)
 ```
 Example: 
@@ -135,9 +136,17 @@ The evaluation of subtitling quality is a complex problem on its own since both 
 We adopt the following metrics, where limits of acceptability for the conformity metrics (CPS, CPL, LPB) are set following the [TED guidelines](https://www.ted.com/participate/translate/subtitling-tips):
 * [**SubER**](https://github.com/apptek/SubER): the **primary metric** of the task, for measuring the overall quality of automatically generated subtitles
 * [**BLEU**](https://github.com/mjpost/sacrebleu) and [**BLEURT**](https://github.com/google-research/bleurt): for measuring the translation quality, automatic subtitles will be realigned to the reference subtitles using [mweralign](https://github.com/mjpost/mweralign) ([Post and Hoang, 2025](https://aclanthology.org/2025.iwslt-1.7/)), which implements a variant of the AS-WER algorithm ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)), before running these metrics
-*  **CPS**: the percentage of subtitles not exceeding 21 characters per second, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
-*  **CPL**: the percentage of subtitles not exceeding 42 characters per line, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
-* **LPB**: the percentage of subtitles not exceeding 2 lines per subtitle, computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
+*  **CPS**: the percentage of subtitles not exceeding:
+      -  21 characters per second for German and Spanish
+      -  4 characters per second for Japanese (half-width characters counted as 0.5)
+      -  9 characters per second for Chinese
+*  **CPL**: the percentage of subtitles not exceeding:
+      - 42 characters per line for German and Spanish
+      - 13 characters per line for Japanese (half-width characters counted as 0.5)
+      - 16 characters per line for Chinese
+* **LPB**: the percentage of subtitles not exceeding 2 lines per subtitle
+  
+  CPS, CPL and CPB will be computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
   
 Scoring will be case-sensitive and will include the punctuation.
 
