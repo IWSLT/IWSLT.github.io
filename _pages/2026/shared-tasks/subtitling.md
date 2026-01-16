@@ -12,7 +12,7 @@ if you want to have a line break either put a blank line in between the text or 
 -->
 <span style="color:red">**PAGE UNDER CONSTRUCTION** </span>
 
-[Last update: Jan 15, 2026]
+[Last update: Jan 16, 2026]
 
 ## Description
 
@@ -61,6 +61,7 @@ Participants are asked to automatically subtitle three kinds of audio-visual doc
 * **ITV** entertainment series, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**, **Spanish (Europe)**
 * news programs from the **Asharq-Bloomberg**  platform, to be subtitled in the language(s) of your choice: **Arabic**, **Chinese**, **German**, **Japanese**
 * audio recordings from the **YODAS** YouTube dataset, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**
+  
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format (asharq-bloomberg and ITV) and WAV format (Yodas); subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK's largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or to make them publicly available on any other website. 
