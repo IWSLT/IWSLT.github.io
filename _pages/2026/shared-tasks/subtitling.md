@@ -10,7 +10,7 @@ Markdown notes: comments can be formed as in this example;
 bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
-<span style="color:red">**PAGE UNDER CONSTRUCTION** </span>
+<span style="color:red">**DEVELOPMENT SETS 2026 ARE AVAILABLE** </span>
 
 [Last update: Jan 16, 2026]
 
