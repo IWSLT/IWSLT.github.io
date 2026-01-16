@@ -147,7 +147,7 @@ We adopt the following metrics, where limits of acceptability for the conformity
       - 16 characters per line for Chinese
 * **LPB**: the percentage of subtitles not exceeding 2 lines per subtitle
   
-  CPS, CPL and CPB will be computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
+  CPS, CPL and CPB will be computed with the [subtitle compliance script](https://github.com/hlt-mt/FBK-fairseq/blob/master/examples/speech_to_text/scripts/subtitle_compliance_halfwidth.py) ([Papi et al., 2023](https://doi.org/10.1162/tacl_a_00607))
   
 Scoring will be case-sensitive and will include the punctuation.
 
