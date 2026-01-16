@@ -58,7 +58,7 @@ Two training data conditions are proposed:
 ## Development and Evaluation Data
 
 Participants are asked to automatically subtitle three kinds of audio-visual documents, where the spoken language is always English:
-* ITV entertainment series, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**, **Spanish (Europe)**
+* **ITV** entertainment series, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**, **Spanish (Europe)**
 * news programs from the **Asharq-Bloomberg**  platform, to be subtitled in the language(s) of your choice: **Arabic**, **Chinese**, **German**, **Japanese**
 * audio recordings from the **YODAS** YouTube dataset, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format (asharq-bloomberg and ITV) and WAV format (Yodas); subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
