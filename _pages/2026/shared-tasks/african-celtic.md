@@ -45,10 +45,9 @@ The official, ranked language direction is **from the three source languages** (
 
 ## Data
 
-<!--Data will be released in January.-->
-
+Data is now available at [huggingface.co/datasets/McGill-NLP/african_celtic_dataset](https://huggingface.co/datasets/McGill-NLP/african_celtic_dataset)
 <!-- Details description of the data and links to download -->
-*The dataset will be available on January 16th, 2026.*
+<!--*The dataset will be available on January 16th, 2026.* -->
 
 <!-- Dataset Overview -->
 
