@@ -17,10 +17,10 @@ Voice cloning is a type of speech synthesis task that aims to mimic the characte
 
 ## Description
 
-The cross-lingual voice cloning task requires systems to synthesize speech in a target language while preserving the voice characteristics of a speaker from source language audio. Unlike traditional speech translation tasks, the cross-lingual voice cloning task focuses on transferring voice identity across languages while maintaining naturalness and intelligibility. Given a small set of enrollment (reference) utterances from a source speaker in language $L_s$ and text input in a target language $L_t$, systems must generate speech that:
+The cross-lingual voice cloning task requires systems to synthesize speech in a target language while preserving the voice characteristics of a speaker from source language audio. Unlike traditional speech translation tasks, the cross-lingual voice cloning task focuses on transferring voice identity across languages while maintaining naturalness and intelligibility. Given a small set of enrollment (reference) utterances from a source speaker in language L<sub>s</sub> and text input in a target language L<sub>t</sub>, systems must generate speech that:
 
 1. Maintains the speaker identity and voice characteristics (timbre, prosody, speaking style) of the source speaker
-2. Produces natural and intelligible speech in the target language $L_t$, with accurate translation
+2. Produces natural and intelligible speech in the target language L<sub>t</sub>, with accurate translation of utterance in language L<sub>s</sub>.
 3. Handles appropriate phonetic adaptations across languages while preserving speaker identity
 
 ### Input
@@ -28,30 +28,50 @@ The cross-lingual voice cloning task requires systems to synthesize speech in a 
 Participants will receive:
 
 - **Reference audio**: Raw audio file(s) from target speaker
-- **Target text**: Written text in target language $L_t$ to be synthesized
+- **Target text**: Written text in target language L<sub>t</sub> to be synthesized
 
 ### Output
 
 * Systems must produce synthesized audio in the target language that preserves the source speaker's voice characteristics.
 
+### Languages
+
+* Constrained: Arabic, Chinese, and French
+* Unconstrained: Any language included in the [ACL 60/60 dataset](https://huggingface.co/datasets/ymoslem/acl-6060)
+
+Participants may submit to one or all of the constrained languages for official evaluation. Building a model for each language is possible, but building one multilingual model is encouraged. Languages under the "unconstrained" category are also allowed, but their official evaluation is subject to number of participants and resources.
+
 
 ## Data
 
-Data will be released in January.
+### Training and Dev Data
 
-<!-- Details description of the data and links to download -->
+* Participants may use any suitable training and dev data
+* It is recommended to integrate the [ACL 60/60 dataset](https://huggingface.co/datasets/ymoslem/acl-6060) since the blind dataset will include utterances in the same domain.
+
+### Blind Data
+
+* The blind test data that is required for submission is going to be released before the evaluation period starts. 
 
 
 ## Baselines
 
-Participants are allowed to use any **open-source** model(s).
+* Participants are allowed to use any **open-source** model(s). This includes but not limited to Qwen3-Omin, IndexTTS2, CosyVoice3, OpenVoice2, or VoxCPM. Only open-source models can be used.
 
 
 ## Submission
 
-Systems will be submitted through a form that will be available by the time the evaluation period starts.
+Systems will be submitted through a form that will be available before the evaluation period starts.
+
+## System Description Paper
 
 System description papers should follow the same instructions as those for the main conference, available [here](https://iwslt.org/2026/#submission-requirements).
+
+All participants are encouraged to submit a paper describing their submitted system(s). Aspects that must be covered by the system description paper include by not limited to:
+
+* Technical details of the system including, data, models, and approaches.
+* Evaluation should be clearly documented.
+* Ethical considerations regarding data licensing and potential misuse should be addressed.
 
 ### Important Dates
 
@@ -60,19 +80,23 @@ The preliminary timeline is below and may be subject to minor changes.
 
 | Date           | Event                                        |
 | -------------- | -------------------------------------------- |
-| Jan 25, 2026   | Release of shared task training and dev data |
+| Jan 20, 2026   | Release of shared task training and dev data |
 | Apr 1-15, 2026 | Evaluation period                            |
 | Apr 24, 2026   | System paper submission deadline             |
 | May 15, 2026   | Notification of acceptance                   |
 | June 1, 2026   | Camera ready deadline                        |
 | July 3-4, 2026 | IWSLT conference                             |
 
-**Note:** All deadlines are Anywhere on Earth (11:59PM UTC-12:00).
+**Note:** All deadlines are 11:59PM UTC-12:00.
 
 
 ## Evaluation
 
-<!-- Description of metrics used for evaluation, what the official ranking is based on, links to evaluation scripts -->
+Systems will be evaluated on the following aspects:
+
+* Translation Accuracy
+* Speaker Similarity
+* Speech Quality
 
 
 ## Organizers
