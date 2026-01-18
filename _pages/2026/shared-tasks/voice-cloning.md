@@ -36,8 +36,10 @@ Participants will receive:
 
 ### Languages
 
-* Constrained: Arabic, Chinese, and French
-* Unconstrained: Any language included in the [ACL 60/60 dataset](https://huggingface.co/datasets/ymoslem/acl-6060)
+* **Source language:** English
+* **Target languages:**
+  * Constrained: Arabic, Chinese, and French
+  * Unconstrained: Any language included in the [ACL 60/60 dataset](https://huggingface.co/datasets/ymoslem/acl-6060)
 
 Participants may submit to one or all of the constrained languages for official evaluation. Building a model for each language is possible, but building one multilingual model is encouraged. Languages under the "unconstrained" category are also allowed, but their official evaluation is subject to number of participants and resources.
 
