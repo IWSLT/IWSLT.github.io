@@ -60,7 +60,6 @@ Participants may submit to one or all of the constrained languages for official 
 
 * Participants are allowed to use any **open-source** model(s). This includes but not limited to Qwen3-Omin, IndexTTS2, CosyVoice3, OpenVoice2, or VoxCPM. Only open-source models can be used.
 
-
 ## Submission
 
 Systems will be submitted through a form that will be available before the evaluation period starts.
@@ -80,6 +79,7 @@ All participants are encouraged to submit a paper describing their submitted sys
 | Date           | Event                                        |
 | -------------- | -------------------------------------------- |
 | Jan 18, 2026   | Release of shared task training and dev data |
+| Jan-Apr, 2026  | Expression of Interest                       | 
 | Apr 1-15, 2026 | Evaluation period                            |
 | Apr 24, 2026   | System paper submission deadline             |
 | May 15, 2026   | Notification of acceptance                   |
@@ -97,6 +97,9 @@ Systems will be evaluated on the following aspects:
 * **Speaker Similarity:** This measures how well the output matches the source speaker’s voice characteristics. This is computed as the cosine similarity between speaker embeddings.
 * **Speech Quality:** Naturalness, intelligibility, and absence of artifacts are assessed using objective quality metrics.
 
+## Expression of Interest
+
+Although it is not required, it is highly recommended to fill out the [expression of interest form](https://forms.office.com/e/PYgKd2gFTr) once you decide to participate in the Cross-Lingual Voice Cloning Track to help the organizers anticipate the effort and resources required for evaluation. Looking forward to your participation! :)
 
 ## Organizers
 
