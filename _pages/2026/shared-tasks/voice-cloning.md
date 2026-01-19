@@ -1,6 +1,6 @@
 ---
 permalink: /2026/voice-cloning
-title: "Cross-Lingual Voice Cloning track"
+title: "Cross-Lingual Voice Cloning Track"
 toc: true
 toc_sticky: true
 ---
