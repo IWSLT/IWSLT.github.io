@@ -7,7 +7,7 @@ toc_sticky: true
 
 ## Motivation
 
-Voice cloning is a type of speech synthesis task that aims to mimic the characteristics of an original voice for a new input text. Current systems have limited capabilities in diverse areas including as they support of a limited number of languages, struggle with scientific and domain-specific terminology, and show difficulty with code-switching scenarios. The task of voice cloning is used for diverse purposes including:
+Voice cloning is a type of speech synthesis task that aims to mimic the characteristics of an original voice for a new input text. Current systems have limited capabilities in diverse areas as they support a limited number of languages, struggle with scientific and domain-specific terminology, and show difficulty with code-switching scenarios. The task of voice cloning is used for diverse purposes including:
 
 * **Speaker standardization:** In speech systems, voice cloning can be employed as a speaker standardization step, especially in commercial systems that require the final output to match certain voice characteristics. For example, during training data creation, a few samples from a voiceover artist can be licensed to be used for standardizing a huge amount of training data. Alternatively, speaker standardization can be applied as a post-processing step in speech synthesis. This can be more efficient and cost-effective than creating data from scratch.
 
@@ -20,15 +20,15 @@ Voice cloning is a type of speech synthesis task that aims to mimic the characte
 The cross-lingual voice cloning task requires systems to synthesize speech in a target language while preserving the voice characteristics of a speaker from source language audio. Unlike traditional speech translation tasks, the cross-lingual voice cloning task focuses on transferring voice identity across languages while maintaining naturalness and intelligibility. Given a small set of enrollment (reference) utterances from a source speaker in language L<sub>s</sub> and text input in a target language L<sub>t</sub>, systems must generate speech that:
 
 1. Maintains the speaker identity and voice characteristics (timbre, prosody, speaking style) of the source speaker
-2. Produces natural and intelligible speech in the target language L<sub>t</sub>, with accurate translation of utterance in language L<sub>s</sub>.
+2. Produces natural and intelligible speech in the target language L<sub>t</sub>
 3. Handles appropriate phonetic adaptations across languages while preserving speaker identity
 
 ### Input
 
 Participants will receive:
 
-- **Reference audio**: Raw audio file(s) from target speaker
-- **Target text**: Written text in target language L<sub>t</sub> to be synthesized
+- **Reference audio:** Raw audio file(s) from the source speaker. This audio is used to mimic the speaker characteristics.
+- **Target text:** Written text in the target language L<sub>t</sub> to be synthesized. This text can have different content from what is spoken in the reference audio.
 
 ### Output
 
@@ -69,7 +69,7 @@ Systems will be submitted through a form that will be available before the evalu
 
 System description papers should follow the same instructions as those for the main conference, available [here](https://iwslt.org/2026/#submission-requirements).
 
-All participants are encouraged to submit a paper describing their submitted system(s). Aspects that must be covered by the system description paper include by not limited to:
+All participants are encouraged to submit a paper describing their submitted system(s). Aspects that must be covered by the system description paper include but not limited to:
 
 * Technical details of the system including, data, models, and approaches.
 * Evaluation should be clearly documented.
@@ -77,12 +77,9 @@ All participants are encouraged to submit a paper describing their submitted sys
 
 ### Important Dates
 
-The preliminary timeline is below and may be subject to minor changes.
-{: .notice--info}
-
 | Date           | Event                                        |
 | -------------- | -------------------------------------------- |
-| Jan 20, 2026   | Release of shared task training and dev data |
+| Jan 18, 2026   | Release of shared task training and dev data |
 | Apr 1-15, 2026 | Evaluation period                            |
 | Apr 24, 2026   | System paper submission deadline             |
 | May 15, 2026   | Notification of acceptance                   |
@@ -96,9 +93,9 @@ The preliminary timeline is below and may be subject to minor changes.
 
 Systems will be evaluated on the following aspects:
 
-* Translation Accuracy
-* Speaker Similarity
-* Speech Quality
+* **Content Consistency:** To evaluate content consistency, the generated audio is converted to text using a speech recognition model, and then the generated transcript is compared to the actual text.
+* **Speaker Similarity:** This measures how well the output matches the source speaker’s voice characteristics. This is computed as the cosine similarity between speaker embeddings.
+* **Speech Quality:** Naturalness, intelligibility, and absence of artifacts are assessed using objective quality metrics.
 
 
 ## Organizers
