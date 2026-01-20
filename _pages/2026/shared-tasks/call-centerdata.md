@@ -1,3 +1,10 @@
+---
+permalink: /2026/call-centerdata
+title: "Call center two-person conversations data"
+toc: true
+toc_sticky: true
+---
+
 
 ## AppTek's call center blind evaluation set
 
