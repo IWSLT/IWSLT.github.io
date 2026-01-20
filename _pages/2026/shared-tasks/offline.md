@@ -62,10 +62,12 @@ Moreover, as a complement to automatic evaluation, human evaluation will be perf
 For this round of the Offline Speech Translation Task, we propose two tracks: language-aware and language-agnostic.
 
 **Language-aware**: This track follows the traditional format of previous rounds, where participants are challenged with test sets covering a predefined list of language directions. Submissions may be made for any of the following directions:
-* English -> German: TV series, scientific presentations, business news, and accent challenge data.
-* English -> Chinese: TV series, scientific presentations, and business news.
-* English -> Japanese: TV series, scientific presentations, business news.
+* English -> German: TV series, scientific presentations, call center two-person conversations, business news, and accent challenge data.
+* English -> Chinese: TV series, scientific presentations, call center two-person conversations, and business news.
+* English -> Japanese: TV series, scientific presentations, call center two-person conversations, business news.
 * English -> Arabic: business news.
+
+For more information about the data, please refer to the [subtitling task page](https://iwslt.org/2026/subtitling).
 
 **Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech when the source language is unknown. By removing the requirement for pre-defined source language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak. **More information about the test data and the target languages will be released soon.**
 
