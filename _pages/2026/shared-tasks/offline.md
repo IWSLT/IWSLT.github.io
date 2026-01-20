@@ -22,7 +22,7 @@ The goal of the **Offline Speech Translation Task** at IWSLT, the one with the l
 
 <!--In this spirit, this year's edition aims to: 
 * include a new and challenging language, Arabic; 
-* offer a varied scenario in terms of domains (news, physical training sessions, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
+* offer a varied scenario in terms of domains (news, business news, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
 * promote the development and use of flexible systems capable of operating in this multi-domain scenario, without resorting to ad-hoc, domain-specialized models. -->
 
 <!--Similar to last year, the task will allow users to submit custom extensions (i.e. test suites) to standard offline test sets. These sets are designed to focus on specific aspects of the SLT output that traditional evaluation methods typically overlook. -->
@@ -34,7 +34,7 @@ The goal of the **Offline Speech Translation Task** at IWSLT, the one with the l
 
 In this spirit, this year's edition aims to: 
 * include a new and challenging language, Japanese; 
-* offer a varied scenario in terms of domains (news, physical training sessions, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
+* offer a varied scenario in terms of domains (news, business news, and TV series), speaking styles, and recording conditions (e.g., single speakers, multiple overlapping speakers, background noise, accent data);
 * promote the development and use of flexible systems capable of operating in this multi-domain scenario, without resorting to ad-hoc, domain-specialized models;
 * explore system's ability to operate in a "source language agnostic" scenario (**newly introduced track**, see below) where the input language is unknown. 
 
