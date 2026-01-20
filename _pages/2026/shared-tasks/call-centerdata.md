@@ -38,7 +38,7 @@ SPK2: #um And and do you know how long it will be available for?
 SPK1: Yes, it is available for quite some time because it is the winter collection and winter is just getting started. [breath] Let me check how long it is scheduled to be open for.
 
 
-Example 2:
+### Example 2:
 
 SPK2: #um, OK, OK. #um, What about the these energy savings plan you mentioned, ma'am? #um, How do they work?
 
@@ -49,7 +49,7 @@ SPK2: Oh, sounds really [noise] #um, that sounds really good to [noise], I like 
 SPK2: Can I also ask how billing and payments work for all these? [noise]
 
 
-###Example 3:
+### Example 3:
 
 SPK1: So you want, so for every one hundred dollars, we cover five thousand.
 
