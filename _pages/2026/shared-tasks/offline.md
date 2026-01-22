@@ -71,6 +71,9 @@ For more information about the data, please refer to the [subtitling task page](
 
 **Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech when the source language is unknown. By removing the requirement for pre-defined source language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak. **More information about the test data and the target languages will be released soon.**
 
+<!-- Target language = English
+Source languages: Czech, German, English-->
+
 ## Evaluation Conditions
 
 Both cascade and end-to-end models will be evaluated. We kindly ask each participant to specify at submission time if a cascade or an end-to-end model has been used.
