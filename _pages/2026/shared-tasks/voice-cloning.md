@@ -58,7 +58,7 @@ Participants may submit to one or all of the constrained languages for official 
 
 ## Baselines
 
-* Participants are allowed to use any **open-source** model(s). This includes but not limited to Qwen3-Omin, IndexTTS2, CosyVoice3, OpenVoice2, or VoxCPM. Only open-source models can be used.
+* Participants are allowed to use any **open-source** model(s). This includes but not limited to Qwen3-TTS, Qwen3-Omin, IndexTTS2, CosyVoice3, OpenVoice2, or VoxCPM. Only open-source models can be used.
 
 ## Submission
 
