@@ -39,6 +39,7 @@ Train and development data is stored on Hugging Face: [maikezu/iwslt2026-metrics
 
 The train set includes human annotations from IWSLT 2023, WMT 2024 and WMT 2025. The dev set consists of the human annotaions from IWSLT 2025 (ACL Talks). More details can be found on Hugging Face.
 
+The test set will consist of human annotations of IWLST 2026 and include the language pairs en-de and en-zh.
 
 As an example input, consider the following audio:
 
