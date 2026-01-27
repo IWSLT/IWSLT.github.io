@@ -17,7 +17,7 @@ Participants are asked to build a model capable to perform, depending on the tra
     * **Automatic Speech Recognition (ASR)**: the speech is transcribed into the same language;
     * **Speech-to-text Translation (S2TT)**: the speech is translated into the target language;
     * **Spoken Question Answering (SQA)**: textual questions have to be answered based on the spoken content in the same language and in a language different from the speech (questions and answers are always in the same language);
-    * **[NEW THIS YEAR!] Surprisal**: a task that is unknown at submission time but doable through in-context learning abilities of SpeechLLMs.
+    * **[NEW THIS YEAR!] Surprisal**: a task that is unknown at submission time but doable through in-context learning abilities of SpeechLLMs.  
 * **LONG TRACK** (input: long-form audio): 
     * **All the short-form tasks, including the Surprisal**;
     * **Speech-to-text Summarization (S2TSUM)**: a summary has to be provided from the spoken content in the same language and in a language different from the speech;
@@ -26,7 +26,7 @@ Participants are asked to build a model capable to perform, depending on the tra
 All tasks listed for each track are mandatory.
 
 ### Languages
-English for ASR, monolingual SQA, ACHAP, and S2TSUM, and English -> German, Italian, Chinese for S2TT, multilingual SQA, ACHAP, and S2TSUM.
+English for ASR, monolingual SQA, ACHAP, and S2TSUM, and English -> German, Italian, Chinese for S2TT, multilingual SQA, ACHAP, and S2TSUM. English -> German, Chinese for the SURPRISAL.
 
 **IMPORTANT!** The results can be submitted for some or all language directions.
 {: .notice--info}
