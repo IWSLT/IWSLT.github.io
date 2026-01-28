@@ -35,13 +35,16 @@ We host two official modeling tracks. The primary evaluation direction for both 
 
 - **Track 1: Speech-to-Text Translation (S2T).**  
   This is the primary and foundational track. The goal is to **translate source-language speech into high-quality English text**. We encourage submission for any number of language pairs. The submission systems will be ranked per language, using evaluation metrics BLEU (official) and MetricX (provided for analysis)
-  ([Juraska et al., 2024](#ref-juraska2024metricx24googlesubmissionwmt)).
+  ([Juraska et al., 2024](#ref-juraska2024metricx24googlesubmissionwmt)). 
+  For a particular interest in S2T translation, we also encourage participation in the multilingual low-resource track: [IWSLT 2026 Low Resource ST Track](https://iwslt.org/2026/low-resource)
 
 - **Track 2: Speech-to-Speech Translation (S2S).**  
   This is the advanced track, targeting the holistic challenge of **end-to-end speech translation**. The goal is to translate source-language speech into English speech that is not only accurate in content but also natural and intelligible. Our unique dataset, which contains target-side English speech recorded by native speakers of the source languages, enables a rich analysis of how systems render paralinguistic features. The official evaluation metric will be ASR + CER (details provided below), with additional unofficial evaluation metrics provided for further analysis of the synthesized speech quality.
 
 
 The official, ranked language direction is **from the three source languages** (Hausa, Igbo, Yorùbá) **into English**. While the provided parallel data also enables translation from English into the source languages, this direction is considered **exploratory**. We encourage participants to submit systems for these exploratory directions; results will be included and analyzed in the final overview paper but will not be part of the official ranking. Participants in the modeling tracks are free to submit to one or both tracks (S2T and S2S).
+
+Any pretrained models and additional datasets are welcomed for the training portion of the task. 
 
 ## Data
 
