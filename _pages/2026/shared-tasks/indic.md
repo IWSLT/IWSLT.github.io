@@ -26,10 +26,12 @@ We are offering training and evaluation data for 3 language pairs. Participants 
 For this shared track, we welcome English to Indic {Hindi, Marathi, Punjabi}, and Indic {Hindi, Marathi, Punjabi} to English speech-to-speech translation models for constrained and unconstrained settings. Thus, there will be a total of 6 cases for this task. 
 Languages: We plan to release a dataset for the following language pairs: English (en) to Hindi (hi), Marathi (mr), and Punjabi (pa). The speech data is approximately 40 hours for each of the languages. We also intend to provide parallel texts for all the languages. 
 
-Data will be released in January.
+Parallel speech dataset for English, Hindi, Marathi and Punjabi can be downloaded from the given link.
 
-<!-- Details description of the data and links to download -->
+[Dataset](https://drive.google.com/drive/folders/1anpoueLuRSXy-j23IYwDqt81MAdJ2O_3?usp=sharing)
 
+Test set are not present in the above link and it will be provided on demond.
+To get the test set, researcher need to communicate through email (mahendragupta2211@gmail.com) mentionaning task details like language pair, direction and author details.
 
 ## Baselines
 
