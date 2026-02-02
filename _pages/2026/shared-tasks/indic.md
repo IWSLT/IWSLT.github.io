@@ -133,7 +133,7 @@ We follow the same schedule as all the other tasks. [(Important Dates)](https://
 
 <!-- List of organizers' names and affiliations -->
 1. Mahendra Gupta (Lecturer, Computer Science and Engineering, Govt. Polytechnic College Anuppur,M.P., India)- <mahendragupta2211@gmail.com>
-2. Dr. Chandresh Kumar Maurya (Assistant Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <chandresh@iiti.ac.in>
+2. Dr. Chandresh Kumar Maurya (Associate Professor, AI Lab, Computer Science and Engineering, Indian Institute of Technology Indore, India)- <chandresh@iiti.ac.in>
 
 
 
