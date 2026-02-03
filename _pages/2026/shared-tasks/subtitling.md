@@ -12,7 +12,7 @@ if you want to have a line break either put a blank line in between the text or 
 -->
 <span style="color:red">**DEVELOPMENT SETS 2026 ARE AVAILABLE** </span>
 
-[Last update: Jan 16, 2026]
+[Last update: Feb 3, 2026]
 
 ## Description
 
@@ -136,13 +136,13 @@ __DISCLAIMER__: It is expected that participants will use only the audio track f
 The evaluation of subtitling quality is a complex problem on its own since both the translation quality and the compliance with subtitling constraints have to be considered at the same time. 
 We adopt the following metrics, where limits of acceptability for the conformity metrics (CPS, CPL, LPB) are set following the [TED](https://www.ted.com/participate/translate/subtitling-tips) and Netflix (for [Japanese](https://partnerhelp.netflixstudios.com/hc/en-us/articles/215767517-Japanese-Timed-Text-Style-Guide) and [Chinese](https://partnerhelp.netflixstudios.com/hc/en-us/articles/215986007-Chinese-Simplified-Timed-Text-Style-Guide)) guidelines:
 * [**SubER**](https://github.com/apptek/SubER): the **primary metric** of the task, for measuring the overall quality of automatically generated subtitles
-* [**BLEU**](https://github.com/mjpost/sacrebleu) and [**BLEURT**](https://github.com/google-research/bleurt): for measuring the translation quality. The BLEU scores will be computed using the following tokenization methods: "13a" for German and Spanish, "ja-mecab" for Japanese, "zh" for Chinese. Automatic subtitles will be realigned to the reference subtitles using [mweralign](https://github.com/mjpost/mweralign) ([Post and Hoang, 2025](https://aclanthology.org/2025.iwslt-1.7/)), which implements a variant of the AS-WER algorithm ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)), before running these metrics
+* [**BLEU**](https://github.com/mjpost/sacrebleu) and [**BLEURT**](https://github.com/google-research/bleurt): for measuring the translation quality. BLEU scores will be computed using the following tokenization schemes: "13a" for Arabic, German, and Spanish; "ja-mecab" for Japanese; and "zh" for Chinese. Prior to metric computation, automatic subtitles will be realigned with the reference subtitles using [mweralign](https://github.com/mjpost/mweralign) ([Post and Hoang, 2025](https://aclanthology.org/2025.iwslt-1.7/)), which implements a variant of the AS-WER algorithm ([Matusov et al., 2005](https://aclanthology.org/2005.iwslt-1.19.pdf)), by applying the tokenization methods listed above
 *  **CPS**: the percentage of subtitles not exceeding:
-      -  21 characters per second for German and Spanish
+      -  21 characters per second for Arabic, German and Spanish
       -  4 characters per second for Japanese (half-width characters counted as 0.5)
       -  9 characters per second for Chinese
 *  **CPL**: the percentage of subtitles not exceeding:
-      - 42 characters per line for German and Spanish
+      - 42 characters per line for Arabic, German and Spanish
       - 13 characters per line for Japanese (half-width characters counted as 0.5)
       - 16 characters per line for Chinese
 * **LPB**: the percentage of subtitles not exceeding 2 lines per subtitle
