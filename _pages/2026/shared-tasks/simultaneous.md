@@ -36,7 +36,7 @@ in the following language directions (more details will be made available soon):
 We have three focuses this year:
 - **long-form speech**: our evaluation will be conducted on *unsegmented* speech
 - **large language models**: participants are allowed to use LLMs (details will be announced later)
-- **extra context**: a sub-track allowing the use of extra context (e.g., the content of the presented ACL paper)
+- **extra context**: a sub-track that allows participants to use additional context. This year, we provide the ACL paper PDFs associated with the ACL talks being translated as extra context.
 
 The test set domains are the subsets of the ones of the offline track:
 - English -> German: ACL talks and accent challenge data
@@ -58,7 +58,7 @@ We also encourage participants to submit systems leveraging closed-source models
 Our English-to-X training data condition follows that of the offline task.
 The list is available [here](https://iwslt.org/2026/offline#training-data-and-data-conditions).
 [ACL 60/60 dataset](https://aclanthology.org/2023.iwslt-1.2/) can be used as the development set.
-The development data can be found [here](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip), while the YAML files containing the audio information (useful for metric computation) can be found [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ETIMufobKrxLqfePQCvss8gBJ-2QMsFBJGqfJQEepGETfQ?e=HGwB6x).
+The development data can be found [here](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip), while the YAML files containing the audio information (useful for metric computation) can be found [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ETIMufobKrxLqfePQCvss8gBJ-2QMsFBJGqfJQEepGETfQ?e=HGwB6x) and the ACL paper PDFs (useful for the *speech-to-text with extra context* track) can be found [here](https://drive.google.com/file/d/15ZGQ2odmXeDbEVgl0h8YaNoqWcbdxmcR/view?usp=sharing).
 
 ### Czech-to-English
 
@@ -104,6 +104,14 @@ We will provide updated baselines for this year soon.
 
 
 The evaluation implementation will use the latest [SimulStream](https://github.com/hlt-mt/simulstream) toolkit (see paper [here](https://arxiv.org/abs/2512.17648)).
+
+For the **Speech-to-Text with Extra Context** track, participants will also be given a file containing the paths to the PDF files of the ACL papers like this:
+```
+/path/to/paper1.pdf
+/path/to/paper2.pdf
+/path/to/paper3.pdf
+```
+Participants are allowed to preprocess the PDF files before running the simultaneous translation system.
 
 Participants have two options for the submission:
 - **(Preferred) Docker Image Submission**: the organizers run the system to compare the computation-aware latency.
