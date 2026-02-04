@@ -115,9 +115,11 @@ IWSLT welcomes [sponsorships](/2026/sponsors)!
 - Marcello Federico, Amazon, Spain (Conference co-Chair)
 - Alex Waibel, CMU, USA (Conference co-Chair)
 - Antonios Anastasopoulos, George Mason University (Program Chair)
+- Luisa Bentivogli, FBK, Italy (Logistics Chair)
 - Jan Niehues, KIT, Germany (Evaluation Chair)
-- Sebastian Stüker, Zoom, Germany (Sponsorship Chair)
-- Elizabeth Salesky, Google, USA (Publication and Website Chair)
 - Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
+- Elizabeth Salesky, Google, USA (Publication and Website Chair)
+- Sebastian Stüker, Zoom, Germany (Sponsorship Chair)
+  
 
 
