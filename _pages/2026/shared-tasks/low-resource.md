@@ -21,7 +21,7 @@ The community will likely require creative approaches in leveraging disparate re
 
 The low-resource shared task will, as last year, involve two tracks:
 <ul>
-	<li> Track 1: A "traditional" speech-to-text translation track focusing on XX typologically diverse language-pairs.</li>
+	<li> Track 1: A "traditional" speech-to-text translation track focusing on 10 typologically diverse language-pairs.</li>
 	<li> Track 2: A data track, inviting participants to provide open-sourced speech translation datasets for under-resourced languages.</li>
 </ul>
 
@@ -85,11 +85,13 @@ Catalan is a Western Romance language spoken by over 10 million people.
 
 ### Central Kurdish to English (ckb-eng)
 
-Central Kurdish,known as Sorani, is a major Indo-Iranian language spoken by 6–9 million people in Iran and Iraq.
+This task focuses on speech-to-text translation from Central Kurdish to English. Central Kurdish (ISO 639-3) with an estimated 8 million speakers, is the second most widely spoken dialect of the Kurdish language. It is spoken mainly in the Kurdistan regions of Iran and Iraq and uses a modified version of the Arabic script.
 
-We provide a a new dataset containing 30 hours of spontaneous Central Kurdish speech, carefully transcribed and professionally translated into English.
+The task is based on the COMMUTE-Kurdish corpus, which contains 30 hours of spontaneous Central Kurdish speech collected from Kurdish media. The data are manually segmented, transcribed, and translated into English. The corpus covers multiple domains, including politics, culture, economy, sports, art, and science.
 
-<strong>Data will be made available by February 5.</strong>
+The COMMUTE-Kurdish dataset, complementary datasets, baseline models, evaluation instructions, and contact information are available on the task website:
+
+<strong> Data: [here](https://lium.univ-lemans.fr/en/corpus-commute-kurdish/)</strong>
 
 ### Irish to English (gle-eng)
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
