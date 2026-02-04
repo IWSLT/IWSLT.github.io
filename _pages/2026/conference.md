@@ -114,7 +114,7 @@ IWSLT welcomes [sponsorships](/2026/sponsors)!
 ## Organizers
 - Marcello Federico, Amazon, Spain (Conference co-Chair)
 - Alex Waibel, CMU, USA (Conference co-Chair)
-- Antonios Anastasopoulos, George Mason University (Program Chair)
+- Antonios Anastasopoulos, George Mason University, USA (Program Chair)
 - Luisa Bentivogli, FBK, Italy (Logistics Chair)
 - Jan Niehues, KIT, Germany (Evaluation Chair)
 - Atul Kr. Ojha, University of Galway, Ireland (Publicity Chair)
