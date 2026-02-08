@@ -120,7 +120,14 @@ Quechua is an indigenous language spoken by more than 8 million people in South 
 
 There are two main region divisions of Quechua known as Quechua I and Quechua II. This data set consists of two main types of Quechua spoken in Ayacucho, Peru (Quechua Chanka ISO:quy) and Cusco, Peru (Quechua Collao ISO:quz) which are both part of Quechua II and, thus, considered “southern” languages. We label the data set with **que** - the ISO code for Quechua II mixtures.
 
-IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *unconstrained* task at no cost here: <a href="https://github.com/Llamacha/IWSLT2025_Quechua_data">IWSLT 2025 QUE-SPA Data set</a>. IWSLT particpants should feel free to use any publicly available data for the *unconstrained* task. This includes a data set of nearly 50 hours of fully transcribed Quechua audio from previous shared tasks along with the introduction of a new data set this year which is about 8 hours of synthetic (post-edited) translations. For assistance with the data sets, please email j.ortega@northeastern.edu and rodolfojoel.zevallos@upf.edu.
+IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *unconstrained* task at no cost here: <a href="https://github.com/johneortega/IWSLT2026_Quechua_data">IWSLT 2026 QUE-SPA Data set</a>. IWSLT particpants should feel free to use any publicly available data for the *unconstrained* task. This includes a data set of nearly 50 hours of fully transcribed Quechua audio from previous shared tasks along with the introduction of a new data set this year which is about 8 hours of synthetic (post-edited) translations. A new addition this year is a *Quechua Collao* dataset which contains 15 hours of ASR data with Spanish translation. For assistance with the data sets, please email j.ortega@northeastern.edu.
+
+### Catalan to English (ca-en)
+Catalan (català) is a Western Romance language which has approximately 4.1 million L1 speakers and more than 10 million people who can speak the language across its territories. It is spoken primarily in Catalonia, the Valencian Community, the Balearic Islands, and parts of Aragon in Spain, as well as in Andorra, where it is the sole official language. Catalan is also spoken in parts of southern France (Northern Catalonia) and in the city of Alghero in Sardinia, Italy.
+
+In Catalonia, the Valencian Community, and the Balearic Islands, Catalan is co-official with Spanish and is widely used in education, media, and public administration. It is recognized as a regional or minority language in several European regions and has the ISO 639-1 code ca.
+
+IWSLT participants may obtain the public Catalan-Spanish speech translation dataset at no cost here: <a href="https://github.com/rjzevallos/IWSLT_2026_Catalan_Dataset">IWSLT 2026 QUE-SPA Data set</a>. IWSLT particpants should feel free to use any publicly available data for the *unconstrained* task. For assistance with the data sets, please email rodolfo.zevallos@bsc.es.
 
 ### Yoruba to English (yor-eng)
 
@@ -237,7 +244,7 @@ Chair(s):
 			<li> Yasmin Moslem, Bering Lab (only for Irish language pair) </li>
 		</ul>
 	</li>
-	<li> Catalan, Quechua:
+	<li> Quechua, Catalan:
 		<ul>
 			<li>John E. Ortega, Northeastern University (j.ortega [email symbol] northeastern.edu)</li>
 			<li>Rodolfo Zevallos, Universitat Pompeu Fabra (rodolfojoel.zevallos [email symbol] upf.edu)</li>
