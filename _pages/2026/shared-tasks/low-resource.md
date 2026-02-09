@@ -127,7 +127,7 @@ Catalan (català) is a Western Romance language which has approximately 4.1 mill
 
 In Catalonia, the Valencian Community, and the Balearic Islands, Catalan is co-official with Spanish and is widely used in education, media, and public administration. It is recognized as a regional or minority language in several European regions and has the ISO 639-1 code ca.
 
-IWSLT participants may obtain the public Catalan-Spanish speech translation dataset at no cost here: <a href="https://github.com/rjzevallos/IWSLT_2026_Catalan_Dataset">IWSLT 2026 QUE-SPA Data set</a>. IWSLT particpants should feel free to use any publicly available data for the *unconstrained* task. For assistance with the data sets, please email rodolfo.zevallos@bsc.es.
+IWSLT participants may obtain the public Catalan-English speech translation dataset at no cost here: <a href="https://github.com/rjzevallos/IWSLT_2026_Catalan_Dataset">IWSLT 2026 CA-EN Data set</a>. IWSLT particpants should feel free to use any publicly available data for the *unconstrained* task. For assistance with the data sets, please email rodolfo.zevallos@bsc.es.
 
 ### Yoruba to English (yor-eng)
 
