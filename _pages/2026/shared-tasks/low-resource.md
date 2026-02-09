@@ -77,11 +77,7 @@ We point participants to additional Bhojpuri audio data (with transcriptions), p
 - [Bhojpuri-wav2vec2 based model](https://github.com/Open-Speech-EkStep/vakyansh-models#wav2vec2-based-models)
 - [Bhojpuri Language Technological Resources (BHLTR)](https://github.com/shashwatup9k/bho-resources)
 
-### Catalan to English (cat-eng)
 
-Catalan is a Western Romance language spoken by over 10 million people.
-
-<strong>Data will be made available by February 5.</strong>
 
 ### Central Kurdish to English (ckb-eng)
 
