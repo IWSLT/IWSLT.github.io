@@ -56,11 +56,11 @@ The evaluation will be performed using the Meetween SPEECHM Evaluation Server. M
 
 The evaluation will be carried out separately for each track (constrained/unconstrained) and language, and will consider two key dimensions:
 
-1. *Quality*, automatically assessed based on a panel of LLM-as-judges to minimize metric bias. 
+1. *Quality*, assessed through automatic metrics. 
 
 2. *Size* of the model on disk.
 
-Translation quality will be assessed using COMET, comparing the model’s output to reference translations. As in the offline track, COMET scores will be calculated on the test sets through automatic resegmentation of the hypothesis, aligned with the reference translation by mwerSegmenter. The detailed evaluation script can be found in the SLT.KIT.
+Translation quality will be assessed using COMET as primary metric, comparing the model’s output to reference translations. As in the offline track, COMET scores will be calculated on the test sets through automatic resegmentation of the hypothesis, aligned with the reference translation by mwerSegmenter. 
 
 Results will be reported in a table showing all metrics. In addition, differences between systems in terms of the quality-size trade-off will be presented using Pareto frontier ranking, through quality-size graphs highlighting the models that are not outperformed in both dimensions at once.
 
