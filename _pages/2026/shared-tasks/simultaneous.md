@@ -114,7 +114,7 @@ For the **Speech-to-Text with Extra Context** track, participants will also be g
 Participants are allowed to preprocess the PDF files before running the simultaneous translation system.
 
 Participants have two options for the submission:
-- **(Preferred) Docker Image Submission**: the organizers run the system to compare the computation-aware latency.
+- **(Preferred) Docker Image Submission**: the organizers run the system to compare the computation-aware latency. [Example on how to build a Docker Image can be found in the dedicated SimulStream README.](https://github.com/hlt-mt/simulstream/tree/main/examples/http_docker)
 - *System Log Submission:* computation-aware latency cannot be compared directly, but it will be reported along with the hardware used.
 
 Systems submitted via Docker image are expected to run on a single NVIDIA H100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*. To enable communication between evaluators and participants, a point of contact and email address should be provided in the **README** in case of issues during evaluation. Docker images should support the `linux/arm64` architecture, specified during build via the `--platform` flag.
