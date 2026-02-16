@@ -16,9 +16,11 @@ if you want to have a line break either put a blank line in between the text or 
 The objective of this shared task is to establish a benchmark dataset and develop speech-to-speech translation models for three language pairs belonging to the Devanagari family of Indian languages. Most of these languages are severely low-resource and remain largely unexplored in the context of speech translation. This poses a unique challenge, as existing pre-trained models often struggle to generalize effectively to such underrepresented languages. An additional difficulty arises from the fact that many of the target languages are linguistically distant from English, further complicating translation tasks.
 The dataset we propose will serve as the first benchmark and gold-standard resource for speech-to-speech translation across these languages, covering three major Indian languages. By providing this resource, we aim to catalyze the development of robust systems that not only advance research but can also be deployed in real-world applications to improve accessibility and multilingual communication.
 
-
-
 <!-- Description the task, the languages, and the type of data -->
+
+**Participants are requested to complete this Google Form to provide the prior information for participation.** [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdLIkQKaW6_k6iU5hnDGTR_9dLClJhJ78y9gdX61OYUCHb-ag/viewform?usp=header)
+
+
 
 
 ## Data
