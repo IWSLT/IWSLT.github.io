@@ -11,10 +11,8 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-
-**📢 Announcement 📢: Baselines coming soon 🚀**
-
-Baseline implementations and links will be published here soon.
+📢 **Announcement**: [Change in the dev set](#english-to-x) and baselines coming soon!
+{: .notice--info}
 
 ## Description
 <!-- Description the task, the languages, and the type of data -->
@@ -57,8 +55,7 @@ We also encourage participants to submit systems leveraging closed-source models
 ### English-to-X
 Our English-to-X training data condition follows that of the offline task.
 The list is available [here](https://iwslt.org/2026/offline#training-data-and-data-conditions).
-[ACL 60/60 dataset](https://aclanthology.org/2023.iwslt-1.2/) can be used as the development set.
-The development data can be found [here](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip), while the YAML files containing the audio information (useful for metric computation) can be found [here](https://fbk.sharepoint.com/:u:/s/MTUnit/ETIMufobKrxLqfePQCvss8gBJ-2QMsFBJGqfJQEepGETfQ?e=HGwB6x) and the ACL paper PDFs (useful for the *speech-to-text with extra context* track) can be found [here](https://drive.google.com/file/d/15ZGQ2odmXeDbEVgl0h8YaNoqWcbdxmcR/view?usp=sharing).
+[MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) is the official development data. [A derived version including audio, references, YAML files with the audio information (useful for metric computation), and PDFs useful for the *speech-to-text with extra context* track) can be found here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQACLHe2ljW2TI9v2dvVmx1EAYgEgQFrfTlb6WrhiARrCfM?e=ASaOSo).
 
 ### Czech-to-English
 
@@ -119,7 +116,7 @@ Participants have two options for the submission:
 
 Systems submitted via Docker image are expected to run on a single NVIDIA H100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*. To enable communication between evaluators and participants, a point of contact and email address should be provided in the **README** in case of issues during evaluation. Docker images should support the `linux/arm64` architecture, specified during build via the `--platform` flag.
 
-Regardless of the submission type (Docker or log), participants must also submit results on the *development set* (i.e., ACL 60/60 or the dedicated Czech-to-English dev set) to determine the **latency regime** of their submission.
+Regardless of the submission type (Docker or log), participants must also submit results on the *development set* (i.e., MCIF or the dedicated Czech-to-English dev set) to determine the **latency regime** of their submission.
 
 <!-- Submission link: [Dropbox Folder](https://www.dropbox.com/request/9tdIploALP4eQBScOYBq) -->
 
