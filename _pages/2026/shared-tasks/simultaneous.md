@@ -83,8 +83,8 @@ The list is available [here](https://iwslt.org/2026/offline#training-data-and-da
 <!-- - 2025 Dev Set (ST)
 	- https://drive.google.com/file/d/1-XicsrBQubkGK-kyBIxKO-7JAx94o_KV/view?usp=sharing  -->
 - 2025 Dev Set (ST)
-    - Native and non-native speakers with translations and timing info for unsegmented evaluation
-    - https://web.engr.oregonstate.edu/~agostinv/cs-en-devset.tar.gz
+    - Native speakers with translations and timing info for unsegmented evaluation
+    - https://web.engr.oregonstate.edu/~agostinv/iwslt26-cs-en-devset.tar.gz
 
 <!-- ## Test set
 The test sets for this year's submission are now available:
