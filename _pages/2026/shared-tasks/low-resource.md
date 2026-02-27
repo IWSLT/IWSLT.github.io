@@ -50,7 +50,7 @@ Mapudungun is a language isolate and the indigenous language of the Mapuche peop
 
 Data are based on the corpus described in [this paper](https://aclanthology.org/2020.lrec-1.350.pdf), providing more than 130 hours of Mapuzugun speech, along with transcriptions and translations in Spanish.
 
-<strong>Data will be made available by February 5.</strong>
+<strong>A new, cleaned version of the data is available [on Huggingface](https://huggingface.co/datasets/mengct00/Mapudungun_iwslt26).</strong>
 
 ### Bemba to English (bem-eng)
 Bemba is a Bantu language, spoken by over 10 million people in Zambia and other parts of Africa.
