@@ -55,7 +55,7 @@ We also encourage participants to submit systems leveraging closed-source models
 ### English-to-X
 Our English-to-X training data condition follows that of the offline task.
 The list is available [here](https://iwslt.org/2026/offline#training-data-and-data-conditions).
-[MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) is the official development data. [A derived version including audio, references, YAML files with the audio information (useful for metric computation), and PDFs useful for the *speech-to-text with extra context* track) can be found here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQACLHe2ljW2TI9v2dvVmx1EAYgEgQFrfTlb6WrhiARrCfM?e=ASaOSo).
+[MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) is the official development data. [A derived version including audio, references, YAML files with the audio information (useful for metric computation), and PDFs useful for the *speech-to-text with extra context* track) can be found here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCPqOBxtZXTTKHJrxIK1Om2AYNRrW_Gtj3IfqhtDNab8_A?e=f6vURw).
 
 ### Czech-to-English
 
