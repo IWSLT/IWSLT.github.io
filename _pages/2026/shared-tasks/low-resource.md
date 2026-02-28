@@ -56,7 +56,7 @@ Data are based on the corpus described in [this paper](https://aclanthology.org/
 Bemba is a Bantu language, spoken by over 10 million people in Zambia and other parts of Africa.
 
 Data are based on the corpus described in [this paper](https://aclanthology.org/2023.acl-long.115/), providing 180 hours of Bemba speech, along with transcriptions and translations in English.
-They will be available for download in a <a href="#">Github link</a> by <strong>Feb 5</strong>.
+They are available for download in <a href="https://github.com/csikasote/bigc">here</a>.
 
 Additional Bemba speech data (with transcriptions) are available here:
 
