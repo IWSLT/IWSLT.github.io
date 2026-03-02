@@ -97,7 +97,8 @@ The test sets for this year's submission are now available:
 Last year baselines for each language pair can be found 
 [here (GitHub)](https://github.com/pe-trik/iwslt25-baselines/tree/master/experiments/acl6060_dev/de/fixed_segmenter).
 
-We will provide updated baselines for this year soon.
+Baseline implementations of *Speech-to-Text with Extra Context* can be found [here](https://github.com/owaski/iwslt-2026-baselines).
+We will provide other baselines for this year soon.
 
 ## Submission
 <!-- Description of expected submission format and submission instructions -->
