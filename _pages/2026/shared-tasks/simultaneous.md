@@ -80,11 +80,11 @@ The list is available [here](https://iwslt.org/2026/offline#training-data-and-da
 - MOSEL (transcripts only)
 	- automatic transcripts for unlabeled VoxPopuli audio
 	- https://huggingface.co/datasets/FBK-MT/mosel 
-<!-- - 2025 Dev Set (ST)
-	- https://drive.google.com/file/d/1-XicsrBQubkGK-kyBIxKO-7JAx94o_KV/view?usp=sharing  -->
-- 2025 Dev Set (ST)
+ - 2025 Dev Set (ST)
+	- [https://drive.google.com/file/d/1-XicsrBQubkGK-kyBIxKO-7JAx94o_KV/view?usp=sharing](https://drive.google.com/file/d/1-XicsrBQubkGK-kyBIxKO-7JAx94o_KV/view?usp=sharing)
+- 2026 Dev Set (ST)
     - Native speakers with translations and timing info for unsegmented evaluation
-    - https://web.engr.oregonstate.edu/~agostinv/iwslt26-cs-en-devset.tar.gz
+    - [http://ufallab.ms.mff.cuni.cz/~polak/iwslt26-cs-dev.zip](http://ufallab.ms.mff.cuni.cz/~polak/iwslt26-cs-dev.zip)
 
 <!-- ## Test set
 The test sets for this year's submission are now available:
@@ -137,7 +137,7 @@ The system's performance will be evaluated in two ways:
 	- COMET
 	- Additional results using other metrics (chrF, BLEURT, …)
 - Latency:
-    - For the main ranking, we will use [LongYAAL](https://arxiv.org/abs/2509.17349), see implementation [here](https://github.com/pe-trik/softsegmenter).
+    - For the main ranking, we will use [LongYAAL](https://arxiv.org/abs/2509.17349), implemented within [OmniSTEval](https://github.com/pe-trik/OmniSTEval).
 	- For consistency with the previous year, we will also include [StreamLAAL](https://github.com/hlt-mt/FBK-fairseq/blob/master/fbk_works/STREAMATT_STREAMLAAL.md).
 
 For latency measurement, we will contrast computation aware and non computation aware latency metrics.
