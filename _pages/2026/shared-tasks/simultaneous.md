@@ -11,7 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-📢 **Announcement**: [Change in the dev set](#english-to-x) and baselines coming soon!
+📢 **Announcement**: [Update on the list of English-to-X training data](#english-to-x)! [*Speech-to-Text with Extra Context* Baseline available](#baselines) and Speech-to-Text Baselines coming soon!
 {: .notice--info}
 
 ## Description
@@ -44,7 +44,7 @@ The test set domains are the subsets of the ones of the offline track:
 
 ## Training Data and Data Conditions
 
-**We follow similar data conditions as in the offline track (see [here](https://iwslt.org/2026/offline#training-data-and-data-conditions)). Additionally, for the constrained submission we require the system to be runnable on a single H100 with 80GB of memory.**
+**We follow the same data conditions as in the offline track (see [here](https://iwslt.org/2026/offline#training-data-and-data-conditions)). Additionally, for the Docker submission, we require the system to be runnable on a single H100 with 80GB of memory.**
 
 <!-- Details description of the data and links to download -->
 The data condition for this task is "constrained with large language models (LLMs)".
@@ -53,9 +53,24 @@ In addition, pretrained speech encoders and ASR models may be employed.
 We also encourage participants to submit systems leveraging closed-source models/LLMs for evaluation, but such systems will be evaluated separately and will not be eligible for the main ranking.
 
 ### English-to-X
-Our English-to-X training data condition follows that of the offline task.
-The list is available [here](https://iwslt.org/2026/offline#training-data-and-data-conditions).
+Our English-to-X training data condition follows that of the offline, the full list of datasets is presented below.
 [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) is the official development data. [A derived version including audio, references, YAML files with the audio information (useful for metric computation), and PDFs useful for the *speech-to-text with extra context* track) can be found here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCPqOBxtZXTTKHJrxIK1Om2AYNRrW_Gtj3IfqhtDNab8_A?e=f6vURw).
+
+| Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment
+| --- | :---: | :---: | --- | --- | --- |
+| speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used
+| speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
+| speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v24  | |
+| speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na |  |
+| speech-to-text-parallel | en | de, it, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
+| speech-to-text-parallel | en | de, it | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
+| speech-to-text-parallel | en | de, it | [MOSEL](https://huggingface.co/datasets/FBK-MT/mosel) | v1, v2 | |
+| text-parallel | en | de, it | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
+| text-parallel | en | de, it, zh | [NewsCommentary](https://data.statmt.org/news-commentary/v18/training) | v18 | |
+| text-parallel | en | de, it, zh | [OpenSubtitles](https://opus.nlpl.eu/datasets/OpenSubtitles) | v2024 | |
+| text-parallel | en | de | [OpenSubtitles](https://apptek930-my.sharepoint.com/:u:/g/personal/ematusov_apptek_com/ESYWN8_BzeJAmBv4GcRapbsBeLpmLOd699qBc9_WG7Gifw?e=Bk6UWh) | v2018 apptek | partially re-aligned, filtered, with document meta-information on genre |
+| text-parallel | en | de, it, zh | [Tatoeba](https://opus.nlpl.eu/datasets/Tatoeba) | v2023-04-12 | |
+| text-parallel | en | de | [ELRC-CORDIS_News](https://object.pouta.csc.fi/OPUS-ELRC-CORDIS_News/v1/tmx/de-en.tmx.gz) | v1 | |
 
 ### Czech-to-English
 
