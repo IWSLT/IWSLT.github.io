@@ -76,15 +76,16 @@ All participants are encouraged to submit a paper describing their submitted sys
 
 ### Important Dates
 
-| Date           | Event                                        |
-| -------------- | -------------------------------------------- |
-| Jan 18, 2026   | Release of shared task training and dev data |
-| Jan-Apr, 2026  | Expression of Interest                       | 
-| Apr 1-15, 2026 | Evaluation period                            |
-| Apr 24, 2026   | System paper submission deadline             |
-| May 15, 2026   | Notification of acceptance                   |
-| June 1, 2026   | Camera ready deadline                        |
-| July 3-4, 2026 | IWSLT conference                             |
+| Date                | Milestone                                      |
+|---------------------|------------------------------------------------|
+| Jan 1, 2026         | Release of shared task training and dev data   |
+| Apr 1, 2026         | Release of shared task blind test data         |
+| Apr 1-15, 2026      | Evaluation period (shared tasks)               |
+| Apr 15, 2026        | System submission deadline (shared tasks)      |
+| Apr 24, 2026        | System paper submission deadline (shared tasks)|
+| May 15, 2026        | Notification of acceptance                     |
+| June 1, 2026        | Camera ready deadline (all papers)             |
+| July 3-4, 2026      | IWSLT conference                               |
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
 
