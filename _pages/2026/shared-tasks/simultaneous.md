@@ -60,7 +60,7 @@ Our English-to-X training data condition follows that of the offline, the full l
 | --- | :---: | :---: | --- | --- | --- |
 | speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used
 | speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
-| speech | en | -- | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | v24  | |
+| speech | en | -- | [Mozilla Common Voice](https://datacollective.mozillafoundation.org/datasets?q=english) | v24  | |
 | speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na |  |
 | speech-to-text-parallel | en | de, it, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
 | speech-to-text-parallel | en | de, it | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
