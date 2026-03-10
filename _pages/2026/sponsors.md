@@ -3,11 +3,11 @@ permalink: /2026/sponsors
 title: "Sponsors"
 ---
 
+### Data
 
-# Sponsors & Donors
-
-*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2026/sponsor_info).* 
-{: .notice--info}
+<div class="card">
+<a href="https://translated.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/translated.png" alt="translated." style="width:75%"/></a>
+</div>     
 
 
 <!--
@@ -44,3 +44,6 @@ title: "Sponsors"
 -->
 
 
+
+*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2026/sponsor_info).* 
+{: .notice--info}
