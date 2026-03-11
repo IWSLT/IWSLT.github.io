@@ -62,17 +62,14 @@ The conference will include both in-person and virtual presentation options.
 
 ## Paper Submission
 
-The IWSLT submission portal will open in early 2026.
+Please read the following information before submitting your paper through our [Submission Portal](https://softconf.com/acl2026/iwslt2026).
 {: .notice--info}
 
 IWSLT invites submissions of **scientific papers** to be **published** in the ACL Proceedings and presented either in oral or poster format. The conference selects high-quality, original contributions on theoretical and practical issues of spoken language translation research, technologies and applications. Submissions will be accepted directly through the IWSLT submission site.
 
-We also accept commitments of fully-reviewed papers from ACL Rolling Review (ARR), with a commitment deadline to be announced in early 2026.
-
-Shared task participants also have the opportunity to publish and present their work through a **system description paper** that will be published in the ACL Proceedings and presented at the conference. Papers should be submitted for review directly through the IWSLT submission portal. 
+Shared task participants also have the opportunity to publish and present their work through a **system description paper** that will be published in the ACL Proceedings and presented at the conference. Papers should be submitted for review directly through the IWSLT submission portal, and select the submission type 'System Description.'
  
-Additionally, to foster cross-pollination of ideas and further community discussion, the conference also invites the **presentation** of papers on speech translation recently published elsewhere. Please note that this is for non-archival presentation of papers relevant to speech translation already published in other venues (e.g., ACL 2026 Findings papers, or other speech, NLP, or MT conferences). Submissions for this category will be accepted through a dedicated form (_to be linked here near the ACL notification date_). Papers will be checked for relevance to IWSLT, and assigned either oral or poster presentation slots if selected.
-
+Additionally, we also accept commitments of fully-reviewed papers from ACL Rolling Review (ARR), with a commitment deadline to be announced soon, and presentations of ACL Findings papers. 
 
 
 ### Submission requirements
