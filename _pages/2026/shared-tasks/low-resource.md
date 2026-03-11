@@ -182,7 +182,7 @@ Progress made in translation quality has largely been directed at high-resource 
 
 The goal of this shared task track is to expand open datasets to more languages. In particular, we are soliciting contributions to Speech Translation Training and Evaluation Datasets, either on text-to-speech or speech-to-speech formats.
 
-To describe and publicise their contributions, tracj participants will be asked to submit a 2-4 page paper to be presented at IWSLT 2025, similar to other Shared Task papers.
+To describe and publicise their contributions, tracj participants will be asked to submit a 2-4 page paper to be presented at IWSLT 2026, similar to other Shared Task papers.
 
 ### Data Submission Requirements
 
