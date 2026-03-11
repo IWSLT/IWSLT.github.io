@@ -95,7 +95,7 @@ The preliminary timeline is below and may be subject to minor changes.
 
 |---------------------|----------------------------------------------|
 | Jan 1, 2026         | Release of shared task training and dev data |
-| Apr 21-31, 2026     | Evaluation period (only for Metrics Task; *postponed*)    |
+| Apr 21-30, 2026     | Evaluation period (only for Metrics Task; *postponed*)    |
 | May 10, 2026        | System paper submission deadline (*postponed*)            |
 | May 15, 2026        | Notification of acceptance                   |
 | June 1, 2026        | Camera ready deadline (all papers)           |
