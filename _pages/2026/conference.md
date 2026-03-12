@@ -65,11 +65,16 @@ The conference will include both in-person and virtual presentation options.
 Please read the following information before submitting your paper through our [Submission Portal](https://softconf.com/acl2026/iwslt2026).
 {: .notice--info}
 
-IWSLT invites submissions of **scientific papers** to be **published** in the ACL Proceedings and presented either in oral or poster format. The conference selects high-quality, original contributions on theoretical and practical issues of spoken language translation research, technologies and applications. Submissions will be accepted directly through the IWSLT submission site.
+IWSLT invites submissions of **scientific papers** to be **published** in the ACL Proceedings and presented either in oral or poster format. 
+The conference selects high-quality, original contributions on theoretical and practical issues of spoken language translation research, technologies, and applications. Submissions are accepted through the IWSLT softconf submission site.
 
-Shared task participants also have the opportunity to publish and present their work through a **system description paper** that will be published in the ACL Proceedings and presented at the conference. Papers should be submitted for review directly through the IWSLT submission portal, and select the submission type 'System Description.'
+Shared task participants also have the opportunity to publish and present their work through a **system description paper** that will be published in the ACL Proceedings and presented at the conference. 
+Papers should be submitted for review directly through the IWSLT submission portal, selecting the submission type 'System Description.'
  
-Additionally, we also accept commitments of fully-reviewed papers from ACL Rolling Review (ARR), with a commitment deadline to be announced soon, and presentations of ACL Findings papers. 
+Additionally, we also accept commitments of fully-reviewed papers from ACL Rolling Review (ARR), with a commitment deadline of **April 25**. 
+To commit a fully reviewed ARR paper to IWSLT, please fill out [this form](https://forms.gle/m4AhHywyCYN1GNNA8). 
+
+Finally, we welcome presentations of papers accepted to ACL Findings pertaining to speech translation.
 
 
 ### Submission requirements
