@@ -24,4 +24,4 @@ Audio-visual documents of development sets are provided in MP4 format (asharq-bl
 IMPORTANT NOTE: the "[en003](https://huggingface.co/datasets/espnet/yodas/tree/main/data/en003)" partition of the Yodas dataset is used for selecting dev/test data and is therefore not permitted for training (e.g. for an auxiliary ASR task). This partition had also been used to select a speech recognition benchmarking test set by the creators of the [Loquacious](https://huggingface.co/datasets/speechbrain/LoquaciousSet) dataset and thus is a natural held-out choice. Professional human reference translations into Chinese, Japanese, and German have been created by [AppTek](https://apptek.ai).
   * The **dev2026** development set, consisting of 6 files, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCxga_cA9xcQLbQhuOSwhRUAcWmw8Se2Tq-24yfBfodOjQ?e=s49yng)
 
-Verbatim transcripts are available under the above links for each development set. 
+Verbatim transcripts are available under the above links for each development set, except ITV Studios.
