@@ -67,7 +67,10 @@ For this round of the Offline Speech Translation Task, we propose two tracks: la
 * English -> Japanese: TV series, scientific presentations, call center two-person conversations, YouTube, and business news.
 * English -> Arabic: business news.
 
-For more information about the data, please refer to the [subtitling task page](https://iwslt.org/2026/subtitling). The description of the call center two-person conversations data can be found [here](https://iwslt.org/2026/call-centerdata).
+<!--For more information about the data, please refer to the [subtitling task page](https://iwslt.org/2026/subtitling). The description of the "call center two-person conversations" data can be found [here](https://iwslt.org/2026/call-centerdata).-->
+
+Data details can be found on the [subtitling task page](https://iwslt.org/2026/subtitling), with a specific description of the "call center two-person conversations" available [here](https://iwslt.org/2026/call-centerdata).
+
 
 **Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech when the source language is unknown. By removing the requirement for pre-defined source language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak. 
 The language directions covered in this track are:
