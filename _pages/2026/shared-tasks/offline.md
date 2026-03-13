@@ -75,8 +75,10 @@ Data details can be found on the [subtitling task page](https://iwslt.org/2026/s
 **Language-agnostic**: This is a newly introduced track designed to test a system's ability to translate speech when the source language is unknown. By removing the requirement for pre-defined source language labels, the track aims to catalyze the development of truly universal models capable of frictionless, human-like understanding, adapting to the speaker, regardless of the language they speak. 
 The language directions covered in this track are:
 * Source languages: Czech, German, English.
-* Target languages: English.
-The evaluation also includes the English-English direction (i.e. ASR). 
+* Target languages: English
+(note: the evaluation includes the English-English ASR direction).
+<!--The evaluation also includes the English-English direction (i.e. ASR).-->
+
 
 <!-- Target language = English
 Source languages: Czech, German, English-->
@@ -89,7 +91,8 @@ In continuity with past rounds, we use the following definition of end-to-end mo
   * No intermediate discrete representations (e.g., source language transcripts like in cascade or target languages like in rover)
   * All parameters/parts that are used during decoding need to be trained on the end2end task (may also be trained on other tasks -> multitasking ok, LM rescoring is not ok)
 
-All the systems will be evaluated using a combination of the different test tests (depending on the language directions) and each specific test suite, if any. It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. Each audio file will have a clear identifier of the type of data: News_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
+<!---All the systems will be evaluated using a combination of the different test tests (depending on the language directions) and each specific test suite, if any.-->
+All the systems will be evaluated using a combination of the different test tests (depending on the language directions). It is important to note that all the test sets will be released together, but specific information to identify the different test sets will be associated with the data. Each audio file will have a clear identifier of the type of data: News_1.wav, ACL_1.wav, Press_1.wav. More detailed information will be released with the test sets.
 
 ## Test Data
 
@@ -117,11 +120,14 @@ You can download it here:
 
 ## Development Data
 
-These two types of development data are available:
+Two types of development data are available:
 
-* [Subtitling task dev data](https://iwslt.org/2026/developmentData) More information by following the link.
+<!--* [Subtitling task dev data](https://iwslt.org/2026/developmentData) More information by following the link.-->
+* The **subtitling task dev data** described [here](https://iwslt.org/2026/developmentData).
 
-* [Previous editions IWST offlineTask](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask)
+
+<!--* [Previous editions IWST offlineTask](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask)-->
+* Data from the **previous editions IWST offline task**, available [here](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask).
 The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. However, the participants might also use a different segmentation. The data is provided as an archive with the following files:
   * $set.en-de.en.xml: Reference transcript (will not be provided for evaluation data)
   * $set.en-de.en.xml: Reference translation (will not be provided for evaluation data)
