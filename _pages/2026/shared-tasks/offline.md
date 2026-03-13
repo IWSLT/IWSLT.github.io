@@ -16,9 +16,15 @@ if you want to have a line break either put a blank line in between the text or 
 
 <!-- Description the task, the languages, and the type of data -->
 
-The advent of large language models (LLMs) offers unprecedented opportunities to address traditional natural language processing (NLP) tasks in real-world scenarios and under diverse data conditions. Spoken Language Translation (SLT), which involves automatically translating spoken audio into text in a different language, is no exception thanks to the possibility to fine-tune powerful LLMs for specific tasks, domains, and languages, or to employ them in zero-shot settings when suitable adaptation data is unavailable. 
+<!--The advent of large language models (LLMs) offers unprecedented opportunities to address traditional natural language processing (NLP) tasks in real-world scenarios and under diverse data conditions. Spoken Language Translation (SLT), which involves automatically translating spoken audio into text in a different language, is no exception thanks to the possibility to fine-tune powerful LLMs for specific tasks, domains, and languages, or to employ them in zero-shot settings when suitable adaptation data is unavailable. 
 
-The goal of the **Offline Speech Translation Task** at IWSLT, the one with the longest-standing tradition at the conference, is to provide a stable evaluation framework for tracking technological advancements in SLT, with a focus on unconstrained speech translation—free from the temporal and structural constraints imposed by tasks such as simultaneous translation or subtitling. To this end, while maintaining the overall task formulation is essential, over the years the emphasis has shifted towards incrementally raising the task's difficulty to better reflect real-world needs, including the translation of new and diverse languages, domains, and speaking styles.
+The goal of the **Offline Speech Translation Task** at IWSLT, the one with the longest-standing tradition at the conference, is to provide a stable evaluation framework for tracking technological advancements in SLT, with a focus on unconstrained speech translation—free from the temporal and structural constraints imposed by tasks such as simultaneous translation or subtitling. To this end, while maintaining the overall task formulation is essential, over the years the emphasis has shifted towards incrementally raising the task's difficulty to better reflect real-world needs, including the translation of new and diverse languages, domains, and speaking styles.-->
+
+
+The goal of the **Offline Speech Translation Task** at IWSLT, the one with the longest-standing tradition at the conference, is to provide a stable evaluation framework for tracking technological advancements in Spoken Language Translation (SLT), with a focus on unconstrained speech translation—free from the temporal and structural constraints imposed by tasks such as simultaneous translation or subtitling. To this end, while maintaining the overall task formulation is essential, over the years the emphasis has shifted towards incrementally raising the task's difficulty to better reflect real-world needs, including the translation of new and diverse languages, domains, and speaking styles.
+
+
+
 
 <!--In this spirit, this year's edition aims to: 
 * include a new and challenging language, Arabic; 
@@ -127,7 +133,7 @@ Two types of development data are available:
 
 
 <!--* [Previous editions IWST offlineTask](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask)-->
-* Data from the **previous editions IWST offline task**, available [here](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask).
+* Data from the **previous rounds of the offline task**, available [here](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask).
 The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. However, the participants might also use a different segmentation. The data is provided as an archive with the following files:
   * $set.en-de.en.xml: Reference transcript (will not be provided for evaluation data)
   * $set.en-de.en.xml: Reference translation (will not be provided for evaluation data)
@@ -142,7 +148,7 @@ python -m xnmt.xnmt_run_experiments /opt/SLT.KIT/scripts/xnmt/config.las-pyramid
 ## Training Data and Data Conditions
 
 
-A "**constrained**" setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow participants to leverage large language models and medium-sized resources, we propose a "**constrained with large language models**" condition, where participants can use the training data allowed in the constrained condition plus any additional LLMS as long as it is released under a permissive license. In order to allow the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an "**unconstrained**" setup without data restrictions is also proposed.
+A "**constrained**" setup is proposed as the official training data condition, in which the allowed training data is limited to a medium-sized framework in order to keep the training time and resource requirements manageable. In order to allow participants to leverage large language models and medium-sized resources, we propose a "**constrained with large language models**" condition, where participants can use the training data allowed in the constrained condition plus any additional Large Language Models as long as it is released under a permissive license. In order to allow the participation of teams equipped with high computational power and effective in-house solutions built on additional resources, an "**unconstrained**" setup without data restrictions is also proposed.
 
 * **Constrained** training: Under this condition, the allowed training resources are the following ones (note that the list does not include any pre-trained language model):
 
