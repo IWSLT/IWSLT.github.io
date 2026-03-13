@@ -114,8 +114,11 @@ You can download it here:
 
 ## Past Editions Development Data
 
-* [IWST.OfflineTask](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask)
+These two types of development data are available:
 
+* [Subtitling task dev data](https://iwslt.org/2026/developmentData) More information by following the link.
+
+* [Previous editions IWST offlineTask](https://huggingface.co/datasets/IWSLT/IWSLT.OfflineTask)
 The development data is not segmented using the reference transcript. The archives contain segmentation into sentence-like segmentation using automatic tools. However, the participants might also use a different segmentation. The data is provided as an archive with the following files:
   * $set.en-de.en.xml: Reference transcript (will not be provided for evaluation data)
   * $set.en-de.en.xml: Reference translation (will not be provided for evaluation data)
