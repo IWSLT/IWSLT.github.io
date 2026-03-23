@@ -58,13 +58,13 @@ Our English-to-X training data condition follows that of the offline, the full l
 
 | Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment
 | --- | :---: | :---: | --- | --- | --- |
-| speech | en | -- | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used
-| speech | en | -- | [How2](https://github.com/srvk/how2-dataset) | na | |
-| speech | en | -- | [Mozilla Common Voice](https://datacollective.mozillafoundation.org/datasets?q=english) | v24  | |
-| speech | en | -- | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na |  |
-| speech-to-text-parallel | en | de, it, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
+| speech | en | en | [LibriSpeech ASR corpus](http://www.openslr.org/12/) | v12 | includes translations into *pt*, not to be used
+| speech | en | en | [How2](https://github.com/srvk/how2-dataset) | na | |
+| speech | en | en | [Mozilla Common Voice](https://datacollective.mozillafoundation.org/datasets?q=english) | v24  | |
+| speech | en | en | [Vox Populi](https://github.com/facebookresearch/voxpopuli) | na |  |
+| speech-to-text-parallel | en | de, zh | [CoVoST](https://github.com/facebookresearch/covost) | v2 | |
 | speech-to-text-parallel | en | de, it | [Europarl-ST](https://www.mllp.upv.es/europarl-st/) | v1.1 | |
-| speech-to-text-parallel | en | de, it | [MOSEL](https://huggingface.co/datasets/FBK-MT/mosel) | v1, v2 | |
+| speech-to-text-parallel | en | en | [MOSEL](https://huggingface.co/datasets/FBK-MT/mosel) | v1, v2 | |
 | text-parallel | en | de, it | [Europarl](https://www.statmt.org/europarl/v10/training/europarl-v10.de-en.tsv.gz) | v10 | |
 | text-parallel | en | de, it, zh | [NewsCommentary](https://data.statmt.org/news-commentary/v18/training) | v18 | |
 | text-parallel | en | de, it, zh | [OpenSubtitles](https://opus.nlpl.eu/datasets/OpenSubtitles) | v2024 | |
