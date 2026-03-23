@@ -53,7 +53,7 @@ In addition, pretrained speech encoders and ASR models may be employed.
 We also encourage participants to submit systems leveraging closed-source models/LLMs for evaluation, but such systems will be evaluated separately and will not be eligible for the main ranking.
 
 ### English-to-X
-Our English-to-X training data condition follows that of the offline, the full list of datasets is presented below.
+Our English-to-X training data condition follows that of the offline, the full list of datasets is presented below. All the listed datasets can be automatically transated with the models allowed in the [Constrained with Large Language Models settings](https://iwslt.org/2026/offline#training-data-and-data-conditions).
 [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) is the official development data. [A derived version including audio, references, YAML files with the audio information (useful for metric computation), and PDFs useful for the *speech-to-text with extra context* track) can be found here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCPqOBxtZXTTKHJrxIK1Om2AYNRrW_Gtj3IfqhtDNab8_A?e=f6vURw).
 
 | Data type | src lang | tgt lang | Training corpus (URL) | Version | Comment
