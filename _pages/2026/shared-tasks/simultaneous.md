@@ -11,7 +11,12 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-📢 **Announcement**: [Update on the list of English-to-X training data](#english-to-x)! [*Speech-to-Text with Extra Context* Baseline available](#baselines) and Speech-to-Text Baselines coming soon!
+📢 **Announcement**: 
+[Latency regimes constraints announced!](#ranking)!
+
+[Update on the list of English-to-X training data](#english-to-x)!
+
+[*Speech-to-Text with Extra Context* Baseline available](#baselines) and Speech-to-Text Baselines coming soon!
 {: .notice--info}
 
 ## Description
@@ -20,11 +25,11 @@ if you want to have a line break either put a blank line in between the text or 
 Simultaneous translation (also known as real-time or streaming translation) is the task of generating translations incrementally given partial input only.
 Simultaneous systems are typically evaluated with respect to quality and latency.
 
-There will be one main track and one sub-track:
+This year, there is one main track and one sub-track:
 - **Speech-to-Text**: simultaneously translating speech in source language into text in target language.
 - **Speech-to-Text with Extra Context**: same as above, but the systems can also leverage extra context (e.g., content of the presented ACL paper).
 
-in the following language directions (more details will be made available soon):
+in the following language directions:
 
 - English -> German
 - English -> Chinese
@@ -149,7 +154,7 @@ If you have specific questions regarding your submission to the simultaneous sha
 The system's performance will be evaluated in two ways:
 
 - Quality:
-	- COMET
+	- COMET-XL (`Unbabel/XCOMET-XL`)
 	- Additional results using other metrics (chrF, BLEURT, …)
 - Latency:
     - For the main ranking, we will use [LongYAAL](https://arxiv.org/abs/2509.17349), implemented within [OmniSTEval](https://github.com/pe-trik/OmniSTEval).
@@ -158,16 +163,13 @@ The system's performance will be evaluated in two ways:
 For latency measurement, we will contrast computation aware and non computation aware latency metrics.
 
 ### Ranking
-The systems will be ranked by the translation quality within the latency constraints, measured by non-computation-aware LongYAAL.
+The systems will be ranked by the translation quality within the latency constraints.
 System latency regime (low/high) is based on logs with *development set* results.
 
 This year, we have two latency regimes, **low** and **high**. 
-The detailed latency constraints (non-computationally-aware LongYAAL) for each language pair will be announced soon.
-
-<!-- The detailed latency constraints (non-computationally-aware LongYAAL) for each language pair are the following: 
-- **English-to-German** and **Czech-to-English**: 0-2s (*low*), 2-4s (*high*);
-- **English-to-Chinese**: 0-2.5s (*low*), 2.5-4s (*high*);
-- **English-to-Japanese**: 0-3.5s (*low*), 3.5s-5s (*high*). -->
+The latency constraing are shared across all language pairs, measured by non-computation-aware LongYAAL:
+- **Low**: 0-2 seconds,
+- **High**: 2-4 seconds.
 
 ### Human Evaluation
 Human evaluation will be conducted for primary submissions.
@@ -188,7 +190,7 @@ Human evaluation will be conducted for primary submissions.
 <!-- Add chair(s) and their contact info, as well as standard google group -->
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
-- Peter Polák: surname@ufal.mff.cuni.cz
+- Peter Polák: [surname]@ufal.mff.cuni.cz
 - Siqi Ouyang: siqiouya@andrew.cmu.edu
 - Victor Agostinelli: agostinv@oregonstate.edu
 - Lizhong Chen: chenliz@oregonstate.edu
