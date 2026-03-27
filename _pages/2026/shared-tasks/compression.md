@@ -88,7 +88,7 @@ The evaluation will be performed using the MeeTween SPEECHM centralized evaluati
 
 * For each chosen language pair, multiple Models can be created based on the training condition (CONSTRAINED / UNCONSTRAINED) and the submission type (PRIMARY / CONTRASTIVE).
 
-* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., 5 test set for English-Chinese, and 6 test sets for English-German).
+* The created Model(s) must be used to submit runs for each of the test sets released for the chosen language pair (i.e., **5 test sets for English-Chinese**, and **6 test sets for English-German**).
 
 * If any issues are identified, the submitted runs can be deleted or replaced with newer runs.
 
