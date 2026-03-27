@@ -19,11 +19,11 @@ Text and speech foundation models have revolutionized many natural language proc
 ## Objectives
 
 The goal of this task is to evaluate participants’ ability to effectively reduce the size of a large multilingual speech-to-text foundation model while minimizing performance drops in the task of translating English speech to written German or Chinese text. The model in question, [Qwen2-Audio](https://huggingface.co/Qwen/Qwen2-Audio-7B) (Chu et al., 2024), has been selected for its size (8.2 billion parameters, requiring approximately 16 GB of memory storage), its support to a variety of speech processing tasks across multiple language directions, and its permissive license (Apache 2.0). Due to its computational expense, memory-intensive nature, and versatility, it is an ideal candidate for task-oriented model compression.
-The evaluation focuses on innovative compression techniques that strike a balance between compactness and performance, paving the way for the development of more accessible and easily deployable speech translation systems. Accordingly, this first edition of the task concentrates on:
+The evaluation focuses on innovative compression techniques that strike a balance between compactness and performance, paving the way for the development of more accessible and easily deployable speech translation systems. Accordingly, this second edition of the task concentrates on:
 * **Model Reduction**: shrink the size of the foundation model, defined by its number of parameters and memory usage, to make it more suitable for resource-limited settings.
 * **Translation Performance**: maintain high translation quality despite the size reduction, ensuring the practical value and reliability of the compressed models.
 
-While computational efficiency (i.e., speed) is recognized as a critical factor for deploying models in resource-constrained environments, it is excluded from the evaluation framework in this initial round. However, the task will follow a phased approach over the years, with future rounds set to include computational efficiency, thereby broadening the evaluation scope.
+While computational efficiency (i.e., speed) is recognized as a critical factor for deploying models in resource-constrained environments, it is excluded from the evaluation framework in this second round. However, the task will follow a phased approach over the years, with future rounds set to include computational efficiency, thereby broadening the evaluation scope.
 
 ## Permitted Model Compression Techniques
 
