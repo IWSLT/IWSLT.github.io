@@ -39,7 +39,9 @@ Compression techniques can be used either in isolation or in combination.
 
 Participants can submit their runs under two data conditions: **constrained** and **unconstrained**. The two conditions differ in the datasets allowed to support the model compression process (e.g., for fine-tuning the reduced model after pruning, quantization, or other compression techniques, or for training the student model in knowledge distillation using the outputs of the larger teacher model).
 
-* ***Constrained*** In this condition, participants are allowed to use only the [ACL60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](https://iwslt.org/2026/model-compression#test-data).
+* ***Constrained*** In this condition, participants are allowed to use only the [ACL60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data)
+
+<!-- [evaluation sets](https://iwslt.org/2026/model-compression#test-data). -->
 
 * ***Unconstrained*** In this condition, there are no restrictions on data usage.
 
@@ -66,6 +68,7 @@ Multiple submissions are allowed for each track and language direction. If parti
 ## Test data 
 All test data can be downloaded from the [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/0000005), see Submission STEP 0 below. 
 
+<a id="sg"></a>
 ## Submission
 <!-- SPEECHM LINK 2025:   SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).-->
 <!-- SPEECHM LINK 2026:   SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/0000005).-->
