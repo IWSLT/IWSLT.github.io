@@ -67,8 +67,8 @@ Multiple submissions are allowed for each track and language direction. If parti
 All test data can be downloaded from the [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/0000005), see Submission STEP 0 below. 
 
 ## Submission
-<!-- LINK 2025:   SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).-->
-<!-- LINK 2026:   SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/0000005).-->
+<!-- SPEECHM LINK 2025:   SPEECHM Evaluation Server](https://iwslt2025.speechm.cloud.cyfronet.pl/).-->
+<!-- SPEECHM LINK 2026:   SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/0000005).-->
 
 
 <!-- The evaluation will be performed using the Meetween SPEECHM Evaluation Server. More info are coming in March. -->
