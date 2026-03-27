@@ -75,8 +75,88 @@ Evaluation is conducted using the MCIF [GitHub repository](https://github.com/hl
 
 ## Submission
 
-The submission will be performed using the [Meetween SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/). More info are coming in March.
+The submission will be performed using the [Meetween SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/). 
 
+### General Guidelines
+
+* Create **a single instance** for each model, report the required information, including the training condition (constrained/unconstrained), and upload the outputs for one or more target languages (English -> English, German, Italian, Chinese). Participants must provide the information required in the “Description” field, if no information is provided, the most permissive condition will be considered (e.g., unconstrained over constrained or the usage of all training data available over using CoVoST2 and/or GigaST only)
+
+* Multiple submissions are allowed, but participants must explicitly indicate one PRIMARY run for each track. All other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file timestamp) for the respective track will be used as the PRIMARY run.
+
+* Outputs should follow the xml format specified in the [Evaluation section](#evaluation).
+
+* If any issues are identified, the submitted outputs can be deleted or replaced with newer ones.
+
+### Submission Steps
+
+Available after the Evaluation period start date.
+
+<!--
+
+Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/), proceed through the following steps. 
+
+#### STEP 0: Download Test Data
+    0.1 Click on “Test sets” (at the top of the page).
+    0.2 Click on the “IWSLT26INSTRUCT” test set. 
+    0.3 Download the test set (containing audios and XMLs with instructions) under “Entries for Instruction-Following Long/Short” depending on your track.
+
+#### STEP 1: Create a New Model
+    1.1 Click on “My submissions” (at the top of the page).
+    1.2 Click on “New model” (button at the top right).
+    1.3 Create a new model:
+        1.3.1 Insert the Model Name using the standardized format:
+       
+            ${TEAM}_IWSLT26_IF_${TRACK}_${CONDITION}_${SUBMISSION_TYPE}
+         
+            Where:
+            - ${TEAM} → Short name of your team (e.g., KIT)
+            - ${TRACK} → Choose from [SHORT, LONG]
+            - ${CONDITION} → Choose from [constrained, unconstrained]
+            - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
+
+            Example Model Names:
+                KIT_IWSLT26_IF_SHORT_constrained_primary  
+                KIT_IWSLT26_IF_SHORT_constrained_contrastive1 
+                KIT_IWSLT26_IF_SHORT_constrained_contrastive2 
+
+        1.3.2 Insert Description
+            Provide a brief but accurate description of your model, including:
+                - Data conditions: constrained/unconstrained
+                - [if constrained] Training data: with CoVoST2/with GigaST/with CoVoST2 and GigaST/other combination (specify)
+                - Model architecture: cascade/direct
+                - Any other relevant features characterizing your approach:
+        1.3.3 Consent Option (optional)
+            Consider enabling “Consents” to freely release your submitted system output data, including for human evaluation purposes.
+        1.3.4 Select the Task in which you want to participate
+            Choose Instruction-Following Short (IFSHORT) and/or Instruction-Following Long (IFLONG) depending on which track(s) the model participates into as the Task ids in the Compatibility Map.
+        1.3.5 Click on “Create Model” (button at the bottom right).
+
+#### STEP 2: Submit the Outputs
+
+    2.1 Go to “My Submissions”.
+    2.2 Click on the specific model created in STEP 1 
+       (e.g., KIT_IWSLT26_IF_SHORT_constrained_primary).
+    2.3 Click the “IFSHORT/IFLONG Hypotheses” button.
+    2.4 Once you have generated the outputs with your model for the test set, click "Upload hypothesis" for the intended submission:
+       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT26INSTRUCT / en-de)
+    2.5 Upload your submission XML file.
+
+### Manage Your Submission
+
+#### Download or Delete a Submission
+    1 Click on “My Submissions”.
+    2 Click on the specific model created in STEP 1 
+       (e.g., KIT_IWSLT26_IF_SHORT_constrained_primary).
+    3 Click on the “IFSHORT/IFLONG Hypotheses” button.
+    4 Use the three-dot menu on the right to:
+        - Download the submitted run (hypothesis).
+        - Delete the submitted run and confirm.
+        
+#### Replace a Submission
+    1 Delete your existing run.
+    2 Submit a new run file (repeat STEP 2 of “Submission Steps”).
+
+-->
 
 ## Organizers
 * Sara Papi, Fondazione Bruno Kessler
