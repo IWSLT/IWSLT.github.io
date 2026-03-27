@@ -148,7 +148,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
        (e.g., KIT_IWSLT26_ModelCompression_en-de_constrained_primary).
     2.3 Click the “MODEL COMPRESSION Hypotheses” button.
     2.4 Once you have generated the outputs with your model for the test set, click “Upload hypothesis” for the intended submission:
-       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., XXXXXXXXX / en-de)
+       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., TVseries / en-de)
     2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
 
     
