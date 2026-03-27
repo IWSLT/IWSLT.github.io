@@ -103,7 +103,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
 <a id="downloadTest"></a>
 #### STEP 0: Download and process the test data
     0.1 Click on “Test sets” (at the top of the page).
-    0.2 Click on the “Model Compression” button associated with the test sets in the list.
+    0.2 Click on the “Model Compression” button associated with any of the visible test sets in the list.
     0.3 Download the test sets for the language pair(s) chosen for participation  (6 test set for en-de, 5 test set for en-zh).
     0.4 Process the test data to obtain your candidate submission file (to be stored in plain UTF-8 text format, one sentence per line)
 
