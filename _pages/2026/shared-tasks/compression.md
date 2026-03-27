@@ -39,7 +39,7 @@ Compression techniques can be used either in isolation or in combination.
 
 Participants can submit their runs under two data conditions: **constrained** and **unconstrained**. The two conditions differ in the datasets allowed to support the model compression process (e.g., for fine-tuning the reduced model after pruning, quantization, or other compression techniques, or for training the student model in knowledge distillation using the outputs of the larger teacher model).
 
-* ***Constrained*** In this condition, participants are allowed to use only the [ACL60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](https://iwslt.org/2025/model-compression#test-data).
+* ***Constrained*** In this condition, participants are allowed to use only the [ACL60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](https://iwslt.org/2026/model-compression#test-data).
 
 * ***Unconstrained*** In this condition, there are no restrictions on data usage.
 
