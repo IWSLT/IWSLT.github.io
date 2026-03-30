@@ -210,7 +210,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
 #### STEP 0: Download and process the test data
     0.1 Click on “Test sets” (at the top of the page).
     0.2 Click on the “offline” button associated with any of the visible test sets in the list.
-    0.3 Download ALL the test sets for the language pair(s) chosen for participation  (1 test set for Engish-Arabic, 5 test sets for English-Chinese and English-Japanese, 6 test sets for English-German, **X test sets for LanguageAgnostic**).
+    0.3 Download ALL the test sets for the language pair(s) chosen for participation  (for the "Language-aware" TRACK1: 1 test set for Engish-Arabic, 5 test sets for English-Chinese and English-Japanese, 6 test sets for English-German; for the "Language-agnostic" TRACK2: 1 test set).
     0.4 Process the test data to obtain your candidate submission file (to be stored in plain UTF-8 text format, one sentence per line)
 
 
@@ -253,7 +253,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
        (e.g., KIT_IWSLT26_Offline_en-de_constrained_primary).
     2.3 Click the “OFFLINE Hypotheses” button.
     2.4 Once you have generated the outputs with your model for each test set, click “Upload hypothesis” for the intended submission:
-       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., XXXXXX / en-de)
+       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., TRACK1_BUSINESSNEWS / en-de)
     2.5 Upload your submission file (plain UTF-8 text format, one sentence per line).
 
 
@@ -276,7 +276,6 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
 
 
 ## Contacts 
-<!-- Decision to take: Add more contact here -->
 
 Chairs: Matteo Negri (FBK, Italy), Marco Turchi (Zoom, Germany)
 
@@ -285,6 +284,5 @@ Discussion: <iwslt-evaluation-campaign@googlegroups.com>
 
 ## Organizers
 
-<!-- Decision to take: Add more organizers here -->
 Sebastian Stüker (Zoom, Germany)  
-Jan Niehues (KIT, Germany)\
+Jan Niehues (KIT, Germany)
