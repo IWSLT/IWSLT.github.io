@@ -138,11 +138,11 @@ Participants have two options for the submission:
 - **(Preferred) Docker Image Submission**: the organizers run the system to compare the computation-aware latency. [Example on how to build a Docker Image can be found in the dedicated SimulStream README.](https://github.com/hlt-mt/simulstream/tree/main/examples/http_docker)
 - *System Log Submission:* computation-aware latency cannot be compared directly, but it will be reported along with the hardware used.
 
-Systems submitted via Docker image are expected to run on a single NVIDIA H100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*. To enable communication between evaluators and participants, a point of contact and email address should be provided in the **README** in case of issues during evaluation. Docker images should support the `linux/arm64` architecture, specified during build via the `--platform` flag.
+Systems submitted via Docker image are expected to run on a single NVIDIA H100 GPU with 80 GB of HBM. Additionally, participants must include a **README** with instructions on how to run the system for each *track* and *language direction*. To enable communication between evaluators and participants, a point of contact and email address should be provided in the **README** in case of issues during evaluation. 
 
 Regardless of the submission type (Docker or log), participants must also submit results on the *development set* (i.e., MCIF or the dedicated Czech-to-English dev set) to determine the **latency regime** of their submission.
 
-<!-- Submission link: [Dropbox Folder](https://www.dropbox.com/request/9tdIploALP4eQBScOYBq) -->
+Submission link: [Dropbox Folder](https://www.dropbox.com/scl/fo/xh1wt6dij47v4wj7a811a/AGDu3FWu1B7bnTFLJ2lyVtk?rlkey=s400bh5z6b7rr51d4h3sa8yf3&st=3qqzeg9e&dl=0)
 
 Participants will be allowed to update their submissions during the evaluation period.
 If you have specific questions regarding your submission to the simultaneous shared task, please reach out via e-mail at agostinv@oregonstate.edu.
