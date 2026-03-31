@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 ---
 
-📢 **Announcement**: For the constrained setting, following the recent removal of CoVoST2, [we have added GigaST as an additional training dataset](#constrained)! Training data details will be collected at submission time to ensure a fair comparison.
+📢 **Announcement**: [Submissions are now open!](#submission)
 {: .notice--info}
 
 ## Description
