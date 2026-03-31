@@ -91,72 +91,59 @@ The submission will be performed using the [Meetween SPEECHM Evaluation Server](
 
 Available after the Evaluation period start date.
 
-<!--
-
 Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/), proceed through the following steps. 
 
-#### STEP 0: Download Test Data
-    0.1 Click on “Test sets” (at the top of the page).
-    0.2 Click on the “IWSLT26INSTRUCT” test set. 
-    0.3 Download the test set (containing audios and XMLs with instructions) under “Entries for Instruction-Following Long/Short” depending on your track.
+#### STEP 1: Download Test Data
+1. Click on `Test sets` (at the top of the page), and select either `IFLONG26` or `IFSHORT26` depending on the track (long and short, respectively). Alternatively, [directly access the IF task page](https://speechm.cloud.cyfronet.pl/0000005/tasks/25).
+2. Download the test set (containing audios and XMLs with instructions) of the selected target language.
 
-#### STEP 1: Create a New Model
-    1.1 Click on “My submissions” (at the top of the page).
-    1.2 Click on “New model” (button at the top right).
-    1.3 Create a new model:
-        1.3.1 Insert the Model Name using the standardized format:
-       
-            ${TEAM}_IWSLT26_IF_${TRACK}_${CONDITION}_${SUBMISSION_TYPE}
-         
-            Where:
-            - ${TEAM} → Short name of your team (e.g., KIT)
-            - ${TRACK} → Choose from [SHORT, LONG]
-            - ${CONDITION} → Choose from [constrained, unconstrained]
-            - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
-
-            Example Model Names:
-                KIT_IWSLT26_IF_SHORT_constrained_primary  
-                KIT_IWSLT26_IF_SHORT_constrained_contrastive1 
-                KIT_IWSLT26_IF_SHORT_constrained_contrastive2 
-
-        1.3.2 Insert Description
-            Provide a brief but accurate description of your model, including:
-                - Data conditions: constrained/unconstrained
-                - [if constrained] Training data: with CoVoST2/with GigaST/with CoVoST2 and GigaST/other combination (specify)
-                - Model architecture: cascade/direct
-                - Any other relevant features characterizing your approach:
-        1.3.3 Consent Option (optional)
-            Consider enabling “Consents” to freely release your submitted system output data, including for human evaluation purposes.
-        1.3.4 Select the Task in which you want to participate
-            Choose Instruction-Following Short (IFSHORT) and/or Instruction-Following Long (IFLONG) depending on which track(s) the model participates into as the Task ids in the Compatibility Map.
-        1.3.5 Click on “Create Model” (button at the bottom right).
-
-#### STEP 2: Submit the Outputs
-
-    2.1 Go to “My Submissions”.
-    2.2 Click on the specific model created in STEP 1 
-       (e.g., KIT_IWSLT26_IF_SHORT_constrained_primary).
-    2.3 Click the “IFSHORT/IFLONG Hypotheses” button.
-    2.4 Once you have generated the outputs with your model for the test set, click "Upload hypothesis" for the intended submission:
-       ${TESTSET} / ${LANGUAGE_PAIR} (e.g., IWSLT26INSTRUCT / en-de)
-    2.5 Upload your submission XML file.
-
-### Manage Your Submission
-
-#### Download or Delete a Submission
-    1 Click on “My Submissions”.
-    2 Click on the specific model created in STEP 1 
-       (e.g., KIT_IWSLT26_IF_SHORT_constrained_primary).
-    3 Click on the “IFSHORT/IFLONG Hypotheses” button.
-    4 Use the three-dot menu on the right to:
-        - Download the submitted run (hypothesis).
-        - Delete the submitted run and confirm.
+#### STEP 2: Create a New Model
+1. Click on `My submissions` (at the top of the page) and on `New model` (button at the top right).
+2. Create a new model:
+    - Insert the `Name` using the standardized format:
+    ```
+        ${TEAM}_IWSLT26_IF_${TRACK}_${CONDITION}_${SUBMISSION_TYPE}
         
-#### Replace a Submission
-    1 Delete your existing run.
-    2 Submit a new run file (repeat STEP 2 of “Submission Steps”).
+        Where:
+        - ${TEAM} → Short name of your team (e.g., KIT)
+        - ${TRACK} → Choose from [SHORT, LONG]
+        - ${CONDITION} → Choose from [constrained, unconstrained]
+        - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
 
--->
+        Example Model Names:
+            KIT_IWSLT26_IF_SHORT_constrained_primary  
+            KIT_IWSLT26_IF_SHORT_constrained_contrastive1 
+            KIT_IWSLT26_IF_SHORT_constrained_contrastive2 
+    ```
+
+    - Insert `Description` by including:
+    ```
+        - Data conditions: constrained/unconstrained
+        - [if constrained] Training data: with CoVoST2/with GigaST/with CoVoST2 and GigaST/other combination (specify)
+        - Model architecture: cascade/direct
+        - Any other relevant features characterizing your approach:
+    ```
+    - Select `Task ids` by checking `Instruction Following (IF)`
+    - Check `Consent` (optional) to freely release your submitted system output data, including for human evaluation purposes
+    - Click on `Create Model` (button at the bottom right)
+
+#### STEP 3: Submit the Outputs
+
+- Click on `My submissions` 
+- Click on the model created in STEP 2 (e.g., `KIT_IWSLT26_IF_SHORT_constrained_primary`)
+- Click on `IF Hypotheses`, close to `Model info`
+- Upload your XML file by clicking on the `Upload hypothesis` button corresponding to the language pair(s) you want to participate in
+
+### Manage Your Model
+
+#### Download or Delete the Hypothesis
+- Click on `My submissions`
+- Click on the model created in STEP 2 (e.g., `KIT_IWSLT26_IF_SHORT_constrained_primary`)
+- Click on `IF Hypotheses`, close to `Model info`
+- Use the three-dot menu on the right to either `Download` or `Delete` the submitted hypothesis
+        
+#### Delete a Model
+You can, at any time, change the name and description of your model by clicking on its name under the `My submissions` panel. If you want to delete a model (i.e., not replacing or modifying it, but completely removing it from participating models), [please contact the task's organizers](#contact).
 
 ## Organizers
 * Sara Papi, Fondazione Bruno Kessler
