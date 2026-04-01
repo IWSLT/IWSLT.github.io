@@ -77,7 +77,7 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
 * [YODAS](https://huggingface.co/datasets/espnet/yodas) (YouTube-Oriented Dataset for Audio and Speech) is *"a large-scale, multilingual dataset comprising currently over 500k hours of speech data in more than 100 languages, sourced from both labeled and unlabeled YouTube speech datasets.*" Refer to this [paper](https://ieeexplore.ieee.org/abstract/document/10389689) for more details.\
 IMPORTANT NOTE: the "[en003](https://huggingface.co/datasets/espnet/yodas/tree/main/data/en003)" partition of the Yodas dataset is used for selecting dev/test data and is therefore not permitted for training (e.g. for an auxiliary ASR task). This partition had also been used to select a speech recognition benchmarking test set by the creators of the [Loquacious](https://huggingface.co/datasets/speechbrain/LoquaciousSet) dataset and thus is a natural held-out choice. Professional human reference translations into Chinese, Japanese, and German have been created by [AppTek](https://apptek.ai).
-  * The **dev2026** development set, consisting of 6 files, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCxga_cA9xcQLbQhuOSwhRUAcWmw8Se2Tq-24yfBfodOjQ?e=s49yng)
+  * The **dev2026** development set, consisting of 6 files, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCxga_cA9xcQLbQhuOSwhRUAcWmw8Se2Tq-24yfBfodOjQ?e=s49yng).
   * The **test2026** set can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQDPAY3ChEwGRIk3l1uhLgyTAQleyCGgMnwaVqAu9wl-1S8?e=Z86SMM); it consists of five audio recordings, each lasting approximately 10 to 30 minutes.
 
 ## Submission
