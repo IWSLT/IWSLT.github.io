@@ -84,7 +84,7 @@ IMPORTANT NOTE: the "[en003](https://huggingface.co/datasets/espnet/yodas/tree/m
 
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run; all other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file timestamp) will be used as the PRIMARY run
 * Submissions have to be sent as a gzipped TAR archive (see format below)
-* Submissions must include test26 and progressive test sets: for the ITV section, test23, test24 and test25; for the Asharq section, test25
+* Submissions must include test2026 and progressive test sets: for the ITV section, test2023, test2024 and test2025; for the Asharq section, test2025
 * Submission files have to be stored as SRT (SubRip File Format) UTF-8 encoded files
 * For each element of test sets, provide the subtitles in an SRT file whose name includes the file identifier (number) of the video
 
@@ -99,9 +99,9 @@ where:
 ```
 <UserID> = user ID of participant; use the short name chosen in the registration form
 <Domain> = one of {ITV, Asharq}
-<Set>    = one of {tst26, tst25, tst24, tst23} if <Domain>=ITV
-         = one of {tst26, tst25} if <Domain>=Asharq
-         = tst26 if <Domain>=YODAS
+<Set>    = one of {test2026, test2025, test2024, test2023} if <Domain>=ITV
+         = one of {test2026, test2025} if <Domain>=Asharq
+         = test2026 if <Domain>=YODAS
 <VdId>   = numeric identifier of the video
 <Lang>   = one of {en-de.de,en-es.es,en-ja.ja,en-zh.zh} if <Domain>=ITV
          = one of {en-ar.ar,en-de.de,en-ja.ja,en-zh.zh} if <Domain>=Asharq
@@ -110,7 +110,7 @@ where:
 ```
 Example: 
 ```
-FBK/IWSLT26.Subtitling.ITV_tst25_22.en-de.de.FBK.primary.srt
+FBK/IWSLT26.Subtitling.ITV_test2025_22.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
