@@ -57,8 +57,8 @@ Participants may submit to one or all of the target languages for official evalu
 <The blind test data that is required for submission is going to be released before the evaluation period starts.>
 
 The blind test data that is required for submission is as follows:
-- **Reference audio:** [link](https://machinetranslation.io/files/iwslt26cloning/text.zip)
-- **Target text:** [link](https://machinetranslation.io/files/iwslt26cloning/audio.zip)
+- **Reference audio:** [link](https://machinetranslation.io/files/iwslt26cloning/audio.zip)
+- **Target text:** [link](https://machinetranslation.io/files/iwslt26cloning/text.zip)
 
 
 ## Submission
