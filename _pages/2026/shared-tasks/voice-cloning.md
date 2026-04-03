@@ -54,7 +54,7 @@ Participants may submit to one or all of the target languages for official evalu
 
 ### Blind Data
 
-<The blind test data that is required for submission is going to be released before the evaluation period starts.>
+<!-- The blind test data that is required for submission is going to be released before the evaluation period starts. -->
 
 The blind test data that is required for submission is as follows:
 - **Reference audio:** [link](https://machinetranslation.io/files/iwslt26cloning/audio.zip)
@@ -63,7 +63,7 @@ The blind test data that is required for submission is as follows:
 
 ## Submission
 
-<Systems will be submitted through a form that will be available before the evaluation period starts.>
+<!-- Systems will be submitted through a form that will be available before the evaluation period starts. -->
 
 * Submit one zip file per language.
 * Required zip filename format: `{team}_{language}.zip` (example: `tcd_ar.zip`)
