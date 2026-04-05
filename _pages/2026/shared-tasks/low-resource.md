@@ -95,6 +95,10 @@ Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (
 
 IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2026_ga-eng"> here</a>.
 
+
+<strong> (NEW April 5) The test set can be accessed [here](https://github.com/shashwatup9k/iwslt2026_ga-eng/tree/main/test-2026).</strong>
+
+
 ### Igbo to English (ibo-eng)
 
 The Igbo language is a Niger-Congo language spoken by approximately 30–45 million people in Nigeria, Cameroon, and Equatorial Guinea.
