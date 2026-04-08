@@ -11,12 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-📢 **Announcement**: 
-[Latency regimes constraints announced!](#ranking)!
-
-[Update on the list of English-to-X training data](#english-to-x)!
-
-[*Speech-to-Text with Extra Context* Baseline available](#baselines) and Speech-to-Text Baselines coming soon!
+📢 **Announcements** 📢 <br> **Deadline extension:**‼️ We extend the deadline for the simultaneous translation track to Friday, April 17, 23:59 (AoE)‼️<br> **Blind Test Set Published:** We release the official dev sets and test sets, [see below.](#dev-and-test-sets) 
 {: .notice--info}
 
 ## Description
@@ -173,6 +168,45 @@ The latency constraing are shared across all language pairs, measured by non-com
 
 ### Human Evaluation
 Human evaluation will be conducted for primary submissions.
+
+## Dev and Test Sets
+
+This section describes the dev and test sets for the simultaneous track.
+
+The dev sets will be used to determine the latency regime of the submissions and are a **mandatory part of ALL submissions** (in the form of SimulStream logs). 
+The test sets are the same for all submissions but the output logs should be generated only for the **log-based submissions**.
+**For participants submitting Docker images**, the evaluation will be conducted on the same test sets, but **the organizers will run the submitted Docker images** to allow for the comparison of computation-aware latency.
+
+Participants are asked to provide SimulStream log files with the translation outputs and the timestamps of the generated translations for the test sets described below. The test sets consist of long-form audio recordings of talks, which are unsegmented (up to 2.5 hours in duration):
+* **ACL Talks** presented at the *ACL conferences, accompanied by the corresponding ACL paper PDFs, which can be used as extra context for the *Speech-to-Text with Extra Context* sub-track. The talks are in English and the translations are **into German, Chinese, and Italian**.
+* **Political conference talks** for **Czech to English**.
+* *Optional Evaluation Domains:* 
+  - **Asharq-Bloomberg** news, for English to: **Chinese** and **German**.
+  - **YODAS** YouTube dataset, for English to: **Chinese** and **German**.
+  
+Audio-visual documents of development and evaluation sets are provided in MP4 format (ACL Talks and Asharq-Bloomberg) and WAV format (YODAS and Political conference talks). The translation log files should contain the translations of the audio recordings, along with the timestamps of the generated translations. The log format should follow one of the following:
+- **SimulStream format (preferred)**,
+- JSONL format (legacy SimulEval format).
+
+See the [OmniSTEval](https://github.com/pe-trik/OmniSTEval) and [SimulStream](https://github.com/hlt-mt/simulstream) for more details on the expected log format.
+
+* **Main Evaluation Domain En-to-{German, Chinese, and Italian}**: [ACL Talks](https://aclanthology.org/) are a collection of talks presented at the ACL conferences. The talks cover a wide range of topics in natural language processing and computational linguistics, and they are accompanied by the corresponding ACL paper PDFs, which can be used as extra context for the *Speech-to-Text with Extra Context* sub-track. The talks are in English and the translations are into German, Chinese, and Italian:
+  * **Dev Set**: [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) is the official development set for this track. You can download a derived version including audio, references, YAML files with the audio information (for the quality and latency evaluation), and PDFs for the *speech-to-text with extra context* track [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCPqOBxtZXTTKHJrxIK1Om2AYNRrW_Gtj3IfqhtDNab8_A?e=f6vURw).
+  * **Test Set**: the audio and optionally the PDFs (for the *Speech-to-Text with Extra Context* sub-track) can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQDv6zOxEch4SqSqFd9w7qhhAV7AgcWH9E4Q8GCF6LW-Nzw?e=6qtv57).
+
+* **Optional Evaluation Domain En-to-{Chinese, German}**: [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with 'Bloomberg Media' powers this distinguished business news multi-platform, drawing on Bloomberg's comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms. Professional human reference translations into Chinese, and German have been created by [AppTek](https://apptek.ai).
+
+  * The **test2026** set can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCXJ2xUa4UjRLbde1Dg4qP2AR3W5xN2zm5ZZ1EdcgZ1-nM?e=phV9DM); it consists of one single recording lasting approximately two hours. The archive contains a README file with important information, audio files, and YAML files which provide the audio segments for which translations must be created.
+
+* **Optional Evaluation Domain En-to-{Chinese, German}**: [YODAS](https://huggingface.co/datasets/espnet/yodas) (YouTube-Oriented Dataset for Audio and Speech) is *"a large-scale, multilingual dataset comprising currently over 500k hours of speech data in more than 100 languages, sourced from both labeled and unlabeled YouTube speech datasets.*" Refer to this [paper](https://ieeexplore.ieee.org/abstract/document/10389689) for more details.\
+IMPORTANT NOTE: the "[en003](https://huggingface.co/datasets/espnet/yodas/tree/main/data/en003)" partition of the YODAS dataset is used for selecting dev/test data and is therefore not permitted for training (e.g. for an auxiliary ASR task). This partition had also been used to select a speech recognition benchmarking test set by the creators of the [Loquacious](https://huggingface.co/datasets/speechbrain/LoquaciousSet) dataset and thus is a natural held-out choice. Professional human reference translations into Chinese, Japanese, and German have been created by [AppTek](https://apptek.ai).
+  * The **test2026** set can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQDPAY3ChEwGRIk3l1uhLgyTAQleyCGgMnwaVqAu9wl-1S8?e=Z86SMM); it consists of five audio recordings, each lasting approximately 10 to 30 minutes.
+
+* **Main Evaluation Domain Czech-to-English**: The development and test sets for Czech-to-English consist of long-form audio recordings of talks from political conferences.
+  * **Dev Set**: [IWSLT26 Czech-to-English Dev Set](http://ufallab.ms.mff.cuni.cz/~polak/iwslt26-cs-dev.zip) consists of recordings of the Chamber of Deputies' meetings in the Czech Parliament from 2024--2025.
+  * **Test Set**: the test set consists of recordings from the [Media a Ukrajina (Media and Ukraine)](https://www.irozhlas.cz/konference) conference held in Prague in June 2025, which focused on the media's role in the Ukraine conflict. The recordings are available: [IWSLT26 Czech-to-English Test Set](https://storage.ufal.mff.cuni.cz/f/61289b04950b46658d71/).
+
+* **Main Evaluation Domain Czech-to-English with Extra Context**: the Czech-to-English test set for the *Speech-to-Text with Extra Context* sub-track consists of selected recordings of [Linguistic Mondays Seminars](https://ufal.mff.cuni.cz/events/linguistic-mondays) at Charles University in Prague. The recordings can be downloaded from [here](https://drive.google.com/file/d/14uTlbpd_ndmfGe71ZoAuPnWTgwkUBatA/view?usp=sharing). The archive contains the audio recordings and the corresponding PDFs of the presentations, which can be used as extra context for the *Speech-to-Text with Extra Context* sub-track. There is no dev set for this sub-track. To determine the latency regime of the submissions for this sub-track, we will use the same dev set as for the main track (i.e., the IWSLT26 Czech-to-English Dev Set, see above).
 
 ## Organizers
 <!-- List of organizers' names and affiliations -->
