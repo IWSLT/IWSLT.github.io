@@ -77,6 +77,7 @@ We point participants to additional Bhojpuri audio data (with transcriptions), p
 - [Bhojpuri-wav2vec2 based model](https://github.com/Open-Speech-EkStep/vakyansh-models#wav2vec2-based-models)
 - [Bhojpuri Language Technological Resources (BHLTR)](https://github.com/shashwatup9k/bho-resources)
 
+<strong> (NEW April 5) The test set can be accessed [here](https://github.com/shashwatup9k/iwslt2026_bho-hi/tree/main/test-2026).</strong>
 
 
 ### Central Kurdish to English (ckb-eng)
@@ -93,6 +94,10 @@ The COMMUTE-Kurdish dataset, complementary datasets, baseline models, evaluation
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
 
 IWSLT participants may obtain the Irish-English speech translation data  from <a href="https://github.com/shashwatup9k/iwslt2026_ga-eng"> here</a>.
+
+
+<strong> (NEW April 5) The test set can be accessed [here](https://github.com/shashwatup9k/iwslt2026_ga-eng/tree/main/test-2026).</strong>
+
 
 ### Igbo to English (ibo-eng)
 

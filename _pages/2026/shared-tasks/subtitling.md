@@ -10,9 +10,9 @@ Markdown notes: comments can be formed as in this example;
 bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
-<span style="color:red">**DEVELOPMENT SETS 2026 ARE AVAILABLE** </span>
+<span style="color:red">**EVALUATION SETS 2026 ARE AVAILABLE** </span>
 
-[Last update: Feb 3, 2026]
+[Last update: Apr 1, 2026]
 
 ## Description
 
@@ -66,25 +66,25 @@ Audio-visual documents of development and evaluation sets are and will be provid
 
 * [ITV Studios](https://www.itvstudios.com/) is part of ITV Plc, which includes the UK's largest commercial broadcaster. They create and produce a broad range of programming (drama, entertainment, factual) in 13 countries, which they distribute globally, providing high-quality subtitles. We would like to thank ITV Studios for providing IWLST with samples of their video content for research and evaluation purposes and would like to ask you not to use these videos and/or the accompanying subtitles for any commercial purposes or to make them publicly available on any other website. 
 
-  * As a new **dev2026** development set, 3 episodes of a television series,  with an approximate duration of 2.5 hours in total, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCsSfKNTQaZRpJa_o42z7OIAUG-vRXKC5zsgH4WXXy-_yc?e=o7you5).\
+  * As a new **dev2026** development set, three episodes of a television series,  with an approximate duration of 2.5 hours in total, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCsSfKNTQaZRpJa_o42z7OIAUG-vRXKC5zsgH4WXXy-_yc?e=o7you5).\
     NOTES: English SRT files are provided for informational purposes only. The [dev set](https://iwslt.org/2025/subtitling#development-and-evaluation-data) from previous years can also be used for system development and training.    
-  * The **test2026** set will be released according to the scheduling.
+  * The **test2026** set can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQDd5_SzXZxEToSu3afU6bDnAaTRae-EDTJMvbZ3MSIdpA4?e=QpnA7W); it consists of three recordings lasting approximately 45 minutes each. The test sets proposed in past editions are used to evaluate progress: **test2025** is available [here](https://fbk.sharepoint.com/:u:/s/MTUnit/Eb4eEbVRkShEmfiKDw_ajOMBlbAh3-7jsfNY9OwBONNjgA?e=8h8kBj), while **test2024** and **test2023** [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EdRmtVakEfRBmqljZUAY6-cBMqu11oZxuYdHOcHjkmlKtQ?e=C8dEid).
 
 * [Asharq Business with Bloomberg](https://asharqbusiness.com/) is part of SRMG, the largest integrated media group in the MENA (Middle East and North Africa) region. An exclusive content agreement with 'Bloomberg Media' powers this distinguished business news multi-platform, drawing on Bloomberg's comprehensive coverage from more than 2,700 journalists and analysts globally. Asharq Business with Bloomberg is a leading source for Arabic economic news rich in context and content and unparalleled market data, delivered through a TV channel and across digital and social media platforms. Professional human reference translations into Chinese, Japanese, Arabic, and German have been created by [AppTek](https://apptek.ai).
 
-  * As a **dev2026** set, 2 recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCdLQi6CvMVTp30OP-yv_XOAeXoxXeqFGjQTUsV0nI_rFg?e=kESdHA).  The archive contains a README file with important infos, audios, reference subtitles, and YAML files which provide the audio segments for which subtitles must be created (the rest of the video file can be ignored). The dev set was already used in the 2025 evaluation, but now Chinese and Japanese were added as the additional target languages.
-  * The **test2026** set will be released according to the scheduling.
+  * As a **dev2026** set, two recordings of about 2.5 hours each, including actual Asharq-Bloomberg news content, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCdLQi6CvMVTp30OP-yv_XOAeXoxXeqFGjQTUsV0nI_rFg?e=kESdHA).  The archive contains a README file with important infos, audios, reference subtitles, and YAML files which provide the audio segments for which subtitles must be created (the rest of the video file can be ignored). The dev set was already used in the 2025 evaluation, but now Chinese and Japanese were added as the additional target languages.
+  * The **test2026** set can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCXJ2xUa4UjRLbde1Dg4qP2AR3W5xN2zm5ZZ1EdcgZ1-nM?e=phV9DM); it consists of one single recording lasting approximately two hours. The archive contains a README file with important infos, audios, and YAML files which provide the audio segments for which subtitles must be created. The **test2025** set proposed in the last edition is used to evaluate progress and can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/EUC1DTOdQpFMs9EYFeLx4CoBgI7jHvlgGWZk64RURwr_lA?e=Pkg364).
 
 * [YODAS](https://huggingface.co/datasets/espnet/yodas) (YouTube-Oriented Dataset for Audio and Speech) is *"a large-scale, multilingual dataset comprising currently over 500k hours of speech data in more than 100 languages, sourced from both labeled and unlabeled YouTube speech datasets.*" Refer to this [paper](https://ieeexplore.ieee.org/abstract/document/10389689) for more details.\
 IMPORTANT NOTE: the "[en003](https://huggingface.co/datasets/espnet/yodas/tree/main/data/en003)" partition of the Yodas dataset is used for selecting dev/test data and is therefore not permitted for training (e.g. for an auxiliary ASR task). This partition had also been used to select a speech recognition benchmarking test set by the creators of the [Loquacious](https://huggingface.co/datasets/speechbrain/LoquaciousSet) dataset and thus is a natural held-out choice. Professional human reference translations into Chinese, Japanese, and German have been created by [AppTek](https://apptek.ai).
-  * The **dev2026** development set, consisting of 6 files, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCxga_cA9xcQLbQhuOSwhRUAcWmw8Se2Tq-24yfBfodOjQ?e=s49yng)
-  * The **test2026** set will be released according to the scheduling.
+  * The **dev2026** development set, consisting of 6 files, can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQCxga_cA9xcQLbQhuOSwhRUAcWmw8Se2Tq-24yfBfodOjQ?e=s49yng).
+  * The **test2026** set can be downloaded from [here](https://fbk.sharepoint.com/:u:/s/MTUnit/IQDPAY3ChEwGRIk3l1uhLgyTAQleyCGgMnwaVqAu9wl-1S8?e=Z86SMM); it consists of five audio recordings, each lasting approximately 10 to 30 minutes.
 
 ## Submission
 
 * Multiple run submissions are allowed, but participants must explicitly indicate one PRIMARY run; all other run submissions are treated as CONTRASTIVE runs. In the case that none of the runs is marked as PRIMARY, the latest submission (according to the file timestamp) will be used as the PRIMARY run
 * Submissions have to be sent as a gzipped TAR archive (see format below)
-* Submissions must include test26 and progressive test sets: for the ITV section, test23, test24 and test25; for the Asharq section, test25
+* Submissions must include test2026 and progressive test sets: for the ITV section, test2023, test2024 and test2025; for the Asharq section, test2025
 * Submission files have to be stored as SRT (SubRip File Format) UTF-8 encoded files
 * For each element of test sets, provide the subtitles in an SRT file whose name includes the file identifier (number) of the video
 
@@ -99,9 +99,9 @@ where:
 ```
 <UserID> = user ID of participant; use the short name chosen in the registration form
 <Domain> = one of {ITV, Asharq}
-<Set>    = one of {tst26, tst25, tst24, tst23} if <Domain>=ITV
-         = one of {tst26, tst25} if <Domain>=Asharq
-         = tst26 if <Domain>=YODAS
+<Set>    = one of {test2026, test2025, test2024, test2023} if <Domain>=ITV
+         = one of {test2026, test2025} if <Domain>=Asharq
+         = test2026 if <Domain>=YODAS
 <VdId>   = numeric identifier of the video
 <Lang>   = one of {en-de.de,en-es.es,en-ja.ja,en-zh.zh} if <Domain>=ITV
          = one of {en-ar.ar,en-de.de,en-ja.ja,en-zh.zh} if <Domain>=Asharq
@@ -110,7 +110,7 @@ where:
 ```
 Example: 
 ```
-FBK/IWSLT26.Subtitling.ITV_tst25_22.en-de.de.FBK.primary.srt
+FBK/IWSLT26.Subtitling.ITV_test2025_22.en-de.de.FBK.primary.srt
 ```
 
 Submissions must be sent as an email attachment to these two addresses:  
