@@ -86,7 +86,7 @@ Allowed data:
 
 ## Test set
 The test sets for this year's submission are now available:
-- **English -> {German, Chinese, Japanese}**: [IWSLT25Instruct](https://fbk.sharepoint.com/:u:/s/MTUnit/EbwKrywzb5xMuPiDtmItJ_wBHQozf_k8wp3BXayUHrVj0g?e=DXKXWF)
+- **English -> {German, Chinese, Japanese}**: [MCIF](https://fbk.sharepoint.com/:u:/s/MTUnit/EbwKrywzb5xMuPiDtmItJ_wBHQozf_k8wp3BXayUHrVj0g?e=DXKXWF) ([Paper](https://arxiv.org/abs/2507.19634))
 - **Czech -> English**: [IWSLT25](https://drive.google.com/file/d/138KgEoFnNwKHVjh-hCF-JwQttwMyWpzl/view?usp=sharing)
 
 ## Baselines
