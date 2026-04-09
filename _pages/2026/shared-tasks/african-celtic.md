@@ -49,8 +49,8 @@ Any pretrained models and additional datasets are welcomed for the training port
 ## Data
 
 Data is now available at [huggingface.co/datasets/McGill-NLP/african_celtic_dataset](https://huggingface.co/datasets/McGill-NLP/african_celtic_dataset)
+The blind test set is now available for submission period at: [African Test Set](https://drive.google.com/drive/folders/1WkMzx3p7HIZVbH9tV-aEeEutBGVAV4ms?usp=sharing)
 <!-- Details description of the data and links to download -->
-<!--*The dataset will be available on January 16th, 2026.* -->
 
 <!-- Dataset Overview -->
 
@@ -75,7 +75,6 @@ The training data consists of sentences drawn from three existing world-news tex
 
 The newly introduced test sets were curated from a combination of open-source newspapers, with a focus on arts and culture, business, and sports articles from *Voice of America*. Test data is evenly split between European-context and African-context articles.
 
-*An optional additional Irish–English track may be added in February/March.*
 
 ### Data Format
 
