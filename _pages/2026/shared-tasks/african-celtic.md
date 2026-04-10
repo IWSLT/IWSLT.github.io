@@ -156,9 +156,7 @@ Please send all S2T results in the following json format:
 ```
 
 where:
-
 “user_id” and “file_name” are the user and file name present in the dataset metadata for each file
-
 “translation” is your model output 
 
 All files should be named as follows:
@@ -167,18 +165,14 @@ All files should be named as follows:
 where:
 
 “team_name” is the name of the team
-
 “task” is “s2t”
-
 “label” is one of “primary”, “contrastive1”, or “contrastive2”
-
 "method" is one of end-to-end, audiollm or cascaded
+“language-pair” uses the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
 
-“language-pair” use the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
 
-
-We ask participants to email their submissions for all language pairs to the organizers in the following email address:
-marie.maltais@mila.quebec
+We ask participants to email their submissions for all language pairs to the organizers in the following email address with the subject line starting with "IWSLT SUBMISSION":
+**marie.maltais@mila.quebec**
 
 Ideally, your email body should include a brief description of your system (which the organizers can use/modify for describing your submission in the Findings paper), and a brief explanation if you include multiple files per language.
 
@@ -198,18 +192,14 @@ The wav files should be uploaded to Google Drive as a folder with the following 
 where:
 
 “team_name” is the name of the team
-
 “task” is “s2s”
-
 “label” is one of “primary”, “contrastive1”, or “contrastive2”
-
 "method" is one of end-to-end, audiollm or cascaded
+“language-pair” uses the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
 
-“language-pair” use the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
 
-
-We ask participants to email the link to the Google Drive folder for all language pairs to the organizers in the following email address:
-marie.maltais@mila.quebec
+We ask participants to email the link to the Google Drive folder for all language pairs to the organizers in the following email address, with the subject line starting with "IWSLT SUBMISSION":
+**marie.maltais@mila.quebec**
 
 Ideally, your email body should include a brief description of your system (which the organizers can use/modify for describing your submission in the Findings paper), and a brief explanation if you include multiple folders per language.
 
