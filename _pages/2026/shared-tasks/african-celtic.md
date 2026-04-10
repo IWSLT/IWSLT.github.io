@@ -156,18 +156,26 @@ Please send all S2T results in the following json format:
 ```
 
 where:
+
 “user_id” and “file_name” are the user and file name present in the dataset metadata for each file
+
 “translation” is your model output 
 
 All files should be named as follows:
 [team_name].[task].[method].[language-pair].json
 
 where:
+
 “team_name” is the name of the team
+
 “task” is “s2t”
+
 “label” is one of “primary”, “contrastive1”, or “contrastive2”
+
 "method" is one of end-to-end, audiollm or cascaded
+
 “language-pair” use the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
+
 
 We ask participants to email their submissions for all language pairs to the organizers in the following email address:
 marie.maltais@mila.quebec
@@ -184,14 +192,21 @@ Please send all S2S files following these convensions.
 - File Name: [user_id]_[file_name].wav
 
 The wav files should be uploaded to Google Drive as a folder with the following name:
+
 [team_name].[task].[method].[language-pair]
 
 where:
+
 “team_name” is the name of the team
+
 “task” is “s2s”
+
 “label” is one of “primary”, “contrastive1”, or “contrastive2”
+
 "method" is one of end-to-end, audiollm or cascaded
+
 “language-pair” use the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
+
 
 We ask participants to email the link to the Google Drive folder for all language pairs to the organizers in the following email address:
 marie.maltais@mila.quebec
