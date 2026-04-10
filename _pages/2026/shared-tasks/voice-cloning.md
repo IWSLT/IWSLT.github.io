@@ -81,7 +81,7 @@ Before submission, please run the [verify_submission_naming.py](http://machinetr
 python3 verify_submission_naming.py /path/to/submission --language ar --source-file /path/to/arabic.txt --reference-dir /path/to/ref_audio
 ```
 
-**Submission form:** TBD (please check again before 15th April).
+**Submission form:** Please submit your systems by 15th April 2026 at: [https://forms.office.com/e/cDcxEuJ4bA](https://forms.office.com/e/cDcxEuJ4bA)
 
 
 ## System Description Paper
