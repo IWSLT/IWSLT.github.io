@@ -156,7 +156,9 @@ Please send all S2T results in the following json format:
 ```
 
 where:
+
 “user_id” and “file_name” are the user and file name present in the dataset metadata for each file
+
 “translation” is your model output 
 
 All files should be named as follows:
@@ -165,9 +167,13 @@ All files should be named as follows:
 where:
 
 “team_name” is the name of the team
+
 “task” is “s2t”
+
 “label” is one of “primary”, “contrastive1”, or “contrastive2”
+
 "method" is one of end-to-end, audiollm or cascaded
+
 “language-pair” uses the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
 
 
@@ -192,9 +198,13 @@ The wav files should be uploaded to Google Drive as a folder with the following 
 where:
 
 “team_name” is the name of the team
+
 “task” is “s2s”
+
 “label” is one of “primary”, “contrastive1”, or “contrastive2”
+
 "method" is one of end-to-end, audiollm or cascaded
+
 “language-pair” uses the full language names (hausa, igbo, yoruba, english) and shows the translation direction (e.g. yoruba-english is Yoruba translated into English)
 
 
