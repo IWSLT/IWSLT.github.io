@@ -11,7 +11,7 @@ bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
 
-📢 **Announcements** 📢 <br> **Deadline extension:**‼️ We extend the deadline for the simultaneous translation track to Friday, April 17, 23:59 (AoE)‼️<br> **Blind Test Set Published:** We release the official dev sets and test sets, [see below.](#dev-and-test-sets) 
+📢 **Announcements** 📢 <br> **Deadline extension:** We extend the deadline for the simultaneous translation track to ‼️Friday, April 17, 23:59 (AoE)‼️<br> **Blind Test Set Published:** We release the official dev sets and test sets, [see below.](#dev-and-test-sets) <br> **OmniSTEval version**: use version >=0.1.7 to avoid issues with recording name matching in some datasets.
 {: .notice--info}
 
 ## Description
