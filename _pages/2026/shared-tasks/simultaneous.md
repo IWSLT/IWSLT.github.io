@@ -173,7 +173,7 @@ Human evaluation will be conducted for primary submissions.
 
 This section describes the dev and test sets for the simultaneous track.
 
-The dev sets will be used to determine the latency regime of the submissions and are a **mandatory part of ALL submissions** (in the form of SimulStream logs). 
+The dev sets will be used to determine the latency regime of the submissions and are a **mandatory part of ALL submissions** in the form of logs.
 The test sets are the same for all submissions but the output logs should be generated only for the **log-based submissions**.
 **For participants submitting Docker images**, the evaluation will be conducted on the same test sets, but **the organizers will run the submitted Docker images** to allow for the comparison of computation-aware latency.
 
@@ -185,8 +185,8 @@ Participants are asked to provide SimulStream log files with the translation out
   - **YODAS** YouTube dataset, for English to: **Chinese** and **German**.
   
 Audio-visual documents of development and evaluation sets are provided in MP4 format (ACL Talks and Asharq-Bloomberg) and WAV format (YODAS and Political conference talks). The translation log files should contain the translations of the audio recordings, along with the timestamps of the generated translations. The log format should follow one of the following:
-- **SimulStream format (preferred)**,
-- JSONL format (legacy SimulEval format).
+- **SimulStream format (preferred)** - mandatory with the Docker submission,
+- Log-based submission are allowed to use the legacy SimulEval JSONL format.
 
 See the [OmniSTEval](https://github.com/pe-trik/OmniSTEval) and [SimulStream](https://github.com/hlt-mt/simulstream) for more details on the expected log format.
 
