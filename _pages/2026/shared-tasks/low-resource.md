@@ -63,6 +63,7 @@ Additional Bemba speech data (with transcriptions) are available here:
 - BembaSpeech [data](https://github.com/csikasote/BembaSpeech) [paper](https://arxiv.org/pdf/2102.04889.pdf)
 - ZambeziVoice [data](https://github.com/unza-speech-lab/zambezi-voice) [paper](https://arxiv.org/pdf/2306.04428.pdf)
 
+<strong> (NEW April 12) The test set can be accessed [here](https://github.com/csikasote/iwslt_2026_bem_eng_test ).</strong>
 
 
 ### Bhojpuri to Hindi (bho-hin)
@@ -89,6 +90,8 @@ The task is based on the COMMUTE-Kurdish corpus, which contains 30 hours of spon
 The COMMUTE-Kurdish dataset, complementary datasets, baseline models, evaluation instructions, and contact information are available on the task website:
 
 <strong> Data: [here](https://lium.univ-lemans.fr/en/corpus-commute-kurdish/)</strong>
+<strong> (NEW April 13) Test Data: [here](https://lium.univ-lemans.fr/en/corpus-commute-kurdish/)</strong>
+
 
 ### Irish to English (gle-eng)
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and "1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language". In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland.
@@ -105,7 +108,7 @@ The Igbo language is a Niger-Congo language spoken by approximately 30–45 mill
 
 Newly collected data is available [here](huggingface.co/datasets/McGill-NLP/african_celtic_dataset), and they are the same as the ones used for [the African and Celtic Speech-to-Speech Shared Task](https://iwslt.org/2026/african-celtic). We encourage interested participants to also consider participating in that task as well.
 
-<strong>Pointers to additional data will be provided by February 5.</strong>
+<strong>(NEW April 13) Test data are available [here](https://drive.google.com/drive/folders/1WkMzx3p7HIZVbH9tV-aEeEutBGVAV4ms?usp=sharing)</strong>
 
 ### Hausa to English (hau-eng)
 
@@ -113,7 +116,7 @@ Hausa is a Chadic language spoken by more than 100 million people in Nigeria and
 
 Newly collected data is available [here](huggingface.co/datasets/McGill-NLP/african_celtic_dataset), and they are the same as the ones used for [the African and Celtic Speech-to-Speech Shared Task](https://iwslt.org/2026/african-celtic). We encourage interested participants to also consider participating in that task as well.
 
-<strong>Pointers to additional data will be provided by February 5.</strong>
+<strong>(NEW April 13) Test data are available [here](https://drive.google.com/drive/folders/1WkMzx3p7HIZVbH9tV-aEeEutBGVAV4ms?usp=sharing)</strong>
 
 ### Quechua to Spanish (que-spa)
 
@@ -122,6 +125,8 @@ Quechua is an indigenous language spoken by more than 8 million people in South 
 There are two main region divisions of Quechua known as Quechua I and Quechua II. This data set consists of two main types of Quechua spoken in Ayacucho, Peru (Quechua Chanka ISO:quy) and Cusco, Peru (Quechua Collao ISO:quz) which are both part of Quechua II and, thus, considered “southern” languages. We label the data set with **que** - the ISO code for Quechua II mixtures.
 
 IWSLT participants may obtain the public Quechua-Spanish speech translation dataset along with the additonal parallel (text-only) data for the *unconstrained* task at no cost here: <a href="https://github.com/johneortega/IWSLT2026_Quechua_data">IWSLT 2026 QUE-SPA Data set</a>. IWSLT particpants should feel free to use any publicly available data for the *unconstrained* task. This includes a data set of nearly 50 hours of fully transcribed Quechua audio from previous shared tasks along with the introduction of a new data set this year which is about 8 hours of synthetic (post-edited) translations. A new addition this year is a *Quechua Collao* dataset which contains 15 hours of ASR data with Spanish translation. For assistance with the data sets, please email j.ortega@northeastern.edu.
+
+<strong>(NEW April 13) Test data are available [here](https://github.com/johneortega/IWSLT2026_Quechua_data/tree/main/que_spa_unconstrained/test)</strong>
 
 ### Catalan to English (ca-en)
 Catalan (català) is a Western Romance language which has approximately 4.1 million L1 speakers and more than 10 million people who can speak the language across its territories. It is spoken primarily in Catalonia, the Valencian Community, the Balearic Islands, and parts of Aragon in Spain, as well as in Andorra, where it is the sole official language. Catalan is also spoken in parts of southern France (Northern Catalonia) and in the city of Alghero in Sardinia, Italy.
@@ -136,7 +141,7 @@ The Igbo language is a Niger-Congo language spoken by approximately 50 million p
 
 Newly collected data is available [here](huggingface.co/datasets/McGill-NLP/african_celtic_dataset), and they are the same as the ones used for [the African and Celtic Speech-to-Speech Shared Task](https://iwslt.org/2026/african-celtic). We encourage interested participants to also consider participating in that task as well.
 
-<strong>Pointers to additional data will be provided by February 5.</strong>
+<strong>(NEW April 13) Test data are available [here](https://drive.google.com/drive/folders/1WkMzx3p7HIZVbH9tV-aEeEutBGVAV4ms?usp=sharing)</strong>
 
 
 
