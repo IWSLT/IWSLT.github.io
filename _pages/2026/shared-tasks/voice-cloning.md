@@ -107,7 +107,7 @@ All participants are encouraged to submit a paper describing their submitted sys
 | June 1, 2026        | Camera ready deadline (all papers)             |
 | July 3-4, 2026      | IWSLT conference                               |
 
-**Note:** All deadlines are 11:59PM UTC-12:00.
+**Note:** All deadlines are 11:59PM Anywhere on Earth (UTC-12:00).
 
 
 ## Evaluation
