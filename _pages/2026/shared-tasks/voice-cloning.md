@@ -81,7 +81,7 @@ Before submission, please run the [verify_submission_naming.py](http://machinetr
 python3 verify_submission_naming.py /path/to/submission --language ar --source-file /path/to/arabic.txt --reference-dir /path/to/ref_audio
 ```
 
-**Submission form:** Please submit your systems by 17th April 2026 at: [https://forms.office.com/e/cDcxEuJ4bA](https://forms.office.com/e/cDcxEuJ4bA)
+**Submission form:** Please submit your systems by 18th April 2026 at: [https://forms.office.com/e/cDcxEuJ4bA](https://forms.office.com/e/cDcxEuJ4bA)
 
 
 ## System Description Paper
@@ -100,8 +100,8 @@ All participants are encouraged to submit a paper describing their submitted sys
 |---------------------|------------------------------------------------|
 | Jan 1, 2026         | Release of shared task training and dev data   |
 | Apr 1, 2026         | Release of shared task blind test data         |
-| Apr 1-17, 2026      | Evaluation period (shared task)               |
-| Apr 17, 2026        | System submission deadline (shared task)      |
+| Apr 1-18, 2026      | Evaluation period (shared task)               |
+| Apr 18, 2026        | System submission deadline (shared task)      |
 | Apr 24, 2026        | System paper submission deadline (shared task)|
 | May 15, 2026        | Notification of acceptance                     |
 | June 1, 2026        | Camera ready deadline (all papers)             |
