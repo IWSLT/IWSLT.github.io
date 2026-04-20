@@ -13,6 +13,8 @@ if you want to have a line break either put a blank line in between the text or 
 
 ## Description
 
+➡️ **Ready to participate? Jump to [Submission](#submission).**
+
 Speech translation has been a core focus of IWSLT for years, yet its evaluation remains underexplored.
 Most existing evaluations assume gold segmentation, an unrealistic scenario for real-world systems.
 When defering to automatically segmented speech, conventional text-to-text metrics become less reliable.
@@ -69,13 +71,35 @@ We consider the following quality estimation baselines, which are [available on 
 - ASR-based [COMETKiwi-22](https://huggingface.co/Unbabel/wmt22-cometkiwi-da)
 - ASR-based [COMET-partial](https://huggingface.co/zouharvi/COMET-partial)
 - [SpeechQE](https://arxiv.org/pdf/2410.21485)
-- More baseline to be announced
-
 
 ## Submission
-More details on the submission process and timeline will be released soon.
 
-As part of the submission, we require a system description paper to be submitted to IWLST to be reviewed.
+### Test Data
+
+The evaluation test set is publicly available on Hugging Face: [maikezu/iwslt2026-metrics-shared-test](https://huggingface.co/datasets/maikezu/iwslt2026-metrics-shared-test)
+
+For all data except the ACL Talks data, participants must download the audio from the official IWSLT platform [SpeechM](https://speechm.cloud.cyfronet.pl/), and match it with the timestamps and paths provided in the Hugging Face dataset. To do so:
+1. Log in at [https://speechm.cloud.cyfronet.pl/](https://speechm.cloud.cyfronet.pl/)
+2. Click on **Test sets** at the top of the page and download the following sets for both **en-de** and **en-zh**:
+   - `TRACK1_TVSERIES`
+   - `TRACK1_CALLCENTER`
+   - `TRACK1_BUSINESSNEWS`
+   - `TRACK1_YOUTUBE`
+
+### Submission Format
+
+Submit one file per language pair with one score per line, in the same order as the entries in the Hugging Face dataset (matching the format used in [Evaluation](#evaluation)).
+
+### How to Submit
+
+Send your submission(s) to [maike.zuefle@kit.edu](mailto:maike.zuefle@kit.edu) and [vzouhar@ethz.ch](mailto:vzouhar@ethz.ch) with a short description of your model by **April 30, 2026, anywhere on Earth** (see [Important Dates](#important-dates)). Each team may submit one **primary** submission and any number of **contrastive** submissions.
+
+### System Paper
+
+As part of the submission, participants are required to submit a system description paper to IWSLT 2026 for review by **May 10, 2026** (see [Important Dates](#important-dates)):
+- **Submission portal:** [https://softconf.com/acl2026/iwslt2026/](https://softconf.com/acl2026/iwslt2026/)
+- **Paper requirements:** [https://iwslt.org/2026/#paper-submission](https://iwslt.org/2026/#paper-submission)
+
 
 <!-- Description of expected submission format and submission instructions -->
 
