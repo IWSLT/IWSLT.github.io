@@ -92,7 +92,7 @@ Submit one file per language pair with one score per line, in the same order as 
 
 ### How to Submit
 
-Send your submission(s) to [maike.zuefle@kit.edu](mailto:maike.zuefle@kit.edu) and [vzouhar@ethz.ch](mailto:vzouhar@ethz.ch) with a short description of your model by **April 30, 2026, anywhere on Earth** (see [Important Dates](#important-dates)). Each team may submit one **primary** submission and any number of **contrastive** submissions.
+Send your submission(s) to [maike.zuefle@kit.edu](mailto:maike.zuefle@kit.edu) and [vzouhar@ethz.ch](mailto:vzouhar@ethz.ch) with a short description of your model by **May 7, 2026, anywhere on Earth** (see [Important Dates](#important-dates)). Each team may submit one **primary** submission and any number of **contrastive** submissions.
 
 ### System Paper
 
@@ -119,8 +119,8 @@ The preliminary timeline is below and may be subject to minor changes.
 
 |---------------------|----------------------------------------------|
 | Jan 1, 2026         | Release of shared task training and dev data |
-| Apr 21-30, 2026     | Evaluation period (only for Metrics Task; *postponed*)    |
-| May 10, 2026        | System paper submission deadline (*postponed*)            |
+| May 7, 2026         | Predictions submission deadline (*postponed*)|
+| May 10, 2026        | System paper submission deadline (*postponed*)|
 | May 15, 2026        | Notification of acceptance                   |
 | June 1, 2026        | Camera ready deadline (all papers)           |
 | July 3-4, 2026      | IWSLT conference                             |
