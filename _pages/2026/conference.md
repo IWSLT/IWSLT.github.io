@@ -71,7 +71,7 @@ The conference selects high-quality, original contributions on theoretical and p
 Shared task participants also have the opportunity to publish and present their work through a **system description paper** that will be published in the ACL Proceedings and presented at the conference. 
 Papers should be submitted for review directly through the IWSLT submission portal, selecting the submission type 'System Description.'
  
-Additionally, we also accept commitments of fully-reviewed papers from ACL Rolling Review (ARR), with a commitment deadline of **April 25**. 
+Additionally, we also accept commitments of fully-reviewed papers from ACL Rolling Review (ARR), with a commitment deadline of **May 15**. 
 To commit a fully reviewed ARR paper to IWSLT, please fill out [this form](https://forms.gle/m4AhHywyCYN1GNNA8). 
 
 Finally, we welcome presentations of papers accepted to ACL Findings pertaining to speech translation.
