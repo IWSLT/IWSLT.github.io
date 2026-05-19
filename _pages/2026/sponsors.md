@@ -3,6 +3,12 @@ permalink: /2026/sponsors
 title: "Sponsors"
 ---
 
+### Diamond
+
+<div class="card">
+<a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
+</div>     
+
 ### Data
 
 <div class="card">
