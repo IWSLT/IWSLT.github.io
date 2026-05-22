@@ -103,7 +103,7 @@ The preliminary timeline is below and may be subject to minor changes.
 | Apr 1-15, 2026      | Evaluation period (shared tasks)               |
 | Apr 15, 2026        | System submission deadline (shared tasks)      |
 | Apr 24, 2026        | System paper submission deadline (shared tasks)|
-| May 15, 2026        | Notification of acceptance                     |
+| May 25, 2026        | Notification of acceptance                     |
 | June 1, 2026        | Camera ready deadline (all papers)             |
 | July 3-4, 2026      | IWSLT conference                               |
 
