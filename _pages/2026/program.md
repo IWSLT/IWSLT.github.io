@@ -9,29 +9,98 @@ toc_sticky: true
 
 ## Day 1: July 3, 2026
 
-| Time               | Session | Notes | 
-| ------------------ | ------------------ | ------------------ |
-| <nobr>09:00–09:10</nobr> | Welcome Remarks |
-| 09:10–09:40        | Findings of the IWSLT 2026 Evaluation Campaign (3) | Findings of the following  tasks, presented by the organizers: <ul><li>Offline, Low-Resource, Compression</li> |
-| 09:40–10:30        | Invited Talk I | Mohit Bansal  (title TBD) |
-| 10:30–11:00        | Coffee Break | |
-| 11:00–12:30        | Poster Session I | All Shared Task Posters |
-| 12:30–14:00        | Lunch Break | |
-| 14:00–15:00        | Findings of the IWSLT 2026 Evaluation Campaign (5) | Findings of the following shared tasks, presented by the organizers: <ul><li>Simultaneous, Subtitling, Voice Cloning, Instruction Following, Metrics</li></ul> |
-| 15:00–15:30        | Oral Session I (2) | <ul><li>A Practical Evaluation Method for Long-Form Simultaneous Speech-to-Speech Translation. <i>Yulin Xue, Siqi Ouyang and Lei Li</i></li><li>Redefining Machine Simultaneous Interpretation: From Incremental Translation to Human-Like Strategies. <i>Qianen Zhang, Zeyu Yang, and Satoshi Nakamura.</i></li></ul> |
-| 15:30–16:00        | Coffee Break | | 
-| 16:00–17:00        | Oral Session II (4) | <ul><li>Towards Zero-Shot SLU: An Empirical Study of Competing Architectural Paradigms. <i>Beomseok Lee, Marco Gaido, Ioan Calapodescu, Laurent Besacier and Matteo Negri</i></li><li>(ACL Main) Measuring User's Mental Models of Speech Translation in Human-AI Collaboration. <i>HyoJung Han, Nishant Balepur, Jordan Boyd-Graber, Marine Carpuat.</i></li><li>(ACL Main) LCMA-SRT: Language-Conditional Mixture-of-Experts Adapters for Joint Multilingual Speech Recognition and Translation. <i>Nanjie Li, Xiaoyong Guo, Hao Huang, Xu Haihua, Wei Shi.</i></li><li>(ACL Demo) WIGVO: Real-Time Bidirectional Speech Translation over Legacy PSTN Calls via Dual-Session Echo Gating. <i>Hyeongseob Kim, Sang-Woo Son, Hyun-woo Cho, Hyeonsang Kim, Jinmo Kim</i></li></ul> |
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Session</th>
+    <th></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td><nobr>09:00–09:10</nobr></td>
+    <td>Welcome Remarks</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><nobr>09:10–09:40</nobr></td>
+    <td>Findings of the IWSLT 2026 Evaluation Campaign (3): <ul><li>Offline, Low-Resource, Compression</li></ul></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>09:40–10:30</td>
+    <td>Invited Talk: Mohit Bansal</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>10:30–11:00</td>
+    <td>Coffee Break</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11:00–12:30</td>
+    <td>Poster Session: All Shared Task Posters</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>14:00–15:00</td>
+    <td>Findings of the IWSLT 2026 Evaluation Campaign (5): <ul><li>Simultaneous, Subtitling, Voice Cloning, Instruction Following, Metrics</li></ul></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>15:00–15:30</td>
+    <td>Oral Session I (2): <ul><li>A Practical Evaluation Method for Long-Form Simultaneous Speech-to-Speech Translation. Yulin Xue, Siqi Ouyang and Lei Li</li><li>Redefining Machine Simultaneous Interpretation: From Incremental Translation to Human-Like Strategies. Qianen Zhang, Zeyu Yang, and Satoshi Nakamura</li></ul></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>15:30–16:00</td>
+    <td>Coffee Break</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>16:00–17:00</td>
+    <td>Oral Session II (4): <ul><li>Towards Zero-Shot SLU: An Empirical Study of Competing Architectural Paradigms. Beomseok Lee, Marco Gaido, Ioan Calapodescu, Laurent Besacier and Matteo Negri</li><li>[ACL Main] Measuring User’s Mental Models of Speech Translation in Human-AI Collaboration. HyoJung Han, Nishant Balepur, Jordan Boyd-Graber, Marine Carpuat</li><li>[ACL Main] LCMA-SRT: Language-Conditional Mixture-of-Experts Adapters for Joint Multilingual Speech Recognition and Translation. Nanjie Li, Xiaoyong Guo, Hao Huang, Xu Haihua, Wei Shi</li><li>[ACL Demo] WIGVO: Real-Time Bidirectional Speech Translation over Legacy PSTN Calls via Dual-Session Echo Gating. Hyeongseob Kim, Sang-Woo Son, Hyun-woo Cho, Hyeonsang Kim, Jinmo Kim</li></ul></td>
+    <td></td>
+  </tr>
+</tbody></table>
 
 ## Day 2: July 4, 2026
 
-| <nobr>09:30–10:30</nobr> | Invited Talk II | Marine Carpuat   (title TBD) |
-| 10:30–11:00        | Coffee Break | |
-| 11:00–12:30        | Panel Discussion | Marcello Federico, Jon May, Satoshi Nakamura |
-| 12:30–14:00        | Lunch Break | |
-| 14:00–15:30        | Planning Session for 2027 | |
-| 15:30–16:00        | Coffee Break | |
-| 18:00–20:00        | ACL Welcome Reception  |  |
-
+<table><thead>
+  <tr>
+    <th>Time</th>
+    <th>Session</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td><nobr>09:30–10:30</nobr></td>
+    <td>Invited Talk: Marine Carpuat</td>
+  </tr>
+  <tr>
+    <td>10:30–11:00</td>
+    <td>Coffee Break</td>
+  </tr>
+  <tr>
+    <td>11:00–12:30</td>
+    <td>Panel Discussion: Marcello Federico, Jon May, Satoshi Nakamura</td>
+  </tr>
+  <tr>
+    <td>12:30–14:00</td>
+    <td>Lunch Break</td>
+  </tr>
+  <tr>
+    <td>14:00–15:30</td>
+    <td>Planning Session for 2027</td>
+  </tr>
+  <tr>
+    <td>15:30–16:00</td>
+    <td>Coffee Break</td>
+  </tr>
+  <tr>
+    <td>18:00–20:00</td>
+    <td>ACL Welcome Reception</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Important Notes
