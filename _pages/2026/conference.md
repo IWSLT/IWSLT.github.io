@@ -15,6 +15,9 @@ The 23rd edition of IWSLT will be run as an ACL and ELRA sponsored event, co-loc
 It will be run as a hybrid event.
 
 
+## Program 
+
+[See here for the detailed 2026 program](/2026/program).
 
 
 ## Shared Tasks
