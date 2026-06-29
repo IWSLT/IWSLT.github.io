@@ -13,8 +13,11 @@ title: "Sponsors"
 
 <div class="card">
 <a href="https://translated.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/translated.png" alt="translated." style="width:75%"/></a>
-</div>     
+</div>
 
+<div class="card">
+<a href="https://www.apptek.ai/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek-ai-logo-blue.png" alt="AppTek_AI" style="width:85%"/></a>
+</div>
 
 <!--
 
