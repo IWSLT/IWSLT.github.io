@@ -95,10 +95,6 @@ toc_sticky: true
     <td>15:30–16:00</td>
     <td>Coffee Break</td>
   </tr>
-  <tr>
-    <td>18:00–20:00</td>
-    <td>ACL Welcome Reception</td>
-  </tr>
 </tbody>
 </table>
 
@@ -133,7 +129,10 @@ Oral and poster presentations will be on-site, oral presentations will be also s
 
 **Oral sessions:** Scientific papers will be presented in four oral sessions. Each paper is allotted a slot of 10-12 minutes, with 3-5 additional minutes for questions. Speakers attending virtually will be able to present through the Underline platform. 
 
-**Poster sessions:**  System papers will be presented in two poster sessions arranged by shared tasks.
+**Poster sessions:**  System papers will be presented in one poster session.
 Papers covering multiple tasks can be presented as distinct posters. 
 Physical poster size is **A0 portrait**.
 Printing service is available on site: [poster printing info from ACL 2026](https://2026.aclweb.org/venue/#poster-printing). 
+
+
+**Video recordings:**: Speakers are invited to optionally share a link for a recorded video presentation regardless if they will be able to attend the conference in person or not. Please add the link to your max 10 min video recording for your paper by July 3rd, 2026 in this [google sheet](https://docs.google.com/spreadsheets/d/1Q82IE3oa6akVQ_kgi456bkBfh6qgsC1Ijno6OI1vw2Y/edit?usp=sharing). Videos will be linked on the IWSLT program on this webpage by the end of the IWSLT conference.
