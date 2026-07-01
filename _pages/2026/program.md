@@ -135,4 +135,4 @@ Physical poster size is **A0 portrait**.
 Printing service is available on site: [poster printing info from ACL 2026](https://2026.aclweb.org/venue/#poster-printing). 
 
 
-**Video recordings:**: Speakers are invited to optionally share a link for a recorded video presentation regardless if they will be able to attend the conference in person or not. Please add the link to your max 10 min video recording for your paper by July 3rd, 2026 in this [google sheet](https://docs.google.com/spreadsheets/d/1Q82IE3oa6akVQ_kgi456bkBfh6qgsC1Ijno6OI1vw2Y/edit?usp=sharing). Videos will be linked on the IWSLT program on this webpage by the end of the IWSLT conference.
+**Video recordings:** Speakers are invited to optionally share a link for a recorded video presentation regardless if they will be able to attend the conference in person or not. Please add the link to your max 10 min video recording for your paper by July 3rd, 2026 in this [google sheet](https://docs.google.com/spreadsheets/d/1Q82IE3oa6akVQ_kgi456bkBfh6qgsC1Ijno6OI1vw2Y/edit?usp=sharing). Videos will be linked on the IWSLT program on this webpage by the end of the IWSLT conference.
