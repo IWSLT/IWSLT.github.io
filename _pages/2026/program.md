@@ -122,6 +122,17 @@ toc_sticky: true
 
 **Webpage**: [https://www.cs.umd.edu/~marine](https://www.cs.umd.edu/~marine)
 
+## Video Presentations of System Description
+
+- [1] MLLP-VRAIN UPV System for the IWSLT 2026 Simultaneous Speech Translation Task  
+  Authors: Jorge Iranzo-Sánchez, Gerard Mas-Mollà, Adrià Gimenez, Jorge Civera Saiz, Albert Sanchis, Alfons Juan  
+  Links: [[Video]](https://drive.google.com/file/d/1CKlSSK-mci6T5D1K8f9-nu8T4I-Xfn02/view?usp=sharing) [[Slides]]([https://drive.google.com/file/d/1E_oCqAkuJE8lyh86VcUk73jWQmZsNMCQ/view?usp=sharing](https://drive.google.com/file/d/17xKDGbd2c6MM1Pm5gCc3n0CVWVsKjU6n/view?usp=sharing))
+ - [2] Test-Time Adaptation of an Offline Multimodal Foundation Model for Simultaneous Speech Translation
+   Authors: Yi Xing, Manli Yu, Pengfei Liu, Helen Meng
+   Links: [[Slides]](https://cpiihk-my.sharepoint.com/:b:/g/personal/pfliu_cpii_hk/IQDyeWHduBh8Qp3vLb368uqmASsYayYeJB5Oq4Ug_UwpMtQ?e=WARt3e&isSPOFile=1&xsdata=MDV8MDJ8fDE4OThjZjBkYjIyNDQzZWJmNDJiMDhkZWQ4YjJlYjUzfGFlNGMxNjk4NWVmMjQxYTY4MjZjOTc2MzgzNTk3NDdhfDB8MHw2MzkxODY0NjAwOTcxMTk1MTB8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pjek5qaGhPVFl5TFRrM1lURXRORGc0TVMwNU9UTXdMVGt4WkRZM09ESmhNR1kxTlY5a01EUTVaR1JtTmkxa1lUSXhMVFEyWldVdE9ERmtNQzFoWm1Vek5HRTBZVFJpWkRsQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjNE16QTBPVEl3TnpZMU53PT18MTAyOWQwMjAxNGFmNGJmYzg2MGUwOGRlZDhiMmViNTN8YmE0ODM1ZjZiMzU3NGYwNmJiZDg3YTk1MjRiZTk1Nzc%3D&sdata=SEpkUmMrR0Jvb2hDdzVDK0lVUExzMW5idVRXMGtjWW9vaTFteXZkRkd6dz0%3D&ovuser=ae4c1698-5ef2-41a6-826c-97638359747a%2Cyxing%40cpii.hk)
+ - [3] The CUHKSZ System for the IWSLT 2026 Low-Resource Speech-to-Text Task
+   Authors: Ruiyan Sun, Qingming Li, Satoshi Nakamura
+   Links: [[Video]](https://drive.google.com/file/d/130pCyiBKvNFSrUpQI8_ELoXbbTZEtGHY/view?usp=drive_link) [[Slides]](https://drive.google.com/file/d/1Kpwbb3b-E3XPPvXZedi0Q9KxbVzjryqi/view?usp=drive_link) 
 
 ## Important Notes
 
