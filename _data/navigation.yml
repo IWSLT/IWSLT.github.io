@@ -10,9 +10,13 @@ main:
   - title: "Past Editions"
     url: /past-editions/
   - title: "Lectures"
-    url: /lectures/    
+    url: /lectures/
   - title: "SIGSLT"
     url: /sigslt/
   - title: "Organization"
     url: /organization/
+  - title: "News"
+    url: /news/
+  - title: "FAQ"
+    url: /faq/
 twitter:

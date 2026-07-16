@@ -12,6 +12,8 @@ Scientific papers and system descriptions documenting the state-of-the art achie
 
 IWSLT is the annual meeting of [**SIGSLT**](/sigslt), the ACL-ISCA-ELRA Special Interest Group on Spoken Language Translation.
 
+Check out the latest [**News**](/news/) about IWSLT, or visit our [**FAQ**](/faq/) page if you have questions about the conference or how to participate.
+
 <!--
 **Save the date:** The 23rd edition of IWSLT will be run as an ACL and ELRA sponsored event, co-located with [ACL 2026](https://2026.aclweb.org/){:target="_blank"} on July 6-7, 2026.
 {: .notice--info}
