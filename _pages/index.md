@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-<img src="/assets/images/iwslt2026_sandiego_banner.png" alt="???, with the text 23rd IWSLT, San Diego, CA, USA, July 6-7, 2026." id="index-img">
+<img src="/assets/images/iwslt_logo.png" alt="IWSLT" id="index-img">
 
 
 The International Conference on Spoken Language Translation (IWSLT) is the premier annual scientific conference dedicated to all aspects of spoken language translation.
