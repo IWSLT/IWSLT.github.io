@@ -16,7 +16,7 @@ brew update
 brew install rbenv ruby-build
 
 rbenv init
-rbenv install rbenv install 3.4.2
+rbenv install 3.4.2
 rbenv global 3.4.2
 
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
