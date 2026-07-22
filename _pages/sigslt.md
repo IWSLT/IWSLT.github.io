@@ -3,6 +3,8 @@ permalink: /sigslt/
 title: "SIGSLT"
 ---
 
+[Lectures](/lectures/) - The ISCA SIGSLT lecture series, held periodically on Zoom with recordings posted on YouTube.
+
 ## ACL-ISCA-ELRA Special Interest Group on Spoken Language Translation
 
 ### Statement of Purpose

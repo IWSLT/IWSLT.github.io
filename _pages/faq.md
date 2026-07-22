@@ -50,7 +50,7 @@ SIGSLT membership is open to anyone interested in spoken language translation. S
 
 ### Where can I find papers and results from previous editions?
 
-Visit the [Past Editions](/past-editions/) page for links to previous conferences, programs, and shared task results.
+Visit the [Past Editions](/history/#past-editions) section of the History page for links to previous conferences, programs, and shared task results.
 Papers are publicly available in the ACL Anthology.
 
 ### Who do I contact if I have a question that isn't answered here?

@@ -3,6 +3,9 @@ permalink: /news/
 title: "News"
 ---
 
+**July 22nd, 2026:** Call for [2027 shared task proposals is out](/current-calls). Deadline for submission is **30th, September**.
+{: .notice--info}
+
 **July 2026:** IWSLT is now on LinkedIn! Follow our [official page](https://www.linkedin.com/company/136094964){:target="_blank"} for conference updates, shared task announcements, and community news.
 {: .notice--info}
 
