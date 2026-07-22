@@ -1,6 +1,8 @@
 ---
 permalink: /current-calls/
 title: "Current Calls"
+toc: true
+toc_sticky: true
 ---
 
 ## Call for 2027 Shared Tasks

@@ -1,8 +1,6 @@
 ---
 permalink: /history/
 title: "History"
-toc: true
-toc_sticky: true
 ---
 
 IWSLT was founded in 2004 as the first and premier international workshop and conference for spoken language translation.  IWSLT is a forum for researchers from many disciplines to come together to discuss technology solutions for cross-lingual communication.  
