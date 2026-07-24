@@ -243,12 +243,66 @@ p + ul {
     font-family: 'Jubilat-Medium';
 }
 
-#index-img {
+.index-hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0 1.75rem;
+    padding: 1.25rem 1.5rem;
+    background: #e5ddf0;
+    border-radius: 5px;
+}
+
+.index-hero__logo {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    max-width: 30vw;
     max-height: none;
-    max-width: none;
-    margin-top: 10px;
-    width: 50%;
-    margin-left: 25%;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.index-hero__content {
+    min-width: 0;
+}
+
+.index-hero__eyebrow {
+    margin: 0 0 .2rem;
+    font-size: .85em;
+    font-weight: bold;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.index-hero h1 {
+    margin: 0 0 .25rem;
+    font-size: 2em;
+}
+
+.index-hero__summary,
+.index-hero__details {
+    margin: .35rem 0 0;
+}
+
+.index-hero__details {
+    font-size: 1.1em;
+}
+
+@media (max-width: 37.5em) {
+    .index-hero {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .index-hero__logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .index-hero h1 {
+        font-size: 1.6em;
+    }
 }
 
 .contact-button {
