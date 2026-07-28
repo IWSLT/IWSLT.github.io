@@ -1,18 +1,16 @@
 main:
   - title: "2026"
     url: /2026/
-  - title: "Shared Tasks"
-    url: /2026/#shared-tasks
-  - title: "Important Dates"
-    url: /2026/#important-dates
+  - title: "Current Calls"
+    url: /current-calls/
   - title: "Sponsors"
     url: /2026/sponsors
-  - title: "Past Editions"
-    url: /past-editions/
-  - title: "Lectures"
-    url: /lectures/    
+  - title: "History"
+    url: /history/
   - title: "SIGSLT"
     url: /sigslt/
-  - title: "Organization"
-    url: /organization/
+  - title: "News"
+    url: /news/
+  - title: "FAQ"
+    url: /faq/
 twitter:
