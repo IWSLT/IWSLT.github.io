@@ -27,7 +27,7 @@ Year-round evaluation is currently available for:
 - Offline
 - Instruction following
 
-Submission for these tasks is **open**. Submit your model outputs to our [evaluation server](https://speechm.cloud.cyfronet.pl/){:target="_blank"}.
+Submission for these tasks is **open**. Submit your model outputs to our [evaluation server](https://speechm.cloud.cyfronet.pl/0000005){:target="_blank"}.
 You will receive an email message when your system has been evaluated (typically within a day or two) so you can check
 its position in the leaderboard.
 
