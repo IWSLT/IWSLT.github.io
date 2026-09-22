@@ -19,7 +19,7 @@ Participants are asked to build a model capable to perform, depending on the tra
     * **Spoken Question Answering (SQA)**: textual questions have to be answered based on the spoken content in the same language and in a language different from the speech (questions and answers are always in the same language);
     * **Quality Estimation (QE)**: the SpeechLLM has to score/rank outputs from ST systems.  
 * **LONG TRACK** (input: long-form audio): 
-    * **All the short-form tasks, including the Surprisal**;
+    * **The short-form tasks (ASR, S2TT, SQA)**;
     * **Speech-to-text Summarization (S2TSUM)**: a summary has to be provided from the spoken content in the same language and in a language different from the speech;
     * **Audio Chaptering (ACHAP)**: the spoken content has to be segmented into coherent sections, each labeled with a concise title summarizing its topic.
 
