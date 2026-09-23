@@ -33,11 +33,26 @@ its position in the leaderboard.
 
 ### Traditional Shared Task Submissions
 
-Other tasks will be announced soon and will follow the usual schedule.
+Other tasks will be announced soon and will follow [the same schedule](#important-dates).
 
-## More Information Coming Soon
+## Important Dates
 
-Further information about the conference, paper submissions, and the program will be announced soon.
+The preliminary timeline is below and may be subject to minor changes.
+{: .notice--info}
+
+| Date         | Milestone                                       |
+|--------------|-------------------------------------------------|
+| Jan 1        | Release of shared task training and dev data    |
+| March 15     | Scientific paper submission deadline            |
+| Mar 20-Apr 4 | Evaluation period (shared tasks)                |
+| Apr 21-30    | Metrics shared task evaluation period           |
+| May 7        | System paper submission deadline (shared tasks) |
+| Jun 7        | Notification of acceptance                      |
+| Jun 21       | Camera ready deadline (all papers)              |
+| Aug 17-18    | IWSLT conference                                |
+
+
+**Note:** All deadlines are 11:59PM UTC-12:00.
 
 ## Sponsorship Opportunities
 
