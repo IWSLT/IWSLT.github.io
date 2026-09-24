@@ -40,7 +40,7 @@ We adopt two conditions. The first is *constrained*, where a pre-defined trainin
 Participants are allowed to use the SFM and LLM provided below, and training the system on the following data.
 * **Pre-trained Models**:
     * *SFM*: [facebook/seamless-m4t-v2-large](https://huggingface.co/facebook/seamless-m4t-v2-large)
-    * *LLM*: [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)
+    * *LLM*: [Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B)
 * **Training Data**:
     * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de; [GigaST](https://st-benchmark.github.io/resources/GigaST.html) en-de,zh;
     * *SQA*: [LibriSQA](https://github.com/ZihanZhaoSJTU/LibriSQA)

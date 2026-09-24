@@ -38,7 +38,7 @@ We adopt two conditions. The first is *constrained*, where a pre-defined trainin
 ### Constrained
 Participants are allowed to use the SFM and LLM provided below, and training the system on the following data.
 * **Pre-trained Models**:
-    * *SFM*: [openai/whisper-large-v3](https://huggingface.co/openai/whisper-large-v3)
+    * *SFM*: [facebook/seamless-m4t-v2-large](https://huggingface.co/facebook/seamless-m4t-v2-large)
     * *LLM*: [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)
 * **Training Data**:
     * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de; [GigaST](https://st-benchmark.github.io/resources/GigaST.html) en-de,zh;
