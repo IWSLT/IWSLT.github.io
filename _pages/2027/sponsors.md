@@ -1,25 +1,60 @@
 ---
 permalink: /2027/sponsors
-title: "Sponsorships and Donations"
+title: "Sponsors"
 ---
+<!--
 
-IWSLT welcomes sponsorships and donations in the form of money or compute credits to support human evaluations, data collection, and participating students. Sponsorships and donations will be collected through the Association for Computational Linguistics.
+### Diamond
 
-## Monetary Sponsorship Tiers
+<div class="card">
+<a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
+</div>     
 
-- Diamond Sponsor: $10,000
-- Platinum Sponsor: $5,000
-- Gold Sponsor: $3,000
-- Silver Sponsor: $2,000
-- Bronze Sponsor: $1,000
+### Data
 
-## Compute Credit Donation Tiers
+<div class="card">
+<a href="https://translated.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/translated.png" alt="translated." style="width:75%"/></a>
+</div>
 
-- Diamond Donor: $20,000 and up
-- Platinum Donor: $10,000 and up
-- Gold Donor: $5,000 and up
-- Bronze Donor: below $5,000
+<div class="card">
+<a href="https://www.apptek.ai/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek-ai-logo-blue.png" alt="AppTek_AI" style="width:85%"/></a>
+</div>
+-->
 
-Sponsorships and donations will be recognized on the website, during the conference, and in the conference proceedings.
+<!--
 
-To become a sponsor or donor, contact **Sebastian St&uuml;ker** at `sebastian.stueker.nospam@zoom.com` (remove `.nospam` before sending).
+### Diamond
+
+<div class="card">
+<a href="https://machinelearning.apple.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apple.png" alt="Apple" style="width:85%"/></a>
+</div>     
+
+<div class="card">
+<a href="https://www.apptek.ai/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek-ai-logo-blue.png" alt="AppTek_AI" style="width:85%"/></a>
+</div>
+
+
+### Platinum
+
+
+### Gold
+
+<div class="card">
+<a href="https://aixplain.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/aiXplain.png" alt="aiXplain" style="width:75%"/></a>
+</div>     
+
+
+### Silver
+
+<div class="card">
+<a href="https://www.apptek.com/"><span class="helper"></span><img src="{{ site.url }}{{ site.baseurl }}/assets/images/sponsor-logos/apptek.png" alt="AppTek" style="width:75%"/></a>
+</div>     
+
+
+### Bronze
+-->
+
+
+
+*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2026/sponsor_info).* 
+{: .notice--info}
