@@ -16,8 +16,11 @@ For more than 20 years running, the conference has published and organized key e
 
 **Scientific papers** and **system descriptions** documenting the state-of-the art achieved by participating teams and contributing key algorithmic advances are presented at the conference.
 
-Check out the [Shared Tasks](/2026/#shared-tasks) hosted at last year's conference and their [Findings!](https://aclanthology.org/2026.iwslt-1.39.pdf)  
-Tasks for the next edition are posted in January; consider [submitting a task proposal](/current-calls/).
+IWSLT now accepts shared-task submissions all year round. [Submit your model outputs](2027/conference.md#year-round-evaluation-submissions) and receive results immediately for the model compression, offline, and instruction-following tasks.
+Other tasks will be announced soon and will follow the usual schedule.
+{: .notice--info}
+
+Learn more about [IWSLT 2027](/2027/) or consider [submitting a task proposal](/current-calls/).
 
 Check out the latest [**News**](/news/) about IWSLT, or visit our [**FAQ**](/faq/) page if you have questions about the conference or how to participate.
 

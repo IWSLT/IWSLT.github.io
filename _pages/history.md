@@ -13,6 +13,7 @@ Through systematic advances during the decades that followed the underlying tech
 
 ## Past Editions
 
+  * [IWSLT 2026](https://iwslt.org/2026/){:target="_blank"}, 3-4 July 2026 - San Diego, USA + Virtual Hybrid
   * [IWSLT 2025](https://iwslt.org/2025/){:target="_blank"}, 31 July-1 August 2025 - Vienna, Austria + Virtual Hybrid
   * [IWSLT 2024](https://iwslt.org/2024/){:target="_blank"}, 15-16 August 2024 - Bangkok, Thailand + Virtual Hybrid
   * [IWSLT 2023](https://iwslt.org/2023/){:target="_blank"}, 13-14 July 2023 - Toronto, Canada + Virtual Hybrid
