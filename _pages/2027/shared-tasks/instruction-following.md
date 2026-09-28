@@ -1,17 +1,15 @@
 ---
-permalink: /2026/instruction-following
-title: "Instruction Following track"
+permalink: /2027/instruction-following
+title: "Instruction Following"
 toc: true
 toc_sticky: true
 ---
 
-📢 **Announcement**: [Submissions are now open!](#submission)
-{: .notice--info}
-
 ## Description
 
-### Motivation
-Large language models (LLMs) have demonstrated the capability of performing several NLP tasks without the need for building dedicated models, offering a single solution for many applications. While solely processing text in their initial stage, LLMs are now being enhanced by shifting towards the integration of other modalities, like vision and audio. In this scenario, the emerging paradigm of creating a unique architecture from speech foundation models (SFMs) and LLMs is gaining traction to combine the best of both worlds: the ability to process spoken language inputs with the always-evolving language knowledge of the LLMs. For this reason, and given the success of the first edition, we propose the second edition of the Instruction Following (IF) task, which is aimed at testing general models for the speech modality, which better reflects the current trends in the research community.
+Large language models have demonstrated the ability to perform several natural language processing tasks without dedicated models, offering a single solution for many applications. Initially focused on text, these models are increasingly integrating modalities such as vision and audio. Combining speech foundation models with large language models brings together spoken-language processing with the evolving language knowledge of large language models.
+
+The Instruction Following task evaluates general models for speech that can follow natural-language instructions across multiple speech-processing tasks. It reflects current research on general-purpose speech models rather than systems designed for a single application.
 
 ### Tasks Description
 Participants are asked to build a model capable to perform, depending on the track, the following tasks:
@@ -19,16 +17,17 @@ Participants are asked to build a model capable to perform, depending on the tra
     * **Automatic Speech Recognition (ASR)**: the speech is transcribed into the same language;
     * **Speech-to-text Translation (S2TT)**: the speech is translated into the target language;
     * **Spoken Question Answering (SQA)**: textual questions have to be answered based on the spoken content in the same language and in a language different from the speech (questions and answers are always in the same language);
-    * **[NEW THIS YEAR!] Surprisal**: a task that is unknown at submission time but doable through in-context learning abilities of SpeechLLMs.  
+    * **Quality Estimation (QE)**: the SpeechLLM has to score/rank outputs from ST systems.  
 * **LONG TRACK** (input: long-form audio): 
-    * **All the short-form tasks, including the Surprisal**;
+    * **The short-form tasks (ASR, S2TT, SQA)**;
     * **Speech-to-text Summarization (S2TSUM)**: a summary has to be provided from the spoken content in the same language and in a language different from the speech;
-    * **[NEW THIS YEAR!] Audio Chaptering (ACHAP)**: the spoken content has to be segmented into coherent sections, each labeled with a concise title summarizing its topic.
+    * **Audio Chaptering (ACHAP)**: the spoken content has to be segmented into coherent sections, each labeled with a concise title summarizing its topic.
+    * **Surprisal Task (Optional)**: a surprisal task test data will be available soon. The data in the test set will be marked as optional and performing the task is not required for participating to the shared task.
 
-All tasks listed for each track are mandatory.
+All tasks listed for each track are mandatory, except for the Surprisal task.
 
 ### Languages
-English for ASR, monolingual SQA, ACHAP, and S2TSUM, and English -> German, Italian, Chinese for S2TT, multilingual SQA, ACHAP, and S2TSUM. English -> German, Chinese for the SURPRISAL.
+English for ASR, monolingual SQA, ACHAP, and S2TSUM, and English -> German, Italian, Chinese for S2TT, multilingual SQA, ACHAP, and S2TSUM. English -> German, Chinese for QE.
 
 **IMPORTANT!** The results can be submitted for some or all language directions.
 {: .notice--info}
@@ -40,14 +39,14 @@ We adopt two conditions. The first is *constrained*, where a pre-defined trainin
 Participants are allowed to use the SFM and LLM provided below, and training the system on the following data.
 * **Pre-trained Models**:
     * *SFM*: [facebook/seamless-m4t-v2-large](https://huggingface.co/facebook/seamless-m4t-v2-large)
-    * *LLM*: [Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B)
+    * *LLM*: [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)
 * **Training Data**:
     * *ASR/S2TT*: [EuroParlST](https://www.mllp.upv.es/europarl-st/) en-it,de; [CoVoST2](https://github.com/facebookresearch/covost) en-zh,de; [GigaST](https://st-benchmark.github.io/resources/GigaST.html) en-de,zh;
     * *SQA*: [LibriSQA](https://github.com/ZihanZhaoSJTU/LibriSQA)
     * *S2TSUM*: [NUTSHELL](https://huggingface.co/datasets/maikezu/abstract-gen-acl-17-22)
     * *ACHAP*: [YTSeg](https://huggingface.co/datasets/retkowski/ytseg)
 * **Validation Data**:
-    * *ASR/S2TT/SQA/S2TSUM*: [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) (including the [IWSLT25 Instruction Following test set](https://huggingface.co/datasets/FBK-MT/MCIF/tree/IWSLT2025))
+    * *ASR/S2TT/SQA/S2TSUM*: [MCIF](https://huggingface.co/datasets/FBK-MT/MCIF) (including the [IWSLT25 Instruction Following test set](https://huggingface.co/datasets/FBK-MT/MCIF/tree/IWSLT2025)); [ACL6060](https://aclanthology.org/2023.iwslt-1.2/)
     * *ACHAP*: [YTSeg](https://huggingface.co/datasets/retkowski/ytseg)
  
 We do not provide any training data for SQA, ACHAP, and S2TSUM in languages different from the source speech.
@@ -75,7 +74,7 @@ Evaluation is conducted using the MCIF [GitHub repository](https://github.com/hl
 
 ## Submission
 
-The submission will be performed using the [Meetween SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/). 
+The submission will be performed using the [Meetween SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/0000005). 
 
 ### General Guidelines
 
@@ -91,7 +90,7 @@ The submission will be performed using the [Meetween SPEECHM Evaluation Server](
 
 Available after the Evaluation period start date.
 
-Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/), proceed through the following steps. 
+Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/0000005), proceed through the following steps. 
 
 #### STEP 1: Download Test Data
 1. Click on `Test sets` (at the top of the page), and select either `IFLONG26` or `IFSHORT26` depending on the track (long and short, respectively). Alternatively, [directly access the IF task page](https://speechm.cloud.cyfronet.pl/0000005/tasks/25).
@@ -102,7 +101,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
 2. Create a new model:
     - Insert the `Name` using the standardized format:
     ```
-        ${TEAM}_IWSLT26_IF_${TRACK}_${CONDITION}_${SUBMISSION_TYPE}
+        ${TEAM}_IWSLT27_IF_${TRACK}_${CONDITION}_${SUBMISSION_TYPE}
         
         Where:
         - ${TEAM} → Short name of your team (e.g., KIT)
@@ -111,9 +110,9 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
         - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
 
         Example Model Names:
-            KIT_IWSLT26_IF_SHORT_constrained_primary  
-            KIT_IWSLT26_IF_SHORT_constrained_contrastive1 
-            KIT_IWSLT26_IF_SHORT_constrained_contrastive2 
+            KIT_IWSLT27_IF_SHORT_constrained_primary  
+            KIT_IWSLT27_IF_SHORT_constrained_contrastive1 
+            KIT_IWSLT27_IF_SHORT_constrained_contrastive2 
     ```
 
     - Insert `Description` by including:
@@ -131,7 +130,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
 #### STEP 3: Submit the Outputs
 
 - Click on `My submissions` 
-- Click on the model created in STEP 2 (e.g., `KIT_IWSLT26_IF_SHORT_constrained_primary`)
+- Click on the model created in STEP 2 (e.g., `KIT_IWSLT27_IF_SHORT_constrained_primary`)
 - Click on `IF Hypotheses`, close to `Model info`
 - Upload your XML file by clicking on the `Upload hypothesis` button corresponding to the language pair(s) you want to participate in
 
@@ -139,7 +138,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
 
 #### Download or Delete the Hypothesis
 - Click on `My submissions`
-- Click on the model created in STEP 2 (e.g., `KIT_IWSLT26_IF_SHORT_constrained_primary`)
+- Click on the model created in STEP 2 (e.g., `KIT_IWSLT27_IF_SHORT_constrained_primary`)
 - Click on `IF Hypotheses`, close to `Model info`
 - Use the three-dot menu on the right to either `Download` or `Delete` the submitted hypothesis
         
@@ -147,7 +146,6 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
 You can, at any time, change the name and description of your model by clicking on its name under the `My submissions` panel. If you want to delete a model (i.e., not replacing or modifying it, but completely removing it from participating models), [please contact the task's organizers](#contact).
 
 ## Organizers
-* Sara Papi, Fondazione Bruno Kessler
 * Luisa Bentivogli, Fondazione Bruno Kessler
 * Marco Gaido, Fondazione Bruno Kessler
 * Danni Liu, Karlsruhe Institute of Technology
@@ -158,5 +156,5 @@ You can, at any time, change the name and description of your model by clicking 
 ## Contact
 
 <!-- Add chair(s) and their contact info, as well as standard google group -->
-Chair(s): Sara Papi <sara95papi@gmail.com>;  
+Chair(s): Marco Gaido <mgaido@fbk.eu> & Maike Züfle <maike.zuefle@kit.edu>;  
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>

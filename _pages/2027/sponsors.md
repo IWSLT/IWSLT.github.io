@@ -56,6 +56,5 @@ title: "Sponsors"
 
 
 
-*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2026/sponsor_info).* 
+*If your organization would like to sponsor or donate to IWSLT this year, please see our [sponsorship information](/2027/sponsor_info).* 
 {: .notice--info}
-

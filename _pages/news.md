@@ -3,6 +3,10 @@ permalink: /news/
 title: "News"
 ---
 
+**September 25th, 2027:** Submission to the shared tasks supporting year-round evaluation and leaderboard is open!
+Check the [shared task page for details on how to submit](2027/conference.md#year-round-evaluation-submissions).
+{: .notice--info}
+
 **July 22nd, 2026:** Call for [2027 shared task proposals is out](/current-calls). Deadline for submission is **30th, September**.
 {: .notice--info}
 

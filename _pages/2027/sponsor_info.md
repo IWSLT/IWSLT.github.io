@@ -14,7 +14,7 @@ IWSLT 2027 offers 5 tiers of sponsorships/donations of money:
 - Silver Sponsor:   $2,000 
 - Bronze Sponsor:   $1,000  
 
-IWSLT 2026 acknowledges 5 tiers of sponsorships/donations of compute credits: 
+IWSLT 2027 acknowledges 5 tiers of sponsorships/donations of compute credits: 
 
 - Diamond Donor:  $20,000 and up 
 - Platinum Donor: $10,000 and up
