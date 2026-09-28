@@ -18,10 +18,20 @@ The task evaluates participants' ability to reduce the size of large multilingua
 - **Model reduction:** Reduce a foundation model's number of parameters and memory usage to make it more suitable for resource-limited settings.
 - **Translation performance:** Maintain high translation quality despite size reductions, ensuring the practical value and reliability of compressed models.
 
-## Permitted Model Compression Techniques
+## Conditions
 
 Eligible techniques include pruning, quantization, distillation, and other methods that produce a compressed counterpart of the original model. Compression techniques may be used either in isolation or in combination.
 
+Participants can submit their runs under two data conditions: **constrained** and **unconstrained**. The two conditions differ in the datasets allowed to support the model compression process (e.g., for fine-tuning the reduced model after pruning, quantization, or other compression techniques, or for training the student model in knowledge distillation using the outputs of the larger teacher model) and the model used as a starting point.
+
+* ***Constrained*** In this condition, models should be derived from [Gemma 4 12B](https://huggingface.co/google/gemma-4-12b-it). Also, participants are allowed to use only the [ACL60/60](https://aclanthology.org/attachments/2023.iwslt-1.2.dataset.zip) data. These data are identical in terms of size and source audio content for the two language directions and, though small, they are domain-consistent with the [evaluation sets](#test-data)
+
+* ***Unconstrained*** In this condition, there are no restrictions on model and data usage. Gemma versions optimized for edge deployment are also considered as part of this track.
+
+## Baselines
+
+As baselines, the organizers include the base and several quantizations of [Gemma 4 12B](https://huggingface.co/google/gemma-4-12b-it), suitable for the constrained condition, and [Qwen2-Audio](https://huggingface.co/Qwen/Qwen2-Audio-7B), which was used in the previous campaigns.
+The code used to build the baselines is available at [https://github.com/hlt-mt/iwslt-modelcompression/](https://github.com/hlt-mt/iwslt-modelcompression/).
 
 ## Evaluation
 
