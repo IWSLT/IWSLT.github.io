@@ -20,9 +20,7 @@ IWSLT now accepts shared-task submissions all year round. [Submit your model out
 Other tasks will be announced soon and will follow the usual schedule.
 {: .notice--info}
 
-Learn more about [IWSLT 2027](/2027/) or consider [submitting a task proposal](/current-calls/).
-
-Check out the latest [**News**](/news/) about IWSLT, or visit our [**FAQ**](/faq/) page if you have questions about the conference or how to participate.
+Learn more about [IWSLT 2027](/2027/), check out the latest [**News**](/news/) about IWSLT, or visit our [**FAQ**](/faq/) page if you have questions about the conference or how to participate.
 
 IWSLT is the annual meeting of [**SIGSLT**](/sigslt), the ACL-ISCA-ELRA Special Interest Group on Spoken Language Translation.
 SIGSLT also organizes [periodic lectures on SLT](/lectures).
