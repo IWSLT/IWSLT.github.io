@@ -33,23 +33,38 @@ its position in the leaderboard.
 
 ### Traditional Shared Task Submissions
 
-Other tasks will be announced soon and will follow [the same schedule](#important-dates).
+The following tasks will follow [the usual schedule](#shared-task-dates):
+
+- [Speech Translation Metrics](/2027/metrics)
+
+Other tasks will be announced soon.
 
 ## Important Dates
 
 The preliminary timeline is below and may be subject to minor changes.
 {: .notice--info}
 
-| Date         | Milestone                                       |
-|--------------|-------------------------------------------------|
-| Jan 1        | Release of shared task training and dev data    |
-| March 15     | Scientific paper submission deadline            |
-| Mar 20-Apr 4 | Evaluation period (shared tasks)                |
-| Apr 21-30    | Metrics shared task evaluation period           |
-| May 7        | System paper submission deadline (shared tasks) |
-| Jun 7        | Notification of acceptance                      |
-| Jun 21       | Camera ready deadline (all papers)              |
-| Aug 17-18    | IWSLT conference                                |
+### Scientific Papers
+
+| Date         | Milestone                            |
+|--------------|--------------------------------------|
+| March 15     | Scientific paper submission deadline |
+| Jun 7        | Notification of acceptance           |
+| Jun 21       | Camera ready deadline                |
+| Aug 17-18    | IWSLT conference                     |
+
+### Shared Tasks
+{: #shared-task-dates}
+
+| Date                                  | Milestone                               |
+|---------------------------------------|-----------------------------------------|
+| Jan 1                                 | Release of shared task training and dev data |
+| Mar 20 (for metrics: Apr 21)          | Test set release (evaluation period)    |
+| Apr 4 (for metrics: Apr 30)           | System submission deadline              |
+| May 7                                 | System paper submission deadline        |
+| Jun 7                                 | Notification of acceptance              |
+| Jun 21                                | Camera ready deadline                   |
+| Aug 17-18                             | IWSLT conference                        |
 
 
 **Note:** All deadlines are 11:59PM UTC-12:00.
