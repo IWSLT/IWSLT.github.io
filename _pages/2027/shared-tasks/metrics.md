@@ -42,8 +42,7 @@ We look forward to your submissions!
 - [Evaluation](#evaluation)
 - [Submission](#submission)
 - [Important Dates](#important-dates)
-- [Organizers](#organizers)
-- [Contact](#contact)
+- [Organizers and Contact](#organizers-and-contact)
 
 <!-- Description the task, the languages, and the type of data -->
 
@@ -124,7 +123,6 @@ Submission format and instructions will be announced soon. See [Important Dates]
 ## Important Dates
 
 The preliminary timeline is below and may be subject to minor changes.
-{: .notice--info}
 
 | Date            | Milestone                                    |
 |-----------------|----------------------------------------------|
@@ -139,7 +137,7 @@ The preliminary timeline is below and may be subject to minor changes.
 **Note:** All deadlines are 11:59PM UTC-12:00.
 
 
-## Organizers
+## Organizers and Contact
 
 <!-- List of organizers' names and affiliations -->
 
@@ -152,9 +150,5 @@ Listed in alphabetical order.
 - Matthias Sperber, Apple
 - Vilém Zouhar, ETH Zurich, <vzouhar@ethz.ch> (chair)
 - Maike Züfle, Karlsruhe Institute of Technology, <maike.zuefle@kit.edu> (chair)
-
-## Contact
-
-Chair(s): Maike Züfle <maike.zuefle@kit.edu>; Vilém Zouhar <vzouhar@ethz.ch>
 
 Discussion: <iwslt-evaluation-campaign@googlegroups.com>
