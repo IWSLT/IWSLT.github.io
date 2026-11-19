@@ -149,6 +149,7 @@ You can, at any time, change the name and description of your model by clicking 
 * Luisa Bentivogli, Fondazione Bruno Kessler
 * Marco Gaido, Fondazione Bruno Kessler
 * Danni Liu, Karlsruhe Institute of Technology
+* Sara Papi, Google
 * Fabian Retkowski, Karlsruhe Institute of Technology
 * Beatrice Savoldi, Fondazione Bruno Kessler
 * Maike Züfle, Karlsruhe Institute of Technology

@@ -16,5 +16,5 @@ toc_sticky: true
 - Lizhong Chen (Oregon State University)
 - David Javorský (Charles University)
 - Nam Hoang Luu (Charles University)
-- Sara Papi (FBK)
+- Sara Papi (Google)
 - Katsuhito Sudoh (Nara Women’s University)
