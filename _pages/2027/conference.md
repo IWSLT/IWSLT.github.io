@@ -50,7 +50,7 @@ The following tasks will follow [the usual schedule](#shared-task-dates):
 **High Resource Translation**
 
 - [Simultaneous](/2027/simultaneous)
-- [Subtitle](/2027/subtitle)
+- [Subtitling](/2027/subtitling)
 
 **Low Resource Translation**
 

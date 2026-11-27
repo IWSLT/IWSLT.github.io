@@ -98,7 +98,7 @@ Once logged in to [SPEECHM Evaluation Server](https://speechm.cloud.cyfronet.pl/
          
           Where:
            - ${TEAM} → Short name of your team (e.g., KIT)
-           - ${LANGUAGE_PAIR} → Choose from [en-de, en-ar, en-zh]
+           - ${LANGUAGE_PAIR} → Choose from [en-de, en-zh]
            - ${CONDITION} → Choose from [constrained, unconstrained]
            - ${SUBMISSION_TYPE} → Choose from [primary, contrastive]
 
