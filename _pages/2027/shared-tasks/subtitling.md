@@ -10,7 +10,7 @@ Markdown notes: comments can be formed as in this example;
 bulleted lines start with a - ;
 if you want to have a line break either put a blank line in between the text or leave two spaces at the end of the line
 -->
-[Last update: Nov 23, 2026]
+[Last update: Dec 1, 2026]
 
 ## Description
 
@@ -18,7 +18,7 @@ if you want to have a line break either put a blank line in between the text or 
 
 The task of automatically creating subtitles for audiovisual content in another language is a multi-faceted: not only the translation has to be generated from speech, which is right on target for IWSLT, but also the subtitling constraints have to be respected (i.e. a proper reading speed, synchrony with the voices, maximum number of subtitle lines and characters per line).
 
-As in past editions, in 2027 we propose the <span style="color:blue">**Automatic Subtitling**</span> track, where participants are asked to generate subtitles of different kinds of audiovisual documents, starting from English speech; this year, the target languages are: **Chinese**, **German** and **Japanese**.
+As in past editions, in 2027 we propose the <span style="color:blue">**Automatic Subtitling**</span> track, where participants are asked to generate subtitles of different kinds of audiovisual documents, starting from English speech; the target languages are: **Arabic**, **Chinese**, **German**, **Japanese** and **Spanish (Europe)**.
 
 ## Training and Data Conditions
 
@@ -55,10 +55,9 @@ Two training data conditions are proposed:
 ## Development and Evaluation Data
 
 Participants are asked to automatically subtitle three kinds of audio-visual documents, where the spoken language is always English:
-* **ITV** entertainment series
-* news programs from the **Asharq-Bloomberg** platform
-* audio recordings from the **YODAS** YouTube dataset
-to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese**
+* **ITV** entertainment series, to be subtitled in the language(s) of your choice: **Chinese**, **German**, **Japanese** and **Spanish (Europe)** 
+* news programs from the **Asharq-Bloomberg** platform, to be subtitled in the language(s) of your choice: **Arabic**, **Chinese**, **German** and **Japanese**
+* audio recordings from the **YODAS** YouTube dataset, to be subtitled in the language(s) of your choice: **Chinese**, **German** and **Japanese**
 
 Audio-visual documents of development and evaluation sets are and will be provided in MP4 format (asharq-bloomberg and ITV) and WAV format (YODAS); subtitles of development sets are released in SRT (SubRip File Format) UTF-8 encoded files, the same format required for submissions.
 
