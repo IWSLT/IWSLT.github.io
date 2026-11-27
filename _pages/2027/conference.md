@@ -36,6 +36,13 @@ Submission for these tasks is **open**. Submit your model outputs to our [evalua
 You will receive an email message when your system has been evaluated (typically within a day or two) so you can check
 its position in the leaderboard.
 
+Submissions to the Year-Round Evaluation tasks made within the
+[Traditional Shared Task deadlines](#shared-task-dates) are considered regular
+submissions to the corresponding shared tasks. Their authors are invited to
+present their submissions at IWSLT, as with traditional shared-task
+submissions.
+{: .notice--info}
+
 ### Traditional Shared Task Submissions
 
 The following tasks will follow [the usual schedule](#shared-task-dates):
