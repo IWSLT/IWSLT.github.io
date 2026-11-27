@@ -23,22 +23,43 @@ in the community over the whole timeframe.
 
 Year-round evaluation is currently available for:
 
-- [Model compression](/2027/compression)
+**High Resource Translation**
+
 - [Offline speech translation](/2027/offline)
+- [Model compression](/2027/compression)
+
+**Other tasks**
+
 - [Instruction following](/2027/instruction-following)
 
 Submission for these tasks is **open**. Submit your model outputs to our [evaluation server](https://speechm.cloud.cyfronet.pl/0000005){:target="_blank"}.
 You will receive an email message when your system has been evaluated (typically within a day or two) so you can check
 its position in the leaderboard.
 
+Submissions to the Year-Round Evaluation tasks made within the
+[Traditional Shared Task deadlines](#shared-task-dates) are considered regular
+submissions to the corresponding shared tasks. Their authors are invited to
+present their submissions at IWSLT, as with traditional shared-task
+submissions.
+{: .notice--info}
+
 ### Traditional Shared Task Submissions
 
 The following tasks will follow [the usual schedule](#shared-task-dates):
 
-- [Speech Translation Metrics](/2027/metrics)
+**High Resource Translation**
+
+- [Simultaneous](/2027/simultaneous)
 - [Subtitling](/2027/subtitling)
 
-Other tasks will be announced soon.
+**Low Resource Translation**
+
+- [TBD](/2027/low-resource)
+
+**Other tasks**
+
+- [Voice cloning](/2027/voice-cloning)
+- [Speech Translation Metrics](/2027/metrics)
 
 ## Important Dates
 
