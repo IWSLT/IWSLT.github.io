@@ -36,6 +36,7 @@ its position in the leaderboard.
 The following tasks will follow [the usual schedule](#shared-task-dates):
 
 - [Speech Translation Metrics](/2027/metrics)
+- [Subtitling](/2027/subtitling)
 
 Other tasks will be announced soon.
 
